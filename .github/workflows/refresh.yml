@@ -5,7 +5,7 @@ name: Refresh headlines
 # on a schedule and commits the result, which republishes the site.
 on:
   schedule:
-    - cron: "*/15 * * * *"   # GitHub's free runners often start a few minutes late
+    - cron: "*/15 * * * *"   # free runners often start late; expect 15-25 min in practice
   workflow_dispatch:          # gives you a "Run workflow" button for manual refreshes
 
 permissions:
