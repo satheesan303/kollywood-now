@@ -1,0 +1,103 @@
+{
+  "comment": "Add or remove feeds here, then restart the server (or hit /api/refresh). tamil_only=true keeps only items that mention a Tamil-cinema keyword (English or Tamil script); max caps how many items one feed may contribute. Publisher feeds ship article images; Google News feeds do not, so they are capped lower and exist for breadth of outlets.",
+  "feeds": [
+    {
+      "name": "News18 Tamil",
+      "url": "https://tamil.news18.com/commonfeeds/v1/tam/rss/cinema.xml",
+      "tamil_only": false,
+      "max": 42
+    },
+    {
+      "name": "News18",
+      "url": "https://www.news18.com/commonfeeds/v1/eng/rss/movies/south-cinema.xml",
+      "tamil_only": true,
+      "max": 26
+    },
+    {
+      "name": "Cinema Express",
+      "url": "https://www.cinemaexpress.com/feed",
+      "tamil_only": true,
+      "max": 20
+    },
+    {
+      "name": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
+      "tamil_only": false,
+      "max": 20
+    },
+    {
+      "name": "Indian Express",
+      "url": "https://indianexpress.com/section/entertainment/tamil/feed/",
+      "tamil_only": false,
+      "max": 34
+    },
+    {
+      "name": "The Hindu",
+      "url": "https://www.thehindu.com/entertainment/movies/feeder/default.rss",
+      "tamil_only": true,
+      "max": 20
+    },
+    {
+      "name": "Filmibeat Tamil",
+      "url": "https://tamil.filmibeat.com/rss/filmibeat-tamil-fb.xml",
+      "tamil_only": false,
+      "max": 24
+    },
+    {
+      "name": "DT Next",
+      "url": "https://www.dtnext.in/feed",
+      "tamil_only": true,
+      "max": 18,
+      "cinema_only": true
+    },
+    {
+      "name": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
+      "tamil_only": true,
+      "max": 14,
+      "cinema_only": true
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=kollywood+OR+%22tamil+cinema%22+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tamil_only": true,
+      "max": 12
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=%22tamil+movie%22+OR+%22tamil+film%22+review+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tamil_only": true,
+      "max": 10
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=tamil+movie+box+office+collection+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tamil_only": true,
+      "max": 10
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=(Rajinikanth+OR+%22Kamal+Haasan%22+OR+%22Thalapathy+Vijay%22+OR+%22Ajith+Kumar%22+OR+Suriya+OR+Dhanush)+film+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tamil_only": true,
+      "max": 10
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=(%22Sivakarthikeyan%22+OR+%22Vijay+Sethupathi%22+OR+%22Nayanthara%22+OR+%22Vetrimaaran%22+OR+%22Lokesh+Kanagaraj%22+OR+%22Anirudh%22)+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tamil_only": true,
+      "max": 10
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=%22tamil%22+(teaser+OR+trailer+OR+%22first+look%22+OR+%22title+announcement%22)+film+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tamil_only": true,
+      "max": 8
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=%22tamil%22+film+OTT+release+(Netflix+OR+%22Prime+Video%22+OR+%22JioHotstar%22+OR+%22Aha%22)+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tamil_only": true,
+      "max": 8
+    }
+  ]
+}

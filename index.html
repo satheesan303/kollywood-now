@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kollywood Now — Tamil film industry news, all sources</title>
+<meta name="description" content="Live Tamil cinema headlines aggregated from dozens of news outlets — releases, box office, reviews, OTT and casting buzz.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Roboto:wght@300;400;500;700&family=Noto+Sans+Tamil:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+
+<!-- Google AdSense (or another network) goes here once approved:
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+-->
+</head>
+<body>
+
+<a class="skip" href="#feed">Skip to headlines</a>
+
+<div class="metabar">
+  <div class="wrap metabar-inner">
+    <div>
+      <span id="today"></span>
+      <span class="sep">·</span>
+      <span id="tally"></span>
+    </div>
+    <div class="metabar-actions">
+      <span id="generated"></span>
+    </div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a href="./" aria-label="Kollywood Now home" style="text-align:center">
+      <div class="nameplate">Kollywood<span class="accent">Now</span></div>
+      <div class="tagline">Tamil cinema desk · every source, one page</div>
+    </a>
+
+    <div class="masthead-tools">
+      <div class="search">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/>
+        </svg>
+        <input id="search" type="search" placeholder="Search stars, films, studios…" autocomplete="off" aria-label="Search headlines">
+        <kbd>/</kbd>
+      </div>
+      <div class="topbar-actions">
+        <button id="refresh" class="btn" title="Pull the feeds again">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M20 11a8 8 0 1 0-2.3 6"/><path d="M20 4v7h-7"/>
+          </svg>
+          <span>Refresh</span>
+        </button>
+        <button id="theme" class="btn icon" title="Switch theme" aria-label="Switch theme">
+          <svg class="i-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="catnav" aria-label="Categories">
+  <div class="wrap catnav-inner">
+    <div class="catnav-scroll" id="pills"></div>
+  </div>
+</nav>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-tag">Breaking</div>
+  <div class="ticker-view"><div class="ticker-track" id="ticker"></div></div>
+</div>
+
+<main class="wrap">
+
+  <!-- Ad slot: leaderboard, 728×90 desktop / fluid mobile. -->
+  <div class="ad-slot ad-leaderboard" id="ad-leaderboard" data-ad-size="728x90">
+    <span class="ad-eyebrow">Advertisement</span>
+    <span class="ad-size">728 × 90 — your banner here</span>
+  </div>
+
+  <section class="hero" id="hero" aria-label="Top stories">
+    <div class="hero-lead skeleton-card"></div>
+    <div class="hero-side">
+      <div class="skeleton-row"></div><div class="skeleton-row"></div>
+      <div class="skeleton-row"></div><div class="skeleton-row"></div>
+    </div>
+  </section>
+
+  <!-- 3D poster ring, built from the day's photographed stories. -->
+  <section class="showcase reveal" id="showcase" aria-label="Now showing" hidden>
+    <div class="showcase-head">
+      <div class="title">Now Showing</div>
+      <div class="hint">Hover to pause &middot; click a poster to read</div>
+    </div>
+    <div class="stage3d" id="stage3d">
+      <div class="ring" id="ring"></div>
+    </div>
+    <div class="showcase-caption" id="showcase-caption" aria-live="polite"></div>
+    <div class="showcase-controls">
+      <button id="showcase-prev" type="button" aria-label="Previous story">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg>
+      </button>
+      <button id="showcase-next" type="button" aria-label="Next story">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Sectioned editorial homepage: shown when no filter/search/sort is active. -->
+  <div id="sections"></div>
+
+  <div class="layout">
+    <div class="main-col">
+
+      <div class="toolbar" role="toolbar" aria-label="Filter headlines" id="toolbar" hidden>
+        <button class="back-home" id="back-home">&larr; Back to home</button>
+        <div class="toolbar-right">
+          <label class="select">
+            <span>Source</span>
+            <select id="source-filter" aria-label="Filter by source"><option value="">All sources</option></select>
+          </label>
+          <label class="select">
+            <span>Sort</span>
+            <select id="sort" aria-label="Sort headlines">
+              <option value="new">Newest first</option>
+              <option value="old">Oldest first</option>
+              <option value="source">By source</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <p class="result-line" id="result-line" hidden></p>
+
+      <section id="feed" class="grid" aria-live="polite" hidden></section>
+
+      <div class="more-wrap">
+        <button id="more" class="btn wide" hidden>Load more stories</button>
+      </div>
+    </div>
+
+    <aside class="side">
+      <section class="panel">
+        <h2 class="panel-title">Trending Names</h2>
+        <div id="trending"></div>
+      </section>
+
+      <!-- Ad slot: sidebar rectangle, 300×250. -->
+      <div class="ad-slot ad-rectangle" id="ad-sidebar-1" data-ad-size="300x250">
+        <span class="ad-eyebrow">Advertisement</span>
+        <span class="ad-size">300 × 250 — your banner here</span>
+      </div>
+
+      <section class="panel">
+        <h2 class="panel-title">Newsroom Mix</h2>
+        <div id="source-bars"></div>
+      </section>
+
+      <!-- Ad slot: second sidebar rectangle. -->
+      <div class="ad-slot ad-rectangle" id="ad-sidebar-2" data-ad-size="300x250">
+        <span class="ad-eyebrow">Advertisement</span>
+        <span class="ad-size">300 × 250 — your banner here</span>
+      </div>
+
+      <section class="panel">
+        <h2 class="panel-title">
+          Feed Health
+          <span class="panel-note" id="feed-count"></span>
+        </h2>
+        <ul class="health" id="health"></ul>
+      </section>
+    </aside>
+  </div>
+
+  <!-- Ad slot: footer banner, full width. -->
+  <div class="ad-slot ad-footer" id="ad-footer" data-ad-size="728x90">
+    <span class="ad-eyebrow">Advertisement</span>
+    <span class="ad-size">728 × 90 — your banner here</span>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-brand">Kollywood<span class="accent">Now</span></div>
+      <p>A reading desk for Tamil cinema. Headlines are pulled from public feeds, de-duplicated and grouped — every card links back to the outlet that reported it.</p>
+    </div>
+    <div>
+      <h4>Sections</h4>
+      <div class="footer-links" id="footer-nav"></div>
+    </div>
+    <div>
+      <h4>Outlets</h4>
+      <div class="footer-links chips" id="footer-sources"></div>
+    </div>
+    <div>
+      <h4>The desk</h4>
+      <div class="footer-links">
+        <a href="README.md">How it works</a>
+        <span id="footer-health-note"></span>
+        <a href="mailto:satheesan303@gmail.com">Advertise here</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>Aggregated headlines, not republished articles. Photos remain with the outlet that published them.</span>
+    <span id="footer-tally"></span>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:wght@600;700&family=Archivo:wght@400;500;600;700&display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f3f0ea; color: #1c1815; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #16130f; text-decoration: none; }
+    a:hover { color: #d5301c; }
+  </style>
+</helmet>
+
+<div style="width: 880px; background: #f3f0ea; padding: 26px 28px 30px;">
+
+  <div style="display: flex; align-items: flex-end; justify-content: space-between; border-bottom: 3px solid #16130f; padding-bottom: 12px; margin-bottom: 22px;">
+    <div>
+      <div style="font-family: Anton, Impact, sans-serif; font-size: 30px; letter-spacing: .6px;">THE KIT</div>
+      <div style="font-size: 12px; font-weight: 600; letter-spacing: 1.6px; color: #6f665b; text-transform: uppercase; margin-top: 3px;">Tokens and parts that build every page</div>
+    </div>
+    <div style="font-size: 11.5px; color: #6f665b; text-align: right; line-height: 1.5;">These are the exact values<br>to port into styles.css</div>
+  </div>
+
+  <!-- palette -->
+  <div style="font-family: Anton, Impact, sans-serif; font-size: 17px; letter-spacing: .9px; margin-bottom: 10px;">PALETTE</div>
+  <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 10px; margin-bottom: 26px;">
+    <div><div style="height: 62px; background: #16130f; border: 1px solid #d9d2c6;"></div><div style="font-size: 11px; font-weight: 700; margin-top: 6px;">Ink</div><div style="font-size: 10.5px; color: #6f665b;">#16130F</div></div>
+    <div><div style="height: 62px; background: #d5301c; border: 1px solid #d9d2c6;"></div><div style="font-size: 11px; font-weight: 700; margin-top: 6px;">Accent</div><div style="font-size: 10.5px; color: #6f665b;">#D5301C</div></div>
+    <div><div style="height: 62px; background: #e2a32b; border: 1px solid #d9d2c6;"></div><div style="font-size: 11px; font-weight: 700; margin-top: 6px;">Gold</div><div style="font-size: 10.5px; color: #6f665b;">#E2A32B</div></div>
+    <div><div style="height: 62px; background: #1f7a4d; border: 1px solid #d9d2c6;"></div><div style="font-size: 11px; font-weight: 700; margin-top: 6px;">Gross</div><div style="font-size: 10.5px; color: #6f665b;">#1F7A4D</div></div>
+    <div><div style="height: 62px; background: #f3f0ea; border: 1px solid #d9d2c6;"></div><div style="font-size: 11px; font-weight: 700; margin-top: 6px;">Paper</div><div style="font-size: 10.5px; color: #6f665b;">#F3F0EA</div></div>
+    <div><div style="height: 62px; background: #ffffff; border: 1px solid #d9d2c6;"></div><div style="font-size: 11px; font-weight: 700; margin-top: 6px;">Card</div><div style="font-size: 10.5px; color: #6f665b;">#FFFFFF</div></div>
+    <div><div style="height: 62px; background: #d9d2c6; border: 1px solid #cbc2b4;"></div><div style="font-size: 11px; font-weight: 700; margin-top: 6px;">Rule</div><div style="font-size: 10.5px; color: #6f665b;">#D9D2C6</div></div>
+  </div>
+
+  <!-- type -->
+  <div style="font-family: Anton, Impact, sans-serif; font-size: 17px; letter-spacing: .9px; margin-bottom: 10px;">TYPE</div>
+  <div style="background: #ffffff; border: 1px solid #d9d2c6; padding: 16px 18px; margin-bottom: 26px;">
+    <div style="display: flex; align-items: baseline; gap: 18px; padding: 9px 0; border-bottom: 1px solid #e6e0d5;">
+      <div style="width: 190px; font-size: 11px; font-weight: 600; color: #6f665b;">Anton 40 / .92</div>
+      <div style="font-family: Anton, Impact, sans-serif; font-size: 34px; letter-spacing: .5px;">MASTHEAD &amp; SECTION BARS</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 18px; padding: 9px 0; border-bottom: 1px solid #e6e0d5;">
+      <div style="width: 190px; font-size: 11px; font-weight: 600; color: #6f665b;">Archivo Narrow 700 / 34</div>
+      <div style="font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 27px; font-weight: 700; line-height: 1.12;">Lead headline, set tight</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 18px; padding: 9px 0; border-bottom: 1px solid #e6e0d5;">
+      <div style="width: 190px; font-size: 11px; font-weight: 600; color: #6f665b;">Archivo Narrow 700 / 16.5</div>
+      <div style="font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 16.5px; font-weight: 700; line-height: 1.24;">Card and row headline, three lines maximum</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 18px; padding: 9px 0; border-bottom: 1px solid #e6e0d5;">
+      <div style="width: 190px; font-size: 11px; font-weight: 600; color: #6f665b;">Archivo 400 / 15</div>
+      <div style="font-size: 15px; line-height: 1.5; color: #4b433a;">Standfirst and body copy, warm grey on white.</div>
+    </div>
+    <div style="display: flex; align-items: baseline; gap: 18px; padding: 9px 0;">
+      <div style="width: 190px; font-size: 11px; font-weight: 600; color: #6f665b;">Archivo 600 / 10.5 caps</div>
+      <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .9px; text-transform: uppercase; color: #6f665b;">Outlet &middot; time &middot; category tag</div>
+    </div>
+  </div>
+
+  <!-- parts -->
+  <div style="font-family: Anton, Impact, sans-serif; font-size: 17px; letter-spacing: .9px; margin-bottom: 10px;">PARTS</div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+    <div>
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 1.2px; color: #6f665b; text-transform: uppercase; margin-bottom: 8px;">Section bar</div>
+      <div style="display: flex; align-items: stretch; background: #16130f; margin-bottom: 16px;">
+        <div style="width: 10px; background: {{accent}};"></div>
+        <div style="padding: 9px 16px; font-family: Anton, Impact, sans-serif; font-size: 19px; letter-spacing: 1px; color: #ffffff;">BOX OFFICE</div>
+        <div style="flex-grow: 1;"></div>
+        <div style="display: flex; align-items: center; padding: 0 16px; font-size: 11.5px; font-weight: 700; letter-spacing: .8px; color: #b3aa9d;">31 STORIES &nbsp;&rsaquo;</div>
+      </div>
+
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 1.2px; color: #6f665b; text-transform: uppercase; margin-bottom: 8px;">Dense row</div>
+      <div style="background: #ffffff; border: 1px solid #d9d2c6; padding: 0 14px;">
+        <div style="display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid #e6e0d5;">
+          <div style="flex: 0 0 78px; height: 58px; background: linear-gradient(140deg, #123a52, #0b1e2e); display: grid; place-items: center;">
+            <span style="font-family: Anton, Impact, sans-serif; font-size: 21px; color: rgba(255,255,255,.85);">GL</span>
+          </div>
+          <div>
+            <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .9px; color: {{accent}}; text-transform: uppercase; margin-bottom: 3px;">Trailers</div>
+            <div style="font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 15.5px; font-weight: 700; line-height: 1.24;">Headline runs to two lines and stops</div>
+            <div style="font-size: 10.5px; color: #6f665b; margin-top: 4px; font-weight: 600;">Cinema Express &middot; 12h</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 12px; padding: 10px 0;">
+          <div style="flex: 0 0 78px; height: 58px; background: linear-gradient(140deg, #542038, #24101c); display: grid; place-items: center;">
+            <span style="font-family: Anton, Impact, sans-serif; font-size: 21px; color: rgba(255,255,255,.85);">AR</span>
+          </div>
+          <div>
+            <div style="font-size: 10.5px; font-weight: 700; letter-spacing: .9px; color: {{accent}}; text-transform: uppercase; margin-bottom: 3px;">Buzz</div>
+            <div style="font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 15.5px; font-weight: 700; line-height: 1.24;">Rows are separated by a 1px rule, never a gap</div>
+            <div style="font-size: 10.5px; color: #6f665b; margin-top: 4px; font-weight: 600;">Movie Crow &middot; 18h</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 1.2px; color: #6f665b; text-transform: uppercase; margin-bottom: 8px;">Card</div>
+      <div style="width: 228px; background: #ffffff; border: 1px solid #d9d2c6; margin-bottom: 16px;">
+        <div style="position: relative; height: 132px; background: linear-gradient(140deg, #6b1f36, #2a0c16); display: grid; place-items: center;">
+          <span style="font-family: Anton, Impact, sans-serif; font-size: 40px; color: rgba(255,255,255,.9);">RJ</span>
+          <div style="position: absolute; left: 8px; bottom: 8px; background: #1f7a4d; color: #ffffff; font-size: 9.5px; font-weight: 700; letter-spacing: 1px; padding: 4px 7px;">&#8377;103 CR WW</div>
+        </div>
+        <div style="padding: 11px 12px 13px;">
+          <div style="font-family: 'Archivo Narrow', 'Arial Narrow', sans-serif; font-size: 16.5px; font-weight: 700; line-height: 1.24;">Headline clamps at three lines</div>
+          <div style="font-size: 10.5px; color: #6f665b; margin-top: 7px; font-weight: 600;">NDTV &middot; 17h</div>
+        </div>
+      </div>
+
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 1.2px; color: #6f665b; text-transform: uppercase; margin-bottom: 8px;">Poster tile &mdash; no photo, no problem</div>
+      <p style="margin: 0 0 10px; font-size: 12.5px; line-height: 1.5; color: #4b433a;">Most feeds ship no image. A tile takes a fixed hue from the headline and sets the film's initials in Anton, so the grid never has a hole in it.</p>
+      <div style="display: flex; gap: 8px;">
+        <div style="width: 62px; height: 46px; background: linear-gradient(140deg, #123a52, #071722); display: grid; place-items: center;"><span style="font-family: Anton, Impact, sans-serif; font-size: 18px; color: rgba(255,255,255,.9);">DC</span></div>
+        <div style="width: 62px; height: 46px; background: linear-gradient(140deg, #1f4133, #0a1a13); display: grid; place-items: center;"><span style="font-family: Anton, Impact, sans-serif; font-size: 18px; color: rgba(255,255,255,.9);">BK</span></div>
+        <div style="width: 62px; height: 46px; background: linear-gradient(140deg, #5c3a10, #241505); display: grid; place-items: center;"><span style="font-family: Anton, Impact, sans-serif; font-size: 18px; color: rgba(255,255,255,.9);">KW</span></div>
+        <div style="width: 62px; height: 46px; background: linear-gradient(140deg, #3d2a55, #170f21); display: grid; place-items: center;"><span style="font-family: Anton, Impact, sans-serif; font-size: 18px; color: rgba(255,255,255,.9);">MR</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top: 24px; border-top: 1px solid #d9d2c6; padding-top: 14px; display: flex; gap: 30px; font-size: 12px; color: #4b433a; line-height: 1.55;">
+    <div style="flex: 1;"><b style="color: #16130f;">Grid.</b> 1440 page, 40px gutters, 960 main column, 360 rail, 40 between. Four cards to a row at 228 wide.</div>
+    <div style="flex: 1;"><b style="color: #16130f;">Rules, not shadows.</b> Every surface is a 1px #D9D2C6 border on white. No rounded corners, no drop shadows anywhere.</div>
+    <div style="flex: 1;"><b style="color: #16130f;">Density.</b> 26px between sections, 16px between cards, 10px row padding. The Roomy tweak lifts those to 40 / 22 / 15.</div>
+  </div>
+
+</div>
+</x-dc>
+
+<script data-dc-script data-props='{"accent":{"editor":"color","default":"#d5301c","options":["#d5301c","#b0182b","#1d6a7a","#16130f"],"section":"Theme"},"$preview":{"width":880,"height":1180}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { accent: this.props.accent ?? '#d5301c' };
+  }
+}
+</script>
+</body>
+</html>
