@@ -1,17 +1,14 @@
 {
- "generated": "2026-09-15T00:36:37.264403+00:00",
- "count": 101,
+ "generated": "2026-09-15T05:21:56.714091+00:00",
+ "count": 102,
  "sources": [
-  "ANI News",
   "BBN Times",
   "Bollymoviereviewz",
   "CineJosh",
   "Cinema Express",
   "DT Next",
-  "EasternEye",
   "Filmibeat",
   "Filmibeat Tamil",
-  "Google News",
   "Hindustan Times",
   "India TV News",
   "India Today",
@@ -28,17 +25,18 @@
   "Pratidin Time",
   "Sacnilk",
   "Social News XYZ",
+  "The Economic Times",
   "The Hindu",
-  "The Indian Express",
   "The News Mill",
   "The Times of India",
+  "Times of India",
   "TrackTollywood",
-  "altbollywood.com",
-  "economictimes.com"
+  "easterneye.biz",
+  "indianexpress.com"
  ],
  "images": {
-  "total": 42,
-  "scraped": 22
+  "total": 45,
+  "scraped": 24
  },
  "feeds": [
   {
@@ -47,7 +45,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.13
+   "seconds": 0.06
   },
   {
    "name": "News18",
@@ -55,7 +53,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.13
+   "seconds": 0.14
   },
   {
    "name": "Cinema Express",
@@ -63,15 +61,15 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.31
   },
   {
    "name": "Hindustan Times",
    "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
-   "items": 5,
+   "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 1.03
+   "seconds": 0.16
   },
   {
    "name": "Indian Express",
@@ -84,10 +82,10 @@
   {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/entertainment/movies/feeder/default.rss",
-   "items": 15,
+   "items": 14,
    "ok": true,
    "error": null,
-   "seconds": 3.48
+   "seconds": 0.17
   },
   {
    "name": "Filmibeat Tamil",
@@ -95,7 +93,7 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.44
+   "seconds": 0.17
   },
   {
    "name": "DT Next",
@@ -103,15 +101,15 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.35
+   "seconds": 0.41
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 0,
+   "items": 4,
    "ok": true,
    "error": null,
-   "seconds": 0.49
+   "seconds": 0.14
   },
   {
    "name": "Google News",
@@ -119,7 +117,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.54
+   "seconds": 0.37
   },
   {
    "name": "Google News",
@@ -127,7 +125,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.42
   },
   {
    "name": "Google News",
@@ -135,7 +133,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.58
+   "seconds": 0.47
   },
   {
    "name": "Google News",
@@ -143,7 +141,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.48
   },
   {
    "name": "Google News",
@@ -151,7 +149,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.45
   },
   {
    "name": "Google News",
@@ -159,7 +157,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.46
+   "seconds": 0.37
   },
   {
    "name": "Google News",
@@ -167,7 +165,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.43
   }
  ],
  "trending": [
@@ -177,42 +175,34 @@
   },
   {
    "term": "Mookuthi Amman",
-   "count": 13
-  },
-  {
-   "term": "Nayanthara",
-   "count": 12
+   "count": 11
   },
   {
    "term": "Soori",
-   "count": 8
+   "count": 11
   },
   {
-   "term": "Ajith Kumar",
-   "count": 7
+   "term": "Nayanthara",
+   "count": 10
   },
   {
    "term": "Mandaadi",
-   "count": 7
+   "count": 10
   },
   {
    "term": "Silverstone",
    "count": 6
   },
   {
+   "term": "Ajith Kumar",
+   "count": 6
+  },
+  {
    "term": "Mahasakthi",
-   "count": 6
-  },
-  {
-   "term": "Sardar",
-   "count": 6
-  },
-  {
-   "term": "Suriya",
    "count": 5
   },
   {
-   "term": "Watch",
+   "term": "Sardar",
    "count": 5
   },
   {
@@ -224,11 +214,199 @@
    "count": 4
   },
   {
-   "term": "Karthi",
+   "term": "Teaser",
+   "count": 4
+  },
+  {
+   "term": "Suriya",
+   "count": 4
+  },
+  {
+   "term": "Watch",
    "count": 4
   }
  ],
  "articles": [
+  {
+   "title": "2வது திருமணத்தில் நாங்களும் கர்ப்பம் ஆவோம்.. பேபி பம்ப் காட்டிய பிரியங்கா தேஷ்பாண்டே.. செம க்யூட்!",
+   "url": "https://tamil.filmibeat.com/television/priyanka-deshpande-shows-her-baby-bump-for-the-first-time-pics-goes-trending-184163.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: நடிகைகள் அமலா பால், சமந்தா உள்ளிட்ட பிரபலங்கள் 2வது திருமணத்திற்கு பிறகு கர்ப்பமான நிலையில், சின்னத்திரை தொகுப்பாளினி பிரியங்கா தேஷ்பாண்டேவும் தற்போது நிறைமாத கர்ப்பிணியாக உள்ளார். தனது பேபி பம்ப் தெரியும் படி சில போட்டோக்களை சற்று முன் இன்ஸ்டாகிராம் பக்கத்தில் வெளியிட்ட…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/priynak-61891789448037.jpg",
+   "published": "2026-09-15T04:54:30+00:00",
+   "ts": 1789448070.0,
+   "category": "buzz"
+  },
+  {
+   "title": "‘Jana Nayagan’ actor, TN CM Vijay deepfake case: Man arrested in Rajasthan",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-actor-tamil-nadu-cm-vijay-deepfake-case-man-arrested-in-rajasthan-for-allegedly-using-ai-clips-to-lure-people-into-a-financial-fraud-trap/articleshow/134251670.cms",
+   "source": "Times of India",
+   "summary": "In Rajasthan, a man named Shayabu Khan has been apprehended for producing deepfake videos featuring actor Vijay, which were utilized to execute financial fraud schemes against the public. On September 12, police seized mobile phones and SIM cards linked to the crime in Alwar…",
+   "image": "https://static.toiimg.com/photo/msid-134251674,imgsize-219437.cms",
+   "published": "2026-09-15T04:42:12+00:00",
+   "ts": 1789447332.0,
+   "category": "buzz"
+  },
+  {
+   "title": "எம்ஜிஆர் 25 ஏக்கர் கொடுத்தாரா? 80ல நான் த்ரிஷானா? அப்போ விஜய் யாரு? சேகுவேராவை விளாசிய அம்பிகா!",
+   "url": "https://tamil.filmibeat.com/interview/actress-ambika-slams-journalist-che-guevara-184161.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: நடிகை திரிஷா லண்டனில் இருக்கும் வீடியோ வெளியானதும் இணையத்தில் பலரும், பலரும் திரிஷா குறித்து படுமோசமாக பேசினார்கள். அப்போது திரிஷாவுக்கு ஆதரவாக பேசிய அம்பிகா, \"திரிஷா லண்டன் யாருக்கு என்ன பிரச்சனை? என கேட்டு இருந்தார். இது குறித்து பேசிய சேகுவாரா, அம்பிகா எதற்காக…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/1-80591789447161.jpg",
+   "published": "2026-09-15T04:39:54+00:00",
+   "ts": 1789447194.0,
+   "category": "buzz"
+  },
+  {
+   "title": "விநாயகர் சதுர்த்தி வின்னர் யாரு?.. சர்தார் 2 vs மண்டாடி.. பாக்ஸ் ஆபீஸில் கார்த்தியின் நிலைமை என்ன?",
+   "url": "https://tamil.filmibeat.com/heroes/vinayagar-chathurthi-winner-mandaadi-vs-sardar-2-box-office-comparison-184159.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: சர்தார் படத்துக்குப் பிறகு கார்த்தி சோலோவாக நடித்த எந்தவொரு படமும் பெரிதாக ஓடவில்லை. சர்தார் படமே படத்தை இயக்கிய இயக்குநர் பி.எஸ். மித்ரனுக்கே பெரிதாக பிடிக்கவில்லை என அவரே கூறியிருந்தார். ஆனால், சர்தார் 2 படத்தை பாராட்டி பக்கம் பக்கமாக பேசிய பி.எஸ். மித்ரன் போஸ்ட்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/sardar2vsmadaadi-74951789444812.jpg",
+   "published": "2026-09-15T04:00:54+00:00",
+   "ts": 1789444854.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Vijay Sethupathi's stylist Jishad Shamsudeen: ‘This season of Bigg Boss Tamil is going to be truly differ",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQRVNkWm9PMlVEX2trRExQR2hNVkdHVHBNOWFQeWZ4NVFzX1E1clNZQUxWLTc3SG1HM1N1M0ZEaWttQ3ZXS0dPc1RBUG1rRXB3akZ3aVh4dVNzWndtdWpZa1pnU2F0Y1BFdnZEXzJFVDNiZk0zSTgxQXdzaG1DeGx2WDlLQ1FURjhUYmxsX01fRDVLVHdRdVo5RlRsNHFadWRSb25FTWdUREdLUDYzdlNtUUVycVc3ZUstYjhiM2YzNU93eXNJeU9acS1QRXIzTFJ6c2Q2MXNNQnlqRXZaTTJvMzdNNE1LZWs2QTJveFZHOTc0bWxqQmMxN1UzV0RnYkFmWE9ReGNUMXZpUXBXbEHSAZMCQVVfeXFMTXpmV0xhSXd4Y0N6MWhpcUp3SDJGOUl5NzVtYW5QdkVUWWtMWHFzY1dSZ3FDNWhhRmFxMTBhR0RtRWVpaVpfS2VhdS11RzhhbzNWam55Z3ZhSk0xVlU2U0w0UXZZNzBFR2o3azdxeWtKMG52ZXpuOE92QnE4X0RScHg3czRUa2ZCQUtvZVVsa3pyRGdjX0x2Mmx2cnkwTUZkTHhxbzVJZC1EdDh2dHlHOWw4OHJUUzVWcVlWZHZ6aGUzbXBSanlrdUhsMnNrdW5PUnBZRkk4ZjdLcVRRc1dnZmlZeE9Cc09JR001VWs2U0tsRnVZa05DaDlBTkdTUV9wVVV5cWRxSXJtWlJiRE1ia3Q3eUU?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-15T04:00:00+00:00",
+   "ts": 1789444800.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Video | Vijay Meets Ajith In UK: A Hug That Goes Beyond Tamil Cinema",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd1lnTWZ1WTdtN2FrczZkcGY3NEFjcno4MkFISHZPbEU2SmVxb2M2MVk4cHdXVEJtYUpQLVJtbkVUeGJoSV9pMW9ibFIxRWVSdW1EeF9TWjhaWmxBVGxHa211eGJnanhUNkVPcExGRTVfYUwtR0lLQjVLSmx4RENnSmk2enZWTE5EQkxpMFlHVko0S2o0RFNPelRB?oc=5",
+   "source": "NDTV",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-15T03:57:24+00:00",
+   "ts": 1789444644.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Vetrimaaran hails Mathimaran Pugazhendhi’s ‘Mandaadi’ starring Soori",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/vetrimaaran-says-mathimaran-pugazhendhis-mandaadi-starring-soori-is-the-first-blockbuster-from-his-former-assistants/articleshow/134250664.cms",
+   "source": "Times of India",
+   "summary": "Filmmaker Vetrimaaran has hailed Mathimaran Pugazhendhi's 'Mandaadi' as a major achievement, labeling it the first blockbuster to emerge from his former assistants. Starring Soori, the film captivates with its challenging sea-themed sequences. Vetrimaaran commended the team's…",
+   "image": "https://static.toiimg.com/photo/msid-134251212,imgsize-179459.cms",
+   "published": "2026-09-15T03:44:30+00:00",
+   "ts": 1789443870.0,
+   "category": "buzz"
+  },
+  {
+   "title": "திருமண வாழ்க்கையை கெடுத்த அரசியல் பெரும்புள்ளி.. பழிவாங்கும் நடிகை.. அதிர வைக்கும் ரகசியம்!",
+   "url": "https://tamil.filmibeat.com/gossips/latest-spicy-gossip-on-political-leaders-and-popular-actres-184157.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: சினிமா மற்றும் அரசியல் வட்டாரங்களை ஒருசேர உலுக்கி போட்டிருக்கும் அந்தப் பிரபல 'அரசியல் பெரும்புள்ளி' மற்றும் மூன்று எழுத்து கொண்ட அந்தப் பிரபல நடிகையை சுற்றிய வரும் புதிய கிசுகிசுக்கள் மீண்டும் மீண்டும் சோஷியல் மீடியாவில் புயலைக் கிளப்பி வருகின்றன. ஒரு காலத்தில் தமிழ்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/19-60421789443690.jpg",
+   "published": "2026-09-15T03:42:45+00:00",
+   "ts": 1789443765.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Mandaadi Day 5 Box Office - மண்டாடி 5வது நாள் வசூல் இவ்வளவா?.. பாக்ஸ் ஆஃபிஸ் இனி சூரி பேர்ல எழுதுங்கோ",
+   "url": "https://tamil.filmibeat.com/news/mandaadi-day-5-box-office-soori-s-film-holds-strong-mints-45-85-crore-in-five-days-184155.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: சூரி ஹீரோவாக நடித்திருக்கும் மண்டாடி திரைப்படம் சில நாட்களுக்கு முன்பு திரையரங்குகளில் வெளியாகி மிகப்பெரிய வரவேற்பை பெற்றிருக்கிறது. அனைவருமே சூரியின் நடிப்பை புகழ்ந்து தள்ளிவிட்டார்கள். விமர்சன ரீதியாக கொண்டாடப்பட்ட படம்; வசூலிலும் சக்கைப்போடு போடுகிறது. இந்நிலையில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/soori-15771789441802.jpg",
+   "published": "2026-09-15T03:10:40+00:00",
+   "ts": 1789441840.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Sardar 2 Budget & Box Office Collection Day 5 Worldwide Tamil Daywise",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUW82cm92QWRTcHV5VUxOTURTZlRGSjRLZjBqWFBhVnFySE9hTVFURWRJVkU5SG15SGRwci1UbnBSSjVWMVhac044dU1PWndudDRUWmU1OFpHazdDTXRGUHF4dnBwRlJRcEoxNEJtSUtpc0pIbE93M00xM1Jna1ppWmlLeUZOMnItMDExMmdvTEUwckEzYnhDVW9Db1QwdXhBSTBMN2tJWU5YbFhHczJYeDU4eEM?oc=5",
+   "source": "Bollymoviereviewz",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-15T03:02:17+00:00",
+   "ts": 1789441337.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Lokesh Kanagaraj, H Vinoth, Now Mithran: Loose Tongue?",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUFVFUHRIV1V1WHNNdmZJdklwY3VoVzBvVEZySVdXSG9HTDViaWF4bXp1LWJVWWF6NU10d1VRdU10WWZ5bGNMVk83Z1hRTVM2Wm9IVXhWVE9ObkZoc1cyTGlnZ0lqSWxyV0RXang3LXljRVVRWERJdVktdFJkYnhUWdIBhgFBVV95cUxPYkJta1Vyd0tBRTh0ZlZTWXU2WHRMdzYyWE9vWHcxS3FmNFB1dWxnMXNfbmIwTHVadzRhVGZDdW9mODFKMzB4dW1nSnhRRlNCR01uUGtvb3FROW5kaEw0VGJNMk5MbmNjY28ySW5SRGpXdXYyTUhyRG9ZQl9vVGpGZUhlYUxCZw?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-15T03:00:56+00:00",
+   "ts": 1789441256.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Mandaadi Budget & Box Office Collection Day 5 Worldwide Tamil Daywise",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVG90YXpqbUJXU1lXNDFxcTF2eldza2hXX1FCdi1vSHlfazdhVFFwaHVIbldwTVA4UmR2T2hYWEtVTTR6d19iV0ZFREJsa2JybUd1OWNLdmNvUGlFaEg4YjRMaXQxSlZ1d0p3XzV6MjYyc1V1NzAxWHcwTWFETXU2X19YWUhiMklJZ3d6aXU5YnNtMnhvRWM3SkJPZkRqRnhCMVNZZUVaT1FJclVGZDdQemxuWUc?oc=5",
+   "source": "Bollymoviereviewz",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-15T02:57:50+00:00",
+   "ts": 1789441070.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Vijay-Ajith’s Silverstone racing track video goes viral",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/vijay-ajiths-silverstone-moment-goes-viral-as-cm-shares-special-video-from-their-racing-track-meet/articleshow/134250611.cms",
+   "source": "Times of India",
+   "summary": "In a delightful video shared by Tamil Nadu Chief Minister Vijay, fans are treated to a behind-the-scenes look at his visit to the Silverstone racing circuit. The footage showcases his meeting with actor and professional racer Ajith Kumar, who can be seen enjoying a thrilling…",
+   "image": "https://static.toiimg.com/photo/msid-134250622,imgsize-134676.cms",
+   "published": "2026-09-15T02:56:53+00:00",
+   "ts": 1789441013.0,
+   "category": "buzz"
+  },
+  {
+   "title": "\\\"ஹேப்பி மேரிட் லைஃப் பவி டீச்சர்\\\".. காதலரை கரம்பிடித்த பிரிகிடா சாகா!",
+   "url": "https://tamil.filmibeat.com/heroines/brigida-saga-ties-the-knot-with-actor-ananth-ram-184153.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: தமிழ் சினிமா மற்றும் வட்டாரத்தில் கடந்த சில நாட்களாகவே பல திருமண வைபவங்கள் நடந்து வருகின்றன. ஆனால், ஒட்டுமொத்தத் தமிழ் இளைஞர்களையும் இணையத்தின் பக்கம் திரும்பிப் பார்க்க வைத்த ஒரு திருமண செய்தி தான் இப்போது சோஷியல் மீடியாவில் தீயாய் பரவி வருகிறது. யூடியூப் தளத்தில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/1-43171789440780.jpg",
+   "published": "2026-09-15T02:53:31+00:00",
+   "ts": 1789440811.0,
+   "category": "buzz"
+  },
+  {
+   "title": "விஜய் சேதுபதியின் பிக்பாஸ் பேச்சு.. விஜய்யோடு கனெக்ட் செய்யாதீங்க.. சேனல் கொடுத்த அதிரடி விளக்கம்",
+   "url": "https://tamil.filmibeat.com/news/bigg-boss-tamil-10-vijay-tv-issues-clarification-on-vijay-sethupathi-s-leadership-comments-184151.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: பிக்பாஸ் நிகழ்ச்சியின் பத்தாவது சீசனை தொகுத்து வழங்கும் விஜய் சேதுபதி; சில நாட்களுக்கு முன்பு லீடர்ஷிப் குறித்து பேசியிருந்தார். அவரது பேச்சு மறைமுகமாக விஜய்யை தாக்குவது போல் இருப்பதாக சொல்லி அவரை கண்டபடி விமர்சித்தார்கள் விஜய் ரசிகர்கள். இந்நிலையில் விஜய் டிவி அதற்கான…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/vj-65541789439847.jpg",
+   "published": "2026-09-15T02:38:23+00:00",
+   "ts": 1789439903.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Rajinikanth’s ‘Mandaadi’ review leaves Soori emotional",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/rajinikanths-mandaadi-review-leaves-soori-emotional-his-words-are-a-huge-blessing/articleshow/134250354.cms",
+   "source": "Times of India",
+   "summary": "Superstar Rajinikanth called actor Soori to praise his performance in the film 'Mandaadi'. The movie, released on September 10, has garnered positive reviews for its story and action. Soori expressed his gratitude for the Superstar's heartfelt appreciation and call. 'Mandaadi'…",
+   "image": "https://static.toiimg.com/photo/msid-134250365,imgsize-197612.cms",
+   "published": "2026-09-15T02:28:33+00:00",
+   "ts": 1789439313.0,
+   "category": "reviews"
+  },
+  {
+   "title": "Rajinikanth’s ‘Mandaadi’ review leaves Soori emotional: ‘His words are a huge blessing’",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOOXEwMkx1Y3F2cWRNN2l6TGRFbVQ1M1p4Rjh6dW9wNGJKQ0p5akZ6WWRXckVPVVBOLXUtc3pSMXNrdmkwZnVYVVc4TWxxazFpOGlPMlROVkVMWUhTLXBOc3FOdFQ1blRuVzVNaVVsZ3JnTlU4MnR2OGY1M1BSZDR3SE1vZ3lOcDB3OU1PTmp4RHZmY1ZWY2x4MWhDOWJoby11ZDF5bzd4UGdzTzVyVFlpZlFHeGhNclBYS3V3ODdKNkFudU5JU3pKRUtfSW1BYXVLRTZsMVhfVko1QTFycHpSYlhGemtKYVB0eG5CbjRTc0dSV2htN2QwY2x6aWdGVGtPYmpZMmVR0gGLAkFVX3lxTE5xUWtxalpIWllfMGlrT0Rib0p4UWl3TEZ4RF9DSll1SFVTRkVXRWR2TVJZaE9ycUZvT1c3dWVyOVNFOGN0U2dNb3BGb3dDb1ZSMlJSbW4tcU5ScUlCODdCa0I4Sm8tRzhIYzBIdkEwcXM5dzRGU2plWjZLQXhheHdQZDNOTWx2ZDMtc2dpOWt0aDhpTXJwa2dtOVp2YmZjWXVCMDllNnpCcU52SmYweExrUTVRNXp2cTA2a2lidzQ0dVhPYkNrbk9qZC1DU1A0NUs0UGZVdkRoRHNoNG9qcGdpUjdVUzhhSk1yMXAwT2hneDlSa1h1SktoSDA3elFsUnZZUzlwejRPU2k0Zw?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-15T02:28:00+00:00",
+   "ts": 1789439280.0,
+   "category": "reviews"
+  },
+  {
+   "title": "நடிகை திரிஷாவை தவிர்க்கும் விஜய்?.. உங்க பஞ்சாயத்தே வேண்டாம்னு முடிவெடுத்துட்டாரோ?",
+   "url": "https://tamil.filmibeat.com/news/vijay-trisha-ajith-s-viral-silverstone-video-sparks-fresh-talk-over-actress-absence-184149.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: முதலமைச்சர் விஜய் சில நாட்களுக்கு முன்பு லண்டனில் இருக்கும் சில்வர்ஸ்டோன் சர்க்யூட்டில் அஜித் பங்கேற்ற கார் ரேஸை தொடங்கி வைத்தார். அந்த பந்தயத்தை காண்பதற்காக திரிஷாவும் சென்றிருந்தார். சூழல் இப்படி இருக்க விஜய் வெளியிட்டிருக்கும் வீடியோ சோஷியல் மீடியாவில் சென்சேஷனலாக…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/cm-51241789436907.jpg",
+   "published": "2026-09-15T01:49:34+00:00",
+   "ts": 1789436974.0,
+   "category": "buzz"
+  },
   {
    "title": "'Mandaadi' box office collection day 5 vs 'Sardar 2': Soori starrer collects Rs 11.25 cr; Karthi film dro",
    "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxONEtfS0RNZ0lxTmg3VG9teHRnMGZGU05aMkRsWlotYk9YUXA2VDM0WDJPUHVIRE85MHZleVNhYzMzNllWX0tqOVM2U1Fsc05CdXdMU0h4NG1BeGdPam1ILXU2YlBhbG1BaUVwaFVBMl9zaTlhT0xwSldvWl8xNWJ5NFRKMjhOUERwdzJKeVlZakhaMnN5aVJLYkVBd2YxSjlsYlpueU9zdUZ1dkJIdTZ3MXZ6TEtRM3dqdlN1a1llaEt5RVYtb1lTUER6NHYzQjc3U2EtMTVTSk9ibldKZDRFQ0tYX0JQR1BURVBjX3g3V25sbkZDV0VOZjVtbXB4em9zSm55d2xOYnZKNTg3QUs5UUVRak5rTkh5bW1GMG5QVUcwNEhiR1VV0gGsAkFVX3lxTE5nVzR6bjQtOU9hZDFnUlpYUlRLb1ZPWnRobGZraGJpYU5YN1djNi1xd2JiWVNFM29zcHQ0UUtXZmg4WWhlcndMQ1ktc0U2MXI5RjRLU0xRX2NmdlUzU1NLNndHZ2NmQlE5V3JVMWlsVzMtVlZ0eEhWUFczQzluejJBdEhralE3S19KZ3hZZFU4Um1KTDJtLVc5UnE1aWs4RTNQNDdnTmZZVkR3WXJpR3NhaUR5S1ZlaUZ4c0F4VE1BUEVoWUU2SG9jM0w5SGhyUkpTZ1YyRkt5aDkxRjRnR1cycUVOUzhnbHU4Vi1LTFNMN2lBZUkxNVIycUJGd00yQlFMcDBDeDVrSEJxbklMejRacWJ1cGpveEdJQUZ3R056TWZUMTJFUTE4d01LVg?oc=5",
@@ -242,7 +420,7 @@
   {
    "title": "Irumudi to Modha Rathri: Watch these latest Tamil, Malayalam, Telugu and Kannada OTT releases on Netflix,",
    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNUmlXN3ZrajhET1NrOFNjdHpHY1RKTmJzSTJTV21JTlpqWkhKRHA0eEQzVHhLUlRkZ1hhTXRHdzdfQ2F4SlBlcmd3cUpkRVNCdF9hTWVMU3hTWTZIRG1kLUxDZkdvLURfUWIxbklRcFZaM1ZscHAySXlLa1I5cG5FcEZjLTZiLXA1T0M4Qm5xdmpkcTI1czN5RWltcW1PYVo5RXdtT2VmQ1V5SW00WFhlcnhucDhzbVdTcGpWVTEwM1EyMm5PbE5UQVNfbG9ucVNpd2QtT3FtZ3FZV3JjOGgwSnA0RnlLV0tKUU5hSTRHVVktb05WU0RzbDR2MFp2NHJQUDh2RlFnX0Vnd3N2MHNfd1hwMkVXd1AzZjNrSVpLb19UanlOYlMyaE5YN19ZUdIBswJBVV95cUxObVFZamhDdEVFMVI1YldVX3ZnYWo3RW1na1NpRnBxQXZONFBIc3piZWF4MEh1NGlUaS10bUg5SWZZSUZMenI5cEZvTUlwYzBuSW9FdFIxd0NOV3NIbHd2ckM1dERLbWlSalpRbW1tWmtIMTY0dlY5UllrellnU0wwRHJQUDEzTUhIc2Qwamx0a2Y4WXdEckpxZE84QVFRcXdyWnpEczJSeGROTWxzc3JPTkI5ZHQ0aHN1LUk0T3JBMDhQVDEwVGdLZ0h0dVpYNkVUUmxKM1huSzBZQXhHa2duLXZSMGhBXzEteXM4UFhab2kxYmp6QWIzdHNscVZsbWwzUEVlR0o1eTdPZ1dMZVQ5d2dmSWRyU1FDMTJfX0dvekxRN3ZFY0Z6WFJHQzN1Ry1mRVRJ?oc=5",
-   "source": "economictimes.com",
+   "source": "The Economic Times",
    "summary": "",
    "image": "",
    "published": "2026-09-15T00:07:33+00:00",
@@ -251,7 +429,7 @@
   },
   {
    "title": "'Toxic' box office collections day 20: Yash, Tara Sutaria, Kiara Advani, Nayanthara starrer earns Rs 25 l",
-   "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxORmZ0ZDAzMUZXYUd3eU9IMTJGQmRaRzFoMERiMWx5dHg4dFNDeWNsdEk2ZWVUWDMwMTRvb1J1R2ItLU1qMERqREJiUTVTbGl5SEg4b2xvOFdNQlJBNnZ1TUUydFgzRndQR0VmaEVDQWYwQ2ZVR2lZUjZMRUVXa2FScDJ4bFh1QnVOdEFxVGYxLURJN1pEQU41aWVyeWZsMFJOd1dmUTZxWC0tWFFpS0w5WGhJeGlkZEVyTnZWR0ZvMFhPYzM2UEhnQU5IblBEaGtaT0QzdmJocFVqbFFoQVM1RVZVX2R3SnNWQ093cnlJV1cycWIxQ2FPbTBTOHk0S0pra0tfbTQtT2g3MENiOUpFMUU3d1RBNlFDVmxBa2xqT19lZEtrMnJFY3NkQ09OTk5mSzVBM2s0a0M2ZXlKMkpwM08wcVlWMjJJOE5GWE5LOElnUnJf0gHaAkFVX3lxTE53Uzk3N0d4UTJKQ01GSFA5MHNQcHo5UGx4b2ZLd0JKVDVGSkdxbGNrZWM1Rk12X2ZNU0N0WHVNZnYyN3lOMGh4UzhSQWI4dWRBVjRiNXhJbm9OcHhMRGNUN3FISlR1dnZ6UU9qLUl3WmM1U2poTWRvanlWSHBVMUlZemFmZnZGeEJraTkzTlJkNjI5QTEtRW51d0lNQkJhVHpiQVd4ckdXTTIzbk1uay1qUnRMb2JsWV9ndkFTVmg2bFFWaHZUd25BTjRxRkxVTjljMnFzLXpsZG50N0QwLVFqc05iLUt5UVNpV2tzU2doNWk4RnNQZTlEaFNvcE9YSW5ZQkxnY2ZMalozcG56aFZlUGxiWXA3eTZoMWFSZmdEM0o2TERhRE56YjRORXl6dVZzSHFpYTNFaG1NaWI1cnF0VmVIMmN3cXhkbWZBU0NwbHZnMmdEaElybkE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOd1M5NzdHeFEySkNNRkhQOTBzUHB6OVBseG9mS3dCSlQ1RkpHcWxja2VjNUZNdl9mTVNDdFh1TWZ2Mjd5TjBoeFM4UkFiOHVkQVY0YjV4SW5vTnB4TERjVDdxSEpUdXZ2elFPai1Jd1pjNVNqaE1kb2p5VkhwVTFJWXphZmZ2RnhCa2k5M05SZDYyOUExLUVudXdJTUJCYVR6YkFXeHJHV00yM25NbmstalJ0TG9ibFlfZ3ZBU1ZoNmxRVmh2VHduQU40cUZMVU45YzJxcy16bGRudDdEMC1RanNOYi1LeVFTaVdrc1NnaDVpOEZzUGU5RGhTb3BPWEluWUJMZ2NmTGpaM3BuemhWZVBsYllwN3k2aDFhUmZnRDNKNkxEYUROemI0TkV5enVWc0hxaWEzRWhtTWliNXJxdFZlSDJjd3F4ZG1mQVNDcGx2ZzJnRGhJcm5B0gHaAkFVX3lxTE53Uzk3N0d4UTJKQ01GSFA5MHNQcHo5UGx4b2ZLd0JKVDVGSkdxbGNrZWM1Rk12X2ZNU0N0WHVNZnYyN3lOMGh4UzhSQWI4dWRBVjRiNXhJbm9OcHhMRGNUN3FISlR1dnZ6UU9qLUl3WmM1U2poTWRvanlWSHBVMUlZemFmZnZGeEJraTkzTlJkNjI5QTEtRW51d0lNQkJhVHpiQVd4ckdXTTIzbk1uay1qUnRMb2JsWV9ndkFTVmg2bFFWaHZUd25BTjRxRkxVTjljMnFzLXpsZG50N0QwLVFqc05iLUt5UVNpV2tzU2doNWk4RnNQZTlEaFNvcE9YSW5ZQkxnY2ZMalozcG56aFZlUGxiWXA3eTZoMWFSZmdEM0o2TERhRE56YjRORXl6dVZzSHFpYTNFaG1NaWI1cnF0VmVIMmN3cXhkbWZBU0NwbHZnMmdEaElybkE?oc=5",
    "source": "The Times of India",
    "summary": "",
    "image": "",
@@ -262,7 +440,7 @@
   {
    "title": "Vijay and Ajith’s Silverstone reunion just changed the story behind Tamil cinema’s biggest fan rivalry",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDNzRfc0xlcFJ5dkRNMlA3SkctbzB3TFRGNEtMQVNIby1SekxmZWdUMXVLWnh4QjEtOVhqNmZ2Wi1PQlljekU0Rks4ZnUwQi1IdzBRVzJwbl9YLUVaa3duVlpRUTl5WXJhV0xzTzctY0UxWkYzZnlWNTRUQQ?oc=5",
-   "source": "EasternEye",
+   "source": "easterneye.biz",
    "summary": "",
    "image": "",
    "published": "2026-09-14T18:33:54+00:00",
@@ -275,8 +453,8 @@
    "source": "BBN Times",
    "summary": "",
    "image": "",
-   "published": "2026-09-14T17:06:09+00:00",
-   "ts": 1789405569.0,
+   "published": "2026-09-14T17:06:11+00:00",
+   "ts": 1789405571.0,
    "category": "buzz"
   },
   {
@@ -310,7 +488,7 @@
    "category": "trailers"
   },
   {
-   "title": "Mookuthi Amman 2 Teaser: Easy Won Loading for Suriya?",
+   "title": "Mookuthi Amman 2 Teaser: Easy Win Loading for Suriya?",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVE2cVdwaEg4M2FhY2NXV3VDR01vbVNjM3FoaHB2djV4T08ydllodlNMX0JCQW0wMDRSWVVQc1J0UWwwUVhNREM3NkprRzE3c2NFNnZfS0JLTm5ZbzVzVFNZRDNGMUxLa1c0bjE1N0FNUTJsZzduaklLdHlLU0FFZ3Jid9IBiAFBVV95cUxOb1ZfV3h5OXFCQ2hKWVUzWEZMVlR1ZldzeGVLTVk4ZDhDRjFVeVlhYTl0V0QzbEZ4d291SEwzWE9ob2dnZ1Fjc2hNN0tJSGVLUEtSTXJOeVlPQnlSVTZsbVRVS2RTS0RNbFZQamZNeUtNaU5IYjdEX3JCeDZWOTlNenNnM3BrSEpS?oc=5",
    "source": "M9.news",
    "summary": "",
@@ -325,19 +503,9 @@
    "source": "CineJosh",
    "summary": "",
    "image": "",
-   "published": "2026-09-14T15:22:30+00:00",
-   "ts": 1789399350.0,
+   "published": "2026-09-14T15:27:59+00:00",
+   "ts": 1789399679.0,
    "category": "buzz"
-  },
-  {
-   "title": "Nayanthara returns as Mookuthi Amman in ‘Mahasakthi’, teaser out now",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQenZTemp0aU5Ib3A3d3k3YllOLXRXVGltRThmSnZXcFVMYi1wNmVBNU9oZHgxVE5jOFdrQlpEV1FMenUtRVIzUFhEV0lCNDNXMmJ4SDBhYzZfdzFyTEkxdDZDeEY5R1Y4aERHTHpUUjlCdG1ORXc1ZG1IbnBrclAtVjJZSHNfaWZrTHNPR3hWcF9nUHBIRUx1X29iUHdNVmRhNGxScGZLVHFqWEZEQko5andvLTh4UXRuNG4yTGZ6T1dxVThSWEJkQ2VhSXdNd29FRmdIRzJB?oc=5",
-   "source": "ANI News",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-14T15:12:00+00:00",
-   "ts": 1789398720.0,
-   "category": "trailers"
   },
   {
    "title": "Video | CM Vijay RUNS to Hug Ajith Kumar at Silverstone! Trisha Spotted! Greatest Kollywood Moment Ever!",
@@ -382,7 +550,7 @@
   {
    "title": "‘They didn’t even say hi’: Kamal Haasan, Rati Agnihotri shot a film in silence after dispute",
    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSWtCX0xGRkQtbzFvWnlCR0l2YkpueEtXNHpPUS14YkpldjdWc245cW0yN3ZlTnZLRWh1T05BdS0wcEZYV2poZmxzUWhvMjdwYUhrTmtKY1FTaTdyTUNyYlN4NjJuelRMbWxUd0JNWE5EenhuWlZqbnJvMHdaRGZ1aGhBdWw1Z2ZMbjlWc014NzFqMllmRHdMXzBUWVhzXzRHM1JlME95SzUycXIzd1d6emY5dm1xX1JOQXUwVUV3Z0NqV2FWX00xeld5TGtkUW1RcnhnZTV2Sm1EVk1GWThsOWZ0N0FYakk2WHR30gHyAUFVX3lxTE9pYWF1ZHhIb3ptcmRhNjFyVW1ydjQwQlZKcTAwWGg3aWZmUnhQajJYa1FTX3FxR2pnUDZkcUMySTdzbEtjeVQxRHpqSlBJUG9fbGdYeUM0Rk1tV2gxdDZfUDkyanFUd1NTYmNmMjItRmROREZ6SDFwTkpGSExJOFlVZEx4c1FpeU81U1V6dnR5M2t2MGdxUjNiWHZrUzlJN0hGSUl5bnI4c0Y2NWFrRVdCUkhfWndjWG1BYXRMbGZxaVhadGhNeVl4RUxRenA0OXdUQ3lUbUlucHhTRXg0dUdnZDBfM1JyM2VMaEtFYV9ENmN3?oc=5",
-   "source": "The Indian Express",
+   "source": "indianexpress.com",
    "summary": "",
    "image": "",
    "published": "2026-09-14T13:12:12+00:00",
@@ -511,7 +679,7 @@
   },
   {
    "title": "Bigg Boss Tamil 10: Vijay Sethupathi’s comments spark political debate on social media",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVTYxLTJ1azFOS0N3c0dzZ1A3V2diMVREMmt2Nm0tc1F3VVZLVEpERmtaaWtRamg1QXdiMkZRUjB1RF93ekVTVzlLbFVITnpDNUdHYl9aYlA2ZUlJaHY4UmYtYW1rME9XTExLaXR2UHVzTkpVWm1LTm84X1Ezc3Z1d1VlMnZoeUlZckE5VFlmcWNLT3k5aHhwN0V4UFRtOXAzd2xtRTBidDh4ekxLVGNMcW1OMEFnakREeU5sNXo1eDM5UUpzdmI2UDdSNkxyMnBkN3lGNmZxdjZzeGdMRDYwZmlZWE5DcDAxOWF0RWJiTnZsUdIB9wFBVV95cUxPRVU3MnB1ZjNkaVY5dTQxNWx5STY1TVhrRjVpMHdwcXZkcXNqcnJoclFrRUpqVFRMMS01Uy1PYi02VTZybWc5dExUVlBOYWg2MjROOWExRDZBUG5lamFUQlU2Z3prMkFwWFhfTGw3SmdqRUlnSWxISElJYll6ZGt5TzNYbm9YMGpXaWtwcU1NRElvLUdSTjJUUXpUYnNTUlVzTEk5OHBlWWhuSW90WnVCc091ckJYNm1tcG9PcUhqaWg0WUdjc1RZMkwwWHJqeldDbkFYSE04eG1LVmVIUEZsSWhtSEZQdF9ZN0NqMk9OcjIyc1NBck5n?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRVU3MnB1ZjNkaVY5dTQxNWx5STY1TVhrRjVpMHdwcXZkcXNqcnJoclFrRUpqVFRMMS01Uy1PYi02VTZybWc5dExUVlBOYWg2MjROOWExRDZBUG5lamFUQlU2Z3prMkFwWFhfTGw3SmdqRUlnSWxISElJYll6ZGt5TzNYbm9YMGpXaWtwcU1NRElvLUdSTjJUUXpUYnNTUlVzTEk5OHBlWWhuSW90WnVCc091ckJYNm1tcG9PcUhqaWg0WUdjc1RZMkwwWHJqeldDbkFYSE04eG1LVmVIUEZsSWhtSEZQdF9ZN0NqMk9OcjIyc1NBck5n0gH3AUFVX3lxTE9FVTcycHVmM2RpVjl1NDE1bHlJNjVNWGtGNWkwd3BxdmRxc2pycmhyUWtFSmpUVEwxLTVTLU9iLTZVNnJtZzl0TFRWUE5haDYyNE45YTFENkFQbmVqYVRCVTZnemsyQXBYWF9MbDdKZ2pFSWdJbEhISUliWXpka3lPM1hub1gwaldpa3BxTU1ESW8tR1JOMlRRelRic1NSVXNMSTk4cGVZaG5Jb3RadUJzT3VyQlg2bW1wb09xSGppaDRZR2NzVFkyTDBYcmp6V0NuQVhITTh4bUtWZUhQRmxJaG1IRlB0X1k3Q2oyT05yMjJzU0FyTmc?oc=5",
    "source": "The Times of India",
    "summary": "",
    "image": "",
@@ -581,7 +749,7 @@
   },
   {
    "title": "Mookuthi Amman 2: Nayanthara’s Powerful Goddess Avatar Wows Fans In ‘Rise Of Mahasakthi’ Teaser",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM1pRZ2wzTm41OFk4Qm1fQTBnZHRxdnZLNW5way1jbWRxTUlKR1BkQm0wSFFlVXczUUFUSjEtcjBCVHA0VTRsRnFYV1dHMG1tMDZsSGdfNWsxWTkyWDh2UV8tTkcxZ3BCMTVKcDRtZncyaXB2WEpqaFlMS0V5alltMjkxTjI1Qk05UlhxZHVRQVp4aXJkVEg4Snh4aXlLQzFkWloxelQxUWdwVldjUTlHT3B3U05YMVp6Rm5RcGV3NlloUEt6MXJqV3VYSHFqdnFWczNwZ09pREdmZF95ampoeDRqaFJoWW1FaHdNN0Rn0gHuAUFVX3lxTFAzWlFnbDNObjU4WThCbV9BMGdkdHF2dks1bnBrLWNtZHFNSUpHUGRCbTBIUWVVdzNRQVRKMS1yMEJUcDRVNGxGcVhXV0cwbW0wNmxIZ181azFZOTJYOHZRXy1ORzFncEIxNUpwNG1mdzJpcHZYSmpoWUxLRXlqWW0yOTFOMjVCTTlSWHFkdVFBWnhpcmRUSDhKeHhpeUtDMWRaWjF6VDFRZ3BWV2NROUdPcHdTTlgxWnpGblFwZXc2WWhQS3oxcmpXdVhIcWp2cVZzM3BnT2lER2ZkX3lqamh4NGpoUmhZbUVod003RGc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbVRYaFVhNWtGUmhSUnh4aXY2b3dteV9VZDEyNVBuajhGQl92VnNqaElabHlwLXlmWHhVd1VqM25JTmJFLV9NZkZNengtUDdxRjlzbEhVS0xqMHRneWtUcmNBWlkwaFo5bkFzV1FXLTJFd3R5a0cyLXdsOXQ2YzRERDM2MG50UlFoWUZORENVei1KbmtnWi1ucE5fUDA1WElDYk9rYzVDekptV3FQRWxmMXQ0LTJLbDd2Wmw4QUx6VklwNnUzdlF5eEhZUWRhSHBQQW81VWRJWUxTWlJSM2ZQdlhXOWUxWEtD0gHuAUFVX3lxTFAzWlFnbDNObjU4WThCbV9BMGdkdHF2dks1bnBrLWNtZHFNSUpHUGRCbTBIUWVVdzNRQVRKMS1yMEJUcDRVNGxGcVhXV0cwbW0wNmxIZ181azFZOTJYOHZRXy1ORzFncEIxNUpwNG1mdzJpcHZYSmpoWUxLRXlqWW0yOTFOMjVCTTlSWHFkdVFBWnhpcmRUSDhKeHhpeUtDMWRaWjF6VDFRZ3BWV2NROUdPcHdTTlgxWnpGblFwZXc2WWhQS3oxcmpXdVhIcWp2cVZzM3BnT2lER2ZkX3lqamh4NGpoUmhZbUVod003RGc?oc=5",
    "source": "News18",
    "summary": "",
    "image": "",
@@ -592,7 +760,7 @@
   {
    "title": "From comedy-drama to divine conflict: Nayanthara’s Maha Sakthi teaser signals huge shift",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWkdIU21DNUQ2NWVpdnFOckJKVkktbjh0WFAxU2gtclUzS0hTMlNCX3FwRFZ2VklRMWhWMDhsNEl1eE0yYlB2TVRGdl9mVHlDRGM4QS1NeXZHZElmcnQyaGhEbU96aU1MSU9NNjNNbXZZX0RQaWlUSlZHN0dUUENkVHVlSjRQT25hakU4RmRocVN3Xzk1aDl3enJzUlV1OHVrTms5S1ZxVllMajBUbnNkejA2alFlSG5mUzQwM3BrNm9aY3djYjJoOWZ30gHQAUFVX3lxTE8zYU9hVDZCNjBvM0V2M1Axeks1Vlc2Y3hPMGp0WGpkTWxvSTgzeVpQSWZwQjFhd2RXbkJad0VMczM2czdyVzBNYXkxQ283bGZROHJvT2VXOTZXdVdxa3N1ZEtkMkdSYTlGQm9tQmlpaHpnQ1oxallLNUJoZUtacWEyV2V5OUpiLUo3SXllWEJvQUJmTG56cllIOEhTRHlQcWRGb09EVjN3T3FKTkpNVjBvRmhOSVFYdU9STGpuT045U3N3U2I5Ti1OOFA2MmI4Q1c?oc=5",
-   "source": "The Indian Express",
+   "source": "indianexpress.com",
    "summary": "",
    "image": "",
    "published": "2026-09-14T09:03:09+00:00",
@@ -740,16 +908,6 @@
    "category": "trailers"
   },
   {
-   "title": "சர்தார் 2வை போட்டுத்தள்ளிய மண்டாடி.. ப்ளூ சட்டை மாறன் ஓபன்.. எஸ்கேவையும் சூரி வெல்வாராம்",
-   "url": "https://tamil.filmibeat.com/news/blue-sattai-maran-on-mandaadi-vs-sardar-2-soori-beats-karthi-at-box-office-will-win-against-sk-next-184113.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: மதிமாறன் இயக்கத்தில் சூரி நடித்த மண்டாடி படமும், மித்ரன் இயக்கத்தில் கார்த்தி நடித்த சர்தார் 2 திரைப்படமும் ஒரே நாளில் ரிலீஸாகின. இரண்டு படங்களில் சர்தார் 2 சுமாரான வரவேற்பையும், மண்டாடி மிகப்பெரிய வரவேற்பையும் பெற்றிருக்கின்றன. இந்நிலையில் ப்ளூ சட்டை மாறனின் ட்வீட்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/bs-68691789368360.jpg",
-   "published": "2026-09-14T07:34:51+00:00",
-   "ts": 1789371291.0,
-   "category": "buzz"
-  },
-  {
    "title": "Suriya's Scene vs Nayanthara's Maha Sakthi Sets Up Major Diwali 2026 Kollywood Box Office Clash",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNnNxeGpvMEtQMm43S0lzTzF1dG96V1lrTnRPNHVOblhYWFRtcU1kb18tVFN1SHB2YkV1cWNhTndKWk1PQlBMSzBzU1JLLU9lTE51aEdWeHp3RlJUc2J1X1BjREo3b0p5eWVoMUdMdU1rZU93Qm9HdkVzWGs5QmZFTXkwbXNOWnE2NmFvdjY3YlBJX19MM25yX2xsRTM5QzEydXhvVmExTkt3TU52bnNnR2dhdlJsbmdJTy0wcmVtRQ?oc=5",
    "source": "Sacnilk",
@@ -770,26 +928,6 @@
    "category": "trailers"
   },
   {
-   "title": "வாரணாசி படத்தில் டைனோசர்.. அடேங்கப்பா.. ராஜமெளலி என்ன குக் பண்றாருன்னே தெரியலையே?",
-   "url": "https://tamil.filmibeat.com/news/ss-rajamouli-brings-dinosaur-for-mahesh-babus-varanasi-movie-leaked-pics-stuns-fans-184115.html",
-   "source": "Filmibeat Tamil",
-   "summary": "ஹைதராபாத்: ராஜமெளலி இயக்கத்தில் மகேஷ் பாபு, பிரியங்கா சோப்ரா, பிருத்விராஜ் நடித்து வரும் வாரணாசி திரைப்படம் அடுத்த ஆண்டு திரைக்கு வரும் என எதிர்பார்க்கப்படுகிறது. 2027ம் ஆண்டு ஏப்ரல் 7ம் தேதி வாரணாசி திரைப்படம் வெளியாகும் என படக்குழு அறிவித்து அதற்கு ஏற்ப படத்தின் மேக்கிங்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/varanasi-55261789368992.jpg",
-   "published": "2026-09-14T06:57:40+00:00",
-   "ts": 1789369060.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Sardar 2 Budget & Box Office Collection Day 4 Worldwide Tamil Daywise",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUW82cm92QWRTcHV5VUxOTURTZlRGSjRLZjBqWFBhVnFySE9hTVFURWRJVkU5SG15SGRwci1UbnBSSjVWMVhac044dU1PWndudDRUWmU1OFpHazdDTXRGUHF4dnBwRlJRcEoxNEJtSUtpc0pIbE93M00xM1Jna1ppWmlLeUZOMnItMDExMmdvTEUwckEzYnhDVW9Db1QwdXhBSTBMN2tJWU5YbFhHczJYeDU4eEM?oc=5",
-   "source": "Bollymoviereviewz",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-14T06:47:38+00:00",
-   "ts": 1789368458.0,
-   "category": "box-office"
-  },
-  {
    "title": "‘Mookuthi Amman 2’ teaser out: Nayanthara transforms into ‘Mahasakthi’ as Mahakali to protect a prince as",
    "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNMWx5YXhER3F6T1NURmQ5Si1DR2hremxqLUR6T0NfOHlWV0hsd1BvbWVwZFZ1WktXMml4SWlrUVlfVUNkTmhJRjZsb2pMMEZtWkJRU3p2MklJZm1ndWxEblBlVWZkdXZMZTFLVWtBSWFXUzc2OE1WQ1ktUDF3MEdkN0t0VENRc08wcXdiQjVpb3VwdzFBLUJ6WExlU0tmY1ZSdXBNSTV3VHBUY2dySjRkSXVodjNFODh4SjZxTFVHcnhfMWFhVWFIei1paHprWE5pTjVNcVZiM2UxX2VpRGEwQnhrU3o3RTBOZWpaMFYySXVUa3kzT0RWV0JoanBMZWxCeGNrdW5OdFBrcWF1azJXMUxaVXljNFNib3VocjRMc0h4LXJubDFfNlgwUkptMWY4bHhtbVlJbjdiWkJ1dzZXeGZFemNZeXZuV1hZMzBDNXJUUWo3WmFWWGljdDA4ZjBwcktOX09KMzBuRXZQNXI3UU01bDkyVE8xUlBZal85MmxQZ9IBhwNBVV95cUxOWURIdzAwdXV5TEhsa3VWNmZ4MTd2ZnRYakp3LWkyNWdDT0ZzYnU3WFpSWWU3QzNSRkZqajlNcXBFLWRpV0JYeUdxWF9BNC1JV0hqY2RvN0R2WlFZSU9nMkJxQVZZWmhfR0pSUzdxb25UaG9vMmZKNVN0R2lvRm0wRktWU2tDbzkyMzczQVdSUEhpYVo0cExtcXBXNm9oaDJjTXB0TDByM3Z4Q1cyUUkteWh3OEhqMVN3aUMxS3pDVWlBQ29HV1B5YnQ5eFptLVI0UnE2TkhleW1BWXJhQXZUM1JKcl94M3pBbXczUWJXQmVQX2F2X0FZOVdhbC1YMEpac0RvZVF4di05b3JQaHl0TzA5cV9FMmZOOEFsQkJXQVZqUGo5Y0F0ekl2bGpYdkJxYk92YWhHeVN5ZXNOazBFWnM2ekVIRmZYNHJQaDlIdFBiZmN3dlFlbDB3VXJ0WlVTNXRXMlN0WVZaTHFuRlRKM2J3QktIZ3pxV2NUb2wtaVJWVlNCQ1o4?oc=5",
    "source": "The Times of India",
@@ -798,36 +936,6 @@
    "published": "2026-09-14T06:07:00+00:00",
    "ts": 1789366020.0,
    "category": "trailers"
-  },
-  {
-   "title": "Mookuthi Amman 2 teaser: Nayanthara returns as Goddess to battle bigger evil",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXJMRXhVM1NXLVBmWXBjVlhBa1VkcnlWWkF3SmdBMUdRNTRVSnpZWHJCM2RiSm4xSXlyYkMxYkdlUGlJTml6ZFNrazI2bXZJYm9fSnhVUHphMjNPa1BFbDMzWW5jZFZDMzhIcFNEUlU0clk3b0JVZThkcXdkMzBtZGxabmlXbnBWWkZFWGFheV9TY2ZlU1BoZzNJN2xtVVNnWVhZbjhfTzlJNDVOXzdOUHhYRUdyWDJMVG1ZN3FVQVVnRlVCUWQ3V3lCYTdRcTdtWDhkctIB1AFBVV95cUxNOXJMRXhVM1NXLVBmWXBjVlhBa1VkcnlWWkF3SmdBMUdRNTRVSnpZWHJCM2RiSm4xSXlyYkMxYkdlUGlJTml6ZFNrazI2bXZJYm9fSnhVUHphMjNPa1BFbDMzWW5jZFZDMzhIcFNEUlU0clk3b0JVZThkcXdkMzBtZGxabmlXbnBWWkZFWGFheV9TY2ZlU1BoZzNJN2xtVVNnWVhZbjhfTzlJNDVOXzdOUHhYRUdyWDJMVG1ZN3FVQVVnRlVCUWQ3V3lCYTdRcTdtWDhkcg?oc=5",
-   "source": "India Today",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-14T05:36:35+00:00",
-   "ts": 1789364195.0,
-   "category": "trailers"
-  },
-  {
-   "title": "என் செலக்‌ஷன் ரொம்ப தப்பா இருக்கும்.. சங்கீதா பற்றி சொன்ன விஜய்.. அட போங்க பாஸ்!",
-   "url": "https://tamil.filmibeat.com/throw-back-stories/vijay-on-sangeetha-my-selection-is-always-wrong-throwback-interview-trends-again-184111.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: விஜய்யிடமிருந்து விவாகரத்து வேண்டுமென்று சங்கீதா கடந்த வருடம் டிசம்பர் மாதத்தில் நீதிமன்றத்தில் மனுத்தாக்கல் செய்தார். அந்த மனுவில் இருக்கும் விவரங்கள் எல்லாம் கடந்த பிப்ரவரி மாதம் கசிந்து பெரிய பரபரப்பை ஏற்படுத்தின. அதனையடுத்து என்ன நடந்ததோ தெரியவில்லை தனது வழக்கை வாபஸ்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/sange-35941789364145.jpg",
-   "published": "2026-09-14T05:36:30+00:00",
-   "ts": 1789364190.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Mandaadi Budget & Box Office Collection Day 4 Worldwide Tamil Daywise",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVG90YXpqbUJXU1lXNDFxcTF2eldza2hXX1FCdi1vSHlfazdhVFFwaHVIbldwTVA4UmR2T2hYWEtVTTR6d19iV0ZFREJsa2JybUd1OWNLdmNvUGlFaEg4YjRMaXQxSlZ1d0p3XzV6MjYyc1V1NzAxWHcwTWFETXU2X19YWUhiMklJZ3d6aXU5YnNtMnhvRWM3SkJPZkRqRnhCMVNZZUVaT1FJclVGZDdQemxuWUc?oc=5",
-   "source": "Bollymoviereviewz",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-14T05:31:54+00:00",
-   "ts": 1789363914.0,
-   "category": "box-office"
   },
   {
    "title": "Mandaadi Opening Weekend Box Office: Soori Scores First Double-Digit Day As Film Earns Over ₹40 Cr Gross In India With Four Straight Days Of Growth | Kollywood News",
@@ -840,16 +948,6 @@
    "category": "box-office"
   },
   {
-   "title": "குழப்பத்தில் அரசியல் பெரும்புள்ளி.. விடாது துரத்தும் நடிகை.. வெளிநாட்டில் நடந்த கூத்து!",
-   "url": "https://tamil.filmibeat.com/gossips/a-top-politician-under-an-actress-s-control-what-happened-abroad-184107.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: அரசியல் பெரும்புள்ளியின் வெளிநாட்டு பயணம் குறித்த பல்வேறு பேச்சுக்கள் இணையத்தில் உலா வந்து கொண்டிருக்கிறது. குறிப்பாக அவருடைய குடும்ப வாழ்க்கை தொடர்பாகவும், வெளிநாட்டில் இருக்கும் மனைவியை அவர் சந்திக்க இருப்பதாகவும் கடந்த சில நாட்களாக செய்திகள் வெளியாகி வந்தன. அதே…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/187-49661789362093.jpg",
-   "published": "2026-09-14T05:01:56+00:00",
-   "ts": 1789362116.0,
-   "category": "buzz"
-  },
-  {
    "title": "Ajith Kumar gives angry glare to a fan seeking selfie with him at Le Mans Race; internet slams his ‘attitude’. Watch",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/ajith-kumar-gives-angry-glare-to-a-fan-seeking-selfie-with-him-at-le-mans-race-internet-slams-his-attitude-watch-101789359379867.html",
    "source": "Hindustan Times",
@@ -857,26 +955,6 @@
    "image": "https://www.hindustantimes.com/ht-img/img/2026/09/14/1600x900/logo/jith_1789359712921_9175e93b-42b0-4243-9ae6-5ae6f153f603_1789359721472_01dcd5ae-c424-4908-bac3-d51de6af3a34_13d98e77-9a73-4cd5-b9c3-5b9804803a80_7012db98-a8ca-4cba-b6d2-db300e68cf42.jpg",
    "published": "2026-09-14T04:41:35+00:00",
    "ts": 1789360895.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Irumudi OTT: தியேட்டரில் மிஸ் பண்ணிட்டீங்களா? ரவி தேஜாவின் 'இருமுடி' ஓடிடி ரிலீஸ் தேதி அறிவிப்பு!",
-   "url": "https://tamil.filmibeat.com/ott/ravi-tejas-irumudi-ott-release-date-confirmed-184101.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தெலுங்கு சினிமாவில் மாஸ் நடிகரான ரவி தேஜா நடிப்பில், இயக்குநர் சிவா நிர்வாணா இயக்கத்தில் ஆகஸ்ட் 21ந் தேதி தியேட்டரில் வெளியான படம் தான் இருமுடி.ரூ.200 கோடிக்கும் மேல் வசூலித்து மாபெரும் பிளாக்பஸ்டர் ஹிட்டடித்த இப்படம் திரையரங்குகளில் வெற்றிகரமாக ஓடி முடிந்த நிலையில்,…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/irru6t-46081789359149.jpg",
-   "published": "2026-09-14T04:24:38+00:00",
-   "ts": 1789359878.0,
-   "category": "box-office"
-  },
-  {
-   "title": "ராதிகாவிடம் அடி வாங்கி.. தாயம் விளையாடினு சிம்பு ஃபன் செய்திருக்காரே.. ஷூட்டிங் ஸ்பாட்டில் ஜாலிதான்",
-   "url": "https://tamil.filmibeat.com/heroes/simbu-s-fun-video-trends-online-str-s-fans-love-his-vtv-shooting-spot-moments-184103.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: வெற்றிமாறன் இயக்கத்தில் அரசன் படத்தில் நடித்துவருகிறார் சிம்பு. சில நாட்களுக்கு முன்புதான் படத்தின் ஒரு ஷெட்யூல் ஷூட்டிங் முடிந்தது. இதனை முடித்துவிட்டு அஷ்வத் மாரிமுத்து, தேசிங்கு பெரியசாமி உள்ளிட்டோர் இயக்கத்தில் நடிக்கவிருக்கிறார். இந்நிலையில் சிம்புவின் வீடியோ ஒன்று…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/aa-35381789359298.jpg",
-   "published": "2026-09-14T04:15:49+00:00",
-   "ts": 1789359349.0,
    "category": "buzz"
   },
   {
@@ -910,16 +988,6 @@
    "category": "buzz"
   },
   {
-   "title": "Karthik Subbaraj’s ‘Dorothy’ Earns a Standing Ovation at TIFF 2026, Breaking a Decade-Long Drought for Tamil Cinema",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ1JoZUhTaWU1d2ZNNzhteHJHNkxRVDFRR3M4WVBqc2sta19jX0ZiNHNGSmF5OWpMVGlEdlpNQ1JoSU5pYzIxLS1WbC0xUVBxc2Q5TXBhd1JSOERFUWpBLU5iTTVqdndPVWNaSTJRcWFkSmdKSVVrYXdDbTVrZUg5dkxuS1Ata3ZjLXJCTkZ3VDBfMDZkMGRB?oc=5",
-   "source": "altbollywood.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-13T15:33:51+00:00",
-   "ts": 1789313631.0,
-   "category": "buzz"
-  },
-  {
    "title": "CM Vijay on Target: Bigg Boss Becoming Political Stage?",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMER1a08zWmRCTVd5T0RobEMteGMzUDk4SWdPVFBCbTdqckd1WGlja2dKWDc4Vzl4d0d4UHNlbGhwYVRLbnpKc0VTV2RBV1hRbGM3NWlyXzB2N1BRQnNkUERLdnZaOW9qLWh0amR1d0pEVnhsTW0yQ1AzYllkeGR3ZTdnd25mUll4Y1ZjaFgxTdIBlAFBVV95cUxQUjJWODMtc1h2NVE1VmJRZ19FLTN0LUwyNDdCWE5OaWJUNFJLcnhHVWJKSUllUmEwRHI4MG5KTmtEOFpoM2RMRVBpWmtJeTJOTzA0Q2NrYm5hanRQal9IRjhIZFlCdUlQNjVCVUU0YUpSNTdTanpFT1hxbTBpdXNSSnV4YWVKNjhfV2RXZVEyU2dFdGU1?oc=5",
    "source": "M9.news",
@@ -930,14 +998,14 @@
    "category": "buzz"
   },
   {
-   "title": "Dhanush shares rare picture posing with his mother and sisters, calls them his 'blessings' - Mid-Day",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMWlzOU0zSF9QRWhDVk9iaUJkRWZEN3o2ZnhkdlZlMm84UzBkQnk3UVBibzMzWE9Pc1UxSUtTNFV4UGhSVE1qczcxMEV6QjFqbEljTXlrSkdKYWlRTHlVQjA2bnFNSXZCcHp3eDUtVUoxYWhjcm4wQzlSaVVtSEp1UnRYb2hrSTBQWmh5Q1FnS3JZdlFUR1ZhTlZlbVp1MmFvUmkzX3RIb2dNY3lrckc1cW9GUDhZaWdDNE1Gb1lPN29ZOThxUTA0b3ZlVktvSnplbTRuSFhiZzU3bWtYdGs0VEVTV1lTLXlwdmFMV21rU3hpWHdMX0ow0gH3AUFVX3lxTE8xaXM5TTNIX1BFaENWT2JpQmRFZkQ3ejZmeGR2VmUybzhTMGRCeTdRUGJvMzNYT09zVTFJS1M0VXhQaFJUTWpzNzEwRXpCMWpsSWNNeWtKR0phaVFMeVVCMDZucU1JdkJwend4NS1VSjFhaGNybjBDOVJpVW1ISnVSdFhvaGtJMFBaaHlDUWdLcll2UVRHVmFOVmVtWnUyYW9SaTNfdEhvZ01jeWtyRzVxb0ZQOFlpZ0M0TUZvWU83b1k5OHFRMDRvdmVWS29KemVtNG5IWGJnNTdta1h0azRURVNXWVMteXB2YUxXbWtTeGlYd0xfSjA?oc=5",
-   "source": "Google News",
+   "title": "Vishwanath And Sons Box Office: Suriya Starrer Completes A Month In Theaters - Here's Its Budget, Collection & Verdict!",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWF9DTl9kNkpZc2xTMkYxY3R0a2FmeG1EUDVYenU4Y1UtRTdZU2JVNktWMG5JZ29qOVJqVmVjcURPb1F0dmMyZzYyR1BZTVVsckRIRUgwQzRqX09VMmZtaHM0eHlQV3I1SVEtU2s3dHdLeXpTMWJfT2N3OExJR0ZiR2o4YmZCczV0bXFCNTJoZldCYmZGS3dCMzNkNTZWTkJTcklHR1lMdjJ0eTF5aW4xRzJUdHdMdzZEN2VLUGNfdlpUYk9YaEtjT3hiOTAtQWFNSFJOc2FOczhJNkdQRlZr?oc=5",
+   "source": "Koimoi",
    "summary": "",
    "image": "",
-   "published": "2026-09-13T14:53:00+00:00",
-   "ts": 1789311180.0,
-   "category": "buzz"
+   "published": "2026-09-13T08:14:12+00:00",
+   "ts": 1789287252.0,
+   "category": "box-office"
   },
   {
    "title": "Venkat Prabhu's heart is ‘super duper full’ as CM Vijay-Ajith Kumar put fan wars aside: ‘Thala Thalapathy together’",
@@ -1020,36 +1088,6 @@
    "category": "box-office"
   },
   {
-   "title": "‘Brad Pitt, Tom Cruise in same place’: CM Vijay, Ajith Kumar invite Hollywood comparison at Silverstone Le Mans race",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/brad-pitt-tom-cruise-cm-vijay-ajith-kumar-invite-hollywood-comparison-sports-commentators-silverstone-le-mans-race-101789269754815.html",
-   "source": "Hindustan Times",
-   "summary": "It was raining Kollywood stars at the Le Mans Cup race in Silverstone in the UK with Ajith Kumar racing and Vijay flagging it off.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/09/13/1600x900/logo/Vijay_Ajith_Kumar_1789269740090_b2973dab-67ce-4467-ba26-f418e980dcd9_1789269748905_1afb2f35-7cd0-4660-a50a-65697d680938_dcf9a998-40cb-4116-a4dd-2395ff005c4f_8bc66cf8-6623-47e3-8953-78d875396250.jpeg",
-   "published": "2026-09-13T03:57:31+00:00",
-   "ts": 1789271851.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Sardar 2 India Box Office Collections: Karthi and SJ Suryah starrer is a washout, grosses Rs 10.50 crore in 3 days",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSDh5ZXZfWVFNNDBGWEVIT0VEMHdqM0RqQUdXMkVrMlNtd2JBRUgtR1NHeXM2Ymg0V2dzelRPQjFuNHdUbjA2clFuM1BvbXhqVE1pS28yMGs3TjZ2UVZOaU1lQnlwdVRCdm5MYU1mZWFvRVBRMkFZSHZSa1ZacEVCWTE4NUpGNlpXNllpRjgyYXpqTVB5b3Z3c0J3d2VjMzQwTHBrc3Z6RmZZT0ZpZWZJTGRBUmJELXFyU3JjSmtsemVYMEQ1b1JTQTRiRXp3ZFB5dmRXdHBMSGVNSFpteGpkZ3FHRFJHV09ST2VKa1RXLVB4Zm9aSDJkcksxamFDNlp00gGGAkFVX3lxTE1DTWZKandzWHpPRzBCa1BGRW9VeU5paU5pdURNNXB0UTlqNHBKWk5RbExaT2R2M0xZVkpZak50bnBsMi1iZ1A2c3NfekpGa2NRdFp0Yi1YUTR4RDRiMjN3QTZSUlRhSEZRRGM1SmFvYzQ5c2J0UlNmc1A0ZHlKbmlZYlJrVEVQV3hmSExqRnFSUFFYMEZ3TlZGRmI4aVZ0X2lzUV9vR0RSZ2pVQ0tBek9zX3Rxb2RINGhhMEx5QjdVUW5obEJrZHJFSm9WdlVVMkU0aHZLSXY5WWdrQ2NBcFJucHFwVnRDdHFhOHNhcVJBUElJOFVjazBCNmdWa1oxeDRhWGxST1E?oc=5",
-   "source": "Pinkvilla",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-13T03:31:02+00:00",
-   "ts": 1789270262.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Trisha Krishnan joins TN CM Vijay, TVK minister at Ajith Kumar's Silverstone Le Mans race. Watch",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/trisha-krishnan-joins-tn-cm-vijay-tvk-minister-at-ajith-kumars-silverstone-le-mans-race-watch-101789264706312.html",
-   "source": "Hindustan Times",
-   "summary": "Tamil Nadu Chief Minister C Joseph Vijay waved the green flag at the Le Mans race in England on Saturday. Trisha Krishnan joined him there.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/09/13/1600x900/logo/Trisha_Vijay_match_1789264685747_dc9b0b62-7715-42b6-86ce-b95c51e04712_1789264703084_e84427c3-c16d-4e79-a664-3c3feca5ef8f_abf2f717-ad06-42b4-9f81-6565dd5389e3_ca4060c7-100f-409d-b809-7f7ab6b33fd2.jpeg",
-   "published": "2026-09-13T02:34:29+00:00",
-   "ts": 1789266869.0,
-   "category": "casting"
-  },
-  {
    "title": "When Ajith Kumar and Vijay shared the screen: a look at ‘Rajavin Parvaiyile’",
    "url": "https://www.thehindu.com/entertainment/movies/ajith-kumar-vijay-silverstone-meeting-le-mans-cup-rajavin-parvaiyile/article71456584.ece",
    "source": "The Hindu",
@@ -1082,22 +1120,12 @@
   {
    "title": "Keerthy Suresh’s Dorothy gets standing ovation at TIFF, first Tamil film there in a decade",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRkYwcEVtM2h4TDhOQjljLVk3SW12LVBkM0JmWDdONXpLYmJJSlFxdVJvMnNyUUlPaGFNZUJheVo0TjdQRWVVVnZ5OG80T1psdV92NFVpSW9iemM0ekxRVmZNdmhJQzR6d21mcnJfZWZEZzA5cGtUd2piWVlHc1Fsck16cUJwZVFSLU5hN1ExTFZZUmMycWkxdjllcGRWcmFybXRBZ3YtSmYxUWV1YWZ2Mi0xNWk3Y1BPUlBxYldyRUZhOUdmblVVNkV0ZHZlb0J1ZVB3TExSUTlZUy1nb0xjRnFmVmx5QXfSAe4BQVVfeXFMTlJBVHYyTmRQZThRR0pJRm5sWUZVa0VmdWpicjhObFFvOFdRYXBpT2RaaG1FZ2haMVlVTGZyN0lkS0hVVDllOE9NZVlMUl8tVUtKM0hyZzUxTTZEdVo0UXcyRlE4ZjVjWVZBMVd1c250dGdUd193LWFVS2dNYU1mX0tBcGlpSkRCQWZpRWxGMFBUaW1KTTYtSENhVW9uYXF0dTAtWDZQb1VxM0w3V2FyWWdHeko0Ym1ERVkyUE4yWXU5SXYyS280eXYwWXFFWjBKc0xGTXctUFk2VUdqMlN0cks4NXVwUDBTRkNUYlRTQQ?oc=5",
-   "source": "The Indian Express",
+   "source": "indianexpress.com",
    "summary": "",
    "image": "",
    "published": "2026-09-12T11:27:14+00:00",
    "ts": 1789212434.0,
    "category": "buzz"
-  },
-  {
-   "title": "Vijay Sethupathi unveils ‘Bloody Politics’ teaser, Gautham Ram Karthik turns ruthless politician in inten",
-   "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNb0tZQWVuOFhXSUdHbTBoNlNFdTJZVlpsOXlRS1BocE9Sb1dVV1N3RGE1NW9adWlSd2Y1b09xdDBrRzcwS1FKZkpCa3NnbDRqUUdkRDhqWThET1lEY1dXT3BTMXNPbFRwbnJwSms3TTBMandMRXhYaFlkMEZRVUtiUjh1djNOV19sdTdLcDlOTVJueWhWTmNSVDNIMVlkY3Jqd1diVWRnc3NZZGxKZi1LVjlHbkNjNE00UnB4Q0RzWENpUmRsYXZuNE1CWGxMUmNvMERxSU45Q1kyS3pVZFdOck51VENRNlJGaGlVLVpZbEJaSTNFUlM5WmJnQTN6YVA2LUF4SnVzRjBrdElLTWJCYW1EOVpVelFmVmtrWk9tenFYa2hwZlRaNFhQdHIxanhpeUZtSGY0RkFRVm5rbkVXVm9TQk1EdjNUWVFXRENvNDhBM3p1RnpjOW9VVVBvYkZQZWfSAecCQVVfeXFMTjFoZUxXQlFGYnF4dmMtSHBjblVNLTVnbFBqWmtzSjZULUlGV29MRW51ZjdMZTEyb2lFUFpzTjR2QUtKUVI0Y2FTWi1IWmtqX0JNcHQzTEp2ZkZpTnFiQXppTzNOb0dPWmVEaEJWN3lBUHBaYWIycVI3QnhxZTVaWGhDWFc4VnRGajFyR1YwYTFsZWcwSWFxcXQxU3d5T01jV3ZVZXp0dU05MWxKUTQ5ZTh5RXJiTVlJV2tfTkd3V0JPOGg0UW5QeWhrSWxITExubDFtelN1TW5fMTg5Y29ranRxZmNYRGk3clJCbEhDVjJyWTRMQVU5U0hua0k1SnR3VUVtQUc4UkxZXzBZanZERnV4dHM3SDNXenB0dTdsdFl6a3lhTm5mazU3Vmc5ME5OeUg4b3JqVk94UDByTk1uQ2pwblF0RWZCRFZEZzZnaDFmNWxtbFd4Ml9mZ3FoYVNPaUZONFpqYTA?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-12T08:50:00+00:00",
-   "ts": 1789203000.0,
-   "category": "trailers"
   },
   {
    "title": "Keerthy Suresh rumoured to be in London in link with Vijay; Actor hits back",
@@ -1128,16 +1156,6 @@
    "published": "2026-09-12T05:53:00+00:00",
    "ts": 1789192380.0,
    "category": "reviews"
-  },
-  {
-   "title": "Jailer 2: Can Rajinikanth Break Tamil Sequel Curse?",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONVZ5eU5ySmlmVGowRkU3Y1Z6cnRVWGFTa1gxVDdLQ0dzekZwcFktWGltbzllQU1qYTNMcndGQW5qTnlUMDhnTjZyM0REVGlkcm52R3NNdnRvQnRJTWt4cjZCTHFEODZ1VWxrdDg1WUR5ZF83X0tDNUhiMTdFc01ROWhPRVQwXzJxV3g5dNIBkgFBVV95cUxPQ2k2cFhid2dnczVBQ0Z4RnN4OGstWEh5aHFVWDVQRFhyUEVfREgydGcxMnVOM0F3ajBkZExvT3Q4MDF1UXpfN214NjNxRWhxQ3YtTWhibjJrY29RNW54b0NmTTdEWTVyWFhscXQ4UGEwQWdsTDVqNWkwcUpITW9PSjBoWnRTRXRwbmkzV0hJRllOUQ?oc=5",
-   "source": "M9.news",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-12T05:07:35+00:00",
-   "ts": 1789189655.0,
-   "category": "buzz"
   },
   {
    "title": "Malayalam, Tamil, Telugu OTT Releases: 'Varavu', 'Magudam', 'Panchanama' And More To Watch",
@@ -1228,16 +1246,6 @@
    "published": "2026-09-10T10:17:19+00:00",
    "ts": 1789035439.0,
    "category": "buzz"
-  },
-  {
-   "title": "Suriya’s next is ‘Scene’, directed by Jithu Madhavan; title teaser out",
-   "url": "https://www.thehindu.com/entertainment/movies/suriya-scene-title-teaser-jithu-madhavan-deepavali-release-naslen-nazriya/article71446535.ece",
-   "source": "The Hindu",
-   "summary": "Also starring Nazriya Nazim, Naslen, John Vijay and Anandraj in pivotal roles, the film is set to release in theatres on November 6",
-   "image": "https://th-i.thgim.com/public/entertainment/movies/8wl69p/article71447280.ece/alternates/LANDSCAPE_1200/Scene%20Suriya.png",
-   "published": "2026-09-09T12:58:20+00:00",
-   "ts": 1788958700.0,
-   "category": "trailers"
   }
  ]
 }
