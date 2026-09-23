@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-23T17:58:12.221254+00:00",
- "count": 109,
+ "generated": "2026-09-23T21:15:56.455102+00:00",
+ "count": 107,
  "sources": [
   "Bollymoviereviewz",
   "Business Standard",
@@ -13,14 +13,17 @@
   "Google News",
   "Hindustan Times",
   "India Today",
-  "Kerala TV",
+  "India Weekly",
+  "IndiaWest",
   "Koimoi",
   "LatestLY",
   "Media Hindustan",
   "MediaNews4U",
   "Metro Vaartha",
+  "Moneycontrol.com",
   "Movie Crow",
   "NDTV",
+  "NDTV Profit",
   "News18",
   "News24Online",
   "Only Kollywood",
@@ -36,12 +39,11 @@
   "Times of India",
   "TrackTollywood",
   "Tupaki English",
-  "dtnext.in",
-  "indianbroadcastingworld.com",
-  "ndtvprofit.com"
+  "economictimes.com",
+  "keralatv.in"
  ],
  "images": {
-  "total": 51,
+  "total": 47,
   "scraped": 24
  },
  "feeds": [
@@ -51,7 +53,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.16
+   "seconds": 0.13
   },
   {
    "name": "News18",
@@ -59,15 +61,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.07
+   "seconds": 0.17
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 2,
+   "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.42
+   "seconds": 0.22
   },
   {
    "name": "Hindustan Times",
@@ -75,7 +77,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.09
+   "seconds": 0.37
   },
   {
    "name": "Indian Express",
@@ -83,7 +85,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.1
+   "seconds": 0.15
   },
   {
    "name": "The Hindu",
@@ -91,7 +93,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.13
   },
   {
    "name": "Filmibeat Tamil",
@@ -99,23 +101,23 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.15
   },
   {
    "name": "DT Next",
    "url": "https://www.dtnext.in/feed",
-   "items": 1,
+   "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.26
+   "seconds": 0.2
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 4,
+   "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 0.17
+   "seconds": 0.1
   },
   {
    "name": "Google News",
@@ -123,7 +125,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.43
+   "seconds": 0.48
   },
   {
    "name": "Google News",
@@ -131,7 +133,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.53
   },
   {
    "name": "Google News",
@@ -139,7 +141,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.52
+   "seconds": 0.54
   },
   {
    "name": "Google News",
@@ -147,7 +149,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.63
+   "seconds": 0.57
   },
   {
    "name": "Google News",
@@ -155,7 +157,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.57
+   "seconds": 0.53
   },
   {
    "name": "Google News",
@@ -163,7 +165,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.44
   },
   {
    "name": "Google News",
@@ -171,40 +173,36 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.53
+   "seconds": 0.5
   }
  ],
  "trending": [
   {
    "term": "Jailer",
-   "count": 14
+   "count": 13
   },
   {
    "term": "Dhanush",
-   "count": 12
-  },
-  {
-   "term": "Mandaadi",
    "count": 10
   },
   {
+   "term": "Mandaadi",
+   "count": 9
+  },
+  {
    "term": "Rajinikanth",
-   "count": 6
+   "count": 5
   },
   {
    "term": "Vijay Sethupathi",
-   "count": 5
-  },
-  {
-   "term": "Baththa",
-   "count": 5
-  },
-  {
-   "term": "Kamal Haasan",
    "count": 4
   },
   {
    "term": "Release",
+   "count": 4
+  },
+  {
+   "term": "Baththa",
    "count": 4
   },
   {
@@ -216,23 +214,57 @@
    "count": 3
   },
   {
+   "term": "National Film Awards",
+   "count": 3
+  },
+  {
    "term": "Rajinikanth's Jailer",
+   "count": 3
+  },
+  {
+   "term": "Kamal Haasan",
+   "count": 3
+  },
+  {
+   "term": "Nayanthara",
    "count": 3
   },
   {
    "term": "Soori's",
    "count": 3
-  },
-  {
-   "term": "Kannada",
-   "count": 3
-  },
-  {
-   "term": "Suriya",
-   "count": 3
   }
  ],
  "articles": [
+  {
+   "title": "Dhanush Jokes Sons Stole His Thunder At National Film Awards",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY2FRMWotcVFveDNNNU93bGJVZXpaTlRPNVdYVENYTVpENEZIRjhtY1BtQU9kMVF4cGxJbVdrWTY5UC1ZNzB4REZQSzJ0SDNxbXpaQW9TVUN2MzRfQ3pXNWg2QkZpQ1BoRm1MQ1hGNTFtblBPYkVabkduRURCbkpRT0VNMGFCMFNGSzVj?oc=5",
+   "source": "IndiaWest",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-23T17:46:11+00:00",
+   "ts": 1790185571.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Hi OTT release date: When and where to watch Nayanthara and Kavin’s romantic drama",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObVZ4c05vNkFIeGtuREc1LW85bUtHM1lwUjZtclNuWm44VnRzM1FheEtnbzc5elQyZGZ0ZmdwNXFhbXVHNzlMY0xETnc0XzI2X1BpQTlTYnoycHNrNEJsNHlkQWZYLWN0aFRNMFNmVGx5YlpxeEdkYVlsSUtOQ1FWamdkQjlwV2FSSklpMEZnZVNOM1ZvSkhtWWFZNUJ1dG5HNE4yUmRDcXFYUVFyNWR0QTFyXzZ3WFF1U21ESnZXNVc0dGFpc3RZRWdBQWNWcHVURG1FRXBpeXZNRmY2UjRFU0RpS3TSAeoBQVVfeXFMUERlV2Y0cFItNEgwU0FoUkZuYWh1VkgtOTd0MnN3cm03clAwVXB6OUl3cHUzRDNySTF2bVI4WE9tSjFxbEFYSUZJSUdVOTB1NHBNWUxHY0NlT3dHTEQ2bUxkMzdUY00xb3U2clRvbk1tLUFibFZaRVVzc3YtMXZMS2swcVBESDVtRHYtOEEzNTFLTmFiNUJOeDJ5dmNCYzVhbkJ1OG8zam52eXA3NWZOZ1ZLZ0poc3dQTGdSSUFfb04yTzJQOGdKTE1RR3hfUzR6d2J1clYyZTFFNWM5VFpFSkxGbHJBQk44bHBR?oc=5",
+   "source": "Moneycontrol.com",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-23T17:23:15+00:00",
+   "ts": 1790184195.0,
+   "category": "ott"
+  },
+  {
+   "title": "Dhanush Postpones OM After Rajinikanth and Suriya Set Their Release Dates",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0lESmxUTldEQ01FVEVYdU0wZTd6Zm1OOEFVd1A3LW5YMEw1UUpZZXExdG8zdmlHS0oteERWSGZ3S0pldHFwUHVFUVRaVWRucWlZZEdIbEVMV0dVOHZoMHNzb3V3ZGdsNUlRZEZZVGJyajFkS3IycVlOYUFvZ1JfZDBB?oc=5",
+   "source": "India Weekly",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-23T17:17:37+00:00",
+   "ts": 1790183857.0,
+   "category": "buzz"
+  },
   {
    "title": "Dhanush delays OM release to avoid clash with former father-in-law Rajinikanth's Jailer 2 - Mid-Day",
    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMEgxZVNMZnpqdnhveE54S1RHSnNDTXl0ZVFZVXh6S0VVWDI0U0FiWExnOEpBaVZrOXJOM3llS3JGeko2YnNmb3BIdXVQR0llV0xtaFQ1M1VfcmF5M1lUd05pMTZ5YlE2VnU5cEl1QnlSUkxKNEZocVpWRkZlNnAzX2dZTHhLSVZJQzlhQTlqODZPU1pTNWJlTjJ3dzdzUVdLdy1tNmJ1SzFFOWFhaE5va3R1NWVaR0UzTUFvblBiTEdVSTlHOTlXenZqNlAwNFR4OEowRzRCOUZLQUpUbzhUazVCaHUtNTM3dnpJTl9pOS1JcDRFeFE3ZDdZdll0dDjSAYQCQVVfeXFMT3QwYUVpTko5QV9aNjk2WTJrdFZLdm1PdXpkQ2Q4TEtrbENxZk9STm5OTTJvSjl4bWExZ0h4cUktelJ2OWJISkJhMzFyMk5FQTJKN2ZiWmx6U3F2eFFaWUNsLXR4MHZxYkxncmVIOXduekppOGtIWm5hZi0yeEVlY3ZhMnA5cERlZnhmbThvSHVjR1FCUkdEdmlELTlZdTNfaENHMnZyLTJQcU1zY09yMW9MU0lTZ2VzZk14OHA5Sl90TG1MQ0tuUDlfQzBCRGNicWFQRWtERFFoYzR4V2E1RzN4cnMyU3BhZEtWd1NlMzVqc2cyT3hEc0VxdXpaZHc4NEdKZWM?oc=5",
@@ -255,8 +287,8 @@
   },
   {
    "title": "OM Postponed: Dhanush Shifts Release To Avoid Clash Rajinikanth's Jailer 2",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWk1TUGpYX1NuT29FTm44ZnZ5UWU0N2c2dHJucTNoQi13Q3NGTFlHRl9kR2tQVlZZeE5saGVTQXlSSEdfUG9STEt5V0FMU2VqWTItcXhFbkxJSVA0bVJOb0hOOXA5MlZZSzVVb2JHaG9OLVYtUkR4NVBWbVd0bFBHSE1iUU1rWlVad25ZYXlHVmtFQTNGM1Rra01ZLVhlMmxEM0hUelM1bmVPdkpfeEZRc3oxdjRIeTJFaDRTM00zWnB2UGdOb3kyaFU4Zy1MTUh0cjc3enlFeXZBUGUwWDhhaUZpZWZZUdIB7gFBVV95cUxOSzRfRklkUXplMU84aEpYQXRTakZ4UUpoWHhXNDN4dmh5VTdXV3RxX3RMNHJfVXBXRS1IaWMxbDlQRjl0b09wRnd0NHplT3ZJZm1maC1EcnpqdEpoZDh1OWFyYjhvRTFOMHRCbDRNblhWcUpiOXdsLVhyeVdsTnEtYUluZ1hZTzBPTDdESVk1OEtHaDNQNEkyUWtZeTlLMUM1d1pGei1FdEtkdWpGVWZBa1ZuM1JzRlJ1ZmV3eTNrVFRZUG9KSUdZWmJfcFZIRVFtREtJOHVwNHFSUHdUZUFiZ0hiNVJhQzBWU1E1eHRn?oc=5",
-   "source": "ndtvprofit.com",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSzRfRklkUXplMU84aEpYQXRTakZ4UUpoWHhXNDN4dmh5VTdXV3RxX3RMNHJfVXBXRS1IaWMxbDlQRjl0b09wRnd0NHplT3ZJZm1maC1EcnpqdEpoZDh1OWFyYjhvRTFOMHRCbDRNblhWcUpiOXdsLVhyeVdsTnEtYUluZ1hZTzBPTDdESVk1OEtHaDNQNEkyUWtZeTlLMUM1d1pGei1FdEtkdWpGVWZBa1ZuM1JzRlJ1ZmV3eTNrVFRZUG9KSUdZWmJfcFZIRVFtREtJOHVwNHFSUHdUZUFiZ0hiNVJhQzBWU1E1eHRn0gHuAUFVX3lxTE5LNF9GSWRRemUxTzhoSlhBdFNqRnhRSmhYeFc0M3h2aHlVN1dXdHFfdEw0cl9VcFdFLUhpYzFsOVBGOXRvT3BGd3Q0emVPdklmbWZoLURyemp0SmhkOHU5YXJiOG9FMU4wdEJsNE1uWFZxSmI5d2wtWHJ5V2xOcS1hSW5nWFlPME9MN0RJWTU4S0doM1A0STJRa1l5OUsxQzV3WkZ6LUV0S2R1akZVZkFrVm4zUnNGUnVmZXd5M2tUVFlQb0pJR1laYl9wVkhFUW1ES0k4dXA0cVJQd1RlQWJnSGI1UmFDMFZTUTV4dGc?oc=5",
+   "source": "NDTV Profit",
    "summary": "",
    "image": "",
    "published": "2026-09-23T16:19:37+00:00",
@@ -265,7 +297,7 @@
   },
   {
    "title": "Jailer 2: Rajinikanth’s film to drop single One Sun One Moon on September 25 with new promo by Anirudh and Nelson",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNU1ZGQ3VvcUplcDVJdUdhUkEwZWp1SlA5UlVQRkFGOHprMDdsT180b2RZVzBMc1dVbGNSUnMzcDRGdC04ckNTaVU5RFhOUXgxLUl1R0NKZ1h3Y3l1T29kZDRMR281Q0RaeDJBSHVRajBNVlVzcFdMSU8wS3UyYlJ6UjBHeG15N0JFc2dHRUx6QTRpcFlvbTIwQ043U0FjZUphRGoxRVFwV183TzJqcEk3bVBpNFdmOFZpUTdBMTdxOHlEcG5HSmpjVUlsUGJjN0ZCODhKeTFLclkwN28wTzhBQTM5a3FpSVpqU0VhNHNyRy1xNjN4V0FvTtIB_gFBVV95cUxPUzlQOG8zS09WcEVnQkRBUThVQ2kzTlc4Wkt2LXFzaW5rOGV5QjFTTjVydUdzMGJ6dk4wTlpkRXBTZ2tDNGNGb2tZeFAyc3hwY0ItTTN1RzF3T2R2VEhLcl92a3NtRldhQWMtZG95MzE5bTVaRTJDdkhXN3lWZXF5Rjd5S0JsOFEzUzdPNW5CZ0xwS0ZmVVA3Nm5MM1p5MXVGeF82UXc1a2hZMGZmTGlGeUNzbXMyZXNydkpGX1BKRkduUXdwS2FGdFlQUHJpN0VOUE1nNVNkNlVLM2d0MHFGWUp2NTNJWWIzaXFPQy1QSURUSDF6V0RSanVnUXF6Zw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPUzlQOG8zS09WcEVnQkRBUThVQ2kzTlc4Wkt2LXFzaW5rOGV5QjFTTjVydUdzMGJ6dk4wTlpkRXBTZ2tDNGNGb2tZeFAyc3hwY0ItTTN1RzF3T2R2VEhLcl92a3NtRldhQWMtZG95MzE5bTVaRTJDdkhXN3lWZXF5Rjd5S0JsOFEzUzdPNW5CZ0xwS0ZmVVA3Nm5MM1p5MXVGeF82UXc1a2hZMGZmTGlGeUNzbXMyZXNydkpGX1BKRkduUXdwS2FGdFlQUHJpN0VOUE1nNVNkNlVLM2d0MHFGWUp2NTNJWWIzaXFPQy1QSURUSDF6V0RSanVnUXF6Z9IB_gFBVV95cUxPUzlQOG8zS09WcEVnQkRBUThVQ2kzTlc4Wkt2LXFzaW5rOGV5QjFTTjVydUdzMGJ6dk4wTlpkRXBTZ2tDNGNGb2tZeFAyc3hwY0ItTTN1RzF3T2R2VEhLcl92a3NtRldhQWMtZG95MzE5bTVaRTJDdkhXN3lWZXF5Rjd5S0JsOFEzUzdPNW5CZ0xwS0ZmVVA3Nm5MM1p5MXVGeF82UXc1a2hZMGZmTGlGeUNzbXMyZXNydkpGX1BKRkduUXdwS2FGdFlQUHJpN0VOUE1nNVNkNlVLM2d0MHFGWUp2NTNJWWIzaXFPQy1QSURUSDF6V0RSanVnUXF6Zw?oc=5",
    "source": "Pinkvilla",
    "summary": "",
    "image": "",
@@ -334,6 +366,16 @@
    "category": "ott"
   },
   {
+   "title": "Second song of Rajinikanth's Jailer 2, One Sun One Moon, to drop on this date",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOFRHZXlVRTBkb2Zpd0hsUDRtREY0SkZFZjhrVFdpM0dGa2JhWEo0V25nQ295aGtSNVpJdkdBY0Q3RVBkZEI4MkN4b2RWR09XWGtWQVZkY1hsdWNMR01URVFoem5xZThuemZVSEZBMmpaSWoyaFBFUkNBem41dzAzVUFUemdObjExdVZrLXhNa3dYSXlhSkxXUzJIMnNINkZyd3JPQXQ3X0JwbkZaMHpkX3NMa1VYM2dvbFRBUlN3LWRsV1VUeHI2cW9wdHpnUnA2ZjNz0gHTAUFVX3lxTE84VEdleVVFMGRvZml3SGxQNG1ERjRKRkVmOGtUV2kzR0ZrYmFYSjRXbmdDb3loa1I1Wkl2R0FjRDdFUGRkQjgyQ3hvZFZHT1dYa1ZBVmRjWGx1Y0xHTVRFUWh6bnFlOG56ZlVIRkEyalpJajJoUEVSQ0F6bjV3MDNVQVR6Z05uMTF1VmsteE1rd1hJeWFKTFdTMkgyc0g2RnJ3ck9BdDdfQnBuRlowemRfc0xrVVgzZ29sVEFSU3ctZGxXVVR4cjZxb3B0emdScDZmM3M?oc=5",
+   "source": "Cinema Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-23T15:09:23+00:00",
+   "ts": 1790176163.0,
+   "category": "music"
+  },
+  {
    "title": "Dhanush postpones ‘OM’ release 'out of immense respect' for Rajinikanth",
    "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/dhanush-officially-postpones-om-release-out-of-immense-respect-for-rajinikanth-and-jailer-2-confirms-film-will-not-clash-with-suriyas-scene-this-diwali/articleshow/134441396.cms",
    "source": "Times of India",
@@ -342,36 +384,6 @@
    "published": "2026-09-23T15:07:36+00:00",
    "ts": 1790176056.0,
    "category": "casting"
-  },
-  {
-   "title": "Dhanush officially postpones ‘OM’ release 'out of immense respect' for Rajinikanth and ‘Jailer 2’, confir",
-   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOdWdmTjYwNlZ0Z1Y3OERpRzd0RDAwSkZxRk1IVmRIeTlZenZjbjhwaWVvZGt2LWJtaXlzZ3VrYmRzS0NHdnIzeHZDU3JadUpVc1ZlWmhqWGxUZm90ZWF5enR0cHRabjRmX3E1ekZOeVh5b1JXZ0JGZnlqSG5mdm1aUVRIOHo5ZzBHSXlNSjBPekVDOFpsVDhHRWlnb2tSRlptRHFfRjMyR29TamtvbkxMTVRsamstdWdXZEFGUHdfSmQ5aWE1X1AzYWdza1lIdmpzMjVkeUhreUw2dXZjVmtTUlJ2MlBxZEZrNHlKTkZXUE5kTVJvOHlSdFRUcWVqQk1XaFFqbWV2QjZiTGdfVTNFSmlZSDd2TVM1VzJiY3FHOUNwcExRajhfcWFSdVg5VTAtaHBpUTcwS3pvTVNGVG5aUVdXczJPMXJIRXNpdXd2Z2dZd1YzZGdVUl92Qk1uRGtCT1h4QW16NEbSAegCQVVfeXFMTnVnZk42MDZWdGdWNzhEaUc3dEQwMEpGcUZNSFZkSHk5WXp2Y244cGllb2Rrdi1ibWl5c2d1a2Jkc0tDR3ZyM3h2Q1NyWnVKVXNWZVpoalhsVGZvdGVheXp0dHB0Wm40Zl9xNXpGTnlYeW9SV2dCRmZ5akhuZnZtWlFUSDh6OWcwR0l5TUowT3pFQzhabFQ4R0VpZ29rUkZabURxX0YzMkdvU2prb25MTE1UbGprLXVnV2RBRlB3X0pkOWlhNV9QM2Fnc2tZSHZqczI1ZHlIa3lMNnV2Y1ZrU1JSdjJQcWRGazR5Sk5GV1BOZE1Sbzh5UnRUVHFlakJNV2hRam1ldkI2YkxnX1UzRUppWUg3dk1TNVcyYmNxRzlDcHBMUWo4X3FhUnVYOVUwLWhwaVE3MEt6b01TRlRuWlFXV3MyTzFySEVzaXV3dmdnWXdWM2RnVVJfdkJNbkRrQk9YeEFtejRG?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-23T15:07:00+00:00",
-   "ts": 1790176020.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Second song of Rajinikanth's Jailer 2, One Sun One Moon, to drop on this date",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Sep/23/second-song-of-rajinikanths-jailer-2-one-sun-one-moon-to-drop-on-this-date",
-   "source": "Cinema Express",
-   "summary": "Jailer 2 's production banner Sun Pictures announced on Wednesday that the second song from the Rajinikanth starrer that is titled ' One Sun One Moon ' will release on September 25, Friday. Kalanithi Maran's production banner made the announcement with a quirky video, where the…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-09-23/82jnh0l6/Jailer-2.jpg",
-   "published": "2026-09-23T14:55:37+00:00",
-   "ts": 1790175337.0,
-   "category": "music"
-  },
-  {
-   "title": "Jana Nayagan leak: Goondas Act against editor quashed",
-   "url": "https://www.dtnext.in/news/chennai/jana-nayagan-leak-goondas-act-against-editor-quashed",
-   "source": "DT Next",
-   "summary": "CHENNAI: The Madras High Court has quashed the Goondas Act detention order against a freelance editor arrested in connection with the alleged leak of Chief Minister Vijay-starrer Jana Nayagan. KVN Productions had lodged a complaint as parts of the movie were illegally uploaded…",
-   "image": "https://media.assettype.com/dt-next/2026-04-15/396f5ymq/1-6.jpg",
-   "published": "2026-09-23T14:26:26+00:00",
-   "ts": 1790173586.0,
-   "category": "buzz"
   },
   {
    "title": "Kamal Haasan calls for ‘justice without mercy’ in R Veeramani POCSO case: ‘Such an incident must never happen again’",
@@ -434,16 +446,6 @@
    "category": "box-office"
   },
   {
-   "title": "Dhanush reacts to question on his political entry",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/when-are-you-going-to-start-your-political-party-dhanush-smiles-and-laughs-without-confirming-any-plans-to-question-after-national-award-win-for-raayan-and-captain-miller/articleshow/134439356.cms",
-   "source": "Times of India",
-   "summary": "After bagging double honors at the 72nd National Film Awards, Dhanush returned home with a smile and a knack for humor. When pressed about potential political aspirations, he playfully sidestepped the topic, igniting speculation among fans and reporters alike. While he shared…",
-   "image": "https://static.toiimg.com/photo/msid-134439363,imgsize-171718.cms",
-   "published": "2026-09-23T13:18:07+00:00",
-   "ts": 1790169487.0,
-   "category": "buzz"
-  },
-  {
    "title": "Hi OTT Release: When and where to watch Nayanthara, Kavin starrer romantic comedy film online",
    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWXhfYkhUNEFjZl9Xc3dzOEpFN3hOSkJwbDh3aGpqNFVOMnBHTndBeDh2dEpjVWtBMXdmWXJ4UlFGckxjREdaXzA5TFBZWDlwbWo1c1JJWG5SbFZYcmlwSnBiMTI0UGxUcG5Lc2pUemhhak9VajFBLXd6bERua0tUUEJBNEdIZXpCdXk2ZEZsWDQwb29Ba3BWczhjY3VuV0h2U1UxblBvaFNFaHh3bmMzV2Q1MnJrbno3aFdQMXpEb29wVUdDakdZTzFCdWc1ZlowRTdCS0lDQTBEUk1iaFHSAeMBQVVfeXFMTjFuUGNTeFU5azhKZ1I0QlE4S2RJdW4zTnMydUxnMEJwTUdsc1dTc2V4WHI2T09lR0M1OGlMbjc1MkhQejBGbnU5T3NNZkRvR0hZOHRJUEZaZEFxUGwxelZTQW9saXZCOGh2Y1FJbHhYbzh6OHRuM3hRckhuMTlldkJwMm95Yl83bXMyQjF5ajZqbzdXa0tJQnRiY1BrUzFudzVSY2hRaXNYcERubDJvcHZEcmpGbEpQN3RYbVRXSzBfXzBzQzlwX3M0ci11aTlkNUc2Q19HelhWcUZrR0ZNaFo0UDQ?oc=5",
    "source": "Pinkvilla",
@@ -504,6 +506,16 @@
    "category": "buzz"
   },
   {
+   "title": "Kollywood (Tamil) Box Office Collection & Verdicts 2026",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWgyLVFQcW9nbnYzUzBTSnB6d2JFajFTN094TEtLLVVFX2V6RENMVjVqV3ZiVm03aGgtUHpTb2JpekNJSXBuZnlMdzZkMUp2cG5vVWV6OVJnN1JZZW5RYUJaMjVFSXpQc1RiQTNUTzBmWG0yS0ppMHV0UnpIb3l0VVNuM1NUTnpLZTZsbDFFT2o1SHYyRDNV?oc=5",
+   "source": "Koimoi",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-23T11:02:59+00:00",
+   "ts": 1790161379.0,
+   "category": "box-office"
+  },
+  {
    "title": "பைத்தியமான குணசேகரன்.. சாமியே அவருக்கு முடிவு கட்டிடுச்சி.. எதிர்நீச்சல் தொடர்கிறது!",
    "url": "https://tamil.filmibeat.com/television/sun-tv-ethirneechal-thodargiradhu-serial-september-23th-2026-full-episode-review-184543.html",
    "source": "Filmibeat Tamil",
@@ -511,16 +523,6 @@
    "image": "https://images.filmibeat.com/ta/img/2026/09/1-76381790159782.jpg",
    "published": "2026-09-23T10:37:03+00:00",
    "ts": 1790159823.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Kamal Haasan appreciates Mandaadi team, including Soori and Suhas",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Sep/23/kamal-haasan-appreciates-mandaadi-team-including-soori-and-suhas",
-   "source": "Cinema Express",
-   "summary": "Actor Kamal Haasan met the key personnel behind the latest blockbuster Mandaadi , including its director Mathimaran Pugazhendhi as well as lead actors Soori and Suhas. On Wednesday, the film's producer Elred Kumar's RS Infotainment banner dropped a video where Kamal can be seen…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-09-23/ojw5xeku/SaveClip.App793324327184774968521127544315667130981916820n.jpg",
-   "published": "2026-09-23T10:24:02+00:00",
-   "ts": 1790159042.0,
    "category": "buzz"
   },
   {
@@ -646,7 +648,7 @@
   {
    "title": "‘Dorothy’ will make Tamil cinema proud, says actor Keerthi Suresh",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUIwcVRFbjhBZ2VKbklyN00tLTNIelRYSkxzNEFmc0JIeGluSTR0dTF1UUN4aXhnS0t1TWJ0NTRMaEZxVUlMc082aU5vOUlhNXFza0did1E2M0QyVWFQM05LSUxqaDJfUmFIUTM5S0dBVlRhRGhHTHhLNkFuNVdNVU1pT2pLeWdIclI3Nmk5V3ozMUF5T1Y2eVRoMlRxaC1naE1jOTVVNGnSAbYBQVVfeXFMTjFsMDRXTzRaSTFwNFJ0YXowUDMzME9zUFBlb2hDRHF2QnR4dkxhYnljWTRzTnVXR3hURE8tWjN0ZWc0SUNzVmdISWhDcGQtRVFyUTM1bEdVSUJHZGE4RkE3QXhZYVhZQk50bkVXZXd6NFp0dnBLc1NqYmw5eUxlcFlnRk9iVUtLRk1ST0hNbEZSUTVFQUN6OHlDNzdUMGZsM2RILTYxQk82dmNoNF9CQnAzLWV6MVE?oc=5",
-   "source": "dtnext.in",
+   "source": "DT Next",
    "summary": "",
    "image": "",
    "published": "2026-09-23T07:27:13+00:00",
@@ -766,7 +768,7 @@
   {
    "title": "Mandaadi Movie OTT Release and Platform Updates – Netflix Secures Digital Streaming Rights of Soori Starrer Film",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFazNyZUQ2bzJ6c090T3BoelluSC05QzJCM0dQRlhBNVl4dDUtak5HRXYxV1VlVUtndGNERUNOdU5NdDd2aHlFN1dVSVNqVmNLN2ZyZHRxUDZzS0hMY1NqeGxqSWdKbXVwUGlF0gFwQVVfeXFMTUFOWldVa2loTHpwTllRWmkwdlhJY2dRckxUbFBjbmxfcHVtLVc4ZE5jVmVvV211V2lYSS0wREdDNG5CUXdkNWVVQ2YtMmFvNHNzeklLVm1adkxoQkFfVDFEV0RsNVVSUnhSNF9FVktfMQ?oc=5",
-   "source": "Kerala TV",
+   "source": "keralatv.in",
    "summary": "",
    "image": "",
    "published": "2026-09-23T04:36:35+00:00",
@@ -834,16 +836,6 @@
    "category": "buzz"
   },
   {
-   "title": "Vijay Sethupathi’s ‘Baththa’ to release in theatres on Oct 1",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zQkpqUEpRSEphb2RlNUMxaWNYWGVXbjdxTF80UlFMVFBFU0dpU0ctSXp6QTFtbUhBeGpRaUpnaV9kTHdZS05mUlo2ZGlZTWlVcjVPLVFMS0JTdFlCaGJTMG95aDQxaEpncXkxQW1UTnVhRFlod1lsbFAzUm5wM1U?oc=5",
-   "source": "indianbroadcastingworld.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-23T00:30:39+00:00",
-   "ts": 1790123439.0,
-   "category": "buzz"
-  },
-  {
    "title": "'Mandaadi' box office collection day 13 vs 'Sardar 2': Soori's film reaches Rs 93.40 cr India gross; Kart",
    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQSnd3OVJiQ1lSdExCVW9MRXVIQ3FLZ3VlZmtvc0ZTbG9LX3VfaWNLVWxrT3lva1QtbWIxaWktcGpiM2doajZNNTdIQ3dydjJwSEwyemR5T01JYVB6RGdPMzlNZ2xoM19VWlVLajcxUDJyelEwYzdOSUc1dmlIS1NkdkFGTlR1cjdiMl84VF9rVUI2V2JKMndHdjFLR0E2dFpBUUhjTTZrLThtRVhGdENrbmZGWXVubWpsekhLT25jMDZYM3h2UFJRV0FNWHlvVTkybDU5WGNJNFpxUURMSzAzRGFaQldXYkl2VXNxcWk3ZHJYQmZqWjNXaHZFdUlEOTlxNnltMnpXUlVtdV85cy1nZjkwSi1lVW5DaklKaTVMS0MyNjlGNVhVQVN2dmdINzI5X3phYmxDclExam8ya3pGdG9sQUhxVUFHM3FNN3lhS2NkQdIB1wJBVV95cUxOYTliVk4zTmowV2NqSndCbFp4UjFBZ2VfYjNhZ3lOVm9jTV9TN3BIbzlsZ1cwV01MMEt3UjdXejVDM1FxMmx0Q3BRTkNuNXlXaXNpQjc2WEtsQ0FKajgxUW1pZGo5bHN2eGxOSEtQQUQtRHJpV2NJVzhyalVjeng3TmswdTF1RVpnTEtqVXVUNzBDQ0tpVTc5b05oLU10eHJpWVB0eGJ0RlJxSmFySjFMSGdBc2U1R091dVAwWDIweWE0N3p4cG1NY2JLY3BKRVp0RmRuTmNRdlBGd3dlQ0VGUmlQWmlaVnA2TjBrWlJ4VUxSNnB6VjY4OFJndndxcHdDZEpLTS1vTUlVSmlSbU9FQmtERUV4dXZTc21KUk9WcnR5Uzg1aEpQa0ZjcmUzeTBfX3YtQm9hYVhPalhMa3AzeE00Y3ppTklhNjRCNU91M0RPTHMzclFB?oc=5",
    "source": "The Times of India",
@@ -856,7 +848,7 @@
   {
    "title": "Mandaadi OTT release update: When and where to watch Tamil sports drama which has crossed Rs 100 crore at",
    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOS3owRzRfSDFueVJiMTlGT0pBNkxBNGwweXl5MEtWODdSWFhJTHpESGpmelYxQ2ZmZ1ZCZzMzb25fS05iaGZ1Z3dUYWhoTUw1c2RNaWJDS2tTT2pIc2I0OEt6UVE0WHZOQ2w5emdqN0l6M09Jek11RWpNZ1Y0NkJLeU9qVGsxRmZYbXgtOTE3MHA4SE5pNFFTN191WU1xWW9JNEE3SmZ6cnREUmxNZTFhTVYyRndIZEx5dG5ZeXlKcUxwTE04TzRldGNwUml0Qm93NlVlZDVORjJFLWZ6TXpSS2ZEWWtoV2FYYXdYT2t4a1JnY1lsc2tsWXc3YTdDRzFBd0Zlalo0LUJvVDZsZjU2YmVIeks2QdIBmwJBVV95cUxNWEJkdjJsU2k3X1hvNy02UERaSVRYRC1hR3p5QzJHM1J3OXRYY2NzbWI0eTRESWZTYzdOYzMtU0FyMkQ3VEVJTWhoLUZqRUxGejUxU3haNDMxXzZ6bE40Mld4TFl4dW5mcTBOdGtIekozeUdMM1V3RldDalVFLUxVR3JQYUJHeW9nLUxFLWMxaGRxWC1ZVENZYVMxWEtsX0dadEpWNE83NmVIWU1mUDA4bl9CME43Rk5DVElMQW4tWk1oYkktd3J6Y3VURDhPN2R2N1N3MHd1bVduSnNKWVpEUm5kdDdMS0kzVlFDbjhwQlNNdkJFQmV5VUdfNVczbFBGdzlUYXFZM2RUWXhRV2RnNktETXNKdUwwVEpj?oc=5",
-   "source": "The Economic Times",
+   "source": "economictimes.com",
    "summary": "",
    "image": "",
    "published": "2026-09-22T19:15:43+00:00",
@@ -902,16 +894,6 @@
    "published": "2026-09-22T11:43:11+00:00",
    "ts": 1790077391.0,
    "category": "buzz"
-  },
-  {
-   "title": "Kollywood (Tamil) Box Office Collection & Verdicts 2026",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWgyLVFQcW9nbnYzUzBTSnB6d2JFajFTN094TEtLLVVFX2V6RENMVjVqV3ZiVm03aGgtUHpTb2JpekNJSXBuZnlMdzZkMUp2cG5vVWV6OVJnN1JZZW5RYUJaMjVFSXpQc1RiQTNUTzBmWG0yS0ppMHV0UnpIb3l0VVNuM1NUTnpLZTZsbDFFT2o1SHYyRDNV?oc=5",
-   "source": "Koimoi",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-22T10:55:08+00:00",
-   "ts": 1790074508.0,
-   "category": "box-office"
   },
   {
    "title": "Sivakarthikeyan joins South Indian Film Writers Association as a lyricist",
@@ -1016,7 +998,7 @@
   {
    "title": "Toxic to Agadha: Watch these latest Tamil, Malayalam, Telugu and Kannada OTT releases on Netflix, JioHotst",
    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNRGh4cnhWNUFPRVYtdlJ2YWVaVTVDMDlqMGEtRVFxN25SRENMM3IwV3B4dlExZkVqYnQwMERfdjZvWFc2OWVSbnBXak8zbVhWc0pPRUxiX1VOWEhZSG9HQVBCYUhjMFdiYW5QcXRBc2stZENoTmxKbmhqRkt3Y1U3YkxqVFd1Z2RTOHFwSGdLcXlVd0NpbzFZWWFVQUd3NGRJanhheHg2N3lxTE9WWVdqQWt2NjNSQmxFWTZqWkRVZ2tlOUdMUGc1Nm9ZX3IzLW92bnJQN2hiQnl4bG53OHBsbjBsUU0yVzd0NUxDcVdsTTdxeTRvaUc4T3k2TU1QN2RTTWowSk45T0xpSmdYQTJCTm4xQnVmNF8wMUN5UXZkRGp0aG_SAagCQVVfeXFMTkpiQklWWmhsNU1WQkJsd3NxWjlpSGxuNzZwV041QjB0WGVlOFBZOEpGVWowb3l0MmJBUmlTLWllOTZSR3dJbjF5WmRjYTNQUGoxNmctRHo5Rk5TbTI1UWpsMmlpN2J2S1BUY2cxYUtRVzVWQW1rY2V0UFNGMFBkOGgtWHIxWVVZbTl2cXhYUDBVOTFkdVdmM18yQ1RwN2hvVGFQNnNKMUVEQ0ExWFNfVG1HLUJPS1dpOW9GODFFcW5iYWFaV3ZUSzh4VDlaaGVTZWNtdjVyYkpaVkk2d1hPalYtYkNNMTBLeE5Sc3FsZ3BiaFZ0NTlsaHpwTHlyak9kOTh2UTBlR3hVU01sZkUzM01PbkwzMmxQQXo3OE94c3JEYS1hV1J2Y08?oc=5",
-   "source": "The Economic Times",
+   "source": "economictimes.com",
    "summary": "",
    "image": "",
    "published": "2026-09-22T00:57:57+00:00",
@@ -1086,7 +1068,7 @@
   {
    "title": "Tamil, Telugu, Kannada OTT Releases This Week: Mango Pachcha, Agadha & More — Here's What To Watch",
    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOTGd5bXZ0NTdKYm1EbUZhMzRfTnNER3prRm43RGdzVmFYRnVNNGFXRmdpWGROZTRvOHJtc1lqX1FDTWZLaXZrbVRNTFBSTWFDWlN5X1lveTZRT24wMVY1N0tfb045eGtmNU1mSkxyenR3cmMyYnVNVFZ3MmRrVWt6SzV4a2h0LXNmQi1HTHp0TEs0RnFwVzVfMnRCbDJseWlMYnFGTGNSa1ZoeGl4ZEFFQ2JPVERlUmVNejYxWkF1eVByWC16RkM1T2VxUFM5Wk9jVDQzUDlGaENJYUV0clhCRjNOTnJEM2Y5Tm1ReGJ4RjR1ZTJmaTJfek1EVFhsYmppZXJYb0dtRTNkMkJnWkNv0gGPAkFVX3lxTE5MZ3ltdnQ1N0pibURtRmEzNF9Oc0RHemtGbjdEZ3NWYVhGdU00YVdGZ2lYZE5lNG84cm1zWWpfUUNNZktpdmttVE1MUFJNYUNaU3lfWW95NlFPbjAxVjU3S19vTjl4a2Y1TWZKTHJ6dHdyYzJidU1UVncyZGtVa3pLNXhraHQtc2ZCLUdMenRMSzRGcXBXNV8ydEJsMmx5aUxicUZMY1JrVmh4aXhkQUVDYk9URGVSZU16NjFaQXV5UHJYLXpGQzVPZXFQUzlaT2NUNDNQOUZoQ0lhRXRyWEJGM05OckQzZjlObVF4YnhGNHVlMmZpMl96TURUWGxiamllclhvR21FM2QyQmdaQ28?oc=5",
-   "source": "ndtvprofit.com",
+   "source": "NDTV Profit",
    "summary": "",
    "image": "",
    "published": "2026-09-21T10:42:39+00:00",
