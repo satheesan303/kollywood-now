@@ -1,14 +1,15 @@
 {
- "generated": "2026-09-25T21:55:53.127512+00:00",
- "count": 98,
+ "generated": "2026-09-26T00:20:38.516592+00:00",
+ "count": 99,
  "sources": [
   "123telugu.com",
   "Business Standard",
+  "Chennai Patrika",
+  "Cinema Express",
   "DT Next",
   "Esquire India",
   "Filmibeat",
   "Filmibeat Tamil",
-  "Google News",
   "Gulf News",
   "Hindustan Times",
   "IndulgExpress",
@@ -23,18 +24,17 @@
   "The Economic Times",
   "The Federal",
   "The Hindu",
-  "The Hollywood Reporter India",
   "The Indian Express",
+  "The News Mill",
   "The Times of India",
   "Times of India",
   "YouTube",
   "Zee News",
   "altbollywood.com",
-  "chennaipatrika.com",
-  "cinemaexpress.com",
   "cinemaspeak.in",
-  "sacnilk.com",
-  "thecommunemag.com"
+  "hollywoodreporterindia.com",
+  "thecommunemag.com",
+  "thehawk.in"
  ],
  "images": {
   "total": 36,
@@ -47,7 +47,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.14
+   "seconds": 0.22
   },
   {
    "name": "News18",
@@ -55,7 +55,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.14
+   "seconds": 0.12
   },
   {
    "name": "Cinema Express",
@@ -63,7 +63,7 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.32
+   "seconds": 0.33
   },
   {
    "name": "Hindustan Times",
@@ -71,7 +71,7 @@
    "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 0.26
+   "seconds": 0.13
   },
   {
    "name": "Indian Express",
@@ -79,7 +79,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.1
+   "seconds": 0.15
   },
   {
    "name": "The Hindu",
@@ -87,7 +87,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.39
+   "seconds": 0.41
   },
   {
    "name": "Filmibeat Tamil",
@@ -103,7 +103,7 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.26
+   "seconds": 0.25
   },
   {
    "name": "Times of India",
@@ -111,7 +111,7 @@
    "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 0.18
+   "seconds": 0.16
   },
   {
    "name": "Google News",
@@ -119,7 +119,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.5
   },
   {
    "name": "Google News",
@@ -127,7 +127,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.54
+   "seconds": 0.48
   },
   {
    "name": "Google News",
@@ -143,7 +143,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.6
+   "seconds": 0.55
   },
   {
    "name": "Google News",
@@ -151,7 +151,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.55
   },
   {
    "name": "Google News",
@@ -159,7 +159,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.43
+   "seconds": 0.54
   },
   {
    "name": "Google News",
@@ -167,32 +167,28 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.49
+   "seconds": 0.6
   }
  ],
  "trending": [
   {
    "term": "Jailer",
-   "count": 11
+   "count": 12
   },
   {
    "term": "Mandaadi",
-   "count": 8
+   "count": 9
   },
   {
    "term": "Dhanush",
    "count": 7
   },
   {
-   "term": "Mandaadi Box Office",
-   "count": 5
-  },
-  {
-   "term": "Vijay Sethupathi",
-   "count": 5
-  },
-  {
    "term": "Rajinikanth",
+   "count": 6
+  },
+  {
+   "term": "Mandaadi Box Office",
    "count": 5
   },
   {
@@ -202,6 +198,10 @@
   {
    "term": "Moon",
    "count": 5
+  },
+  {
+   "term": "Vijay Sethupathi",
+   "count": 4
   },
   {
    "term": "Meesaya Murukku",
@@ -216,19 +216,29 @@
    "count": 4
   },
   {
-   "term": "Baththa",
-   "count": 4
-  },
-  {
    "term": "Review",
    "count": 4
   },
   {
    "term": "Suryah",
    "count": 4
+  },
+  {
+   "term": "Sardar",
+   "count": 4
   }
  ],
  "articles": [
+  {
+   "title": "Sivakarthikeyan's film with director Ramkumar Balakrishnan goes on floors with traditional pooja",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQS2pXc0hScV9VVFctRnN4eTAyemxYT0tncS1kUnpLVkw4d0M2Rl9SLXl1ak9jeUZUdkZwSzc5MFdaa2tPeGsza1JrR3B4a0tHRndBeVd4WXdJYUhzVVVSQ0ZvMzdCTlNESGtyYV96MFJOREwwWnFJcWNsdlJKSzdkWU5vbi1BWXV1YUN0SEt4a1YxQUxfaW5zeEZEYkZMUlNSVkF3ZXFLZUVyRFhuMENWWXgxQkNmYmk3VWFQZEMtRjJIbUFrWFhZZGlNUQ?oc=5",
+   "source": "thehawk.in",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-25T20:01:01+00:00",
+   "ts": 1790366461.0,
+   "category": "casting"
+  },
   {
    "title": "Dorothy Release: Keerthy Suresh And Karthik Subbaraj Arrive In Theatres After A TIFF Standing Ovation",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLW5xSTFVaDZ3VlFqX21Ud0VfVmdOVTZqVEo2Z1VsMkRHNGp1NzAxcGZXak9jdFREZ0p5azZKdW9ENm5fZmFyYl9mN0RZRjZ2WTZZMVo2WjY4QXZxelJPclZKLUZZTndBcW93YXZzWlNpTi1PS0dmSnVYNlNrRDNIMUlvWlFoV0YyamMtSU1ZaTJITnJCX0dlZnZvYVNjajhfeFZibmtkMGQ?oc=5",
@@ -237,6 +247,16 @@
    "image": "",
    "published": "2026-09-25T19:02:00+00:00",
    "ts": 1790362920.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Rajinikanth returns as Muthuvel Pandian in ‘One Sun, One Moon’ from Jailer 2",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNkQ5SWhXZndmOV9zRFJzeEQ5dDJNSTZNYnQzek91c0NOYWdlc3ZUbXpoMVVHcTF0NEFNWlJnVlRqbDVya0EyeWZkSV9JV0k4OGY5a0pPUzdjWlpFZTlLT1BUVnVoQzU0NmRKTDgzYnB1WUhubU10QlFYRmc2Y0tLdks5NXJGUDFVQXNxdE1tc1VIQmRwdnFpMzZIblcyMXNHa1M5TDNmZWtmdw?oc=5",
+   "source": "The News Mill",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-25T17:57:37+00:00",
+   "ts": 1790359057.0,
    "category": "buzz"
   },
   {
@@ -262,7 +282,7 @@
   {
    "title": "Lokesh Kanagaraj's G Squad to collaborate with Mythri Movie Makers",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZUlvLUxaXy1qbE1WeG1OcUlkWVlBMHVQNVpORURJaENFQnpXcWZZUUJJcXhWSW5zbWtZNnpYSHZDM0JNTE1XdmtfMjlRNm1fZzBzdHRTSUZiUGFBanBndE9SNXdEcmFQZkdTWTF6R1NQMktfaEk5aDNBcndidEdOSFEyZXhqWFc4X2xqNU5nWlJ1U3NsV2hzMUdKc0lkYW9oZWVJTUc5dFRwdWVsT2IxTDh0S3ZBMWhhVklB0gHIAUFVX3lxTE96aVgxNHpPcDlpaXZhRkJiZG83VUFTM3pHMFMxdVJ5M3dkQ2gzUmJzTlA2ZkNDcE1pM1FWREFaWW1uRUFVYXFNNGtfajZIUU5WSzM5SUhiMW1MRTZZTGpXMm5VNGJ5ZVhaVDdpWEhGeTZvOWlic05yOThpVk5YdXEwUnJuenAwRElkMEtXNjF3NGdkZHdGcjQ2M2JPZFM5b0dPSk1wVlVKdGNfVlRvYTQ4OVJaVnFscC1CYkdtRHdua1NtOU1uYncz?oc=5",
-   "source": "cinemaexpress.com",
+   "source": "Cinema Express",
    "summary": "",
    "image": "",
    "published": "2026-09-25T15:50:30+00:00",
@@ -282,7 +302,7 @@
   {
    "title": "Mandaadi director's wife reveals 'special reason' behind admiration for Kamal Haasan",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcE9zNHpyT0tsQmhkNXhobWphaXduZGxOejhzYTZkWVY3QXNNUDVyckZ6WlNVNkRtTVFVdnZfTFE0eC1zSTZpSG1oek9LVklIY1pfZWxmLUZVZ2piemNsbUVnSXhYeDFuUUNZampEMXc1YXVNN2RpdW01T2s4Mm9KOVBHcDdNUzBmWk9GUk5UeFFlTnJvZVp0SHNkX0k1NVozNTlVbkxlaklaakd4MThUTzNtRlpDSHd3X3ZuQ053Vlg2Tk94WlRUSmhSUVc4Y0Q1N3I3c0dTbm9RX0xm0gHcAUFVX3lxTE9wT3M0enJPS2xCaGQ1eGhtamFpd25kbE56OHNhNmRZVjdBc01QNXJyRnpaU1U2RG1NUVV2dl9MUTR4LXNJNmlIbWh6T0tWSUhjWl9lbGYtRlVnamJ6Y2xtRWdJeFh4MW5RQ1lqakQxdzVhdU03ZGl1bTVPazgyb0o5UEdwN01TMGZaT0ZSTlR4UWVOcm9lWnRIc2RfSTU1WjM1OVVuTGVqSVpqR3gxOFRPM21GWkNId3dfdm5DTndWWDZOT3haVFRKaFJRVzhjRDU3cjdzR1Nub1FfTGY?oc=5",
-   "source": "cinemaexpress.com",
+   "source": "Cinema Express",
    "summary": "",
    "image": "",
    "published": "2026-09-25T15:00:29+00:00",
@@ -362,7 +382,7 @@
   {
    "title": "Jailer 2's One Sun One Moon is a melodious elevation song for Rajinikanth",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0JMcjBZSkpiQU0yajVFVTdGYUJSZ0VoclBQUzU1S2lIYW8tMkdIcFBlSlUtejEyNTQxa1FTNEE0Wk84T0xGWDRCaXNrbnFtT05LTjd2aDhpX08wTy14eTA5SmhFVm43UTY0THVQLXA0b1BZNDZja2IwZDZHbjdfOGt6U21zS1FxTUNXZlpkMjlJWjlhdzY3VFhZMmN0QU9LaU1mdG93cFFueFlCcHVYbkh0Qk5KT21iVS04NjhUc05FWkHSAdABQVVfeXFMUHptVkQ0b0UxZjBfbHNsdkw4X2FEZDhHaDMtc2JSamtfa05icDZJU0pRYl9DSm9ZM3NldEp2UEo3eGlhbnVDalBqcFVrNFFJX3dPSjlYVWZNcUl1MU4wOVp2YjBDNHZLOXdDSXVDbW1PU081a1FEamg2Z1M3Y2NfdjBDV1FXZXNLcDJyUU11VFE1ajBBWDJTYzBmMnJkekVuT3E2UTRSMjdzcG9pYW1QSzM5OGZwV3BKR0l1QTNVamlGR1FXWVFBRmdXSDFFQ2pRSw?oc=5",
-   "source": "cinemaexpress.com",
+   "source": "Cinema Express",
    "summary": "",
    "image": "",
    "published": "2026-09-25T13:20:52+00:00",
@@ -460,16 +480,6 @@
    "category": "buzz"
   },
   {
-   "title": "Mandaadi Week 2 Box Office: Soori Starrer Grosses Over ₹30 Cr, Down 50% From Week 1, Needs Nearly ₹3 Cr More for ₹100 Cr Domestic Gross",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbE1kVHpVLTdBTTFqMDF2YXhCaC1yR01aVkhGWDZHbGI3QUVXTGh0UnoySm04dlZ6aUQ1ME1JMHZPWFFkdmJkWlU1WmVXWnU4WmR3c2hHYVFMclR6VU5zckhFR1YzeG5fV1VlM0t3aU9kTTNXc294bTQybHZNR3I1Rzd5aEE5TGRUaWlsdTdJem5XRHNXRmhwb1gwNUItWG00XzBhaHpPWjhYdXExS3R2WU96U2E1VC1RdXBRc2EtakZaYkNNSDV2VUtVSkw4bGdDOXdGaFpobW1BOEtxb2hCRlZGRWk1V2VPY1Q1VjZn?oc=5",
-   "source": "sacnilk.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T11:59:05+00:00",
-   "ts": 1790337545.0,
-   "category": "box-office"
-  },
-  {
    "title": "Vijay Sethupathi’s Baththa trailer promises a tale of strength, fear and family",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPa2tLV0NXaHhodnhVdlpfcVVCZlItU0p0eFU0Q09BYmFHLWsxYWY0ZzM2ME5lQnZIUUxVWmFKM05mbnFYZXA4cUlMdE81NWIzNzItS2xoWVZ6OUMwT21oNWlBQi1wNVNtanF2Y1RZTkx2Zi1JcEJJb0NXdENWUmdFVEZvWllwNzhUX3d6SDM0cGxEbUN6di1Kd2FxQ3lvOE13bmVfLWVIUkdGY2p6QkVwNUxCT0UtclhsckdsNkVYSzN6cENqamdSdzU3U2FGZTNreFdz?oc=5",
    "source": "Gulf News",
@@ -482,7 +492,7 @@
   {
    "title": "'D56': Dhanush's Tamil Film With Preity Mukhundhan and Vadivelu Goes On Floors",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcWxvTHpVbnJDbjVTVVN3U21kUkYybEZHWmtIeFdKNUtVRzM5ZENiVzEzSEU2N0tLcGF0djIwc3RTQVEtWWJHeWY1ZE1hamFyVVZQQjFKRGtqdjBWeFhLTUliMXdrRzEtLUIyOVUyUkw4TDhwV1JzZnlwX3NMdjl2eEhHN25ZMEFuZ3BaTDI1OGlTWnNEMG9uMHBxMG44anVscWlsMWxpNXdLRnhHbGRsc0xKOTJWTlE4WVBDa2xZLXkwNWpVYVAwOTNhV1U3WGx3WWxpdVlVTdIB1wFBVV95cUxPcWxvTHpVbnJDbjVTVVN3U21kUkYybEZHWmtIeFdKNUtVRzM5ZENiVzEzSEU2N0tLcGF0djIwc3RTQVEtWWJHeWY1ZE1hamFyVVZQQjFKRGtqdjBWeFhLTUliMXdrRzEtLUIyOVUyUkw4TDhwV1JzZnlwX3NMdjl2eEhHN25ZMEFuZ3BaTDI1OGlTWnNEMG9uMHBxMG44anVscWlsMWxpNXdLRnhHbGRsc0xKOTJWTlE4WVBDa2xZLXkwNWpVYVAwOTNhV1U3WGx3WWxpdVlVTQ?oc=5",
-   "source": "The Hollywood Reporter India",
+   "source": "hollywoodreporterindia.com",
    "summary": "",
    "image": "",
    "published": "2026-09-25T11:55:47+00:00",
@@ -588,16 +598,6 @@
    "published": "2026-09-25T09:37:37+00:00",
    "ts": 1790329057.0,
    "category": "music"
-  },
-  {
-   "title": "Vijay Sethupathi’s Baththa trailer promises action, humour and drama - Mid-Day",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUUFfd1ptalpPQ1JnNDQ2RmxyblFUYzNkMXVubVMtWUtDTXRIVVZnWFdKdFpRcE1RSjNoNEFzX1RMN3M2T3lNZHFNbUdNYXFFU3UxSDQ4TnRuMmVmNlVabWJQSGlVWHhhMktGZF9yYVNVYzRxbXZlMzI4eFEwcDBhZGQ0Rm1Wdnd5ZVl1UG9zc1ZhTmN6dlVmYnhLMTAzRTBaYUxmWENJRmVjUGZDamQtSy1hQ3Y3RzR4a1V2RmpJREdYOUdqbGQ1X3BzaThnOE9TNGpBemZVbjRfd0VHUjgyRGN6NNIB6AFBVV95cUxNb3E5MFh0TUFzeGg4VWVWN3FHZGRkb1NPR0I5d3dBdVk0R2kwbFZVRGdxQWVpUVRybUtxNzVRQU9zajE2MXNsRk1NME5pQzA2U2JVWjdUSlYtNzBBeXI0bnhkZ1VNQ1dESGs1TGJXczNhM0hLUzF3anhWSE1rdEZNNjE2VkxrclVqU0h5Z2lTTEczVF9QSVBDV18yRzAtamdFbDZ1YjZvWHRWWXpXOWp2bUNXVlNFYXRjRnlqZ3VScGpXVzVqeS1Uc2haQVlsQnkyRldUTldKYmVfd2kxSjdOcGQwY0F0VGpi?oc=5",
-   "source": "Google News",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T09:23:00+00:00",
-   "ts": 1790328180.0,
-   "category": "trailers"
   },
   {
    "title": "'Baththa’ trailer: Vijay Sethupathi shines in feared rowdy avatar while prison scene and emotional father",
@@ -952,7 +952,7 @@
   {
    "title": "Tamil cinema celebrates 10 National Film Awards as CM Vijay congratulates winners",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3laVnplaGFJVWhWVkdUUnhISUYwX0FOdm94YWQ1YmcxMElidkw2elpmUUtSRkRVWWJ3TGpWX1VMVUVlSnprZW8xRTgwYzFTUWYwSVVWQ2VYcThSTm1Fb2w3a1pGX2FxTjFSTXNSN1JsRkFlSmhWUlFYUVJjTmY1ZGJHY0lmbnliTkVNS1RSREd3ZF9pQmp5LWozazVDaWRPQ2pGbUdQYnl6RWNLd0Y0SFdlVQ?oc=5",
-   "source": "chennaipatrika.com",
+   "source": "Chennai Patrika",
    "summary": "",
    "image": "",
    "published": "2026-09-24T04:33:32+00:00",
@@ -1160,6 +1160,16 @@
    "category": "trailers"
   },
   {
+   "title": "'Mandaadi' box office collection day 12 vs 'Sardar 2': Soori's film reaches Rs 90.18 cr gross; Rs 77.13 c",
+   "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPeWpxZ1ZIbVI3TzlTRzhTLW1PYm5YTUItUk5HajZqVUxWZ0ZtdXloUnAzX1BtNlF0UWdxOTVyaE8zWEotTTZvY2dYaW1xRDBnMXpiS1htaThJTG8zVWhOeTkxcUZLd21PbEFidUpSdHR2bXhUZzNZcFZyR3YyUTVYdklFRVdIMGdzcG13SXRxUWRkQzNhR1NGaW9LbDd1RHpoREVoMzdqQWU3N0tTZktuQnh4RWlBdmdHUnVBb05zaDFWRTBOVTUzTVVXVHVDVHhZaktBS0tSa3dYRTNNOHRFNmNsLV9fa1VSeHduOFF1NXhPYWJZOVhxZ2R4a3BVQnNodVctYXNqU0lfREpLaFBuZWxfeENpYVpzZWJDSy1YZjNuZVNWRkN1Y1Z6X05Jdi1LY0FLOGFEYWsxRWtDVlB6ek5XOUNITWVZcTJoMWQ1WG1iNGRkZFdheNIB3gJBVV95cUxORzAyM3V0dm5VRWNVekxrbmZldzY4RG5XaGhIUUloWUJRZ1E1M1J6WVIzcXBqLVF4RzB5ckZLNWJYVWdVMnBvenRUYjJSQ0ROblkyZEc0OURja1kyM3daVDI2M3A4VkpfWmE2c01CNXJ6Zl84ZTZyeGJQNXlianVsNjFWRlNQQW15Q3RneHVKZDVsaFFiel9QSjFtWTRKeHJEYzlXNmtReklhOElqQUZLN0Z4NlVGaXlrMWlPTzViZ29ZaHA5ZVZTcFY4a1BZM0JxeHVma1JKOExScS1yUENpQjNaYmpRMDlHTkJMc0tOY1dwMVlTNVpFSzBrUl93eFQ0MzZOdDhZOWFKWS1rLXJsX1dkcVltSU0xaG00VFBjS2JHY0VDZzZRdnVoc0kwTGJJbDBvc1BtWlR0Q0FZc1k0U1QwaFJlYnoyMTliUkNyMjlzbUZDUElLa05VWldIQQ?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-22T04:47:00+00:00",
+   "ts": 1790052420.0,
+   "category": "box-office"
+  },
+  {
    "title": "Hope - Official Tamil Trailer",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLW5iWC0yWmNFTkZzdHZlc1dGMWJydVFSUWlJWnJCdUpSVl81RGY4R3dsbDlJbk5sZ3F4elZlcXdFQzlSTDFJZms1MlpoZkZ0UHZUaDV4clRIRURfaS1GUXhwNjJ2emJIVU1xOE42SXVvX3NYOE5PUGM1eC16cTlTMGtleFI2TDJRa1RTcHBlNkUzVy1XVURwcHFxQ0ZtazFSQmVZQkJtVjFtdFIzXzZ5VjVyUG1ldG1NbUdwcHZrTETSAcYBQVVfeXFMTWJHdVo5Uml4Mm51clZGcGZVNnFqNTllbFlQOFduMTRiYlV6QTJEYkE2VkxOQURPQjU4cnZFVzZicjg1VTB5MWxGT1VkcHZ0dGNMVjJNUkRYTWFRYkNQaG5BVl9IY2ZocFlOT09FSVVaSUJ0N2pJS2JlWTBLRWg1dWRMS2xsSEdhNFNfX3VweGxEY1Zha0RlT1Bqb0hfQmwwTEljSmZPZFpiXzBzb21SSjQzaU05emQ0Skh1MFNCOU43T0czSERB?oc=5",
    "source": "The Times of India",
@@ -1172,7 +1182,7 @@
   {
    "title": "'Gladiators' Trailer: Ajith Kumar's Racing Documentary Gets An Insider View; Shalini and Narain Karthikeyan Share Insights",
    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWUNfblRoLTJDMVlVZ0wtV1RhZk1VMlhuV3Vubnl5ZjlPbFdPeVZNMWZKak53QWE4SEs4NFVtZjhYT0p1ZjQtNVZ5WmcxXy1HYU1pMmh3MDFrelB2QXFPeTVIeVVnV3lnb2M3SG1HOTFTZTRLZEFwVktPV2xyTGV4QmRtcGhoNHNQQ29WTmVmbzk1R3k3OFhjUHA0Q2Q1ZkpxTXBtR2IyVU54aWNOZHlmdjRWREI3a3N6RUxaTmxPQmtWbVVIWFY0RHNNN3JiTFZEOEk4WkIxbXRmd2lmZXZOcXpEbEI3blZEZ0hXbjRCS2tiY3RSZ0xjMng4R3F3elBxRS1z0gGQAkFVX3lxTE1oZGJPcnBYVjlqVE1fQ0FacWxFbTRaNzFXYzNYUl9CVVVJUE9jLU9FWEhCZmwzeDIxU3ozbGVHdE1Wd1hBQzNpWUFvT0hTNkNwd0hTSWFLYnI0TFdoYTRIdjJXYXV2a3ZNemhBcDNSa1pySFliVk55aFNhQVJnT0lHN3h4Zzh2S2xRUS1zcUl5R1ZyOWJXZnh5Wk1ybHBrTktzWXlCdEhnNDhhS1BqOXY2aEJTRWwxelctMUxLRVZBVmRYTFpVMFRzdzJpYzNkdHlhWTY2TmJQZ3lzaGpCdXUyY2VPZ2VzQ3QtRXYyNFJ6WW1ZcnpNSnhQYkxBQTBuZW1iYnAwdVdwY05KLUtNSTcz?oc=5",
-   "source": "The Hollywood Reporter India",
+   "source": "hollywoodreporterindia.com",
    "summary": "",
    "image": "",
    "published": "2026-09-21T08:06:31+00:00",
