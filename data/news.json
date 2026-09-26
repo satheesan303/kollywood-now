@@ -1,10 +1,13 @@
 {
- "generated": "2026-09-26T10:02:40.580790+00:00",
+ "generated": "2026-09-26T14:28:28.170865+00:00",
  "count": 99,
  "sources": [
   "123telugu.com",
+  "ANI News",
   "Business Standard",
   "Cinema Express",
+  "DT Next",
+  "Esquire India",
   "Filmibeat",
   "Filmibeat Tamil",
   "Free Press Journal",
@@ -12,38 +15,33 @@
   "Gulf News",
   "Hindustan Times",
   "IMDb",
-  "India TV News",
-  "India Today",
   "Indulge Express",
-  "Inshorts",
-  "Kerala TV",
+  "Koimoi",
   "M9.news",
-  "Movie Crow",
   "News18",
-  "Onmanorama",
-  "Pinkvilla",
-  "Rediff",
+  "Only Kollywood",
   "Telangana Today",
   "TeluguOne",
   "The Economic Times",
   "The Federal",
   "The Hindu",
-  "The Hollywood Reporter India",
   "The Indian Express",
   "The News Mill",
+  "The Times of India",
   "Times of India",
   "YouTube",
   "Zee News",
   "altbollywood.com",
-  "dtnext.in",
-  "esquireindia.co.in",
-  "koimoi.com",
-  "onlykollywood.com",
-  "thecommunemag.com",
-  "timesofindia.indiatimes.com"
+  "hollywoodreporterindia.com",
+  "indiatvnews.com",
+  "inshorts.com",
+  "keralatv.in",
+  "onmanorama.com",
+  "rediff.com",
+  "thecommunemag.com"
  ],
  "images": {
-  "total": 39,
+  "total": 42,
   "scraped": 22
  },
  "feeds": [
@@ -53,7 +51,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.07
+   "seconds": 0.12
   },
   {
    "name": "News18",
@@ -61,7 +59,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.04
+   "seconds": 0.12
   },
   {
    "name": "Cinema Express",
@@ -69,15 +67,15 @@
    "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.17
+   "seconds": 0.22
   },
   {
    "name": "Hindustan Times",
    "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
-   "items": 5,
+   "items": 6,
    "ok": true,
    "error": null,
-   "seconds": 0.13
+   "seconds": 0.15
   },
   {
    "name": "Indian Express",
@@ -85,15 +83,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.06
+   "seconds": 0.16
   },
   {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/entertainment/movies/feeder/default.rss",
-   "items": 9,
+   "items": 11,
    "ok": true,
    "error": null,
-   "seconds": 0.15
+   "seconds": 0.09
   },
   {
    "name": "Filmibeat Tamil",
@@ -101,7 +99,7 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.07
   },
   {
    "name": "DT Next",
@@ -109,15 +107,15 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.19
+   "seconds": 0.14
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 2,
+   "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 0.06
+   "seconds": 0.08
   },
   {
    "name": "Google News",
@@ -125,7 +123,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.43
+   "seconds": 0.4
   },
   {
    "name": "Google News",
@@ -133,7 +131,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.39
+   "seconds": 0.38
   },
   {
    "name": "Google News",
@@ -141,7 +139,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.46
+   "seconds": 0.48
   },
   {
    "name": "Google News",
@@ -149,7 +147,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.56
   },
   {
    "name": "Google News",
@@ -157,7 +155,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.51
+   "seconds": 0.52
   },
   {
    "name": "Google News",
@@ -165,7 +163,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.37
+   "seconds": 0.44
   },
   {
    "name": "Google News",
@@ -173,44 +171,36 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.49
+   "seconds": 0.44
   }
  ],
  "trending": [
   {
+   "term": "Dhanush",
+   "count": 10
+  },
+  {
    "term": "Jailer",
-   "count": 9
+   "count": 8
   },
   {
    "term": "Mandaadi",
-   "count": 8
-  },
-  {
-   "term": "Dhanush",
-   "count": 8
-  },
-  {
-   "term": "Rajinikanth",
    "count": 7
+  },
+  {
+   "term": "Dorothy",
+   "count": 6
+  },
+  {
+   "term": "Vijay Sethupathi",
+   "count": 5
   },
   {
    "term": "Mandaadi Box Office",
    "count": 4
   },
   {
-   "term": "Sivakarthikeyan",
-   "count": 4
-  },
-  {
-   "term": "One Sun One",
-   "count": 4
-  },
-  {
-   "term": "Dorothy",
-   "count": 4
-  },
-  {
-   "term": "Moon",
+   "term": "Rajinikanth",
    "count": 4
   },
   {
@@ -218,11 +208,7 @@
    "count": 3
   },
   {
-   "term": "Vijay Sethupathi",
-   "count": 3
-  },
-  {
-   "term": "Meesaya Murukku",
+   "term": "Sivakarthikeyan",
    "count": 3
   },
   {
@@ -232,9 +218,191 @@
   {
    "term": "September",
    "count": 3
+  },
+  {
+   "term": "Baththa",
+   "count": 3
+  },
+  {
+   "term": "Release",
+   "count": 3
+  },
+  {
+   "term": "India",
+   "count": 3
   }
  ],
  "articles": [
+  {
+   "title": "Anirudh surprises fans with unreleased song from Rajinikanth's ‘Jailer 2’",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/anirudh-ravichander-surprises-fans-with-unreleased-jailer-2-song-at-singapore-concert-ahead-of-rajinikanths-sequel-watch-video/articleshow/134505510.cms",
+   "source": "Times of India",
+   "summary": "Anirudh amazed fans at his Singapore concert by performing a never-before-heard track from 'Jailer 2'. The excitement was palpable as attendees captured and shared clips of the vibrant song, fueling eagerness for the film's soundtrack. With Rajinikanth, Nelson, and Anirudh…",
+   "image": "https://static.toiimg.com/photo/msid-134505516,imgsize-212335.cms",
+   "published": "2026-09-26T14:13:34+00:00",
+   "ts": 1790432014.0,
+   "category": "music"
+  },
+  {
+   "title": "Anirudh Ravichander surprises fans with unreleased ‘Jailer 2’ song at Singapore concert ahead of Rajinika",
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQRjhGcnpSMmt0RUR2dktzbWlneXAyRm8xUWN3Sld5b1dnMjJ4bzdlejJjNVk5R1hrTGxyNUZJLW9FZTB3SWwzU3hqMTVfaWxncEZhUHlQb1BobFpKa25TV3dNeDRSZmVQT3RQVjBhNTdaRDZaY3NoSE5LZ1dlUUdTMWh5OG5tU3kyUzNSOVpNZEwyUmpFbGFHWTJ2WU9XcGh1bVdYbHMwUjF6SW1pZHNLbjFzM3Q0QXZoN0VYWVdFYUloSHd0U3FsTTBOYkV2OG9YbE9iNjdBNFFIY0c2djlCblEyaE5DQlFhV1IxdjBiNzZZeGMyRGd0ZVRmRnBQOUdka3VVM2dTOXJ3N2lfbzZ4QVF1Q3J5Rk9vTWVLcm1xZHptQ0FkYmJscHZ1Q0xKYVJzMkViMWwwUG1xS3NFVGVFQU1B0gHHAkFVX3lxTE0tdkk4cmNXMmN2U2NBRjBOOTZUckRpV0pJTmpVTXBkVXV6STh3VU5iTmVDRXI4M1haVkdBSkxaYmt0NV9ycUdKcEx2NktxTmc5M216aEdzUDM4WDIwd3pVRzY5d3c4c3luUWRFSDVsbndSME13azJiWklIb1VsX19saEtzZ3lfNmJ2R1RkT0Jyem0xeUhLclJQeU4yaWwwaUk3cmtSeU94UEJtQmQ0MUtreWdfUllyNWE3LTQ0RHdVOHUtM1Q5d2JSQVBQcXF3QnNkUWcySTdrLUpuX0RSYm14UTlBbmd0Vk44cHNNNGQ0bGFSd2gzZ18xQlE1a1BmWXlhNGdlb3VLbWdId1lxazFZTDhuQXdGZGZNZmlORkljOFFIZDNDUmNheExzbTJiVDhGQ0ZOakx2NVR3R1pEU1dNWUJ1ak5CWQ?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-26T14:13:00+00:00",
+   "ts": 1790431980.0,
+   "category": "music"
+  },
+  {
+   "title": "After Vijay, Dhanush and Vijay Sethupathi test the waters of fan power",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcEp4X2FGMTJ5cU1sM0RqQ2dndFRqMVk3anFKMDBwMXFEdHV2ZmY4S1MzLWVXQTQ3QV8xQnIxay1LNDNmZ1VVajRmRXBLak5MMENuMk10Y0V3OFRPb0E0ZHJOdUtzVnNkQWRQUUZfRUQxd2RyZi1OYVJFeHR5VlFIUlFNcmUwRUx1WnlTMEhJVVRuNEN0eWV4MTFPdXBudUFRXzZZUWpySnZoVVVSRWd5TVJBMWg4VE5yS0lRRk9VWXN5emwyUlR2WkY4d04?oc=5",
+   "source": "The Federal",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-26T13:30:00+00:00",
+   "ts": 1790429400.0,
+   "category": "buzz"
+  },
+  {
+   "title": "மாப்பிள்ளை மேல கஞ்சா கேஸ்.. என் பொண்ணை அடிச்சி பிடுங்கிட்டாங்க.. அழுது புலம்பிய நடிகை பிரேமப்ரியா!",
+   "url": "https://tamil.filmibeat.com/interview/actress-prema-priya-emotional-cry-at-police-station-184651.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: ‘தொட்டி ஜெயா' படத்தில் வில்லியாக அறிமுகமாகி, லொள்ளு சபா முதல் சமீபத்திய 'கட்டா குஸ்தி 2' வரை பல படங்களில் துணை நடிகையாக நடித்தவர் பிரேமப்ரியா. கொரோனா காலத்தில் கணவன், தந்தை, அக்கா என மொத்த குடும்பத்தையும் இழந்து, தன்னந்தனியாக தன் மகளை பார்த்து பார்த்து வளர்த்த இவர்,…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/prem1-87261790429261.jpg",
+   "published": "2026-09-26T13:28:21+00:00",
+   "ts": 1790429301.0,
+   "category": "buzz"
+  },
+  {
+   "title": "MrBeast chants 'Jai Shree Ram' at 'Ramayana' event - Watch",
+   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/mrbeast-joins-ranbir-kapoor-and-sai-pallavi-at-ramayana-event-in-mumbai-chants-jai-shree-ram-after-ranbirs-prompt-watch-video/articleshow/134504828.cms",
+   "source": "Times of India",
+   "summary": "As Nitesh Tiwari's film 'Ramayana' approaches its theatrical launch, it targets a vast international audience. The promotional event in Mumbai featured social media sensation MrBeast alongside the film's star cast, including Ranbir Kapoor and Sai Pallavi. Viewers can catch the…",
+   "image": "https://static.toiimg.com/photo/msid-134504968,imgsize-575508.cms",
+   "published": "2026-09-26T12:55:05+00:00",
+   "ts": 1790427305.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Dhanush’s D56: Can This Film Save His Falling Market?",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNelN4TXZLUDJSazNOR2E3Yks3bjlOUUs3cjhvQko5bmxfRWJSUFlWcnRRTDlGY2N4MXRPVDk5X1Q3S2lRYWplRTByUDl6a3pJbUNiV0p4Z3BhT2RXSWUzZXYyaFVxaFhWZlVsOHNCLUhOSV9aQlZWTFUxejRDYWJlRURXS3pDeVdob2diNNIBkgFBVV95cUxPX2JUbDRhOU9SVVlzMEZJNXZIREFLQUtDS0VaYmZ5RTN3dUxHalY4LVNIY09IN2ZidkpqSGxWNGZoblJHSjlqMFRTY3lPZnBDcTdCeC02QXduemlobVdtWkJqZmt4c01ZMGJPbjQtT1preVI5c1lPZjdVR1pGRzRzY2VQbG9xSVRNQnpBa2ZJdERHQQ?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-26T12:38:12+00:00",
+   "ts": 1790426292.0,
+   "category": "buzz"
+  },
+  {
+   "title": "வசமாக சிக்கிய சந்திரகலா.. சொந்த வீட்டையே கொளுத்த சொன்ன சாமுண்டீஸ்வரி.. கார்த்திகை தீபம்",
+   "url": "https://tamil.filmibeat.com/television/zee-tamil-tv-karthigai-deepam-serial-september-26th-2026-episode-review-184649.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: கார்த்திகை தீபம் சீரியலில் எபிசோடில் மயில்வாகனம் புரோகிதர் போல வேடமிட்டு அந்த வீட்டிற்குள் நுழைகிறார். அதன் பின் சந்திரகலாவும் அந்த வீட்டிற்கு வருகிறார். வந்ததுமே சிவனடியின் கையை பிடித்துக்கொண்டு, எனக்காக நீங்கள் இவ்வளவு பெரிய வீட்டைக் கட்டியிருக்கிறீர்க. உண்மையிலேயே…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/12-70361790425906.jpg",
+   "published": "2026-09-26T12:32:27+00:00",
+   "ts": 1790425947.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Mani Ratnam showers praise on Dorothy, calls Karthik Subbaraj a special talent: ‘I am envious’",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/mani-ratnam-showers-praise-on-dorothy-calls-karthik-subbaraj-a-special-talent-keerthy-suresh-rishikanth-sananth-101790424562738.html",
+   "source": "Hindustan Times",
+   "summary": "Dorothy features Keerthy Suresh in the pivotal role, with Sananth and Rishikanth also playing the lead parts.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/09/26/1600x900/logo/mani_ratnam_dorothy_1790424909919_3NRo_1790424910155_lgsL_e2c45382-575c-4936-8c0d-70c730be1452_gyK1.jpg",
+   "published": "2026-09-26T12:32:03+00:00",
+   "ts": 1790425923.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Rishikanth in a Rajinikanth biopic? Modha Rathri star reacts",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNlZpb09NMXNsZWRMb3V6ZGZrUEhzUzV4b1RVZzRoZTlMWkc2NWl1QU5Hd0lZbjZKbXJZZGNTeGtHcll1N1hJY0FHWk1FT21lMnhienNicHZXUEJ3NHpZbFBNVzdNVEpwUm5aOVpqeElYRWVaSllCb2hKdDJhTnJHeVEwcDhjRnhwY05KWS1Hd3dVYVViRUlZTDNSYmtraFZXNWpMRG1vWUZKaGo3Ul9ZV0h1SWFTUGh1MG5yeVQ4WdIBvwFBVV95cUxPNlZpb09NMXNsZWRMb3V6ZGZrUEhzUzV4b1RVZzRoZTlMWkc2NWl1QU5Hd0lZbjZKbXJZZGNTeGtHcll1N1hJY0FHWk1FT21lMnhienNicHZXUEJ3NHpZbFBNVzdNVEpwUm5aOVpqeElYRWVaSllCb2hKdDJhTnJHeVEwcDhjRnhwY05KWS1Hd3dVYVViRUlZTDNSYmtraFZXNWpMRG1vWUZKaGo3Ul9ZV0h1SWFTUGh1MG5yeVQ4WQ?oc=5",
+   "source": "Cinema Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-26T11:54:29+00:00",
+   "ts": 1790423669.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Vijay Sethupathi’s Unique Gangster Drama: Big BO Risk?",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOVlxc05NZG03eE1nWHVjNnVuTkNYb09PdFRHMy1PcDh2aWFjTWJGek9GVHF6YmU4RUhYdjAwaThxd2ViMVJ5bWRnTXc2UFlxSkdKT1RLRnVCOTFMTk1tU3E0ZFJDTmczcDY0dXppNE5ZX1RhLWdDQTNZVENsaHZIVHBfQlFraWpaVmo5d3RDTdIBlAFBVV95cUxQM1BwakV2UFMtT3lVaHVkcjdYNHAtUk82VWZTMW52cGtpNjBmTHFTQ1ZZSDNJa2VyQWd2QXA5Y29fRWtEVHMxejlqdnltWmJ0MVFPVGoxb25rSEx4LWVaVmVQcWhsQWdza1N2RVNtUmd6aVowbUw4czBqT1g3YzJCaUc5QmhaTzZWXzhZa1ZiZ2ZEdzY2?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-26T11:38:11+00:00",
+   "ts": 1790422691.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Dhanush seeks blessings at Palani temple with sons and family",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/dhanush-seeks-blessings-at-palani-temple-with-sons-and-family-after-d56-pooja-ceremony-in-sivaganga-actor-takes-steps-to-hill-shrine-at-6-am/articleshow/134503293.cms",
+   "source": "Times of India",
+   "summary": "Actor Dhanush visited the Palani Murugan Temple early in the morning with his family and sons. He offered prayers following the pooja ceremony for his upcoming film ‘D56’ in Sivaganga. After completing the darshan, Dhanush and his family returned to the foothills by rope car.…",
+   "image": "https://static.toiimg.com/photo/msid-134503308,imgsize-134281.cms",
+   "published": "2026-09-26T11:16:41+00:00",
+   "ts": 1790421401.0,
+   "category": "buzz"
+  },
+  {
+   "title": "After ‘Dorothy’, Karthik Subbaraj’s next to star Upendra, Prabhu Deva and Atharvaa",
+   "url": "https://www.thehindu.com/entertainment/movies/dorothy-karthik-subbaraj-upendra-netflix-movie-prabhu-deva-atharvaa-netflix-movie-dance-form-novel/article71512451.ece",
+   "source": "The Hindu",
+   "summary": "Tamil director’s Karthik Subbaraj’s next after ‘Dorothy’ is based on a dance form and stars Upendra, Prabhu Deva and Atharvaa",
+   "image": "https://th-i.thgim.com/public/entertainment/movies/du9cd9/article71512528.ece/alternates/LANDSCAPE_1200/Upendra_KarthikSubbaraj_Prabhudeva.jpg.jpeg",
+   "published": "2026-09-26T11:13:53+00:00",
+   "ts": 1790421233.0,
+   "category": "buzz"
+  },
+  {
+   "title": "நல்லவங்களை இந்த உலகம் வாழவிடாது.. அனாதையா இருக்கோம்.. நடிகை விஜயலட்சுமி கண்ணீர்!",
+   "url": "https://tamil.filmibeat.com/heroines/actress-vijayalakshmi-moving-to-orphanage-with-sister-184647.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: நாம் தமிழர் கட்சியின் ஒருங்கிணைப்பாளர் சீமான் தன்னை ஏமாற்றிவிட்டதாக நடிகை விஜயலட்சுமி அளித்த புகார் தொடர்பாக இரு தரப்புக்கும் இடையே உச்சநீதிமன்றத்தில் சமரசம் ஏற்பட்டது. இதையடுத்து இந்த விவகாரம் முடிவுக்கு வந்த நிலையில், நடிகை விஜயலட்சுமி எந்த வீடியோவையும் வெளியிடாமல்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/181-21331790417568.jpg",
+   "published": "2026-09-26T10:17:12+00:00",
+   "ts": 1790417832.0,
+   "category": "buzz"
+  },
+  {
+   "title": "போட்டிப் போட்டா போட்டி இருக்காது.. ஷாக்கான தயாரிப்பாளர்.. ஒரே ஓட்டமா ஓட அதுதான் காரணமா?",
+   "url": "https://tamil.filmibeat.com/gossips/producer-totally-upset-and-cancel-the-big-clash-at-the-last-minute-due-to-this-reason-184645.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: டைரக்டர் மீது அளப்பரிய நம்பிக்கை வைத்த தயாரிப்பாளருக்கு கடைசி நேரத்தில் முழு படத்தையும் பார்த்துவிட்டு எந்த தைரியத்துல நான் அந்த ஆள் கூட கிளாஷ்க்கு போவேன் என ஒரே ஓட்டமாக ஓடிவிட்டார் என கிசுகிசுக்கள் கிளம்பி உள்ளன. நல்ல நல்ல இயக்குநர்களை எல்லாம் தொடர்ந்து அழைத்து வந்து…",
+   "image": "https://images.filmibeat.com/ta/img/2026/09/gossipqueens-77711790417652.jpg",
+   "published": "2026-09-26T10:14:32+00:00",
+   "ts": 1790417672.0,
+   "category": "buzz"
+  },
+  {
+   "title": "‘D 56’: Dhanush and Vadivelu to share screen space; film goes on floors",
+   "url": "https://www.thehindu.com/entertainment/movies/dhanush-d-56-vadivelu-sj-suryah-tamil-movie-preity-mukhundhan-d-56-goes-on-floors-sai-abhyankkar/article71512360.ece",
+   "source": "The Hindu",
+   "summary": "‘D 56’, starring Dhanush, Preity Mukhundhan, Vadivelu and SJ Suryah, is directed by Tamizharasan Pachamuthu",
+   "image": "https://th-i.thgim.com/public/entertainment/movies/g7y063/article71512408.ece/alternates/LANDSCAPE_1200/Dhanush2.jpeg",
+   "published": "2026-09-26T10:11:10+00:00",
+   "ts": 1790417470.0,
+   "category": "casting"
+  },
+  {
+   "title": "Chiranjeevi tells Jason Sanjay he looks exactly like his dad Vijay did in the '90s: ‘Why aren’t you acting?'",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/chiranjeevi-tells-jason-sanjay-he-looks-exactly-like-his-dad-vijay-did-in-the-90s-asks-him-why-he-is-not-acting-101790412926280.html",
+   "source": "Hindustan Times",
+   "summary": "At a promotional event for Sigma in Hyderabad, Chiranjeevi spoke about Jason Sanjay and his father Vijay. Here's what he said.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/09/26/1600x900/logo/Jason_Sanjay_Vijay_3_1790413458796_EwL9_1790413466279_kg1C_f94efd0c-830a-462f-b481-9700ea09ebc6_ipBU.jpg",
+   "published": "2026-09-26T10:04:03+00:00",
+   "ts": 1790417043.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Suriya 50 director: Multiple names emerge for the star’s milestone film",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRlp4R1c0bEtRdWxQTE94bkh6TzNHVkxjZUt5YlZkWU1aeFB3ajFSc0JtUXRWVDE1Nm1lRjlWdnMyMlBqcHBWOVBGNE1DOHJ2NW9GUHA4bXBLZHpTandJVzRZamxSYW9kQVlPc1I0ZTNFRERmRk9TekhGQjhKN0Y1V29UMVU5ZExYdlB6LUp4ZHlza3VZb3h6RGxsaDctNU5sOGfSAacBQVVfeXFMUGFwWDZ3YUF6Tm43VHJSN3FJQW5aS0RQb2FVaDJsdFl3XzczVENPQm9GTmJXcnF0ejEyMUZiTUdPQUtoV19RM2F2NjYteERDVDFqMVEyRDF5LVJGX1IyZ1puRWh0NGhhWFpxcXFidjFPQ2I5TkxmWkdzUWpZN3dPQ2RTWEhhNDJYeDVxbHh5RGxYR0hXeXhqOERqWFFXRkhhM2ZQSDVNUFU?oc=5",
+   "source": "Only Kollywood",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-26T09:59:35+00:00",
+   "ts": 1790416775.0,
+   "category": "buzz"
+  },
   {
    "title": "டிரெண்டே ஆகாத ஜெயிலர் 2 செகண்ட் சிங்கிள்.. டோரதி சர்ச்சை தான் காரணமா?.. அனிருத் சொதப்பல்!",
    "url": "https://tamil.filmibeat.com/heroes/jailer-2-second-single-not-trending-in-social-media-like-hukum-184643.html",
@@ -253,6 +421,16 @@
    "image": "https://th-i.thgim.com/public/entertainment/movies/iq8n6y/article71512272.ece/alternates/LANDSCAPE_1200/SK27.jpeg",
    "published": "2026-09-26T09:34:44+00:00",
    "ts": 1790415284.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Dhanush visits Palani Dhandayuthapani Swamy temple with family",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYUhMd1JzbFZyOFlBUWdsbE9OcFBfQUkwbG5uM25aTWhCZmRaRjl3SzZvZk1DbjZpeXZNdlJyZkhGVGZtRlFaLThQbkljTXdsN3pKbTliSks4TFM5dmp5NEs5bk5POHpZN3JFeG9XUWc0YmFLX3U4cjJSbC1QVjBzSWQwb0FWaE9Ka0FESDlzM3kyT29fUmNEM01sUm9kUEpDVU9CZ3docS0tSzBUcTRKc0JINFZSWi13UGVJaTBkTmdobUxiNTItOQ?oc=5",
+   "source": "ANI News",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-26T09:03:00+00:00",
+   "ts": 1790413380.0,
    "category": "buzz"
   },
   {
@@ -276,26 +454,6 @@
    "category": "ott"
   },
   {
-   "title": "Chiranjeevi says Jason Sanjay ‘reminded me of his father Vijay",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/chiranjeevi-says-jason-sanjay-reminded-me-of-his-father-vijay-during-1993-94-at-sigma-event-backs-his-directorial-debut-and-says-i-wish-jason-sanjay-also-achieves-his-goals-as-a-director/articleshow/134500550.cms",
-   "source": "Times of India",
-   "summary": "At the pre-release event for Jason Sanjay's debut film 'Sigma', Chiranjeevi warmly praised the young director. He reflected on the rich filmmaking heritage established by Jason's father, Vijay, and expressed optimism for Jason's future. While Vijay intends to see the film, he…",
-   "image": "https://static.toiimg.com/photo/msid-134500564,imgsize-192545.cms",
-   "published": "2026-09-26T08:16:46+00:00",
-   "ts": 1790410606.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Kalki 2898 Ad 2: Nag sets shoot from Oct 2026 to mid-2027",
-   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/nag-ashwin-breaks-silence-on-kalki-2-timeline-starring-prabhas-amitabh-bachchan-and-kamal-haasan-as-regular-filming-begins-in-october-hopefully-we-will-wrap-the-entire-shoot-by-mid-next-year/articleshow/134500477.cms",
-   "source": "Times of India",
-   "summary": "Nag Ashwin's 'Kalki 2898 AD' won two National Film Awards. The director revealed Kalki 2's regular shoot begins mid-October, wrapping by mid-2027, with no new characters added. Amitabh Bachchan and Kamal Haasan reunite after 41 years, while Deepika Padukone exited in September…",
-   "image": "https://static.toiimg.com/photo/msid-134500505,imgsize-261086.cms",
-   "published": "2026-09-26T08:11:29+00:00",
-   "ts": 1790410289.0,
-   "category": "buzz"
-  },
-  {
    "title": "Mohan G Says NGOs Are Funding LGBTQ+ Themes In Tamil Cinema To 'Erode' Tradition, Faces Backlash",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQS3FoQUk4U05iaGF2QzNyNE5laW5ybzhfWXBwaFUxNERHdGtKQ1M1SjNyUTh0YnFfZXdtLTl2YmdBZFRKSGVCMG5yUFZ6N2hVcDR0UWJHSVUwYmNxN0NGWXpVM3pFTW9DYVhwdW1UbXhVUkV1djJNc0RndHlxNTkzUWFoSkYzdkVDbUNoc0s4R0wxS3BNQUJralFDdzBEMW9vMDJrMXhPSXgxbUk1Z3laZlQyVDBxTjRabDRGYkd0eFlLV1dJZ2pqQmVRUVByVnZrU05ZV2lOVDhScGVTNnNkdlJCMU1vOGZmUHNTYVBLcHozWlXSAfMBQVVfeXFMUEtxaEFJOFNOYmhhdkMzcjROZWlucm84X1lwcGhVMTRER3RrSkNTNUozclE4dGJxX2V3bS05dmJnQWRUSkhlQjBuclBWejdoVXA0dFFiR0lVMGJjcTdDRll6VTN6RU1vQ2FYcHVtVG14VVJFdXYyTXNEZ3R5cTU5M1FhaEpGM3ZFQ21DaHNLOEdMMUtwTUFCa2pRQ3cwRDFvbzAyazF4T0l4MW1JNWd5WmZUMlQwcU40Wmw0RmJHdHhZS1dXSWdqakJlUVFQclZ2a1NOWVdpTlQ4UnBlUzZzZHZSQjFNbzhmZlBzU2FQS3B6M1pV?oc=5",
    "source": "News18",
@@ -308,22 +466,12 @@
   {
    "title": "Dorothy X review: Is Keerthy Suresh, Karthik Subbaraj's film worth your time | See reactions",
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbFhWNmtjOExhdlgwRkl4bjRHRjFBZ1Jya25jM2hqRkVPV21zT1ZtUkVwVXZhN3lXLVZITkZHelUzemZyemRHTUI4ZzF4Q0p4cDhwamwzcWFrZmdkU3dpbUZfaGJzTHJGbjB6ekJSWXFnN182aTZRX1BMX0EwZXJWb3hlZEFqemFBSXpfNFRPUi1UYlIzTkNKSlJQY3VmMWxKNHZ3TTNkckpxUDF1Q0drMWwxU3lCVVZ3Ymkxa2VDQXdzOVFvZU9zbU5xaVdUYW1ieTJRWGcxUnRuVTVDazhnaDRiWl9SXzRwVmfSAe8BQVVfeXFMTnpoeEg5cHdiS2NDRVZxVG8tUVREOUZQVlBRbncwSk96X0lDZVpnZzFBT0hTdkZXS1NOc1NNQ1dBZkpTSWd1YWMycnFvRi1xMHB5REgtMF9vcDA5cWxFaUxHVVpYeHZ5cUE1aU91QVJ6R0c4WC1tc0RLQWYyNktKY29Lakk3ZTl1VGZtX1padXBJeGlCenpaYkZzVC1TNTByNWxqcVlKRXZSajU3UnUyMEVqdVFid0ZDbHd6YmF4emo5dEd2dzdESldvZV9fRW15QmlXSXNhYTJ1UUFlNWZoQzkzZVYweS1URDdsV25HSFU?oc=5",
-   "source": "India TV News",
+   "source": "indiatvnews.com",
    "summary": "",
    "image": "",
    "published": "2026-09-26T08:04:23+00:00",
    "ts": 1790409863.0,
    "category": "reviews"
-  },
-  {
-   "title": "Gangai Amaran on Venkat Prabhu's turn as actor: 'I was the one who wished...'",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Sep/26/gangai-amaran-on-venkat-prabhus-turn-as-actor-i-was-the-one-who-wished",
-   "source": "Cinema Express",
-   "summary": "While Venkat Prabhu is an established director in Tamil cinema, he dabbled in singing and acting prior to filmmaking. Venkat Prabhu was even set to star alongside Pithamagan -fame Sangeetha in a fiilm that was supposed to be directed by his father, Gangai Amaran. The project,…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-09-26/1quehmsf/Gangai-Amaran-Venkat-Prabhu.png",
-   "published": "2026-09-26T07:50:30+00:00",
-   "ts": 1790409030.0,
-   "category": "buzz"
   },
   {
    "title": "Are You Dumb? So Ignorant: Director Mohan G SLAMMED For Claiming LGBTQ+ Support In Tamil Cinema Is Funded By",
@@ -358,7 +506,7 @@
   {
    "title": "LGBT in Tamil cinema funded by NGOs to erode culture: Mohan G amid Dorothy's criticism | 'They ruined North America, now targeting India' | Inshorts",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWjFRZHI1SGRiZW1ZNm9WcW1NTWNaOVNKdFg5TUJqRTZkbTllRko1bUxZbUlLcFV1WGszSG5zdmxfdHhXbTktSlpjR3RRaGJvWEh3c1ZLc2RreWZZWGNPYkpuWm1DRk01MHUySkpwbGZWMFFmb0dKV3Z4c2lpaDBHMFpnX2VuckVOMkRsQ1lpX1JnaGc5M28xSUt6NU1pcjRmSW5fdzNQNnhGbU41bmhEaXBzNm43X1BBQzJBMVZVR2NWZlB0cG8xTHFvTHRkUdIBzgFBVV95cUxQWjFRZHI1SGRiZW1ZNm9WcW1NTWNaOVNKdFg5TUJqRTZkbTllRko1bUxZbUlLcFV1WGszSG5zdmxfdHhXbTktSlpjR3RRaGJvWEh3c1ZLc2RreWZZWGNPYkpuWm1DRk01MHUySkpwbGZWMFFmb0dKV3Z4c2lpaDBHMFpnX2VuckVOMkRsQ1lpX1JnaGc5M28xSUt6NU1pcjRmSW5fdzNQNnhGbU41bmhEaXBzNm43X1BBQzJBMVZVR2NWZlB0cG8xTHFvTHRkUQ?oc=5",
-   "source": "Inshorts",
+   "source": "inshorts.com",
    "summary": "",
    "image": "",
    "published": "2026-09-26T06:57:45+00:00",
@@ -418,7 +566,7 @@
   {
    "title": "OTT Releases This Week: Nayanthara's Hi, Baby Do Die Do",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQko4UWJGdnBmRnExNlVzeEVJTUF3WWVmZmI2blhqclJmbGxKVk5yOGV4c3FmM3dpbDVXaGdzZndGaDJVRTNJMmQ1SGdOMVl6NEJpUWxKbVZualJRbU9Vb0JRblE2YnBBVkNBbTFmTnRhTzZyc1plT2RBbWU2RHlQd2ZfM2UwVGttMjBXZmdIeUNQVGpZUUN3enR0WHZCNEpWcTh3LdIBpwFBVV95cUxPdk92VnVyT0xwcEVBUzV2WEt3eWlTMTRKZmstZDVmWm9hTHpBZ1pTa202NHBZb3N3YzNtT0t4S3JRS2VpNHAweFNkSHdMNUxKUWVRVnVIT3pWU21kZ01xSmVCMlJWeXNFQjMxOXQwbTdkU3llVGwtRmRVTDFHdTVxSVpSSzBqOUpfN19oWEllVnpTN2tId29VY0YyUFVOTlk5TU9WRmZSYw?oc=5",
-   "source": "Rediff",
+   "source": "rediff.com",
    "summary": "",
    "image": "",
    "published": "2026-09-26T04:24:35+00:00",
@@ -498,7 +646,7 @@
   {
    "title": "'Mandaadi' box office collection day 16: Soori film reaches Rs 114.77 cr worldwide; India gross stands at",
    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPVXg4bzlYcXpsblFqNUVldEpoV1JFUUJlNnBzQklOSGFEQlQtT1BKYXd1aG1aWnB6bUgtcy1MVENaMEQ0aE1pb2szYVd4a0h1THlXUWY2RWFHUzdvQ3pCTlE4ZnhiWGlVRXhuWFdZTDRCNWVCU0RxU3JkVFRWeldFRFdqNnkzSm8zUVVDYTVYRmJnQVhHdnhfcUVVV0lndi1GTDFsUDkxRE9vSlU2ZzJPVzhtVjZFRGVQQ0hXNXpCM1R1Wjg4YXJFX1g5QUYySE15RXpVa0ZFLTlCYWxPaFFFT2hTYmpSOWR1ZkJvRGZyZHZfLTJlNDl0VUZOaFI0TGxwMEJrdmQyTWYxU1EwUEc2TGpBclhJQkRKMlV4clNSeWJoYjRSVDl3ellMT1pMUFpO0gG2AkFVX3lxTE1ibjh3dEx4TERtY1hoY3N5WnBqU2d3RjZ1WjRUUHFWQmlBNzdqQ2RuVVhjMEgzVGtxQUtLQlk5NnI5d2hnM090ODdqZnA1VlhhbXIzcUlBUnNCZUJBNEVqRWVMWmZ6QW4tZDdTUkRTNnhPV1RqS1lwN3U3UnQ4ZkswMWZYTU1NTE5xTG5xb3Q4YnVOZ1BwWHk2Yzg2M1pvcEZKeVNYNDJiYTV3Sm9CWmwzR3c4X1FvSUYyQmJpOXNPQlpneHZYaUFVZHlMNlJpbkJkUGNncFdsM1FvaG1YemR4OWtLcDY3WFgzWWNTVVJnN2hpQjh1XzZxZEZ4UGVHVDZJV2FlZS1QY1hiTmZKdlJxNlZraW1QWU9WMTZUVWJxUFpSRk9QRFlPTUNXeUN0TlpBU0NlQmc?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-26T00:55:00+00:00",
@@ -508,7 +656,7 @@
   {
    "title": "'Dorothy' box office collection day 1: Keerthy Suresh and Karthik Subbaraj's film opens with Rs 69 lakh",
    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNYzZHZml3dkVHaUFfQ0RjUHdGR2Q5bDJKZ1k0WjJOVTQ2dnJUN25TQ2JXcmpuYm1HZnEtQ0hCNmxkMTZDaW55bnUyNXVFRlZMSVdWZ2tXZm5pdmlRTlRaS1JweVFScEhNSnZiOVllWThXNXI5cTU1dHNZbEh3QThlYXN5YTFRSmtqYzBaa3FhUk1HbkxJd0hBVEFVM2ZrTzRVMjZKY0RSRFVXM1RmdHNycGpENm9sbU14YVk3bTZ4ZWQ0M2g0azRnenJ2SzhKdkt6RUVCNlJSMGQ3OTM5bEp1S0RJWjUwWmJhVzhjeWczaVl6ZHNzMmFFYmZuR0xxRnJIcDVDMmZBd3ppWWxyOXVMVExxZWV4RExKMWhvbWtHUkEwOURScG5GWThkWm9aOEFI0gG2AkFVX3lxTE5pNHBlU1dQNEhWQ2NGczE0WWlwcjYtTzJERnE1YWgySTYwemNTekV3VlJ1OUppaWhPckozMm55SnlYNTVXek5rQ1BDc3haZWtORUxkVHFsUGZnZHVUVi04VmpOa19YVDR0YXROZGJUTmEtNDRqZ1ppT0lsbjd5SjNxUmotQVBjQm5iejNEQzg0eFRtcDlSX25FLTFCMi1vWkl0WU9UOFpaOWNocm9ta2JwX0JuQmRMcWM5dHNzNV9uSzMxQlhiWi1lbV9wQTdFaGFCQnhFYlZfLVVRY0U2dDlZRXR1eUx5Ni1GRjhFZnVPdFN5c2FKTV9FTkc5WmNWQUVuY0t2ZTRwWU5kRlN4Mk1HUnRuUXRabG5mREhneUpzaFZyeDdOWXlpbi1rcHUwRkdwXzBpUVE?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-26T00:34:00+00:00",
@@ -577,23 +725,13 @@
   },
   {
    "title": "Mandaadi director's wife reveals 'special reason' behind admiration for Kamal Haasan",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcE9zNHpyT0tsQmhkNXhobWphaXduZGxOejhzYTZkWVY3QXNNUDVyckZ6WlNVNkRtTVFVdnZfTFE0eC1zSTZpSG1oek9LVklIY1pfZWxmLUZVZ2piemNsbUVnSXhYeDFuUUNZampEMXc1YXVNN2RpdW01T2s4Mm9KOVBHcDdNUzBmWk9GUk5UeFFlTnJvZVp0SHNkX0k1NVozNTlVbkxlaklaakd4MThUTzNtRlpDSHd3X3ZuQ053Vlg2Tk94WlRUSmhSUVc4Y0Q1N3I3c0dTbm9RX0xm0gHcAUFVX3lxTE9wT3M0enJPS2xCaGQ1eGhtamFpd25kbE56OHNhNmRZVjdBc01QNXJyRnpaU1U2RG1NUVV2dl9MUTR4LXNJNmlIbWh6T0tWSUhjWl9lbGYtRlVnamJ6Y2xtRWdJeFh4MW5RQ1lqakQxdzVhdU03ZGl1bTVPazgyb0o5UEdwN01TMGZaT0ZSTlR4UWVOcm9lWnRIc2RfSTU1WjM1OVVuTGVqSVpqR3gxOFRPM21GWkNId3dfdm5DTndWWDZOT3haVFRKaFJRVzhjRDU3cjdzR1Nub1FfTGY?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQODRDUk80UzB0aTYxTndrTHJEV01Wa1l2ZHp2Zng0bUpLV3NQeFh5aVJjQUtxVmN2WTRiT1hZRFNvVEU4S3c3YkN0R3N4UHplVVZHTHotNFVqNWhoNmIwYk85TEZCTXZLWVdKVTA2UFhPelFpZU5BUGlKNFNqWkhLQ2haZTFZVTczejN5dTE3S0NsN2diY0ZIcXAwWncxcVBIZmV1Q0YzdXRTUzlBbXlXM05uczZkTGZqZXplWjBMZmRKWlBjckthb092SWt0V2vSAdwBQVVfeXFMT3BPczR6ck9LbEJoZDV4aG1qYWl3bmRsTno4c2E2ZFlWN0FzTVA1cnJGelpTVTZEbU1RVXZ2X0xRNHgtc0k2aUhtaHpPS1ZJSGNaX2VsZi1GVWdqYnpjbG1FZ0l4WHgxblFDWWpqRDF3NWF1TTdkaXVtNU9rODJvSjlQR3A3TVMwZlpPRlJOVHhRZU5yb2VadEhzZF9JNTVaMzU5VW5MZWpJWmpHeDE4VE8zbUZaQ0h3d192bkNOd1ZYNk5PeFpUVEpoUlFXOGNENTdyN3NHU25vUV9MZg?oc=5",
    "source": "Cinema Express",
    "summary": "",
    "image": "",
-   "published": "2026-09-25T15:00:29+00:00",
-   "ts": 1790348429.0,
+   "published": "2026-09-25T14:54:17+00:00",
+   "ts": 1790348057.0,
    "category": "buzz"
-  },
-  {
-   "title": "One Sun One Moon: Rajinikanth gets a starry tribute in Jailer 2 new song",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdVA0RXprU2stQmtMNkNKdGdNOHJQR2FfcVYyYzMzLVhGb0FNX0xsMlhIazlqRU5xZWFGYnpzWklOc01STE5HYUJOVzFxWklEUjFyZ2xablc3VTh0Y3NVblRVU21LVGlOS1pjN3V4Vy1zX3pXVWNCMl9LUE5UWEhocEd0bEZFOE1JeDlWTXd5WUlTNzZBR0M2UnUxSmQyUHgtb1kyMHpqR2JOam03ZUdIZHJXeUQ2UF9UZ0NIb1VzLVdKdFZhcy1hcDFxYjNJYlZhS1c1R3RpLUh1VTExeEHSAeMBQVVfeXFMTWNtVUpoR1ctUDJ0dXlBaXU1MjN0N0xCTGtsVDN5NEd0aFgwb3VuMXc0TXhQOTNmeEpWVmoxQ2k0OHl2cDJIc010VjhOYUJTZXhQY2VvckExZUZ4WTRDN0hWRG9QZmFlc1Nua0pWcUFkWnZmTmg1eGdFNk95OEoxV2gzLTc2YmpUNlYyTTBYcmtNUGpHMnI2NThpb1pRZGs5b1pZR0dOdVNPODJ4Mjk3RnZ4WW15RWFlWGhLbVhvQW1QLWc1bUFaUUN0VVNmcVJnRHFaMzN5endwQzRGUTZpd0VGTXc?oc=5",
-   "source": "India Today",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T14:40:55+00:00",
-   "ts": 1790347255.0,
-   "category": "music"
   },
   {
    "title": "Dorothy Twitter Review: LGBT கதை .. 'டோரதி' ட்விட்டர் விமர்சனம்!",
@@ -608,7 +746,7 @@
   {
    "title": "Kollywood (Tamil) Box Office Collection & Verdicts 2026",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWgyLVFQcW9nbnYzUzBTSnB6d2JFajFTN094TEtLLVVFX2V6RENMVjVqV3ZiVm03aGgtUHpTb2JpekNJSXBuZnlMdzZkMUp2cG5vVWV6OVJnN1JZZW5RYUJaMjVFSXpQc1RiQTNUTzBmWG0yS0ppMHV0UnpIb3l0VVNuM1NUTnpLZTZsbDFFT2o1SHYyRDNV?oc=5",
-   "source": "koimoi.com",
+   "source": "Koimoi",
    "summary": "",
    "image": "",
    "published": "2026-09-25T13:58:28+00:00",
@@ -618,7 +756,7 @@
   {
    "title": "Ambika and Radha: From sisters who ruled 1980s Tamil cinema to a Rs 46 crore bitter property dispute rock",
    "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOZ20wNElld3dnd21uOEVFeC12blQ2V1FtNVk5VERwaVUySzlTYVVvMy1JX0JIRzVLOWxNTVhDdHZZaVdWSVIzaHpWSTVsc3Q5alNNaDl6eTdfZTVpbnNtOGstVGZ6cENfdmJWV1ZsUXpQSllRVnJ1c3YxMWJsTUMteERncXFwLTFTU2dHd2RsTGRkYllKd2JmTHNtbWVGRGFSSm9MSl9kaWhuVVVUel9oSE9TRzJ1UUM5UUkyUk5iNExSYThYS2U5MW1pUDd5eldyV2VpNlFEZVlReHhhZzlLWVlSTTRPVURGOWF3OWx4dUNBQWQxa0lBal9zamN5STV5X3dESXJvSDdoYXZQaEdUSGkyYW1vbU5pWXczakxhcDdaVEVHaC1GbnFGcWpCM3VTMTBHUEVyV1hVQdIBvwJBVV95cUxQSFVfOVRia0lKUWlTdE9MbklPNFdEUkZIakpHX1k1UTdxUUpsaXFqckU4d0JFR2RpbGoxU2NNUEUzLVVodUtDS095TmI5bDFCR1RDc2luMk4yd3MwLVFOeXdneVk4Z3BnVy1MRE5tbE9uRWNBV296Z1NaeDVDMG9CUXNlQzFVZjUyRkgyVWotVk0zWGVZY1pmMnpYck9VWnFfaWlzdDJoYnNEWldzR0RtLTFVMEFzRXZMOXRtYkdVdThYc0hrLTZOVzJiM3FDYW5DRzRXdG5sR0E3cWNxMElBaXdtZEtjNkNKaS1taWtYTDBlQi1RTy0tSWxqak5kbXNRYW1qTEs1bXM1bnBZdUtnNmREUnBJdEd2ckRnY2xJcUhFN3lMTTRkVm1DcHNfam02ZkhNR0VGbXY4NV8zYWow?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-25T13:37:00+00:00",
@@ -636,29 +774,9 @@
    "category": "buzz"
   },
   {
-   "title": "Jailer 2 One Sun One Moon: Rajinikanth walks in with style and swag in Anirudh Ravichander’s composition",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRnQyTTRxQmxSSjl3NWlYVGFwbm5FNGZkNHBrY2lyRjR4a21FLTJCaFZYanExN0pER3JyMmNoMDZvei1iX2NDcy1hNjdCWVFJd2lHa2lJb3RFblJodnFMUU5XMERUTndlMXRiY1pLYUlXdUhhUE5iN2VlUnlSX3d2OU9TMEJiRS1RTFYzbm5penNkeV9RcjV2ZjRZeU5haklyRW5nSXA3aXBKVjhPMG5idVBOTmp5NXdNWERIQTJaTzRqd2xySHpBVWtaRVdyLTVCWkV3MGQ5SVRZb1czX1BDYm1VUF82enotczY2bdIB8gFBVV95cUxOMUg0QUIyVHNHM0RTQS1YRUcyb2sxbUFJWUgySmpGQ29sX3hTVTdoVVlrVnJzODRkMjB5LWhPWjhZc0k3aGJ3SEFCVFR3UTYySmNFZnhZRkhNQlFFMUtCNldrTVNVUWhZNWZoRWhoNW44MjFudjk0MzdqRlJSeDhtZlVWc1RqYkZoNXBqTDBndzFRZFA3LTE5bERGQWV2aWRMamRWYTByamFhMnp2eU1Zbk93UDNrVnMxcXJSamZzY3l3ay1vUzJZUnhDYlBmX1ZPMUlhWlNVUVhwSzNMUk5kS0hMUGQ3SGY4dnloSVltbERKZw?oc=5",
-   "source": "Pinkvilla",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T13:27:23+00:00",
-   "ts": 1790342843.0,
-   "category": "music"
-  },
-  {
-   "title": "Jailer 2's One Sun One Moon is a melodious elevation song for Rajinikanth",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0JMcjBZSkpiQU0yajVFVTdGYUJSZ0VoclBQUzU1S2lIYW8tMkdIcFBlSlUtejEyNTQxa1FTNEE0Wk84T0xGWDRCaXNrbnFtT05LTjd2aDhpX08wTy14eTA5SmhFVm43UTY0THVQLXA0b1BZNDZja2IwZDZHbjdfOGt6U21zS1FxTUNXZlpkMjlJWjlhdzY3VFhZMmN0QU9LaU1mdG93cFFueFlCcHVYbkh0Qk5KT21iVS04NjhUc05FWkHSAdABQVVfeXFMUHptVkQ0b0UxZjBfbHNsdkw4X2FEZDhHaDMtc2JSamtfa05icDZJU0pRYl9DSm9ZM3NldEp2UEo3eGlhbnVDalBqcFVrNFFJX3dPSjlYVWZNcUl1MU4wOVp2YjBDNHZLOXdDSXVDbW1PU081a1FEamg2Z1M3Y2NfdjBDV1FXZXNLcDJyUU11VFE1ajBBWDJTYzBmMnJkekVuT3E2UTRSMjdzcG9pYW1QSzM5OGZwV3BKR0l1QTNVamlGR1FXWVFBRmdXSDFFQ2pRSw?oc=5",
-   "source": "Cinema Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T13:20:52+00:00",
-   "ts": 1790342452.0,
-   "category": "music"
-  },
-  {
    "title": "Ramkumar Balakrishnan to direct Sivakarthikeyan in SK27",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzI2TTY2d1ljMDUwRnBKc3NrR0txTGFiSGV2bE9mbzlrZmNZMVVQd1RyYzJueEtsZVAyZmRYcXJNclY3cV93WkxhallfRDV2elpoNUljS1d4NmdSaXVENkg0TTY3WnR5SFpaTUhWWlNnMDlDRkVENnlpMHN6M0p0SjU0RHFOVl9IQmNXQ21IM1JtY3ZSZVF6ZFRCczF5cE3SAawBQVVfeXFMTXVZdVdFSFFzbWV3VlR2THNDcUo0UmlwYjFja3BlektkVUNSRFdXMklsSlNYZkpvTXNtSE9lc0NqcTQ2azk2NjVCd2RvNGFhU1VLSGJVRHFwanAweXVNSTBMR1U1WmpuUkR4UnhhaVMzby1ZRjVBZ0Q4VGh3SWpHazBQNDI1eHBWVzhmTERUTFFRZmxfWGwwbFA1NGt2cG9oYTJFaHdIajNCbUVUVg?oc=5",
-   "source": "dtnext.in",
+   "source": "DT Next",
    "summary": "",
    "image": "",
    "published": "2026-09-25T13:08:51+00:00",
@@ -678,7 +796,7 @@
   {
    "title": "Jailer 2 Second Single ‘One Sun One Moon’ is a stylish Superstar anthem",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYjJQRWN0V1V2U2UxbTZNem5uQ0pvcFlrbGM0TGNqaHhwOWROcm00OTJWdjR2ZVQzdXI3b0Mwa3c2YXBzaWtYZmdVRTltMWRDLUtuckdaWEcwak9NdW1yVE9lNDBBWFBOMUQ0UmlTeGhnSC1Wb2VBdWhvZUVldng2SGF0NEJveVNncGQ5aUgxQXp4OXR1ZG5XeV9TNTJWM18tWG1rQ2ZzVdIBpwFBVV95cUxPYjJQRWN0V1V2U2UxbTZNem5uQ0pvcFlrbGM0TGNqaHhwOWROcm00OTJWdjR2ZVQzdXI3b0Mwa3c2YXBzaWtYZmdVRTltMWRDLUtuckdaWEcwak9NdW1yVE9lNDBBWFBOMUQ0UmlTeGhnSC1Wb2VBdWhvZUVldng2SGF0NEJveVNncGQ5aUgxQXp4OXR1ZG5XeV9TNTJWM18tWG1rQ2ZzVQ?oc=5",
-   "source": "onlykollywood.com",
+   "source": "Only Kollywood",
    "summary": "",
    "image": "",
    "published": "2026-09-25T12:58:46+00:00",
@@ -694,36 +812,6 @@
    "published": "2026-09-25T12:53:46+00:00",
    "ts": 1790340826.0,
    "category": "music"
-  },
-  {
-   "title": "Rajinikanth sent Rs 45 lakhs, worked for free in Pedarayudu to save Mohan Babu’s career",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRm51TEFzeHhIOENWZU5yWGxKX2kwLWdGME11TUd5TXRGX040Wkp1QVBuNHM1Y2dtV3B0T1ExQldhaXVjVUh2WElROS1UV1R0LWNUQ0hYZnRQbm83OC01azZBZEpUSWliMF8yYmFrWUtabHNLczBNeC14VE9CMjNkTnFKWFdpRmdOY2xZWWpmTzkxa3NnXzAxVjJMSTNrVXQxLUtMNjZDb2NvYUJPYk4tU2hUYlVYbmJiZ2tqbk11c1hFVmZ1Zm9leE56RFlGdWZpUk43TTZMMHBaOFU5OHlodXVodS3SAesBQVVfeXFMTXBNTWFWYmctc0l2eXg1LW55cGF3ZkgwYVduNG42elFLRkxaTlgtYXByOU1pM1ROdG5jZTRWX09vV0FKNUk1bWJiVWNpSWlEU1NuT3BwV1RERlZKNHFHM0M2TEZ4QTJ1ZVVfbE1kaEpwbnVSNlR4MzJjakRCNzRvNF81b0hkSzJtVm5adzBXVHplR2pNYm0tRlR3RFBYaW9HTFhKNzdIRTM0QmtITGswcE5fVnlLLVU4MWM0RkFlM1loaXVTZDZrajJ5YVBKRThfRXBlQ1RwLXBmcVpfbkxKeVF4cmtYa3BaSlNfSQ?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T12:44:30+00:00",
-   "ts": 1790340270.0,
-   "category": "buzz"
-  },
-  {
-   "title": "SJ Suryah, Vadivelu join Dhanush’s D56",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOblIzTHlhMDA2NGkyQVNiLUZWcTF0VzVqZ2swTWtQLWMxVTg4c0ZYZUY2MFVnY1RldTRILVhvM1Q1RzlsTDJTR0xlaGJxN1lGTV91QkJPZjA0NWFWQ0JkbWlLRG9pT0F6SVpUQWNWZzdzV3RiYkNFUVVEaEF4bEh2aHpZWl8tUdIBkwFBVV95cUxOTFdUcXIzNmZvTk0xV1RBVDJzZlM5cVlJaVozWlJpcDB6MGJjWUwzcUdqSW5Qb0FUN0Vyd09OZlRLLUpmY1lZLWxMNnZZYURoTnZoMlhfSVBJV0JLdlNhbzIxdWVaZjBNOS1ydUN6NktrdXNtRzZ3QzNQRzJjUGNTU1pGRzZvNTUyaldwdmpkbWdoMUE?oc=5",
-   "source": "dtnext.in",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T12:40:00+00:00",
-   "ts": 1790340000.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Vadivelu clarifies Dhanush fallout after joining ‘D56’ cast after a ‘long gap’, says ‘third person’ cause",
-   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPbGc0LWpUdVhZc05YUUVFMnFaalBQT2ZGb1pQTTRBaWhvbXI0b0h2alhTdFE3RjFYcDBEaWRDZ0d4N2doU00xOEpmTm9vdHV1Vnc5bEQ1V3ZOTkpTb1RYMFZyczZaSG5KT1llTnJNajVIS3ZjQkxmTVdacE1ET01rb1ZOOGM2ajFnb0hJTGh6alRERnQ1THNlb0JXTTlYaExiRU9HRENGUElRZlVRcVV5T2h4YmNic0cxdGhReUtMak5uOGVKdVNGcDFrVTVMb0t5eVl2UWNRUXM0YUNvekNKSHl2ZS1sMFBvbGE3eHJoUzlOemZCMEo2NWZ0Z0lsQ20xX1dmWnlCT2padUE4Q3NWWlBOYVR0akl2R0RTWHRCQmtMV2M1eERzZjdENUZud1VHV2V0bWFpZGxZa2tOTXRQTElaZlhNV2VTeFFUQnZTSnV2UWZMd0MxWmRUWdIB4AJBVV95cUxNcEwyeFpWZ1NlWFRXSVBEN09UUmdTLXNLcGYwYnR5Z19OZTZhUDJOYWNHN0Znd0E1d09RS25SZGJaeDJ2S19WOUxQR242R3g2NzktcEk0d1E5LWdHdWluZW1NejZzblkyRDRyT1o4UXFFWkNqNmgtREE3R1RDLUJZTUdXZHdGUlExUUhDQU9wQXNfWDhmNUFHb0loRk5GbHhTRW5XT19iMDJCZE5sMEpEQWZNd2JhZ19UdXhvZlZHcnFNLTRlMDU0ZV9YTEFlRi1hZlhtVkpyM0xPNVNpR2JLZV9fdHFyVThIX0IwU1VLT25sbUpTTnduR0xmNXZfWFhZZVY1dGZjYWo2S3g1dGxzZUxucktaUDJTVHNiM01ESGpVVGFmSlNQd0VOM1hfUGlzWnE4M2VHb0RkRkhUa3UzVDFNN2ZjanM1VTRhdzFjb1M4NU12dEdEdHlsVFlIMHkt?oc=5",
-   "source": "timesofindia.indiatimes.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T12:33:00+00:00",
-   "ts": 1790339580.0,
-   "category": "casting"
   },
   {
    "title": "Nayanthara's romantic drama Hi releases on Zee 5",
@@ -744,16 +832,6 @@
    "published": "2026-09-25T11:56:41+00:00",
    "ts": 1790337401.0,
    "category": "trailers"
-  },
-  {
-   "title": "'D56': Dhanush's Tamil Film With Preity Mukhundhan and Vadivelu Goes On Floors",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcWxvTHpVbnJDbjVTVVN3U21kUkYybEZHWmtIeFdKNUtVRzM5ZENiVzEzSEU2N0tLcGF0djIwc3RTQVEtWWJHeWY1ZE1hamFyVVZQQjFKRGtqdjBWeFhLTUliMXdrRzEtLUIyOVUyUkw4TDhwV1JzZnlwX3NMdjl2eEhHN25ZMEFuZ3BaTDI1OGlTWnNEMG9uMHBxMG44anVscWlsMWxpNXdLRnhHbGRsc0xKOTJWTlE4WVBDa2xZLXkwNWpVYVAwOTNhV1U3WGx3WWxpdVlVTdIB1wFBVV95cUxPcWxvTHpVbnJDbjVTVVN3U21kUkYybEZHWmtIeFdKNUtVRzM5ZENiVzEzSEU2N0tLcGF0djIwc3RTQVEtWWJHeWY1ZE1hamFyVVZQQjFKRGtqdjBWeFhLTUliMXdrRzEtLUIyOVUyUkw4TDhwV1JzZnlwX3NMdjl2eEhHN25ZMEFuZ3BaTDI1OGlTWnNEMG9uMHBxMG44anVscWlsMWxpNXdLRnhHbGRsc0xKOTJWTlE4WVBDa2xZLXkwNWpVYVAwOTNhV1U3WGx3WWxpdVlVTQ?oc=5",
-   "source": "The Hollywood Reporter India",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T11:55:47+00:00",
-   "ts": 1790337347.0,
-   "category": "casting"
   },
   {
    "title": "ராவணன் இந்த குடும்பத்தோட வாரிசு.. கதிர்,ஞானத்திற்கு அதிர்ச்சி கொடுத்த ஜனனி.. எதிர்நீச்சல் தொடர்கிறது",
@@ -806,9 +884,19 @@
    "category": "music"
   },
   {
+   "title": "'D56': Dhanush's Tamil Film With Preity Mukhundhan and Vadivelu Goes On Floors",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMC0zWG0xUV9WV0h5ZWUtaGxRakdBQktvNE9nNVhZSG5TV2dBRWlGWlBwQ1RqVUZPc3ZnclZIejl2ZHU3STlFRGlLMUpob1JSbHlGQmx2Nml0OTYwc05nYlB6R2JBNnFzcnJ1ZVdnT2dpUEdBWnZ4Y2gzNjE4U2VYRUdMMUI0cl9fSXFNVTNPNXQwNmtqMHRaOERjajBPUXYtM0lSU2ZnTTlZdmpROWRhRURZWVNGSGRkbVl2VnlLMnBfN2JXbl9yVDZ30gHXAUFVX3lxTE9xbG9MelVuckNuNVNVU3dTbWRSRjJsRkdaa0h4V0o1S1VHMzlkQ2JXMTNIRTY3S0twYXR2MjBzdFNBUS1ZYkd5ZjVkTWFqYXJVVlBCMUpEa2p2MFZ4WEtNSWIxd2tHMS0tQjI5VTJSTDhMOHBXUnNmeXBfc0x2OXZ4SEc3blkwQW5ncFpMMjU4aVNac0Qwb24wcHEwbjhqdWxxaWwxbGk1d0tGeEdsZGxzTEo5MlZOUThZUENrbFkteTA1alVhUDA5M2FXVTdYbHdZbGl1WVVN?oc=5",
+   "source": "hollywoodreporterindia.com",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-25T09:19:00+00:00",
+   "ts": 1790327940.0,
+   "category": "casting"
+  },
+  {
    "title": "'Baththa’ trailer: Vijay Sethupathi shines in feared rowdy avatar while prison scene and emotional father",
    "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxNbGZIeGpya1UtbHE2RFJQZEl4ZDE4Nk43WDhEODhOcVJKVEpZYTVOakxZcTFMUkRzVFZVekZGRTRVMkRTVGdPVHBBaFk0a2I2MHF2LUZ6eGdMbGt5RU5UZHdpZnlrNF93RVM3ZVFESU1PVmFZY0JZdUxNSjZYbmVMUnkzQS1uSjc4SWFOeHRMcUlTaWVEOGNDVl9lSk50ZHZ5QTJ5dVRSWXpQRVp6bnRPSDA1Rk9vbno4dnVrY2F6X3JzX0FwY2tEeW0tVWtCa3FaZmhrUFphREpxRVUxcWVSM2tnd1lRZm1naHhOWlNmaFo0MEtQTVQyaUF0MndKTnFuSmhlZWVDem10WFU1NlFtZG5jalVheXIzVy1mUHFFODZoemNxVXFGVHJESlB5Z2lSeGtiamUtZVkyLWp2UXRoNGtvODA0Nk5fTml3RjVxcUNnX2VuY2p3YWNkWEJXTl9CZ0tIZ2lMeXdBd9IB7wJBVV95cUxNZFFUR3JZdHllLXdwUm1QdWt3dkY5WGMzVEY4V1NZcTFQb1Rld2FkdkpLNkZmVmFsRWdqZTBlNHFJN3NuVDdBNXVxaWNlQUZlZ1EydWxiWW10LUVXRTYxRW9qN09UeG51OXUzWkE0RzlRUVExMEcyMUk2NW9YTTBuYlJmV1FDbE15RldPS2J5dENTTkFTUkIyTXVTa1U3RFg4aDh6SGRwVHF1bTNDS0dtWHNFTi1ENXp1c1Q3am0tOF9sdVFVM1VrQzhrakV1NnduS2phcGhyWGpXM3FzNmtQM3Jzdkt5UDNnS1d5R25kc1VQcUJuYkVhenZnejJXTXlieHBfdnJUS2Z1RXJwRTI0TTVKOFNjMzFqN2taLTdGYjZEZDdjWXJCaTVxT0FqTFZOUXFSdFhfZld3dWVMcUJmU3ZkS0lvYW5zVUtUaGt3NHE4WUlobU5qTy1wYklzOWJxbW5yYTlEdjNGZld2dXVj?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-25T09:15:00+00:00",
@@ -836,34 +924,14 @@
    "category": "buzz"
   },
   {
-   "title": "எங்களுக்குள் கொளுத்தி போட்டார்கள்.. தனுஷுடன் சேர்ந்தது குறித்து வடிவேலு ஓபன்",
-   "url": "https://tamil.filmibeat.com/news/d56-pooja-vadivelu-reveals-why-he-dhanush-didn-t-work-together-for-years-184605.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: வடிவேலு இப்போது தனது இரண்டாவது இன்னிங்ஸில் நடித்துவருகிறார். அந்தவகையில் தமிழரசன் பச்சைமுத்து இயக்கத்தில் தனுஷ் ஹீரோவாக நடிக்கும் D56 படத்தின் பூஜை இன்று போடப்பட்டது. இந்தப் படத்தில் வடிவேலுவும் முக்கியமான ரோலை ஏற்றிருப்பதால் பூஜையில் அவரும் கலந்துகொண்டார். இந்நிலையில்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/pook-21971790320668.jpg",
-   "published": "2026-09-25T07:18:29+00:00",
-   "ts": 1790320709.0,
-   "category": "buzz"
-  },
-  {
    "title": "Nivin Pauly’s long-delayed Tamil film ‘Yezhu Kadal Yezhu Malai’ trailer out",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNekRBUXBKWFRzLU42SEZ0MUJrbWRRNzktV3AyNzhIaEphR0JabE9IeHVjdmhkLXM0WklJanl4eXpKVnFIRUh0RmZMdTBiS0RBd2ZNcVRzTUw3Q3dNcTk1WW5HYm5mQ1lPcUU2ODRoakFxQUgtQ3NNZmw5Z0pvOFVHUnR5aFJSZTd3ZDJtMU1OaHpJdktib3pjQnppSGt2VG9iU0VIcFVEVVhfZWNQeHFnUzF4RE1iZk9LaldsaWc2c19FbUFyeWc?oc=5",
-   "source": "Onmanorama",
+   "source": "onmanorama.com",
    "summary": "",
    "image": "",
    "published": "2026-09-25T07:03:42+00:00",
    "ts": 1790319822.0,
    "category": "trailers"
-  },
-  {
-   "title": "ஐயர் வேடத்தில் மயில்வாகனம்.. சாமுண்டீஸ்வரியை காப்பாற்றிய கார்த்தி.. கார்த்திகை தீபம்!",
-   "url": "https://tamil.filmibeat.com/television/zee-tamil-tv-karthigai-deepam-serial-september-25th-2026-episode-review-184603.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: சாமுண்டீஸ்வரியை போட்டு தள்ள சந்திரகலா, சிவனாண்டி இருவரும் திட்டமிடுகின்றன. இதையடுத்து, சந்திரகலா காரில் ஏறியதும் சிவனாண்டிக்கு தகவல் கொடுக்க அவனது ஆட்கள் ஒரு இடத்தில் கத்தி முனையில் இருவரையும் கடத்துஒரு குடோனில் அடைக்கின்றனர். யாருமே இல்லாத இடத்தில் சாமுண்டீஸ்வரியின்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/13-26021790319105.jpg",
-   "published": "2026-09-25T06:52:14+00:00",
-   "ts": 1790319134.0,
-   "category": "buzz"
   },
   {
    "title": "Singer Pradeep Kumar Joins Kollywood’s Woke Dravidianist Brigade, Backs Calls For CEC Gyanesh Kumar’s Resignation",
@@ -876,16 +944,6 @@
    "category": "casting"
   },
   {
-   "title": "Meesaya Murukku 2 Public Review - மீசைய முறுக்கு 2 பப்ளிக் விமர்சனம்.. படம் எப்படி?",
-   "url": "https://tamil.filmibeat.com/reviews/meesaya-murukku-2-public-review-hiphop-tamizha-aadhis-film-gets-positive-response-music-emotion-184601.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ஹிப்ஹாப் தமிழா ஆதி இயக்கத்தில் அவரே ஹீரோவாக நடித்திருக்கும் திரைப்படம் மீசைய முறுக்கு 2. இதன் முதல் பாகம் கடந்த 2017ஆம் ஆண்டு வெளியாகி நல்ல வரவேற்பை பெற்றது. என்வே இதன் மீதும் ரசிகர்களிடம் எதிர்பார்ப்பு எகிறியிருக்கிறது. இந்நிலையில் படம் பார்த்த ரசிகர்கள் தங்களது…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/addh-41211790318551.jpg",
-   "published": "2026-09-25T06:43:09+00:00",
-   "ts": 1790318589.0,
-   "category": "reviews"
-  },
-  {
    "title": "Why Kannadasan’s words still resonate",
    "url": "https://www.thehindu.com/entertainment/music/why-the-legendary-lyricist-kannadasans-words-still-resonate/article71479932.ece",
    "source": "The Hindu",
@@ -894,16 +952,6 @@
    "published": "2026-09-25T06:33:57+00:00",
    "ts": 1790318037.0,
    "category": "buzz"
-  },
-  {
-   "title": "பத்தா உண்மையில் யார்? கலங்கி நிற்கும் மகள்.. விஜய் சேதுபதியின் 'பத்தா' டிரெய்லர் ரிலீஸ்!",
-   "url": "https://tamil.filmibeat.com/news/vijay-sethupathi-and-lijomol-joses-pattha-trailer-out-184599.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: விஜய் சேதுபதி நடிப்பில், நடுவுல கொஞ்சம் பக்கத்த காணோம் பட இயக்குநர் பாலாஜி தரணிதரன் இயக்கத்தில், இயக்குநர் அட்லீயின் 'ஏ ஃபார் ஆப்பிள் ஸ்டுடியோஸ் மற்றும் ஸ்டார் ஸ்டுடியோஸ் இணைந்து தயாரித்துள்ள திரைப்படம் ‘பத்தா'. இப்படத்தின் மிரட்டலான டிரைலர் வெளியாகி படத்தின் மீதான…",
-   "image": "https://images.filmibeat.com/ta/img/2026/09/baththa1-19131790316340.jpg",
-   "published": "2026-09-25T06:06:05+00:00",
-   "ts": 1790316365.0,
-   "category": "trailers"
   },
   {
    "title": "Baththa trailer: Vijay Sethupathi’s film promises humour, mystery and a larger-than-life character",
@@ -918,7 +966,7 @@
   {
    "title": "'Dorothy' X review: Karthik Subbaraj's film gets intense reactions; Keerthy Suresh's role called 'short y",
    "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxONnlfMWsyNFV5dDBOZU1BaEhocnJMU1FtR0lDRnNSVVUxMjR1SjFWX3pJdVp3TEYtZVUzN2l6SWp4WEhlQzlBM3ZMLXJwZDl0S3JoX2NmUTVsa0QtU2xueTlXOTBGbzIyLWFvRzVzVmNRdGhkdnczZG5scDA0dGRxMUJSRExLTDgwRW42a0pkSXJyaXFjTDJaYzVEcjAyZ09yVGhScm1EYWNzUG80cGZwbTVEcTVteUQ2ZmxQWkJNWTEza0NvMDRxMDdGRnNKUGRkMHJZMjloaHVxMFdic3BPUG9GUHRSMHZkSmlNb0hqemZnWEJHV2VZMS1hN3czZENwUFBZdWhudWltNlFwRU9TVWxWTkZpOWI4cE41cmVRUkQwZWR0Qmkxa3NnUUt0QzExQ180SnE5aU5BWDl2NUlmWl9TeUpCZE4xUHc4RnBhdzdRb1pZV2FNczY1aG5HZ3NmZ2JCSNIB5AJBVV95cUxONnlfMWsyNFV5dDBOZU1BaEhocnJMU1FtR0lDRnNSVVUxMjR1SjFWX3pJdVp3TEYtZVUzN2l6SWp4WEhlQzlBM3ZMLXJwZDl0S3JoX2NmUTVsa0QtU2xueTlXOTBGbzIyLWFvRzVzVmNRdGhkdnczZG5scDA0dGRxMUJSRExLTDgwRW42a0pkSXJyaXFjTDJaYzVEcjAyZ09yVGhScm1EYWNzUG80cGZwbTVEcTVteUQ2ZmxQWkJNWTEza0NvMDRxMDdGRnNKUGRkMHJZMjloaHVxMFdic3BPUG9GUHRSMHZkSmlNb0hqemZnWEJHV2VZMS1hN3czZENwUFBZdWhudWltNlFwRU9TVWxWTkZpOWI4cE41cmVRUkQwZWR0Qmkxa3NnUUt0QzExQ180SnE5aU5BWDl2NUlmWl9TeUpCZE4xUHc4RnBhdzdRb1pZV2FNczY1aG5HZ3NmZ2JCSA?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-25T05:53:00+00:00",
@@ -928,22 +976,12 @@
   {
    "title": "Dhanush’s D56 officially launches in Madurai with Tamizharasan Pachamuthu",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOVZTcnRzdWptWlZMVzhUSUVzZUxYNktyTzFrN1NET2pDUTJrUVYxa2lRdTg2OEFrR3lMVGxkMXIzMFNjY3UxSmI5Z2l1SjB6aklNd3Iza0V0bzRfT0M4SEhUX09Gb05RdXpyTmVCWTFKT3BULThpZTFBREJFcnNxcFgzaF85VTlaZW5TLXZZTzBXTk5YTGVTM1FBdUs3cG9xUy1BWER5dmlsMG_SAasBQVVfeXFMTTlWU3J0c3VqbVpWTFc4VElFc2VMWDZLck8xazdTRE9qQ1Eya1FWMWtpUXU4NjhBa0d5TFRsZDFyMzBTY2N1MUpiOWdpdUowempJTXdyM2tFdG80X09DOEhIVF9PRm9OUXV6ck5lQlkxSk9wVC04aWUxQURCRXJzcXBYM2hfOVU5WmVuUy12WU8wV05OWExlUzNRQXVLN3BvcVMtQVhEeXZpbDBv?oc=5",
-   "source": "onlykollywood.com",
+   "source": "Only Kollywood",
    "summary": "",
    "image": "",
    "published": "2026-09-25T05:06:06+00:00",
    "ts": 1790312766.0,
    "category": "buzz"
-  },
-  {
-   "title": "SK27: Sivakarthikeyan’s next film officially begins with Ramkumar at the helm",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT3RDeGRBaUtwaXBrRVlyY21iR01GYXl2MzBSTUJCVUllaHBUZG05QnVYcUlvZHN1cml3UXFuZ0RHOFo4MGNwczhtc2xWdldHQWxlVEN2S3hTaEIxSWtrUzJjSFJYd0ktZGV6eVVxSnlCTFd3dXBXdWJNeDg5akp2ck0yZ0t6TWwwOU9BeFJSY05KVWJJRWs4M0FHYk5iZGU1WFpsR2JJdU16bnVsSVVN0gGvAUFVX3lxTFBPdEN4ZEFpS3BpcGtFWXJjbWJHTUZheXYzMFJNQkJVSWVocFRkbTlCdVhxSW9kc3VyaXdRcW5nREc4WjgwY3BzOG1zbFZ2V0dBbGVUQ3ZLeFNoQjFJa2tTMmNIUlh3SS1kZXp5VXFKeUJMV3d1cFd1Yk14ODlqSnZyTTJnS3pNbDA5T0F4UlJjTkpVYklFazgzQUdiTmJkZTVYWmxHYkl1TXpudWxJVU0?oc=5",
-   "source": "onlykollywood.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-25T04:47:59+00:00",
-   "ts": 1790311679.0,
-   "category": "casting"
   },
   {
    "title": "Dorothy X Review: What Audiences Are Saying About Keerthy Suresh, Sananth And Rishikanth's Film",
@@ -968,7 +1006,7 @@
   {
    "title": "Hi Movie Now Streaming on ZEE5 In Tamil and Other Languages – Nayanthara and Kavin Lead the Latest OTT Release",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxODBybjdaWDd3WEZoQWYyNHFmT2UzVWVEX0pkNzRvSVI5ZnVCZnJjZXlHVGtLQWZVZi1wYjhZSlBQeGIxYnQ1dEhaVDh6MFgyM2tEUE83OVN3MnNXZkhta0loTFVVTFo0emRaUzB0WVBUUGc4d0HSAXtBVV95cUxQZC1nM3pPT1lGZ281M3lqTHB5QzZDRE45eHpPcG5DS2tiajI5NlZwemh1M2dfN1BGbUM2Qi1lNUhuM2hIaUF5UnNoeTNHLTB0cUZJNFV6aFdTZkttMHBHLXcxQmVkSmpHRURPellzcVlYWHpuYlJfTFNkS28?oc=5",
-   "source": "Kerala TV",
+   "source": "keralatv.in",
    "summary": "",
    "image": "",
    "published": "2026-09-25T01:30:51+00:00",
@@ -978,7 +1016,7 @@
   {
    "title": "'Mandaadi' box office collection day 15 vs 'Sardar 2': Soori film earns Rs 1.61 cr; India net reaches Rs",
    "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQMmprY2xWaTJYZHliVEdDRXVWVHlGNTNvNFZiZ0Q1WHZRTk5jTndVY2xrRUpydjQ4X1RLelI4aEpBTl9ZUU91cjVZeDNEaVRrQklqcV8xcEdodzBjRXJJeFF5eG1hbVJqc09tMEhzZVNIQUJaM3NySjNUREdEeldkVTBIMXR2SU95SDA1Mk92SlBOSHAwM05kNUlNM1hMMWtRdFNNb25WZ3o4LUVPc2xCUmV3d2kyMmNQWkhCNUFtNlMwY1JESUVJdlA0Sml2OTAzaGRCRTNaYVlQT1ozVFZaRG5zT1RJbDZwNUxkc3pYZGFoX2RzVDFubkJyOTNTcGY1dVpFc2E0ODlGY3l6Mm5sQ2xfVm5MTUxtR1lYclR3TXdOTWFvbVlhS1RWdHU1eVVFMXpteWVyT2cxSHlrY3VISVRhMGRETGc0OVBST1RKa1FfQUlzbFJ2Ym9JeWdPb0hRTW9hbkNB0gHrAkFVX3lxTE5YOHZHeU9hVXNhaFNjTzVzdERpMUdSNmRVSUdDeHZWeW1lSXJ3dGtvVHp3d1d0R01FOG1LRmlyVXlidGZvbzdkU29rd3lwVW1Yay05UGVVelBIWGM3VVB3MUo4aHZFc0FzbGpQN0EtVFBHZkJUbHlWVzFWRTVaNk80b0w1dUFNQkdKMkJ0ajltZVgzX0gzcS1CU3hXMzZPbmhYRlQ1QU5iMVgwaWhqOEMxeW5CQzhWOVhKcl9lQk5sbHdXX3BnQnBMRXE4WWhvWmJaaTQ1X1Y3UHBiNHpIcFhTX09xQmhVUGg5NEhQSDE2OC1uWVRZNUZ5ZVFnSC0yTVJDbjBkaHJoOEIwdnBlcTNZOVZNS1RzUDNuTXFobjc5MmNCcWhaYWVvSS1lVFhtWVhxOG1GNGZjNVoyTU5ObThvcmh2NUdRRHdOemc2YzYxQXFyd1ZwMnhrWHpVaXplX01zSVNjVXByRkd4RQ?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-25T01:00:00+00:00",
@@ -1006,16 +1044,6 @@
    "category": "ott"
   },
   {
-   "title": "Mahima Nambiar shot Mandaadi song 6 days after surgery for accident that left her with collapsed face, 20 stitches",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/mahima-nambiar-shot-mandaadi-song-6-days-after-surgery-for-accident-that-left-her-with-collapsed-face-20-stitches-101790248541341.html",
-   "source": "Hindustan Times",
-   "summary": "While celebrating Mandaadi's success, director Mathimaran spoke about the circumstances under which Mahima Nambiar shot the film.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/09/24/1600x900/logo/Mahima_Nambiar_1790248516523_R19e_1790248537601_HnjX_4b9674d0-cff1-4977-ba60-2c3eabd9d810_KeWp.jpg",
-   "published": "2026-09-24T11:51:50+00:00",
-   "ts": 1790250710.0,
-   "category": "reviews"
-  },
-  {
    "title": "Mamitha Baiju’s Next Tamil Film Irandu Vaanam Locks Release Date",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNVVFUmFCNjBRdWJZd3AwX3BLc1M2SlBZdzhBbElLTDFRa2pDa18zeHNXODBnYmpvdlBZVGJUdmgyS0VKQnNJemJRZWpMc3BCUURxVDBJMjIydC0tVlktSVBqRi1FWGlIamhQWEZhTVlWTXJMbXczLXEzZlFsUDF1dkI3ZVNVWVFWMWZXeDdiMGN3dUQ0WXBnTlBTb0dzN2gycHhXZDZn?oc=5",
    "source": "123telugu.com",
@@ -1028,7 +1056,7 @@
   {
    "title": "'A well-earned National Honour': Kamal Haasan congratulates 'Amaran' director Rajkumar Periasamy after Na",
    "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNT25xMU5FMkMtQ080NklWLWVNZ1FRZzB4ZnlxNVZYcFJZbm90RU1kYXpaeUYtekFJajB1cUc2Y2w1T1IwV2JZSTRnNGkxZ2NqMEJrS1RKSHV4RHMtMnV3R0VrNjlMekxJV1F1RTZmQ3FGNWUyWEVvaWNxcWFqZEEwMlBoQjNDU3p4RTRyMWlVVkJKUC1jMm44LURNV1hUc3h5MnV5VFFOUU5mTGg0cGEtS25nRkVuUTcyZVNBbnVTMTN6WFN0bHdWNXRpNFB6NVhYcUJGZ2owVTN1Y2NXcnRNcXd2MWhhRzZGNVExWWF2Y1ZraEFwSERGZkt1WHpRV1NNbkd5Z2tJSUM4MFRPUDVqMkNkT1ZwQURMR0p6RnBDN2xWclJzbWYwbjFkZk00RGowcm53VHZmck1SRk9TN05pdNIBwAJBVV95cUxNT25xMU5FMkMtQ080NklWLWVNZ1FRZzB4ZnlxNVZYcFJZbm90RU1kYXpaeUYtekFJajB1cUc2Y2w1T1IwV2JZSTRnNGkxZ2NqMEJrS1RKSHV4RHMtMnV3R0VrNjlMekxJV1F1RTZmQ3FGNWUyWEVvaWNxcWFqZEEwMlBoQjNDU3p4RTRyMWlVVkJKUC1jMm44LURNV1hUc3h5MnV5VFFOUU5mTGg0cGEtS25nRkVuUTcyZVNBbnVTMTN6WFN0bHdWNXRpNFB6NVhYcUJGZ2owVTN1Y2NXcnRNcXd2MWhhRzZGNVExWWF2Y1ZraEFwSERGZkt1WHpRV1NNbkd5Z2tJSUM4MFRPUDVqMkNkT1ZwQURMR0p6RnBDN2xWclJzbWYwbjFkZk00RGowcm53VHZmck1SRk9TN05pdA?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-24T06:28:00+00:00",
@@ -1058,32 +1086,12 @@
   {
    "title": "'Mandaadi' box office collection day 14 vs 'Sardar 2': Soori's film reaches Rs 111.80 cr worldwide; Karth",
    "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQZjZtUkxZZ3BVMUdYM0VQYkoxbmMwYlRoUlQwRm9ZNnB4Qzd1d29CVDZvdHlnT1I5Q3ItLThhMGVsS09RZTd0bVRIc0dBa25wak1iUE40Q2hLRWZ5ZFktQ09UQmhSWmxZM09CZlNOQmFqN1c0R0FrUmtqSWNZU1ZjeVVCUDlLd3B2c01NUGgxckcyS0g5UFgwZ0ttNlBscjlNLTNtUHgyT1g4NEtlSm10T09pQVhlR0YybnZ3ajBUeThqdDRxNENQeWxfZE5xSExtWC13SnFzUHlHblVNbFlMMFBjRWZIUzVmNEoyWXNtQThNWmRZZDZlZkFyUFYtZW9tMlNHOW90TmVhSnpMMU9ETmxhU0F0al95SFFFY3NkTkJkeVhKN0VXUDhUVHhoYWw0dWVsVEJmVXljWUJaT0JpbHBhV2loY0ZQQy1QWDhrUnZSMm9UNGVuUzUyWkFXRnhZTWVydEZR0gHrAkFVX3lxTE5DOVpIWFJJMVJwaGNfbkVueUxMTjVVSUxwejZSMXBNbXZtVWQwTHBudVJCaE9zWFRzR3U2NTU1M2J4SEdhRFlOWlZQbmJtT1p0ZmxKWEJwX01Kem42QlBucUlZdXhWeEEtdXV3QmpNVmdjNUFfUjNrNFdPakhKODg3WWJkRkhpRi1TOTc1TTJ4MlF1RnQyaktDbzZyZm04VlFUSnAwSEdlcGRWQzItVW42cEhqSVhqSXc2ZklpREJ3YzlCcXZGT2FHMVo4cFNQS2RpWW9aZEF4cjJmRTBHbUhzUVVOdGxORGlJLVpHSHVHMmtWV055d19lenZwZG5sNk9lSXU4c1ZWVVNWdmk1el9rQm5jdGk1eENwWG9SQ19JWjVSejRpRENVRzROb1F4TjZxYTNzYWtIR1QtSUNRRVEzZzU2LW13MVNEVFdZckFZa0ZSY1M4NGR6X0tFZWoyUTg5UzJrSmRoSFVOVQ?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-24T00:25:00+00:00",
    "ts": 1790209500.0,
    "category": "box-office"
-  },
-  {
-   "title": "Vijay Sethupathi's Baththa locks October 1 worldwide release",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ0ZudExxMm5tQzhDcTJxTTN2V2dOR2pWRlpkN2JoQi1VdWpMZkRGbjZobG1OMkFyZEdUZk1RLUNUNkJBSDlLTTdoRDF4UjJlODVUUlpGN1hHNVBRNkVWUWYtV0Z5VzZFT05vcTFkNTAwbGpnemozeEZDWU9DM05UeVlTbnEzWF9ma09TTVc1MzhNdjRYQTJCUUc3N0M?oc=5",
-   "source": "Movie Crow",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-23T18:33:08+00:00",
-   "ts": 1790188388.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Dhanush collects National honours with sons Yatra and Linga by his side",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQm9PQ3BaMlRGNDhSc2FwYUVoMjUtVC1ROGdENEhRSUc0U3JjbFVMZ2owUDZlMXM1bkVDS0RIazdQcUtsalhWS2ZhYjJJNFhRcGZpLW5oLTlHZHREZHZFNHd1TG1DSjJySXMtSWIzTHE5bFJxZWk5TjVXeFFucHFaMkpVUUpmOUtXcWluN1hnczNPTU5tX0FIOWJMVU5YQ1M5S04zalV4dU1OQk84?oc=5",
-   "source": "Movie Crow",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-23T18:33:08+00:00",
-   "ts": 1790188388.0,
-   "category": "buzz"
   },
   {
    "title": "No Dhanush vs Rajinikanth: ‘Om’ postponed to avert clash with ‘Jailer 2’",
@@ -1098,7 +1106,7 @@
   {
    "title": "Mandaadi OTT Release: When And Where To Watch Soori's Hit Tamil Sports Drama",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOUN4cVVCMXVGckREMjJ5OWRydE5va2J6eEQyaWhxN2JTZ3BIcUR6RGxiSmxOdDVPMUdUVFBBY3NpZTItdjNrZGRiUFIzbUlVaXpQaFJXeEhWcmxjc0dLb1FrSjhnTmFBbDZUY3plMTdDUE15VGZoaWdnd2ozb29zcldBbnk4cGlaaTg1YUIyVzdXT2ZjU080MnBpeTdtTkhGaE0zbjdTLUVmZVkwdXZYSXZva2dNUDVSdExYSVV2WWZYYV9KNXdqRzgxcVZaaDjSAdwBQVVfeXFMTU90VDZzMV9rRnhZb0xXMlMwbmg3TDh6MllPTDZGQ2JleVF6WFBaUm5MZVdoLXVOLVAyc3Q4dm11SmFISmk2SEdNV2Zvc2NVUGkzXzBRdHQ4b1FXX2JuQ3ZzRXNzSTFGUFZ5MmtpY2FNbXJHOWRCcGsxbzBELWxxeC1aNzB1aG0tTEhPeUhESEl4MkZzN3lFV0hCdHlTNGRqbE9tbGxnUW5GUUZ1elVJOXcwLTJFVUF4TnU1V2x6a0h4OUItSTZrMDM5SDVBVnlUZjZ2cW9yc1BpRWNjRg?oc=5",
-   "source": "esquireindia.co.in",
+   "source": "Esquire India",
    "summary": "",
    "image": "",
    "published": "2026-09-23T11:21:00+00:00",
@@ -1138,7 +1146,7 @@
   {
    "title": "Mandaadi Box Office: Soori Leaves Behind Suriya and Dhanush in Tamil Nadu",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeW9rYlcydXBoSmduV0d4X0tuZ3hSSFg2SXFraDhnUkRMZEtCd1FXOWU4bExDbXdCOWNYa19JbUh5djlKMjFWQjkzLXpyQ20wcFphUXR5RHI1emFjRjBpbm5tN1BFODlEb2JVV3pyak1lbktlbkZvdll2NFRRV1daQ2xYck9hV25pMFczaElESHg5T3lqNFphaFlBUy1WdUxiRF9DY0RHMGtHa2M?oc=5",
-   "source": "koimoi.com",
+   "source": "Koimoi",
    "summary": "",
    "image": "",
    "published": "2026-09-23T05:21:25+00:00",
@@ -1148,7 +1156,7 @@
   {
    "title": "Don't Trouble The Trouble - Official Tamil Trailer",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNX295aTJZeDQ1enh2ZFZqNzRVa0VCMWt2WDFsNlVMMUJiQzhib3JIamJUVXZXLWRhQTNoZWdXR1JRUTVic0VIbGxyY2pYdUpPSUlQNXhqbk5PV1NJcmN2OTFERjNycnJTTDV0Zkt5Rm8tQ2g3cDk1cm9oVVNwVXl2LXZnSmdNSm9ld09hd21ZdDhCaDNkcnZ1ZmEyQ3NIMlk4ZmRtd0NZNnBVVnJtaWtFbE9VOHlidU43V1IyejFpeW5HWmR2dlV2Wl9QRVU2QkVkdUFmQmJYWGN5RkHSAeABQVVfeXFMUEVuVHltdTdMRHZ6X1A1M3NOcFQxbDBLekk0UVM0TllXanF0dnlIRzdWUHZfZEF4RmkyRU9UMVctMkFERF9COENJLVpJXzhwM1BQYlMwbjRaV0x0VFdtZEVMdWQxUUV2MHFfM250dF9HWHBqSG1GNGZUOUQ5bnJsQU9SWVVvV3JPakR2Q2lNVGVlSkJvSnZnZ292ZF95ZjdtQkl1ZDQ3RGltTmlGS2JRN2ZRaFQ2TllLVExXdTBvSXQ5SlRITHc2Mi11b0tBTEVidno4UmJzUmpXWkZ0eEFGOFo?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-23T05:14:51+00:00",
@@ -1158,7 +1166,7 @@
   {
    "title": "Tamil OTT Releases This Week – Habeebi, Photographer and Angikaaram Streaming from September 25",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ILURldHIzMWI3QThwbW80d2JrNG1mOW4waVdJNC1Dd3o5X3JBLVlxUnJJZzA4dnRqdS1qSFhlYzY5VlpkQmVSdWZ1QXhJcWx1QXl1VTNBS3VWMmh1ZW4ybFpubmJPVGZyVFhLNFFaU3ZaSXFq0gF6QVVfeXFMTlBOOXY3T3p2ak9CTDJqYXVjbkRVTUNBUEdYSWl2cHVOb0xVZnhZUVhYanNneGp5TXhxd2R6Z1VwdFFxbGF3RmhwaUw2Q0dVcnBWa2NPMHZRYkxUUVJZRjJQMmlhMmRYZWRLb1Q1YnZfQmg0ZWl4aUFkQXc?oc=5",
-   "source": "Kerala TV",
+   "source": "keralatv.in",
    "summary": "",
    "image": "",
    "published": "2026-09-23T04:36:35+00:00",
@@ -1168,7 +1176,7 @@
   {
    "title": "Mandaadi Movie OTT Release and Platform Updates – Netflix Secures Digital Streaming Rights of Soori Starrer Film",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFazNyZUQ2bzJ6c090T3BoelluSC05QzJCM0dQRlhBNVl4dDUtak5HRXYxV1VlVUtndGNERUNOdU5NdDd2aHlFN1dVSVNqVmNLN2ZyZHRxUDZzS0hMY1NqeGxqSWdKbXVwUGlF0gFwQVVfeXFMTUFOWldVa2loTHpwTllRWmkwdlhJY2dRckxUbFBjbmxfcHVtLVc4ZE5jVmVvV211V2lYSS0wREdDNG5CUXdkNWVVQ2YtMmFvNHNzeklLVm1adkxoQkFfVDFEV0RsNVVSUnhSNF9FVktfMQ?oc=5",
-   "source": "Kerala TV",
+   "source": "keralatv.in",
    "summary": "",
    "image": "",
    "published": "2026-09-23T04:36:35+00:00",
@@ -1198,7 +1206,7 @@
   {
    "title": "SS Rajamouli launches trailer of 'Sigma'; says Vijay's son Jason Sanjay's film is a fun adventure ride wi",
    "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQVTFHMXpTdXAxVWV4ZUY5d2k2dFc3R00wQ3JSTGM5ZG5wWFVtcW5GNnQzRjVJYk5tNlVGbXgwYWJXT0dibU9NWFVHUEN2VTRURkRzc2w5WkN4Y1ByUEVVckkyWkZoWDNJMk5xYjN1NXpjOU41ZXRCQ1paSEtHdHhiS0JsdkZhb2pSaThkZ3JaTGx5enpDOU1lOHdDZ2FIbWRycFNGa00tTmhHcGtkc1JGX1E4MC1SQjhRa2Y0OUc0OXFGMklaY2M1WE5DM3Rjbnd2NzE2RTlyVEdEMDMxS3BqSnd6eTBoelFiVklUWkVqUWNJOEw1cTF3LVZtdlVDQXNoMnRhUTM4Q1l5WEhWREtrUlVJNGM4WmRNd3BjclFkLThIemNGbmRKblF6VDZmRndKV1BB0gG4AkFVX3lxTFBOY1Y3bjlWZkV4M3NjWFlyQXBCOXBvSmRlallPRTlVTWlvZVYyZXNrRTJNNDA2clVTc24zdXdGYWtMRWQ4cWNCWXFXWlMwWGNfc1JKVnRpN2tkYVE0NG9JMmY3SFJjeXhVdlpIdkhzSmJGSUE3NWZnb094Rmo5NzVJMVRPX3ozaS1pOXpaZlA2cU85SHhfTGRCcUQxSV91czFqRXNXWVhnRTVhR0FTUzd3RlBHbTAyUU9jSlhJc0w1QTZWRTQybUJhTnc5Q2JHZXpaSkRDU0tSQVZ2WnRXazAzdHdUT1gyRXZOZ3BPc1d1Y0tveWFYdHJOMXhjMTB3WmhqeGdDS3haMlJaMm1PYzlpTHFHa0RoV3ZWWnJaOUgtY0tYX1IwZGFuY0x6M0dEMXVmSGFnR0FOcw?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-22T07:36:00+00:00",
@@ -1208,21 +1216,11 @@
   {
    "title": "Hope - Official Tamil Trailer",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLW5iWC0yWmNFTkZzdHZlc1dGMWJydVFSUWlJWnJCdUpSVl81RGY4R3dsbDlJbk5sZ3F4elZlcXdFQzlSTDFJZms1MlpoZkZ0UHZUaDV4clRIRURfaS1GUXhwNjJ2emJIVU1xOE42SXVvX3NYOE5PUGM1eC16cTlTMGtleFI2TDJRa1RTcHBlNkUzVy1XVURwcHFxQ0ZtazFSQmVZQkJtVjFtdFIzXzZ5VjVyUG1ldG1NbUdwcHZrTETSAcYBQVVfeXFMTWJHdVo5Uml4Mm51clZGcGZVNnFqNTllbFlQOFduMTRiYlV6QTJEYkE2VkxOQURPQjU4cnZFVzZicjg1VTB5MWxGT1VkcHZ0dGNMVjJNUkRYTWFRYkNQaG5BVl9IY2ZocFlOT09FSVVaSUJ0N2pJS2JlWTBLRWg1dWRMS2xsSEdhNFNfX3VweGxEY1Zha0RlT1Bqb0hfQmwwTEljSmZPZFpiXzBzb21SSjQzaU05emQ0Skh1MFNCOU43T0czSERB?oc=5",
-   "source": "timesofindia.indiatimes.com",
+   "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-09-22T01:44:08+00:00",
    "ts": 1790041448.0,
-   "category": "trailers"
-  },
-  {
-   "title": "'Gladiators' Trailer: Ajith Kumar's Racing Documentary Gets An Insider View; Shalini and Narain Karthikeyan Share Insights",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWUNfblRoLTJDMVlVZ0wtV1RhZk1VMlhuV3Vubnl5ZjlPbFdPeVZNMWZKak53QWE4SEs4NFVtZjhYT0p1ZjQtNVZ5WmcxXy1HYU1pMmh3MDFrelB2QXFPeTVIeVVnV3lnb2M3SG1HOTFTZTRLZEFwVktPV2xyTGV4QmRtcGhoNHNQQ29WTmVmbzk1R3k3OFhjUHA0Q2Q1ZkpxTXBtR2IyVU54aWNOZHlmdjRWREI3a3N6RUxaTmxPQmtWbVVIWFY0RHNNN3JiTFZEOEk4WkIxbXRmd2lmZXZOcXpEbEI3blZEZ0hXbjRCS2tiY3RSZ0xjMng4R3F3elBxRS1z0gGQAkFVX3lxTE1oZGJPcnBYVjlqVE1fQ0FacWxFbTRaNzFXYzNYUl9CVVVJUE9jLU9FWEhCZmwzeDIxU3ozbGVHdE1Wd1hBQzNpWUFvT0hTNkNwd0hTSWFLYnI0TFdoYTRIdjJXYXV2a3ZNemhBcDNSa1pySFliVk55aFNhQVJnT0lHN3h4Zzh2S2xRUS1zcUl5R1ZyOWJXZnh5Wk1ybHBrTktzWXlCdEhnNDhhS1BqOXY2aEJTRWwxelctMUxLRVZBVmRYTFpVMFRzdzJpYzNkdHlhWTY2TmJQZ3lzaGpCdXUyY2VPZ2VzQ3QtRXYyNFJ6WW1ZcnpNSnhQYkxBQTBuZW1iYnAwdVdwY05KLUtNSTcz?oc=5",
-   "source": "The Hollywood Reporter India",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-21T08:06:31+00:00",
-   "ts": 1789977991.0,
    "category": "trailers"
   }
  ]
