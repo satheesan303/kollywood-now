@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T18:53:40.489406+00:00",
+ "generated": "2026-10-02T22:45:37.122656+00:00",
  "count": 105,
  "sources": [
   "Cinema Express",
@@ -11,17 +11,16 @@
   "Google News",
   "Gulf News",
   "Hindustan Times",
-  "IMDb",
   "India News Network",
   "Koimoi",
   "M9.news",
   "NDTV Profit",
   "News18",
-  "Pinkvilla",
   "Telugu Bullet",
   "The Economic Times",
   "The Hindu",
   "The Indian Express",
+  "The News Mill",
   "The News Minute",
   "The Times of India",
   "Times Now",
@@ -29,11 +28,13 @@
   "YouTube",
   "Zee News",
   "boldnewsonline.com",
+  "imdb.com",
   "newsbytesapp.com",
+  "pinkvilla.com",
   "thehawk.in"
  ],
  "images": {
-  "total": 44,
+  "total": 42,
   "scraped": 24
  },
  "feeds": [
@@ -43,7 +44,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.07
+   "seconds": 0.17
   },
   {
    "name": "News18",
@@ -51,15 +52,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.08
+   "seconds": 0.15
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 5,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.17
+   "seconds": 0.27
   },
   {
    "name": "Hindustan Times",
@@ -67,7 +68,7 @@
    "items": 5,
    "ok": true,
    "error": null,
-   "seconds": 0.18
+   "seconds": 0.26
   },
   {
    "name": "Indian Express",
@@ -75,7 +76,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.15
+   "seconds": 0.08
   },
   {
    "name": "The Hindu",
@@ -83,7 +84,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.09
+   "seconds": 0.36
   },
   {
    "name": "Filmibeat Tamil",
@@ -91,7 +92,7 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.07
+   "seconds": 0.47
   },
   {
    "name": "DT Next",
@@ -99,7 +100,7 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.48
+   "seconds": 0.18
   },
   {
    "name": "Times of India",
@@ -107,7 +108,7 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.07
+   "seconds": 0.12
   },
   {
    "name": "Google News",
@@ -115,7 +116,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.46
   },
   {
    "name": "Google News",
@@ -123,7 +124,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.44
+   "seconds": 0.43
   },
   {
    "name": "Google News",
@@ -131,7 +132,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.59
+   "seconds": 0.53
   },
   {
    "name": "Google News",
@@ -139,7 +140,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.54
   },
   {
    "name": "Google News",
@@ -147,7 +148,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.59
+   "seconds": 0.54
   },
   {
    "name": "Google News",
@@ -155,7 +156,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.42
+   "seconds": 0.55
   },
   {
    "name": "Google News",
@@ -163,7 +164,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.57
   }
  ],
  "trending": [
@@ -184,12 +185,16 @@
    "count": 7
   },
   {
+   "term": "Jason Sanjay",
+   "count": 7
+  },
+  {
    "term": "Dorothy",
    "count": 7
   },
   {
-   "term": "Jason Sanjay",
-   "count": 6
+   "term": "Sigma",
+   "count": 7
   },
   {
    "term": "Jailer",
@@ -200,19 +205,15 @@
    "count": 6
   },
   {
-   "term": "Sigma",
-   "count": 6
-  },
-  {
-   "term": "Rajinikanth",
-   "count": 5
-  },
-  {
    "term": "Mandaadi",
    "count": 5
   },
   {
    "term": "Collection Day",
+   "count": 4
+  },
+  {
+   "term": "Rajinikanth",
    "count": 4
   },
   {
@@ -227,23 +228,13 @@
  "articles": [
   {
    "title": "Mandaadi OTT release date details: When and where will the Tamil sports drama starring Soori stream online",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONXM3emM4QWVtM05UQWNKRzdzQW9FNzJqZExPN1JURDB0bzBEN2ZfeTZ3dnl1NnNQMGpqUkM0QkM5TExOY1VQTG5NNHAzU0kzdFBfUVpXbW9LVWFHWmNVbnJwZXo2MFNPa3JZcTR3Uk5peWMtaWxyQktXR3hsSDlYYVVSOTlENkJEY0JGUzVSOVE5WXl2SjVBRzVRczRERnpUdENEWUlpMEJ3NUktQnNaa2dDeGFZWHY4TUh0QTN5U1BVVXRqM3lMWWhHcko5TDZyY2FBR3pSbEVNUG5WaEZ3b1hoZmVvRjJSOVVpXzlLdnh2Nl9iQW1VWTdCeEVOMFc2MTlGOXRHMUTSAY4CQVVfeXFMTTQ2YV9SRzFWS0lNeVRfdXFrckdjdllaSEVjVDhUVnBXSkhPRFVtR1VUNWkwNkYyTWc3aTY1aEtUT3l3R0IxSGhfT1BaUzh3SlRzWTNYZTEwZ29GcFVPMVV6OERLZDYxc3hVbUtWUnJYT0l6TEFRRkZib2N2SGxaWmJmRTZReEktdjV3Mk45ZzVSSXo0Mml4eEZtRmt1ZnJsOXNKajdVTkN6NUdqekU1cDdnck82ZHQtalcyV3lqVzhTWUt3djdUdkc5N1VWZUx5bXlLQlFEM1VwR3JYR3ZRUlNMbzF3Q3FoUURCcl9YQmRiV2p2aGRqeXV5MTh5Vy1TOHNhaXFJOU9hZzA2N3JR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNDZhX1JHMVZLSU15VF91cWtyR2N2WVpIRWNUOFRWcFdKSE9EVW1HVVQ1aTA2RjJNZzdpNjVoS1RPeXdHQjFIaF9PUFpTOHdKVHNZM1hlMTBnb0ZwVU8xVXo4REtkNjFzeFVtS1ZSclhPSXpMQVFGRmJvY3ZIbFpaYmZFNlF4SS12NXcyTjlnNVJJejQyaXh4Rm1Ga3Vmcmw5c0pqN1VOQ3o1R2p6RTVwN2dyTzZkdC1qVzJXeWpXOFNZS3d2N1R2Rzk3VVZlTHlteUtCUUQzVXBHclhHdlFSU0xvMXdDcWhRREJyX1hCZGJXanZoZGp5dXkxOHlXLVM4c2FpcUk5T2FnMDY3clHSAY4CQVVfeXFMTTQ2YV9SRzFWS0lNeVRfdXFrckdjdllaSEVjVDhUVnBXSkhPRFVtR1VUNWkwNkYyTWc3aTY1aEtUT3l3R0IxSGhfT1BaUzh3SlRzWTNYZTEwZ29GcFVPMVV6OERLZDYxc3hVbUtWUnJYT0l6TEFRRkZib2N2SGxaWmJmRTZReEktdjV3Mk45ZzVSSXo0Mml4eEZtRmt1ZnJsOXNKajdVTkN6NUdqekU1cDdnck82ZHQtalcyV3lqVzhTWUt3djdUdkc5N1VWZUx5bXlLQlFEM1VwR3JYR3ZRUlNMbzF3Q3FoUURCcl9YQmRiV2p2aGRqeXV5MTh5Vy1TOHNhaXFJOU9hZzA2N3JR?oc=5",
    "source": "The Economic Times",
    "summary": "",
    "image": "",
-   "published": "2026-10-02T17:22:45+00:00",
-   "ts": 1790961765.0,
+   "published": "2026-10-02T17:22:00+00:00",
+   "ts": 1790961720.0,
    "category": "ott"
-  },
-  {
-   "title": "Bail Movie Review: An earnest attempt with some predictable twists",
-   "url": "https://www.cinemaexpress.com/kannada/review/2026/Oct/02/bail-movie-review-an-earnest-attempt-with-some-predictable-twists",
-   "source": "Cinema Express",
-   "summary": "Early in Pavan Wadeyar’s Bail , there is a moment where retired police commissioner Vijay Kumar (Shivarajkumar) gets up to give his farewell speech, only to freeze in front of the mic. His colleagues smile warmly, honoring an officer who never chased dangerous criminals, fired a…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-02/zni5yg9b/1000236641.jpg",
-   "published": "2026-10-02T16:38:29+00:00",
-   "ts": 1790959109.0,
-   "category": "reviews"
   },
   {
    "title": "Rajinikanth's 'Endhiran' cinematographer Rathnavelu pens note of gratitude as film completes 16 years",
@@ -251,8 +242,8 @@
    "source": "Cityairnews",
    "summary": "",
    "image": "",
-   "published": "2026-10-02T16:29:00+00:00",
-   "ts": 1790958540.0,
+   "published": "2026-10-02T16:29:16+00:00",
+   "ts": 1790958556.0,
    "category": "buzz"
   },
   {
@@ -268,7 +259,7 @@
   {
    "title": "Thalapathy Vijay’s son Jason Sanjay opens up on his uncanny resemblance to his father: ‘Not in my control’",
    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS3ZwbGtBaWZ1dFcxYlh0VW9OUGpoWDFXWUt5cFRBcVVrYkt0V3RlMHBxWXNwaUxZMDhLbzZXTVV3LTdVNjdxZm5RYWFNM0lxblA5cFVmS2twaUl5S0VDWGowMmJiYmphSjdERE1QMkw4ZEdWSDJjV09ZUEIzZ1YyelpJdG9SQk9Ha2ZkYXFtWGQzSzNaOEszZXd4TUxEV2lZbFp0MEw5WHBUNlFPOV9qblBuTjFVVW9qZkU1RG40bWJCNkk0T3RKX2FKNGFxTV9wdjl3ZkpqVE9HT1NtdVJVSnl3NUVYRjRMZk93edIB8gFBVV95cUxQYVBmb0dZY0pyOUkzQXJYZ1ItN00wSTQweUVaOVZyYlN0eHhRb2ZQTWFLeDdkQ3BEQXkwbWx4bFRPQ0pUMTlncVFmMHhLYTJqcG92ODZncnFYN1lqT1dyNUkzUGJsNWNGVXNUTUFBT25lTmNaclVhUm9DSlVOQmJYLXJLX20zRWwwSVlCa1ZRYkNBNjhUVDVRLWQxUTRTWU9FQ2V4SjY4WkxMZFBnWEVxdkxoaTRCeHNVSHRONXdWWDZQekRrbnR6Mk55V1hBVVZBSF94RHlCcXdjSVN5RWNQM2ZQbDh3MVNnekI3R2VEcGNzUQ?oc=5",
-   "source": "Pinkvilla",
+   "source": "pinkvilla.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T15:44:40+00:00",
@@ -287,18 +278,18 @@
   },
   {
    "title": "Suriya-Jithu Madhavan's Scene finds Kerala distributor",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/02/suriya-jithu-madhavans-scene-finds-kerala-distributor",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc3BxOUtzbnNyb2JQYThrWDF4TklVUzJZUWxLTlpIZmVmWkJwOC0yUnMzYjRNUHdUVjZHdXhoRldRMl9aUzRET1lSd1FxR1NEUy1tSUtQemNFRnRqVDN4Wk9YMk1WZ245XzdockYyNnhmYUJRVXJ3bnItZm8wcWxEY0xIaXFvbmkyNmx1NXM1ODIzV0ZDR1cwRkFOTGRRT0NhcTVpbUZrSkRtUdIBtwFBVV95cUxOOEJTM0I0TWZqenFsaDRQbk53ZDhqNzhVZTBialo1R0ZmaFp3NV93YjEyWGRBdDhISWt4dWVlb3NSMmgyNXV6dTVTNmpuUkdJUnVQcEJ6NXRCVHVEck45N19iZmtvTDBIWHctTkkzNnhLVnY4eGRrRGdzbUpaQkNoMzdyWnl4TUhqaGc3N2pUZ1B1Z3p2eVdoUDhQRDdqdWlJNFRydG41dV9IZ3FsbW9fNm1RTGc0bDA?oc=5",
    "source": "Cinema Express",
-   "summary": "Director Jithu Madhavan is gearing up for the release of his next film Scene , starring Suriya in the lead role. The upcoming film marks Jithu Madhavan's debut in Tamil cinema. For the unversed, he is known for helming films such as 2023's Romancham and 2024's Aavesham . Scene…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-02/etirp9py/Scene.jpg",
+   "summary": "",
+   "image": "",
    "published": "2026-10-02T15:09:43+00:00",
    "ts": 1790953783.0,
-   "category": "casting"
+   "category": "buzz"
   },
   {
    "title": "Sigma Twitter Review: 11 Tweets to read before watching Thalapathy Vijay’s son Jason Sanjay’s debut film",
    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQencxN2t6N0RBZEtUYy10TF9fUUJaSk41aTVnTkxoNDdrU1REbVNZV3gyTzBiTTFMUWhiYmgxcDE3TWRlTFJpSHQ4STdWMldhYWFNMHlsVV9ScVNpRVJVdm4xcFVWSGpFWm10dWRZSHJwd3lkd1o2ZlNfalQ3OHNpY0lyaDZQU1Q1dUszczdiQ2YxQ2ZILUZ0endkZEZEMmd1UHpKa0xPTU5UY180Z09LOVdlVEZvZVAxQzV4ZGN6eFBIZzFTOEJmV1ZRVDJBWnI5U0Foa2h1bGpQZGMtN2tuQU1lZkU5ajVtQVQw0gHwAUFVX3lxTE5QU0xpRk5fZ21ObnA0Qk9mNnNJVHNBRTRjT1RZNFFIQzloU2FhN0RpTUlrai1ubnlWaDZKcFUwWnhQU3JMVzJmTFZSSGdpZkxyRjlJMTNhdFVHMHMxVzNCRnRZUnl2dDJ6Y054WkZFTTZoSFUyVWRtLVN2MWljVXdyWDhXT0l0LTg3bjJJbVR5Wk92QXFoMEdZSWMzcXV0TWNJYUJEWXEzd2Vla0xfWUNXODMwVDE2OHprV1VnV3dKWXJsRUhZVmZ2Y1NEUklOWjkyVVNVbDdoUGV1ZUtYRUFwU204dWZGaDVyZVBJQ0FLMg?oc=5",
-   "source": "Pinkvilla",
+   "source": "pinkvilla.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T14:58:36+00:00",
@@ -307,12 +298,22 @@
   },
   {
    "title": "Vijay Antony: The excellent Dorothy tackles a subject films usually ignore",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/02/vijay-antony-the-excellent-dorothy-tackles-a-subject-films-often-ignore",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRFJFOFAtY1p3MU4zazY0OUVKMkI4amVmOWlSMjJWU1lSbWlCMFNqOVhDVGMyem1XTHpaS09fNGU2a1BqWmZ2QWN1a2szU0RzWkwwZS0wVWhOZmREOFY4dENmd29QeWVacFFJbzRlVTN5bmwzZFhIYl80blA4M3VCd3EtZkJ2QV8yeHZVZmxDeGdSY0pwSnFzeHhZbVBLak96RzFDSmRNdDdETmpqUURBSnpYRG55Z2U1QzJoUUZZZkpYUdIBzwFBVV95cUxPdUwySGZZYWR2dGdPcm1sUWdSYlRadUhXaW44cHFmX25VZ3E0eDYyR0w2dFFLNGlYSlAtUmVIdEN1cVdId3dha0dLUFVTWUFCNmI4LXFnQ210VmdPaERYOFRtenBhMjdqU1kwSXEwOUlJUGtGckZoWjRVeXJVT2RaeTFPeXpIbWxUa2dzUnNLU1ZTX3BpUDAtQlJjd3g5eE4yak1RV2k1WUZVdF9UME1OR3VQQzR5bXJVUWZkYmtmLXZmRExCTldzdktOQjNkbTA?oc=5",
    "source": "Cinema Express",
-   "summary": "Vijay Antony is the latest film personality to praise director Karthik Subbaraj's recent film Dorothy , starring Sananth, Rishikanth, and Keerthy Suresh, among others. Taking to social media, Vijay Antony said that it is an excellent film that tackles a subject that films…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-02/k1mr6iwv/Vijay-Antony.jpg",
+   "summary": "",
+   "image": "",
    "published": "2026-10-02T14:46:09+00:00",
    "ts": 1790952369.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Jason Sanjay’s directorial debut Sigma releases with support from Suriya and Jyotika",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGJwS3RZNVh3TmxmRkU3UkNQYlFqeVVFY2ZIdm1KRlJGZE1Pc3RKNExxZ3BjVVN5X3EyekVxaXhvSHpSRm9mdUllUFhzNjVoRlN2aG1Ld0N2ZmNZbHBON3Q2RndaUWRUbmE1QnpELWlqNUJYUVFmTFgwWVp2V1N2THRhOG9iQmx1VjhJOWxCMDduQkJ5eG9jQXRFUUd0Y3RxR3hFSDVFRy1obUhncWtORFBsRTJyMTA?oc=5",
+   "source": "The News Mill",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-02T14:22:32+00:00",
+   "ts": 1790950952.0,
    "category": "buzz"
   },
   {
@@ -333,6 +334,16 @@
    "image": "",
    "published": "2026-10-02T13:38:00+00:00",
    "ts": 1790948280.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Modha Rathri director Raja Karuppasamy on Karthi: He is a Meiyazhagan on and off screen",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/02/modha-rathri-director-raja-karuppasamy-on-karthi-he-is-a-meiyazhagan-on-and-off-screen",
+   "source": "Cinema Express",
+   "summary": "Director Raja Karuppasamy has been gaining much attention and appreciation after the release of his film Modha Rathri , starring Rishikanth and Anishma Anilkumar, among others. The film earned appreciation from some of the major stars in the industry, such as Kamal Haasan and…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-02/2bnbap6q/Modha-Rathri.jpg",
+   "published": "2026-10-02T13:01:30+00:00",
+   "ts": 1790946090.0,
    "category": "buzz"
   },
   {
@@ -388,7 +399,7 @@
   {
    "title": "Baththa Box Office Collection Day 1: Registers Vijay Sethupathi’s Lowest Opening Post-covid",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtc0xqVm53bFc2aW1BY0tDR2dRYzVoOGc2aHR2T1R4QzJtY3NCZEI3QUFaU0sxbWNXWVV3cExaQ2h2cEEyT2JuRUFEOVpyMldZcFR6elB6dEdKN0dmRHMycGhDNlhLOHc?oc=5",
-   "source": "IMDb",
+   "source": "imdb.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T11:42:49+00:00",
@@ -428,7 +439,7 @@
   {
    "title": "Thalapathy Vijay’s estranged wife Sangeetha and daughter Divya Sasha make rare appearance for son Jason Sanjay’s film Sigma",
    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQYmkwWk45LTF1TG5KVUhwXzNBMndzaTljeUo2emRadDR6RmhiMUpFSTVfV0NIRlpQOW5WYm1yc2U4bzhGQ2MtV2tnM2duTmR3b0xUbkdiakNycmUwQXJnYkVrUjhPbW1tdWk2N3BUT3MydzV3bjNIWGVvd3hHRV82TU5ITmFZeEhBSklUbUxEQldhOTJ4bl9XOEkzSUZqUG10dTZmWFk4UDZfb2NWc01fY2dnQ1QtRGpPQVlkd3BKX2lLaExsTHVlam5vNEhyVnh0OWxrTEhkOGRTbHYzM3o3Mm5xdVR6QWdvNUhxZjRtY1lKajcwUnA4NFQ0Zy1YdlZWSm8wbzNR0gGLAkFVX3lxTFBWOWpaaXdSYU5Ba05jZzJTYUxWcGxpcExoU0F2d1Fia0ZpRzdMOXJrSjBERnpmWGFBT1pYRjZia1puemJodC1URVJGVU1pMjF3VHJTRzMzdWpib013bVpGRDNDdnJ5aEVPVER0MkY2UzhXNVZVMzVDOWR2Yl8za3RHbENtV0J1NWY0dktSTUFRdUpNYVp0bDlGTG5uZXVaTG0xaHFjTVJRQVZHOEV1bnA4dFRMT2pKZVJsY0NTSmlCSlNwb00zcUtOWVJKTlZITWs1T3J0bnNHQnRmQTdvQnF6dDFRcFlyZmJJckpwc3FRaEhXajdWSXN0ajY3S0p1RkpMTjc0bmZJb2NuWQ?oc=5",
-   "source": "Pinkvilla",
+   "source": "pinkvilla.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T10:53:11+00:00",
@@ -548,7 +559,7 @@
   {
    "title": "Suriya, Jyotika and More Wish Tamil Nadu Cm Vijay's Son, Jason Sanjay, for 'Sigma' Release: 'You Deserve Every Bit of The Success...'",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nclVQUTE5QlVJRmg1NGtPdzN5TGRYOUlJSUhpOTBOLWo2SEpyYlhzSmZDc0xYX3NXQ0swT0JyOUs1aG5yZmR6d0ZPcjF6NmZKN0ZJbXFPR21IUVdxS2Q3SE9TR044dGc?oc=5",
-   "source": "IMDb",
+   "source": "imdb.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T06:20:01+00:00",
@@ -643,16 +654,6 @@
    "image": "https://images.filmibeat.com/ta/img/2026/10/sam-12071790917844.jpeg",
    "published": "2026-10-02T05:11:28+00:00",
    "ts": 1790917888.0,
-   "category": "buzz"
-  },
-  {
-   "title": "‘Turned Lord Rama into Salman Khan, Rajinikanth’: Mukesh Khanna on Ranbir Kapoor’s Ramayana",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNczNYWTJtdzZzUUlJN0Jxczkyc2J0elFSd21VaXRUbGRxcWtCdVNIcVlPRlJYOG9RTG9sN3R0RzZjNE9sSHhCaHIwTzZTUHpsQXlPdV93cnk1M0tCRmY2SUNKVXNvR0dpOXAzbGpnQ2xtWXZFVmJwTUpYdEtHNS11M0JMYzNoNmhJRnp2ZVdwLWhLNy1sMGF3NWJzTUItbDJjRDJpQ2gtTmFZQ1p6ejg1TGtlcFdwMWJjUzlUY1BEZjNzQ0prdUQxaWZEbk1naE9ZeHZrdFJ2TFRKekJBMTNrTUJPbTVmOXdEcDQtU29pVdIB9gFBVV95cUxPYWgxSER4YmhPd2FrUmNnVE92T2Njdzg4WkZ0RlYzNFFlaUNRV3NYeTNpMTFfeVctZmc0UFhHT3U2QkNwLTNZZEVHVzVtSXBwMzFBQTJzay1JckFOM0E1akVLbzJScllYS2JTRnhxWUlIeDNWbGdMNUVhTWFmVTB2bFRCVV9XN0FsV085R2ZjN3hHbUg0Q3JHUkVKanFDQXFtcFRuS0NmVjJvejRlMUM1eGNVU0N1bmtzMDI5c21wZmFCRU53NUwyRG1WUEtOakIzR0JtWjEyWjNjOTlJU1B0bGt0cWxEN0xnd21RUElBNzNXdVlnNUE?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T05:00:40+00:00",
-   "ts": 1790917240.0,
    "category": "buzz"
   },
   {
@@ -1088,7 +1089,7 @@
   {
    "title": "Rajinikanth's 'Jailer 2': Nora Fatehi Debuts in Tamil Cinema With Special Number 'Bindass', Full Song Drops at 6 Pm",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GTXpxOGRSYWdGQmQtaEh5NktEdThHYTZFSFZxeW4teDZKaWxqWnFmS3lCZnB1LURQdUtQWmlmbVozTkR2d1NLUmNnNXp5Zk1PUXV0SEJKWHFsR1FXUGRWczZPT1YwTWM?oc=5",
-   "source": "IMDb",
+   "source": "imdb.com",
    "summary": "",
    "image": "",
    "published": "2026-09-30T09:50:53+00:00",
@@ -1098,7 +1099,7 @@
   {
    "title": "Mandaadi Box Office Collection Day 20: Surpasses Dhanush’s Highest-Grossing Film In Tamil Nadu",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqQTdncmEybW1oZ28tdkZraHZEZVJ5WU1EalV5OHdWU3JReVdTb1FMa2JVd2hoZjVkRjJYSlFjdmVQaXV3cG5nTnB2QW1QTGM3dUlLMnk3MDZ2MTNpRk5MYQ?oc=5",
-   "source": "IMDb",
+   "source": "imdb.com",
    "summary": "",
    "image": "",
    "published": "2026-09-30T09:49:52+00:00",
