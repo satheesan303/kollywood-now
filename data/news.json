@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-03T07:05:27.070489+00:00",
- "count": 104,
+ "generated": "2026-10-03T12:30:47.610144+00:00",
+ "count": 105,
  "sources": [
   "Cinema Express",
   "Cityairnews",
@@ -13,30 +13,31 @@
   "Google News",
   "Gulf News",
   "Hindustan Times",
-  "IMDb",
   "M9.news",
   "NDTV Profit",
-  "News18",
-  "NewsBytes",
-  "Pinkvilla",
-  "Telugu Bullet",
+  "Only Kollywood",
+  "Sacnilk",
+  "Telugu360",
   "The Economic Times",
   "The Hindu",
   "The Indian Express",
-  "The Meghalayan Express",
   "The News Mill",
   "The News Minute",
   "The Times of India",
   "Times Now",
-  "Times of India",
   "YouTube",
   "Zee News",
-  "boldnewsonline.com",
+  "imdb.com",
   "koimoi.com",
-  "sacnilk.com"
+  "news18.com",
+  "newsbytesapp.com",
+  "pinkvilla.com",
+  "thehindu.com",
+  "themeghalayanexpress.com",
+  "theweek.in"
  ],
  "images": {
-  "total": 40,
+  "total": 41,
   "scraped": 24
  },
  "feeds": [
@@ -46,7 +47,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.16
+   "seconds": 0.04
   },
   {
    "name": "News18",
@@ -54,23 +55,23 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.12
+   "seconds": 0.06
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 0,
+   "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 0.37
+   "seconds": 0.72
   },
   {
    "name": "Hindustan Times",
    "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
-   "items": 5,
+   "items": 4,
    "ok": true,
    "error": null,
-   "seconds": 0.22
+   "seconds": 0.89
   },
   {
    "name": "Indian Express",
@@ -78,7 +79,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "name": "The Hindu",
@@ -86,7 +87,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.12
+   "seconds": 0.1
   },
   {
    "name": "Filmibeat Tamil",
@@ -94,7 +95,7 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.48
+   "seconds": 0.51
   },
   {
    "name": "DT Next",
@@ -102,15 +103,15 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.52
+   "seconds": 0.38
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 1,
+   "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.25
+   "seconds": 0.16
   },
   {
    "name": "Google News",
@@ -118,7 +119,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.4
   },
   {
    "name": "Google News",
@@ -126,7 +127,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.44
+   "seconds": 0.45
   },
   {
    "name": "Google News",
@@ -134,7 +135,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.43
   },
   {
    "name": "Google News",
@@ -142,7 +143,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.49
+   "seconds": 0.47
   },
   {
    "name": "Google News",
@@ -150,7 +151,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.54
   },
   {
    "name": "Google News",
@@ -158,7 +159,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.42
+   "seconds": 0.38
   },
   {
    "name": "Google News",
@@ -166,21 +167,13 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.58
+   "seconds": 0.52
   }
  ],
  "trending": [
   {
    "term": "Sigma",
-   "count": 10
-  },
-  {
-   "term": "Vijay Sethupathi",
-   "count": 8
-  },
-  {
-   "term": "Jason Sanjay",
-   "count": 8
+   "count": 11
   },
   {
    "term": "Dorothy",
@@ -188,22 +181,34 @@
   },
   {
    "term": "Baththa",
-   "count": 7
-  },
-  {
-   "term": "Review",
-   "count": 7
+   "count": 8
   },
   {
    "term": "Jailer",
+   "count": 8
+  },
+  {
+   "term": "Review",
+   "count": 8
+  },
+  {
+   "term": "Vijay Sethupathi",
    "count": 7
+  },
+  {
+   "term": "Jason Sanjay",
+   "count": 7
+  },
+  {
+   "term": "Collection Day",
+   "count": 6
   },
   {
    "term": "Yezhu Kadal Yezhu",
    "count": 5
   },
   {
-   "term": "Collection Day",
+   "term": "Rajinikanth",
    "count": 5
   },
   {
@@ -215,19 +220,115 @@
    "count": 5
   },
   {
-   "term": "Thalapathy Vijay",
+   "term": "Baththa Box Office",
    "count": 4
   },
   {
-   "term": "Rajinikanth",
-   "count": 4
-  },
-  {
-   "term": "Telugu",
+   "term": "Malai",
    "count": 4
   }
  ],
  "articles": [
+  {
+   "title": "கமெண்ட்டில் அத்துமீறிய ரசிகர்.. தரமான பதிலடி கொடுத்த ஆர்த்தி ரவி.. சூப்பர் மேடம்!",
+   "url": "https://tamil.filmibeat.com/news/aarthis-strong-reply-to-fan-he-doesnt-even-pay-his-own-sons-ravi-mohans-wife-hits-back-184901.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: ஆர்த்தியை காதலித்து திருமணம் செய்துகொண்ட நடிகர் ரவி மோகன்; திடீரென அவரை பிரிவதாக சில வருடங்களுக்கு முன்பு அறிவித்தார். ஆனால் ரவியோடு சேர்ந்து வாழ்ந்துவிட வேண்டும் என்பதற்காக பல முயற்சிகளை ஆர்த்தி மேற்கொண்டதாகவும்; ஒன்றும் பலன் அளிக்கவில்லை என்றும் விவரமறிந்தவர்கள்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/aart-23391791026598.jpg",
+   "published": "2026-10-03T12:00:28+00:00",
+   "ts": 1791028828.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Sigma box office: Here is how much Jason Sanjay's directorial debut earned",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/03/sigma-box-office-here-is-how-much-jason-sanjays-directorial-debut-earned",
+   "source": "Cinema Express",
+   "summary": "Sigma , directed by Chief Minister Vijay's son Jason Sanjay in his debut, opened in theatres on October 02, coinciding with Gandhi Jayanty. It has received mixed to negative reviews from critics, who have been critical of the screenplay, although some of them have appreciated…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-02/gzdj3wtd/Sigmaa.png",
+   "published": "2026-10-03T11:53:21+00:00",
+   "ts": 1791028401.0,
+   "category": "box-office"
+  },
+  {
+   "title": "ஸ்போர்ட்ஸ் மேடையில் சென்று தத்துவம் பேசிய விஜய் ஆண்டனி.. இப்படி மாறிட்டாரே?",
+   "url": "https://tamil.filmibeat.com/heroes/vijay-antonys-viral-speech-life-itself-is-a-game-actor-shares-a-powerful-message-about-life-184899.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இசையமைப்பாளராக அறிமுகமாகி இப்போது ஹீரோவாக கலக்கிவருபவர் விஜய் ஆண்டனி. அவர் நடிப்பில் கடைசியாக நூறு சாமி திரைப்படம் வெளியானது. சசி இயக்கியிருந்தார். படம் மெகா ப்ளாக் பஸ்டர் ஆனது. அடுத்ததாக அயோத்தி இயக்குநர் மந்திரமூர்த்தி இயக்கத்தில் ஒரு படத்தில் நடிக்கவிருக்கிறார்.…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/av-31481791025599.jpg",
+   "published": "2026-10-03T11:07:21+00:00",
+   "ts": 1791025641.0,
+   "category": "music"
+  },
+  {
+   "title": "Karthik Subbaraj thanks Mammootty for 'encouraging words' on Dorothy",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/03/karthik-subbaraj-thanks-mammootty-for-encouraging-words-on-dorothy",
+   "source": "Cinema Express",
+   "summary": "Director Karthik Subbaraj's film Dorothy continues to garner positive appreciation from audiences and film fraternity members. Recently, Suriya and Vijay Antony praised the film, in addition to some of the big-name directors in Tamil cinema. On Saturday, Karthik Subbaraj dropped…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-03/hdieq68f/Dorothy.jpg",
+   "published": "2026-10-03T10:51:05+00:00",
+   "ts": 1791024665.0,
+   "category": "ott"
+  },
+  {
+   "title": "Baththa box office: Vijay Sethupathi starrer off to a solid start",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/03/baththa-box-office-vijay-sethupathi-starrer-off-to-a-solid-start",
+   "source": "Cinema Express",
+   "summary": "Director Balaji Tharaneetharan's Baththa , starring Vijay Sethupathi in the lead role, has opened in theatres to positive reviews from critics and audiences. The common sentiment among viewers following the film's release has been that Tamil cinema is delivering one banger of a…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-09-16/82iedve9/Baththa.jpg",
+   "published": "2026-10-03T09:38:27+00:00",
+   "ts": 1791020307.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Jailer 2 Music: Anirudh’s Weakest for Superstar",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10T240VHNSNjNxNVNVNHNudzlCdXBib29VbmFFSUNJVFVGUzB1LUtQbnVmcV93bTRGckhCM09fR3J1MUxtandyNHVtcUtvaXRMeEVpQ1R3Si1wblVCVHd4dmhYZ3J3S0w4a3dSb1RmcGQ5UTJ3OWctZWxDN3E?oc=5",
+   "source": "Telugu360",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T09:26:22+00:00",
+   "ts": 1791019582.0,
+   "category": "music"
+  },
+  {
+   "title": "Baththa Box Office Collection Day 2: Vijay Sethupathi’s Film Sees Impressive 80% Growth Aided By Strong Wom",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FU01EVWxneTdhdWFNMVV6VjBmaDVVNjN4MWFDWlZOWG81c2F6QWhRVktqTmxnS0RBNHNDRWxDVkM3Wkdwb0plR1ZoRjZVU1B5VUVYdUhCeENzU25PTnZQQVZ0UTBoREU?oc=5",
+   "source": "imdb.com",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T09:19:50+00:00",
+   "ts": 1791019190.0,
+   "category": "box-office"
+  },
+  {
+   "title": "இளையராஜாவை பாட வைத்தது ஏன்?.. டி.ராஜேந்தர் விளக்கம்.. செம போடு போட்டுட்டாரு",
+   "url": "https://tamil.filmibeat.com/news/t-rajendar-birthday-i-have-self-respect-tr-opens-up-about-working-with-ilaiyaraaja-again-184897.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இயக்குநர், நடிகர், இசையமைப்பாளர், பாடலாசிரியர், தயாரிப்பாளர் என பல முகங்களை கொண்டிருப்பவர் டி.ராஜேந்தர். 80களில் பல ஹிட் படங்களை கொடுத்து தனக்கென தனி மார்க்கெட்டை தக்க வைத்திருந்தார். தனக்கு மார்க்கெட் குறைந்த நேரத்தில் சரியாக தனது மகன் சிம்புவை திரைத்துறையில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/ajen-98061791016454.jpg",
+   "published": "2026-10-03T08:34:54+00:00",
+   "ts": 1791016494.0,
+   "category": "music"
+  },
+  {
+   "title": "Anbil Avan Prashanth's Review - அன்பில் அவன் பிரசாந்த் விமர்சனம்.. கனெக்ட்டே ஆகவில்லையாம்",
+   "url": "https://tamil.filmibeat.com/reviews/anbil-avan-prashanth-review-ashok-selvans-film-gets-praise-for-visuals-but-logic-issues-disappoin-184895.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: அசோக் செல்வன், ப்ரீத்தி முகுந்தன் உள்ளிட்டோர் நடிப்பில் ஆர்.கார்த்திகேயன் இயக்கத்தில் உருவாகியிருக்கும் அன்பில் அவன் திரைப்படம் நேற்று திரையரங்குகளில் வெளியானது. படத்துக்கு கலவையான விமர்சனங்களே கிடைத்தன. இந்நிலையில் பிரபல திரை விமர்சகரான பிரசாந்த் அன்பில் அவன் திரை…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/pras-40371791015131.jpg",
+   "published": "2026-10-03T08:13:21+00:00",
+   "ts": 1791015201.0,
+   "category": "reviews"
+  },
+  {
+   "title": "'Baththa' Day 2 Box Office: Vijay Sethupathi's action-comedy sees strong growth, crosses ₹4 crore in India",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYkRnLVJ0T2FDTTNfVWlubEVjbTJuZnhrRHdzSUdKZGQ3eGxJRjB1SVctYUFJcDNRdW9TcGF1WnFHTnJBLVF5Z2RWbXEzTjdsaXlqZ2V3TW9jZnVuaklYa3YzdF9IR2lpTzBQWDVzR1pZZ2hTUDQ0b1djcDY5M29tYUFxaGlMSDJPLUZsZmV4b3dqMUJib1NGVk5Ha19pR01D0gGmAUFVX3lxTE5DU1ZJV1hmSVFuNlh1NGg5YVQyVVFCY09qRmxxSTVERHpNQUxUUFc0SGZBell6VVFWX0c3czI1MjFIRXg1M0JVT3U0UXhWdjBnWjNvald2WXI0RnZQRzBqNkRGbGppb3FCekxmVlFEUXBCZER4Z0FnR1hPSERNWkptVENhUERmbDBLNnVrR3BqRWhrc3RUV2NETjg5TTJfNmpnTkNHc0E?oc=5",
+   "source": "theweek.in",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T07:41:43+00:00",
+   "ts": 1791013303.0,
+   "category": "box-office"
+  },
   {
    "title": "Anbil Avan Blue Sattai Maran Review - அன்பில் அவன் ப்ளூ சட்டை மாறன் விமர்சனம்.. இப்படி சொல்லிட்டாரே?",
    "url": "https://tamil.filmibeat.com/reviews/anbil-avan-blue-sattai-maran-review-ashok-selvans-film-gets-criticised-for-its-outdated-story-184893.html",
@@ -237,6 +338,16 @@
    "published": "2026-10-03T07:02:55+00:00",
    "ts": 1791010975.0,
    "category": "reviews"
+  },
+  {
+   "title": "Jailer 2 Synopsis surfaces: Rajinikanth’s Tiger Muthuvel Pandian returns to his ruthless ways",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR0gwTkJ3QnpFWXdhNTQ4NlFuZnpfbVMyVEtZMUtyY0pnRkVoUWxDcGJGVDNZaDdPb1VibFRaVDAzSFJYRHN3Vml3NWZYNTlqRjNYRFhsRGliZWFwUmFCelpTR1BQdzNLV2dMd09RbXdRZmZ5TmRSek5yd2M4TmtRV0xUaFhkai00eXByQWVUMWNmUFhldGlqd01sMEJ1RGdabHFIeGlyWnNyX0FRS3p5ODVWOE1yU3VtS3U4LTI4bU51U21t0gHEAUFVX3lxTE1HSDBOQndCekVZd2E1NDg2UW5mel9tUzJUS1kxS3JjSmdGRWhRbENwYkZUM1loN09vVWJsVFpUMDNIUlhEc3dWaXc1Zlg1OWpGM1hEWGxEaWJlYXBSYUJ6WlNHUFB3M0tXZ0x3T1Ftd1FmZnlOZFJ6TnJ3YzhOa1FXTFRoWGRqLTR5cHJBZVQxY2ZQWGV0aWp3TWwwQnVEZ1pscUh4aXJac3JfQVFLenk4NVY4TXJTdW1LdTgtMjhtTnVTbW0?oc=5",
+   "source": "Only Kollywood",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T06:29:14+00:00",
+   "ts": 1791008954.0,
+   "category": "buzz"
   },
   {
    "title": "Drishyam 3 Blue Sattai Maran Review - த்ரிஷ்யம் 3 ப்ளூ சட்டை மாறன் விமர்சனம்.. ஹிந்தியில் சூப்பராம்",
@@ -261,7 +372,7 @@
   {
    "title": "‘Sigma’ character named after Rajinikanth’s ‘Baashha’ role was done for humour: Jason Sanjay",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYkNNcUY5aVNDblZPZWJCN0FKY1phdjhTaHhhQU10X29LeE94X2xSemM3LXBNY2tzdDdnTzh0VGVrWEVQSmlTcERQT0QzRTlTOVVXSWdiLWNxS1lIcUFyUHJ0TFpyMExDUVRkQUhnb05aZDJZZzdWRk9iVnUydXdWZnh1UUI3NVFKZU53d0hfeTRGUWJNNi0xel9idVJMb2s5cXpQQzRHMUg2M3pLbDJTdWFQU2VWLTFNZ1QwVA?oc=5",
-   "source": "The Meghalayan Express",
+   "source": "themeghalayanexpress.com",
    "summary": "",
    "image": "",
    "published": "2026-10-03T05:36:01+00:00",
@@ -270,7 +381,7 @@
   },
   {
    "title": "Anirudh Faces Mixed Response For Jailer 2 Music",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMWFQVXNPSERTSkpvc3dtWWw2a2dxUHZqdm1ubWtJLUx2cnBPc1BnUmtVZERtMUpuM1F6RXFFOC1YUzdWMTFKYWtVTmxtSkViZndBckNDR05uRkVxc09QRXNBUmxiakhyRjBRckNsNGJoN2hrWGszQTFkUTdFV0ZZc1BXY21rZk9YajlCTGd4OUVVdXRNTExpME16NlFXZzNFc0VtengwWFg3TzdhLXZUU011cWFRQdIBtgFBVV95cUxQMWFQVXNPSERTSkpvc3dtWWw2a2dxUHZqdm1ubWtJLUx2cnBPc1BnUmtVZERtMUpuM1F6RXFFOC1YUzdWMTFKYWtVTmxtSkViZndBckNDR05uRkVxc09QRXNBUmxiakhyRjBRckNsNGJoN2hrWGszQTFkUTdFV0ZZc1BXY21rZk9YajlCTGd4OUVVdXRNTExpME16NlFXZzNFc0VtengwWFg3TzdhLXZUU011cWFRQQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZm5nQW1KcGZZU0R6cDVVSlRIbFp3VllOYjRQdzJOeWEyRDRTMlZNV2xoZHdmbktFVFpUaG9Da0x3Vlk4cUNNcmw2ODl2RlBnM0VuZ2l4cGNhSk1sS3M5Uk96Zjcxd3dlYURaM2RLM0NKbmJ2bG5sT0V3a1l3aXFQcnFBSmJnaXo4RXRrRGZhdzJsYUg0cC1PTHdSOW12b3VJdUVaVFJTWTZYSVNkcHczbNIBtgFBVV95cUxQMWFQVXNPSERTSkpvc3dtWWw2a2dxUHZqdm1ubWtJLUx2cnBPc1BnUmtVZERtMUpuM1F6RXFFOC1YUzdWMTFKYWtVTmxtSkViZndBckNDR05uRkVxc09QRXNBUmxiakhyRjBRckNsNGJoN2hrWGszQTFkUTdFV0ZZc1BXY21rZk9YajlCTGd4OUVVdXRNTExpME16NlFXZzNFc0VtengwWFg3TzdhLXZUU011cWFRQQ?oc=5",
    "source": "Deccan Chronicle",
    "summary": "",
    "image": "",
@@ -359,18 +470,8 @@
    "category": "reviews"
   },
   {
-   "title": "Jason Sanjay reacts to Thalapathy Vijay resemblance edits",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/its-not-under-my-control-sigma-director-jason-sanjay-reacts-to-thalapathy-vijay-resemblance-edits/articleshow/134650977.cms",
-   "source": "Times of India",
-   "summary": "Jason Sanjay, the son of Tamil Nadu's Chief Minister Vijay, has stepped into the limelight directing his latest film 'Sigma', which has earned him accolades. In recent promotional events, he humorously reacted to the buzz surrounding his resemblance to his father. Sanjay…",
-   "image": "https://static.toiimg.com/photo/msid-134651038,imgsize-346722.cms",
-   "published": "2026-10-03T02:48:29+00:00",
-   "ts": 1790995709.0,
-   "category": "trailers"
-  },
-  {
    "title": "'It's not under my control': 'Sigma' director Jason Sanjay reacts to Thalapathy Vijay resemblance edits",
-   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVlZfdXA1VUhibEFMZ2hfNWlWQVpyZFJxLUV3dF9JNGdtVnhvLVhvN0NmbkpObWNxaUdrTUtzUzNJVWZzOGZBd3hueWg0SDY0Q0tUS3VBbzhHaE9qcEE3V2ZUdVMzUEtfVENYVlVVbE1SeHkwaFBndjlqWDBRamNkaUw3TzJpYlJqRnpKbDU2UldIZmZSRk1qRlRGVnV4UTVtX3Zmcm9RRUowbG9lVThRUy1SYlF4S1JHTXRpSXBoVkEzcTNTTnBxX2ttdFhSMVEycWVCcHRuM1B2NXVnWUE2Q3hGcWstemJxbWhPRmtPTVBZT1g2ajFrSFBINkhWWEhfSGFveWhYYkRoUDdsT0lTMzFKWHN2X1VWaWpV0gGgAkFVX3lxTE1FWkJ4Y0JETlprQUpaUFlrMEhPM0JQOEVBaVdWa043aG5hSkQyYVl6bHJyVHJRYzM3d05PWHI0VXpTOHVyT0xON09CTmpLSjRYLTAwd0hqTUxFMlJ1Z1NremgzTTRkdjdRcEdReW52TDRxckVrQkxIaGM3WWdlMGZ3TDAtSUV6WEJVU2p2dnlhWGRud2FTRUlVcjNkS3hvZU1kQ21RQ0E1dmlXWmxWRThkSGxlRXpseDQ3enFuNFVNX2pHX3l3YWtvRWRGN2g1MWNlZGpBajhkcmxDYWVlZGZwSmUycnZHWWJLREFocWRlZGN5blFrM0J5SHRjT1hQaUhKLVN3ckxSUDJsMW55Vm05TUduVUVuV0lZMEl3Zkc4cw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNRVpCeGNCRE5aa0FKWlBZazBITzNCUDhFQWlXVmtON2huYUpEMmFZemxyclRyUWMzN3dOT1hyNFV6Uzh1ck9MTjdPQk5qS0o0WC0wMHdIak1MRTJSdWdTa3poM000ZHY3UXBHUXludkw0cXJFa0JMSGhjN1lnZTBmd0wwLUlFelhCVVNqdnZ5YVhkbndhU0VJVXIzZEt4b2VNZENtUUNBNXZpV1psVkU4ZEhsZUV6bHg0N3pxbjRVTV9qR195d2Frb0VkRjdoNTFjZWRqQWo4ZHJsQ2FlZWRmcEplMnJ2R1liS0RBaHFkZWRjeW5RazNCeUh0Y09YUGlISi1Td3JMUlAybDFueVZtOU1HblVFbldJWTBJd2ZHOHPSAaACQVVfeXFMTUVaQnhjQkROWmtBSlpQWWswSE8zQlA4RUFpV1ZrTjdobmFKRDJhWXpscnJUclFjMzd3Tk9YcjRVelM4dXJPTE43T0JOaktKNFgtMDB3SGpNTEUyUnVnU2t6aDNNNGR2N1FwR1F5bnZMNHFyRWtCTEhoYzdZZ2UwZndMMC1JRXpYQlVTanZ2eWFYZG53YVNFSVVyM2RLeG9lTWRDbVFDQTV2aVdabFZFOGRIbGVFemx4NDd6cW40VU1fakdfeXdha29FZEY3aDUxY2VkakFqOGRybENhZWVkZnBKZTJydkdZYktEQWhxZGVkY3luUWszQnlIdGNPWFBpSEotU3dyTFJQMmwxbnlWbTlNR25VRW5XSVkwSXdmRzhz?oc=5",
    "source": "The Times of India",
    "summary": "",
    "image": "",
@@ -409,8 +510,8 @@
    "category": "box-office"
   },
   {
-   "title": "'Mandaadi' box office collections day 23 vs 'Dorothy': Soori's action film earns Rs 1.38 cr; Karthik Subbaraj film at Rs 9.30 cr worldwide in 8 days",
-   "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPZVBKSDBjeVFyc29kZUtUWURtT2t5ZFptVThXNzB3MWtYa2xzaER3NG9nVXlCdVllNlRYLVgwUE83M25KSEJnSlpQN2dNYk1uM2RWS2FJZ3MxXzVpc3pZZGlVQ1NkMlB1U1lHQVc5enppeE01a2U2RTVMNVlocVliRGJzbGNUNTh2NkI2OGF5cWFIcnZWTHNZTThDcWpSLVVmT0RHMUk3cDhUQ0tPa0xxblVXaG5nSURzSWh2NU1JcE4zUjJVS01iVU5KTFc5UWhPdjFwaGdDUmd1b2FoLWtPb09yTy05LVdldUhJU2V1WnA5VUtELXpvLWRvNWVrZ3l6UlZieUNnWFpLbWhDbVVnRFQzcHhaV0NWakxkampkZ2hmY05FWUM3LVNhVzV3eUZaRTRqSUk2bm91Vzk1UHJ2N0o3VWFkZG1sQTZhWUtmaFh1NmpXN0E?oc=5",
+   "title": "'Mandaadi' box office collections day 23 vs 'Dorothy': Soori's action film earns Rs 1.38 cr; Karthik Subb",
+   "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPZVBKSDBjeVFyc29kZUtUWURtT2t5ZFptVThXNzB3MWtYa2xzaER3NG9nVXlCdVllNlRYLVgwUE83M25KSEJnSlpQN2dNYk1uM2RWS2FJZ3MxXzVpc3pZZGlVQ1NkMlB1U1lHQVc5enppeE01a2U2RTVMNVlocVliRGJzbGNUNTh2NkI2OGF5cWFIcnZWTHNZTThDcWpSLVVmT0RHMUk3cDhUQ0tPa0xxblVXaG5nSURzSWh2NU1JcE4zUjJVS01iVU5KTFc5UWhPdjFwaGdDUmd1b2FoLWtPb09yTy05LVdldUhJU2V1WnA5VUtELXpvLWRvNWVrZ3l6UlZieUNnWFpLbWhDbVVnRFQzcHhaV0NWakxkampkZ2hmY05FWUM3LVNhVzV3eUZaRTRqSUk2bm91Vzk1UHJ2N0o3VWFkZG1sQTZhWUtmaFh1NmpXN0HSAdsCQVVfeXFMT1VlUG1nbFBwSnNrdTNyT0tBOC1zcHFMeE9PcXNzZk9LUTJnWGtpX0lBT3REelF4RkpCbTdTRDB0UHY0TFdVekxJcFB2Qlc4YlcxNTU2R2dQaU5tYW00dlZXQVFsdi1hS25IZVhwWFJpUGdPX1FETUtjUzZiQTMySkU1TDg4MUxKSUdEcG5ETWM3VFZGTGRKNVZ5bmlmdWtuNXNBdFF4R1dHa2lPVmlJYUhWVER2NWVuQ05kZUk3WFgzVExoSVBDbUNxN01xcDVCWElWYWwySFViZ1hmVVluR3kxcWt1VlRJa28tRnIwVy05QWM4LXUxWHlXVWlQZlBFOFBCYzZmTGpSX0xxYTlTN21fM3kyOUdxRExZVEM2MnJySFV3a3ZLallmZ2dpajV4dHgwRUtXNHloVXhIdElrS3luOThTVWRwcDljdzVEamxTdEUxMDJ6dlNyYUU?oc=5",
    "source": "The Times of India",
    "summary": "",
    "image": "",
@@ -461,7 +562,7 @@
   {
    "title": "Thalapathy Vijay’s son Jason Sanjay opens up on his uncanny resemblance to his father: ‘Not in my control’",
    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS3ZwbGtBaWZ1dFcxYlh0VW9OUGpoWDFXWUt5cFRBcVVrYkt0V3RlMHBxWXNwaUxZMDhLbzZXTVV3LTdVNjdxZm5RYWFNM0lxblA5cFVmS2twaUl5S0VDWGowMmJiYmphSjdERE1QMkw4ZEdWSDJjV09ZUEIzZ1YyelpJdG9SQk9Ha2ZkYXFtWGQzSzNaOEszZXd4TUxEV2lZbFp0MEw5WHBUNlFPOV9qblBuTjFVVW9qZkU1RG40bWJCNkk0T3RKX2FKNGFxTV9wdjl3ZkpqVE9HT1NtdVJVSnl3NUVYRjRMZk93edIB8gFBVV95cUxQYVBmb0dZY0pyOUkzQXJYZ1ItN00wSTQweUVaOVZyYlN0eHhRb2ZQTWFLeDdkQ3BEQXkwbWx4bFRPQ0pUMTlncVFmMHhLYTJqcG92ODZncnFYN1lqT1dyNUkzUGJsNWNGVXNUTUFBT25lTmNaclVhUm9DSlVOQmJYLXJLX20zRWwwSVlCa1ZRYkNBNjhUVDVRLWQxUTRTWU9FQ2V4SjY4WkxMZFBnWEVxdkxoaTRCeHNVSHRONXdWWDZQekRrbnR6Mk55V1hBVVZBSF94RHlCcXdjSVN5RWNQM2ZQbDh3MVNnekI3R2VEcGNzUQ?oc=5",
-   "source": "Pinkvilla",
+   "source": "pinkvilla.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T15:44:40+00:00",
@@ -491,7 +592,7 @@
   {
    "title": "Sigma Twitter Review: 11 Tweets to read before watching Thalapathy Vijay’s son Jason Sanjay’s debut film",
    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQencxN2t6N0RBZEtUYy10TF9fUUJaSk41aTVnTkxoNDdrU1REbVNZV3gyTzBiTTFMUWhiYmgxcDE3TWRlTFJpSHQ4STdWMldhYWFNMHlsVV9ScVNpRVJVdm4xcFVWSGpFWm10dWRZSHJwd3lkd1o2ZlNfalQ3OHNpY0lyaDZQU1Q1dUszczdiQ2YxQ2ZILUZ0endkZEZEMmd1UHpKa0xPTU5UY180Z09LOVdlVEZvZVAxQzV4ZGN6eFBIZzFTOEJmV1ZRVDJBWnI5U0Foa2h1bGpQZGMtN2tuQU1lZkU5ajVtQVQw0gHwAUFVX3lxTE5QU0xpRk5fZ21ObnA0Qk9mNnNJVHNBRTRjT1RZNFFIQzloU2FhN0RpTUlrai1ubnlWaDZKcFUwWnhQU3JMVzJmTFZSSGdpZkxyRjlJMTNhdFVHMHMxVzNCRnRZUnl2dDJ6Y054WkZFTTZoSFUyVWRtLVN2MWljVXdyWDhXT0l0LTg3bjJJbVR5Wk92QXFoMEdZSWMzcXV0TWNJYUJEWXEzd2Vla0xfWUNXODMwVDE2OHprV1VnV3dKWXJsRUhZVmZ2Y1NEUklOWjkyVVNVbDdoUGV1ZUtYRUFwU204dWZGaDVyZVBJQ0FLMg?oc=5",
-   "source": "Pinkvilla",
+   "source": "pinkvilla.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T14:58:36+00:00",
@@ -519,19 +620,9 @@
    "category": "buzz"
   },
   {
-   "title": "Baththa Box Office Collection Day 1: Registers Vijay Sethupathi’s Lowest Opening Post-covid",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8ycWhpN0pFTnBHOEVua28zSzlSR25JOHlMZ3E2N1Vqb0g5cmdOd0xDMDEwOUI1RnFGTDluUVpWOGRERHBoZ0d5eFoxZ2dITVAyTEI5MUl4ZDM1TVU4aGpiZGZB?oc=5",
-   "source": "IMDb",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T14:13:24+00:00",
-   "ts": 1790950404.0,
-   "category": "box-office"
-  },
-  {
    "title": "CM Vijay Flaunts Son Jason Sanjay’s Sigma Frame During Roadshow After Skipping Morning Screening With Famil",
    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNcFotUi1pVnlBRnlTZU5nc0UxZ0tiNEVYMFctS00wR2w5aExVeHF3amNWeEd2ZFR5NkxBR3l3ZVZFZzQ3QWNwRkV2U3dPOWxHeDBQZHFGQ1Ntc1J0RElHVHdkNjZUdjRYTElGMkY2UHp2TmN6T1BhenhDbEV4eEFKOVp5Y3IwRXJOSUdyUlRyVGh5ZGRuNWZKRGMtT0QxWlJrbnpmdjVWNnpiRkxiMGR2RlBUaHl3dGRyMldTRTZxUlZUZFpoTEZBbW9QdTRJRlRmUkVpNU8zb0RVelFhc1ZqWEN2cnA4QnRyX3VlaEpYM0QtUDFGZ0JHbjdtMzdEblpoUEdrZdIBhAJBVV95cUxNcFotUi1pVnlBRnlTZU5nc0UxZ0tiNEVYMFctS00wR2w5aExVeHF3amNWeEd2ZFR5NkxBR3l3ZVZFZzQ3QWNwRkV2U3dPOWxHeDBQZHFGQ1Ntc1J0RElHVHdkNjZUdjRYTElGMkY2UHp2TmN6T1BhenhDbEV4eEFKOVp5Y3IwRXJOSUdyUlRyVGh5ZGRuNWZKRGMtT0QxWlJrbnpmdjVWNnpiRkxiMGR2RlBUaHl3dGRyMldTRTZxUlZUZFpoTEZBbW9QdTRJRlRmUkVpNU8zb0RVelFhc1ZqWEN2cnA4QnRyX3VlaEpYM0QtUDFGZ0JHbjdtMzdEblpoUEdrZQ?oc=5",
-   "source": "News18",
+   "source": "news18.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T14:06:54+00:00",
@@ -591,7 +682,7 @@
   {
    "title": "Sigma Trailer: Vijay's Son's Film Is About Rs 500 Crore Racket Involving Drugs And Gambling",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeG53Y3FSNnpYcE5DX2RKc0Q0WnpUTlJuN09IWk5aSUxFSDJ2WmgzRUlCUWdXUVlXeW1nYTZMMEZ2ZjVTN2FqSkQ2dmFBX2RMeno3djhWNlZpZHFYa19nLXJCVDFzR0lrQmFmYlVtZ0hna0FGSk5ydFhaSVl1NWZ6alFGQ0lOeVJxeldaRmxkbUFFMThCZW1LUWVCWGlHaXBOaDZJTXdmeWNqc2xFVDdGc3B4RTYxN3ZYWGd1aWdJb3lyYmQxQUdkT25iQTRIT2hoRGlDYS0ySWJGTHZ6T2xkaVhn0gHnAUFVX3lxTE9HbzlKbGFMT0tIN2MzZi1iS1ktNWlCT3pYbFdQN2VETENNX1AzZFJaMldkZmE1UFliVWRKTy1Kc0ZGYVJKMTNWMk1Od1BkVjdIYk53Q3JKdnRaaEhIMmpOYmdadkN0aTBrME9XN293REhkRDlVV0JSRDRvTTFqNkdxZEx1QTdmRlRKdnRJTEdRRXp4eUhOc0JLUm90dmpXdUVudFc4cVdUWS1ES1htNk1FRHRVR2l0ZngyNVBhS2RoM0Qyc2xCV1NfSldfMktaVmZRMjRuQ3g2ZkxjT2xiV2NPc2lVTjV0dw?oc=5",
-   "source": "News18",
+   "source": "news18.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T11:50:48+00:00",
@@ -599,9 +690,19 @@
    "category": "box-office"
   },
   {
+   "title": "Baththa Box Office Collection Day 1: Registers Vijay Sethupathi’s Lowest Opening Post-covid",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtc0xqVm53bFc2aW1BY0tDR2dRYzVoOGc2aHR2T1R4QzJtY3NCZEI3QUFaU0sxbWNXWVV3cExaQ2h2cEEyT2JuRUFEOVpyMldZcFR6elB6dEdKN0dmRHMycGhDNlhLOHc?oc=5",
+   "source": "imdb.com",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-02T11:42:49+00:00",
+   "ts": 1790941369.0,
+   "category": "box-office"
+  },
+  {
    "title": "The Kumararaja Effect: How one filmmaker changed the grammar of tamil cinema",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT0R4cVJkTHdiWEtIbkpaTmMxSVdTOTBxZjkxQmhCUDFqR2tkTWNxZ2lIdHJCS0ZKRy1LYWM1UEhQWWh6bmdCbEZMRTlxZTJ5Vl9tUm1rRUJaQXlMZTJXM19aUHR1MEcxaDNkeFVXb21fT3NQT1VrdzBmcWlKQlpTY1NTNEdrYkh0YXM5TkhwX013dGZZNHE0UDVwS3VpNWxNeWUzQmRzZXBheEM0Nkh0c042OWVWWDc4ZlY0cENPSDZ4MXpPWVHSAcwBQVVfeXFMTVZ0eUN2R1BZSlJiaFVYX1dBRW1oOHJfTE0yV1J3eTBqZ3Z5N09SWkhGUUNqa3A2OW1YWkdMblpKSkE3eDNreWFOdUUzQlNSQWFBLWJoamwwN0hLRjNrWDg0TlZGUW85RFJURF9BRjJDOVdnbGtaZjZIR25RWVdPRUxqbTNma3BxUFYzN0RkNTNUZE16UURoSkVqVkxWWHphTm1VNlZiT0FTd0VmWldsTXQ4dlFSQ280c1VCOVVQa25GTEthNG91cVppZFgz?oc=5",
-   "source": "The Hindu",
+   "source": "thehindu.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T11:30:00+00:00",
@@ -739,29 +840,9 @@
    "category": "reviews"
   },
   {
-   "title": "ஒழுங்கா மகனை இறக்கிவிடு.. தொங்கவிடப்பட்ட மகன்.. சண்டைக்கு சென்ற பாண்டியராஜன்",
-   "url": "https://tamil.filmibeat.com/news/pandiarajan-birthday-love-actor-sugumar-reveals-shocking-incident-involving-his-son-prithvi-184853.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தமிழ் சினிமாவின் மூத்த இயக்குநர்களில் ஒருவர் பாண்டியராஜன். இயக்குநராக மட்டுமின்றி ஹீரோவாகவும் வென்ற அவருக்கு பிருத்வி என்ற மகன் இருக்கிறார். அவரும் ப்ளூ ஸ்டார், பராசக்தி உள்ளிட்ட படங்களில் நடித்திருக்கிறார். இந்நிலையில் பாண்டியராஜன் குறித்து காதல் பட நடிகர் சுகுமார்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/panddirya-40541790921631.jpg",
-   "published": "2026-10-02T06:14:33+00:00",
-   "ts": 1790921673.0,
-   "category": "buzz"
-  },
-  {
-   "title": "‘Baththa’ Draws Attention for Vijay Sethupathi’s Emotional Performance",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSDZ0cFhqTmozWFplamR2RzZTWWpuU1k0TkUybUdvUE1VMXpnNTRkN1ltbzRsQzczSDc0Z1ZobHd3MDg5d3BxZ0dEU1FseHFBajZOeFE2eEc0S3J0UEtiamtBRHBRNGtna2J4RVR4MzlhaTVRTFRIUDh4TVEtbWtXdnpRcE41ZDd3WW5GckhDSm9tMkM2UmJsVlNrTQ?oc=5",
-   "source": "boldnewsonline.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T06:03:17+00:00",
-   "ts": 1790920997.0,
-   "category": "buzz"
-  },
-  {
    "title": "Jason Sanjay's Mom Sangeetha, Sister Divya Arrive To Watch Sigma In Chennai Sans CM Vijay | Watch",
    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWlluMFZkS2RSWGRkOW1FWS1UTmFOX1gzRjZ4ajlncExQb0JNd3FONnpvSXU1NW90ekNyMlRwT0M0UXg2Y3l5dHIxRS1QMXlGQThhYkJpY29WOWlVTlRxSHp1T1BpVnNrUFpwQVE0WDFIclR1NUs2LVp0LTI3SEI4NlFKZ05oejMxYm5KbUFDcG51X3VBMEQ1dzdEM1N5Z2h2MFhzVkxfSGNzankzNlVGVjAtNHJ2ZEtld2hxTG5qTnlyVklOSW9kS0tHLUtOU0dxamZlR2pDbVJudzVFV2dVcGF5T2RrNm5NbjVjdGtxWS3SAfABQVVfeXFMTlpZbjBWZEtkUlhkZDltRVktVE5hTl9YM0Y2eGo5Z3BMUG9CTXdxTjZ6b0l1NTVvdHpDcjJUcE9DNFF4NmN5eXRyMUUtUDF5RkE4YWJCaWNvVjlpVU5UcUh6dU9QaVZza1BacEFRNFgxSHJUdTVLNi1adC0yN0hCODZRSmdOaHozMWJuSm1BQ3BudV91QTBENXc3RDNTeWdodjBYc1ZMX0hjc2p5MzZVRlYwLTRydmRLZXdocUxuak55clZJTklvZEtLRy1LTlNHcWpmZUdqQ21Sbnc1RVdnVXBheU9kazZuTW41Y3RrcVkt?oc=5",
-   "source": "News18",
+   "source": "news18.com",
    "summary": "",
    "image": "",
    "published": "2026-10-02T05:55:17+00:00",
@@ -789,36 +870,6 @@
    "category": "reviews"
   },
   {
-   "title": "Veramaari song performance -Jailer 2 | Superstar Rajinikanth | Sun Pictures | Anirudh|Nelson| Tamizh",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDR2ZXWFV2cW9oMjJrNWRqYU0yZjktWk9wcjBvUS11MlUxbnNUQlh4TnVxZjk5SUZCQ20wYnFhQ3I0eUFVZW5NQVdIVHJrR2wtVldZTnRCWmhkMUpf?oc=5",
-   "source": "YouTube",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T05:30:17+00:00",
-   "ts": 1790919017.0,
-   "category": "music"
-  },
-  {
-   "title": "Malavika Mohanan calls working with Vijay Sethupathi 'beautiful experience'; says, ‘I cannot imagine this",
-   "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOYXRlaEFHR0dnbmhBMmpFaVlGM3FLUDVIblRWQ1VQUllPRXpscnIxMlY3YkdqejV5YWl1d0xXMlV5TktsaHliajZWSmZVbHFZRVVnU0dxcnhqMmw3Y1I1ZU1DRjFGRUx5Z3RKV1BmRGxBV3dZOVpDdTJReUJPcmZGN0JFV0dIcDhBTU9jQ1AtSVF1NFU2emVZVGZlQkhaS25JMVNaZDI3SGlzNVI1RUh2WUlVM2pVQU90V1VDWVZZOTZWRzJLOTFuSFBSZGFtUUpteXZKdXNyeW0yV2x6NFNLZ1M1NUt2bkJGT1ZqRkVuYlVwQS1JSXlkX2NMNENSYURLSHhlS2pyU2ZER3dYRXR0TW9OOEZNSFoySGcwenpXcGRGOS03OHZEcFNhNFlQN190Y3kwSVJTcjJFLXRsMjd1QXBjYVdKZGQyQk5YMThISHF1Ni1KSEZNY2Nmb3ZPNHM1UkxV0gHoAkFVX3lxTFB1alNiUmkxTFZnekhIYUQyaDRhN3JPM1lYM0VqaEJhZEJTNjVMcXRwZll2VmZBOWVwUHZDbmtzMDdZbHhNRWp3X3MyRE5GaEdIcnh5RHB0amRtaXpnSklKeHJzNGRTc2c0RUVOdXhuTEx4VWVtOF9uVDJDWmdMZGZadWFvdGJfQVhmNEZXSHZSSXNCeHUzUTJTVEtHZ3VBaUhoM3RYZjJaWVI4a21adW9hZXpfMXBQaVAwLThlaFRhVExZbVNTMVZEWGJHYXNma1QzdG16ZFVzVjhWZm5Xa1dYM0lBaEZoaUI1SnluS0t5SWoxNWVacUdqTzJLTXk4S0RWaGVkc2VhQTN3MFFVZmMxZU9YOXdOTzFHZi11eVNMY3R0UjVWMWp2N3kyVHV5ZFZSb2dmUUpObFdfTlNIYmVhRkc5Ni1DcjU0UUExbDRXRU1mWVc2bThHU296RTVFTF85djRvRHptYg?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T05:17:00+00:00",
-   "ts": 1790918220.0,
-   "category": "buzz"
-  },
-  {
-   "title": "சமந்தா செம ஹேப்பியா இருக்காங்க.. அவங்களுக்கு ஒரு ஆர்மியே இருக்கு.. சின்மயி ஓபன்",
-   "url": "https://tamil.filmibeat.com/heroines/samantha-pregnancy-chinmayi-reveals-how-the-actress-is-doing-amid-her-pregnancy-184851.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: நடிகை சமந்தா தமிழ், தெலுங்கு, ஹிந்தி மொழிகளில் பிஸியான நடிகையாக இருப்பவர். முதலில் நாக சைதன்யாவை காதலித்து திருமணம் செய்த அவர்; சில காரணங்களால் விவாகரத்து பெற்றுவிட்டார். அதனைத் தொடர்ந்து இயக்குநர் ராஜ் நெடிமோருவை காதலித்து இரண்டாவது திருமணம் செய்துகொண்டார். இப்போது…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/sam-12071790917844.jpeg",
-   "published": "2026-10-02T05:11:28+00:00",
-   "ts": 1790917888.0,
-   "category": "buzz"
-  },
-  {
    "title": "Sundeep Kishan calls out ‘targeted anti tweets’ against him and Sigma, warns ‘paid’ trolls: ‘You have more to lose than me’",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/sundeep-kishan-calls-out-targeted-anti-tweets-against-him-and-sigma-warns-people-paying-for-it-jason-sanjay-101790911138239.html",
    "source": "Hindustan Times",
@@ -826,26 +877,6 @@
    "image": "https://www.hindustantimes.com/ht-img/img/2026/10/02/1600x900/logo/Sundeep_Kishan_1790911656179_0LAM_1790911656334_mpOg_4caf09bd-bed2-4590-b345-9c3aa92046a9_m0FK.jpg",
    "published": "2026-10-02T04:04:42+00:00",
    "ts": 1790913882.0,
-   "category": "reviews"
-  },
-  {
-   "title": "ஜேசன் சஞ்சய்யின் சிக்மா ரிலீஸ்.. படம் பார்க்க வந்த சங்கீதா, சாஷா.. முதல் காட்சிக்கு ஆஜர்",
-   "url": "https://tamil.filmibeat.com/news/sigma-jason-sanjays-mother-sangeetha-and-sister-divya-sasha-arrive-for-first-show-184849.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: விஜய்யின் மகன் ஜேசன் சஞ்சய் இயக்கியிருக்கும் சிக்மா திரைப்படம் இன்று திரையரங்குகளில் ரிலீஸாகியிருக்கிறது. ஜேசன் இயக்கியிருக்கும் முதல் படம் என்பதால் இதன் மீது எக்கச்சக்க எதிர்பார்ப்பு எழுந்திருக்கிறது. இந்நிலையில் ஜேசனின் தாய் சங்கீதாவும், தங்கை திவ்யா சாஷாவும் முதல்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/abb-72801790913277.jpg",
-   "published": "2026-10-02T03:55:34+00:00",
-   "ts": 1790913334.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Baththa Prashanth's Review - பத்தா பிரசாந்த் விமர்சனம்.. தேசிய விருது உறுதியாம்",
-   "url": "https://tamil.filmibeat.com/reviews/baththa-prashanths-review-vijay-sethupathis-film-gets-100-100-and-high-praise-184847.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: பாலாஜி தரணிதரன் இயக்கத்தில் விஜய் சேதுபதி, லிஜோமோல் உள்ளிட்டோர் நடித்திருக்கும் திரைப்படம் பத்தா. இதற்கு சாய் அபயங்கர் இசையமைத்திருக்கிறார். நேற்று திரையரங்குகளில் வெளியான படத்துக்கு ரசிகர்களிடையே நல்ல வரவேற்பு கிடைத்திருக்கிறது. இந்நிலையில் பிரபல திரை விமர்சகரான…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/bjj-72801790912242.jpg",
-   "published": "2026-10-02T03:38:07+00:00",
-   "ts": 1790912287.0,
    "category": "reviews"
   },
   {
@@ -857,16 +888,6 @@
    "published": "2026-10-02T03:11:05+00:00",
    "ts": 1790910665.0,
    "category": "reviews"
-  },
-  {
-   "title": "Malavika Mohanan calls Vijay Sethupathi a caring and giving co-actor - Mid-Day",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMEYza1pQeHVwSmw4WFBNZ242WW5YUXcyMG5KVDlwQi1CVXFoUlBNWU1hcURkeDZ5VUxFQzlpUEZaNzZTZHVpR2FiT256SUY2S05hV0tkRGI2R1pnMkhtQkhJaXo4UUIzVzJ3WHZxYlV1T3JjeGZ3SUN0OUJrTjZIcXlVdTV6b2NQdktyTTUwb0VoRG5DeFg3LXFhZ3dGZ0pKR09naENaM3kwbzJ2X2FrWGJxZERjdEotdmcwTi04UzhaTG80amE2MGE0MXpZWWFLay1KOUw0aXFRVGlyWGptVzhtekZpRktjRjFlcURnXzFlamVmOHMybVZuSnFzUdIBgwJBVV95cUxPOXVIeE5fMkhrR1MwYkVzUGFTdWhNMEdMMVpGMEVXbmhXejRLb0NrQ1dtUE82ZFh5RGFxRkQyX1pLR3oxSWMxSFZOaFVPOWZUUDBHd1l1bGx2Wk5wN0I3cVZPUUlSVmZ2TTY4OG9aY00xR21IcEV4eGJVS3lSUVB1LTdiaHZhUENGM3hzci16TmhWTDMyS2wyZ05oUmk2WVp5cnlhTWZramZ2OTQ3ZkUtSGhzWjZRVVVZUWJ2YVFYWF8xNGM0cTk4LUJaWGw0d3lFcm5SRHhWZ0dHekZraVVKdUEzbF9jSHl4UWk3QUtEOEFYYjFuajU5bWl5MVdzTXNpdmZJ?oc=5",
-   "source": "Google News",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T02:49:00+00:00",
-   "ts": 1790909340.0,
-   "category": "buzz"
   },
   {
    "title": "Latest Malayalam, Tamil, Telugu, Kannada OTT releases this week (September 28 to October 4, 2026): Sardar 2 to Bethlehem Kudumba Unit, what to watch on Netflix, Prime Video & more",
@@ -959,26 +980,6 @@
    "category": "buzz"
   },
   {
-   "title": "‘Beautiful, divine, God's work’: Chinmayi Sripaada reviews Rishikanth's films Dorothy, Modha Rathiri",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/beautiful-divine-gods-work-chinmayi-sripaada-reviews-rishikanths-films-dorothy-modha-rathiri-101790850645040.html",
-   "source": "Hindustan Times",
-   "summary": "Tamil actor Rishikanth recently tasted back-to-back success with Modha Rathiri and Dorothy. Singer Chinmayi was all praise for both his films.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/01/1600x900/logo/Chinmayi_review_1790851158592_EDw5_1790851165829_frzX_61d0be98-0872-490e-9f59-95bad0b5f8ee_by1R.jpg",
-   "published": "2026-10-01T11:14:52+00:00",
-   "ts": 1790853292.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Kajal Aggarwal’s The India Story Now Streaming in Telugu and Tamil on OTT",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUDl6OUt2SFk1VWpVcmpWcHh4NVBERWl0VGRHWEF6aDhuTDgyQXkwQzhyN1NRa2ZDX0tFcW5XWFRkSzk2d3pEcmtJTTdnMS1fY1Zka0ZTOXFITnM3TTJuNk9tSFZMMW9hWlBOSGplZy1oUHVYbkk4RWRVZDk3cnMwcEhPSS0ySUZWVjMtamRsNktCcEh4U2Q2MGxkcEZWRm8?oc=5",
-   "source": "Telugu Bullet",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-01T10:47:19+00:00",
-   "ts": 1790851639.0,
-   "category": "ott"
-  },
-  {
    "title": "Kollywood (Tamil) Box Office Collection & Verdicts 2026",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWgyLVFQcW9nbnYzUzBTSnB6d2JFajFTN094TEtLLVVFX2V6RENMVjVqV3ZiVm03aGgtUHpTb2JpekNJSXBuZnlMdzZkMUp2cG5vVWV6OVJnN1JZZW5RYUJaMjVFSXpQc1RiQTNUTzBmWG0yS0ppMHV0UnpIb3l0VVNuM1NUTnpLZTZsbDFFT2o1SHYyRDNV?oc=5",
    "source": "koimoi.com",
@@ -1007,6 +1008,16 @@
    "published": "2026-10-01T09:23:49+00:00",
    "ts": 1790846629.0,
    "category": "buzz"
+  },
+  {
+   "title": "Baththa OTT Release: Where To Watch Vijay Sethupathi's Film After Its Theatrical Run",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTlJIMi12OEwxTkpDSGZFV3BqVHlSaXBFMjI3LTc0SG1LaWI4b2ZXMnhlbDFyS2ctVTBITHpyXzd6UkQ1anZ5QXFJZG8yQVBVYnlDRTMybktPcHZXendVSkt5dmNZUzBfOGloVkhONzhORTB2enJaRnJZRFNwM081TDNMWURlN3U3VDZRcEF2OG0wYU42WEhoNXh5bEVyTmt2RmZPVnRibWdGdWdrYjFyRzBlYk5qUDJwNWZPMDdfdDlBMTRJeFdOanhKM25QLVdB?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-01T08:54:47+00:00",
+   "ts": 1790844887.0,
+   "category": "ott"
   },
   {
    "title": "Dorothy Tamil Movie: Karthik Subbaraj's 10th Film Creates History For Tamil Cinema With Keerthy Suresh & TIFF 2026 Selection | Dorothy Tamil Movie: Everything You Need To Know About Karthik…",
@@ -1121,7 +1132,7 @@
   {
    "title": "Rajinikanth's 'Jailer 2': Nora Fatehi Debuts in Tamil Cinema With Special Number 'Bindass', Full Song Drops at 6 Pm",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GTXpxOGRSYWdGQmQtaEh5NktEdThHYTZFSFZxeW4teDZKaWxqWnFmS3lCZnB1LURQdUtQWmlmbVozTkR2d1NLUmNnNXp5Zk1PUXV0SEJKWHFsR1FXUGRWczZPT1YwTWM?oc=5",
-   "source": "IMDb",
+   "source": "imdb.com",
    "summary": "",
    "image": "",
    "published": "2026-09-30T09:50:53+00:00",
@@ -1131,7 +1142,7 @@
   {
    "title": "Mandaadi Box Office Collection Day 20: Surpasses Dhanush’s Highest-Grossing Film In Tamil Nadu",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqQTdncmEybW1oZ28tdkZraHZEZVJ5WU1EalV5OHdWU3JReVdTb1FMa2JVd2hoZjVkRjJYSlFjdmVQaXV3cG5nTnB2QW1QTGM3dUlLMnk3MDZ2MTNpRk5MYQ?oc=5",
-   "source": "IMDb",
+   "source": "imdb.com",
    "summary": "",
    "image": "",
    "published": "2026-09-30T09:49:52+00:00",
@@ -1181,7 +1192,7 @@
   {
    "title": "Meesaya Murukku 2 Box Office Day 5: Hiphop Tamizha Starrer Crosses ₹22 Cr Gross as Tamil Nadu Drives Over 90% of Collections",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMVFoMkhlVUdRa3VPZnI4S0dGYTFIbFpLTUU3aS0teDRjSzJtaXkzUGVoYS1OQnZaMThCcEFSM3IyNWFaMVNaSE5RVFowdmFFV2V2cXJoVzFob2RHQTZycS1melZNbjkzaW9sSUg5T1F2VmdOWjZLdzlyVDdJcjJIQWw2SVNIcTJLbm1rZ2FhLTZFRmFLbURSSkZWejFieExBVlE2M1VmWXZSajYxd2JfNEtvWWdMRFhQQk5zZl9DTUJFdVF0dXhFTnR5VHJHeFRmcDVQX004U3N3ODhtbjVJQkZlUHo?oc=5",
-   "source": "sacnilk.com",
+   "source": "Sacnilk",
    "summary": "",
    "image": "",
    "published": "2026-09-30T06:41:37+00:00",
@@ -1201,7 +1212,7 @@
   {
    "title": "'Golden Bhagyam' teaser blends Telugu and Tamil comedy with food",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0JzUW41QkRINjB1Yk91aDJEZ21FQXM1RmlyZ3Z0aENVbEVfRFV6S0ZvenlnNlhEOTdlV0FFcWRaa1RlWkdSdVdZaER3TXlMcTdzSlFTalQ1ZEpGRGlKODN0S2hEOTFjX2hINTBhNFQ0OXNuclpEc2dZRVdrb3ZteXlfdldtYmZaTlRHdlE3OWhobWVFdlBEVVB0ZEU0QUJtb1dHaTYya1p4ODlOSUV2S092ZlNsdw?oc=5",
-   "source": "NewsBytes",
+   "source": "newsbytesapp.com",
    "summary": "",
    "image": "",
    "published": "2026-09-30T05:12:09+00:00",
