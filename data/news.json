@@ -1,48 +1,48 @@
 {
- "generated": "2026-10-06T00:54:36.952047+00:00",
- "count": 97,
+ "generated": "2026-10-06T14:09:44.020454+00:00",
+ "count": 101,
  "sources": [
   "Cinema Express",
   "DNA India",
-  "ETV Bharat",
+  "DT Next",
+  "Deccan Herald",
+  "ET Now",
+  "Esquire India",
   "Filme Shilmy",
   "Filmibeat",
   "Filmibeat Tamil",
   "Google News",
-  "Gulf News",
   "Hindustan Times",
   "IMDb",
+  "Kerala TV",
   "Koimoi",
   "Live Law",
   "M9.news",
-  "Moneycontrol.com",
+  "MensXP",
   "Movie Crow",
+  "NDTV",
   "NDTV Profit",
   "News18",
-  "News9live",
-  "NewsBytes",
   "Only Kollywood",
   "Outlook India",
-  "Pinkvilla",
+  "Rediff",
+  "Sakshi Post",
   "The Daily Jagran",
   "The Hindu",
   "The Hollywood Reporter India",
-  "The Indian Express",
-  "The Sunday Guardian",
   "The Times of India",
+  "ThePrint",
+  "Times Now",
   "Times of India",
-  "Vi",
-  "WION",
-  "dtnext.in",
-  "herzindagi.com",
-  "ndtv.com",
-  "sacnilk.com",
-  "youtu.be",
+  "YouTube",
+  "cinemaspeak.in",
+  "newsd.in",
+  "telugu360.com",
   "zoomtventertainment.com"
  ],
  "images": {
-  "total": 42,
-  "scraped": 24
+  "total": 45,
+  "scraped": 22
  },
  "feeds": [
   {
@@ -51,7 +51,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.12
+   "seconds": 0.14
   },
   {
    "name": "News18",
@@ -59,23 +59,23 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.12
+   "seconds": 0.15
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 0,
+   "items": 6,
    "ok": true,
    "error": null,
-   "seconds": 0.46
+   "seconds": 0.24
   },
   {
    "name": "Hindustan Times",
    "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
-   "items": 4,
+   "items": 5,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.89
   },
   {
    "name": "Indian Express",
@@ -83,15 +83,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.16
+   "seconds": 0.05
   },
   {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/entertainment/movies/feeder/default.rss",
-   "items": 11,
+   "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.39
+   "seconds": 0.38
   },
   {
    "name": "Filmibeat Tamil",
@@ -99,23 +99,23 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 1.06
+   "seconds": 1.04
   },
   {
    "name": "DT Next",
    "url": "https://www.dtnext.in/feed",
-   "items": 0,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.27
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 3,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.15
+   "seconds": 0.12
   },
   {
    "name": "Google News",
@@ -123,7 +123,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.42
   },
   {
    "name": "Google News",
@@ -131,7 +131,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.51
+   "seconds": 0.53
   },
   {
    "name": "Google News",
@@ -139,7 +139,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.74
+   "seconds": 0.63
   },
   {
    "name": "Google News",
@@ -147,7 +147,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.51
   },
   {
    "name": "Google News",
@@ -155,7 +155,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.46
+   "seconds": 0.52
   },
   {
    "name": "Google News",
@@ -163,7 +163,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.39
+   "seconds": 0.49
   },
   {
    "name": "Google News",
@@ -171,77 +171,737 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.48
   }
  ],
  "trending": [
   {
    "term": "Jailer",
-   "count": 19
+   "count": 18
   },
   {
    "term": "Rajinikanth",
-   "count": 12
-  },
-  {
-   "term": "Vijay Sethupathi",
-   "count": 10
-  },
-  {
-   "term": "Mandaadi",
-   "count": 8
+   "count": 14
   },
   {
    "term": "Baththa",
    "count": 8
   },
   {
-   "term": "Review",
+   "term": "Mandaadi",
    "count": 7
   },
   {
+   "term": "Tiger Muthuvel Pandian",
+   "count": 5
+  },
+  {
+   "term": "Vijay Sethupathi",
+   "count": 5
+  },
+  {
+   "term": "Collection Day",
+   "count": 5
+  },
+  {
    "term": "Trailer",
-   "count": 5
-  },
-  {
-   "term": "Watch",
-   "count": 5
-  },
-  {
-   "term": "Yezhu Kadal Yezhu",
    "count": 4
   },
   {
-   "term": "Muthuvel Pandian",
+   "term": "Soori",
    "count": 4
   },
   {
-   "term": "When And Where",
-   "count": 4
-  },
-  {
-   "term": "Dorothy",
-   "count": 4
-  },
-  {
-   "term": "Singeetham Srinivasa Rao",
+   "term": "Baththa Box Office",
    "count": 3
   },
   {
-   "term": "Sivakarthikeyan",
+   "term": "Hrithik Roshan",
+   "count": 3
+  },
+  {
+   "term": "Breaking Bad",
+   "count": 3
+  },
+  {
+   "term": "Jason Sanjay",
+   "count": 3
+  },
+  {
+   "term": "Kamal Haasan",
    "count": 3
   }
  ],
  "articles": [
   {
-   "title": "'Baththa' BO day 5: Vijay Sethupathi’s action drama crosses Rs 11 crore",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/box-office/baththa-box-office-collection-day-5-vijay-sethupathis-action-drama-crosses-rs-11-crore-mark-despite-monday-dip/articleshow/134720206.cms",
+   "title": "\"Enjoyed A Tamil Film After A Really Long Time\": R Madhavan Reviews Modha Rathiri, Calls It 'Brilliant'",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObl80OEZkWDZKQnJXWXpta3Boc0YxS3ZQSW9HU3pXY3NyYmJ1NXNNOFBreGRXU3BFaENYOUxSNmkwdjRqNWlWWk01QTNBYTNLM3lCa19hSlVqNFBQMTI0dWFpWHZ6aU00VzRHTG5KZ2Jxb21ZVlJ5bFhnQngzdXlqN0ZWZUpNVEhHVlREVGt4b2tLZUVtVHEyNUJUU005c1d2M3hPemVOWWFqeEF0LTJqRzVGU1Y2cWFIV2JLUWdTMDdBX3VrSGpIdEZ3YnVvZHQ1NUwxT25pVzjSAeABQVVfeXFMUGhrT2Y1X18wdzlTLUx2MFd2TlV3VWs5dTBWOGptcFRqT0tCQkNZeEU5OFUydDYtS3g0TXI3N1JBT3RvLU5YcWdQMG9nalZ0cGNGbzZHQk9NNkt5MlpQckVUd0FaMkFYZWRWMG5Mb252WldpRk5QZVhWbEdYc0JWNjlLLVJWTnh3QmlGcnBDVHg1cXpPb1FHY2EwVGVkbFpqX0pkeHdYQVJKbVJ6UUNuUHFFMXozUktVTEprVUdaTXJueWJ6cUlTS1B2WlQ0YnBqcmRRZXFMTlhhbTdqSW5paV8?oc=5",
+   "source": "NDTV",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T13:57:09+00:00",
+   "ts": 1791295029.0,
+   "category": "reviews"
+  },
+  {
+   "title": "Aishwarya Lekshmi says she's at peace a year after quitting social media: ‘Better place in life’",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/aishwarya-lekshmi-says-she-is-at-peace-a-year-after-quitting-social-media-trolling-love-web-series-101791291780308.html",
+   "source": "Hindustan Times",
+   "summary": "Aishwarya Lekshmi quit social media in September 2025. While promoting her recent show #Love, here's how she felt about the decision.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/aishwarya_lekshmi_1725615170800_1791292963330_Kjcp_872832b5-226b-4bfe-8558-fd20dd0c0e7f_jjVQ.jpg",
+   "published": "2026-10-06T13:39:23+00:00",
+   "ts": 1791293963.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Kochi becomes home to Keralam's first Dolby Cinema location",
+   "url": "https://www.cinemaexpress.com/malayalam/news/2026/Oct/06/kochi-becomes-home-to-keralams-first-dolby-cinema-location",
+   "source": "Cinema Express",
+   "summary": "Dolby Laboratories' eponymous cinema brand has come to India with a location at City Pride, Kharadi, Pune in July last year. Subsequently, the company launched locations in Bengaluru (AMB Cinemas), Hyderabad (Allu Cineplex), and in Thiruverumbur, Tamil Nadu (LA Cinema). The…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-06/m4qupgc5/Dolby-Cinema.jpg",
+   "published": "2026-10-06T13:33:32+00:00",
+   "ts": 1791293612.0,
+   "category": "buzz"
+  },
+  {
+   "title": "‘Love Always’: Teaser of India’s first Korean webtoon adaptation out",
+   "url": "https://www.dtnext.in/entertainment/cinema/love-always-teaser-of-indias-first-korean-webtoon-adaptation-out",
+   "source": "DT Next",
+   "summary": "CHENNAI: JioHotstar has unveiled the teaser of its upcoming Tamil original series Love Always, which is set to stream from October 30. Directed by Madhumita, the eight-episode series marks what the makers describe as India’s first adaptation of a Korean webtoon. ‘Love Always’…",
+   "image": "https://media.assettype.com/dt-next/2026-10-06/pdmmzdcr/c67ca750-0e9f-4daa-9055-5ec5fb5859d4.JPG",
+   "published": "2026-10-06T13:23:04+00:00",
+   "ts": 1791292984.0,
+   "category": "ott"
+  },
+  {
+   "title": "Rajinikanth’s Jailer 2 Clears Censor Hurdles",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KYjB3RXRnZlhEbXlFcERkTDVUUnR0Sk84YkJhMUotVl8yZ2ppcHhYbG15TU1mLVMtODdpcm92LVNyZUpXcnB1WkVYYjRKVkxwcHZXUjRmTzZiX2ZGYXhpbDZBMFBVWURnUkxvalc4bzY1V2pMMTVzNGJB?oc=5",
+   "source": "telugu360.com",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T13:16:49+00:00",
+   "ts": 1791292609.0,
+   "category": "buzz"
+  },
+  {
+   "title": "திரையுலகில் தொடரும் சோகம்.. பாபநாசம், பில்லா 2 பட தயாரிப்பாளர் உயிரிழந்தார்!",
+   "url": "https://tamil.filmibeat.com/news/veteran-film-producer-george-pius-tharayil-passes-away-at-63-185039.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: தென்னிந்திய திரைத்துறையில் கடந்த இருபது ஆண்டுகளுக்கும் மேலாக வரிசையாக பல பிரம்மாண்ட வெற்றிகரமான திரைப்படங்களை உருவாக்கி, முன்னணித் தயாரிப்பாளர்களுள் ஒருவராக வலம் வந்த பிரபல திரைப்பட தயாரிப்பாளர் ஜார்ஜ் பயஸ் தாராயில் உடல்நலக் குறைவு காரணமாகக் நேற்று காலமானார் அவருக்கு…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/prod1-61021791292563.jpg",
+   "published": "2026-10-06T13:16:21+00:00",
+   "ts": 1791292581.0,
+   "category": "buzz"
+  },
+  {
+   "title": "பிறந்தநாளில் புதிய படத்தை அறிவித்த சிபிராஜ்.. அடேங்கப்பா தயாரிப்பாளராகவும் புதிய அவதாரம்!",
+   "url": "https://tamil.filmibeat.com/heroes/sibiraj-announced-his-next-movie-and-started-his-own-production-house-on-his-birthday-185037.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: 'எண்ணிக்கையை விடத் தரமே முக்கியம்' என்ற கொள்கையோடு, ரசிகர்களைக் கவரும் வகையில் வித்தியாசமான கதைக் களங்களையும் கதாபாத்திரங்களையும் தேர்ந்தெடுத்து நடித்து வருபவர் நடிகர் சிபிராஜ். திரையரங்கம் மற்றும் ஓடிடி (OTT) தளம் என அனைத்திலும் முத்திரை பதித்து வரும் அவர், தற்போது தனது…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/sibiraj-29161791292542.jpg",
+   "published": "2026-10-06T13:16:01+00:00",
+   "ts": 1791292561.0,
+   "category": "ott"
+  },
+  {
+   "title": "‘Jailer 2’ skips grand audio launch, Rajinikanth to feature in rare 3-hour TV interview",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jailer-2-promotions-rajinikanth-to-appear-in-three-hour-tv-interview-ahead-of-october-15-release-makers-to-skip-grand-audio-launch/articleshow/134741395.cms",
    "source": "Times of India",
-   "summary": "The film 'Baththa', featuring Vijay Sethupathi and Lijomol Jose, has now spent five successful days in cinemas. It garnered an impressive box office collection of Rs 11.35 crore net across India. Despite a robust opening weekend, collections saw a dip of about 25% on Monday.…",
-   "image": "https://static.toiimg.com/photo/msid-134720245,imgsize-114193.cms",
-   "published": "2026-10-06T00:19:34+00:00",
-   "ts": 1791245974.0,
+   "summary": "Rajinikanth is set to make a grand return in 'Jailer 2', directed by Nelson Dilipkumar, hitting theaters on October 15, 2026. In a fresh approach, the film's promotion will feature an exclusive three-hour television interview instead of a typical audio launch. The music was…",
+   "image": "https://static.toiimg.com/photo/msid-134741423,imgsize-72321.cms",
+   "published": "2026-10-06T13:00:16+00:00",
+   "ts": 1791291616.0,
+   "category": "music"
+  },
+  {
+   "title": "‘Jailer 2’ promotions: Rajinikanth to appear in three-hour TV interview ahead of October 15 release; make",
+   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPM0h5Q2NyRm5XR2E1OFlXNF9tdVJRT3FySllxUEpfOXZtTkw1RjFOTWFzVjZrSjF3Nzhmc05ISjNoSnZUOW9PSHpSbWI5M0Z1OW11ajNnV0Nzc1ItTlVMbHJlU1ZURW5oMWdaLUlMN1dHR2VIeXlFWFlSSHM0RXJnSzV5NlNwQmprZG1oaWZHSW8zLXItN3duRkF0TmtSbGpkUkdmNjZWcVNJb1BkUTdoU2k1anFjOEUwMHBtSTZWS3R3NFRueVRzQW14T3k5T0ZXdm5YQjQteUNuaG5zcE1zSFZub2FtVGphd3dCU3k2cUlmQjRnX21ZMU4wbWE1MldCSS04d3BNSGFvZHQ4cnRqR01MbC1OV2RDbVVyeFRTSmJnTjE4dnJkdmV1UWExaEJZUXdYWVBKUlhOSGNNd3V5T0dpOU1wUm_SAcwCQVVfeXFMUEphMlRDcU1oaHZBSFQxMXhYcmE1Uy1VTkNsRzRvZEtwbjJXY3JjTlJfXzFFdkh1RDdiVGE2MHNSR3g3VkdYZzFhOV82UGtrVVgzWGRzWFpHRGRJdFoxRm11eE5vVWxxMy05MUZGVDNmRFBFRUlmY0lyeDVTSXczS1JLMGZ5MVYxWHppWDFjcUU2SW9uVng4T0VLRXZBU1loaUk4YkVKcnplVWFuLTRvdV9TUk8zSnZreDU4c0g1VnJkMkdhaDhzUHJBQ1N6QnFrQWFrOU9uYnAzVF9NOUdNQnFUUWpOQy1HeXJOUnNIRmwwVXBuVjIzS1ZRSmdZdWpWYUd6VzRxcU56a3ZUbl9BLXZldEtsaUNITndTRVc5VVZnMjNOazJrYUc0TGFlSU5ZQUM5UHlWSkJPbGpXNF8tN3ZHS3F0eTJqbUZkdWI?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T13:00:00+00:00",
+   "ts": 1791291600.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Scene: Suriya starrer's first song to drop on this date",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/06/scene-suriya-starrers-first-song-to-drop-on-this-date",
+   "source": "Cinema Express",
+   "summary": "Suriya's production banner, Zhagaram Studios, announced on Tuesday that the first song from the actor's upcoming film Scene is set to release on October 08, Thursday. The song is titled ' Aathi Iva Yarraa ' and is composed by Sushin Shyam. Zhagaram Studios made the announcement…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-06/q16aceah/Scene-1.jpg",
+   "published": "2026-10-06T12:54:50+00:00",
+   "ts": 1791291290.0,
+   "category": "music"
+  },
+  {
+   "title": "Haiku - Official Tamil Trailer",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTVRNTjh3UnF5QUlSUGVfZGY1YU16S2tjSjc3ZVlhZzBaSjRSUGdfTGlpR3JodUF5aVdWdnZnVFJDMmZVVl9TTFJkM1dQRnVqTEpiN3hKR3VwakFHRmVOVThmam1xdkJJQ0oybGtrdExOalRiS2xIVkVNT0tLUV9sM3pBSFI2S0JLWkZLRE9fVzNEd0NveXB1UmZ3YnZFNVN0MDg5WWlXeTh0NTEwQVJ4TXZXQk5RMUd5dzlEZHlGMDV6UdIBxwFBVV95cUxOTUcyYXptckpMZWY1Wl9fZUNhaFhmQlNtdHQzdUg1ZDROejNNQVpXc01aUjg3d0ZQZ1U2c202cldtbk55MjdpNG1SeUREZjdLNS1TSnVPa1Y4YW5EY2F6N0ZfZzFtZjNhVEpHT09qLTJBNGJKVG9pbldqZEFTNS1OenpHeE5hbHlxY3ZHNFU3cjdGVXlLSkdXdzFBNm1oSTdPUzZ1UlBDNFgwOXQwVlplY3VDcXdqa0dFaHFpbmNOLVVLVG5WZVZZ?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T12:49:40+00:00",
+   "ts": 1791290980.0,
+   "category": "trailers"
+  },
+  {
+   "title": "8 வருஷத்துக்கு பின் பேட்டி.. ஜெயிலர் 2 ரிலீஸுக்காக அதிரடி முடிவெடுத்த சூப்பர் ஸ்டார் ரஜினிகாந்த்!",
+   "url": "https://tamil.filmibeat.com/news/superstars-rajinikanth-grand-promotion-for-jailer-2-185035.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இயக்குநர் நெல்சன் திலீப்குமார் இயக்கத்தில், கலாநிதி மாறனின் சன் பிக்சர்ஸ் தயாரிப்பில், அனிருத் இசையமைப்பில் கடந்த 2023-ஆம் ஆண்டு வெளியாகி ₹600 கோடிக்கும் மேல் வசூல் சாதனை படைத்த படம் ஜெயிலர். இதன் பிரம்மாண்ட வெற்றியை தொடர்ந்து, ரசிகர்கள் மிகவும் ஆவலுடன் எதிர்பார்த்துக்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/jail11-86591791290700.jpg",
+   "published": "2026-10-06T12:45:21+00:00",
+   "ts": 1791290721.0,
    "category": "box-office"
+  },
+  {
+   "title": "Tiger Muthuvel Pandian an Indian Walter White? Rajinikanth’s ‘Jailer 2’ trailer sparks ‘Breaking Bad’ comparisons",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNWJwMXkwREhpLTFjZGVNSm1Icm9HcHEyYkZmd08zSy10MmFLVlRjN29KWjhma2gxcUsyYk5JMkNMRllpRk04Ykg3ZlpiZTJVWFZla2J4V3k5LXZCdXdZTHFUU0lXemF2R3dPRkxWSlZ2Wl9LUnVES1lQWEdMNFhiRy00WWhVU2cwY29IRFpZV3Bsd0gtbnRCdk1vQnNZbWthSEZLalUtZEtpRzFraUFSLXAwOWlGc29GSlpnbHdrcTZ5MFdZV2JCdENqMXBTbFktZlptQmt2YnhuTk9HczE0MzVGZHMxQ19ia05RY3RGT3JYLVFYUm9QNkx2TWVSMEU?oc=5",
+   "source": "Deccan Herald",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T12:43:00+00:00",
+   "ts": 1791290580.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Dorothy OTT Release Date Update: When And Where To Watch Keerthy Suresh, Sananth And Rishikanth's Film Online",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQW1FOXRhU0J6THFfOFdMQ0xadHRleGpsNFB4VXl5d2FmVHo3clJGVjAwcTFnM3kybkhQSW1fNmNOck82YTJvR2dJazVTaWswY2kwenZrUXZ6TzNUQlNMVFRrd2x6aFRHdjNKeV81NGw2TElSZVVuUm9ucDRxQk5NeFZPVGtva1NRRUx5MmZJVldIM2I3eUlGUjJyZ1UzN29qeHFhckJ3OE9hRkcxanlNdGtQdDZ0NzVtYmw4S2hDdE1ZR1B3WXVTUy1lYUlhc0pobzd6VmlGR3BEN3daMTNFcUtjdmk3UQ?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T12:32:24+00:00",
+   "ts": 1791289944.0,
+   "category": "ott"
+  },
+  {
+   "title": "Jailer 2, starring Rajinikanth, completes censorship process; runtime revealed",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/06/jailer-2-starring-rajinikanth-completes-censorship-process-runtime-revealed",
+   "source": "Cinema Express",
+   "summary": "Director Nelson's upcoming film Jailer 2 , starring Rajinikanth, is gearing up for its October 15 release in theatres. Ahead of the release, the film's producer, Kalanithi Maran's Sun Pictures banner, dropped a trailer for it on Monday. Now, on Tuesday, the Central Board of Film…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-03/nicldpzt/Jailer-2-1.jpg",
+   "published": "2026-10-06T12:20:44+00:00",
+   "ts": 1791289244.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Jason Sanjay talks about his college romance that lasted for over a year before he made Sigma: ‘It was a mutual breakup’",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/jason-sanjay-talks-about-his-college-romance-that-lasted-for-over-a-year-before-he-made-sigma-mutual-breakup-vijay-son-101791284016837.html",
+   "source": "Hindustan Times",
+   "summary": "Tamil Nadu Chief Minister and Tamil superstar C Joseph Vijay's son Jason Sanjay debuted as a director recently with Sigma.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/Jason_Sanjay_1791284556076_GjG7_1791284556197_3US0_43a3e58e-7061-49fc-8f7f-593f88cacee1_Ql3R.jpg",
+   "published": "2026-10-06T12:15:19+00:00",
+   "ts": 1791288919.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Love in Messy Shades: Five films exploring modern love",
+   "url": "https://www.cinemaexpress.com/ott/news/2026/Oct/06/love-in-messy-shades-five-films-exploring-modern-love",
+   "source": "Cinema Express",
+   "summary": "Love stories are making a return in the current era of cinema. Age gaps, societal expectations, lies, and other elements explore the extent of love in the modern era. Here are five films that explore the various shades of love... these days. Hi Kavin and Nayanthara in Hi…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-06/88x89ixx/Listicle.png",
+   "published": "2026-10-06T12:08:34+00:00",
+   "ts": 1791288514.0,
+   "category": "buzz"
+  },
+  {
+   "title": "‘Baththa’: Who is Sai Prithviraj, the boy wonder making waves in Vijay Sethupathi's latest?",
+   "url": "https://www.thehindu.com/entertainment/movies/baththa-child-actor-sai-prithviraj-vijay-sethupathi-balaji-tharaneetharan-sai-abhyankkar/article71551048.ece",
+   "source": "The Hindu",
+   "summary": "Sai Prithviraj, who has been garnering a lot of appreciation for his performance as Sabari in the Balaji Tharaneetharan film, will be seen next in Dhanush’s ‘D56’",
+   "image": "https://th-i.thgim.com/public/entertainment/movies/rreozr/article71551068.ece/alternates/LANDSCAPE_1200/Sai%20Prithviraj%20Baththa.jpeg",
+   "published": "2026-10-06T11:50:03+00:00",
+   "ts": 1791287403.0,
+   "category": "buzz"
+  },
+  {
+   "title": "\"We Can At Least Try\": Atlee Wants To Take Vijay Sethupathi's Baththa To The Oscars",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2YzWXhZbVBfcTZFZXB1d3pWS3BjRTI2Y0xXZXVCTEswRi1ReWo1SkVwTF9vd3pWQTZaZEhrOUZSX2YyZFNwWkxSQjBTd0pyTTBod19GTWxwa2J4QnE2ZEhPVk1pUno5V1NCVWd6TVBhdEd4UDFQSGtwYTM0U1laVXJBWWQxV01vdVBCb0ktUFQ1RGtCRnhJcHhWMTM5c1dLVjZ3OU1pREpiR2hkVk11ZEhmQ0Y5WFQzbkVwLTZOaTBsanhQTVJ3TNIB0AFBVV95cUxQMVEzaHBnQWZYZXYwMFB1WnhqS2x6SGFsc2Q1UzlxMjBGVm5hUlRpTEdZV1Z5NW9SUTdFMENjR1NvVFpvVFJIOG91OWN6TlNMUUprOWtzOHFCZV9yR3RrSS1pc3FQRC13Y3Bfc1g0NFVYWFk0bURBRWpPckVtZVFTRnpoTV84TW5NakVvYlduWEVlNzlsR2l3bHZ2WURuRHRpenpCMllyaVRLR3FLWU4wT3BROFJpUEFnOEN4aXJsQTVFa1ZGNmo4SnAxR0UtUDgw?oc=5",
+   "source": "NDTV",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T11:31:35+00:00",
+   "ts": 1791286295.0,
+   "category": "buzz"
+  },
+  {
+   "title": "வெறும் ஆசைப்பட்டா மட்டும் போதாது.. கார் வாங்கி மாஸ் காட்டிய சீரியல் ஸ்வேதாவின் உருக்கமான பதிவு!",
+   "url": "https://tamil.filmibeat.com/television/chinna-marumagal-serial-actress-swetha-buys-brand-new-car-185033.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: விஜய் டிவியில் ஒளிபரப்பாகி வரும் பிரபல தொடரான ‘சின்ன மருமகள்' சீரியலில் கதாநாயகியாக நடித்து மக்கள் மத்தியில் நல்ல வரவேற்பை பெற்றவர் நடிகை ஸ்வேதா. தற்போது இவர் மகிழ்ச்சியான செய்தியை தனது இன்ஸ்டாகிராமில் பகிர்ந்து உள்ளார். நடிகை ஸ்வேதா உதவி இயக்குநர் ஆதி என்பவருடன் ஏற்பட்ட…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/car21-76051791285549.jpg",
+   "published": "2026-10-06T11:20:09+00:00",
+   "ts": 1791285609.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Baththa Box Office Collection Day 5: Vijay Sethupathi’s Film Stays Strong On 1st Monday, Drops Just 13% From Day 1",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vM1MwMWVoc0JmYjZLdDdxMFpGQ05GbHU2Zm9QUkxJaXh2eU11OWRlS0JsTnBwWE1GNTM2WTJ4RDZvZENmZkpYMDhnMWlWRjcxQ2VXcEJHdUs4ZFlvSmhwQjlR?oc=5",
+   "source": "IMDb",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T11:03:32+00:00",
+   "ts": 1791284612.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Baththa OTT Release: Vijay Sethupathi's Film To Stream On This Platform After Theatrical Run",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdVc2VVIxRjNvZHBHemkxUks2WnUzTXpITHdVd2xSN1c4ZHVQb3JQVDVVN0YzTmJncUI1aVpTeWdPSFpLbzhqSmdsX0JBV0p4d3ZNelo1MUlscUtWeTFJS2tjc0VhWWNoRE9vZ1B1Zk41YU1QSjJTVm9DV2FsenVQVEZJQkxFTzVqTEFMd09zQVlxNDgyeEo2NmVwV2l2b1piSFJYQVRkdDZtOUk3Wk1NS0lONnRiX01MS3lWSkRKM21zem1ELUNVd3J6ejFxMWc1Q2k5TEh4VmRhQlpyWTNMUEI0ONIB8AFBVV95cUxObVhMYUw4VGFNeXdUekJBSjZwdlZJOHd6b2F6akpIckx4VFVxTkNGVUROYVFlYUpWM1kySUZETnA2V0J1SVNoU3F0Uy1KN3phQ1cwdmlsdHRoMlZ4dC1VakJYQm5GWVVzTE9yTzVBcklIVFhoanpkOVE3dDU2NUJSTGRFQVY2UzJDTzNIMXdiVERLN0NJQmVrdzdvU3ZWaGJYUm1wd0RzdnhyWHBzQWk4OUVMR2FGVU9mNk41Slh5REV2Q0p4Nm85TlFrOTItWnU5LVdPblI2Nm9GUG56bmthQ3hINkhlSDlsczZOZ29mWWE?oc=5",
+   "source": "Esquire India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T10:41:45+00:00",
+   "ts": 1791283305.0,
+   "category": "ott"
+  },
+  {
+   "title": "Baththa cinematographer Selvakumar on Kaithi 2: 'I know the full story...'",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/06/baththa-cinematographer-selvakumar-on-kaithi-2-i-know-the-full-story",
+   "source": "Cinema Express",
+   "summary": "Cinematographer Selvakumar SK made his feature film debut along with Lokesh Kanagaraj in Maanagaram (2017). While he is yet to reunite with the director, Selvakumar said in an interview with CE, on Lokesh Kanagaraj's plans for Kaithi 2 . \"After Maanagaram (2017), there was a…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-06/ef5q79y0/Kaithi-Selvakumar.png",
+   "published": "2026-10-06T10:33:51+00:00",
+   "ts": 1791282831.0,
+   "category": "buzz"
+  },
+  {
+   "title": "ICU வில் மொட்டை ராஜேந்திரன்? பயில்வான் ரங்கநாதன் கிளப்பிய பீதி.. உண்மை என்ன?",
+   "url": "https://tamil.filmibeat.com/interview/bayilvan-ranganathans-talks-about-actor-motta-rajendrans-health-condition-185029.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: நகைச்சுவை மற்றும் வில்லன் நடிகராக தமிழ் சினிமாவில் தனக்கென ஒரு இடத்தை பிடித்திருக்கும் மொட்டை ராஜேந்திரன் உடல்நலம் பாதிக்கப்பட்டு ஐசியூவில் இருப்பதாக பயில்வான் ரங்கநாதன் யூடியூப் சேனல் ஒன்றில் பேசி இருப்பது அவரின் ரசிகர்களை பெரும் கவலையில் ஆழ்த்தி உள்ளது. சினிமாவில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/mottai1-58621791282692.jpg",
+   "published": "2026-10-06T10:31:59+00:00",
+   "ts": 1791282719.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Mandaadi Box office collection, Yezhu kadal, Yezhu malai Box office collection | Soori Mandaadi Success: How Soori Went From Comedian To One Of Tamil Cinema's Most-Wanted Actors | Soori Mandaadi: 5…",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaW9SYkNYdEczZXFnNjlaR2RjSzUzNHE0dzY0RTNHRWZNOXZ6RzBtRFNsSlNzWWpVelRqRWZyNFNOZ1ROQWR2aFRrakI5ZW9rblltMC1qajIxYkQ0Zkd3VnJuWm9WVzVOMTY0azZPM0RkMnFZR3pkTFFOVzl3cWhuV0tzTERNRFdRTExJTWlTN3pTd3IwUkZKcmg5V2c4QnFKX2I4a3ZtaXIzVEVCTTBDX1VjeUxuOEx6UzhXMXZxSENYUQ?oc=5",
+   "source": "Google News",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T10:25:56+00:00",
+   "ts": 1791282356.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Ameer starrer Maakaali, produced by Mari Selvaraj, wraps first schedule",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/06/ameer-starrer-maakaali-produced-by-mari-selvaraj-wraps-first-schedule",
+   "source": "Cinema Express",
+   "summary": "Around a month after it started production, director Aravinth SB's film Maakaali , starring Ameer in the lead role, has wrapped the first schedule. Mari Selvaraj, who serves as a producer and presenter for the film, announced the news on Tuesday. The film brings Ameer back…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-06/h1bjaho7/Maakaali-1.jpg",
+   "published": "2026-10-06T10:16:37+00:00",
+   "ts": 1791281797.0,
+   "category": "casting"
+  },
+  {
+   "title": "அப்பா, அம்மா இல்லாமல் திணறிய சிறுவன்.. கலக்கப்போவது யாரு பாலா என்ட்ரி.. என்ன நடந்தது?",
+   "url": "https://tamil.filmibeat.com/news/kpy-balas-heartwarming-gesture-promises-to-fund-orphaned-boys-education-and-build-a-house-185027.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: கலக்கப்போவது யாரு நிகழ்ச்சியின் மூலம் பிரபலமான பாலா ரசிகர்களால் KPY பாலா என்று அழைக்கப்படுகிறார். அவர் காந்தி கண்ணாடி படத்தில் ஹீரோவாகவும் அறிமுகமானார். இப்போது மேலும் சில படங்களில் லீடு ரோலில் நடிப்பதாக தெரிகிறது. இந்நிலையில் அவரது செயல் ஒன்று நெகிழ்ச்சியை…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/bal-29281791281525.jpg",
+   "published": "2026-10-06T10:12:46+00:00",
+   "ts": 1791281566.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Box Office: 4 நாளில் 51 கோடின்னு சொன்னாங்க.. மீசைய முறுக்கு 2 மொத்த வசூல் எவ்வளவு?",
+   "url": "https://tamil.filmibeat.com/news/meesaya-murukku-2-closing-box-office-collection-185025.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: சுந்தர். சி மற்றும் குஷ்பு சுந்தர் இணைந்து அவர்களது மகளையும் தயாரிப்பாளராக்கி உருவாக்கிய படம் தான் மீசைய முறுக்கு 2. படம் வெளியான 4 நாட்களிலேயே 51.3 கோடி ரூபாய் வசூல் செய்ததாக போஸ்டரையும் அடித்து வெளியிட்டனர். சக்சஸ் மீட் நிகழ்ச்சி கடந்த வாரம் நடந்த போதே மேடையிலும்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/mm2-26411791281266.jpg",
+   "published": "2026-10-06T10:08:05+00:00",
+   "ts": 1791281285.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Hrithik Roshan In Jailer 2 Trailer? Fans Are Convinced They Spotted Him In Rajinikanth Starrer",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRnpDOTFGWHhtNHJyblFlQ3lGYWhsb0pMdmF1UzJ3bTE1Zm1laFhqUFgwNWkxRVJBeWFRUE5Ja1pyUVpwSDEzWk1IckhMN0lYM0J1YXNITkIxT0VwVWtXaFlqaTAtekY2N3dKVThjSThPQjZBYWpoWTNwNloxaTNlOER1azdnYnpDbUE1bUNoV0N0Rll4bWpkajZfNXlYdHJRc0Z3ZG1SVWVtV25FOWRoZTg2eW9vMi1lNWhaUnFFRTBrcEItM0RwMGxlMGxxNlpDaHY0SjVET2p0R3VqWmNsbEctUF9kTnVJOHlleUVOYUnSAfABQVVfeXFMTUZ6QzkxRlh4bTRycm5RZUN5RmFobG9KTHZhdVMyd20xNWZtZWhYalBYMDVpMUVSQXlhUVBOSWtaclFacEgxM1pNSHJITDdJWDNCdWFzSE5CMU9FcFVrV2hZamkwLXpGNjd3SlU4Y0k4T0I2QWFqaFkzcDZaMWkzZThEdWs3Z2J6Q21BNW1DaFdDdEZZeG1qZGo2XzV5WHRyUXNGd2RtUlVlbVduRTlkaGU4NnlvbzItZTVoWlJxRUUwa3BCLTNEcDBsZTBscTZaQ2h2NEo1RE9qdEd1alpjbGxHLVBfZE51STh5ZXlFTmFJ?oc=5",
+   "source": "News18",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:50:29+00:00",
+   "ts": 1791280229.0,
+   "category": "ott"
+  },
+  {
+   "title": "Jailer 2 Trailer Explained: Rajinikanth’s Tiger Returns To Hunt The Men Behind The Idol-Smuggling Network",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRmdVY2hpWjFpd3VvYkJvaGpBa05USjFOQ0cxck9uYWNrR1BYNlVrWm9hemxvNF83dlB5aHlPRDBBdjhSZ0hUMG5YVXo4dWZBNUFFQ2kxcUllMEdyU2VDQlE2eHhyY1pJc1U4VWlmNG9tVnRBR1BYTHo4dUtqQmJZQjBZNnFfVVYwQmQ1eEt6eVVTcWtIME9SZ3E2WU5aWldPRjZZMjRWbXlVdTY4YWpIUkNyNGl1MHBtQVVjX3BtdDhYb3E5YXRSQTlENVlMZ0NUNmxRbUFjVE1ZUlQxRDJRR1NjUF82LWhyanVXZUprWlVhSTVzUkxqTmRHbHg0QdIB_gFBVV95cUxNRmdVY2hpWjFpd3VvYkJvaGpBa05USjFOQ0cxck9uYWNrR1BYNlVrWm9hemxvNF83dlB5aHlPRDBBdjhSZ0hUMG5YVXo4dWZBNUFFQ2kxcUllMEdyU2VDQlE2eHhyY1pJc1U4VWlmNG9tVnRBR1BYTHo4dUtqQmJZQjBZNnFfVVYwQmQ1eEt6eVVTcWtIME9SZ3E2WU5aWldPRjZZMjRWbXlVdTY4YWpIUkNyNGl1MHBtQVVjX3BtdDhYb3E5YXRSQTlENVlMZ0NUNmxRbUFjVE1ZUlQxRDJRR1NjUF82LWhyanVXZUprWlVhSTVzUkxqTmRHbHg0QQ?oc=5",
+   "source": "News18",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:45:58+00:00",
+   "ts": 1791279958.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Success meet of Vijay Sethupathi's movie 'Baththa held'!",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQemJQeGxtMVlzSXR5d3FSalRXZzY0V2UweHhQRGZYSGxoUlFiSU5JSk9WTHFyQ0RhSkNHbDNhT3g0UjhBQkdCUFJWMTNMM2ZJV3Jaekc2Sm5zRXNfemxmT0FfNlRwRGtjVDRaLUVNVGZkWmNpd3lGUUN2R1p3S25QUFBBOVo0UQ?oc=5",
+   "source": "cinemaspeak.in",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:45:00+00:00",
+   "ts": 1791279900.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Baththa cinematographer Selvakumar on Lokesh Kanagaraj's DC: 'I was very fascinated by the film'",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOUNjSm1vaHA3MVJyZHpKNjl5M0JFYk10aXpjbDlIN0RmMlZ0dXdpcnBLc1BNeTdzUGxiUmpnbGJOYi1aa2dMQnRnWjNIZEZOejhmME9zZ3RNdkhkUFVXTk9wdG1pUllHUWFrdTF3UmJyUGVuNmJYU3JJQ1JSSDA4TzllVTZZX0s0ODFhWlZUVk9ublFXTDZCMzRxVDN6MUttUTJmQk8tQU5uNHZscXEtamppcmhBRzJPdk5pcHdhWGl2bDd5ZXJsdEktUFZqNVBHM01LSUpOZXd1dWxTWkHSAesBQVVfeXFMTTl3MkVZSHlkeDN5NTYzTzkyMVJlVnRINkFaN0Frb0JCUFBpQ2Y0ekRSU19ITHdhR1JfbE9YNWxFenFUeUd3OExUZngxTVVzaDNSLVlHWVhicXZ5d3dGQW5PQjdYTXYtSHIxT19NUmxEN0N5RFFXU1I0TDJuSTV1dnE1SjcwdnZfV1FTazk0SUFtc3dnQzBSMl9FX1EtbGtjbFZmZ0p4T2M5WnZNQXVxMmN6RkpJUG40Zk5oY3BIbkpOOFFJaHFuV0VEY3pXRHU0X2xyWVBKb2hVU1JSTl93b0dld244U2hQTFF3Zw?oc=5",
+   "source": "Cinema Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:33:43+00:00",
+   "ts": 1791279223.0,
+   "category": "buzz"
+  },
+  {
+   "title": "R Madhavan praises ‘brilliant’ Tamil film Modha Rathiri, gives standing ovation to team: ‘God bless you with more power’",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/r-madhavan-says-he-enjoyed-brilliant-tamil-film-modha-rathiri-after-a-really-long-time-gives-standing-ovation-to-team-101791274362329.html",
+   "source": "Hindustan Times",
+   "summary": "Dhurandhar and GDN actor R Madhavan took to social media to post his review of a recent Tamil release. Take a look.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/Madhavan_1766403560817_1766403561063_1791274898195_ZVSi_1fb8095d-83b7-4c00-8175-d2c581a1710f_xo9W.jpg",
+   "published": "2026-10-06T09:31:25+00:00",
+   "ts": 1791279085.0,
+   "category": "reviews"
+  },
+  {
+   "title": "Baththa Director Balaji Tharaneetharan Reveals Why Tamil Cinema Needs More Dedicated Writers",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSHUyR0pWazhua3BjbjM1TFJMb2FBVkdCTGhla1RKZDN2OUM0MGVuWWx1dUtLNnhRdGwtdnNpMlJOblpRdnRjZ1lkbjJ5aTQ5SnpVeVZXbEd3NjgydVpYdF9DbExCYmlCX25JVHZWdnZZLWxKTFVGQ0xUWWJFR09SX3Y4UjZSeGdTRzEwMm04R2RjcUN6MDE4QTVSUHdWQVZNVVROQktsNHhwZTF0c0tlWGt6ZVRYQmpoOXVGQU9wTUVjRU0tR2tBdTQzc1VmLXpvWnfSAdoBQVVfeXFMT2dRTzNHLUVITlFha3ctaEtwbDhzOVJkQWRhZm9LeWY3YUJUZmI1QWVCU1FrajB5QVlWTFVGUndsaGNqUFlxTjNlSWhTSlNKQmZ5TEhtSzVYbmxuWWJhRmUxcmIwY05wN19DUjdXdzFxM2k2M0Y2bW5NaFoybmtfRGcyVjJhMUNkbV9PVFFWQjAycFQ2MzZVVzJoYXJsZ0I0ejJ5NE9oNHVaY0hCQkExdGJjelVqLU4xWER3TUhDOTE5U3lReEFOWm9KU2VhUDh2ZFN6MnZfZmRKaHc?oc=5",
+   "source": "NDTV",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:31:05+00:00",
+   "ts": 1791279065.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Rajinikanth or Walter White? Jailer 2 trailer sparks Breaking Bad comparisons",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcW1nMGNTaGpmSWMwakZvSmVUWmQ1T3NZVThtT0YxNlltODFGNjNoT2UyOWRaZUI1NXZaYjRGRjlicE1TWmpwVzFnenNUM2NoQVoxdkVBOWI4cENITWRJNm03T2pkbWxySVYyUkhhbk4wSUs5YktqQUx6TVFtVTd1cjRkbUlkNWJTaDZzSkRMWnIyVVpLWkJZTWJPZ1pMd0FNbGZWVGpPT0NQSXUxOGRiRDBjeXNwaE5EU1FV0gHAAUFVX3lxTE83aWJLT080eERQXzl6bmIyQmMyU0czS1ZLYzBvMFNvMWZWX0JFNlhDZTBCTTZ1ajV0cnUwVXZXSXpNRUtvQkFDT2pLU29HSzNSeVQyV2JPY1NmNFBzam1tX2hqbGU5X0NzcFpMa3VETFlYclFRUnRmYkRIWk45OHc5Q1lfT25oVzdKSlpiN0NlM2N6NjlUakxEM1BSM1NaTGdvcEFiXzN5SmhoODF0US1WX21Oc1VyVDNjbXA5TWVrdA?oc=5",
+   "source": "ThePrint",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:28:22+00:00",
+   "ts": 1791278902.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Walter White vs Tiger Muthuvel Pandian! Rajinikanth’s Jailer 2 Trailer is Reminding Fans of Breaking Bad",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZGdaemVVclZmUm5lYzZMYXhEY3lSTmhKM0pBQ3pENGdMWm1lNUJlQkdWVjdaNXlVcDlRdHk0ZFNjMHNpM2FlRXBNLWpmcUdaYkQ3QlFaN2RIUFdwT1lrYXVCMnpYQ3lHazFtUlF0QU9xbENNdm9FT0xMSDFBRWJlYXNjLUxkVVFLdmZQMHFLR3RfSlhaMTJRRkZqX0gxOE42NHlTaXlZS2U3SC1MOVR5SUlLdUMtbzQ1TjFDSm8tUU1rYXJlTHlpbUJveW1yaTFKX3FIUXAySVluRmkxeU9rTkJCTDRMY1nSAewBQVVfeXFMTVAzMmhhU09yWUtqVldxWlJyRXVIQ1F3bnNYZksxZ2laV09td2Y3SWtpZDUzM21xejZ4elNJb0lENzh4bkZtV1czWHRXSThDVi11aXBESXZkOU5MOTUzNVE1WE5BWUpRMDZmOEtrQ2RlWW5kekdXWnZtNW16N2c3NU54ejhUZnYxaUFaQ21TZmE2WlVSbVlGMldDOFZUeDNGSzc5a2NJWkxLaFJjcHpISmJCWnpBZDRTb3Z4bnI0V3lWNDRGV3VxZG1EbDlaWlRVM3RTSjAyVWNkSW40TnBkYUlqRHhkbmQ0X01DTWg?oc=5",
+   "source": "MensXP",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:20:03+00:00",
+   "ts": 1791278403.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Jailer 2 Trailer Review: Blockbuster Loading!",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcURQM1FPeGRhdnJUSk5oLXBHRHo2NjVRX2NCcVZJRzNEMmlsdTRPWUpvWTFwaVpVUm50VGl0a2FKekl2bnJHbG9wNjFGdmFIODJsa2I1bDcwZ1M4Q0pNQmhUMGRIWTNNTFV3b0lHd0gxQ2dfQVJOdVJRYkJNX1R5ZXlPSXRyVFEzZWxZT2lMRUY1ekE2ZVNWTF9oNTRWQkJ1anJOVE1Ra1ZoSTloSmEybGxIWnUtS0Jza0I3amRWWFVFVFllVXUzRk95cG5YbGVYLTVoMHJfUzB4V0dzZEHSAd4BQVVfeXFMTXFEUDNRT3hkYXZyVEpOaC1wR0R6NjY1UV9jQnFWSUczRDJpbHU0T1lKb1kxcGlaVVJudFRpdGthSnpJdm5yR2xvcDYxRnZhSDgybGtiNWw3MGdTOENKTUJoVDBkSFkzTUxVd29JR3dIMUNnX0FSTnVSUWJCTV9UeWV5T0l0clRRM2VsWU9pTEVGNXpBNmVTVkxfaDU0VkJCdWpyTlRNUWtWaEk5aEphMmxsSFp1LUtCc2tCN2pkVlhVRVRZZVV1M0ZPeXBuWGxlWC01aDByX1MweFdHc2RB?oc=5",
+   "source": "Rediff",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T09:09:22+00:00",
+   "ts": 1791277762.0,
+   "category": "reviews"
+  },
+  {
+   "title": "Atlee speaks on his dream project: 'I want to make Marudhanayagam with Kamal Haasan and Vijay Sethupathi'",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaFdiYkJIbC1fRzJubEZZemJpS2hZLTVYQlBDclVaVXJFTl95VjBDdjFaTVBELUdRVXRia0JYVlEwVG1QM0VEMkxVbFR4ZDhJNy1Pd2RJbGw1OVZpWFVpZVZrU196eFdyS2Q4cjJVWUQ5QXM3el9SZ0x6NDlrcVgxUTQ5MkFYVVFfYThzRnhmV3poQU5SNEFRLUttTk5iMklWT1E4a19tUlVyVUdmUHRsSUNDajN2V0lDQXJrc0h6X1kyTWtuMkdLUDV6dWNhRk8ybkdlVDRnanhXSHp5dVVjMnpMaEYwME5kbHlZ0gH4AUFVX3lxTE4wRU5FeW1SNGxCNk44b0hUc2JuY2UtNW1zQjhVQkRUMWVLV2dneFYtWnFUVEdORC1VYXkxUTdZcDNONnZvV19SMVVnVHhMWDBTcUt4bDRzb3hFcVU1RFU1ZVh1b3pmRnZ5aUROaTY3MDdXeEk1clA1aWl0M3o0aTZhMVpUdUhXeHkxOEFVaGZSQmoxMVRGS3Y5VTRQMV9jOWxXU0ZzX1MxMWFjbC0tWnpuVnFaY0U3clJQUlpiQVd0SXBlTDFYczhJQ25WclBoWkluR1JaenRJcUdPUURMaktmUldFOUdvU0FNMEtFaVhCb3N0SWdkcC1K?oc=5",
+   "source": "Cinema Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T08:58:27+00:00",
+   "ts": 1791277107.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Baththa Box Office Collection Day 5: Vijay Sethupathi Starrer Sees Sharp Monday Drop",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRGF2andfNlRmMVJfSEJYYjhVMkRpdUk5SlZMMkVObTJaZGxCXzlrN2NBX19rNWtWa01vNnQ3UTBfdzdLWFA4MWN6cjJ3TDc3cm5Xcnl1Qk5Nc0tuVkJLZTdTcXl3ZlBEcFR1NWY4U1c2b0RaQUZpZGVyaWtIVzhRNE0wV2tHdXR3eDZjNWRPNVNHMVdSOEtrelpnQzFEMHFFZU04RXREQUtUWWJ0WDhfbUJJaEMxWGNQTENLUEpCbXlORFMwcWdSSHBuYkJVRDYzLWp1U1hEY0dwQUJiQjdZcDlvV2rSAewBQVVfeXFMTlJ6TEFnWW5GeDMySXFJQ21pQndVYTVQOGN4bmJXU042NGhUTDNWc3lISGQ4VjFic2t4eFpLRmdiTzRBUkxVU1NYdWhMUDZTYkxWNFZXdjVLWms2dHhMLWNHMC1vOU5rQkYtdjNvSVlKNUJHU1FlTlBObjl4a19Ia0lXNmNEZWhEUTZwRHIzRk1hR2lSb0Rua2VsWUNVWlJ4NGtVYUx6c2lzM29GMUppSjA2b3N5dnRHZTNscmRKRmRSYzBWZm1Vb1hVOENqZ25ONklNS3NMcWxickhMRkNkV2JUcUViRG1LT1g5Rlo?oc=5",
+   "source": "NDTV Profit",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T08:55:02+00:00",
+   "ts": 1791276902.0,
+   "category": "box-office"
+  },
+  {
+   "title": "செத்துப்போன 2 குட்டி யானைகள்.. பிசாசு 2, ட்ரெயின் தாமதம்.. மனவேதனையில் புலம்பிய மிஷ்கின்",
+   "url": "https://tamil.filmibeat.com/interview/director-mysskin-heartbroken-over-train-and-pisaasu-2-delay-185023.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: விஜய் சேதுபதி, ஸ்ருதிஹாசன், நாசர் உள்ளிட்ட பலர் நடிப்பில், கலைப்புலி எஸ். தாணு தயாரிப்பில் இயக்குநர் மிஷ்கின் இயக்கியுள்ள திரைப்படம் ட்ரெயின். முழுக்க முழுக்க ஒரு ரயிலுக்குள் சுமார் 5 மணி நேரத்தில் நடக்கும் பரபரப்பான ஆக்‌ஷன் மற்றும் உணர்வுப்பூர்வமான கதையாக உருவாகியுள்ள…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/train1-63951791276077.jpg",
+   "published": "2026-10-06T08:41:45+00:00",
+   "ts": 1791276105.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Ahead of 'Jailer 2,' Suraj Venjaramoodu On Unlikely Star Arc in Tamil Cinema: 'It’s Far from Easy...'",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbWZHeHpNUS1Ta2ZpN2IzS0s1SS10QU9mM1JzY3ZEdzlTRndveGJDd2tQNkpoeS10dlI3cnFGREFyTFlBcVB0YkRlSE9oNDN4MG1TVVhvb1VRSFFLaFhIejlTSXh5SmI3WUlsMVNQNmU4TjFLNWZvcDZpMVQweFd3TGpRU2dleGRfNG5WdVkwazNBT2FsYkZvMGI0Q2llQUExQWxTU0REYXA1TjJSLXhjRnFHYWFmN2RrMDVtdi12NTlELTMwN3QtR25OTnUtLUNjTjZHbGVNNHVyc0ZZWlFodGdfc1dLWXJid3lyYTJfanM0QdIB8gFBVV95cUxQbWZHeHpNUS1Ta2ZpN2IzS0s1SS10QU9mM1JzY3ZEdzlTRndveGJDd2tQNkpoeS10dlI3cnFGREFyTFlBcVB0YkRlSE9oNDN4MG1TVVhvb1VRSFFLaFhIejlTSXh5SmI3WUlsMVNQNmU4TjFLNWZvcDZpMVQweFd3TGpRU2dleGRfNG5WdVkwazNBT2FsYkZvMGI0Q2llQUExQWxTU0REYXA1TjJSLXhjRnFHYWFmN2RrMDVtdi12NTlELTMwN3QtR25OTnUtLUNjTjZHbGVNNHVyc0ZZWlFodGdfc1dLWXJid3lyYTJfanM0QQ?oc=5",
+   "source": "The Hollywood Reporter India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T08:33:20+00:00",
+   "ts": 1791275600.0,
+   "category": "buzz"
+  },
+  {
+   "title": "துரோகத்தால் துவண்ட ஒல்லி நடிகர்.. குடும்பத்திலேயே வெடித்த பஞ்சாயத்து.. கறார் காட்டிய வாரிசு நடிகர்!",
+   "url": "https://tamil.filmibeat.com/gossips/olli-actors-sisters-son-demands-heavy-salary-for-next-movie-185021.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: சினிமாவில் முன்னணி நடிகராக மட்டுமின்றி, தயாரிப்பாளர் மற்றும் இயக்குநராகவும் வலம் வரும் அந்த 'ஒல்லி நடிகர்' குடும்பத்தைச் சுற்றி தற்போது ஒரு புதிய புயல் கிளம்பியுள்ளது. சினிமாவில் பல சவால்கள், தனிப்பட்ட வாழ்க்கையில் ஏற்பட்ட மாற்றங்கள் மற்றும் புதிய வீடு கட்டியதற்கான…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/gossip18-20371791274110.jpg",
+   "published": "2026-10-06T08:09:06+00:00",
+   "ts": 1791274146.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Atlee calls Anant Ambani his best friend, responds to criticism over wife's ‘Anant's brigade’ outfit: ‘He stood by me when I struggled in Mumbai’",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/atlee-calls-anant-ambani-his-best-friend-responds-to-criticism-over-wife-priya-anant-brigade-wedding-outfit-raaka-trolling-101791271941024.html",
+   "source": "Hindustan Times",
+   "summary": "At the success meet of his Tamil production, Baththa, Atlee spoke about criticism of his looks and more. Here's what he said.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/Atlee_Anant_Ambani_1791272681407_YLQ9_1791272688232_oaYu_e2d1215c-ebf8-429e-975b-80e1f9457af2_gzWn.jpg",
+   "published": "2026-10-06T08:08:56+00:00",
+   "ts": 1791274136.0,
+   "category": "buzz"
+  },
+  {
+   "title": "ஈஸியா நடிக்கிறேனா?.. ரத்த வாந்திதான் எடுக்கல.. விஜய் சேதுபதி ஓபனா அடிச்சிட்டாரு",
+   "url": "https://tamil.filmibeat.com/heroes/vijay-sethupathi-opens-up-about-his-struggles-i-work-hard-for-every-film-it-s-not-easy-185019.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: விஜய் சேதுபதி இந்திய அளவில் பிரபலமான ஹீரோக்களில் ஒருவர் விஜய் சேதுபதி. சில நாட்களுக்கு முன்பு வெளியான பத்தா திரைப்படம் மெகா ப்ளாக் பஸ்டர் ஆகியிருக்கிறது. அடுத்ததாக மணிரத்னம் இயக்கத்தில் இஞ்சி வெல்லம் படத்தில் நடித்துவருகிறார். இந்நிலையில் பத்தா சக்சஸ் மீட்டில் அவர்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/conte-64571791272697.jpg",
+   "published": "2026-10-06T07:45:41+00:00",
+   "ts": 1791272741.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Jailer 2: Rajini Fans Fear Another Coolie After Trailer?",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZTNJV2h0U2I5TFJTejQ4Znk2c2pVNjVheF9DekhPckk2SGFWWkFvMW52bmpuUTZQT015Ni1GcEJlMzg4ZUNkdnFnZXVIakJoTVFrUG94Vzd1OHNrdEJYdUYyazNOVFFQWFBpRW0waEdMNjlYM3hEeWlrS3c5UmRUZWpNNUpadVNxZjBzSkF4Z9IBlAFBVV95cUxOZ09IeGFrSTJJYWRBX1RiWVB4ZUJ0V18tcUtBcUdya0NzRkxXWEpMTGlDalZtaFVMVVhxZV9DLW1YclNxZW83cVNkV0FOY2FxSHIwS0ZxTFpaWDZrbTZxbC05TEFvbG1VSS1uZUFTWDFyWHE5LU1zVFR2Nll6RXZMa0x2QldsbE85enIxSGNCaTdPaVFE?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T07:38:21+00:00",
+   "ts": 1791272301.0,
+   "category": "trailers"
+  },
+  {
+   "title": "ராஷ்மிகா மந்தனாவின் உண்மையான முகம் இதுதான்.. அவங்களே ஓபனா சொல்லிட்டாங்க",
+   "url": "https://tamil.filmibeat.com/heroines/rashmika-mandanna-hits-back-at-trolls-i-dont-pretend-to-be-kind-this-is-my-real-personality-185017.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: நடிகை ராஷ்மிகா மந்தனா பான் இந்தியா ஹீரோயினாக இப்போது கலக்கிவருகிறார். கடந்த பிப்ரவரி மாதம் அவருக்கும் விஜய் தேவரகொண்டாவுக்கும் திருமணம் நடந்தது குறிப்பிடத்தக்கது. திருமணத்துக்கு பிறகும் தொடர்ந்து நடித்துவருகிறார். கடைசியாக வெளியான காக்டெயில் 2 சுமார்தான். இந்நிலையில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/rashh-93791791271417.jpg",
+   "published": "2026-10-06T07:24:13+00:00",
+   "ts": 1791271453.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Baththa Day 5 Collection: Vijay Sethupathi film holds steady despite Monday drop",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVTdUZUJKSjVQM3dvZWEzTTl0OUVJQTQ0NlJPVlNuMGZMa0RoS1ZfRERoTXNPM1R3TlR5SmtfcWNrWGI1TDNTZkE3U1lDbjhTYjFsM3Y3a3lYWlFkZzZ5TXR4dDhXR1FTZkNXVlMzZV9kSHB2VWlySUlpZVZ0LUsyMU5oV0hOaXlMMnhYV3p3S3ZlOThrLWNVVTFQdWFXOU42clQxTkRwQ3dDUzl0SWVPbXBMSTFtZWNCYUJRMFRKblVjOHAyQXVZbHpUTV_SAdoBQVVfeXFMTl9fcHZES3YzOUg2bmJDTTlVU2JkekRoNWVjcXFrYzdROU8xMTJVeENkN2piMjd0c1ZRdVR5ZF9VSFA1WDl2dDA3Y015Zk1wOUh2SjR0bER5QkEzaXZocl9mTXRqMXl2STdISmJSemJsUFI4RFd1bnhYVk8wU3ctMWUtVW9YcXhwOUFSYjA5c0N3SmZkNVFYaS12Y3RNRE5TTFNwelB2QTJrMXhSZHVRS1RiNjdiTkFfcEVvd0x1WGFSRmE0MlVlUnRGOHFFUmFNTkNYSUFzd252WFE?oc=5",
+   "source": "Cinema Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T07:18:30+00:00",
+   "ts": 1791271110.0,
+   "category": "buzz"
+  },
+  {
+   "title": "நயன்தாராவின் பிகினி அவதாரம்.. பின்னணியில் இருக்கும் பிளான் இதுதானா?.. உஷாரான நயன்",
+   "url": "https://tamil.filmibeat.com/heroines/nayantharas-glam-avatar-sparks-buzz-is-there-a-big-plan-behind-her-latest-photos-185015.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: ஐயா படத்தின் மூலம் ஹீரோயினாக அறிமுகமான நயன்தாரா இப்போதும் தமிழ் சினிமாவின் டாப் நடிகைகளில் ஒருவராக இருக்கிறார். இயக்குநர் விக்னேஷ் சிவனை காதலித்து திருமணம் செய்துகொண்ட அவருக்கு இரண்டு மகன்களும் இருக்கிறார்கள். இந்நிலையில் நயன்தாரா பகிர்ந்திருக்கும் புகைப்படங்கள்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/bii-31251791270597.jpg",
+   "published": "2026-10-06T07:10:32+00:00",
+   "ts": 1791270632.0,
+   "category": "buzz"
+  },
+  {
+   "title": "கைதான கார்த்திக்.. கதறி துடிக்கும் ரேவதி.. சிவனாண்டியின் சதி.. கார்த்திகை தீபம்!",
+   "url": "https://tamil.filmibeat.com/television/zee-tamil-tv-karthigai-deepam-serial-october-6th-episode-review-185013.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: கார்த்திகை தீபம் சீரியலில் நேற்றைய எபிசோடில் கற்பகத்துடைய கதையை முடித்துவிட வேண்டும், இல்லையென்றால் அவர் கார்த்திக்கிடம் உண்மையை சொல்லிவிடுவார் என்று சந்திரகலா கூறுகிறார். இதையடுத்து கற்பகத்துடைய கதையை முடிப்பதற்காக சிவனாண்டி அவரது வீட்டிற்கு செல்கிறார். அங்கு ஒரு பொய்யை…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/kd110-68391791270565.jpg",
+   "published": "2026-10-06T07:10:09+00:00",
+   "ts": 1791270609.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Nayanthara’s sensuous BEACH pictures go viral: Lady Superstar sets the internet ablaze with dreamy new ph",
+   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPWjM1OG9iRVZNdmlQbWlYRTc0QnRhM0tTYUN3Vl9veDBvdUNWWHhaYWdkeFlzWFVOeDBqdjdMNUlNdXFBTjJJa294bmdXMDljc09rTVNhdHJ1c0ZSNURhMkpUQWgzNkt0aTNVZnloaWpkVzN0VC0tLUl6X080d3YtbXNGeVZ3dGY1eFl2TmZsaXZaUU11Q1l3U1pzUVpGNDRiazAxSmI0VEJva3doTHFxYXdRbTllTVhra1R5cnZFUEM4SnB6YXpUaVVVbzBjQVptMlN5VzczSmRReTA5UVdWekltZGRULVlsS0VaZlpHXzdRck1wUjBPWG1FNDdUc0NaR0lyMW0zUzRGZ2NZRnJqOVRCUzhEWFBqeXZVeUhrZGlTNHl2XzNYcNIBrgJBVV95cUxPVHd3WmNqR3FkRngydGhKTXFNRkJmSXJ0Y0U1XzN6Vm5RR1hoVzlRYXdpMmh6aDEwMmhHUlViT3U4cUhtTmZmRWNDYWRoMlFQMWFXNHFEQnhuazZlZ2xCN3BXdEpvbFlBbDZuWmt5QUZOaDl2R3gwdlY0cGR2b0F2RGhtOXNZR0tqZUd0eWNZUTl1U1Z4OWpYak5GbVZXRVRnRmUyUl93YXdxdU9WTUVkaEF5RXVQa3JaSm1VZURTd0xTamlabnF5WHJGdDdSenJOMmIzSjFRVGFZMXJIOWRNRTVpVmx0SXlFcWhaRW1zT3FVV0E0OGlNSFlRSVV0cU1XLWwyWURXeVZveUVrT2xBVThvR1B3YmMyUEhwSmJRcTJOWWMxS3hTMmttQWRCQQ?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T06:40:00+00:00",
+   "ts": 1791268800.0,
+   "category": "buzz"
+  },
+  {
+   "title": "சேது சார் திட்டிட்டே இருப்பாரு.. ‘பத்தா’ ரியல் ஹீரோ சிறுவன் சாய் பிரித்வி ராஜ் உண்மையை சொல்லிட்டாரே!",
+   "url": "https://tamil.filmibeat.com/heroes/child-actor-sai-prithvi-raj-and-vijay-sethupathi-speech-at-baththa-success-meet-185011.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: ப்ரியா அட்லீ தயாரிப்பில் பாலாஜி தரணிதரன் இயக்கத்தில் விஜய் சேதுபதி நடிப்பில் வெளியான பத்தா திரைப்படம் 12 கோடி வசூலை கடந்து வெற்றிகரமாக திரையரங்குகளில் ஓடிக்கொண்டிருக்கிறது. இந்நிலையில், நேற்று நடைபெற்ற சக்சஸ் மீட் நிகழ்ச்சியில் செம ஸ்டைலாக கலந்துக் கொண்ட பத்தா படத்தின்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/baththaa-25771791268476.jpg",
+   "published": "2026-10-06T06:35:42+00:00",
+   "ts": 1791268542.0,
+   "category": "box-office"
+  },
+  {
+   "title": "பிரசாந்த்தின் அழகை உச்சக்கட்டமாக புகழும் ரோஜா.. எந்த ஹீரோயினும் இப்படி சொன்னது இல்லை",
+   "url": "https://tamil.filmibeat.com/news/prashanth-was-so-handsome-roja-reveals-what-she-told-the-top-star-about-his-looks-185009.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: தமிழ் சினிமாவில் டாப் ஸ்டார் என்று ரசிகர்களால் அழைக்கப்பட்டவர் பிரசாந்த். பல ஹிட் படங்களில் நடித்த அவர்; 90களில் இளம் முன்னணி ஹீரோவாக வலம் வந்தவர். இப்போது டாப்பில் இருக்கும் அஜித், விஜய்யைவிடவும் உயர்ந்த இடத்தில் இருந்தார். ஆனால் அவருக்கு ஏற்பட்ட சில பிரச்னைகள் அவரது…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/hero-83461791267559.jpg",
+   "published": "2026-10-06T06:20:09+00:00",
+   "ts": 1791267609.0,
+   "category": "buzz"
+  },
+  {
+   "title": "அம்மா ரொம்பவே அப்செட்.. மகன் செய்த சொதப்பல்.. எதிர்பார்த்து ஏமாந்துப்போனது தான் மிச்சம்?",
+   "url": "https://tamil.filmibeat.com/gossips/mother-not-happy-with-sons-debut-movie-due-to-over-expectations-185007.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: கணவரை விட மகன் கெட்டிக்காரனாக வருவான் என நினைத்து பெரிய எதிர்பார்ப்புடன் காத்திருந்த அம்மாவுக்கு மகன் வெறும் சாதாரண கமர்ஷியல் டைரக்டர் அளவுக்குத்தான் உருவாகியுள்ளான் என்பதை அறிந்து ரொம்பவே அப்செட் ஆகிவிட்டாராம். மகனுக்காக அப்பா கடுகளவுக்கு கூட உதவாத நிலையில், கடந்த சில…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/gossiptalks1200-62591791267093.jpg",
+   "published": "2026-10-06T06:11:50+00:00",
+   "ts": 1791267110.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Promise Now Streaming on Prime Video – Casablanca Film Factory Brings Tamil Romantic Drama to OTT",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3bXRMd1M1czk4TnpTaERCaUdvd1FBWFdyaklYZnZrcjRKNGtMTjUxZ1A5TDI3UVZLTFRfeER6NGFxS1F5d2pSdGRFa3k5aEI4QmoxaFZlLV9INmZyRGtPVTdXSmZKMzByUk94WnlUYWVDY3dQbXdfR2hjbErSAXxBVV95cUxQd210THdTNXM5OE56U2hEQmlHb3dRQVhXcmpJWGZ2a3I0SjRrTE41MWdQOUwyN1FWS0xUX3hEejRhcUtReXdqUnRkRWt5OWhCOEJqMWhWZS1fSDZmckRrT1U3V0pmSjMwclJPeFp5VGFlQ2N3UG13X0doY2xK?oc=5",
+   "source": "Kerala TV",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T05:56:02+00:00",
+   "ts": 1791266162.0,
+   "category": "ott"
+  },
+  {
+   "title": "'ஒட்டாரம்’ படத்தின் கதை இதுதான்.. இயக்குநர் ரா. ராமமூர்த்தி ஓபன் டாக்!",
+   "url": "https://tamil.filmibeat.com/interview/director-ra-ramamoorthy-opens-up-ottaram-movie-story-185005.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: எஸ்.எஸ். ஸ்க்ரீன்ஸ் நிறுவனம் சார்பில் பி. சாமுவேல் தயாரிப்பில், இயக்குநர் ரா. ராமமூர்த்தி எழுதி, இயக்கியுள்ள 'ஒட்டாரம்' திரைப்படம் விரைவில் திரைக்கு வரவுள்ளது. இப்படத்தில் கதையின் நாயகனாக காட்வின் ஃப்ராங்க் நடித்துள்ளார். 'யாத்திசை' பட நாயகி ராஜலட்சுமி, 'லப்பர் பந்து'…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/ottaram-51001791265464.jpg",
+   "published": "2026-10-06T05:48:02+00:00",
+   "ts": 1791265682.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Scene OTT: அடேங்கப்பா.. இப்பவே செம சீனா இருக்கே.. சூர்யாவின் ‘சீன்’ ஓடிடி டீல் இத்தனை கோடியா?",
+   "url": "https://tamil.filmibeat.com/ott/netflix-bags-suriyas-scene-movie-ott-rights-for-a-hefty-price-185003.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: 2டி நிறுவனத்தை தாண்டி புதிதாக ழகரம் நிறுவனத்தை தொடங்கி நடிகர் சூர்யா ஜித்து மாதவன் இயக்கத்தில் நடித்துள்ள ‘சீன்' படத்தை தயாரித்துள்ளார். தீபாவளிக்கு சரவெடியாக தியேட்டர்களில் வெடிக்க காத்திருக்கும் சீன் படத்தின் பட்ஜெட், ஓடிடி டீல் குறித்த சில தகவல்கள் கசிந்து…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/scenesuriya-10341791264349.jpg",
+   "published": "2026-10-06T05:26:10+00:00",
+   "ts": 1791264370.0,
+   "category": "box-office"
+  },
+  {
+   "title": "நான் செத்துட்டா என் பையனை யார் பாத்துப்பா? 9 வருஷ டிப்ரஷன்.. பப்லு பிரித்விராஜ் பேட்டி!",
+   "url": "https://tamil.filmibeat.com/interview/actor-babloo-prithviraj-emotional-interview-about-son-185001.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: தமிழ், தெலுங்கு சினிமாவில் முன்னணி நடிகராக வலம் வரும் பப்லு பிரித்விராஜ், 23 வயதுடைய ஷீத்தல் என்பவரை காதலித்து, பின் கருத்து வேறுபாட்டால் பிரிந்தது சோஷியல் மீடியாவில் பெரும் பேசுபொருளானது. மனைவியை விட்டு பல ஆண்டுகளாக பிரிந்து வாழும் இவர், அனிமல், ஏஸ் போன்ற ஹிட் படங்களில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/bal2-83181791264264.jpg",
+   "published": "2026-10-06T05:26:00+00:00",
+   "ts": 1791264360.0,
+   "category": "buzz"
+  },
+  {
+   "title": "New Malayalam, Kannada, Tamil and Telugu OTT Releases This Week (October 6 - 12): Mandaadi, Epic And More",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSFd4MDJFWUJjOFh2RG44bm1WRm5Xd1RJQzliUVo4c19xeVJvZmNsZEY5YnYwMVFUV3J2bXg1WFBXQ0VJLWt0MXdlU2pwcjc2SURjY0JPaEl1Q0hzQkJlVjVlNGl0SDFWcng3eVhYVEI0ZS1rZk5DQjJQNDRIRkc1M09nVVhzb2FmUnVPdVY0ODM3bkNkSnJHUG95Y09YMnZhcWlUTmtZX3UxZmVBaXZCa3psVUVuaklxcVV0WUhTMG5uUDdPZXhTX2NjOVN2WmFmVkRZX0lsbjBLZ1hweGZaQlo4QmxGY1U1aHZ5dGVZWnAyeEtJQm5pYnhncl9Md9IBgwJBVV95cUxOd0sxaEdWV0ZvNmJyM2dlN3Z6djVraVF1NS10YWZoMG5rZ1c2aGM5UWp1NDF0V1FzV2M5Umk4WVE4TG1DZjBXcE5nOVhmaF91YVNlYTNLZTFQMEdWU3NUaVhyV09kazkzRlo5TmpSZFRJbXplTVBfSW01eFNmV2xXTmdaclhCNzVnS3dveWlhN09NTm5jcnc4bDRMNUNhTmJpYjlaVkpRMnRZRTI5Y0V5cjlsY3FYVzFqTnJ6Si1pZXZReTN4Y2RYTkd1M2xta3h2T1lBQ04yX25wRUVseGVkVWRpeDVfZkpzU2tLb2ZpeUdEZHc4QnVwUlZVYmdQZ05ESHF3?oc=5",
+   "source": "Times Now",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T04:30:48+00:00",
+   "ts": 1791261048.0,
+   "category": "ott"
+  },
+  {
+   "title": "Nayanthara: \\\"என்னடி இது\\\".. வயசானாலும் அழகு குறையல.. நயன்தாரா போட்ட புது ஸ்கெட்ச்!",
+   "url": "https://tamil.filmibeat.com/heroines/lady-superstars-bold-and-glamorous-latest-instagram-pics-184999.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: 'எந்திரன்' திரைப்படத்தில் ரஜினிகாந்தின் சண்டைக் காட்சியை பார்த்து பெண்கள் வாயில் கையை வைத்து \"என்னடி இது?\" என்று ஆச்சரியப்படும் காட்சி இன்றளவும் டிரெண்டிங்கில் உள்ளது. அதேபோல, லேடி சூப்பர் ஸ்டார் நயன்தாரா தனது இன்ஸ்டாகிராம் பக்கத்தில் தற்போது வெளியிட்டுள்ள அல்ட்ரா…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/nayan16-50101791261005.jpg",
+   "published": "2026-10-06T04:30:43+00:00",
+   "ts": 1791261043.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Mandaadi OTT Release: Soori’s Film Arrives on Netflix, Cast, Plot and More",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOXzEzRUpCTGJQWU5XLUxoX2NGRVVETHpfT3BGTTVYcG1sNGZOVUIyR0lKTjdYMHF6NG9fT3ZFcktHdFFJaWswWEhOTGZTRElsUmE2T3NvU0ZWMF9yUXBOaVU5b1BoTzVJNXFmSEprdjNJU3FzeVJBRnBHcEt4dmdoNXFYVVR3SVQzQkhCeVIzWmNidVhFY0Y00gGXAUFVX3lxTE5fMTNFSkJMYlBZTlctTGhfY0ZFVURMel9PcEZNNVhwbWw0Zk5VQjJHSUpON1gwcXo0b19PdkVyS0d0UUlpazBYSE5MZlNESWxSYTZPc29TRlYwX3JRcE5pVTlvUGhPNUk1cWZISmt2M0lTcXN5UkFGcEdwS3h2Z2g1cVhVVHdJVDNCSEJ5UjNaY2J1WEVjRjQ?oc=5",
+   "source": "newsd.in",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T04:30:03+00:00",
+   "ts": 1791261003.0,
+   "category": "ott"
+  },
+  {
+   "title": "Lokesh Kanagaraj’s Next as Hero: Bold Choice or Big Risk?",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOWpHRTJrVU1IQmFEWVFDaXYyVDVhOGExckVjNkVYTkVZZXlqcFVyWU9FUG82aE5DNUxGVlhmYmhjVDFjWDdINlN3em1tbjNZRE0wNElEbER6VU01VlhwV2lhOTVzT25nNVdyaUF0YkZXNXM5T2VMRDhvMTIxZEZFMGxYdWtVeUHSAYwBQVVfeXFMTmN3S1cycXBrWGJaOUZMdmxnQ0NIWUNVeUVlYmNHSW9LcmN6b0FycGR4NU4zTjRxSy1ITHFGeEFNSkFXNmZ2VE9LTUFGYTBvMUVYYUNWcEJDZ3lZcDF3YTRtcTJRdzlZRVdwYUpTenBibjlRZWVLVXNHSHlhWDlvNFprbVBWQXgwWFhrSUs?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T03:56:00+00:00",
+   "ts": 1791258960.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Is Allu Arjun’s Raaka Actually a Tamil Movie?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2dIMFVZdnlWTGxiZmRrWmdiZWdabUwyY1NCbFBiRVplRk15RGVlOEt0OXZyanlQVVF4UzRNMVhTSFM2N2padkVKM2tfWTlWLThja2JfSnZUYWs0a2ZYZ1cyQlhaUzB6NkZFTTUwVVdzeUVRMGt3Y3FxaGtGN29Zdm9IMGx1Q2dvaVp0OEJnS0tuYWRFTG1vYUR30gGaAUFVX3lxTE4zZ0gwVVl2eVZMbGJmZGtaZ2JlZ1ptTDJjU0JsUGJFWmVGTXlEZWU4S3Q5dnJqeVBVUXhTNE0xWFNIUzY3alp2RUoza19ZOVYtOGNrYl9KdlRhazRrZlhnVzJCWFpTMHo2RkVNNTBVV3N5RVEwa3djcXFoa0Y3b1l2b0gwbHVDZ29pWnQ4QmdLS25hZEVMbW9hRHc?oc=5",
+   "source": "Sakshi Post",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T03:33:08+00:00",
+   "ts": 1791257588.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Jailer 2 trailer decoded: Rajinikanth is back as Tiger Muthuvel Pandian, Vidya Balan makes her Tamil debut but who is behind that Hrithik Roshan-like silhouette?",
+   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQSUFaTS1udU43Mk4tYWFFZk9ZakdOakRlelBSTXdtcExMbE1ZRE53VUZuRHZJOTVMNWNkNEhscjVRekJTa3Q1Rkhod2xzUzNRbF9OLUU0aFVjLUd0cVY5YzBldVA1bkhLa3hlbncxc2dOMGllSFFCa21DaHhERmtNQzI5SU5VQnRwd1BGNExSb0RYYXBCRTNIY0NZdW5NMUwxY3ZBM055dEoxSFZCb1NvS1RsaVA1VjBjSWRtUUJ2dkFBS2R5YWFLUE9ZRkVkanYwblVoRG5ab3psc2dxZHRYZFNCUUJmU1FoZERXUjBwcmtSOFYyWmFueDJYZ2JUdzhQajZEeEhkV0NXeklTcWRpNkMxMWNRdDZuM242VXNKbkZ0T1ZkR0tzU2Vtc9IBsAJBVV95cUxQSWp0aGliN1J5RHpHSUV1a0pjY2ZmaGtITHhsd0piY3B6eDR0aXhScGkxZzZLNkFPYWtveF9YemxZUG1vN285eHFtSFNuYUl6Q01hamVhaXdQQk5aTGRjdlViRDNtNmJuZVIzQ2VqOWVNeklERXllN0RDakV1N1AzY01oUHpJMlRnVHYya0hSVER3azFCVTkzeWVGMHNibEIxVTh4MHdWY0V4TzZnaUZmbVV4WGZwc1IwS2liTTVzeWphS3hGbjBQQXFMODdWODVwUTgwMVNYUmZXZGV0M0hRMTFUV3ppZUxtU3dMc0JYN3U0ODlIaTRYLUo3ajMwTTJRZEVndTdaNXE1aXdPR3o0NE9MckZtS3ZkNmtWc1FJMlUza0ZyU25LSkY4cmlkdXpE?oc=5",
+   "source": "ET Now",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T03:28:37+00:00",
+   "ts": 1791257317.0,
+   "category": "trailers"
+  },
+  {
+   "title": "கீர்த்தி சுரேஷை நினைத்து திருநங்கை உருக்கம்.. இவ்வளவு நல்ல மனசா இருக்காங்களே",
+   "url": "https://tamil.filmibeat.com/heroines/dorothy-actress-jeeva-subramaniyams-emotional-post-for-keerthy-suresh-my-beloved-angel-184995.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: கார்த்திக் சுப்புராஜ் இயக்கத்தில் கீர்த்தி சுரேஷ், ரிஷிகாந்த், சனந்த், ஜீவா சுப்ரமணியம் உள்ளிட்டோர் நடித்திருக்கும் டோரதி திரைப்படம் மெகா ஹிட்டாகியிருக்கிறது. அந்தப் படத்தில் கீர்த்தியுடன் பணியாற்றிய அனுபவம் குறித்து நடிகையும் திருநங்கையுமான ஜீவா சுப்ரமணியம்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/jvs-55001791256819.jpg",
+   "published": "2026-10-06T03:21:01+00:00",
+   "ts": 1791256861.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Mandaadi OTT Release Date , Watch Soori Movie on Netflix from October 8 in Five Languages and Find Upcoming Releases",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zODhIX2hCbnNNUXVmV3gwRjUxUkVsODNJTEpWdHhnbmxNVHJWMW02OS13V0gxLTZ4ZmlXM3YtWWRESEI0ckZEV0JaLTRlU2U3dWFkQXdSa2VXT3dnU3ZrN3NBbXdaTVJWSlh5SDFLcUxmYVRKN1HSAXtBVV95cUxQSUNpUFlMUS1yb05sNDYtbWxTRnBiaUZWZWYzbk8zWmhnbkp6Ym8xa29HREtvbW1kdVJoalFuY0pfQ200bnNrNTRFUkJDem9GQ0x3cEFLNEdJdFpDaGdienczekhBSUViRTN0c083djBiekJiN0M2U1dQbUE?oc=5",
+   "source": "Kerala TV",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T02:57:57+00:00",
+   "ts": 1791255477.0,
+   "category": "ott"
+  },
+  {
+   "title": "விஜய்க்கு அடுத்து யாரு?.. இப்போதே சீட் போடும் தனுஷ் - சிவகார்த்திகேயன்.. எதிர்காலம் எப்படி இருக்கும்?",
+   "url": "https://tamil.filmibeat.com/heroes/dhanush-and-sivakarthikeyan-plans-for-big-future-after-vijay-in-tamil-nadu-184993.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: தமிழ் சினிமாவின் எதிர்காலத்தை மட்டுமின்றி தமிழ்நாட்டின் எதிர்காலத்தையும் நடிகர்களே தொடர்ந்து தீர்மானிக்கும் நிலையில் உள்ளார்களே என்கிற கேள்வி எழுந்தாலும், மற்ற துறையில் இருப்பவர்கள் இந்தளவுக்கான முயற்சிகளில் ஈடுபடாமல் விடும் கேப் தான் இவர்களுக்கான அஸ்திவாரம் என்பதை…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/dhanushsk-49421791254900.jpg",
+   "published": "2026-10-06T02:49:14+00:00",
+   "ts": 1791254954.0,
+   "category": "buzz"
+  },
+  {
+   "title": "'Jailer 2' trailer X review: 'No logic, only magic,' fans go all out for Rajinikanth-Nelson’s mass entert",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQRmZyNDVDTC1ZRDVDNVEwVUdlUkkxQXdDeWpISFp2blhHcWhvNm9pcmE0QzlEU2xhbEdCZ2JzRG9Bb296eVdsT2FtV2NOV3VIYXBfN0dUMGNQMUxzR0txMTZ3THpnWFNuZjVlMWh3aG1fMnFGZFVDaU9FTVQtRy0yWHBHbzhNc011bFRTdkFxdjk1VXRfYVkzM3YzM2RHbEpYV09wR1V4U0RMTlNpdWY3NDV5b0ZTZW41dzVENjkyMmJPTF9GZEhDZWYwdzBBRDQ5QjhXZUtYMXJ5WWxKeUZQbkRKMGt0c2RnYUlGa3E4Unlic3J4UmhuWkhKTUVSTjJVMkVIVWZ3SFdTUXZzV0ZEbG50NVpoaXhOWnRUazdhc1FRZ9IBpwJBVV95cUxOUE50R09KdzlGT0FkSUlQdk1KWS1lWnNMeGZvWjdKYmMzTnF1QmNRd2ZZeTdCTVpfdXZOVy1HbDhPRUR4NUZjb2N3QnBBRXMzZ1l2cF9KMDRvbFBPODRDVTVUU0lpZDViV0FodDhOUmprSGk0UFp3RHhZVnZHQ2ZVaU5mNHhNdzUtRkhkZEwwejBkXzVxUlJSbktNak5yUURaenlMSzJLQzBjRFJ0cWltZk1ZWWtpOUpEdzl6UHJGaUVrdzhhRVVqZ0dubG5ZWXJCZUNzTER0V19rRzZTLTJtMWpyLXM0WHNyMldQZFZ5YUNsdU5BYk9NZnI3R2x1eU9ya0E4emNNSk5DMkI3Z2ZQWFpPMGpHYnFvRnRNZTVJNUxoV3M5WTBJ?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-06T02:42:00+00:00",
+   "ts": 1791254520.0,
+   "category": "reviews"
   },
   {
    "title": "'Jailer 2' Trailer: Rajinikanth Returns in Nelson's Bigger Sequel; Vidya Balan Makes Tamil Cinema Debut",
@@ -249,88 +909,18 @@
    "source": "Filme Shilmy",
    "summary": "",
    "image": "",
-   "published": "2026-10-05T21:33:45+00:00",
-   "ts": 1791236025.0,
+   "published": "2026-10-05T22:10:09+00:00",
+   "ts": 1791238209.0,
    "category": "trailers"
   },
   {
-   "title": "New OTT Releases This Week (October 5 – October 11, 2026): Parineeti Chopra's Reporting Live, Ben Affleck's Animals, Soori's Mandaadi, Carrie and More",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQRVM0NkpPT2xtYk1sdEt4dGx2bXpHZi1Eb2NxVXpNaWNNQ0dGZ1FFYXhpY3FzX0F1Tk1qa3gzU1ZkazJCendfXy1QYmgwVzZSbU03MGhGUWgwaVg5blVYYjIwZ1VvRGdPN2RrTHhYSnpEcS1td1hBZndzdlRRMDhzY0dKY29MQ1NuQkpiMDdDUWxIZHdzQW1ZbmpnSzdBUlpCNFFMTllTQUY5OHBKSzNsb3ZXX3doZjlYMFNlLUVvb1dyMUtuWWhpX1JaNzQ2SmRRNWw3Q3o3M01OX0FNQ2dqclV6anE0SlZnXzBBQW9COHZSdU9LR0kxUWhZWQ?oc=5",
-   "source": "sacnilk.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T21:22:30+00:00",
-   "ts": 1791235350.0,
-   "category": "ott"
-  },
-  {
-   "title": "OTT Releases This Week Tamil (இந்த வாரம் தமிழ் OTT வெளியீல்கள்) –3rd Oct to 9th Oct",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42ZEFUcnIxZVlZaW9xblltTVU5LXVGZVBVWGtDbHJFZ09LRm1ianBvczlEOHlQdDBVODRtT3BPeUcxVFFidGdpT0xzMVc4cG1UYkgyUzhDTlo1M3NOX3ZkRlhiQQ?oc=5",
-   "source": "Vi",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T19:02:40+00:00",
-   "ts": 1791226960.0,
-   "category": "ott"
-  },
-  {
-   "title": "Vijay Sethupathi at Baththa success meet: I want the film to bring success, wealth, and happiness to Balaji Tharaneetharan",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMTZmMFB0UEg2ZU05WFZhRmJ2OGRPRDJVWWtYLXE1NkdDWlZ0R2xFcU9sbExmel9yNVpFa0swR1RsTDNTb0E2akNtQUpxbHVyamJkUmF3anNIZWNzTGUwSmU2NWszeTZvZHRoRG5YUlRtTUN2SXRHckpPem9Da3VEUXNOZVRvX3NteDFPQTVRbXU0SnQyY09UZUk3SVBUbk1uVzBMVEF4YzBkb3hxSTVmNGU5Z3I3aXNkaDNIcTJTb21oRGdRTDF4RWNTSFlaMXhhblk5bThXb0hiZEdnRXpYSDBETGhmNXJvZW5pZW0tbzZ6WjBIY0Mwd3pWODFTSUxMRHlCcVUzWTBNNDhVYzJj0gGPAkFVX3lxTE8xNmYwUHRQSDZlTTlYVmFGYnY4ZE9EMlVZa1gtcTU2R0NaVnRHbEVxT2xsTGZ6X3I1WkVrSzBHVGxMM1NvQTZqQ21BSnFsdXJqYmRSYXdqc0hlY3NMZTBKZTY1azN5Nm9kdGhEblhSVG1NQ3ZJdEdySk96b0NrdURRc05lVG9fc214MU9BNVFtdTRKdDJjT1RlSTdJUFRuTW5XMExUQXhjMGRveHFJNWY0ZTlncjdpc2RoM0hxMlNvbWhEZ1FMMXhFY1NIWVoxeGFuWTltOFdvSGJkR2dFelhIMERMaGY1cm9lbmllbS1vNnpaMEhjQzB3elY4MVNJTExEeUJxVTNZME00OFVjMmM?oc=5",
-   "source": "Cinema Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T18:08:34+00:00",
-   "ts": 1791223714.0,
-   "category": "buzz"
-  },
-  {
-   "title": "‘Hollywood is a small place’: Atlee wants to take Vijay Sethupathi’s Bathttha to the Oscars",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdW1uaklEMGhpN3RLX3NYbVlGVUkxc2NzS3FvUG1sRGNkLXdFWmloMVAwZWFaM1RFUEFOM2Jfb295aElPZ1dEREIzb04xOEFmNnFRZERhcmFjR0xGdEUteXF6MThCczJJcy1FaVZlS3JUUW1pQTBMRFhzNWdxWXgxM0hjTWt4VDFEdkpvRklyMExsd09ZT1FjY0VMTXR3aW5LSmNvQ0xrMWhWeDFrc0dlXzVBNFJUb213YUg4b1FlWUlkT2hsZkHSAcwBQVVfeXFMT2VWYXNYTnBvRlhRX3BJY3Z0Ry1hanRPMWF3NnJWdTkzOGp4X3ZnNDRQcEU5dkptY0hZa2ZiMWRxZGFIODBpX3pHX3dUVE9TSDJFV1hnc2pBekJaYUVHamlkNkd2ZHdJb2hGQnExTzFXMkwtcmtwRjJQR3ZQNVl1MVN2cUlVOVY2RUp6czRsczY2X3dHYjl0RC12WHFzWW15WEZIaWg1X3N5U0Vzd1Rhd3NNa0RtNy1VVTZMYld6cmdKTFgwN3VjNVhsTjhx?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T16:25:14+00:00",
-   "ts": 1791217514.0,
-   "category": "buzz"
-  },
-  {
    "title": "Jailer 2 trailer: Rajinikanth returns as Tiger Muthuvel Pandian, Hrithik Roshan's glimpse excites fans, netizens say 'Kollywood's biggest blockbuster loading'",
-   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPa2hzZFJjU1hMU2txM0NWSU5QWVF3NkNSTzI4ZEVGQVVKY01ITXNnQUJZNm5wZ3ZGNURKeDV3M3VjLVJUY2hoOHotNTJTUHNRWkZiSkpSNEJjam4yVC1KTlN6bDhUd0JSQ25RV2llLVowVDJtczFPZXAtNVYwb0dEc2ppLUlaMFIxZUNWZDdkZ1lGVk5RaHBYeTRjdDZ5blhEZGNvUW9MOEdNUldHNzBwQVA0Nkl4NnZ3RUh0Z1lYNGJHREJRTkQyU3JmRlV3T09lVkswaHo5dzZBVFhFekFWamVkVDAwdmR4eW01NVhsSTBJM3VNOWF0SF9HUlRJWHo0eUZEMHkzQUFwWnJSZW5hVzhIcDZJVHF1YTJDMEwtV2tGZWNIb1VsNFRKZzY1OHRwR2sybHVZMUJ3bldzbmdUX2xNejdVZDFzSDJKZXlSNUdyaG9QNURXOUV2MnJPaVlxcU5vcGFmUDNnckxlVlR4bERR0gHyAkFVX3lxTE9raHNkUmNTWExTa3EzQ1ZJTlBZUXc2Q1JPMjhkRUZBVUpjTUhNc2dBQlk2bnBndkY1REp4NXczdWMtUlRjaGg4ei01MlNQc1FaRmJKSlI0QmNqbjJULUpOU3psOFR3QlJDblFXaWUtWjBUMm1zMU9lcC01VjBvR0RzamktSVowUjFlQ1ZkN2RnWUZWTlFocFh5NGN0NnluWERkY29Rb0w4R01SV0c3MHBBUDQ2SXg2dndFSHRnWVg0YkdEQlFORDJTcmZGVXdPT2VWSzBoejl3NkFUWEV6QVZqZWRUMDB2ZHh5bTU1WGxJMEkzdU05YXRIX0dSVElYejR5RkQweTNBQXBaclJlbmFXOEhwNklUcXVhMkMwTC1Xa0ZlY0hvVWw0VEpnNjU4dHBHazJsdVkxQnduV3NuZ1RfbE16N1VkMXNIMkpleVI1R3Job1A1RFc5RXYyck9pWXFxTm9wYWZQM2dyTGVWVHhsRFE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOQlBzc090NURzZkhQR3JJTllSNVFYR3V0ZWI3NmxkWWZLRko0Y1RWc0N3ZGNPVG5wUE1QTmRiQ21uOFlFUy14eXdGbzdkVVlGUGNsWjdCb2FCa01pRmRMT3FCMHB0N2hEci1KNlZoNVdXdnpDZGNCd1pjS3VoczRjTF8xZmdFTnZ3Q016aDNqcDg3NU9uTnFJdWhJM19JV0NoR19NVXlPT2N0SUhlbTIyTE1RSHpMUXV3QnJ0WlJlNHdTSGc4ZXVCOWFBWF9LeGRzYXlHQTBBNENZYmxZTk5hcE5tOFJkSnVIOXJlQVhTWnFyUUxhcFlncnlSU3Q0dXkwRlZib3NLaHFOM3B3UnpzZGU3a0hKSVBQUTRmRHhmRUQ1Rm5Na3IydlNsd0hGLTRfd2hwQ1BtVml4Y1lnVHhrSVozWWtVWDJuVEM1dnBzai1BaUtwT01uRlRoTExxN3BKNXNYMWdtZ2cwTld60gHyAkFVX3lxTE9raHNkUmNTWExTa3EzQ1ZJTlBZUXc2Q1JPMjhkRUZBVUpjTUhNc2dBQlk2bnBndkY1REp4NXczdWMtUlRjaGg4ei01MlNQc1FaRmJKSlI0QmNqbjJULUpOU3psOFR3QlJDblFXaWUtWjBUMm1zMU9lcC01VjBvR0RzamktSVowUjFlQ1ZkN2RnWUZWTlFocFh5NGN0NnluWERkY29Rb0w4R01SV0c3MHBBUDQ2SXg2dndFSHRnWVg0YkdEQlFORDJTcmZGVXdPT2VWSzBoejl3NkFUWEV6QVZqZWRUMDB2ZHh5bTU1WGxJMEkzdU05YXRIX0dSVElYejR5RkQweTNBQXBaclJlbmFXOEhwNklUcXVhMkMwTC1Xa0ZlY0hvVWw0VEpnNjU4dHBHazJsdVkxQnduV3NuZ1RfbE16N1VkMXNIMkpleVI1R3Job1A1RFc5RXYyck9pWXFxTm9wYWZQM2dyTGVWVHhsRFE?oc=5",
    "source": "DNA India",
    "summary": "",
    "image": "",
    "published": "2026-10-05T15:34:19+00:00",
    "ts": 1791214459.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2 trailer: Rajinikanth returns as Muthuvel Pandian — but who can challenge him?",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTjhjYXNqOC1QMW1hWjFWUlg1YnZMWFpCdFJtZWkzSmpjUmtUMzlSMERvTjlLUHpkVzBIQ0NjVFVvUjFoVkFBTWVMc0VRRG9QZ2xIQlNzQVd4Z28yNkpnaU16TElyZ3oyTFhMNndNV2J0ZUNSNzIxWUl6MjlSeGxzVl9lRWNKNTBEem9CUmp3YV9YaDE0c09GMzJJSnVfWEVGcHJTd3BRcVR2RTlhQ2xyeHNfMWtUcVRzNVpIdU9uNV9xVnNhU0RXSk5XakdFR2VHdEFfUVM3UkxVQdIB7AFBVV95cUxPbDN3V0dBWmxkbTFZbGxRY2tMYVZaLVBDREw5OXZJQ1RwcHlJM2pFQnRHMm9kYmNfdDJROVRUNGdFR1RET01sN0dZRHlMQWpBT0JsVjhRUDdDM0oxRkpBWmpvV1VkdlRzSU8yZ3lmMExRZUhKMTNNQV9RcGZoRkxxekpDTi1pS2tBVEtaT0ZwenA3NWtnMk9yYTNXMWlOWVdRcEl1RDZmdkZoeElYTnNxSUZXbWJkV2NyRmNyUWRsRTV6RHpqbXdiMkZKbWpFYzZqRWtvWUY2ZlFzT29RdFU0V3hrQ0lzSnZLT1d0Ng?oc=5",
-   "source": "Gulf News",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T15:14:47+00:00",
-   "ts": 1791213287.0,
-   "category": "trailers"
-  },
-  {
-   "title": "கட்டிபுடிச்சா போதும்.. விசித்திர காதல்.. 'லவ் ஆல்வேஸ்' வெப் சீரிஸ் ஜியோ ஹாட்ஸ்டாரில் விரைவில்!",
-   "url": "https://tamil.filmibeat.com/ott/love-always-tamil-web-series-teaser-out-184981.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: காதல், குடும்பம், நகைச்சுவை மற்றும் வயதை தலைகீழாக மாற்றும் ஒரு விசித்திரமான திருப்புமுனையுடன் உருவாகியுள்ள ‘லவ் ஆல்வேஸ்' என்ற புதிய தமிழ் ஹாட்ஸ்டார் ஸ்பெஷல்ஸ் தொடரின் டீசரை ஜியோ ஹாட்ஸ்டார் அக்டோபர் 5ந் தேதியான இன்று வெளியிட்டுள்ளது. க்ராஸ் பிக்சர்ஸ் மற்றும் குரு பிலிம்ஸ்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/lov1-68831791210835.jpg",
-   "published": "2026-10-05T14:35:09+00:00",
-   "ts": 1791210909.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Jailer 2 trailer out: Rajinikanth returns in massy avatar, Vidya Balan turns heads as Kantha | Watch",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPOUNaWW5Ua1pGNlh5ekVfS0RoNlJiWEo0TXIxdVhHTlk0b08zM2ljVTA3eDBlY2YwR3NWZkIySXhfX2VLcFh3a2lkM2U2RjduNl9oOVptSmZ4S294by1CM1JKNThQRmpNUDFZMmpxSTJsc2JIQVZVODZRUnBuWl9jN0tXQjY4d1ZqSklMZmRLWGVZenVwUWs3TThpUUpsUlk5WXhtQUVjcVp1X2FMVFlWOHlrZmdPWWFmWUNCaXpkSTdPdFJHdnVrRl9SbEVqeVMtUWNEV2RoSUtnU1JBVHNmS0hRTmRJdUhld0FPRjlfMlFacUnSAfgBQVVfeXFMT3UtbmFhcFJHTTdCalZ4aU0teXJNUW5WOW15T00xQTR3UXREWVVhSGFkR0FEX1hJcHJuQjFQZU1wU0xWS0IzOGJfdXpFdk91UXdqZHlISTN3WVNlbWYyNDNaYjQ0ZEpNSDBwSlRVUWxoN2RlbnBnbDVNcWcxdzg0RWMtczFEYnZQaDZhRVN4RnEycU1weHZ1NUVrMUtuc05abzh3Q3RZUExaWG1GRWFyTjJodUtaTlVOM01Id0MwYmVEVjc0dGhqclB5Zkg1MzR0cnJwY2ZJazZaWDJ6RHN1OHduSFVxNVJ4TFhkSnItQ0dzVmhZUDJmV3c?oc=5",
-   "source": "WION",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T14:29:00+00:00",
-   "ts": 1791210540.0,
    "category": "trailers"
   },
   {
@@ -344,26 +934,6 @@
    "category": "trailers"
   },
   {
-   "title": "Jailer 2 Trailer: Rajinikanth's Tiger Muthuvel Pandian Faces Enemies From His Past",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZEE3czMyUUt2S0hlbFd3SU5IYkFSSlpQbG1SaUdHLVMwdjFmWVpUTE9HNDNDVFZNa3VZcm9BeWtRNXRWcXdzOFNyUHNOSzhhM1lWOHpRb2tlY3VuRmxadHVteGFobHVoVE4yM29KTUtlTWs4YnNaV1JwWjFnalVkTFB6ZkZFNElEWTdSRjNJLVQ0SzE3VlpGazNTSWlHUmVWREtxbDY5YmtjU2JJRkE3am1QWHhwRHRvR01BVS13T2JTQdIBygFBVV95cUxPTmpuVmZZZl9xVFZMTklkMjJ6c3MzeEZZZVMxc2o5RkVjaDZyeFhabnNSdXM5NFJvTFJCcDdTbEQ1UUJHYzI4aUlLT3I5RW1HQXo4c2MzU2hXakx3bDQ2ckVuWWFFNWdUMUNiRFN0UzhtektRT3JLUGU5ZDMwZFFEZVMxNHpkOEZ3LWd2Wm16ZDUzc1FDbkFEU3Y5aTNOUmRQMnNxMmRsdjEzR21mMHpxTVRpZE9zVEh2emU3MzJWZ2c2RXcwNmxYY0R3?oc=5",
-   "source": "ndtv.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T14:03:34+00:00",
-   "ts": 1791209014.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2 trailer: Rajinikanth is back with more swag, Vidya Balan makes striking Tamil debut | Watch",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ1NKWVI3OVBwbnRONWM4Y3JQcjFLam5XSnBjQXhlZ2cxVXNJbVBKbkJsUnR3ZnRuRjB5QXhDVlRQdG9wcUIwUlRkSEpoRGZueWt2UldPVlA5ZkQxWGZVVWhkcFZudDJwVGVrTnpJTUVtLXc1NWljU0QxNkxmSm1aNkVsaHhlWnVrRUF4S21YT0o3OHBGYkg5YXBfNTJLYlZQRU13UDNFbGUyZ9IBrwFBVV95cUxObEJpTHFKR0xOWU0wNlZkelhNeGYxQ042NnZRUjNjNFlyWUYxLU1uUDdvY1RnSE1KRjVSRk1lOHE1MW5Pa1dkUnJHM1NNVENTakl0Ujd1MXd3VU5UZ1NHdExOV3hiMkM5ajFOZjZzSS1walNBX2RRZFRnWnJHY0RqakJQNW5SRVZveFVWQUg4ZURjd0psNDRjdnQtRXlFX0Q1N0RMdzNWcTZJc0paMXBn?oc=5",
-   "source": "News9live",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T13:53:30+00:00",
-   "ts": 1791208410.0,
-   "category": "trailers"
-  },
-  {
    "title": "Jailer 2 trailer: Rajinikanth returns with a bang as Tiger Muthuvel Pandian with new enemies; fans think teased cameo is Hrithik Roshan. Watch",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/jailer-2-trailer-rajinikanth-returns-with-a-bang-as-tiger-muthuvel-pandian-with-new-enemies-in-sj-suryah-suraj-venjaramoodu-watch-101791207443537.html",
    "source": "Hindustan Times",
@@ -374,144 +944,14 @@
    "category": "trailers"
   },
   {
-   "title": "Jailer 2 Trailer: Rajinikanth's Tiger Muthuvel Pandian Is Back, This Time With Bigger Action And New Enemies",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMnMwZ0lEb19pU0xsTnpmbjY2Y2NVN1JJR0tibVZvRGV6R3JneHBWSzhQVFgyNVY5NTVtdmFaSnE5dURhNVBFUHNlRXJSU1ROWHliNXMxTXBOdEI2WGtaN29NV0ljZk0zT3lxWGYtc0tXRnVzektUWkxMOXNTZGUwUjBHZ2xTbVF5Ym4yQ3ZiZGJJZlpYTE9oWS1oeFJuM0NjLW5TZzliUWNySFlqVEw4MzBmcDNqME41WmRjMmZ4QmhKd1FlWTJCWU1yeFFGbE5KTGxZOWNQaVo3S0NCZEh2VWNWbm9DWFhqcW1MQjFEdThFclRw0gH6AUFVX3lxTE4xY0FIcmZvWWxSa3BZUXRzeTZXSEFEMTJlNlkyM3VNSXdHSThwdFRDSGRlb2JjalRLdW5xSDZfLWNuTnJqT0dyVzlDU2pfem9ZRW9scURtWjBJT3ptMFNOcHR3NGl4S3g2UFBXNTVLUV9yVm80UXMyaVVwSUZxY05PbXlkQkFadFFMS1QtNzEwSWFtLVZ3U0dsMnVDSnVJRl9GeUFQaVpKUlg2eFpwUnpPeDQ4RExtRFBPMEx3eG13S2h1UFp2S1lKXzNzLUo2eUkxb1FzZWQyaE1QdXhSSTlLTzd2ZVRBLTV6UXc2ODFjdnlESl9ua3pxeFE?oc=5",
-   "source": "ETV Bharat",
+   "title": "Soori's Mandaadi OTT Release Date Announced",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbTllMFJ2akZvclJ4RzFZZEFkWFFmcFFHVkhLT3ltTzZIYW5oOHFyN0k5S0pDOGUwM0NScUpVNWp5UzdlRlNXS1JfNVJGRGZXdjhIcGFCb2lNZk9TLWVLaE9iVVB0eUNQNlY0aXNlTURFVDd2dnE3QjlYNFFBNUZCRmlYM3VMdw?oc=5",
+   "source": "Movie Crow",
    "summary": "",
    "image": "",
-   "published": "2026-10-05T13:46:04+00:00",
-   "ts": 1791207964.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Baththa Box Office Day 4: Vijay Sethupathi Film Sees Strong Sunday Growth, India Net Collection Crosses Rs 10 Crore",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPc3VmRzgtY1FOcnU5LUdDNlNCbEtXUFZZSnhWRTg0QmNLT3oxVWgtZ2FZdEY4akhxNDJZaUJIQ1NULWxDQUVVVVpRc05NYW5pUWk2R0RsXzdJNE1rTE1pWmdNbFFQWlY2am1sRUVFc21WWE1UOV9YeU83c0dtSUZpSkZZd3MyTXgxYTlKTWpncWVSbmJXY2VJdWRYTG9mTFZFRUxRMThpVjlRTGNXcnFhNDNsN2swT2Z3YklZQU51NlNSN0dlbTVxelZDZncxY1Z0WTRFd041N3dUQ1FrbHRfLWR1aThTcUFXYTJjSXFjUdIB9wFBVV95cUxNbHpPT0g2ekpPQlJJYUhpMjZfMjdiYVRwTXlpR0ktZ2Y1blN5bUt5VUhQX0ZYalo5NkV1SEdQWlNnMG9XN3hUWVhvdld4cVFXYTVPcUt6bDdaajUxYm9oZ25DZkx4eUVtREhNNGtpeE1ZNE5rTno1aDBhVGRMR0ltRmhNLUs4eklpOUtVRkQ2WVRpQ0Ria0dMMUJTSnM2NjEtem9YSlFERHVpRjN3dkJ1cFNPdTZzYXRvRFM2RFd6c0o4RXFRbjRhb0M4R1RXOGtMRVRtLTlpNkpVV1hJSFFRb3ptZE91UW9KZlFCVDdpM0l2VGk2MUVr?oc=5",
-   "source": "NDTV Profit",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T13:36:03+00:00",
-   "ts": 1791207363.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Fire breaks out on Ranbir and Sai's 'Ramayana' temporary set",
-   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/fire-breaks-out-on-ranbir-kapoor-and-sai-pallavis-ramayana-temporary-set-no-injuries-reported/articleshow/134706988.cms",
-   "source": "Times of India",
-   "summary": "A fire erupted on the set of the much-anticipated film 'Ramayana' by Ranbir Kapoor and Sai Pallavi in Mumbai. Promptly reported at 4.02 pm, the fire was brought under control by 4.55 pm, with no injuries to cast or crew. The flames disrupted nearby productions like 'Hustle 5'…",
-   "image": "https://static.toiimg.com/photo/msid-134707097,imgsize-689672.cms",
-   "published": "2026-10-05T13:29:01+00:00",
-   "ts": 1791206941.0,
-   "category": "casting"
-  },
-  {
-   "title": "'Jailer 2' Trailer: Rajinikanth's Tiger Is Back, Now As A Quiet Car Driver With A Secret Up His Sleeve",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOM0VUN3RDb1lVRGU0cTNwV0xHd1VWeGRCY0RoWEpfekVEcFV4SzRieWRNR2lPcHlQcFR5WnpITTVfTnNfQUdWZW94bUxhZGI5ZmQ2UzZJV0hoNWx4aUk3eS1VWmREWWFnRTl3T0NDbGFIcVdydW8xUmk3ZGFSRl8yLWljc1A1OHdtZGtOVHRGdG5lZmR2WkRlNjhWa1FUVTdKUXJmdFB0S1hPbWg2T3NZREFyQ2ZuYVRQTGNhVFNSTWU1R19ITFFlRlcyS2ZrbU4tLTJYVmNrVVhCS19yZnIzaFF3TGk2S3BKNUZuX092WGw2QmxVRUHSAfYBQVVfeXFMTjNFVDd0Q29ZVURlNHEzcFdMR3dVVnhkQmNEaFhKX3pFRHBVeEs0YnlkTUdpT3B5UHBUeVp6SE01X05zX0FHVmVveG1MYWRiOWZkNlM2SVdIaDVseGlJN3ktVVpkRFlhZ0U5d09DQ2xhSHFXcnVvMVJpN2RhUkZfMi1pY3NQNTh3bWRrTlR0RnRuZWZkdlpEZTY4VmtRVFU3SlFyZnRQdEtYT21oNk9zWURBckNmbmFUUExjYVRTUk1lNUdfSExRZUZXMktma21OLS0yWFZja1VYQktfcmZyM2hRd0xpNktwSjVGbl9PdlhsNkJsVUVB?oc=5",
-   "source": "The Hollywood Reporter India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T13:25:24+00:00",
-   "ts": 1791206724.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2 Trailer: யாருடா அவன்? மாஸ் காட்டும் ‘டைகர்’ முத்துவேல் பாண்டியன்.. ஜெயிலர் 2 டிரைலர்!",
-   "url": "https://tamil.filmibeat.com/news/super-star-rajinikanth-jailer-2-trailer-out-184977.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: சூப்பர் ஸ்டார் ரஜினிகாந்த் நடிப்பில், நெல்சன் திலீப்குமார் இயக்கத்தில் சன் பிக்ஸ்டர் தயாரிப்பில் உருவான 'ஜெயிலர்' படத்தின் பிரம்மாண்ட வெற்றியை தொடர்ந்து, அதன் இரண்டாம் பாகமாக உருவாகியுள்ள ‘ஜெயிலர் 2' திரைப்படத்தின் வெறித்தனமான டிரெய்லர் தற்போது வெளியாகியுள்ளது. வரும்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/raj11-32031791204375.jpg",
-   "published": "2026-10-05T13:18:29+00:00",
-   "ts": 1791206309.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2 Trailer Review: Rajinikanth returns as Muthuvel Pandian to take on bigger mission in Nelson Dilipkumar film",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVUEyZmtnSDlycWJZYXctQzZNMnZMRGVXT1o5aGo0MXM4RUtRQ3JPUXJOdXhaRmFrVjBGX2prOG1Eb1RieGtCYWlIS2F0V29iRG9YckJZX2V5azBPNWdyT2ZLMkNNdm10V3JBU055RjJoazRIclczcHdjTVFSZFRxeDhGdmthamNZZ0dEX0gtUmFDc1NyM2hNTV9VMGpscHdxVnktRmt2REw0Z0RCajhhMGhuN1FHX3NoNXBqZ3BYaTR4V3JqRUhRaUp4ajhDYTVWc25SSEMtZFk3S2FxdFdrWXVzaDZzRXNsQ3lQOWZsR3dPOTN0OVRocTRDMnhod9IBgwJBVV95cUxPeUp2S1pseHhva0h1VjNtYlhORGZ3ZDZIRkM0V1I2NlV0TlpCVjJyT3NHM0h1bDFXbXdIVGlaSjZmVkNBanpVMGdfYUFmcjMxalRpbm9EZlhmNjJMeEE1NVg2OW9sUk1kbmFUWFh3NWFJS19tbHRHcndFTUFtVk85d0hKekFkSHZKMTYzR2dTRjQ4Wl94UUhOVHN6Y0FOdFAxb2NFM0w0UWFST2paRExtN0M5Y3VGaHN2dlRfSEVwZUJvMmhGcFlUcThmZUtOTEp4Z2x0YkNSM20wdTQzUUZ4bWVNaEtyaFJZaDlWUWhfNEQ3ZEZIbENEN2tCd2ZhbXZfcVVj?oc=5",
-   "source": "Pinkvilla",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T13:14:44+00:00",
-   "ts": 1791206084.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Baththa Box Office Collection Day 4: Vijay Sethupathi’s Film Dominates Clash, Leaves Sigma & Yezhu Kadal Yezhu Malai Behind",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XOExBcnpjc0FBX0gyeUd6STJYMW5WOFZqblVjbHpEMzhqZXBGNmtDQVF4SEJEYi0xTGR6S0VEYktaVzJmWHlnLVZ4Y1o1QkVRUmJBSW9UN2IzdjdDZUlXbW0tRmdTY1E?oc=5",
-   "source": "IMDb",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T13:09:43+00:00",
-   "ts": 1791205783.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Jailer 2 trailer: Rajinikanth returns with a bigger cast and an even bigger battle. Watch",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZExVVnVlaXJBRXRQOVhDMjFXNEwzVWFXeU4wcWlpaFdOOXNMV25MY3Jmc0pqUGVndE1UUENPbk5nd3FNMm5Bc191TUVBbzJXZXB1Z0lTVU1lelNQUFFDdjR3X2RtdFd4YjNhd0pCX2p4QjI3cWxNZkxwNk9nN1NhY2xGODI0NE9mazZoNEhlNHl4SFN5dGp1cUI4RUNPRVdOdVhZQ3dMdGNjOGY2a2N1MGkxV1dQcFNpNFBVVjJhRFdNdFJCMEc1Q9IBzwFBVV95cUxPSk9xQWVBYmo1amlQZG94bm5CYzlrTDJfWU5fMEVRMzJBTUMwd1A1UG1abGstV0c0Q3ZWbVI2MjZzMGYxT2U2cEVTUFZMdTNHVkZNZms5NFJLZGZ2aTV3Q0QtazBJZkxwYXhSR3lnTHZjMFk0RmlxZUw1SmkyazBaQ2Z6TU1WX3gwcmg2d0oxN21oUWNranNZdHVLLWdjNmJ3S285ZHVkY24zYjl1azVESDlMYXhsVkVwVTFuYnhPaVc3Q1N2bkFnWjcwUEtqVGc?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T13:07:29+00:00",
-   "ts": 1791205649.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2 Trailer Out: Rajinikanth Leads Nelson Dilipkumar’s Bigger, More Chaotic Sequel",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZXZlUjg1U2E1WTJYUklVRXROMXdOOF91VnZtbmZFOWNnN19MMXljMl9kak56YnZXVk0yeTFUR3JZWUpEUDNHRVlYSmdsSVdxNmJ4bnVMUDFxb25aRzB3MDVHbkdSd1A2eURXVFNES1pyeGZienRKVUllcExrakh6cmk5eUdDYmFxWXlPMElkWU1PWG1PSXJKVzVLUjE2cnhjWG9TZFdSeFRnbk1KeF9TdDFhMjU2N1Y0amtCZExsNUxIRHJpZUZiSEpkbnZuOE53Z2pkWG9YN1JvMjhLNTFMM01nYTdFQdIB5gFBVV95cUxPZXZlUjg1U2E1WTJYUklVRXROMXdOOF91VnZtbmZFOWNnN19MMXljMl9kak56YnZXVk0yeTFUR3JZWUpEUDNHRVlYSmdsSVdxNmJ4bnVMUDFxb25aRzB3MDVHbkdSd1A2eURXVFNES1pyeGZienRKVUllcExrakh6cmk5eUdDYmFxWXlPMElkWU1PWG1PSXJKVzVLUjE2cnhjWG9TZFdSeFRnbk1KeF9TdDFhMjU2N1Y0amtCZExsNUxIRHJpZUZiSEpkbnZuOE53Z2pkWG9YN1JvMjhLNTFMM01nYTdFQQ?oc=5",
-   "source": "News18",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T12:57:04+00:00",
-   "ts": 1791205024.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2Trailer Review: ஜெயிலர் 2 டிரெய்லர் எப்படி இருக்கு?.. வொர்த் வர்மாவா? அதுக்கும் மேலயா?",
-   "url": "https://tamil.filmibeat.com/news/superstar-rajinikanths-jailer-2-trailer-review-in-tamil-184979.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: சன் பிக்சர்ஸ் தயாரிப்பில் நெல்சன் இயக்கத்தில் சூப்பர் ஸ்டார் ரஜினிகாந்த் நடித்துள்ள ஜெயிலர் 2 படத்தின் அட்டகாசமான அடிபொலி டிரெய்லர் வெளியாகி ரசிகர்களை உற்சாகத்தில் ஆழ்த்தியுள்ளது. இதுவரை இல்லாத ஜெயிலர் 2 படத்தின் மீதான ஹைப்பை நிச்சயம் இந்த டிரெய்லர் ரிலீஸுக்குப் பிறகு…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/rajini-99321791204717.jpg",
-   "published": "2026-10-05T12:57:02+00:00",
-   "ts": 1791205022.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Jailer 2 trailer: Rajinikanth is hunter in exile investigating a larger, dangerous syndicate in this actioner",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOX0FVV1cybngwZl81Z3k1WHZseEQ1TG9mZllPSDNNZ0lMWW9Sb2xkQng3eFdiZzg3dGs0enBUaXlOMlZGV3Z2Q25wZ2gxN1M5Uno0SkxPZV9vLUROUm1mQmJXSkxfeGVTMGJtN3R1R0JVcWFoUXFtQjNNbWFmczdZbmllWHBZRFJOR09fT19HZElSWTJjMTh6VGZYVnJmLWxoQjJ2SW41bHFRNjVTUXdYcVRydmxXT2NrVUFHM1JHZ1hVb29fNW84SDdfbzNzVm9DYzFRTWVVb0JSQUZMUkw5VWVIQmFVMHNXY3pwdG44eVBqd9IB_wFBVV95cUxOaTBJaFk1b0VmQnVnVmo5MTEzQ0pIZ3dwZk0wMlRDa1c4MURvYmtxbEcyRDFHM2h2ODkxRnVyYWNLbl95YlhzU2dCcXQyOW0tR2dXMFo1bTBWY3NhNUw0UF9yaklhUWNPaWwwU2duTk9lcXN0d3dDbEthM01tektnVk5XUUUwZHpzREl1VmNLckZlVThldGJZX0xlc0F4RFoxbUpKT3pHUWNWdUZZNEhlMmpsdEQxb1NIYjcyZDNOS2d2WmNrWUJTYl9FOGNsQVVTaDIyeDd5TGhlV3dRSVJpbGRtSW1UQnhPbW5iSUZ6WHJRb2lNbEpKMlN0dVJoZVE?oc=5",
-   "source": "Cinema Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T12:52:41+00:00",
-   "ts": 1791204761.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2 Trailer Out Now: Watch Rajinikanth-Nelson Dilipkumar Film Trailer Here",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZlFGdmxnb2VscC1fel95aWh4UF9NOHR0U01BNUhHQnVHSDFpQmhEcS1TNzhSVjdSR1laeGJJdzN1TF96aExBS3FqcFN3a2ppd3ZzSmhkcWZGM0E3SDU5OGFkNFlTaVNMZ3Q1LWJpYmJSTWw4LWpZTFJfR3hYVjlRWGlSbUp1VmVJeFUyc3F5bEEyRjItajFXb29MQ2ZsUkpYRlNIV2I5cDZrR1VvZjBCTkxVZmh2UFJEVW9DQ3Q1UUU2bU95eTBMUnBPWE0?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T12:42:55+00:00",
-   "ts": 1791204175.0,
-   "category": "trailers"
-  },
-  {
-   "title": "'Jailer 2': Rajinikanth returns in bigger, wilder, and action-packed sequel",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jailer-2-trailer-rajinikanth-returns-as-muthuvel-pandian-in-bigger-wilder-and-more-action-packed-sequel-directed-by-nelson/articleshow/134706166.cms",
-   "source": "Times of India",
-   "summary": "Get ready for an action-packed thrill ride as Rajinikanth returns as Muthuvel Pandian in 'Jailer 2', directed by Nelson. This highly anticipated sequel promises to surpass its predecessor’s intensity with new characters portrayed by SJ Suryah, Vidya Balan, and Suraj Venjaramoodu…",
-   "image": "https://static.toiimg.com/photo/msid-134706171,imgsize-83610.cms",
-   "published": "2026-10-05T12:41:58+00:00",
-   "ts": 1791204118.0,
-   "category": "buzz"
-  },
-  {
-   "title": "'Jailer 2' trailer: Rajinikanth returns as Muthuvel Pandian in bigger, wilder, and more action-packed seq",
-   "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPOXkyUV9IVVdOZHQydzBIeURRQ0w3Zjg4eFA2aGhUbHpjLUgxZGwxV29Kc1JkMkUxUUhNSS1XV0RvbDlsQnJzaVBYUWRJbzJiN3Izd2Jxb2FLd1ZZbkxZOWhONXh5SVJldGhCeXVvOGt4RVZNUnRNVTlmMFViOWRPcUZveTdxLXByaWNuUlliVnZ2cnlwcVJuUmVRWnNuMmRaTElrTTd2S0Q5M1lMZVpnc2lLUUtLSUdCMmJWcmF1RHRfb056S2tXRENmaEN3bTlHMlRoaFVaeUpCcUNBX28tSVZraTY2eE9JLXZLUDZTd3JsU0xuRTdPNnVydUgwRTh2T3hGNk5vX3c1WUlNVzlQX2VEUE1NQnNxUFRmNWVhWlltbnF3Z05sYldZdVRuY2VLdWxPeFM3dEV1VlE20gHCAkFVX3lxTFBXQ1ExMGZ4NkppUWdCQnR6MDFtUkxnU2ZoYTY3VzM1Nmo4bEpHVHJKRUxqVlNXWnJZX2l3QnhHLTRvbmpIeFo1QXVQU1ZXNXpwQlZzc1BDTGZrXzhiOWRTTWhnVGVXdlFpSVhnWFB2dVRKUmJhd1FxZFhQdWpjS1FiMHY2LW1ncXhpTnBXZk93aG53SVBORXVQdUc3cUg0UzA1ZExUZmtNSnBCdV9zZFRaVWRIWFFPTVhETnp5Z20taWltYnlqbncydGhGZjNFdF9pOVNWV2lIVDZOLU9tMmc3WFd2WVJOWjY3ejJ1UHVzV2N2dzVUV3VmdFJpNkNSM0RqV3RhX3JFRjVRQ0RjOTctbFV4R3QxS0ZqWmw4QzlESTZMRnhGS3N1MmNlY3FUYTY1b2xhSTNmOFYwV1lOZEg3bHc?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T12:41:00+00:00",
-   "ts": 1791204060.0,
-   "category": "trailers"
+   "published": "2026-10-05T13:04:25+00:00",
+   "ts": 1791205465.0,
+   "category": "ott"
   },
   {
    "title": "Baththa Success Meet: Vijay Sethupathi, Atlee and Sai Abhyankkar celebrate the film’s success",
@@ -531,26 +971,6 @@
    "image": "",
    "published": "2026-10-05T12:29:55+00:00",
    "ts": 1791203395.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Soori's Mandaadi OTT Release Date Announced",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbTllMFJ2akZvclJ4RzFZZEFkWFFmcFFHVkhLT3ltTzZIYW5oOHFyN0k5S0pDOGUwM0NScUpVNWp5UzdlRlNXS1JfNVJGRGZXdjhIcGFCb2lNZk9TLWVLaE9iVVB0eUNQNlY0aXNlTURFVDd2dnE3QjlYNFFBNUZCRmlYM3VMdw?oc=5",
-   "source": "Movie Crow",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T12:29:51+00:00",
-   "ts": 1791203391.0,
-   "category": "ott"
-  },
-  {
-   "title": "விபத்து இல்ல.. திட்டமிட்ட கொலை.. வெற்றிமாறன் பட நடிகர் மரணத்தில் அதிரடி திருப்பம்!",
-   "url": "https://tamil.filmibeat.com/news/director-vetrimaaran-actor-saranraj-murder-case-twist-184975.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: வெற்றிமாறன் இயக்கத்தில் வெளியான திரைப்படங்களில் நடித்தவர் நடிகர் சரண். இவர் கடந்த 2023ஆம் ஆண்டு ஜூன் 7ஆம் தேதி சென்னை விருகம்பாக்கம் பகுதியில் இருசக்கர வாகனத்தில் சென்று கொண்டிருந்தபோது, பின்னால் வந்த வாகனம் மோதியதில் விபத்து ஏற்பட்டு சரண்ராஜ் உயிரிழந்ததாக காவல்துறை…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/vetri1-95261791202767.jpg",
-   "published": "2026-10-05T12:19:55+00:00",
-   "ts": 1791202795.0,
    "category": "buzz"
   },
   {
@@ -574,54 +994,14 @@
    "category": "box-office"
   },
   {
-   "title": "'You inspired me': Anishma Anilkumar’s heartfelt message for Vijay Sethupathi - Mid-Day",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOenRNNUVSR05RTkVuVWdtS0EyNmpVTmpVOXg3bFBpZ3UySlRWd2xZZG5Jd3FaVzdVSnloMDE4NVZ5RGtIeUpNLVdNR1JWZ05TSDBUQXJsNWFpRGpzeGRqVkk3R00zcGlsYVY4aUgwNTlCSl9HR3lzTlp4TEhKWV9kUHF3dVlwUXFKWjh3Si1PaVBqNGx4SnNuMHRZYUdsWEhfc2N0VlpSa204UWVuRUdIQk9nVUQ4WHlOY2pxQ3lja3ZmZmdmMmJPNmZFM0JjdjlVbi1zbzJOLTRvMXRqSGJvQW1HaGZMY2JhMFllQmdfTUVoNUl5MzZUOTBMTU5OZ9IBgwJBVV95cUxOVlQ3V1VZbHFzNTFwbFh2a2VIY0ttT0stMlBiUVl6V1lfekU1V1pnRXI2dDV1OHZNZ0tEQVh0dE00ZzBvQ21kU1hpcnNNOVdsbXExaHd6RWxhTVpIaHRYd2c5bEtoS2dwWjJyTUpMYThNTnVrbUs2Q0NjcXN5aGZEY2EzellIR2xIRDZzQVJvWW5oeEotOG12RGhfalNZQVVZUTFjQmlnNHFlWnJMUjNKc08xLUxWV0d2clBlYUpUdGVLbkhxLWI3eHBxT1Y3cWQzcDE2U0FaSmNheGdrYWx6c2N0YnNYM3Y0aWlrYmdsYVNpNzJzTFk4TENzZDhGT3BiczY0?oc=5",
-   "source": "Google News",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T11:53:00+00:00",
-   "ts": 1791201180.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Tamil, Telugu, Malayalam OTT Releases: Pradhama Drishtiya Kuttakkar, Mandaadi, Epic: First Semester — Here's What To Watch",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPOHBDeEtCZmpURFNlQmt6akVtZFZVTDhmZnJuNExoUFl5UW9jdzBLalpJSzdCb29HS1lUME9EQU5lU1NpWWhvR3VjVVdZei11SzEwU01ZTXc4VWl1YUxNZVE3RVAwOGxFaUVIUThYZzdxb2xUVFY1Nl90cWRUYU91cTRVeWw4V2c0cjNLaU5CcDRuaWdvbk1WT2pSUWRyaUFoQndpdWRxVXZTbFh3TFF6emp1QWIxQzlQdldIZ0xSNVdObkF2UEIzdVUtVXJkS05oYmRkX0t4U1YxWHpsa2czRHFvY1hZTjN6OFY4N0k4YzHSAfABQVVfeXFMTzhwQ3hLQmZqVERTZUJrempFbWRWVUw4ZmZybjRMaFBZeVFvY3cwS2paSUs3Qm9vR0tZVDBPREFOZVNTaVlob0d1Y1VXWXotdUsxMFNNWU13OFVpdWFMTWVRN0VQMDhsRWlFSFE4WGc3cW9sVFRWNTZfdHFkVGFPdXE0VXlsOFdnNHIzS2lOQnA0bmlnb25NVk9qUlFkcmlBaEJ3aXVkcVV2U2xYd0xRenpqdUFiMUM5UHZXSGdMUjVXTm5BdlBCM3VVLVVyZEtOaGJkZF9LeFNWMVh6bGtnM0Rxb2NYWU4zejhWODdJOGMx?oc=5",
+   "title": "Tamil, Telugu, Malayalam OTT Releases This Week: Mandaadi To Epic: First Semester — Here's What To Watch",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZmg3QTZ5a3pSdTd1cHhPQzl3enZ1OGV3QnJ2cTJVNlpvYjdxMUZmQWRKQWZkMU9XdVZVWS1hLWhJV1hZamx4ejNlWkV5VEZ3TVJadm5seE4zTkwtaFQ1OXlPTXBId0htWkNpcHpwdlhBNDdEZTBpekg2dkRQTHhsby04bUpwMWh0Vm9icFNxUldyc3lQc015V1VFZFZkUGhZUVgySVAtV3l5MFdaTmIyQzhweWI0aTJHcHZGbG1sMjZ1VkdhNVM2WEk3am9POHFTbGY0LVphbkZhdmJneXMwcGVRQ0NMTWdB0gHwAUFVX3lxTE84cEN4S0JmalREU2VCa3pqRW1kVlVMOGZmcm40TGhQWXlRb2N3MEtqWklLN0Jvb0dLWVQwT0RBTmVTU2lZaG9HdWNVV1l6LXVLMTBTTVlNdzhVaXVhTE1lUTdFUDA4bEVpRUhROFhnN3FvbFRUVjU2X3RxZFRhT3VxNFV5bDhXZzRyM0tpTkJwNG5pZ29uTVZPalJRZHJpQWhCd2l1ZHFVdlNsWHdMUXp6anVBYjFDOVB2V0hnTFI1V05uQXZQQjN1VS1VcmRLTmhiZGRfS3hTVjFYemxrZzNEcW9jWFlOM3o4Vjg3SThjMQ?oc=5",
    "source": "NDTV Profit",
    "summary": "",
    "image": "",
    "published": "2026-10-05T11:46:42+00:00",
    "ts": 1791200802.0,
    "category": "ott"
-  },
-  {
-   "title": "குணசேகரன் உயிருக்கு ஆபத்து.. ஜனனி போட்ட மாஸ்டர் பிளான்.. எதிர்நீச்சல் தொடர்கிறது!",
-   "url": "https://tamil.filmibeat.com/television/sun-tv-ethirneechal-thodargiradhu-serial-october-5th-2026-full-episode-review-184973.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: எதிர்நீச்சல் தொடர்கிறது சீரியலில் இன்றைய எபிசோடு நீதிமன்றத்தில் ஆஜராகும் ஈஸ்வரி, குணசேகரனுக்கு எதிராக சாட்சி சொல்கிறார். குணசேகரன் ஒன்று, இரண்டு குற்றங்களை மட்டும் செய்தவர் கிடையாது, பல குற்றங்களை செய்திருக்கிறார், அவர் சம்பாதித்ததாக சொல்லப்படும் சொத்துக்கள் அனைத்தும்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/13-21541791199064.jpg",
-   "published": "2026-10-05T11:18:19+00:00",
-   "ts": 1791199099.0,
-   "category": "buzz"
-  },
-  {
-   "title": "ஓடிடி ரசிகர்களுக்கு ஒர்த்தான சம்பவம்.. சோனி லைவில் இந்த வாரம் வெளியாகும் ‘EYES' வெப்சீரிஸ்!",
-   "url": "https://tamil.filmibeat.com/ott/malayalam-web-series-eyes-will-stream-on-sony-liv-from-october-9-184971.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: காதல் மற்றும் அதீத ஈர்ப்பின் இருண்ட பக்கத்தைப் பேசும் Sony LIV-ன் புதிய மலையாள ஒரிஜினல் தொடரான ‘EYES', வரும் அக்டோபர் 9 முதல் ஒளிபரப்பாகிறது. \"காதல், கட்டுப்பாடு, வெறித்தனம், பைத்தியக்காரத்தனம்... அவள் வாழ்க்கையை அவன் கவனிக்கும்போது, அவனை யார் கவனிக்கிறார்கள்?\" என்ற…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/eyes-48091791198143.jpg",
-   "published": "2026-10-05T11:03:06+00:00",
-   "ts": 1791198186.0,
-   "category": "ott"
-  },
-  {
-   "title": "Modha Rathri Madhavan's Review - மொத ராத்திரி விமர்சனம் சொன்ன மாதவன்.. ரொம்ப ரசித்தாராம்",
-   "url": "https://tamil.filmibeat.com/reviews/modha-rathri-madhavans-review-a-tamil-film-i-enjoyed-after-a-long-time-184969.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ராஜா கருப்பசாமி இயக்கத்தில் ரிஷிகாந்த், அனிஷ்மா, பக்ஸ் உள்ளிட்டோர் நடித்திருக்கும் திரைப்படம் மொத ராத்திரி. சில மாதங்களுக்கு முன்பு வெளியான அந்தப் படத்துக்கு ரசிகர்களிடையே ஏகோபித்த ஆதரவு கிடைத்தது. இந்நிலையில் நடிகரும், இயக்குநருமான மாதவன் இந்தப் படம் குறித்து…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/rathir-35741791196794.jpg",
-   "published": "2026-10-05T10:40:43+00:00",
-   "ts": 1791196843.0,
-   "category": "reviews"
   },
   {
    "title": "Mandaadi OTT Release Date Announced: When And Where To Watch Soori's Tamil Hit",
@@ -634,44 +1014,14 @@
    "category": "ott"
   },
   {
-   "title": "இது அருவருப்பான.. டிஜிட்டல் பாலியல் வன்கொடுமை.. ஆபாச AI வீடியோவால் கொதித்த ஜான்வி கபூர்!",
-   "url": "https://tamil.filmibeat.com/heroines/janhvi-kapoor-condemns-chuttamalle-ai-deepfake-video-184967.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ஸ்ரீதேவியின் மகளான ஜான்வி கபூர் தடக் படத்தின் மூலம் நடிகையாக அறிமுகம் ஆனார். அந்த படத்தை தொடர்ந்து பல படங்களில் நடித்த இவர், 'தேவரா' படத்தில் ஜூனியர் என்டிஆருக்கு ஜோடியாக நடித்து தென்னிந்திய சினிமாவில் கால் பதித்தார். தேவரா படத்தில் இடம் பெற்ற 'பத்தவைக்கும் பார்வைகாரா'…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/1-40891791196430.jpg",
-   "published": "2026-10-05T10:34:18+00:00",
-   "ts": 1791196458.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Mandaadi OTT Release Date Revealed: When And Where To Watch Soori’s Sports Action Hit Online? Check All Languages",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSndGNFloa1IxVnlqY3pBVVgzMVhXZVY2UThINmIweDMwUUhleU55SkdQYTNfR1NpVS1uZzVNNHBSVDdEQldlMTJ2bDNGSjl5Q2p4N1hkencxUEV1RW5SYV9Vb0FYZHJsUEtiXzNfZ0p6dkNtYy12eXNrZGZvTmstN1RXelRoNGF2aVFCeXdLaThMM29ZTm16QXgwaXpoZmtMVC1WbWxaeUM0YXV5ZW5zVF96R0p2VnhRRHJHMDdQbDlBU2lJS2VBOEFqdFhaVUZfQzFXV1Z4SGl2aFh1cTNxNzdFRHBrRWthRE9jVFBneXZjbHlZMXdGZ3JQbE_SAYICQVVfeXFMT182LUNSdFVVUWgzRDNELVJCazlTYml1aWFUQ2UtR091SVU5d0I4c3drSTVDOEZXVHRkdFNOdEZNSHkzNlBWaU4xYTR6UVFvUnBJY1NDa1lqSVkzeHhPRXZpZVh0eGl3QnFkdGJzb0c2bzlRTEJFRWtNUWVST1pEWjVlV0FBM1N0WDlBa0pXUjBCanJubHhLUktLWjJleHZEVXIzek5RWEoxaDhTNnhRVjYzT3BPb2U3Mmstc1dNNDk4dUVXY0lwS2FvMndsTDN3QVQwOC1uUjQyU3VOczlCeElheFZudllTRkVMcFRrWVh0WE5BYmNlMkc2bmJVYVJZSTVR?oc=5",
-   "source": "The Sunday Guardian",
+   "title": "Baththa Box Office Collection Day 4: Vijay Sethupathi's Film Dominates Clash, Leaves Sigma & Yezhu Kadal Yezhu Malai Behind",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONFZ3VnRmUUVnc2FDVUktcURvNkZSZldpV2otR0Fwa3luOU03NjB2Y0JHblJMcW9XQ0tfbUdoSnhLbERlWk9vQ241OUpQdWViTlRmbkZCbG9Ld255MzFXb2d2bHBXOVlld1J6S1RYZy1sanZNZkpsUU85czRXMy1PcUxjY3U5X2I3aTBCVXhSVElOM2tscVItQlJvLUl6ZHhxTTMtdzdnM0tnU3BuOUtSNXdQaGl5OHJUaVpWVE5YMzQ2M3NhTjRyZ3NZeXUzRkFVcVNYNUVVNlQ0T2VST0F0cUxRN3lNR3V1?oc=5",
+   "source": "Koimoi",
    "summary": "",
    "image": "",
-   "published": "2026-10-05T10:29:00+00:00",
-   "ts": 1791196140.0,
-   "category": "ott"
-  },
-  {
-   "title": "சாய் அபயங்கர் நெப்போ கிட் இல்லை.. பத்தாவை ஆஸ்கருக்கு எடுத்துட்டுப்போவேன்.. அட்லீ மாஸ் பேச்சு!",
-   "url": "https://tamil.filmibeat.com/news/sai-abhyankkar-is-not-a-nepo-kid-i-will-take-baththa-to-oscars-atlee-speech-184965.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ஹிப் ஹாப் ஆதி இயக்கி நடித்த மீசைய முறுக்கு 2 படத்தில் நெப்போடிச சர்ச்சை வெடித்த நிலையில், சாய் அபயங்கரை தான் ஹிப் ஹாப் ஆதி சொல்கிறார் என ஏகப்பட்ட விவாதங்கள் வெடித்தன. இந்நிலையில், அதற்கு பதிலடி கொடுக்கும் விதமாக இயக்குநரும் தயாரிப்பாளருமான அட்லீ பேசியிருப்பது சினிமா…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/atlee-93591791195457.jpg",
-   "published": "2026-10-05T10:17:55+00:00",
-   "ts": 1791195475.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Mandaadi OTT Release Date OUT: When And Where To Watch Soori's Hit Tamil Film",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeVRjWFU2RnFyVG1UczN1RWhCSE9jX0NidHloRFFLdWJ5MktTdUI2YUo2NFo5T25DRkdodVMtZ0Y1VzJsSVVUSXpEV0plamJvN3doT3JPNjk0MTVhaF9wVGFUR091V3lDS0FPRG5GMEFOU1lmMkRibVlXbW5tNXFqZjY5bUpUMWx5V1g5TVFXa1luTTJSUElMWGxPR1Nvc0h1WXJEUWhoRnRJUi1aRGE1V1BsM0hmbzJjZ1lDYU5WR2N2bEpkQll1VdIByAFBVV95cUxNeVRjWFU2RnFyVG1UczN1RWhCSE9jX0NidHloRFFLdWJ5MktTdUI2YUo2NFo5T25DRkdodVMtZ0Y1VzJsSVVUSXpEV0plamJvN3doT3JPNjk0MTVhaF9wVGFUR091V3lDS0FPRG5GMEFOU1lmMkRibVlXbW5tNXFqZjY5bUpUMWx5V1g5TVFXa1luTTJSUElMWGxPR1Nvc0h1WXJEUWhoRnRJUi1aRGE1V1BsM0hmbzJjZ1lDYU5WR2N2bEpkQll1VQ?oc=5",
-   "source": "herzindagi.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T09:38:55+00:00",
-   "ts": 1791193135.0,
-   "category": "ott"
+   "published": "2026-10-05T10:03:51+00:00",
+   "ts": 1791194631.0,
+   "category": "box-office"
   },
   {
    "title": "Masterpiece Of Empathy And Courage: Karthik Subbaraj's Dorothy Redefines Tamil Cinema",
@@ -681,66 +1031,6 @@
    "image": "",
    "published": "2026-10-05T09:30:16+00:00",
    "ts": 1791192616.0,
-   "category": "buzz"
-  },
-  {
-   "title": "எல்லாமே சுத்த பொய்.. சட்டவிரோதமா நான் எந்த தப்பும் பண்ணல.. ராமாயணா நடிகை புலம்பல்",
-   "url": "https://tamil.filmibeat.com/bollywood/rakul-preet-singh-opens-up-and-says-she-didnt-do-any-illegal-money-laundering-184963.html",
-   "source": "Filmibeat Tamil",
-   "summary": "மும்பை: தமிழில் என்ஜிகே, தேவ், தீரன் அதிகாரம் ஒன்று, அயலான், இந்தியன் 2 உள்ளிட்ட பல படங்களில் நடித்த நடிகை ரகுல் பிரீத் சிங் இந்த ஆண்டு வெளியாகவுள்ள ராமாயணா படத்தில் சூர்ப்பனகையாக நடித்துள்ளார். நடிகை ரகுல் பிரீத் சிங் மற்றும் அவரது மாமனாரும் தயாரிப்பாளருமான வாசு பக்னானி…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/rakul-10391791190901.jpg",
-   "published": "2026-10-05T09:01:57+00:00",
-   "ts": 1791190917.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Mandaadi OTT Release Date Confirmed: When And Where To Watch Soori And Suhas' Sports Action Film Online",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNjROQUc4MFgzMmd1ZjNYMDlZZ0lDcHhLVmkyNncyNkdsT1Ztem1Fc0ZrWHI4YnZIZjYzMzZlVEx5R1JsNU1iQWw2VnVyYVdrd0JoYUNKSkhaT0RhYTZuRjdaUTRvTTRJQlZOaHgtNjZuelhRX0l5aTVIRXNOUm5scEJtQ1dMUElac0w3YjZNaG16Z0hBOXNxN1dYbmtxR3dEQnRlelEzczB6dWtVVTcxeENEZXN0dDVTMjJrd093RkJfUkZJQ1l6cER5czlSbF9iVGtmX0FqTVVvazNuRWlUQQ?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T08:35:00+00:00",
-   "ts": 1791189300.0,
-   "category": "ott"
-  },
-  {
-   "title": "'Mandaadi' OTT release: When, where to watch Soori's hit",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYUNhQXB2UmNJNFNPaGV1Y3FPd2dweGN5ZjNXOTc2T2ltRF91S1Vid3VqSy0wbXFjcVkyNDVMM01ZYzhaXzlDZ3hHQ0lza2ktdFE3SUwwdlhzazdrejRiUEF5M3M3XzhOUmR1ZzZaS0NzWUFfbkswYWJPdFczWTJCajNaT1pnOE1ZcWV3Wg?oc=5",
-   "source": "NewsBytes",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T08:32:20+00:00",
-   "ts": 1791189140.0,
-   "category": "ott"
-  },
-  {
-   "title": "Kiran: தினமும் கபி கபி தான்.. ஆட்டத்தை ஆரம்பித்த கிரண்.. திணறும் இன்ஸ்டாகிராம்!",
-   "url": "https://tamil.filmibeat.com/heroines/actress-kiran-rathod-vvip-membership-controversy-184961.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ஜெமினி, அன்பே சிவம், வில்லன் உள்ளிட்ட பிளாக் பஸ்டர் திரை படங்களில் நடித்து தமிழ் சினிமா ரசிகர்களின் மனங்களை கவர்ந்த நடிகை கிரண் ரத்தோட், தற்போது சோஷியல் மீடியாவில் எல்லைமீறிய கவர்ச்சி அவதாரத்தை எடுத்து நெட்டிசன்களை திக்குமுக்காட வைத்து வருகிறார். கவர்ச்சி நடிகை:…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/kiran13-89581791188930.jpg",
-   "published": "2026-10-05T08:29:22+00:00",
-   "ts": 1791188962.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Sivakarthikeyan fan meet near Porur sparks political buzz",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU3RQMzRlWU9GUFo4al9oSUlnTUZjZ3hGSUJiY0ZIdzFYVnVRaVJENFl0blB1dUI2NG9Cb1VsNGd5YzBZZzFLNkxuYkVKcWdaMGV0X1B2UnM2X0trbUs1Z1pyQmVfVjBZNWZlc0FMb3Z2c0V2QVVTZTJfQUI5UHlzdmR4RmZINzhXdmhTNWVlNjhrR0NNdUxYYUFDVXNEZENjTkHSAa8BQVVfeXFMTjhRWVRzcDhma3ljdnpncWF0Yks4dTZRb2JvOXhHalJmQk1iQnBmUzJFRzR4dkNkUkxaUExfVkU4Ylh5NUlRMjZ1MlJFVnY5eXN0Z21SVU5xV1dTQzBpdGpocDZvS0d0bU9LOTZvdlh5dnozdkt5ZFg2TXRsaFF6N2dDemVoY1M0MEI4S0IwVDhtX01FX2F2Y1BkdUFCVWFST0JVNzNHNkxPTjUyZlAyNA?oc=5",
-   "source": "dtnext.in",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T08:07:57+00:00",
-   "ts": 1791187677.0,
-   "category": "buzz"
-  },
-  {
-   "title": "தமன்னாவுக்கு வந்த அம்மாவாகும் ஆசை?.. செம பிளானில் இருக்காங்க.. குழந்தைகள் கொடுத்து வெச்சவங்க",
-   "url": "https://tamil.filmibeat.com/heroines/i-ll-be-a-cool-mom-tamannaah-opens-up-about-motherhood-and-her-future-kids-184959.html",
-   "source": "Filmibeat Tamil",
-   "summary": "மும்பை: நடிகை தமன்னா கோலிவுட், டோலிவுட், பாலிவுட்டில் ஃபேமஸான நடிகை. விஜய் வர்மாவை காதலித்த அவர்; சில காலத்திலேயே பிரேக் அப் செய்துவிட்டார். இப்போது சிங்கிளாக இருக்கும் அவர் நடிப்பில் பிஸியாகியிருக்கிறார். இந்நிலையில் தான் தாய்மை அடைந்தால் எப்படிப்பட்ட அம்மாவாக இருப்பேன் என்பது…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/taman-25631791186603.jpg",
-   "published": "2026-10-05T07:50:39+00:00",
-   "ts": 1791186639.0,
    "category": "buzz"
   },
   {
@@ -754,74 +1044,14 @@
    "category": "buzz"
   },
   {
-   "title": "சிறுத்தை சிவாவை நம்பி முதல் போடும் தனுஷ்.. கங்குவா மாதிரி ஆகாமல் இருந்தால் சரி!",
-   "url": "https://tamil.filmibeat.com/heroes/dhanush-joins-hands-with-siruthai-siva-new-film-to-begin-after-d56-here-s-what-we-know-184957.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தமிழில் முன்னணி இயக்குநர்களில் ஒருவர் சிறுத்தை சிவா. அவர் கடைசியாக இயக்கிய கங்குவா படம் மோசமான தோல்வியை சந்தித்தது. பலரும் சிவாவை கடுமையாக ட்ரோலும் செய்தார்கள். எப்படியாவது கம்பேக் கொடுத்துவிட வேண்டும் என்ற தீவிரத்தில் இருக்கிறார். அடுத்ததாக அவர் அஜித்தை வைத்து படம்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/rty-82481791185667.jpg",
-   "published": "2026-10-05T07:35:07+00:00",
-   "ts": 1791185707.0,
-   "category": "buzz"
-  },
-  {
-   "title": "விபசாரத்துக்கு ஆள் இறக்குறீங்களா?.. ஷூட்டிங்கில் நடந்த களேபரம்.. ஆத்தி என்ன ஆனது தெரியுமா?",
-   "url": "https://tamil.filmibeat.com/throw-back-stories/20-tamil-girls-needed-actor-kadhal-sugumar-reveals-shocking-incident-from-telugu-film-shoot-184955.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: காதல் படத்தில் நடித்து பிரபலமானவர் சுகுமார். அந்தப் படம் தவிர்த்து இன்னும் பல படங்களில் நடித்திருக்கும் அவர்; முகநூலில் ஆக்டிவ்வாக இருப்பவர். அந்தவகையில் சினிமா ஷூட்டிங்கின்போது நடந்த சம்பவம் ஒன்றை அவர் இப்போது பதிவிட்டிருக்கிறார். அந்தப் பதிவு சோஷியல் மீடியாவில்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/sug-98621791185038.jpg",
-   "published": "2026-10-05T07:24:37+00:00",
-   "ts": 1791185077.0,
-   "category": "buzz"
-  },
-  {
-   "title": "ரத்த வெள்ளத்தில் கற்பகம்.. கார்த்திக் மீது விழுந்த பழி.. கார்த்திகை தீபம்!",
-   "url": "https://tamil.filmibeat.com/television/zee-tamil-tv-karthigai-deepam-serial-october-5th-episode-review-184953.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: கார்த்திகை தீபம் சனிக்கிழமை எபிசோடில் கற்பகம் என்ற பெண்ணின் ராஜசேதுபதிக்கு சிவகாமி அம்மா மேல ஆசை. பல முறை அவங்களை அடைய வேண்டும் என நினைத்து அவங்களை மிரட்டியதை நான் என் கண்ணால் பார்த்தேன் என்று சொல்கிறார். இதைக்கேட்டு ஆத்திரப்படும் பரமேஸ்வரி பாட்டி, ஏய் யாரு மேல என்ன பழி…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/11-34711791184165.jpg",
-   "published": "2026-10-05T07:10:06+00:00",
-   "ts": 1791184206.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Sivakarthikeyan's message to fans: 'Study well, earn well, family comes first'",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLWNOWGdrcnVDYS1tMHZxNTgwem1UQ0FMSGVmQ182ZHo5UkktdXYzX3d6aGZHd1JWUWRFZGVHQnNEZ0hqcTFLSWlPbGlHS2pEdGJza2MyaHNYUkJ4bnkwY2tVdHczLXh1c29LWHpHd0J4NlZVbEZHN21EbmlNSS0tMDA1aG1NVU5MQ2dwSHFrV0haOWFQQm9HTjJEaGpKZlJjMWtBU0FZNEJMbGNjLVNMSGRrZUJPNGpvZ2tHbzNVUUo3V0NDcmt5MGhWVldKVkRnYlhCQ3IwenlvM3ZWeFVGZdIB5gFBVV95cUxObUxjZ1gtNmcwNlhIQno2bzE1MWdubkFMVG80V1hYcThTbGpWcVBPQ3JmWGlvcTN2Z1hYQmktYkp0czZMMkdtVFhqVS1PZHhqNlFnejY1bTU0bS12V2JycXZ0WDhDc2lkbWt6b01oZVBVYWdIYXM0NXh1Sk9UZzVMVTZua2hKczJMTXdFeG1PUlpNYVYxcXFxU2RpdzI0NjNKcDlMN0FYSTFOTVN0Q19jNE9WRDRBenNlMkF1d2c2elRzZGtJMnhTZWFjbE1mUWltSV9XakdQTU5iOXVUQ0hjV0lROXFLdw?oc=5",
-   "source": "Moneycontrol.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T06:42:37+00:00",
-   "ts": 1791182557.0,
-   "category": "buzz"
-  },
-  {
-   "title": "ஆம்பள திமிரை சுக்குநூறாக உடைத்து வரும் தமிழ் சினிமா.. மொத ராத்திரி, டோரத்தி, பத்தா நடத்திய பாடம்!",
-   "url": "https://tamil.filmibeat.com/news/breaking-male-ego-in-style-how-modha-rathri-dorothy-baththa-are-changing-tamil-cinema-184951.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: அனிமல் படத்தில் ஆல்ஃபா மேல் என்றும் டாக்ஸிக் படத்தில் பெண்களை ஆபாச பொருளாகவும் சித்தரித்து மற்ற மொழிகளில் படங்கள் வெளியாகி வரும் நிலையில், தமிழ் சினிமாவில் தொடர்ந்து முற்போக்கு சிந்தனைகளை கொண்ட படங்களை இங்குள்ள இயக்குநர்கள் இயக்கி வருவது பாராட்டுக்களை அள்ளி வருகிறது.…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/alpha-84161791182138.jpg",
-   "published": "2026-10-05T06:35:55+00:00",
-   "ts": 1791182155.0,
-   "category": "buzz"
-  },
-  {
    "title": "Baththa Day 4 collections: Vijay Sethupathi film records biggest day at box office",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNXdyS2Vab3YyeG9zVm5YWEhlWm1fLW1HLUttVFp2Y0VRVXZzeUVzak1oc016dmkwUzNMTVdQZ09qZVQ0SDY4ZUJ4RGpBX3FvQ2xaNEc4dmQtQ1lCWkxGdjZEYS0xdDM4SUk4YU9sMnJLVllESFhvdzhPMkVhTjJQT1BsaTVpTGpYVU5BMkxyeWx4eFNxU2dwVUpwbWNOWlJubGVZQUE2eXotYUpQdE53RnhZZDh3U1R1QTVnOGJXaFE2ZldGV1N6MU1xSEhjbDFfRVNnOFdFLVF6Tzlf0gHcAUFVX3lxTE81d3JLZVpvdjJ4b3NWblhYSGVabV8tbUctS21UWnZjRVFVdnN5RXNqTWhzTXp2aTBTM0xNV1BnT2plVDRINjhlQnhEakFfcW9DbFo0Rzh2ZC1DWUJaTEZ2NkRhLTF0MzhJSThhT2wycktWWURIWG93OE8yRWFOMlBPUGxpNWlMalhVTkEyTHJ5bHh4U3FTZ3BVSnBtY05aUm5sZVlBQTZ5ei1hSlB0TndGeFlkOHdTVHVBNWc4YldoUTZmV0ZXU3oxTXFISGNsMV9FU2c4V0UtUXpPOV8?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOV9MQ20ydkRNdlp0RE9RSzhxZmkzZnpGalZ2NmFrYmJhdnFkbTNhUUtYQk1jY2pUQ0RQc3NYNDNqZmV6VnA2QTdfMUVwWHBMZEdFSG41NDZOLWhZcDgxd0RuNHJ5NzQ4bHdMbmRRYTY3WVZrcUlwTjBmaFJKTGNNSHkwalU4NzlVZHptcWVmWU1SaWZYZXJNWlNZNGVNMlR6bjlzbGVMcEtQcVZBMzBIMUNsZWdlaHVvalc0c1JGV0tVRUlFVlRNeXc5TjB1dXfSAdwBQVVfeXFMTzV3cktlWm92Mnhvc1ZuWFhIZVptXy1tRy1LbVRadmNFUVV2c3lFc2pNaHNNenZpMFMzTE1XUGdPamVUNEg2OGVCeERqQV9xb0NsWjRHOHZkLUNZQlpMRnY2RGEtMXQzOElJOGFPbDJyS1ZZREhYb3c4TzJFYU4yUE9QbGk1aUxqWFVOQTJMcnlseHhTcVNncFVKcG1jTlpSbmxlWUFBNnl6LWFKUHROd0Z4WWQ4d1NUdUE1ZzhiV2hRNmZXRldTejFNcUhIY2wxX0VTZzhXRS1Rek85Xw?oc=5",
    "source": "Cinema Express",
    "summary": "",
    "image": "",
-   "published": "2026-10-05T06:25:58+00:00",
-   "ts": 1791181558.0,
+   "published": "2026-10-05T06:12:05+00:00",
+   "ts": 1791180725.0,
    "category": "box-office"
-  },
-  {
-   "title": "முதல் படத்திலேயே சிக்கிய வாரிசு.. ஹீரோயின் விட்ட சாபம் பலிச்சுடுச்சாம்.. வீட்டில் செம அப்செட்டாம்",
-   "url": "https://tamil.filmibeat.com/gossips/star-kid-s-debut-turns-controversial-did-the-heroine-s-curse-affect-his-film-family-reportedly-upset-184949.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தமிழ் சினிமாவில் மிகப்பெரிய ஹீரோவாக இருந்த அவர்; இப்போது அதிலிருந்து ஒதுங்கிவிட்டார். அவரது வாரிசு இப்போது சினிமாவுக்குள் வந்துவிட்டார். முதல் படத்தில் சூப்பராக பணியாற்றினாலும் அவருக்கு தேவையான வெற்றி கிடைக்கவில்லை. அதேசமயம் தேவையில்லாத சர்ச்சையும், கெட்ட பெயரும்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/th-67771791180770.jpg",
-   "published": "2026-10-05T06:13:35+00:00",
-   "ts": 1791180815.0,
-   "category": "buzz"
   },
   {
    "title": "Sivakarthikeyan addresses fans at Chennai meet, shares Seyon update and career insights",
@@ -831,26 +1061,6 @@
    "image": "",
    "published": "2026-10-05T06:06:40+00:00",
    "ts": 1791180400.0,
-   "category": "buzz"
-  },
-  {
-   "title": "ட்ரெய்ன் படத்தை பற்றி கவலைப்படாத மிஷ்கின்.. அவர் வேற பிளானில் வெயிட்டா இருக்காரு",
-   "url": "https://tamil.filmibeat.com/news/my-next-film-is-ready-mysskin-reveals-26-stories-anjathe-2-lokesh-kanagaraj-plans-184945.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தமிழ் சினிமாவின் முக்கியமான இயக்குநர்களில் ஒருவர் மிஷ்கின். இப்போது விஜய் சேதுபதியை வைத்து ட்ரெய்ன் படத்தை இயக்கியிருக்கும் அவர்; நடிப்பிலும் பிஸியாக இருக்கிறார். விரைவில் அந்தப் படம் வரவிருக்கிறது. இந்நிலையில் அவர் தன்னுடைய அடுத்தடுத்த படங்கள் குறித்து சமீபத்திய…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/miskin-71461791178568.jpeg",
-   "published": "2026-10-05T05:57:58+00:00",
-   "ts": 1791179878.0,
-   "category": "buzz"
-  },
-  {
-   "title": "பாலியல் தொழிலாளர்களுக்கு சமந்தா சப்போர்ட்.. ஆண்களை கிழிச்சுட்டாரு.. செம அதிரடி மேடம்",
-   "url": "https://tamil.filmibeat.com/heroines/those-who-speak-the-truth-are-criticised-samantha-s-cryptic-post-sparks-attention-184947.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: நாக சைதன்யாவை திருமணம் செய்து விவாகரத்து செய்த சமந்தா; அடுத்ததாக இயக்குநர் ராஜ் நிடிமோருவை திருமணம் செய்திருக்கிறார். இப்போது அவர் கர்ப்பமாகவும் இருக்கிறார். டிசம்பர் மாதம் அவருக்கு குழந்தை பிறக்கும் என்று எதிர்பார்க்கப்படுகிறது. இந்நிலையில் அவர் முக்கியத்துவம் வாய்ந்த…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/samntha-87311791179391.jpg",
-   "published": "2026-10-05T05:50:38+00:00",
-   "ts": 1791179438.0,
    "category": "buzz"
   },
   {
@@ -864,49 +1074,9 @@
    "category": "box-office"
   },
   {
-   "title": "தினமும் 15 தடவை 'I Love You'னு சொல்லுவா.. என்னை மாற்றியதே அவ தான்.. விஜய் தேவரகொண்டா ஓபன் டாக்!",
-   "url": "https://tamil.filmibeat.com/heroes/rashmika-mandanna-and-vijay-devarakonda-open-talk-for-ranabaali-interview-184943.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ரணபலி: 1876ஆம் ஆண்டு முதல் 78 காலகட்டத்தில் இந்தியாவில் ஏற்பட்ட மிக கொடூரமான 'தாது வருடப் பஞ்சத்தை' மையமாகக் கொண்டு உருவாகியுள்ள 'ரணபலி' திரைப்படம், விஜய் தேவரகொண்டா - ரஷ்மிகா ஜோடியின் திருமணத்திற்கு இணைந்து நடிக்கும் முதல் திரைப்படமாகும். இப்படம் அக்டோபர் 16-ஆம் தேதி…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/vija122-74961791178445.jpg",
-   "published": "2026-10-05T05:34:38+00:00",
-   "ts": 1791178478.0,
-   "category": "buzz"
-  },
-  {
-   "title": "‘I am people-made star,’ says Sivakarthikeyan; 'Seyon' actor opens up on criticism, sends strong message",
-   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNbFdja1Q5cXBnRHllVVFOLVVKQ3Vic2ZRVjZfN0ZfVUpubFNYYXZoMVByOU81TjVYT3VGNlVocGM3SzBFYzZXY2JyQ0pFZGFDUGFrREVfNnlyaV9TQXBNLVRHb19RREdJUFhkYmZIRFNaaUJnb3NRNmJtV2I4OGF6MklzVGtJQ0c1dWp2azFNbUlKTlVueVNZaXVONjNaelpFX05CLV9jaVdLbjRCVEFfMGwtSzA4ME5XNjc5SFYycENMVk4zSVQ2dXg5VVpzU0JWcmpscTNZMzRRemRQbkc5RFdwejJ3UG04cTh4MFdFZldKYjhRRzZVMzlHUEdLcDVhS3NJYWV2UTNfQmppWWkyb2c3dXBTVFlQZGZPQ2kwUUJGbnB1Z3NQTDdYRzZGRTFHclhpZERSNVRON1ZyQno2VnRvWmdpSm_SAccCQVVfeXFMTWxXY2tUOXFwZ0R5ZVVRTi1VSkN1YnNmUVY2XzdGX1VKbmxTWGF2aDFQcjlPNU41WE91RjZVaHBjN0swRWM2V2NickNKRWRhQ1Bha0RFXzZ5cmlfU0FwTS1UR29fUURHSVBYZGJmSERTWmlCZ29zUTZibVdiODhhejJJc1RrSUNHNXVqdmsxTW1JSk5VbnlTWWl1TjYzWnpaRV9OQi1fY2lXS240QlRBXzBsLUswODBOVzY3OUhWMnBDTFZOM0lUNnV4OVVac1NCVnJqbHEzWTM0UXpkUG5HOURXcHoyd1BtOHE4eDBXRWZXSmI4UUc2VTM5R1BHS3A1YUtzSWFldlEzX0JqaVlpMm9nN3VwU1RZUGRmT0NpMFFCRm5wdWdzUEw3WEc2RkUxR3JYaWREUjVUTjdWckJ6NlZ0b1pnaUpv?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-05T05:22:00+00:00",
-   "ts": 1791177720.0,
-   "category": "buzz"
-  },
-  {
-   "title": "சிவகார்த்திகேயனை வைத்து 4 படம் எடுத்த ஆர்.டி. ராஜாவை ஞாபகமிருக்கா?.. தயாரிப்பில் புதிய முயற்சி!",
-   "url": "https://tamil.filmibeat.com/news/rd-raja-and-art-director-muthuraj-starts-new-hyper-realistic-production-house-manthira-studios-184941.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ரெமோ, வேலைக்காரன், சீமராஜா மற்றும் அயலான் என சிவகார்த்திகேயனை வைத்து 4 படங்களை தயாரித்த ஆர்.டி. ராஜா தற்போது தயாரிப்பில் புதிய முயற்சியில் ஈடுபட்டுள்ளதாக அறிவித்துள்ளார். தமிழ் திரையுலகில் புதிய முயற்சிகளையும், புதுமையான கதை சொல்லும் முறைகளையும் ஊக்குவிக்கும் நோக்கில்,…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/rdraja-51951791176887.jpg",
-   "published": "2026-10-05T05:08:55+00:00",
-   "ts": 1791176935.0,
-   "category": "buzz"
-  },
-  {
-   "title": "அந்த நடிகைதான் வேணும்.. வாரிசு நடிகர் அடம்.. காதலுக்கு ஆப்பு வைக்கும் தயாரிப்பாளர்!",
-   "url": "https://tamil.filmibeat.com/gossips/top-producer-son-and-young-actress-secret-love-184939.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: சினிமாவில் சில ஹீரோ - ஹீரோயின் ஜோடிகள் திரையில் கெமிஸ்ட்ரியை காட்டுவதோடு நிறுத்திக் கொள்ளாமல், நிஜ வாழ்க்கையிலும் நெருக்கமாகி கிசுகிசுக்களில் சிக்குவது சினிமாவில் ஒன்றும் புதிதல்ல. அந்த வகையில், தற்போது தமிழ் சினிமாவில் அறிமுகமாகி நடித்த 3 படங்களும் ஹாட்ரிக்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/16-36961791175690.jpg",
-   "published": "2026-10-05T04:48:42+00:00",
-   "ts": 1791175722.0,
-   "category": "buzz"
-  },
-  {
    "title": "Sigma Box Office Collection Day 3: Vijay's Son Jason Sanjay's Directorial Debut Falls Flat",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWEg3NWxGUUhrSU53NHVDNWszZzc3UUdUZmx2RmZ0MDRzTDVNNVBGNVY0ckh5aG9FUWMxbUlYM0trYnd0a1Qwa2hHNXh6dmpHU25NU1BJdzdxeE9DYWxmenRpYVRSWFpBY1N4QV9Ea3ZqNWpmbDZXcTFXalRoRU9yUWp4VWtlR2trSmVsMjZJTU91UmMyNDZiTmtqT1k0UE9DOF85emZZZ0hwelRQLVlyOFA3U0JpTXZoUjVFZ1pfOTZ3UllJQVlmQnBUONIB0wFBVV95cUxORThYT2x6SGgyd09jZV83QTlLMUdrRHdCTlBtanFSX3Y1M2h4dGJOZUlrQU1lVUM1LXZnck1lWW55UXJTMm5lczRwSk9wbWs2bnNJRjVyX3pNUjZkUzZPaXM3eFg1WkpPd3FPTVpCR0NIUkpWdHZIeno1SW1wRXlRV0hnelZxd2pKS3psNDlQXzFWLUVuVGNYTGR4M3ZNRExYOFo4WEcxTTFZRS02el9PNFVkUm5fcUk5ZVNBUlJfMnJaRVFSZmNmblFuWFN2N21RdzRZ?oc=5",
-   "source": "ndtv.com",
+   "source": "NDTV",
    "summary": "",
    "image": "",
    "published": "2026-10-05T04:27:39+00:00",
@@ -914,28 +1084,8 @@
    "category": "box-office"
   },
   {
-   "title": "லிப் லாக்கில் தாராளம்.. அந்த 2 நடிகைகளை ஓரங்கட்ட அழகு ஹீரோயின் எடுத்த ஷாட் கட் ரூட்.. இவங்களுமா?",
-   "url": "https://tamil.filmibeat.com/gossips/beauty-actress-doing-more-private-parties-recently-to-gain-first-spot-184937.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: சினிமாவில் ஆரம்பத்தில் இருந்தே எந்தளவுக்கு சின்ன டிரெஸ் கொடுத்தாலும் அணிந்துக் கொண்டு நடித்து வரும் அந்த நடிகை ஏற்கனவே சாமி படத்தில் ஏடாகூடமாக நடித்தார் என சர்ச்சைகள் வெடித்து அந்த படமே அட்டு ஃப்ளாப் ஆகிவிட்டது. இந்நிலையில், சமீபத்தில் வெளியான அந்த லவ் படத்தில் ஹீரோவுடன்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/gossip1act-24821791173591.jpg",
-   "published": "2026-10-05T04:13:37+00:00",
-   "ts": 1791173617.0,
-   "category": "buzz"
-  },
-  {
-   "title": "என்ன இப்படி ஷாக் கொடுத்துட்டீங்க?.. சிக்மா முதல் காட்சியில் சங்கீதா, திவ்யா சொன்னது இதுவா?",
-   "url": "https://tamil.filmibeat.com/news/sanjay-s-sigma-surprise-leaves-sangeetha-in-shock-here-s-what-happened-at-kamala-theatre-184935.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ஜேசன் சஞ்சய் இயக்கத்தில் உருவாகியிருக்கும் சிக்மா திரைப்படம் சில நாட்களுக்கு முன்பு தியேட்டர்களில் வெளியானது. சந்தீப் கிஷன் ஹீரோவாக நடித்திருந்தார். படத்துக்கு சுமாரான வரவேற்பே கிடைத்தது. இதற்கிடையே சென்னை கமலா திரையரங்கத்தில் படத்தின் முதல் காட்சியை சங்கீதாவும்,…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/thumb-18841791169817.jpg",
-   "published": "2026-10-05T03:10:59+00:00",
-   "ts": 1791169859.0,
-   "category": "buzz"
-  },
-  {
    "title": "'Dorothy' box office collection day 10: Karthik Subbaraj and Keerthy Suresh film reaches Rs 12.01 cr worl",
-   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQeTlpQnZtSy1nOEhuWDFxSnFIM3ZkLVVoUEFaWUhHQnBkZmdfSkJJR2tPOVBUTTd2M2psYkV5R3ozbGltQTNZNEQyWnYwalpMdTluY0xueGdUMUdEckM3ZzcwOHlOaUNWLXoxbkt5aFUxZGFYNGkwR2NNMUQtbzdMbnFNQU9OeWdjaTJzQU1tUjdoQzQ1c2pJT3BSUFBNVlo1NExidmV4cTBLbVBYZnZrbUVXajI4UlctQWdpWmdqQkZIajJvLXQ3eU42SUUwekxYMm1fWG5uV0JjR0lqNWhZUE5EN1B6emstaGFRR3BJVTZybi1raUJHYmJUVkFWdE1EQlMxVXdnWU53OFBqaGcxeE1DR2xnTDEtRkRnVXRwaFJaZmNNT0pXYnJyNkJWWWVoNVVUMkVidDR5dTJ3NTByYnBBM1Y5SVZuV1FOLVRFSEdUbWNXakl3MjZiS053Q3Q2WWZyUGsyMy0tbmxpck1fTE1n0gHyAkFVX3lxTFB5OWlCdm1LLWc4SG5YMXFKcUgzdmQtVWhQQVpZSEdCcGRmZ19KQklHa085UFRNN3YzamxiRXlHejNsaW1BM1k0RDJadjBqWkx1OW5jTG54Z1QxR0RyQzdnNzA4eU5pQ1YtejFuS3loVTFkYVg0aTBHY00xRC1vN0xucU1BT055Z2NpMnNBTW1SN2hDNDVzaklPcFJQUE1WWjU0TGJ2ZXhxMEttUFhmdmttRVdqMjhSVy1BZ2laZ2pCRkhqMm8tdDd5TjZJRTB6TFgybV9Ybm5XQmNHSWo1aFlQTkQ3UHp6ay1oYVFHcElVNnJuLWtpQkdiYlRWQVZ0TURCUzFVd2dZTnc4UGpoZzF4TUNHbGdMMS1GRGdVdHBoUlpmY01PSldicnI2QlZZZWg1VVQyRWJ0NHl1Mnc1MHJicEEzVjlJVm5XUU4tVEVIR1RtY1dqSXcyNmJLTndDdDZZZnJQazIzLS1ubGlyTV9MTWc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQZUpsaUhSYnAwa2RGMUJpMWs2eXFvSDNXNUJnVTBQVXktd3BnMzNXR3FqSVlOMlRvd0hWVkowWkRLSENDZUktaW1EUzZyODRlMUpETWlUT1Nlc2RhS1RQRGFybW4xUmVEZWJJcmFZMUJLOXFXenAxM0Z0ZDA5ZnQ4TGFwVy1ZWVNOX2VwbmdIMHdFZVc5aTV6WmRoN21HOVk0bHhjUlQ3SF96Tk5NYlNJUE9zNXJsNFpfb1ZMTjhuRmRFZWdmWm5JU1BZS1Bfby05TTJTcG5reUdZVENaT3hUcml2SlMwMzlkM191dk9CbllyNklKWEVqWlV4emVJVlZSSXh6ejFyR3dmdXhoNkwzelU4eG9yYmk1MDdpMC1kU3ZKdkdnN1JVWFZxTDViNUxQRThWck1ydVVybDNhOWlrZFQ4cjhyWURRUTlLVUtzUDBVanFQWFRBQWZTbDZsZXBhOFhYTXBEOHhsSmFN0gHyAkFVX3lxTFB5OWlCdm1LLWc4SG5YMXFKcUgzdmQtVWhQQVpZSEdCcGRmZ19KQklHa085UFRNN3YzamxiRXlHejNsaW1BM1k0RDJadjBqWkx1OW5jTG54Z1QxR0RyQzdnNzA4eU5pQ1YtejFuS3loVTFkYVg0aTBHY00xRC1vN0xucU1BT055Z2NpMnNBTW1SN2hDNDVzaklPcFJQUE1WWjU0TGJ2ZXhxMEttUFhmdmttRVdqMjhSVy1BZ2laZ2pCRkhqMm8tdDd5TjZJRTB6TFgybV9Ybm5XQmNHSWo1aFlQTkQ3UHp6ay1oYVFHcElVNnJuLWtpQkdiYlRWQVZ0TURCUzFVd2dZTnc4UGpoZzF4TUNHbGdMMS1GRGdVdHBoUlpmY01PSldicnI2QlZZZWg1VVQyRWJ0NHl1Mnc1MHJicEEzVjlJVm5XUU4tVEVIR1RtY1dqSXcyNmJLTndDdDZZZnJQazIzLS1ubGlyTV9MTWc?oc=5",
    "source": "The Times of India",
    "summary": "",
    "image": "",
@@ -945,23 +1095,13 @@
   },
   {
    "title": "'Mandaadi' box office collection day 25 vs 'Baththa': Soori's film reaches Rs 133.82 cr worldwide; India",
-   "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQZExGV0Y3QzRjQ1JwZ2FvUlUyWXVBZG1MRUxnb1l5SkpRRm5CdFVxMWtYMHZLQnd3RkwtRnFZVWtRUTZVbFhheXREUlp6QkcwalFQN1hHNU1RaHdCUVliQ2RrOHlwTGliXy0teGh3Rnc5ZjdmYjgyRE43NThuNlFJQldnMTZKcERINVN6aU0zTGxWN3k1Q1NlRFNFUXYwczVzUFQwa3IwR2tOUzFxSWNKWENmTXplQ1o1RlFfME1tSVUwUTZwTzA4aWRKbndpVlppTUVWT3RzSmxrUmJCLVI4X2hwN0V0d2tJV1p6UUZDRmdHVVFESzFubUNoel9pLVpid0N3dEV4NTZ2RktfWjBKUVkyNWxYcUtxNjF4UGtIUXBFYm1RSjJJMzJtbXhKRWhUelZhY2VRWEdoUzNJc2FMMXh2U3kwUmxvVUwyd3pkSUtNSUFNM2tod3E5emxnRjJKeGF0bjJkYXg1eXc1eFlPa9IB8AJBVV95cUxQZExGV0Y3QzRjQ1JwZ2FvUlUyWXVBZG1MRUxnb1l5SkpRRm5CdFVxMWtYMHZLQnd3RkwtRnFZVWtRUTZVbFhheXREUlp6QkcwalFQN1hHNU1RaHdCUVliQ2RrOHlwTGliXy0teGh3Rnc5ZjdmYjgyRE43NThuNlFJQldnMTZKcERINVN6aU0zTGxWN3k1Q1NlRFNFUXYwczVzUFQwa3IwR2tOUzFxSWNKWENmTXplQ1o1RlFfME1tSVUwUTZwTzA4aWRKbndpVlppTUVWT3RzSmxrUmJCLVI4X2hwN0V0d2tJV1p6UUZDRmdHVVFESzFubUNoel9pLVpid0N3dEV4NTZ2RktfWjBKUVkyNWxYcUtxNjF4UGtIUXBFYm1RSjJJMzJtbXhKRWhUelZhY2VRWEdoUzNJc2FMMXh2U3kwUmxvVUwyd3pkSUtNSUFNM2tod3E5emxnRjJKeGF0bjJkYXg1eXc1eFlPaw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNZmQxc1pIUHRMaENGQVdKdVhoeEhrQldnd2liajNDek8zbFpncEVtc2ludWtQNlBPUWlNVURXcGJ1Sll0eFdiQjllRjY0N3dobzRkZ0wwSElOWDJ0UkFmU1E0RlBkRk9CYUpBSHhFbnZjS2pUQW45c0g1TE5CZkJBd0tGS2pqajJEMUxtNWpONnJaWkVsYTNmYUtmNVJQczc2UU95MnhTMDBaX0xZb0Nkamp5aWJrOTZkOGR5d3VfTWh4QUJzLWFESnRmRnRtXzVLb0JZRTV0OXBDbjlweGV3dF80SEdHWEZIdjMtZ0N5SlpPaGdUck5ybl9BZGxuQjJyUVhTdnIxT2RwZmZJMktSVk5OSTRqWld2ckVfOHpZZWY4VmpTYVc3VXgyMnB2UVRzSFhqa1lVcGdick1POUplVEhtSFc3Q3QwU25rYlN4Y1VIMld2QnllaGVhalhpT3Ytd0dKUDE4Yzh0bknSAfACQVVfeXFMUGRMRldGN0M0Y0NScGdhb1JVMll1QWRtTEVMZ29ZeUpKUUZuQnRVcTFrWDB2S0J3d0ZMLUZxWVVrUVE2VWxYYXl0RFJaekJHMGpRUDdYRzVNUWh3QlFZYkNkazh5cExpYl8tLXhod0Z3OWY3ZmI4MkRONzU4bjZRSUJXZzE2SnBESDVTemlNM0xsVjd5NUNTZURTRVF2MHM1c1BUMGtyMEdrTlMxcUljSlhDZk16ZUNaNUZRXzBNbUlVMFE2cE8wOGlkSm53aVZaaU1FVk90c0psa1JiQi1SOF9ocDdFdHdrSVdaelFGQ0ZnR1VRREsxbm1DaHpfaS1aYndDd3RFeDU2dkZLX1owSlFZMjVsWHFLcTYxeFBrSFFwRWJtUUoySTMybW14SkVoVHpWYWNlUVhHaFMzSXNhTDF4dlN5MFJsb1VMMnd6ZElLTUlBTTNraHdxOXpsZ0YySnhhdG4yZGF4NXl3NXhZT2s?oc=5",
    "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-10-05T01:09:00+00:00",
    "ts": 1791162540.0,
    "category": "box-office"
-  },
-  {
-   "title": "How Singeetham Srinivasa Rao Redefined Heroines in Tamil Cinema",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPY2NiZm5IaFpsM09iaklIeTh3VU5SNTRoQnRXWU1DWGhlQTJSS1lmMDlKQzZtWjYwdkpUaFAtMGdlVzN5RWg4bjZGUFNZSGhianh4alpSNGFuLW9WYmRnWGUzdG9NLXVLQTNWUlJ2ZTEzWUd1RGhnVUhvM2docl9qalF0Q0VNTGViLXN4TFRydU0tSkZuaG53X1kyT1NkY3BlTUJzTGw1Ukk2Y251Nmk4V3hsS0ZJWnZPQ04tMzd5ZWxVSmktdTlEWFItZ1E2TXZiQWFHNzdObkg5Z9IB2gFBVV95cUxPY2NiZm5IaFpsM09iaklIeTh3VU5SNTRoQnRXWU1DWGhlQTJSS1lmMDlKQzZtWjYwdkpUaFAtMGdlVzN5RWg4bjZGUFNZSGhianh4alpSNGFuLW9WYmRnWGUzdG9NLXVLQTNWUlJ2ZTEzWUd1RGhnVUhvM2docl9qalF0Q0VNTGViLXN4TFRydU0tSkZuaG53X1kyT1NkY3BlTUJzTGw1Ukk2Y251Nmk4V3hsS0ZJWnZPQ04tMzd5ZWxVSmktdTlEWFItZ1E2TXZiQWFHNzdObkg5Zw?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-04T18:17:00+00:00",
-   "ts": 1791137820.0,
-   "category": "buzz"
   },
   {
    "title": "Sigma Twitter Review: What Are Netizens Saying About Tamil Movie Directed By Thalapathy Vijay's Son Jason Sanjay?",
@@ -1004,36 +1144,6 @@
    "category": "box-office"
   },
   {
-   "title": "Baththa box office: Vijay Sethupathi film continues strong start in theatres",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWUJuLWJVaHR4b1hxWkxMdW5CazlncXdnRnRDXzFrM1psQ0NhdWRzUmhuSktfMTRyN0RWOEJlb2pTUWdpbExPZXFzeG5RbUxCbElucDAtM0J1VGRya1owYmJZaVl2YnlBb0dNRGpiUVFLQXlMQm5aZERHN1pNTlRwZENRbDZvS0ZNbVJoeDBsV0p0TmFmdDRwVUxfUWhadVdRS2c3NmRqNGR2NkZEWml6cFBsRWF3ekd2N3hoT0VGZHFPbFpOMjZn0gHUAUFVX3lxTE1kM2lMd3QzaHFQTkloVWhOdmo5VTJOektUV3RxM2lJMUJIVk1MYVhVWS1aQTFPZHpDRkdsRndZRnFVcUNDUDA3WDdwalFtU045T1JtOVlpc0xpNXVrZ2tVblJLS3RzVjVDSnF6UGJHa3ZnMDZOa3ppRHhjYVpjMlBrY1VXRlo0LXk5VTYzcDVucmRvb0drU3BWUmllMzhJNlM1YU9CYTFuRmF4bkhER2Q5NVpvTWNkNFdnOTFnZUZDa1M4ZGJhM3hvbVRFOGJSUFpWSkhp?oc=5",
-   "source": "Cinema Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-04T09:25:30+00:00",
-   "ts": 1791105930.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Dorothy Box Office Day 9: Keerthy Suresh's Film Is Only 85 Lakh Away From Delivering 10th Success For Tamil Cinema In 2026!",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWndYRVNfTFdLcUl5b3c4em5pdktCcTNQMEU5LURaWFVaOTZuVEdZcElWeEUyWEtBRkszTmRrMFFtaW5CNHVVNTlfVG9yaWlVTjlZT3M1bnR1WTJvaG9uVDlydklhT09vNHFYUFQxZHp1Qi1nVmdLUl9vTGl4dEhGd0xNTGRKRmdISkJzUDZDSjFEeTFYOHVTbmRpUEt2ckJOejNNRWVXamRDWFR2UEZ3QTBvcmd3bkpURFBqVjByRUljTzZEb3BrTksxcFdfQnJLTGZ6eFkxZUZCUm9WdVUxeXdFRzZlekRpZEFB?oc=5",
-   "source": "Koimoi",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-04T07:36:14+00:00",
-   "ts": 1791099374.0,
-   "category": "box-office"
-  },
-  {
-   "title": "The Audacious Life of Singeetham Srinivasa Rao: A Legacy Built on 'Why Not?'",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/the-audacious-life-of-singeetham-srinivasa-rao-a-legacy-built-on-why-not-101791099282802.html",
-   "source": "Hindustan Times",
-   "summary": "The Audacious Life of Singeetham Srinivasa Rao: A Legacy Built on 'Why Not?'",
-   "image": "https://www.hindustantimes.com/ht-img/img/2025/07/20/1600x900/logo/tamil_cinema_1753008194866_1753008212765.jpg",
-   "published": "2026-10-04T07:34:42+00:00",
-   "ts": 1791099282.0,
-   "category": "buzz"
-  },
-  {
    "title": "Remembering Singeetham Srinivasa Rao",
    "url": "https://www.thehindu.com/entertainment/movies/remembering-singeetham-srinivasa-rao/article71542999.ece",
    "source": "The Hindu",
@@ -1044,39 +1154,19 @@
    "category": "buzz"
   },
   {
-   "title": "Legendary filmmaker Singeetam Srinivasa Rao, maker of classics Pushpaka Vimana, Aditya 369, dies at 94",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/legendary-filmmaker-singeetam-srinivasa-rao-dies-at-94-pushpaka-vimana-mayuri-aditya-369-101791089117669.html",
-   "source": "Hindustan Times",
-   "summary": "Singeetam Srinivasa Rao had a career spanning more than six decades across several Indian languages.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/04/1600x900/logo/Singeetam_Srinivasa_Rao_dies_1791089570553_5Qng_1791089577022_HupU_7d248614-1d35-4f04-aa1f-7ceebdc35705_PrHk.jpg",
-   "published": "2026-10-04T04:56:06+00:00",
-   "ts": 1791089766.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Karthik Subbaraj is ignoring hate, boycott calls for Dorothy, says men are 'expressing guilt' for mistreating transgender people after watching film",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/kartik-subbaraj-is-ignoring-hate-boycott-calls-for-dorothy-men-expressing-guilt-for-mistreating-transgender-people-keerthy-suresh-sananth-rishikanth-101791086408422.html",
-   "source": "Hindustan Times",
-   "summary": "Karthik Subbaraj's Dorothy is facing a lot of online hate, trolling, and homophobia over its depiction of same-sex romance and LGBTQ characters.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/04/1600x900/logo/Dorothy__1791086630786_83bp_1791086630915_0W4m_a3f6b677-1ff5-4eae-9c71-ab8d024aa8c1_ffb8.jpg",
-   "published": "2026-10-04T04:05:09+00:00",
-   "ts": 1791086709.0,
-   "category": "ott"
-  },
-  {
    "title": "Baththa To Dorothy: Tamil Cinema Redefining Masculinity?",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc3AydGNlbzNaOUxqU04tdGZxMWJtRHBmRVFEajlPRlB3MGp6dmNVcUstcFhtdnV0U016R1NjdWtYTDJKNWs3NUMxeEtoMWVia3ZqNktxaEdmWlRJRkp6T0ZyazcweTFpTkE3NXp2TUZMTFFjZXhMTGJ1UFg0amJ2T19LWk5fSndYeF9iVtIBkgFBVV95cUxOU0JsMWpYWWM0UFBhV3NiNlppQnY1UUV1NWlSUWpieE5lUnF4R0FrdERLV3BkS0Y4RmFMbHBlcmFWV0JLN19BeW1WVERCRnFZNVhxNjh6Mkwzb09qOXA4M3NaUjc2aU5PN1psMTlieEtZUkxkSWxZUDZPdWlqM2U0LVVBRnhCc0pBU25YbWpUTjhpQQ?oc=5",
    "source": "M9.news",
    "summary": "",
    "image": "",
-   "published": "2026-10-03T18:02:35+00:00",
-   "ts": 1791050555.0,
+   "published": "2026-10-04T01:40:05+00:00",
+   "ts": 1791078005.0,
    "category": "buzz"
   },
   {
    "title": "CM Vijay Son Jason Sanjay's SIGMA எப்படி இருக்கு? 🤯 | FDFS Public Review | Sundeep Kishan",
    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9SMlFEOFNZUHh3YXBMR3Q2MHZxeWxmNFZrVWpFTVlsWWVwSlVTOUJBQUJ6YWwyV2NwMm0wZWhxRmdrQQ?oc=5",
-   "source": "youtu.be",
+   "source": "YouTube",
    "summary": "",
    "image": "",
    "published": "2026-10-03T04:36:01+00:00",
@@ -1086,7 +1176,7 @@
   {
    "title": "Anbil Avan Public Review 🔥 | Ashok Selvan | Preity Mukhundhan | Anbil Avan Movie Review | Tamil",
    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE96TnlhUnU5Wml0aV9KUGV1TEJqWGk3Zl9BQ19FZEdvNkhFQlNpemE0REZ2a2R2SDFoanQtdUU3dmNJUQ?oc=5",
-   "source": "youtu.be",
+   "source": "YouTube",
    "summary": "",
    "image": "",
    "published": "2026-10-02T17:51:06+00:00",
@@ -1112,36 +1202,6 @@
    "published": "2026-10-02T06:28:34+00:00",
    "ts": 1790922514.0,
    "category": "reviews"
-  },
-  {
-   "title": "Baththa Public Review 🔥 | Vijay Sethupathi | Baththa FDFS Review | Baththa Movie Review | #Baththa",
-   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9PTVBOWTdQRFlMOVhmNGt2WEtJSmoyNnRRenljc0NJYjJieTl6TjYxNWZLbHZCMHFBWGxsX1gwNjM1dw?oc=5",
-   "source": "youtu.be",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T05:46:23+00:00",
-   "ts": 1790919983.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Yezhu Kadal Yezhu Malai X Review: What Audiences Are Saying About Nivin Pauly, Anjali, And Soori's Film",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSVZqUFpiZVpkRzFJNmtMSlR6OTdWQ05rTTJZempEU1ltSGl4M2FTakpHVDRXdUV5UDZnMEwtUE81aVp5Z0Nzb0tYekpHN2VkNzZNNlpaOGx5ak4xaDh2YU5ueHVVWDVOelQwNzR6dWlNMGNWNWZMMDNveUJSTHJzb085UExpc3ZWV1U0Ym4tYk1CbklINl94dmZ4bUtxejFXUnVWR3RVQXBsZzNHenZOLXlJMHZjcVZTQks1aHNBV0tOeTlHRHBILVNYVGJOQmJNeC00SklNTHI2dDIwTUVyZGRB?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T03:11:05+00:00",
-   "ts": 1790910665.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Yezhu Kadal Yezhu Malai: Nivin’s Tamil Curse Continues?",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNEFvZUEyUm9tbkVUalFGRmlyRVhaRlFqenpWVFMwNU5sWUJKamlhbHV5STBTSmlkSDM4UmlINERxRWk4WmtWX3MwZ3gyOUFFLVJkTGNqY05yY1VUNmJmbEVhS3c4bXc0Qk5Ca2d2Z3o4OXNPVkRfejJiclFpTTdmMWZTMFU5VVFBTnhWVWlqZ03SAZYBQVVfeXFMUEpteXlPaGJFeGV6TlFFakdCeEdiblRXaXNodk00Sm1sazhTXzluV3JNS0hTZnM2alVIX0VmR1UxUG9Db19jdWJ4NmxDdVptYUJvT0NMVXdBR251dDlmZGVqSDlveGxNMTlndURVYS1LRWg3UTV6dzRQVVJqMENBUmkyQjk2dVVBOVdyd3BDaUpBT2kwLVhR?oc=5",
-   "source": "M9.news",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-01T13:17:58+00:00",
-   "ts": 1790860678.0,
-   "category": "buzz"
   },
   {
    "title": "Centenary of poet Kannadasan: a creative mind that enriched Tamil cinema with philosophical songs",
@@ -1181,26 +1241,6 @@
    "image": "https://th-i.thgim.com/public/entertainment/music/lxx6v7/article71496705.ece/alternates/LANDSCAPE_1200/25fr_kannadasan1RGB.jpg",
    "published": "2026-09-30T05:20:24+00:00",
    "ts": 1790745624.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Director Balaji Tharaneetharan on Vijay Sethupathi’s ‘Baththa’ and recreating '80s North Madras",
-   "url": "https://www.thehindu.com/entertainment/movies/balaji-tharaneetharan-interview-vijay-sethupathi-baththa-sai-abhyankkar/article71519377.ece",
-   "source": "The Hindu",
-   "summary": "The writer-director also speaks about Vijay Sethupathi’s evolution as an actor over the years and how he liked working with the youth sensation Sai Abhyankkar for the music of the film",
-   "image": "https://th-i.thgim.com/public/entertainment/movies/ngwuc9/article71519408.ece/alternates/LANDSCAPE_1200/Balaji%20Tharaneetharan%20Vijay%20Sethupathi%20Baththa.jpg",
-   "published": "2026-09-29T13:14:14+00:00",
-   "ts": 1790687654.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Transpersons speak out against online backlash over Tamil movie ‘Dorothy’",
-   "url": "https://www.thehindu.com/news/cities/chennai/transpersons-speak-out-against-online-backlash-overdorothy/article71520992.ece",
-   "source": "The Hindu",
-   "summary": "They say the film showcases the lived experiences of members of the community and request the public to see the good intentions of the film. The movie, which was released on September 25, faced homophobic and transphobic backlash online",
-   "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/37lna9/article71521121.ece/alternates/LANDSCAPE_1200/Transpersons.jpeg",
-   "published": "2026-09-29T10:26:25+00:00",
-   "ts": 1790677585.0,
    "category": "buzz"
   }
  ]
