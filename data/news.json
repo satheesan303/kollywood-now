@@ -1,9 +1,10 @@
 {
- "generated": "2026-10-16T17:49:14.486157+00:00",
- "count": 99,
+ "generated": "2026-10-16T20:23:42.881042+00:00",
+ "count": 98,
  "sources": [
   "Adgully",
   "Bollymoviereviewz",
+  "Cinema Express",
   "Deccan Chronicle",
   "Deccan Herald",
   "ETV Bharat",
@@ -33,11 +34,10 @@
   "The Times of India",
   "TrackTollywood",
   "Vi",
-  "YouTube",
-  "www.iifa.com"
+  "YouTube"
  ],
  "images": {
-  "total": 40,
+  "total": 42,
   "scraped": 21
  },
  "feeds": [
@@ -47,7 +47,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.11
+   "seconds": 0.13
   },
   {
    "name": "News18",
@@ -55,15 +55,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.14
+   "seconds": 0.04
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 0,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.29
+   "seconds": 0.33
   },
   {
    "name": "Hindustan Times",
@@ -71,7 +71,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.07
+   "seconds": 0.08
   },
   {
    "name": "Indian Express",
@@ -79,7 +79,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.12
+   "seconds": 0.07
   },
   {
    "name": "The Hindu",
@@ -87,7 +87,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.12
+   "seconds": 0.11
   },
   {
    "name": "Filmibeat Tamil",
@@ -103,7 +103,7 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.37
+   "seconds": 0.22
   },
   {
    "name": "Times of India",
@@ -111,7 +111,7 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.07
+   "seconds": 0.05
   },
   {
    "name": "Google News",
@@ -119,7 +119,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.43
   },
   {
    "name": "Google News",
@@ -127,7 +127,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.38
+   "seconds": 0.46
   },
   {
    "name": "Google News",
@@ -135,7 +135,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.49
   },
   {
    "name": "Google News",
@@ -143,7 +143,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.54
+   "seconds": 0.58
   },
   {
    "name": "Google News",
@@ -151,7 +151,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.53
   },
   {
    "name": "Google News",
@@ -159,7 +159,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.44
+   "seconds": 0.4
   },
   {
    "name": "Google News",
@@ -167,32 +167,36 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.59
+   "seconds": 0.48
   }
  ],
  "trending": [
   {
    "term": "Jailer",
-   "count": 59
+   "count": 57
   },
   {
    "term": "Rajinikanth",
-   "count": 25
-  },
-  {
-   "term": "Box Office Collection",
-   "count": 7
+   "count": 23
   },
   {
    "term": "Review",
+   "count": 7
+  },
+  {
+   "term": "Box Office Collection",
    "count": 6
   },
   {
    "term": "Nelson Dilipkumar",
-   "count": 5
+   "count": 4
   },
   {
    "term": "Kollywood",
+   "count": 4
+  },
+  {
+   "term": "India",
    "count": 4
   },
   {
@@ -204,7 +208,7 @@
    "count": 3
   },
   {
-   "term": "Dhanush",
+   "term": "Worldwide",
    "count": 3
   },
   {
@@ -212,7 +216,7 @@
    "count": 3
   },
   {
-   "term": "India",
+   "term": "Soori",
    "count": 3
   },
   {
@@ -222,13 +226,39 @@
   {
    "term": "Official Tamil Trailer",
    "count": 2
-  },
-  {
-   "term": "Worldwide Box Office",
-   "count": 2
   }
  ],
  "articles": [
+  {
+   "title": "Jailer 2 Box Office: Rajinikanth's Blockbuster Crosses 200 Cr Worldwide In 2 Days, Becomes 4th Tamil Film of 2026 To Do",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNkxJeWhqV1I5VktKOUE0c1J2U2pMWklLSm9hWno4enZzenlQLVBtVkkxd2MtNmRIeWFvZnFIRkhsT2hvN2xIS2NNY0VwXzB1OFZpa21SU0FfRzdaLXlxbTRkS1VrcXRLRWd1VFJkR3REVThmMkx6S2hJQm9rdG9FOXZzTjFvLUFyVWpwODlFc2RLc0I2a2hCeEFzbjBieGpac3pMOEpUdk1oMU5abndFdTRvQktYSjUyWnFTUVFtX2NVdXlRTHRRYkJEVVh4dlJTRFhDZEEwenlESzhXN3c?oc=5",
+   "source": "Sacnilk",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-16T17:52:05+00:00",
+   "ts": 1792173125.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Street Fighter 2026 Public Review Tamil| Street Fighter Movie Review| FDFS Public Talk | Salem Nanba",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFA4bUFmZm5NbDJOUjEzVnZBQUNPbVhyWUZ6Y1NvdW91OWpFSm5DeXItN25vRHVlVTdJUVl3SkVlZWpFUQ?oc=5",
+   "source": "YouTube",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-16T17:45:57+00:00",
+   "ts": 1792172757.0,
+   "category": "reviews"
+  },
+  {
+   "title": "Apeksha Porwal on Jailer 2: Superstar is a small word for Rajinikanth sir",
+   "url": "https://www.cinemaexpress.com/tamil/interviews/2026/Oct/16/apeksha-porwal-on-jailer-2-superstar-is-a-small-word-for-rajinikanth-sir",
+   "source": "Cinema Express",
+   "summary": "Even before Jailer 2 was released, actor Apeksha Porwal was given a nickname, which is a Tamil spin to her surname \" Porwal \" (Sword in Tamil). She happily accepted it, and now, with the Rajinikanth starrer redefining the mass masala genre, the nickname is so apt. \"I am in love…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-16/iwxpdi7b/Apeksha.jpg",
+   "published": "2026-10-16T17:44:47+00:00",
+   "ts": 1792172687.0,
+   "category": "buzz"
+  },
   {
    "title": "Jailer 2 Smashes ₹210 Cr in Just 2 Days, Biggest Kollywood First Week Loading",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03ZkNNVGkza0pwUnZISXg4TmNBWGJPOGtKckpXR0JEN3ktVU9za2dMWElMVlJmc2NaVlFLLU82TUtJVUN0em8ySnJQRF9LMGdXNXJNSktYZ3E4amQtTTJ6T3dLblhuRGZocldqYXEyWW50ZGh1ekpyNTdNd3AxZ9IBhgFBVV95cUxOMDZjdzF2enRUSzVKZlR0N2RaVXVEbkxBazdoSkFDT2dKbHFSeWZZWjNUNXdXYmVCaXoyVHNXUVF1RG1jVmRhdlEzOXA3RTRnTGVKc3F0MHlONWRmM3RhOXFVY2pOS294SUVJcngwUGxUY3BydXd1OXRFcGlidl9OZngtNDNOQQ?oc=5",
@@ -240,17 +270,7 @@
    "category": "buzz"
   },
   {
-   "title": "Jailer 2 box office collection day 2: Rajinikanth film powers through on Friday to collect ₹95 crore, fails to beat Coolie's record | Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNMHluYmRoYmtXQ2loYi1IM0pBYnkyLTVuMEdyR2VtcHhDRlhJVHV0VE5xNU1Fa1RyemxPaVJaZk5EeGVrLU9KeXZIbVotRGdXTVNOTXo3MEZOaGxGZmVQRERzTmo5cUlBWnNaYTVERDd1ejhkX1dnc1lzWE9fdGFvX25ZTVhXdmc2R19MNkVPMHhXYm9KWjV3TnllVjZKT1JHaDZMZXc2U0FGdy0xRWpsYjIyVzc0VkVmb2JUb1owLUgwbFBTSVlMYUJFQnVFZWtZLUxKNWNXdmI1UlowM1MzZGw3UmVsRTdfUjVHLXUzcVFqWFBCVlQ4TTBkeTc1STVHMllDM1RMdnl3Qk5wc2NoZ3pFQTkzUWZwcThiMkVELVpRVllmdXdESnh2NTVtNUhNek9Wc2xodHlyck5nVXE5VEw3NNIByAJBVV95cUxPMG5EbFZTYVVBUkVpSExDWXNjenZCU0FUM2dzZjdPY1NHRXhPTXFaZWdfT2s5clEzdkZmOTlKelltdHhOVS16elhLWGxCci1BRHF0UEs3cWxrTzVaRjJESHlwS2h6WTg1a29KUnllT3VVR0JDQkMyRDV4Z1p1NU9VdW5UMTRLUXUyd19HQ1l2V0ZObW1yV0k0aE5NWDlpZllYMWoyaW5EVEdkM1lNUWFHUlZxc1JoRnhMTThhcGpYaVppbG5EWFlYc2FwMnVwMzhqRXE4UTVraUo1TVlEY0lHS2NWaU1PUjM3UFR1VksyR0ZjTkRBV283el9xTjcwVFo0NkdXNER3X1hiZFJGdkdDZFZlLWx4aDdnRWZOaU5OY3NqZm5obkFZTTdhdEdYN2sxM0dSR3lXWklhSDNUblJmYnZ3akZ6cW81?oc=5",
-   "source": "Hindustan Times",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-16T16:52:51+00:00",
-   "ts": 1792169571.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Anirudh Ravichander, Kavya Maran to host a grand reception on November 14 after November 11 Greece wedding? Find out",
+   "title": "Anirudh Ravichander, Kavya Maran to host a grand reception on November 21 after November 11 Greece wedding? Find out",
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWEMtajQ0eTJoS2RJSU00VTBBdXliUVNlNU5fZnBiRFVPTWlsT2NrQzFSeHpESUwtT2ZtaTZBM2RDQ2NwXzJHR0ViMHRCRHdWZVdRb3FYdU5CTUU2UE5FVk1ocmNsYmFSRTF2bVJ1T2FNa0VaMWg5SGVCaXNyNnV4azZ0VWZyWXhvTVVqOEYwX0lrY251Tm5yc09RYWhZWWFVbFJuRVp6VlZRUEdHMnRMZjhWZTFJcy02VjFkcXpLYXdlTjA0ZUdYLW5GcnUwX2VRTndSQWdtT2Q3SmtLVEc0c1M1dUNscmJXRTZEbXJfZ1pnU3dBOEp0bE44NVnSAYICQVVfeXFMTU5GUzZfVTRCX3BKLTYzOHRVcGxCa1l1cFV4WFBEN2NucFozTFJwaFQyYURIVll5Q0NlLXc3WEc2U2h2UDlZaDMycVBVMVJvTU9IWm1Weko4V0xZLUlfMWVObGFzNk5HMDRrRWVnQkxiYjdTSVdrZURzeWR4eW9iYmxSVzRQRGloS3ZnM3c4OE5FTjFhUl9ubzM2eTRJbWc4R21HTk5vVDRCU0xyMlJHdUF4Z0x3X2Fhb21lODB0Vy1FY2hHRmNraGVYQ1g3SFRiSkxKOW5sRkUzaER4XzZrakh2UnF3cDI5RGJ3ZlY4M29TWlhoWjM5MzVIaTVvMjdUUlF3?oc=5",
    "source": "Pinkvilla",
    "summary": "",
@@ -258,6 +278,16 @@
    "published": "2026-10-16T16:28:07+00:00",
    "ts": 1792168087.0,
    "category": "music"
+  },
+  {
+   "title": "Jailer 2 Budget & Box Office Collection Day 2 Worldwide Tamil Daywise",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeVhzRGdIRTk4bTE0RzF1NWhxQXUzeFJQQ2gzU1BOM0d4dy1XRmpna3ZjVGMxb3RDNnowYXo0NEdBY2F6SEZrM0M1bUNEV3BNLUlORGxaLVNyMEZBeFFmNDIzX1dyczQ3bnRHMHZ1MXlWbXlYMWFzWWdmMXFWeE0xUzVEdy1ZR3F5Z25JWkhiMzByZEI2SDJ6SC1UQmQ0WV9Dd0xjMFk1RV9ial9WcDhPOFdmbDM?oc=5",
+   "source": "Bollymoviereviewz",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-16T15:55:19+00:00",
+   "ts": 1792166119.0,
+   "category": "box-office"
   },
   {
    "title": "Anirudh Ravichander and Kavya Maran wedding invites reportedly sent out, set for Chennai reception on...",
@@ -280,6 +310,16 @@
    "category": "ott"
   },
   {
+   "title": "Jailer 2 Worldwide Box Office Day 1: Rajinikanth Starrer Clocks Kollywood’s 3rd Biggest Opening Ever!",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TQTF4V0U0WTFDdUltYTg5dlNpb3Q1Z1NlUlY4a3E0c1RTblJvRUplaVFlV0t5VVQxNjREUDIxdnNGRUEyUEYwQ0hGbFJVMXdaZG5QOTBOR3BmalREQWhLOGVn?oc=5",
+   "source": "IMDb",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-16T15:33:45+00:00",
+   "ts": 1792164825.0,
+   "category": "box-office"
+  },
+  {
    "title": "Jailer 2 Box Office Collection Day 2: After A Massive Opening, Rajinikanth's Film Nears Rs 100 Cr In India",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWl84dFp2aUpoTnd1WDdFbzZpbDEyOTZmc2VwUS1hdEd5dm1odERVTC1hM01WS01scGVweXZ6Y0dfWi1qcUZTbkRXQW9TWVVSeWJFbnIyRmdXUklveXJrdEZfRFcwblppSkU2SzFLZkZIMmxKR3ZrRnZ6YWFrakdXQ0pOSWRvRC1jZXIwRVVrVmFoSWtYYTdLMkI0Y1hYZ0tNODVtTXpCYlJVSEx2NEhnZjJyczRINUhEVGNnUGlvMjhreXJuZ1pnVHdha9IB0AFBVV95cUxPaGZKSklGdGZxcHpoWUdUOGJNYWhNdlNxTEgzSVZ4NXZpWTdNMzVIWnNLQmM5MEY3N3E4dHBGcElHTmVxTkVWNERRLWVabW11NERRV0RvVndRRFVZRUxYaE1zWmN0eTVrZEZ2a0hmcGxwQ2dtRk5tSFZDRXJaMXFGOTBmSUVFMDhmUjFJbGJyWXdNZ0pwejJCVXFiel9ja0FYN0tFTkRsNnN3NDR1WEZOTmp4cmx4RWI3ZzYtcUs3LVNyRGtqSnhadEVkNF8wdWhV?oc=5",
    "source": "ETV Bharat",
@@ -298,6 +338,16 @@
    "published": "2026-10-16T14:52:59+00:00",
    "ts": 1792162379.0,
    "category": "buzz"
+  },
+  {
+   "title": "Jailer 2 box office collection day 2: Rajinikanth film powers through on Friday to collect ₹95 crore, fails to beat Coolie's record",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/jailer-2-box-office-collection-day-2-rajinikanth-film-powers-through-on-saturday-crosses-90-crore-so-far-nelson-dilipkumar-vidya-balan-anirudh-101792155148961.html",
+   "source": "Hindustan Times",
+   "summary": "Jailer 2 box office collection day 2 (updated live): Rajinikanth returns as Tiger Muthuvel Pandian in the sequel. It opened to positive reviews.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/16/1600x900/logo/Jailer_2_1792155524935_2GrC_1792155525106_1Nlx_1b3a993a-072d-4014-bf86-bd039fb6bb5e_CjF7.jpg",
+   "published": "2026-10-16T13:15:45+00:00",
+   "ts": 1792156545.0,
+   "category": "box-office"
   },
   {
    "title": "Actors Vijay Sethupathi and Simran to endorseRegal Jewellers as it enters Tamil Nadu market",
@@ -327,16 +377,6 @@
    "image": "https://images.filmibeat.com/ta/img/2026/10/jailercameo-48671792116292.jpg",
    "published": "2026-10-16T12:29:50+00:00",
    "ts": 1792153790.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Jailer 2 Worldwide Box Office Day 1: Rajinikanth Starrer Clocks Kollywood's 3rd Biggest Opening Ever!",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSnFfa3ZkTGJ3d0VrdmJWMkZQdHZRNi1WTWFlTzZ2Q2c5YWhoVGFIUmRfQ3FBTUpSSHYtaUlfREF4MTE3bWtNVThKYnJmU21iTm1MZTRxV2J1aXJ2MVRpaDRyMTctU0x3SFdkajdodHpoNjNxZWYwNkxuaVVXelB0NWNobktnbTQ5cHN0X055Nm5hNFV6UGJfTk8wdU5ZbXExZHA1c29XQS1hRFg3LWZodHdzcFVpc2lSRERUR3pLaTg3T1pDRWE1ZVB6WGhGZw?oc=5",
-   "source": "Koimoi",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-16T11:59:51+00:00",
-   "ts": 1792151991.0,
    "category": "box-office"
   },
   {
@@ -507,26 +547,6 @@
    "image": "https://images.filmibeat.com/ta/img/2026/10/lal-13031792140402.jpg",
    "published": "2026-10-16T08:47:56+00:00",
    "ts": 1792140476.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Jailer 2 Budget & Box Office Collection Day 1 Worldwide Tamil Daywise",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeVhzRGdIRTk4bTE0RzF1NWhxQXUzeFJQQ2gzU1BOM0d4dy1XRmpna3ZjVGMxb3RDNnowYXo0NEdBY2F6SEZrM0M1bUNEV3BNLUlORGxaLVNyMEZBeFFmNDIzX1dyczQ3bnRHMHZ1MXlWbXlYMWFzWWdmMXFWeE0xUzVEdy1ZR3F5Z25JWkhiMzByZEI2SDJ6SC1UQmQ0WV9Dd0xjMFk1RV9ial9WcDhPOFdmbDM?oc=5",
-   "source": "Bollymoviereviewz",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-16T08:41:02+00:00",
-   "ts": 1792140062.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Jailer 2 Box Office Collection: Rajinikanth’s Film Crosses Rs 125 Crore Worldwide on Day 1!",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM1Z4U0I0NGxQZXVTQ2xLRnozZExvNV9PSDV3V3NUZVVIdGtkTjVvVkhfWUNWd0w4T3dzNUduX1dVTzE3OTlVOUhneEliRmY0c0Vzel9NLS1PSHNUdkdiZi1TYjdjOEF4LVlCbDB6Q0VYdXhWZnBBX2xoTmJIMExQSlhnaEFWUWZIRUVBbXRsUVJGYnVXaUtKOEdqUVc4cXcwRUV3cGgwd0FBV2NKZnNuU2dyWFRfdm9RbURtU0xnLUo5MWVNenc?oc=5",
-   "source": "www.iifa.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-16T08:36:43+00:00",
-   "ts": 1792139803.0,
    "category": "box-office"
   },
   {
@@ -748,16 +768,6 @@
    "published": "2026-10-16T04:37:21+00:00",
    "ts": 1792125441.0,
    "category": "buzz"
-  },
-  {
-   "title": "Jailer 2 Hindi Day 1: ₹3.5 Cr Nett With No Promotions and No Multiplexes, Kollywood’s Costly Hindi Mistake Again",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNk1kRXpxdmE2T1d3N0Q0SzZiQ1dLVk02VGhGRkQyNXpqX1NqZm94WWJBR0RwVmdURHN3QWRKVzNqc0wwX01XOHU1dTFPdW1LTno4aTRkWExaVURaQUFyYkZrNTlfRThtQmFqakJiWVJJYl9RbmtfajJtNFdYd2RVa0tJOTRfTHPSAY8BQVVfeXFMTk1Bcy1TaTBTSzI2czROMUNyNmRSbU1HRENOMjhLVkRsZFdJUXFZRnNTS1VXbUVyeG9uSDRVZDJuaVVrTGc5Rk54QXVpckpndE9xZkZxbDFqb2dxVmNfOEtuZ0FBLUpxN0VieFVyVnFzZDNPYlZFbzlLTEdxS0FzdDI3NERXM1ZFdGtvYnpldGc?oc=5",
-   "source": "TrackTollywood",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-16T04:27:11+00:00",
-   "ts": 1792124831.0,
-   "category": "trailers"
   },
   {
    "title": "Jailer 2 climax explained: How Vijay Sethupathi’s cameo, Vidya Balan’s reveal set up Jailer 3",
@@ -1010,6 +1020,16 @@
    "category": "reviews"
   },
   {
+   "title": "Mandaadi OTT Verdict: Soori’s Film Ends Week 1 At The #1 Spot In India, Crosses 2 Million Views",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOS00eWkxX3MtaEJlUTR4TzVhVU5LSzVaWXdrMlRBZFJNNEk4aGkydTB1ZTI0RS1GUG1FODNNYmZiTmxYZ09kZ3JKVVhXaXc1a0NEUUdoYmU3LWxFaURiQnJReFQxbnZ0TnpJSXNyUW5qNnd4WDFoQ2QxSFN2VnhrWGc2c0VYdUhQTkN6bFRWeHdTckVYcms1SmZ0SDlqdXFOeUVWZzNBUGxWbEQyU2p4S2U0SEVGOEh2VGI3YmVpNkg2Rmhu?oc=5",
+   "source": "Koimoi",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-15T10:25:50+00:00",
+   "ts": 1792059950.0,
+   "category": "reviews"
+  },
+  {
    "title": "Rohit Sharma, Anirudh Ravichander celebrate character in Men of Platinum campaign",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTHNOdV9qSVJHQXBTTFpGOU8tbEd6RS1KV2pFdGFTaTRfOFBtTTVoTlJKQVJQbk1oT09hRnFrSWlpdEZPSHFUR0RHUWt4cTBVYWhQMktIcUx2Z1hGUk5yZlhIMWYzWG45dUZHVi1Vc3lENThnRzBLSW0wQ2JFY1pUWFF1ZndHR3FROUVqNEdNRlpBVGstN0pBZWVIWUtCbWdyTTBsem1pOEp0QzhWbTZWUEpueWgyQQ?oc=5",
    "source": "Adgully",
@@ -1070,26 +1090,6 @@
    "category": "reviews"
   },
   {
-   "title": "Jailer 2 Movie Review: Rajinikanth, Nelson deliver a satisfying sequel",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU0l2ejdvTkR6YTNDeVNVY0p1SjZsa2FoZzd4TXUyWlZxOVJmYTc5R2VtcnhLX1UyU1B3eDZ1ajREaHE4bHRuTGEzcmJOSUN1ZmNhUTQwMDJhck9TWm1sQk0zQzczSWdjN2kzd1l1YmU4YUJLS2FDS3F4Z3Q0M0dKSzl4UWJaTG03WDdORUFneGpEMjluWVNnSkRiamYwTWdiZ25EUTNWdELSAa4BQVVfeXFMUEtXRFlTaFA4bjdwX2QycW51MzNPbktKQzk0ZFRqQ29fNjZFYUE3QjV0NUdLQkVHUFgyN0QtcmRsQTY4Zk5UakdRYURzX245TWNYdi05S3hKQnhWSU1HM3N0S2NGX0hJeVU2Uzh0dTJSamtrRXhQLXBObFBrTDAwRmdrZ3VDUWRYa2h4N0pHb0tWVHEteHRTS19tX09xck0ySFpQZ0pvNUZQeFBCMi1B?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-15T07:58:00+00:00",
-   "ts": 1792051080.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Dhanush gives Rajinikanth’s ‘Jailer 2’ a glowing review, calls the Nelson Dilipkumar sequel a ‘blockbuste",
-   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPc3FVOFh5eFgtc0hPWk54NnR6SWlFMkNIc1RHdUtEQWNIek5qMWxMQW9HblZaQk5XRFlPbXFLLXdsVUc4ckxQMEtkVzVudVZBSE94QTVsaU1wQ0VRSG5ZbjJqNlFRVkdDTVQzZWVETkZtTWQ0Z0VLTWNrTUd1VjUtN3N5TEhsd29jcGpwWmtoUXNCV19sSU5nTGU3aWtaa0RCZGpFTmZWS0dPSzI1eFo2S3FZNXpUT0N6cVZXRFNHSHdHTmx4ZS1GY1puNkllSzB5ZkRfTXdEckJ1dnRlSHdwTzY1NE5lblowY0FIQi00WlBLVTdIdzhXM0duZm4wbHdtc2N6aVB3QUZRbTV0ZVBIazhtaU5oZFVUUnJfUDVQemVEUXJwTEJ6QjdjUThEemU5bFUtdHpOc1hDU2VKU20xQ0FESm50MFRqU3RKSzNibG_SAdACQVVfeXFMT3NxVThYeXhYLXNIT1pOeDZ0eklpRTJDSHNUR3VLREFjSHpOajFsTEFvR25WWkJOV0RZT21xSy13bFVHOHJMUDBLZFc1bnVWQUhPeEE1bGlNcENFUUhuWW4yajZRUVZHQ01UM2VlRE5GbU1kNGdFS01ja01HdVY1LTdzeUxIbHdvY3BqcFpraFFzQldfbElOZ0xlN2lrWmtEQmRqRU5mVktHT0syNXhaNktxWTV6VE9DenFWV0RTR0h3R05seGUtRmNabjZJZUsweWZEX013RHJCdXZ0ZUh3cE82NTROZW5aMGNBSEItNFpQS1U3SHc4VzNHbmZuMGx3bXNjemlQd0FGUW01dGVQSGs4bWlOaGRVVFJyX1A1UHplRFFycExCekI3Y1E4RHplOWxVLXR6TnNYQ1NlSlNtMUNBREpudDBUalN0SkszYmxv?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-15T07:38:00+00:00",
-   "ts": 1792049880.0,
-   "category": "reviews"
-  },
-  {
    "title": "Jailer 2 OTT Release: Where To Watch Rajinikanth's Film After Its Theatrical Run",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRk16dWpScUtfZ3kxQVBEbDVlUXUzTnNsVFpjbXFaTE9PRUhlMGd4YjBSMC1HcFpmZ0d3Q1FpQ05hVnVpX0RMN2paU21hcE51am9iWGcwSnRCa2EtVXFReUtTeXJQOUFyMzFGdHljZXJZYUZFVW1uTzRmVTdISHoxNFp2NkxzMk9ER3psLTJUa1ZfMjBhRGRDMXhndVdfRnNCQ2lBb0pGVlJ2R3pNSV9vTGltUDk3dXdIbTRvWUFjMVprT3dMZ2NTVlFnYw?oc=5",
    "source": "Filmibeat",
@@ -1128,16 +1128,6 @@
    "published": "2026-10-15T06:13:51+00:00",
    "ts": 1792044831.0,
    "category": "buzz"
-  },
-  {
-   "title": "15 October 2026 OTT Releases: Dil Padosi Starts Streaming on ShemarooMe, New Malayalam and Tamil Movies and Web Series",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IczBjemQxd1k4VGFOalhjZ1VaTmVxZmtoVmFTZGw0ZzNyUW5NNVVUMWh2b2V5Nms3a1dHUkIwZ3FERE5zdGpLYVdnM3kxQ0x3QjlxUDM3Y2FjRmwtb2tCVE95RGV0VHVSZU5vaTVCQ2ZyY1o3ZHBoelRRWTZoYUHSAYQBQVVfeXFMTnVvbUxhdGZ4WVEtYTBCUjBOazNVdERtUlNlRzFpejViSmZaaHN2UmRxT2NINngtUHkzTENreGFuRjF6NnAwMFM2NDRnSE9IcUU4LXpkTVZoVnpoUVBqZFhYTTJMYkw1bllCQzN0ZWpva0lVeGtyVkI0UWtDd2hfeVZQM3JU?oc=5",
-   "source": "Kerala TV",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-15T05:33:39+00:00",
-   "ts": 1792042419.0,
-   "category": "ott"
   },
   {
    "title": "Jailer 2 Twitter reviews: Rajinikanth's mass 'dynamite' reminds fans of Baasha, 'over the top' second half divides viewers",
