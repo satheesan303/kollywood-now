@@ -1,7 +1,8 @@
 {
- "generated": "2026-10-17T16:24:42.007003+00:00",
- "count": 111,
+ "generated": "2026-10-17T18:40:43.444971+00:00",
+ "count": 109,
  "sources": [
+  "ANI News",
   "Afternoon",
   "Bollymoviereviewz",
   "Cinema Express",
@@ -16,11 +17,13 @@
   "Goodreturns",
   "Hindustan Times",
   "IIFA",
+  "IMDb",
   "INDIA New England News",
   "India Today",
   "Kerala TV",
   "Koimoi",
   "Livemint",
+  "M9.news",
   "Malay Mail",
   "Moneycontrol.com",
   "NDTV",
@@ -30,19 +33,18 @@
   "Pinkvilla",
   "Sacnilk",
   "Storyboard18",
-  "Telangana Today",
-  "Tenvow",
   "The Assam Tribune",
   "The Economic Times",
   "The Hindu",
   "The Indian Express",
+  "The News Mill",
   "The Times of India",
   "Times of India",
   "Vi",
   "YouTube"
  ],
  "images": {
-  "total": 52,
+  "total": 50,
   "scraped": 25
  },
  "feeds": [
@@ -52,7 +54,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.24
+   "seconds": 0.19
   },
   {
    "name": "News18",
@@ -60,15 +62,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.1
+   "seconds": 0.13
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 3,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 3.54
+   "seconds": 0.33
   },
   {
    "name": "Hindustan Times",
@@ -76,7 +78,7 @@
    "items": 9,
    "ok": true,
    "error": null,
-   "seconds": 1.05
+   "seconds": 0.89
   },
   {
    "name": "Indian Express",
@@ -84,15 +86,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.11
+   "seconds": 0.12
   },
   {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/entertainment/movies/feeder/default.rss",
-   "items": 13,
+   "items": 14,
    "ok": true,
    "error": null,
-   "seconds": 0.42
+   "seconds": 0.44
   },
   {
    "name": "Filmibeat Tamil",
@@ -100,7 +102,7 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.16
+   "seconds": 0.1
   },
   {
    "name": "DT Next",
@@ -108,15 +110,15 @@
    "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 3.74
+   "seconds": 0.41
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 3,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.21
+   "seconds": 0.24
   },
   {
    "name": "Google News",
@@ -124,7 +126,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.55
   },
   {
    "name": "Google News",
@@ -132,7 +134,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.49
+   "seconds": 0.45
   },
   {
    "name": "Google News",
@@ -140,7 +142,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.53
   },
   {
    "name": "Google News",
@@ -148,7 +150,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.54
+   "seconds": 0.61
   },
   {
    "name": "Google News",
@@ -156,7 +158,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.62
   },
   {
    "name": "Google News",
@@ -172,21 +174,25 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.43
+   "seconds": 0.54
   }
  ],
  "trending": [
   {
    "term": "Jailer",
-   "count": 33
+   "count": 34
   },
   {
    "term": "Rajinikanth",
-   "count": 30
+   "count": 27
   },
   {
    "term": "Deva",
-   "count": 16
+   "count": 13
+  },
+  {
+   "term": "Box Office Collection",
+   "count": 9
   },
   {
    "term": "Anirudh Ravichander",
@@ -194,22 +200,22 @@
   },
   {
    "term": "Kavya Maran",
-   "count": 9
-  },
-  {
-   "term": "Vijay",
    "count": 8
-  },
-  {
-   "term": "Box Office Collection",
-   "count": 6
   },
   {
    "term": "Nelson Dilipkumar",
    "count": 6
   },
   {
-   "term": "Review",
+   "term": "Vijay",
+   "count": 5
+  },
+  {
+   "term": "Chennai",
+   "count": 4
+  },
+  {
+   "term": "India",
    "count": 4
   },
   {
@@ -217,11 +223,7 @@
    "count": 3
   },
   {
-   "term": "Kamal Haasan",
-   "count": 3
-  },
-  {
-   "term": "India",
+   "term": "Review",
    "count": 3
   },
   {
@@ -234,6 +236,26 @@
   }
  ],
  "articles": [
+  {
+   "title": "AR Rahman Mourns Veteran Composer Deva’s Death At 75: ‘His Melodies Touched Many Generations’",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQmdYNGg5aFpGN2tkWEZlbG1LT3UxeUtMQkpEWjFxZEtQT0RXT0pYSjJTbjZoMC1jSGlNbmxLT05PRmtSZlBRUzh5NmtVSXJRcnVIeXRsdVV4Vm5pUlZnNWpJdmpwbFdPRkF5YlBuSGZLRVU4emVjM1Ywbkd2Y2UzaDNVeHo5QjZxc3dBYWVFaEhTZFlsTUc0YlJlcXIzTTRKQkd2eVpxSkNic3h5U0VPYmNNZEQ1ZUdMd0ZmNG9PS1ZjME1jMUZjOVdTR0tjSG5ZTW0zZEJCLWVCUjNzV1Y3MlgxLXJNOE3SAewBQVVfeXFMTnVCOU5tNHVJbFFGRERaY01iMnpuck5TOEhwRmFKQXlGck8teHJ0emNkWXpuQmRHYUhwWEdBNHptWFpkSkF1SlRXWmd6N1VCLUVqTFh2MTRaU29INFF5MGt5c0ZwemNJaHBONGJzNEVUTmlpMW9hLUZWZGtfejFLLTBmYnZ0eG43VzYwVHdZVmd6RWZEVkpfYm9rcHdUVzlzMmRFLW1JV1VzazFIQkItOFFfMlZLSFRfZ29QVmVrNGhla0JaVjNVaVpKV29pNGlHVFFLY0pwN3RTcFNMUkY0Y0Rqb3B2Vk1ScTQ5UUM?oc=5",
+   "source": "News18",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-17T17:30:06+00:00",
+   "ts": 1792258206.0,
+   "category": "music"
+  },
+  {
+   "title": "Revisiting Vijay’s ‘Kushi’: How Deva composed this superhit album",
+   "url": "https://www.thehindu.com/entertainment/movies/deva-kushi-vijay-deva-death-deva-tributes-music-composer-deva-tamil-cinema-composer-deva-sj-suryah/article71596637.ece",
+   "source": "The Hindu",
+   "summary": "A look at the evolution of this superhit film directed by SJ Suryah and featuring Vijay and Jyotika",
+   "image": "https://th-i.thgim.com/public/entertainment/movies/5lr7yz/article71597591.ece/alternates/LANDSCAPE_1200/Kushi1.jpeg",
+   "published": "2026-10-17T16:53:12+00:00",
+   "ts": 1792255992.0,
+   "category": "music"
+  },
   {
    "title": "Kamal Haasan, Karthi, Nivin Pauly, Vijay Sethupathi Mourn Music Director Deva’s Demise",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNWI3a2pBa05Ncjl6azBJc2IzYXFRQmxiaHFXT1JHR3h1XzhMM01PWGRXT3VaOHJodkVNY1did25MbXBEUGJQZVpHQlpBdnJfVm9XWERodUtuS1FJdVlVQVZWMURQME5pbzdnZXVSYXpBLWM0NU5zNUl5eFJHODF6SUItX1BsY1hjNHVxR3NTd3EtVWw1VDI1clFjeWJYMmdYMzU1T1FwZ3BHZkhCZnpHbg?oc=5",
@@ -255,14 +277,34 @@
    "category": "buzz"
   },
   {
-   "title": "Tamil music marvel Anirudh Ravichander to marry Kavya Maran: Who is she? Heiress to massive ₹24k cr Sun TV network",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2ZVMy1OeTlfcUNqS0xQMEFXUHJPajRTMDR0ZkVXRWRVNTlUR0J0NE5aTVZEOGJOTkdQcVd5TnVPdHFJMXJiQ2poSjR1cnp3Ykt0U0JQd2h4ci1HS2oxSTEyUVFRVEhwT0lGWE1CeG5OdW96bTdub1g3OHBRUVowNkoxalVHQVU3QW5GUEV5dURMZ1FlM0JibDE4aHNWLTVrRVQtMkZleXFCRndHSk1XMlRia0RseURtVUQ5UXRUMWozb195eEtpUnRhQ1lNNTJmaHRDYXpEdU0yQjRNckdzUUt0eERKRUF1SUpWaWxIWWl0aUN6T01aNENtZzhfT1owQktN0gGIAkFVX3lxTE43SngybHY1UmZUU2loOHMzbnJBYzZoSExxbUg0cGlVZzVyaTJvVTVYdDMtYTdsOGxLRmlyR0lsWTBwNkFpMXZDSE5HMWdsazVMbHpGTXhFRm5ScVpCNGxGYnR2WFo4WmQwS3lGeHZmc0FEVEVzVklxYm9ZN05JZWtZd19acXVxZllfckozdEZ4cnlXbFBJUDZVWXdwYmRuNV9HZ0JvTmdtQjR4SzFXdzNfRTdPOWNWUzUwOGdhRFdQV0xyUVdCOGhXSFBnZTVBYllBc1FRVnNPVWZ3c3dGTl9XZ1FUeTliVnNHTGVtSnFfQXlqZGx4LUVjYXZvVDllZ0d2TEp5R2lYSg?oc=5",
-   "source": "Livemint",
+   "title": "Rajinikanth’s Jailer 2: Santhanam’s Deleted Role Viral",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JbWlrV1BMY1pWQmtzRTBvSGdpdGE4R00xSjhYR2NFWTNQd21MUGl1a0xyRmhOeFVSOHdoeWhKYjk0OFZMN2RJS1NDMC1ZdExRYmYyZm5aek9sczBuYWJaQkkwVE9qSDlIazVnMnFqYkNCSUhrT1NIVUJnWdIBgAFBVV95cUxNNG9naUlCMGpobGs0RW02cWc5NExSalFWaGF6YjBodXc2dUk5QUcxY3hTZTJscG9ocTYtTTJxbElhY1BGV19CVVRzWGpGVGxwTGNHNk9QT3lxVWgzbVZFcmVxeVZOOVRvZ25lRFRsLURzc1NWRzZhTEJ3dlVfUEdfVQ?oc=5",
+   "source": "M9.news",
    "summary": "",
    "image": "",
-   "published": "2026-10-17T15:39:58+00:00",
-   "ts": 1792251598.0,
-   "category": "music"
+   "published": "2026-10-17T15:44:42+00:00",
+   "ts": 1792251882.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Jailer 2 Box Office Collection Day 2: Rajinikanth Starrer Becomes Kollywood’s 5th Highest-Grosser Of 2026 In India!",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zWDd0RjhweE0wdDNkZlZSNnhMMjFtaXlnMVRHVC05dTZzcWFqMVdTYUJmTW5xMldYOVo5cE9HMTk1ZG55T2VpQXBwamk5TzJPNUJqZUJSOVNFMVNva3dCN3hR?oc=5",
+   "source": "IMDb",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-17T15:40:57+00:00",
+   "ts": 1792251657.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Jailer 2 Budget & Box Office Collection Day 3 Worldwide Tamil Daywise",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeVhzRGdIRTk4bTE0RzF1NWhxQXUzeFJQQ2gzU1BOM0d4dy1XRmpna3ZjVGMxb3RDNnowYXo0NEdBY2F6SEZrM0M1bUNEV3BNLUlORGxaLVNyMEZBeFFmNDIzX1dyczQ3bnRHMHZ1MXlWbXlYMWFzWWdmMXFWeE0xUzVEdy1ZR3F5Z25JWkhiMzByZEI2SDJ6SC1UQmQ0WV9Dd0xjMFk1RV9ial9WcDhPOFdmbDM?oc=5",
+   "source": "Bollymoviereviewz",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-17T15:40:25+00:00",
+   "ts": 1792251625.0,
+   "category": "box-office"
   },
   {
    "title": "Puri Jagannadh wraps up shooting of Vijay Sethupathi-starrer Slum Dog",
@@ -273,6 +315,16 @@
    "published": "2026-10-17T15:18:57+00:00",
    "ts": 1792250337.0,
    "category": "casting"
+  },
+  {
+   "title": "Jailer 2 Box Office Collection Day 3: Rs 150 Crore In Sight As Rajinikanth's Film Maintains Strong Run",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOGRjQjNlamxLZXVXX1RWSE52TVJRWEFYeUxqZHVHTWJTZTRaOE16Y0ZrY2lfRXVnc3pHdWp3b3hkUVlod2paOHFxSnB4X0dmSy1BZm40M093aGlQZlRmRTRsLXZEcFFxMmlWanJWU1hQU0dHc1Z4OERhSF9CWVp3SGhSNTduOXZBWWVscldtZzhUT2J1UUhacG9ERWFZWTBibEpuU0c3T0p1ME1fZ2x0VjRXd2RvMElzZ09yejNJQV9UMW9wQXV6b0RJbldyMzDSAdQBQVVfeXFMTW41UUNtUWo5RmNZSW1FVFZ0NDhiQWtoaGdhMDlHVEUxR2RtZlVsTzhzZ19MUWZkT1VweFVTWWN0Qkw1MHhxTnhoTTF1UGNzTXRuYVVrTExyNnlvNURpalA1TjJtTlY2SFRVODhDZi1XQ1NGb2tIc0ZhdmZmd2locHVvc0Q0V2lYZDdXcldKNDllbnI0R3F2WmY0VmdIaVRFdHFXNXB3TEZRZHkwdTlDa0RTMk42dWVJMUFxX2dUUzlJTUFUM3pGOERDcWxpMFR3aWVBQWc?oc=5",
+   "source": "ETV Bharat",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-17T15:15:25+00:00",
+   "ts": 1792250125.0,
+   "category": "box-office"
   },
   {
    "title": "Rajinikanth gets emotional as he pays final respects to music composer Deva, CM Vijay consoles family members and announces State honours for funeral",
@@ -286,22 +338,12 @@
   },
   {
    "title": "Why Deva’s music for Rajinikanth was special",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdWpKZDJKdE9OU3pDOGVicW1uS0U0clZDWFIzc0FHWU4xYmtpenZrNEp3N3EteENKbDN2OFh6a1dCdGFQaldfUUdLdDl4cDJjbk1Qc1p6UjNIMHlCdUY5bFdrOHhDazdLTVZvcHFQUnFXNnBBaWVHQUpWMzNxczJXRWtQdmdSdmRCS21JUkNPck1XOGJFUENwOHdFc1ZGbDgyM1dVNHdKS09GbkE5NUkxN2VMSGVWZl9QZ0hTamsxdnN1RGt2ZGQ4SG5wUXF3bmhQbWhEWS0wVTV2ZllNSU1HYlNxNlVRTTlGSzcyb1NwRGtlYTQ5S09xQzFFRmwyUdIBhAJBVV95cUxOXzVCcTc4eEtRUDlxWTdpSXNLZEg4cFlUS0NKSzN3cHF6OUR4R3diX1ZtNTRTbEQxWEVuc052Q1hLNUd5bGZYQjNzZHUwcWk4RUFmTWU1V3BIeGdPc2tERFpSeWdKQ2JvdWp5cjJHRGpocWlTejFLX2JhZDlYWWR2R2IxSFlOMEV6alk4WkJYU2hFeWN1cVptSjJoRzlGeHNnMmFEai1pd0lCQU5OUTBFcDlLQ3pOZnN1OG9tNUd1LWlJbXp5VHY2ZjdnRnhEZDZfVnZPT2tDMTlKOGJjU0RhMUdIMllGOG5ER2JIczBuSy1lQ3RFall3ZTNlSWg3ZTJ3ZVdBMQ?oc=5",
+   "url": "https://www.thehindu.com/entertainment/movies/deva-death-music-composer-deva-passes-away-rajinikanth-deva-superstar-rajinikanth-deva-jailer-2-anirudh/article71595735.ece",
    "source": "The Hindu",
-   "summary": "",
-   "image": "",
+   "summary": "Music composer Deva’s work was the perfect accompaniment for Rajinikanth’s mass films",
+   "image": "https://th-i.thgim.com/public/entertainment/movies/80c1tq/article71595793.ece/alternates/LANDSCAPE_1200/Deva2.JPEG",
    "published": "2026-10-17T14:30:56+00:00",
    "ts": 1792247456.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Anirudh Ravichander-Kavya Maran wedding reception: From PM Modi to Tamil Nadu CM Vijay, who has received i",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQbTBSYy14MWJqU09uSm5vMzYtYXRsajZjNXN6d2FVVEstOWo1OG1adjJmcFl1UDZ6UF9aUnVyMUc0emxUTEpieTc4RTkxVXFYb2JHeFJPZGhURkN5ZUVLc3Q3MFRCMFZZRUxWajhYWGk0TjFzNWE0RHZfM0lGQlF4YU5Na1BCZWo4UnZwekI1N0JEbHA2SlVQY0xpUERmMG9hajZtb2NSOEltRmhzMEdGcWRBX3FLejhCSWhDb2I3OTZxSWhLSUNrM3otd0VubDVhQ3RPWFNDaXFSNGJmQ3lwVDdxS2hJeHNmQzJhNFBodXVKSm94bEw2VzdNcEo2YTU1ZWk2MVJObXl5V2JBdExTQzhrQlVhdzZjSHNpNjVn0gGjAkFVX3lxTE5vQ1NaaDNrb3FtMTdId3pjZ1E3RGFuZzJUbV9oek1iczFyc3Fza0VXZVhpc1NJcDdrTHlBcWMxZHBZNEQzWVM4NFBFcDVWUHFoV0xGX2xBY0pnZ3ZHRkIyRkdYZG5UM3V4UE9LZlRDd1pxY2l5aEJyMHd3NTZJRXptbjFJY3duQ1d5ekxhNEplRzc2eDRMZFo3SXRFWUsxaHNxSlcxLUpybjJpQVh1UU9Va3lEd0VoN0JCbHZtRFZ6NjNQeEw3d1dQdFJGcVlyM3RXTEpFVExqaXdQVVozV3FTb2dDTUYzR3lQb1ZNT295a2Y5cU1FN0laTlF5RjhlRTRBa3ZHUUVLT25hWUhEc3B5djlHTUNLQ0JzZmI2dWU2RHdqdw?oc=5",
-   "source": "The Economic Times",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-17T14:12:24+00:00",
-   "ts": 1792246344.0,
    "category": "music"
   },
   {
@@ -385,10 +427,10 @@
    "category": "music"
   },
   {
-   "title": "Jailer 2 box office collection day 3 (updated live): Rajinikanth craze continues as Nelson Dilipkumar film eyes bumper Saturday, crosses ₹130 crore",
+   "title": "Jailer 2 box office collection day 3: Rajinikanth craze continues as Nelson Dilipkumar film sees a bumper Saturday, crosses ₹144 crore",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/jailer-2-box-office-collection-day-3-rajinikanth-craze-continues-nelson-dilipkumar-film-bumper-saturday-crosses-130-crore-vidya-balan-101792240190087.html",
    "source": "Hindustan Times",
-   "summary": "Jailer 2 box office collection day 3 (updated live): Rajinikanth, Vidya Balan, SJ Suryah, Mithun Chakraborty, and Suraj Venjaramoodu star in the film.",
+   "summary": "Jailer 2 box office collection day 3: Rajinikanth, Vidya Balan, SJ Suryah, Mithun Chakraborty, and Suraj Venjaramoodu star in the film.",
    "image": "https://www.hindustantimes.com/ht-img/img/2026/10/17/1600x900/logo/jailer_2_1792240620119_ulFX_1792240620299_PqZf_10d923e9-fbd1-42f9-86e5-f4c430d5909a_PMX4.webp",
    "published": "2026-10-17T13:04:14+00:00",
    "ts": 1792242254.0,
@@ -416,10 +458,10 @@
   },
   {
    "title": "Shamna Kasim thanks viewers for embracing her Jailer 2 song, finds film with Rajinikanth unimaginable",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/17/shamna-kasim-thanks-viewers-for-embracing-her-jailer-2-song-finds-film-with-rajinikanth-unimaginable",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQkhJNnpPOF80VlMzZVY0VnE4dEFjZEtoVTJZRzRoWm9ranN2V0dmaUhMUHg5SThOeTV2VFVmV240bHNxR1FEU2VXTEZkUHpHZzZISFpDczdaRG5ZWWVUbDRPbHZtLWl1MlJ4a3FoYjd4clVQc3lyczhkYUFmMFY2Z29MeTc0VEpRZjJaOWwtaHJBSDcwZWpIbUlMY2JrNlR0TjdmWV9qeVJwWlUwOXJEU0FvSV9iR2JIMHhXT2lHMzNlTjVZaE5ycUUzenhJX3RsODJYU3NlMEtRUVpBdjY1aVJHVUMtVExG0gH2AUFVX3lxTE8zdnNxWEtHVEh0N2JQTmU3UUM0MmVsNl9mZ0ktempPSjFzLUFYZ2hMZzlGU1dieFMzX0g5NzQtRUFoQjlsWUNkRzUyendRcGwxbDJWRnllbThCLVZQbnk4TUZUQU9aYmY1U2VyM3BCS2RrcEVpMXdnQUNHTmdHZlF0ZjMtTHA3bWVSNDFCT09VMUdZaWFtSV9xUW9vZXpHOWJGNXNzTFRQSXh5TW1mYnQzTldEbjRSTHU0dkY5YXpKcHl0d1plUU1Kd25pb0tXaDgycXJEdVBXdHJrMldsMWNVMzlZalctR0lYT25NWEM2cXpvRDdZQQ?oc=5",
    "source": "Cinema Express",
-   "summary": "On Friday, Shamna Kasim expressed her gratitude to director Nelson, producer Sun Pictures, and composer Anirudh for the opportunity to appear in Jailer 2 in a dance cameo. Appearing in a video on social media, Shamna said that she has long been a fan of Rajinikanth and never…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-08-31/3zn58otq/Ala-Bolelo.jpg",
+   "summary": "",
+   "image": "",
    "published": "2026-10-17T12:44:07+00:00",
    "ts": 1792241047.0,
    "category": "music"
@@ -465,8 +507,18 @@
    "category": "reviews"
   },
   {
+   "title": "Kollywood (Tamil) Box Office Collection & Verdicts 2026",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWgyLVFQcW9nbnYzUzBTSnB6d2JFajFTN094TEtLLVVFX2V6RENMVjVqV3ZiVm03aGgtUHpTb2JpekNJSXBuZnlMdzZkMUp2cG5vVWV6OVJnN1JZZW5RYUJaMjVFSXpQc1RiQTNUTzBmWG0yS0ppMHV0UnpIb3l0VVNuM1NUTnpLZTZsbDFFT2o1SHYyRDNV?oc=5",
+   "source": "Koimoi",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-17T12:02:59+00:00",
+   "ts": 1792238579.0,
+   "category": "box-office"
+  },
+  {
    "title": "Jailer 2 box office collection Day 2: Rajinikanth's film crosses Rs 200 crore worldwide",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPd05kY3cwU2xXeUpCbVdjeVBTbHNNSlJqNnpMQVNFSUh5eDRiQkE1S3NNanZIUm10bFE0M3dwQzZDWmlJRk5lcFdVUWdscVVyQm4xZWpKcV94WElNX3lnMDNNTU80RXd1cWF0am94aEYxdmMtRmJlbmZvRUtic196R3hUR0FHLWlQZXlXU0xiazdpM29hdVlTSDZ5VHBzQUxSRFM4SDdDaDNfRTJxQ2FmWURSckVzMmNRR3p2ZGNtNzA3WXVtUEZYMHd3X29mMldad1UyRWhUWVhxVFExZldJMEl2Xy1KWVFq0gHoAUFVX3lxTE93TmRjdzBTbFd5SkJtV2N5UFNsc01KUmo2ekxBU0VJSHl4NGJCQTVLc01qdkhSbXRsUTQzd3BDNkNaaUlGTmVwV1VRZ2xxVXJCbjFlakpxX3hYSU1feWcwM01NTzRFd3VxYXRqb3hoRjF2Yy1GYmVuZm9FS2JzX3pHeFRHQUctaVBleVdTTGJrN2kzb2F1WVNINnlUcHNBTFJEUzhIN0NoM19FMnFDYWZZRFJyRXMyY1FHenZkY203MDdZdW1QRlgwd3dfb2YyV1p3VTJFaFRZWHFUUTFmV0kwSXZfLUpZUWo?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzdTVW5LVmo1RWd3SHJLTjByVkNTaDZjRUtRa2FfcU9FQWM5bFdxZnlMVnJXc1lwREVHSlpnR2k2ZHl3SW5Td2VnbmtRNzRUN2tMZDAtZ3N1QlQwcDA1eUFxY1N6TFo5VEpyMGE0eTloX01DYThuR0I5MFdUWmN2WmM0TDJCdGU4YnNONEw2LUlLQWRjNUFON2JDVmxibTZDbnRveUpYdTBZbDhhZjhTN2J6aExMREZFR3BScWZ0a09zdmV1amhESVlJX1EtOWV1MGdlZ043azNSRmV3bXJZd1Y5Y9IB6AFBVV95cUxPd05kY3cwU2xXeUpCbVdjeVBTbHNNSlJqNnpMQVNFSUh5eDRiQkE1S3NNanZIUm10bFE0M3dwQzZDWmlJRk5lcFdVUWdscVVyQm4xZWpKcV94WElNX3lnMDNNTU80RXd1cWF0am94aEYxdmMtRmJlbmZvRUtic196R3hUR0FHLWlQZXlXU0xiazdpM29hdVlTSDZ5VHBzQUxSRFM4SDdDaDNfRTJxQ2FmWURSckVzMmNRR3p2ZGNtNzA3WXVtUEZYMHd3X29mMldad1UyRWhUWVhxVFExZldJMEl2Xy1KWVFq?oc=5",
    "source": "Storyboard18",
    "summary": "",
    "image": "",
@@ -485,6 +537,16 @@
    "category": "buzz"
   },
   {
+   "title": "Telangana CM Revanth Reddy invited to Kavya Maran and Anirudh Ravichander’s Chennai wedding reception",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd2JzbXBXSW1xZEJyRUxwYkIzVzRkMldyNDctY2xCUmpSeFNFOXB1M0d5RUxCc1BmcmxQcGhNR2RvY0dPNndWTGRMNWJGNnhURFJ0WnEzLU9CVk1jbXhSMWJ0aXV3a3R6QjVCd0NWXzdhY0xZN0NXUnl0cnp6cGNhRmc2XzdKN1NHUXQ5MmczbTNpU2hXTm5yZUtSQ3IzNkNUd3Y1a09xZDdvejNYZzJsUl9vYjgtcjMwVzNXdy1R?oc=5",
+   "source": "The News Mill",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-17T11:52:09+00:00",
+   "ts": 1792237929.0,
+   "category": "music"
+  },
+  {
    "title": "Deva, the original Vibe Master of ’90s Tamil cinema",
    "url": "https://www.thehindu.com/entertainment/movies/deva-death-deva-best-songs-deva-tributes-deva-best-gaana-songs-deva-rajinikanth-songs-music-composer-deva/article71596075.ece",
    "source": "The Hindu",
@@ -495,13 +557,23 @@
    "category": "music"
   },
   {
+   "title": "CM Revanth Reddy receives wedding reception invitation of Kavya Maran-Anirudh Ravichander, to be held in Chennai on November 21",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQUkt2SU5WMkFPVWEzcEt6eHlHRFZPUnlXMF94ZWN6cmpWQXFlRW9MMlU4RzVwS2NPOGFZMGpWQ0ZDdkR1YmpTZTF2bFJhdFZxX3RRZkg0S3dPQUI0VFVOY2ZiUERDSjVILWt0ZURrY0lUeWhlNE5ld01uRG9iN0tnWGxLbUVkSi1sdndfOEdYeF8tcnM4MVp3R3N5azQ3a1NaOWlRMGt0THZndWNCcHBfd0Z0enpMdG5UOVdtaVdxZXllb0I3OGlLZ0ZrbG5ZU09aTG04amhGUFRLMHhXdVYxUHRsaG4zRWp6SVoxNjJoMU1xQnY3ZDZsQmxZamwzWXFOZF9OeGxGdW5pbV9odGxrRm5WdzBVZ2Qway1kcg?oc=5",
+   "source": "ANI News",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-17T11:47:00+00:00",
+   "ts": 1792237620.0,
+   "category": "music"
+  },
+  {
    "title": "‘Baasha’ composer Deva, king of Tamil cinema’s ‘gana’ sound, dies at 75",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMFh6N3RqTjRUbUFfV0dTeHBWeVBKUEhOSDEweTVCSUpaM0s2aXNHTUs5MlZQMFgxaldWaTE4OTdxNGtFVE1JUDFZUGsyd2lUeDVWUDhoX0trZ0VFR3BtZUt0d1hNOVNuRXM3ajBScTFHcWZhYzNac0pBVk81YkZjTUh3SnBlTFozZGVLRzQxQmdlb1BONDUzRHZOZngtd3FxUGtTeUZjMmQ1T2RCczBrUmpmVjcwbHJ4MmhfU3dB0gHDAUFVX3lxTE16MHlnVGtrMTBJbjdTQkdTSzdfVWp3dHY1bmZwVFFOX3hKNEJPOW00Qk9BN1RLYmV5RVNsd043SjhEOWZZdDV0VlJMTmx0TnBJN1JoaE5YUzg4RDhXMzcyeW9OcEVqVUZtMENSNHVRaUsxdkFCT0dCRExLUmRoOEN1d2FNZWJJVUJHQXl6SzBkTWRqUjFzbjVSODYxTkZ6QWNNMENZTldfak0tOWNJaVZ1WXZGUndBRnZWMmp4ZGRBd1E1SQ?oc=5",
    "source": "Malay Mail",
    "summary": "",
    "image": "",
-   "published": "2026-10-17T11:37:58+00:00",
-   "ts": 1792237078.0,
+   "published": "2026-10-17T11:40:51+00:00",
+   "ts": 1792237251.0,
    "category": "music"
   },
   {
@@ -575,16 +647,6 @@
    "category": "music"
   },
   {
-   "title": "Anirudh invites CM Vijay for his and Kavya Maran's wedding; date revealed",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/17/anirudh-invites-cm-vijay-for-his-and-kavya-marans-wedding-date-revealed",
-   "source": "Cinema Express",
-   "summary": "Music director Anirudh is set to get married with Kavya Maran, who is the daughter of Sun Pictures owner Kalanithi Maran and the owner of the IPL team Sunrisers Hyderabad. On Saturday, Sun News revealed that the composer and Kalanithi Maran and his wife Kavery Maran met Chief…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-17/yopwqxvz/Anirudh.jpg",
-   "published": "2026-10-17T10:36:45+00:00",
-   "ts": 1792233405.0,
-   "category": "music"
-  },
-  {
    "title": "Suriya Warns Students Against Reels: \"You Are Only Watching A Story\"",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTU9LRFR1T0hIejZ6aV9vdEJCWS16ZTJ0aVk4MmtlQnZTWm9sOGdPS2phbDVZOGdLVTJlVGRFUjlEaE1zdy1lN2Fxa0QtMVhtMHVzR01jeVVSX0lNanA1QzZLdkhzM1NuU2ZaVmViZExiU3pUMi1lampYUFdIa0k1TnBlZjZHb2FSZTNpN1B2NUlfdVl6Q2hzaEZqd1d4MUprX3Rld2pFUUUwSEhCbFI0Q2lkWHlXZzdYaUc1dEJaQW54dWfSAcsBQVVfeXFMT1psTUpmX2N6dGM2VlZ3dktnSndXbnhaMWdQaFdjSERFNlRfbWdIMFNuWHdMWHhBdHUyYXVodDNMaXJBYWUtck1yZ1RJQ1JsZWJJZEw0eFVXVVI4bE5XS3ZfTFBJWGhmZ01VaVlpbVdDWGhWeFRBMmVGSnF3OWpWc0ppV0wwNGxyUTR0S1gyQ291bm9jYUNVeHF1X01pNV9IMTJtMkJzcklTbFFTQzY2ZHV4QWRwUnhvUTJtRjdpb3VSY09nMXhBdENOY28?oc=5",
    "source": "NDTV",
@@ -645,16 +707,6 @@
    "category": "buzz"
   },
   {
-   "title": "‘Jailer 2’ has me watching on repeat, says Rajinikanth fan Raghava Lawrence",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdG9DcEZEbTJCM3FTb3FsanNrTllaV3JSWUU0MlMzYzdsU2RiTXI0MVYteFBLd0hfRGxUdGxLMV9zQ0s3S2F1LXBSRi0zcE1CN2R1MzNNYURlRV9vdVl0dWQtVXhMUVIyanNEZW5CangxQ21pbEFDOHltNzdZdVhPM29jNFJSQndISERIU2JqV0ZXT0hHazhvLWtGWU5jU3pX?oc=5",
-   "source": "Telangana Today",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-17T10:06:35+00:00",
-   "ts": 1792231595.0,
-   "category": "buzz"
-  },
-  {
    "title": "Rajinikanth Visits Late Music Composer Deva’s Home; Kamal Haasan Pens Heartfelt Tribute",
    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLVoxcE1ZMzRtc09rbXdxX1hUZzlwdG51aEY0U3owc0Myc1RRRVpMUkl6QktCZDZ6Q01xMTRteE96WElUSUdPV0NMS3o2N0sxYS13TVhiSmJtNDlfNWE3bld5SG1SMmcxUDczbXppS0tQUzM3M2pRc3o1Q2tiejNKSzVUaWlhNUlaQVRMMDg0NHJiTUN4eFVMd3NtRWdQNTQ3UFpXdURfcFF6YVNObnRFY0JSRTh4cFQ3M2piNnRrRjVjaXVnMGNlVGJIMUV6LVlLZk5GZVlod0NqODlfS05JeXVqSUdtd9IB5gFBVV95cUxOLVoxcE1ZMzRtc09rbXdxX1hUZzlwdG51aEY0U3owc0Myc1RRRVpMUkl6QktCZDZ6Q01xMTRteE96WElUSUdPV0NMS3o2N0sxYS13TVhiSmJtNDlfNWE3bld5SG1SMmcxUDczbXppS0tQUzM3M2pRc3o1Q2tiejNKSzVUaWlhNUlaQVRMMDg0NHJiTUN4eFVMd3NtRWdQNTQ3UFpXdURfcFF6YVNObnRFY0JSRTh4cFQ3M2piNnRrRjVjaXVnMGNlVGJIMUV6LVlLZk5GZVlod0NqODlfS05JeXVqSUdtdw?oc=5",
    "source": "News18",
@@ -663,16 +715,6 @@
    "published": "2026-10-17T10:05:22+00:00",
    "ts": 1792231522.0,
    "category": "music"
-  },
-  {
-   "title": "Tamil cinema mourns Deva: Rajinikanth arrives in tears, Kamal Haasan remembers ‘dear brother’",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVklTeTVHc2htbWdGaDNzQU53WDdPUmNNOTlMZDh5TW5ZaEhkQnd4MFM4Z0cxRDBmblVWelRNdWJPZ1NId29tSlNEYUhTTllnZ2lXek8wcGtlVHBWSi1xVXNCb0ZtcERHTHlmUHVLT1VtZF82b2UwdEF5MXJmWjNoWGtyeGJNRXlvc0s0NjJOaGlfMDFkZ3AtMVRIRzZseHdMcXNka2p0dGxteHF2NlVTa0c5NGhkTkplN3BjREFDNzl4RUdJbG9Ta2hTQnhxa19SQlpUekI2QnhBaG45aUNfS3BXMzhJOXF20gHvAUFVX3lxTE8xcXJreTM2dDU1WUJPcEw1LWQycHN3M1NTTjBsMHpsNV9EY290UDRpdGljSndkQk1CZm9oN0lZc1VLenJxLXUwU1dqeG1UcU9JZEtkaExGb2Y3N2h4WlVfQkpkb2xtR21YV2o4SEViZDlVWmR5ejJvV18zS2Rfd0RUbjEtRWZ6U2xtVnhkeDNCX3I2R2pUOF93ODRyb3dZN2Z5UFRLR1ZZZmVfVUFXV3dEZnhWeVdfbWh2bDZEbE9Td0tzZExYXzJ6MVUwWDhSUzNjZ0pRbWNFZmFmMzdCcVRUNkU2Q1JxWEtSOTB4akVn?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-17T09:42:03+00:00",
-   "ts": 1792230123.0,
-   "category": "buzz"
   },
   {
    "title": "Jailer 2 Box Office Collection Day 3",
@@ -685,26 +727,6 @@
    "category": "box-office"
   },
   {
-   "title": "Anil Ravipudi reveals Keerthy Suresh’s role in ‘January 12 Vidudala’",
-   "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/keerthy-suresh-to-play-latha-reddy-in-venkateshs-january-12-vidudala-anil-ravipudi-reveals-character-on-birthday/articleshow/135011220.cms",
-   "source": "Times of India",
-   "summary": "Director Anil Ravipudi has announced that Keerthy Suresh will portray Latha Reddy in the film 'January 12 Vidudala'. The movie features lead roles played by Venkatesh and Nandamuri Kalyan Ram, along with Krithi Shetty in a significant role. The film's shooting has recently…",
-   "image": "https://static.toiimg.com/photo/msid-135011280,imgsize-164397.cms",
-   "published": "2026-10-17T09:30:48+00:00",
-   "ts": 1792229448.0,
-   "category": "casting"
-  },
-  {
-   "title": "Deva passes away: Rajinikanth pays last respects; Vijay consoles",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/deva-passes-away-jailer-2-star-rajinikanth-pays-last-respects-vijay-consoles-composers-family-during-final-visit/articleshow/135011191.cms",
-   "source": "Times of India",
-   "summary": "The passing of Deva, the cherished music composer known for his contributions to Tamil cinema, occurred from a cardiac arrest on October 17. His unexpected demise has left a profound void among music enthusiasts and filmmakers throughout Tamil Nadu. Esteemed actors Rajinikanth…",
-   "image": "https://static.toiimg.com/photo/msid-135011204,imgsize-122241.cms",
-   "published": "2026-10-17T09:29:06+00:00",
-   "ts": 1792229346.0,
-   "category": "music"
-  },
-  {
    "title": "ரஜினியை பார்த்ததும் கதறி அழுத தேவா மகள்.. ஆறுதல் சொல்லிவிட்டு தேவா உடலையே பார்த்து நின்ற ரஜினிகாந்த்",
    "url": "https://tamil.filmibeat.com/news/rajinikanth-paid-last-tribute-to-late-music-composer-deva-also-condoled-his-family-185515.html",
    "source": "Filmibeat Tamil",
@@ -712,26 +734,6 @@
    "image": "https://images.filmibeat.com/ta/img/2026/10/rajnikanthdeva-18331792228012.jpg",
    "published": "2026-10-17T09:09:10+00:00",
    "ts": 1792228150.0,
-   "category": "music"
-  },
-  {
-   "title": "Who was Deva? The late music composer behind Rajinikanth’s Superstar title card theme who took Gaana from",
-   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOR3o3Y01wRi1lZ2ZBdmMzYkcwR2xPNVVUSWdDYzBWLS05VEFjS1RNSU1jdUNfVHMyR01IUTkxSzNzOHZub0g5c2JXbjVtNUh3cTUySnZ1NnpDUXlFQWlhVHRBNktmUnlRNy1Lb2V0LWRVZGFrMFlVb0g4VmRoS0YzSzFZa1pFWmxlenp4RFR0ZGotb2lQREZ3RFRxOVRZbzlJbkw0VURUTE1YUktENkJJQkdWSjVIQ292VGZXZWFOZ1FxUjBfMzVxcllYTXR5ZHg4QjhVRWhRSThvd1JCQ21sRWpGeEc2Y0tOTTFiSmlhSjFyVHFlRWtMSU1mNVFLUkZWRTFzSF9md3p1aHlmcmR0ZFVuYXUxZjd5YW1hUXFIbk5UTGFsajh0SElEdXh4blJEdXVsYXB6MFhYcHcxb0tzUFowdV9mQVJsa081Zk5yY9IB1AJBVV95cUxQSUc0YkNNei1vLVpVaWRvMERfdEd2OGN2ZEhMeGMzQ2Vzc3F0UndscF9iMjRabnZJZ1UxS1lBZThWaFNfZXREMndFc3ZlaEp0WUNmV3U4bzBIQlN3YU5xN1dLXzl3R2ZyUEowNnhMQ3hEdUVkTkNkbDJNZE5PWnE1ZzlrYmFyNUhkNFZKV0VCd2JQelBQWjlDVjJ5QWh4bEZmLWgtaXBSbWJzSGhGNWJjcVFVWjZDNlc2emxjM19ReXhUdTJ5cUdRWm5pdXJoYzBVaVJzRlhiN09WTy1kMnZxU3VvbnNlVXBQaWlnR05vdXlLSW1uZThFdHZNOHF3N0swWXZaQ09PcVRMYkQ1TzJfNFRPZlFmVW1sVjYxSXVrekVmc3dVNk9Pb3NMd21tcVpLWXdjUEs5VUE1cHF4MDEwd3NHcjdPbzNHZ3hJT1V1WUVBU0to?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-17T09:09:00+00:00",
-   "ts": 1792228140.0,
-   "category": "music"
-  },
-  {
-   "title": "Who Is Kavya Maran? Meet Anirudh Ravichander's Wife-To-Be",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRGVFOUlOa0FHUjgtUGpneTBRY3FCM1BOdFVtUzFBWXl1dnBib1N6RnozekhTZ202X0lXdGhYdHFxazFIUTVQNEtvOFV0RWlQOXRfa1JkR1BsQ2pmLTZOT3VuX3hJS0hrdkhJelUxSFU1dFRFTE5SUUZoaDhhNmNvSWk1LVh3c1lsUWJxWExxV3JKMU5KejRMeEJYdVRmY2tBaG9XSVI3c2VoQWFNa3hySjVYV29nX3ZmS0tQbEY5aU7SAcABQVVfeXFMTURlRTlJTmtBR1I4LVBqZ3kwUWNxQjNQTnRVbVMxQVl5dXZwYm9TekZ6M3pIU2dtNl9JV3RoWHRxcWsxSFE1UDRLbzhVdEVpUDl0X2tSZEdQbENqZi02Tk91bl94SUtIa3ZISXpVMUhVNXRURUxOUlFGaGg4YTZjb0lpNS1Yd3NZbFFicVhMcVdySjFOSno0THhCWHVUZmNrQWhvV0lSN3NlaEFhTWt4cko1WFdvZ192ZktLUGxGOWlO?oc=5",
-   "source": "News18",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-17T09:08:34+00:00",
-   "ts": 1792228114.0,
    "category": "music"
   },
   {
@@ -762,16 +764,6 @@
    "image": "",
    "published": "2026-10-17T08:08:00+00:00",
    "ts": 1792224480.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Jailer 2 Budget & Box Office Collection Day 2 Worldwide Tamil Daywise",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeVhzRGdIRTk4bTE0RzF1NWhxQXUzeFJQQ2gzU1BOM0d4dy1XRmpna3ZjVGMxb3RDNnowYXo0NEdBY2F6SEZrM0M1bUNEV3BNLUlORGxaLVNyMEZBeFFmNDIzX1dyczQ3bnRHMHZ1MXlWbXlYMWFzWWdmMXFWeE0xUzVEdy1ZR3F5Z25JWkhiMzByZEI2SDJ6SC1UQmQ0WV9Dd0xjMFk1RV9ial9WcDhPOFdmbDM?oc=5",
-   "source": "Bollymoviereviewz",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-17T08:06:14+00:00",
-   "ts": 1792224374.0,
    "category": "box-office"
   },
   {
@@ -1275,16 +1267,6 @@
    "category": "buzz"
   },
   {
-   "title": "Jailer 2 Review",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vSjZPMUkyZDR3UC1yMFJfaGpSWEw0dXVHLXRJdF9Ka21JaDZIa3YtSW1tLW01b2JQUVhrcGhISTVEM044RDkxS3piT2ZyS0FJRXVjNw?oc=5",
-   "source": "Tenvow",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-15T10:43:53+00:00",
-   "ts": 1792061033.0,
-   "category": "reviews"
-  },
-  {
    "title": "Mandaadi OTT Verdict: Soori’s Film Ends Week 1 At The #1 Spot In India, Crosses 2 Million Views",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOS00eWkxX3MtaEJlUTR4TzVhVU5LSzVaWXdrMlRBZFJNNEk4aGkydTB1ZTI0RS1GUG1FODNNYmZiTmxYZ09kZ3JKVVhXaXc1a0NEUUdoYmU3LWxFaURiQnJReFQxbnZ0TnpJSXNyUW5qNnd4WDFoQ2QxSFN2VnhrWGc2c0VYdUhQTkN6bFRWeHdTckVYcms1SmZ0SDlqdXFOeUVWZzNBUGxWbEQyU2p4S2U0SEVGOEh2VGI3YmVpNkg2Rmhu?oc=5",
    "source": "Koimoi",
@@ -1329,7 +1311,7 @@
    "url": "https://www.thehindu.com/entertainment/movies/rajinikanth-jailer-2-nelson-jailer-2-interview-chethan-d-souza-interview-jailer-2-interview-superstar-rajinikanth/article71578348.ece",
    "source": "The Hindu",
    "summary": "Action director Chethan D’ Souza, who has worked in ‘Jailer 2’, talks about Rajinikanth’s down-to-earth attitude and his knack for stylish action moves and opens up on adapting to director Nelson’s simple yet effective staging of action set pieces",
-   "image": "https://th-i.thgim.com/public/entertainment/movies/lmmg91/article71578356.ece/alternates/LANDSCAPE_1200/Jailer-2-Chethan-D-Souza.jpg.jpeg",
+   "image": "https://th-i.thgim.com/public/entertainment/movies/3i9xb/article71578356.ece/alternates/LANDSCAPE_1200/Jailer-2-Chethan-D-Souza.jpg.jpeg",
    "published": "2026-10-14T15:38:40+00:00",
    "ts": 1791992320.0,
    "category": "casting"
@@ -1339,7 +1321,7 @@
    "url": "https://www.thehindu.com/entertainment/movies/superstar-rajinikanth-jailer-2-director-nelson-anirudh-ravichander-sun-pictures/article71578036.ece",
    "source": "The Hindu",
    "summary": "As Tamil cinema gears up for the release of ‘Jailer 2,’ producers and theatre owners talk about Rajinikanth’s box-office power and why the Nelson-directorial is expected to break new records",
-   "image": "https://th-i.thgim.com/public/entertainment/movies/k6qxza/article71578182.ece/alternates/LANDSCAPE_1200/Rajinikanth%20Jailer%202.jpeg",
+   "image": "https://th-i.thgim.com/public/entertainment/movies/vpi8pj/article71578182.ece/alternates/LANDSCAPE_1200/Rajinikanth%20Jailer%202.jpeg",
    "published": "2026-10-14T05:53:19+00:00",
    "ts": 1791957199.0,
    "category": "box-office"
