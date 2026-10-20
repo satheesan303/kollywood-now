@@ -1,9 +1,10 @@
 {
- "generated": "2026-10-20T12:54:19.713816+00:00",
- "count": 101,
+ "generated": "2026-10-20T17:43:23.525096+00:00",
+ "count": 105,
  "sources": [
   "Bollymoviereviewz",
   "Cinema Express",
+  "DT Next",
   "Filmibeat",
   "Filmibeat Tamil",
   "Gulf News",
@@ -18,7 +19,6 @@
   "Livemint",
   "M9.news",
   "Movie Crow",
-  "NDTV",
   "News Today",
   "News18",
   "Sacnilk",
@@ -34,7 +34,7 @@
   "YouTube"
  ],
  "images": {
-  "total": 47,
+  "total": 49,
   "scraped": 24
  },
  "feeds": [
@@ -44,7 +44,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.19
+   "seconds": 0.08
   },
   {
    "name": "News18",
@@ -52,23 +52,23 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.17
+   "seconds": 0.08
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 2,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.48
   },
   {
    "name": "Hindustan Times",
    "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
-   "items": 7,
+   "items": 6,
    "ok": true,
    "error": null,
-   "seconds": 0.92
+   "seconds": 0.18
   },
   {
    "name": "Indian Express",
@@ -76,7 +76,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.13
+   "seconds": 0.08
   },
   {
    "name": "The Hindu",
@@ -84,7 +84,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.24
   },
   {
    "name": "Filmibeat Tamil",
@@ -92,23 +92,23 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.15
+   "seconds": 0.11
   },
   {
    "name": "DT Next",
    "url": "https://www.dtnext.in/feed",
-   "items": 0,
+   "items": 2,
    "ok": true,
    "error": null,
-   "seconds": 0.37
+   "seconds": 0.23
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 3,
+   "items": 5,
    "ok": true,
    "error": null,
-   "seconds": 0.23
+   "seconds": 0.09
   },
   {
    "name": "Google News",
@@ -116,7 +116,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.46
   },
   {
    "name": "Google News",
@@ -124,7 +124,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.53
+   "seconds": 0.41
   },
   {
    "name": "Google News",
@@ -132,7 +132,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.57
+   "seconds": 0.52
   },
   {
    "name": "Google News",
@@ -140,7 +140,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.59
   },
   {
    "name": "Google News",
@@ -148,7 +148,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.53
+   "seconds": 0.52
   },
   {
    "name": "Google News",
@@ -156,7 +156,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.57
   },
   {
    "name": "Google News",
@@ -164,70 +164,210 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.59
   }
  ],
  "trending": [
   {
    "term": "Jailer",
-   "count": 36
+   "count": 38
   },
   {
    "term": "Rajinikanth",
-   "count": 21
+   "count": 24
   },
   {
    "term": "Box Office Collection",
-   "count": 8
+   "count": 6
   },
   {
    "term": "Anirudh Ravichander",
-   "count": 4
+   "count": 5
   },
   {
    "term": "Kavya Maran",
-   "count": 4
+   "count": 5
   },
   {
    "term": "Dorothy",
    "count": 4
   },
   {
-   "term": "Suriya",
+   "term": "Deva",
    "count": 4
+  },
+  {
+   "term": "Vijay Sethupathi",
+   "count": 3
+  },
+  {
+   "term": "Athisaya Piravi",
+   "count": 3
+  },
+  {
+   "term": "Sanju Samson",
+   "count": 3
+  },
+  {
+   "term": "Monday",
+   "count": 3
+  },
+  {
+   "term": "Suriya",
+   "count": 3
   },
   {
    "term": "Crore",
-   "count": 4
+   "count": 3
   },
   {
    "term": "India",
-   "count": 4
-  },
-  {
-   "term": "Becomes Highest",
-   "count": 3
-  },
-  {
-   "term": "Nelson",
-   "count": 3
-  },
-  {
-   "term": "Vijay",
-   "count": 3
-  },
-  {
-   "term": "Days",
-   "count": 3
-  },
-  {
-   "term": "Deva",
    "count": 3
   }
  ],
  "articles": [
   {
-   "title": "Cricketer Sanju Samson books entire theatre for Rajinikanth’s Jailer 2, says everyone in the team who knows Tamil is coming to watch the film",
+   "title": "Jailer 2 Beats Leo to Become Fastest Tamil Film to Cross ₹200 Cr Tamil Net in Just 6 Days",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbXRjdDNadHdKYU5ha1JQdGtaX2RHMlhsNXU5OGZCZE1DNjcydVVUc2UzX3AtM3NXX2lSMzJEcUIzNlZQWVBha3BDRWFFQkhDSzdKaTdpSkI2V1ZxVVR6bGxCbjVlV29UempaaEFJLXE2S3ZQc1g5aDcxOFdiYS1aT2RlRkRXOUpKcVZTLW4yTDdmMzJCM01pSVUtekxCYTA3NkUydDhRbkFaV2dtbExFX0p5R2NYbllp?oc=5",
+   "source": "Sacnilk",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T17:07:07+00:00",
+   "ts": 1792516027.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Jailer 2 box office collection day 6: Rajinikanth’s sequel crosses ₹287 crore mark, surpasses lifetime haul of Ram Charan's Peddi and Toxic",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/jailer-2-box-office-collection-day-6-rajinikanth-sequel-crosses-290-crore-mark-surpasses-lifetime-haul-of-ram-charan-peddi-and-yash-toxic-101792503791251.html",
+   "source": "Hindustan Times",
+   "summary": "Jailer 2 box office collection day 6: Nelson Dilipkumar directorial Jailer 2 has already surpassed the lifetime India net collections of several major releases.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/20/1600x900/logo/Jailer_2_1792504066737_Lisl_1792504067125_jyy8_16419831-6547-4338-ba26-778dfcc043cf_F1w9.jpg",
+   "published": "2026-10-20T17:02:58+00:00",
+   "ts": 1792515778.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Rajinikanth: When tunes lit up a star",
+   "url": "https://www.cinemaexpress.com/tamil/features/2026/Oct/20/rajinikanth-when-tunes-lit-up-a-star",
+   "source": "Cinema Express",
+   "summary": "As the lights go down in the theatre and the voices of the audience fade, what breaks the silence, before a 'Rajini Padam' starts, is Deva's theme for Annamalai (1992). The sounds of a laser which coalesces with the music, as the name 'Rajni' appears letter by letter as the…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-20/0rki1whd/Rajinikanth-films.png",
+   "published": "2026-10-20T16:59:23+00:00",
+   "ts": 1792515563.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Baththa Box Office Collection Day 5: Vijay Sethupathi’s Film Stays Strong On 1st Monday, Drops Just 13% From Day 1",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lR0lkNUR4ek1kSkJNOVg3LXdRa3dRNXotdE9kMHdrUzExaU1KZHgwek5VN2xfZ1MtZzRqZnJvdGFMbWpBYmVUa210Ti1XQQ?oc=5",
+   "source": "IMDb",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T16:38:35+00:00",
+   "ts": 1792514315.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Jailer 2: Rajini’s 13-Yr-Old Grandson Runs Software Firm",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQzlpTDhMUDB1bnlaTlA1Z3RYSklOLWhseHM3aVB3MUxraFdxY3ZBN1l1ZFpycTdiRWpVWG5GZzBlOUI5WXBTT0EwaWhYOTJXQVEwcUlUWTV4SV9kQXFPSkdZUWhIek1vb1JQX0NsVnlTTC1IcGkySm4xNTBnSGFSVjFGZ1Jxb19ZSUxoTjIyX25nUWdtN0930gGcAUFVX3lxTE4zaElGZWlHTlREOGxsd1o1VDRXaEtubkRHZ0lrZW9paktXUnRBM3VzQldJMnJjdkFRRnlrLU5PZE1YeGZ3XzR5ZTBEd2hEeERseUh6bWF1WWlQMnQzbEk3b0p4NkI1eDBpTlFReEI1aDNpM3J0TWR4aDNtNERVNTZTQUtzNGpIRU4xd0hkRDg5V0c3RHd2WW1acW05WQ?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T15:34:18+00:00",
+   "ts": 1792510458.0,
+   "category": "buzz"
+  },
+  {
+   "title": "'Jailer 2' actor SJ Suryah explains Superstar Rajinikanth connection in his name transformation",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/from-justin-selvaraj-to-sj-suryah-jailer-2-actor-reveals-how-director-vasanth-gave-him-his-screen-name-recalls-rajinikanth-connection/articleshow/135072579.cms",
+   "source": "Times of India",
+   "summary": "SJ Suryah, whose birth name is S. Justin Selvaraj, reveals the origin of his moniker. Director Vasanth suggested 'SJ Suryah' from a list he provided. Suryah is currently seen in the much-anticipated film 'Jailer 2', co-starring Rajinikanth, which hit theaters on October 15.…",
+   "image": "https://static.toiimg.com/photo/msid-135072582,imgsize-164037.cms",
+   "published": "2026-10-20T15:19:25+00:00",
+   "ts": 1792509565.0,
+   "category": "buzz"
+  },
+  {
+   "title": "'Athisaya Piravi': Santhanam’s next borrows Rajinikanth’s 1990 title",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/athisaya-piravi-first-look-out-santhanams-comedy-sci-fi-film-borrows-rajinikanths-1990-title/articleshow/135071905.cms",
+   "source": "Times of India",
+   "summary": "Santhanam's latest film, 'Athisaya Piravi', has just released its first-look poster, sparking excitement among fans. This comedy-science fiction flick marks the debut direction of Sudhaman Krishna. Although production has wrapped, fans are still waiting for details on the plot…",
+   "image": "https://static.toiimg.com/photo/msid-135071914,imgsize-169820.cms",
+   "published": "2026-10-20T14:25:48+00:00",
+   "ts": 1792506348.0,
+   "category": "buzz"
+  },
+  {
+   "title": "'Athisaya Piravi' first look out: Santhanam’s comedy sci-fi film borrows Rajinikanth’s 1990 title",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOQlRwMHdYbmxKWW1BaUZSLVlWSWFQR2ZTNjJPYlBYbEptRkpCU3RzdGVEbF9BRnhLaWxLVTF5QlVtRHFjcTVwazg4NVJ3R29SYlU3aWxBUnJOdnptTGdWSS1HVFQ2MmcxZjItT0pWTU9yVk1lenhPNUhjRVNELTNLd1V3eW9uRllwV1l5cVhvcnZNOTlQWktEbUtfcGlCamU0dUlqeG5VeHpuUGtJZXI5bjlLNW5vM21XVTY5dW85SE8xdzhHOV9FeWdJRUdBMEZGd3hsbnRGbzI5YmdabmttamhRYlhaeC10ZE5WU1hjc1JfckszMXREaEo1T1pqVDctdzUzUUM3c2JmaWYwT2hqcktTYkvSAZoCQVVfeXFMTlFxTzF6TE5OWEJVdm04bmNQVGFPemZrQ0NNSFgxWmtkVGVLRjZ6cEt5MElzeDktSHo3Q1g1M19scUNxU3NadkVESWM4Rm1aekd5S2NsanNxdTdDczJMVEFQUnFJVlBtVG9yMklFNXRYMXluV0w5SGRmSU5ZaEIwNjJvaFRuX1prQnFvZ2E2YXNOSHBJd0lCTWJIVEtReW5xZ3BIU0lvbXFKX3lGdUJ3VkZ5aU14N2poV2JhcWJGX2ZicW1pUlZnUlI2eFVWeWRvTmxLdnFaZFB0RUhleFRmYlk2NHoyeVA3dzJRQ1ZUNE9yUkpYM1RwMlF3MjQ5YlFxMjB1MjdkMEhHUjlWUzN1WjA2WXR5QmZ3NmRR?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T14:25:00+00:00",
+   "ts": 1792506300.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Sanju Samson books entire theatre in Bengaluru to watch Rajinikanth’s Jailer 2",
+   "url": "https://www.dtnext.in/entertainment/cinema/sanju-samson-books-entire-theatre-in-bengaluru-to-watch-rajinikanths-jailer-2",
+   "source": "DT Next",
+   "summary": "CHENNAI: Indian cricketer Sanju Samson booked an entire cinema hall in Bengaluru to watch Jailer 2 recently with his family, friends and teammates. Samson said he was unable to watch the film on its release day due to an event in Delhi. He subsequently arranged a private…",
+   "image": "https://media.assettype.com/dt-next/2026-10-20/9p0ga7y2/1-11.jpg",
+   "published": "2026-10-20T14:16:43+00:00",
+   "ts": 1792505803.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Suriya visits late composer Deva’s house to pay his last respects",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/suriya-visits-late-composer-devas-house-to-pay-his-last-respects-after-missing-the-funeral-due-to-film-shoot-watch-video/articleshow/135071443.cms",
+   "source": "Times of India",
+   "summary": "Actor Suriya paid a heartfelt visit to the family of the late music composer Deva, who profoundly influenced his early career, especially with memorable contributions to his debut film. Despite being unable to attend the funeral due to filming commitments in another city,…",
+   "image": "https://static.toiimg.com/photo/msid-135071452,imgsize-185908.cms",
+   "published": "2026-10-20T13:52:04+00:00",
+   "ts": 1792504324.0,
+   "category": "music"
+  },
+  {
+   "title": "Santhanam's next titled Athisaya Piravi; first look out",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaTFCNHNub1VRcHJCOVROajlhTURCVTY0Nk9FRWNIbHNzZHNES2g2RnVFb3VOUFhTSXF5ckVOU3JQNUVRdVZHb3FTQ05GREFneVItM2wwQXc2Sk1jay04Wm10TVBBM3NOQ19hUlN2cGl3WWU5UWc5UzN2YTNGQTlRTkVfOGdUNE9PdmtVZGZfcnU4Q1pqdy1yUGZHZGZORllWRzlxcU42V091eGhIa0YzZU5qQi11OWPSAbcBQVVfeXFMT2kxQjRzbm9VUXByQjlUTmo5YU1EQlU2NDZPRUVjSGxzc2RzREtoNkZ1RW91TlBYU0lxeXJFTlNyUDVFUXVWR29xU0NORkRBZ3lSLTNsMEF3NkpNY2stOFptdE1QQTNzTkNfYVJTdnBpd1llOVFnOVMzdmEzRkE5UU5FXzhnVDRPT3ZrVWRmX3J1OENaanctclBmR2RmTkZZVkc5cXFONldPdXhoSGtGM2VOakItdTlj?oc=5",
+   "source": "Cinema Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T13:41:44+00:00",
+   "ts": 1792503704.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Anirudh Ravichander and Kavya Maran’s Greece wedding: Why the couple may have chosen this dream destinati",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQYWdCbWJJZlJwQmZPaDAyUGlEMF9yVFB5aXpoMzJYSUpNN1lkVnMwZHl4ZUpPYXF3aU8zUUlpbzYtaVdUNllLTHFtUEpfcHR6YnhfRjg0Q1BzeEtNaXRtcU1qclFsdEF5UWstcEI1NlJ3NmlsS05xbWFCcm9yNFFuT0lXUkFvVl9tek9GSk13UkZDUV9sQXVLVVBWU20tZGxSX3lfT1lha3p4Q0tnc3BFVkNRaFZ5YkNDekJkVlFWZ3BxdDhGdkNQc0d3YVFHZDhzMTJWd2paVEdDZm1GOWJPV3FYeXZsdTd1TUNBeWJ2OXd0TlhpZXlvMzFxdTNMZTBxeEE0bWpDa0xqWnItQURod3prSFFJLUx0R2x4cDJqb21IdVJ0V2fSAasCQVVfeXFMT3BLblRCWHlaUEduekwtd2Jnek9pS2NHQjNRSUs2WERyVWstd19zZ3lJd3l5aFIySWlxLWcteWZXaEpTeWpDaktGYmh4YmJrYjUtQ1VFTEtHVEFOclRYTEt3MWpIVFBhN0NTSGwxa1o2OV9pRFFpdkFLOHZXWWhHVlZ6dXBES09HVUZCUEl1UmtUTEh6aS0xQW1TU3VwZ0twTFRxZHhBaExOalFOdkV4VWhYamdDcFlJdGxTNVJBQlltMXJxN3RRc1ZTOVlrT29OdURuLVc1Rm5xMFBGZkJCMERITjNfWFVxZTltQWdkbXJzTDMwNGg0bEJuYnBvemxndFNzdkp6S1pwWkpMM0xuNnVnR2UxeFY5SFlKTnZtZVhndHdyMHBRRVFFeVk?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T13:09:00+00:00",
+   "ts": 1792501740.0,
+   "category": "music"
+  },
+  {
+   "title": "உங்க பொண்டாட்டி பேர்ல தொழில் பண்ணா விளங்காது.. குணசேகரன் பிளான்.. எதிர்நீச்சல் தொடர்கிறது",
+   "url": "https://tamil.filmibeat.com/television/sun-tv-ethirneechal-thodargiradhu-serial-october-20th-2026-full-episode-review-185679.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: எதிர்நீச்சல் தொடர்கிறது சீரியலில், ஞானம், கதிர், சக்தி நீங்கள் உங்கள் பெயரில் தொழில் தொடங்குவதுதான் நல்லது. உங்கள் மனைவி பெயரில் தொழில் தொடங்குவது ராசியே கிடையாது என்று சொல்கிறார் குணசேகரன். அதுமட்டுமல்லாமல், உங்கள் பெயரில் தொழில் தொடங்கினாலும் அது விளங்காது, உங்கள்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/dorothy28-87571792501639.jpg",
+   "published": "2026-10-20T13:07:44+00:00",
+   "ts": 1792501664.0,
+   "category": "buzz"
+  },
+  {
+   "title": "தயாரிப்பாளர்களுக்கு போன் போட்டு டார்ச்சர்.. பணத்திற்காக அலையும் மாஸ் நடிகரின் மனைவி!",
+   "url": "https://tamil.filmibeat.com/gossips/top-actors-wife-demands-huge-movie-advances-185669.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: திரைத்திரையில் மாஸ் காட்டி, பாக்ஸ் ஆபீஸில் கோடிகளை குவித்து சாதனை படைத்து வரும் அந்த பிரமாண்ட நட்சத்திர நடிகரின் நிஜ வாழ்க்கை பின்னணியில், கேட்கவே நடுக்கத்தை ஏற்படுத்தும் அதிர்ச்சி ரகசியங்கள் கசிந்து கோலிவுட்டையே கதிகலங்க வைத்துள்ளன. வெளியில் கோடிகளில் சம்பளம் வாங்கி,…",
+   "image": "https://images.filmibeat.com/ta/img/2026/10/gossip12-88161792489214.jpg",
+   "published": "2026-10-20T13:03:28+00:00",
+   "ts": 1792501408.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Cricketer Sanju Samson books entire theatre for Rajinikanth’s Jailer 2, says everyone in the team who knows Tamil is coming",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/cricketer-sanju-samson-books-entire-theatre-for-rajinikanth-jailer-2-says-everyone-in-the-team-who-knows-tamil-is-coming-to-watch-the-film-101792499698145.html",
    "source": "Hindustan Times",
    "summary": "Cricketer Sanju Samson booked an entire theatre after missing the film’s earlier screenings of Nelson Dilipkumar directorial due to a work commitment.",
@@ -277,6 +417,16 @@
    "category": "casting"
   },
   {
+   "title": "Will Dhanush return as Kokki Kumar in 'Pudhupettai 2'? Selvaraghavan drops fresh hint about the long-awai",
+   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPY0pmdnp3eEF4Qk5nOV9SbUdEUGlCSHRlejdyLTN5YmZKRDc2V3VMWDR4TGs0aXF2Wm41cDAzYnNBaWNBMWJETHJTV0JoYlR0WEp3UWs1SGdja196dUdSZXZtckdIYTE0LUM0aHgyUGhvUnRuRV9tWjJIVk56MXo3R3ZDV2QzYjBkX2pydi1wNi0xR05US280SWlwVHY4ZVJfMVJ4WmdWbUh0M0ZwWHlZZGFBYVBZQVNpVGpTZEwtODdKekEtRk5kUExGeXZFRE9qNzFhRUw0ZHFYejVJWWxHeW9DbVRmcXNUck9HdTVPXzZ2RG9fUmljVXAwOGlBZlpkbnZ0clNIS2F4cEg2Tmx2N0pfTWVTd3kyYUdCS3AyVFlmUHl5b3FncHRUSFdYdkXSAbQCQVVfeXFMUGpOUG1TNEQ5V0xfaWpPYzcxMXNyV0FjbGR4b2JBb2tPdjV0MFZTbzBueHVOZjZRWEFLUnA5T1k2UThWQU1qaTBOS2FXQnVEemwxcVhxTjY1UlE3S2FNc1NFWmNGYkpRTnFTdmNtT1dQLU1SUXVGLVpLcVUyeXB1SWVEUFZlYzN4NW5lV2hWSWVIeHRKNTl2RHNRRUJjV3lhQWRkbzRuUGVPMUR6TlVQRWZmc1BVSjFFLUticmlPVDVPLTE2VGJpZUlFaXYyc3NkTmo2UDlSa0N1RDRIZnFfUmI3T3RKbk1SSXAxSHd0NGMxYWRJcHNfOUstTGNHaVNSTkJYNnN2dGduWUlIcF9vcjNPMXRtSTNoYnRTZnl4a0VqNGlWUlhMZ3BOMGJENHNFTnlRQW4?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T11:48:00+00:00",
+   "ts": 1792496880.0,
+   "category": "buzz"
+  },
+  {
    "title": "Vidyut Jammwal praises 'Madharaasi' co-star Sivakarthikeyan, recalls Vijay's 'Thuppakki'",
    "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/sivakarthikeyan-could-be-one-of-this-generations-big-action-stars-vidyut-jammwal-credits-madharaasi-co-stars-potential-recalls-how-vijay-starrer-thuppakki-changed-his-experience-of-box-office-success/articleshow/135068590.cms",
    "source": "Times of India",
@@ -297,6 +447,16 @@
    "category": "buzz"
   },
   {
+   "title": "Tamil Actor Karthik Sabesh Dies at 37 Leaving Kollywood in Mourning",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX181eS1OSm1vdTk2LWI1V1Q5a2t3czRmQUdXSVJJU0FwbHVpcUFPVG1QNjVOY1d5N0V5VGtacUl0RmhyZnkyRll6TXl0NEJPZW12V0ZQMG9fdk1BemxfTlhyckJoaFdaazhsWThUdVhBU3JSZGQ5R0tUS0hKV0hqN3g1MGVuVjk5d1JwTk1BM2NrbU1faThvRGk5V0h3cm1jNVRobjNObm1SQdIBqgFBVV95cUxPX181eS1OSm1vdTk2LWI1V1Q5a2t3czRmQUdXSVJJU0FwbHVpcUFPVG1QNjVOY1d5N0V5VGtacUl0RmhyZnkyRll6TXl0NEJPZW12V0ZQMG9fdk1BemxfTlhyckJoaFdaazhsWThUdVhBU3JSZGQ5R0tUS0hKV0hqN3g1MGVuVjk5d1JwTk1BM2NrbU1faThvRGk5V0h3cm1jNVRobjNObm1SQQ?oc=5",
+   "source": "Social News XYZ",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T11:19:54+00:00",
+   "ts": 1792495194.0,
+   "category": "buzz"
+  },
+  {
    "title": "Sanju Samson books entire theatre to watch Rajinikanth’s Jailer 2 with teammates",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOclh5d0FZclJVRmR3Uzh5NHpKT1ZKcXJVdDd1NTBsNDJkUDZreE5MUUNaSVFtbVlXeUZLei0wRDlVUEc3YnFfRjZHR0xnejNPWEZkV1VsNkZLRWJoU3ptOWYyaHZlY0pBQ3RMQlk0RWc4cWs3VFhnUGRJSmk2YTVyUXliTkhPeTh4TF9qQnNzbE9keXRsNkpUUVJWZjJkUUFFS1JxS1ZXcC1hV1l5TlVVdGN3S3ByNWNGQjlEVFU4dF8wakdEa3JrOTl4UEZGR1U3eUV1bHlaUVZCU3PSAeIBQVVfeXFMUFNpX3l1cVFYWWZhOVVwVHMzT0FSb3UyUGd0c0FUS3Y5VDFUQnRTcE1jNFZ0ODVpZzRocFFQWHJWWXdSRjJrOWc1dzBKMUFrd0dkTlB2NXdjUUkxUFFTYkEtT3M1VHlMVDloT1kydndoWGVIZlNnLVc4ajdkTUZHMFRKMFUwSFgxdUtQaXRnUC1DaDQtMXd3Ym8tYmNaWUwyVmdDRjZxU3hZTEdlQ3dpRWp1RHVJTVlhSGpEZmpTWVRObll1TXdqU0x3WGNyQ2hxRTVCSGhyaWxEMEhhOFlHckhSUQ?oc=5",
    "source": "The Indian Express",
@@ -307,16 +467,6 @@
    "category": "buzz"
   },
   {
-   "title": "Cosmic Samson, starring Sandeep Pradeep, gets release date",
-   "url": "https://www.cinemaexpress.com/malayalam/news/2026/Oct/20/cosmic-samson-starring-sandeep-pradeep-gets-release-date",
-   "source": "Cinema Express",
-   "summary": "Sandeep Pradeep's film Cosmic Samson is set to hit theatres worldwide on November 27, producer Weekend Blockbusters announced on Tuesday. Besides in Malayalam, it is also expected to release with dubs in Tamil, Telugu, Hindi, and Kannada. The film is directed by Abhijith Joseph…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-20/uuzoevwj/Cosmic-Samson.jpg",
-   "published": "2026-10-20T11:10:20+00:00",
-   "ts": 1792494620.0,
-   "category": "casting"
-  },
-  {
    "title": "Jailer 2 Box Office Day 5: Rajinikanth Film Sets Record For Biggest Monday Collection, Eyes Rs 500 Crore",
    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOR3dJeDk0NjhsUmd6dmdONEhCa1Q0QmxBZElSUXZpWDRCRFNlbHZmUUZSOHhJNUdJX0tsOTFyNWVZb1l6S0pGUk1sTThpYnQwYWZ3bm44Z193bldwZzhkalNjV3JxQ3RVWENfTnBrM2RWQTc3WXFKZmxhb1FPejBQdHB1TUVaYmFLZ1VGYllNb2NhNWJHYzRCb2F3ckpEYmZvTDNneV96UlJaMU1tNjJPS3c1YzhtYkhldFJ0ZVV1OW56S25WTTlUV05OS3QtWWsyYVBCUWY2VjJCRHA2OTdHeXhEQ3V0WDRWUUtwSlh4YjI5ZnlHYy1EOTc3Z9IBgAJBVV95cUxNNG9ndEM1aTBEbFJVZzFhbXI1bnV5YVZJQ1hCa1I4MFg3ZmE4QkFIYnhvc1M1Sjc0dkhfZVZMcHk4U2VOaFBWTjhkb0JReF82OG1JclhybFN2ZXl6ZUlhY2ZQT1Y3VzFHX0hSRVVMcnRzZmNxTE9fbmhLY3oxU0M2eXZPQUNJa0VoX2JPNUs1T0lXeGpkTzFLOHlBc0dKLUplbmliU1BUbnl1SGx1MFhRMkVkWV83d0ZQVGFQYnB3TXphR3RtbDNVY3VFOHV2ODJVdmI5SFlMWGdvUV93WlZhRG1xMzJITnVkZDBvTVFlV2ZKanZzOHVnQ1I1WS1iZUZJ?oc=5",
    "source": "News18",
@@ -324,6 +474,16 @@
    "image": "",
    "published": "2026-10-20T10:46:30+00:00",
    "ts": 1792493190.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Jailer 2 Box Office Collection Day 5: Becomes Kollywood’s 8th Highest-Grosser In India After A Record Monday!",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwTDRRRTYtOWJQMnFtQURScFNxQXk4ZW9zeFVLOWQtMU4zTWYydEJ1T2VKZkJScU0wXy02cERiSmV3aE1mZEoxbC1ZRERjUXRXaGxnd3YxTkxGcGx6aEF6WFR3?oc=5",
+   "source": "IMDb",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T10:43:06+00:00",
+   "ts": 1792492986.0,
    "category": "box-office"
   },
   {
@@ -347,16 +507,6 @@
    "category": "box-office"
   },
   {
-   "title": "Vetri to star in Enquiry",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/20/vetri-to-star-in-enquiry",
-   "source": "Cinema Express",
-   "summary": "Actor Vetri announced his new film, titled Enquiry , through social media on Tuesday. The film is directed by Murugan Rajendran, known for helming the 2020 film Cocktail , starring Yogi Babu. In the caption for the announcement, the actor teased the film's genre by writing, \"A…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-10-20/l8gvu3zz/Vetri.jpg",
-   "published": "2026-10-20T10:03:53+00:00",
-   "ts": 1792490633.0,
-   "category": "casting"
-  },
-  {
    "title": "இராவணனாக நடிப்பது ஈஸி.. இராமனாக நடிப்பது கஷ்டம்.. யஷ் ஓபன் டாக்",
    "url": "https://tamil.filmibeat.com/heroes/yash-says-playing-lord-rama-is-more-difficult-than-ravana-praises-ranbir-kapoor-in-ramayana-185673.html",
    "source": "Filmibeat Tamil",
@@ -377,24 +527,14 @@
    "category": "box-office"
   },
   {
-   "title": "தயாரிப்பாளர்களுக்கு போன் போட்டு டார்ச்சர்.. பணத்திற்காக அலையும் மாஸ் நடிகரின் மனைவி!",
-   "url": "https://tamil.filmibeat.com/news/top-actors-wife-demands-huge-movie-advances-185669.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: திரைத்திரையில் மாஸ் காட்டி, பாக்ஸ் ஆபீஸில் கோடிகளை குவித்து சாதனை படைத்து வரும் அந்த பிரமாண்ட நட்சத்திர நடிகரின் நிஜ வாழ்க்கை பின்னணியில், கேட்கவே நடுக்கத்தை ஏற்படுத்தும் அதிர்ச்சி ரகசியங்கள் கசிந்து கோலிவுட்டையே கதிகலங்க வைத்துள்ளன. வெளியில் கோடிகளில் சம்பளம் வாங்கி,…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/gossip12-88161792489214.jpg",
-   "published": "2026-10-20T09:40:35+00:00",
-   "ts": 1792489235.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Tamil Actor Karthik Sabesh Dies at 37 Leaving Kollywood in Mourning",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX181eS1OSm1vdTk2LWI1V1Q5a2t3czRmQUdXSVJJU0FwbHVpcUFPVG1QNjVOY1d5N0V5VGtacUl0RmhyZnkyRll6TXl0NEJPZW12V0ZQMG9fdk1BemxfTlhyckJoaFdaazhsWThUdVhBU3JSZGQ5R0tUS0hKV0hqN3g1MGVuVjk5d1JwTk1BM2NrbU1faThvRGk5V0h3cm1jNVRobjNObm1SQdIBqgFBVV95cUxPX181eS1OSm1vdTk2LWI1V1Q5a2t3czRmQUdXSVJJU0FwbHVpcUFPVG1QNjVOY1d5N0V5VGtacUl0RmhyZnkyRll6TXl0NEJPZW12V0ZQMG9fdk1BemxfTlhyckJoaFdaazhsWThUdVhBU3JSZGQ5R0tUS0hKV0hqN3g1MGVuVjk5d1JwTk1BM2NrbU1faThvRGk5V0h3cm1jNVRobjNObm1SQQ?oc=5",
-   "source": "Social News XYZ",
+   "title": "Rajinikanth's 'Jailer 2': Nora Fatehi Debuts in Tamil Cinema With Special Number 'Bindass', Full Song Drops at 6 Pm",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yemFMR0RSOGhBRUkyWWZaTkxkM0Eta01oMk1jVEFHTTVXX19iTERDeEJsemFzYWRNYmtENnk2QTdmaVBaamIwSkVRWFNNbVVQRGc?oc=5",
+   "source": "IMDb",
    "summary": "",
    "image": "",
-   "published": "2026-10-20T09:19:46+00:00",
-   "ts": 1792487986.0,
-   "category": "buzz"
+   "published": "2026-10-20T09:31:31+00:00",
+   "ts": 1792488691.0,
+   "category": "music"
   },
   {
    "title": "சிம்புவுக்கு உடலில் வந்த பிரச்னை.. அரசன் படத்தில் திணறுறாராம்.. பிஸ்மி ஓபன் டாக்",
@@ -404,16 +544,6 @@
    "image": "https://images.filmibeat.com/ta/img/2026/10/sttt-71391792487173.jpg",
    "published": "2026-10-20T09:06:53+00:00",
    "ts": 1792487213.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Who was Karthik Sabesh? Inside late Tamil actor's life and film career",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/who-was-karthik-sabesh-inside-the-life-and-film-career-of-the-late-tamil-actor-son-of-composer-sabesh-and-nephew-of-late-composer-deva/articleshow/135066104.cms",
-   "source": "Times of India",
-   "summary": "Karthik Sabesh, a well-known figure in Tamil cinema, has tragically passed away at the age of 37 after facing health complications. His death comes shortly after losing his uncle, Deva, and his father, M. C. Sabesan. He made his debut in 2004 with 'Dreams' and featured in…",
-   "image": "https://static.toiimg.com/photo/msid-135066142,imgsize-165127.cms",
-   "published": "2026-10-20T09:05:17+00:00",
-   "ts": 1792487117.0,
    "category": "buzz"
   },
   {
@@ -435,16 +565,6 @@
    "published": "2026-10-20T08:53:30+00:00",
    "ts": 1792486410.0,
    "category": "buzz"
-  },
-  {
-   "title": "Jailer 2 Box Office Collection Day 5: Becomes Kollywood’s 8th Highest-Grosser In India After A Record Monday!",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UanFZbmI5dGhXX3RLcFFVbFNNY1BPNUdsUklQdDRZQVhSb2pDSGRidnRORmlySnppWUtJNm1TN1RqMkg0YmtsTFpEcS1FOG9qTmtoSWo3S3BJMlV2c3BTUGZtQ2VWYXM?oc=5",
-   "source": "IMDb",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-20T08:47:12+00:00",
-   "ts": 1792486032.0,
-   "category": "box-office"
   },
   {
    "title": "The Paradise to Dorothy: Watch these latest Tamil, Malayalam, Telugu and Kannada OTT releases on Netflix,",
@@ -697,16 +817,6 @@
    "category": "music"
   },
   {
-   "title": "‘Aeroplane,’ new song from 'Scene’ is out; Suriya and Nazriya Nazim starrer track is an energetic romanti",
-   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPaVpSU3U5aWdhcnFmRUFCeC1kY3dEczZGQ1pxcGJxcXkxS28zMnVnZm9pRXlCalBkZTR5UFRnYTdSd1VEcFpKSWROMTY4b09VNzFIUFVibktYOEhxeEdXanktWTh5cW5YaVB6ZkN3RnUtek1CQXpqaXVfQmdsZGtaV3ZoNU5PclFCcXA0bzdacnlRYnhhVDNVYjFLakVSbE9qUDZJR1g4Q1Q3ZlF0NGVPN2xIUGpIdlk5bFNFYTRBRkdkd045YW92U1JSV0FGTkQ4UHJ2NHBfU3BHMW5rUTB1VEpuNXdSRDNHRGJoc05CRS1ranNybDZnOGtTeVdXS1NocE9EeGszcFZiSHZzVGljVlZfTFlNVjRGUmpNOV9KdlFWS0hxS3NEStIBrgJBVV95cUxNNlNsZjA0LVhhRUdTOU1ydDNtZndYZXJYMjl6dkhRWHkyTm1pYkttSk5TYWNJRmRSV09HSkFNNndJblM3MlE3bVlPZXRlZ1ZIaTdWOVVLZnlya2dTQmRkOUdUWWVGQklaLUxha3pUYnFZcVJOWWNrOEZLZVpUNkNreG9TbDJENFZZOTFfSk1CbVpIWmpBdi16QTZnMWQxQzFON2VJTmctUXFCZXVkc004Rm1KUjh2X2NzdkstS0U0RzNuUF83enF1R3c2UTVlLVZ5dGtfV0pxTjVmVVZsMmhFSEVadmowb2RvdnhLNWdOMlYyRTBjR3VJb19XS2YyZGd6bGdFQlFOLXBzY09kcE1mZUZYVGJydUtrejczbXlTOV9qMno3RFh1c0N5Y0VQdw?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-20T03:57:00+00:00",
-   "ts": 1792468620.0,
-   "category": "music"
-  },
-  {
    "title": "வடிவேலு கட்டிய புதிய வீடு.. உள்ளே செதுக்கிருக்காரு.. வைகை புயல் வேற லெவல்",
    "url": "https://tamil.filmibeat.com/news/vadivelus-new-house-100-crore-home-with-traditional-design-solar-panels-and-modern-facilities-185639.html",
    "source": "Filmibeat Tamil",
@@ -757,16 +867,6 @@
    "category": "buzz"
   },
   {
-   "title": "Jailer 2 Box Office Collection Day 5: Rajinikanth's Film Retains Hold On First Monday, Mints Rs 242 Crore In India",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPc1RaYWhWcXBKeUZHY2VLUE5iQkpTSV82TldoZXZ3eVptYnVJbXB0R2FMU21LenpDOHBMUkZKQ2dYMXVlMjJIVkhFdFBwZG5HVk9ndjItMXBrRDNZejdraEJnUXlFMDdkY01zNFJtSlpvalhoX3Q0SWo5Q2lheC1Kb0VzcVVzSUFQVDIzRUdNdGNUdnROMHFmZ1ZudXJqZWNGVnVwM1BxZk1udFg0NElHMzEwQjV6dnFGc1pUbDloV2NaQUFmS25hdmlBQ3FaZTB2bmZ4SDN0d0xic1VvLU10NWFrWE5kc2NRZGxHRWlaRWh4S03SAfMBQVVfeXFMT3NUWmFoVnFwSnlGR2NlS1BOYkJKU0lfNk5XaGV2d3labWJ1SW1wdEdhTFNtS3p6QzhwTFJGSkNnWDF1ZTIySFZIRXRQcGRuR1ZPZ3YyLTFwa0QzWXo3a2hCZ1F5RTA3ZGNNczRSbUpab2pYaF90NElqOUNpYXgtSm9Fc3FVc0lBUFQyM0VHTXRjVHZ0TjBxZmdWbnVyamVjRlZ1cDNQcWZNbnRYNDRJRzMxMEI1enZxRnNaVGw5aFdjWkFBZktuYXZpQUNxWmUwdm5meEgzdHdMYnNVby1NdDVha1hOZHNjUWRsR0VpWkVoeEtN?oc=5",
-   "source": "NDTV",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-20T02:50:54+00:00",
-   "ts": 1792464654.0,
-   "category": "box-office"
-  },
-  {
    "title": "Everyone Has a Failed Romance: Tamil Cinema, Live Music and Heartbreak Take the Stage in காதல் தோல்விகள் (The Failed Romances)",
    "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPS1phcmhkNnUzYnJoTFBMc1FVdE9DaVRnekhxSGVOT1BWRnZjQTJPalJnaHpJVFhwYUx1VUlDOEUxdXRZeS1pY3lGNkFfRXdrSEN4cjZnVU1tWEZjZF9oMkZrd2dXaXJFOFRhbjdKSm9pcjljdy1ROUZvVW1weU5ES2M4NHl6SGZzOWItaUcySy1WYXFRb01lM05rUTBxWWJoWXh1Vng2OGVId0hRSEJFQnZZWnFGa1k5d0JUMnZjWlNpdE84YzhsbFozbHVPVjliWUVMZGRhMzlJa2VINzNtYjVocmxiMm9zdGFDT3gzNGhiZnZnQ2I3N3pfSXV5azhSY0J0ZWhGdGl5aDJQckU2bUdCeTJtVERsamo1Sl9ZaU9lNHdZR0cwVGxjSUpzb1NXb1NiTjUxcVN1WEVuV0QzTUhoOUk?oc=5",
    "source": "Varnam Malaysia",
@@ -807,14 +907,14 @@
    "category": "buzz"
   },
   {
-   "title": "சின்ன சின்ன VFX தப்புகளை பார்க்காதீங்க.. ராமாயணா படத்துக்கு முன் ஜாமின் வாங்கிய யஷ்!",
-   "url": "https://tamil.filmibeat.com/heroes/please-dont-try-to-find-small-faults-of-vfx-in-ramayana-yash-open-speech-at-pre-release-event-185631.html",
-   "source": "Filmibeat Tamil",
-   "summary": "ஹைதராபாத்: நமித் மல்கோத்ராவின் பிரைம் ஃபோகஸ் நிறுவனமும் யஷ்ஷின் மான்ஸ்டர் மைண்ட் நிறுவனமும் இணைந்து பிரம்மாண்டமாக தயாரித்துள்ள ராமாயணா திரைப்படம் வரும் தீபாவளியை முன்னிட்டு நவம்பர் 5ம் தேதி திரையரங்குகளில் வெளியாகிறது. தங்கல் படத்தை இயக்கிய இயக்குநர் நிதிஷ் திவாரி இயக்கத்தில் 2…",
-   "image": "https://images.filmibeat.com/ta/img/2026/10/yash-74031792462038.jpg",
-   "published": "2026-10-20T02:07:50+00:00",
-   "ts": 1792462070.0,
-   "category": "buzz"
+   "title": "‘Jailer 2’ box office collection day 5: Rajinikanth’s starrer crosses Rs 400 crore worldwide on first wee",
+   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQQUo3TDZCdVoxdE9JMm5RMGpFa0dyazR0SkY0SDZFSVlsTjVZMWlhTWc1eTVtYllzWkZDbkxCWDNFZnhGRndYRXFNR0RjQ0dUTi1xVnRkTnBET1BuNVE1MnF5bE1qTW0xSFkya3AxbTdfbGZubUNFbEJFS2lVbzhUaUx0a3hYVDQ3SzVPS3dGS0FkYWEzd0pXblVUNU1ncVcyMUVLeVozeUZEaDZieHljWkdGRHNBYzB4cTFIODRCczZGUTg3WDlySlV5RExmZ0JFZjFxR3gxN3E1ODMtcGM3Z1dzNmZ4M0xFeFJ1cUR4WHBlcGlId0hqOF9ndmRaYUQ3WWVtR19JalpLRU1aOFFmTloxTERnejI0dkR5eFd4dzJydWxXQU5oeHRMeVliV0xkdWkweUFabnlHVWRxRy1tZ3BVc25ZMndOQjFSSDhZMFlQd9IB1wJBVV95cUxOX2p0UW50bEtWc0dtZXFDODc0YlZnYlJMcjIxbjlDRUk0N3VieS11LWNEbW1ydTJHM25TUDk0eEJhVWJfaDQ3MnI5ZDhnZnRTUDRlZC1wVGFabHdIYW5PX0lUQURicmhQbUhnRjBMbm55enFSeEhDN2lqN2RTcVprMUtSOFZCd2dxUzBkQ3NKNGhHOFpjeUlUZXE4a0hmdmdKMl9BX1hnNUtVVHk1MzRuVGJ5VW43LUpQWWRTeE0tWFFWOW1VNlJxX21fLXhMQTVuV19xSHpxdnpjQl9kXzFac19YYnZublVnSGhKOG9rT05pZXNpSVZSNkR2aHN1c2V0X3BwLW1veWI0aXl1OVhiYzVoQTVUSWFRV2QwRlo5RzlYRWFKb2o5bWk2ZHllczdER09aRk41V2lLcWIwNnUxcXJTaG11TC0xbHBnekVnWVhWbVE2amhv?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-20T02:22:00+00:00",
+   "ts": 1792462920.0,
+   "category": "box-office"
   },
   {
    "title": "Jailer 2 box office collection day 5: Rajinikanth film scores biggest Monday in Tamil film history, crosses ₹240 crore in just five days",
@@ -844,16 +944,6 @@
    "image": "",
    "published": "2026-10-19T15:15:57+00:00",
    "ts": 1792422957.0,
-   "category": "music"
-  },
-  {
-   "title": "Suriya’s Scene Second Song Aeroplane Released – Jithu Madhavan Film Set for November 6 Worldwide Release",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zazFLeUt5LWRiRTRLUEhWaG0xTlU3dHhUU2pWS1RhVll0dVpMU1YtbVB0YU94bkh2cUw5UnhqT3J3SDN2dF94TXh2ODVicDltODQ0VTFXZi1DbDBLRGttcl9KM3VBNTZRUHluc2FpX0dzd9IBd0FVX3lxTE5CaTQ3UThvbDFNSmlnSUE2R3dxZ1JLb00yRjEtNk9vRlJva1o4R3lqZGxpNlB2a3RNd1k5cmU5c0tsMmJnZW5kYmtGOTVsQjZyM3lMTzY3bFB4Q01nWElXZ0MwdUU1WGpxUGRWcmFrcEZyRFRuc2ZZ?oc=5",
-   "source": "Kerala TV",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-19T13:26:49+00:00",
-   "ts": 1792416409.0,
    "category": "music"
   },
   {
@@ -947,16 +1037,6 @@
    "category": "box-office"
   },
   {
-   "title": "Jailer 2 Box Office Collection Day 4: Scores Kollywood’s 2nd Biggest Opening Weekend Ever, Becomes Highest-Grossing Tamil Film Of 2026",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YRWNRQ20zcW5BZ0V6enNpZzJWNEJhdUFIU3BENEhiN2RBNDd4UlZKNkV1ME55dEpqM2FLZmVFOVdLYUZUTUg1YXpJNkRzMDNwQU5xUGtveVlTOUQ1OURwV1UzR0dfbms?oc=5",
-   "source": "IMDb",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-19T08:03:10+00:00",
-   "ts": 1792396990.0,
-   "category": "box-office"
-  },
-  {
    "title": "3 Years of Leo | Hon'ble CM Thalapathy Vijay | Lokesh Kanagaraj | Trisha | Arjun | Anirudh | GVM",
    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rbHBJVjBWMHhGMk5zMmlkNWpXY1R1Z3A0ZjNkSDF3X2hBbXpKVld1Z0xkX1h3TnRJYzdacUl4ZHVTdw?oc=5",
    "source": "YouTube",
@@ -984,36 +1064,6 @@
    "image": "",
    "published": "2026-10-18T16:33:41+00:00",
    "ts": 1792341221.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Jailer 2 box office collection day 4: Rajinikanth film records bumper opening weekend, inches closer to ₹200 crore",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/jailer-2-box-office-collection-day-4-rajinikanth-film-scores-bumper-sunday-crosses-190-crore-nelson-dilipkumar-101792331950024.html",
-   "source": "Hindustan Times",
-   "summary": "Jailer 2 box office collection day 4: Rajinikanth returns as Tiger Muthuvel Pandian in the sequel. The film received positive response from critics.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/19/1600x900/logo/Jailer_2_ticket_1792376430959_otxl_1792376431130_lwaG_2b1c0173-ccda-430b-a52e-bc7108ce831f_jilD.jpg",
-   "published": "2026-10-18T14:27:30+00:00",
-   "ts": 1792333650.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Nelson Dilipkumar thanks audience for the phenomenal love to Jailer 2, says theatres are going bonkers for Rajinikanth",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/nelson-dilipkumar-thanks-audience-for-the-phenomenal-love-to-jailer-2-says-theatres-are-going-bonkers-for-rajinikanth-101792327956047.html",
-   "source": "Hindustan Times",
-   "summary": "Nelson Dilipkumar and Rajinikanth's film has crossed the ₹320 crore mark in three days of release, becoming the highest-grossing Tamil film of 2026.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/10/18/1600x900/logo/jailer_1792328109206_sWNA_1792328118665_2QLR_8c033ee8-3014-4a42-a6b9-0f74f3fbedee_BmRP.jpg",
-   "published": "2026-10-18T13:09:45+00:00",
-   "ts": 1792328985.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Bigg Boss Tamil 10 Preview: Vijay Sethupathi Grills Ansar and Muniyamma Over Jail Punishment",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNM1NSalpEYmkwaUJtVHhoYUtZemZZUThPcWRYM3daSEM5YXc5VjZBY0Y0Y0dMYUMxY3M4ZzFGNUpxRDVneGdKMlF6MXJfZ0N0UGNjYks1SnNxOVRrUzNkbTRteXhLLWhsclM0WWRXYzFFV19WU1NObHdvMDAwQTZDZVpMbTF1aGlNZHNlbTl1bjF1ZlNUV1hoenBNdURkSUlnTDBfcXNYV3hNb2tXc19adVJYanZoSUxiOWh0ZFhMeHVKdkY3U2djSzl4NTRJQkJ1UjNOekRFVzlWLUpkVnM4QkctdHBUMTJXX3ZuYUlQMnZNdVNVaHZoVVpBY9IBgAJBVV95cUxPOUpjamdSRkRZLVctTTNaelZ5VjI1QUxfVXFVck5DUVRaSEdPNjJZWnI2YTdlS1U0RVRxZWE1dGZwWlNEd2lHSjExb05FZjlCU0lfc1h4dVE3bEFQd3k4c1hpRG0weUZEd3VmWDc3cjZNOFZfRnRqZnZQemowNzE0anZWbjhUTVBwSlZXZDQ0Ylk1bk5NaXNaRGhSdTZFanF1VWV1aHUxYzdjeXI2ZWFDNXpmNW8wQmxKd2VRLWdKV21udkNIQ05hQTR2NFlxaFFVWkcyNGY1T3JHTm1VSE9vajBrVzRuOE81S08tSGpTLTQ2SmlaaGJIMG0ycGZaTkhJ?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-18T12:27:00+00:00",
-   "ts": 1792326420.0,
    "category": "reviews"
   },
   {
@@ -1047,14 +1097,14 @@
    "category": "ott"
   },
   {
-   "title": "Jailer 2 Box Office: Rajinikanth's Action Blockbuster Crosses 300 Crore Worldwide in 3 Days, 3rd Tamil Film of 2026 to Achieve Milestone",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRjExZHRrQTZNd19hUjJvRWM1MnZMelNMNTh5YXJPN25ZT2xCdFFRYUF6blNEVktyMTZxaGhZSjZLa3JfV2JkUi12RHZ3d3BIMk1NVk5fOWRZQ05Xd2V5TFBhZ3Fwd0tlRjFuTkVRQVVKVDZhZkV4VFpFUEx5SmhNNElVbWN3VEh4OTlBMm5RNC1oeXlTQ2hYNlpPa0lGT2RobDQwOHhBbDctVXd6TU1vTWhVcjY4QV9LYmJkVEFNeDE2b0lkMU4yUW5RQkEtbTBadkM2NEZNV1pIMG5kWldHajhTNk41SHkyRW5LNVB6dWlaRVJ3?oc=5",
-   "source": "Sacnilk",
+   "title": "New Tamil Dubbed Movies 🤯 Jiohotstar, Prime Video 💥 OTT Release 🍿",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE51MjhtNGxFb0ZfSF9kYXdwbUhSQWRjRno1QWJxWl9hSkVLR0FfbHZLN2pGOFhLZGl4dHV0dTVOR1B0dw?oc=5",
+   "source": "YouTube",
    "summary": "",
    "image": "",
-   "published": "2026-10-18T05:15:59+00:00",
-   "ts": 1792300559.0,
-   "category": "box-office"
+   "published": "2026-10-18T05:08:26+00:00",
+   "ts": 1792300106.0,
+   "category": "ott"
   },
   {
    "title": "‘Jailer 2’ movie review: Rajinikanth’s flourishes elevate Nelson’s rousing herogasm",
@@ -1177,6 +1227,16 @@
    "category": "buzz"
   },
   {
+   "title": "Jailer 2 reportedly grosses Rs 125.25 crore worldwide on day one",
+   "url": "https://www.dtnext.in/entertainment/cinema/jailer-2-reportedly-grosses-rs-12525-crore-worldwide-on-day-one",
+   "source": "DT Next",
+   "summary": "CHENNAI: Rajinikanth-starrer Jailer 2 has reportedly grossed Rs 125.25 crore worldwide on its opening day, including Rs 70.25 crore in India and Rs 55 crore overseas, according to reports. The film is expected to cross the Rs 200-crore mark worldwide over the opening weekend,…",
+   "image": "https://media.assettype.com/dt-next/import/h-upload/2025/01/17/854538-website-layout-1.jpg",
+   "published": "2026-10-16T06:29:11+00:00",
+   "ts": 1792132151.0,
+   "category": "box-office"
+  },
+  {
    "title": "Remembering Singeetham Srinivasa Rao",
    "url": "https://www.thehindu.com/entertainment/movies/remembering-singeetham-srinivasa-rao/article71542999.ece",
    "source": "The Hindu",
@@ -1215,26 +1275,6 @@
    "published": "2026-10-15T10:56:00+00:00",
    "ts": 1792061760.0,
    "category": "buzz"
-  },
-  {
-   "title": "Narnia: The Magician's Nephew - Official Tamil Trailer",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRG55QWwyTHp4WHVrSEVLZW9JNHBXSWNTVDlxeTA5NGlFbHY1STdzUzBoNENQM2lRS05VM2NQSURzMTVnM3JrSDg1SFMxbFh3QkhXUW9UUmtlM1hVa1JXbnRQQUpaSTQ3b3Z5b2NQN3JOZEM1bnFIUVhYenpXbmJnZk50U1NZdXNVX1kwcTJDd3BBYUV0Uk1GYm1rcXQzcHVES0tWT3dOTmp5UjQ4ajNxYjVCRlgxRDE2cDNvTFdiMzdIU1A5YUE4eU8yd2pCeXl1ZDBnc3lFQzlDV09CeG1V0gHkAUFVX3lxTE1GMWl5a1ljX1d3eC1ZVnZ4TEVRT084R3J5OUFEN1dPUlVHZ0VtSHYyV2dDWFRFY2ZPV0N3SGdSbk5Lc0UzSTRYa0NqTV9VSVZDclpqRm02ZUktbEl3RjhlYVdPNE5fYmZwSDA0VnYzSWlma21vemJQblpUTWlwbkFDU0d2NzFoeW8zQ0k3aVI5X19kbnF5aEYwaWphU3JRVmQ0Wl9wbEM4d2dJSVZrelduRVp4Y2lXakpLQmwyUnpKRHNOWkhNZE9TTXdlR0oxWFBEd3JjMEhOZWQwQnB3Wm9HejIwcg?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-15T10:16:09+00:00",
-   "ts": 1792059369.0,
-   "category": "trailers"
-  },
-  {
-   "title": "Jailer 2 Movie Review: Rajinikanth, Nelson deliver a satisfying sequel",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU0l2ejdvTkR6YTNDeVNVY0p1SjZsa2FoZzd4TXUyWlZxOVJmYTc5R2VtcnhLX1UyU1B3eDZ1ajREaHE4bHRuTGEzcmJOSUN1ZmNhUTQwMDJhck9TWm1sQk0zQzczSWdjN2kzd1l1YmU4YUJLS2FDS3F4Z3Q0M0dKSzl4UWJaTG03WDdORUFneGpEMjluWVNnSkRiamYwTWdiZ25EUTNWdELSAa4BQVVfeXFMUEtXRFlTaFA4bjdwX2QycW51MzNPbktKQzk0ZFRqQ29fNjZFYUE3QjV0NUdLQkVHUFgyN0QtcmRsQTY4Zk5UakdRYURzX245TWNYdi05S3hKQnhWSU1HM3N0S2NGX0hJeVU2Uzh0dTJSamtrRXhQLXBObFBrTDAwRmdrZ3VDUWRYa2h4N0pHb0tWVHEteHRTS19tX09xck0ySFpQZ0pvNUZQeFBCMi1B?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-15T07:58:00+00:00",
-   "ts": 1792051080.0,
-   "category": "reviews"
   }
  ]
 }
