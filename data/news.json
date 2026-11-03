@@ -1,42 +1,43 @@
 {
- "generated": "2026-11-03T18:56:11.385917+00:00",
- "count": 104,
+ "generated": "2026-11-03T23:51:20.423161+00:00",
+ "count": 100,
  "sources": [
-  "123telugu.com",
-  "ABP Live English",
+  "Asianet Newsable",
+  "CineJosh",
   "Cinema Express",
-  "DT Next",
+  "Daily Excelsior",
   "Daily Pioneer",
   "ETV Bharat",
+  "Filmibeat",
   "Filmibeat Tamil",
-  "Herzindagi",
   "Hindustan Times",
   "IMDb",
-  "India TV News",
   "Kerala TV",
   "Koimoi",
   "LiveChennai",
   "M9.news",
   "Mathrubhumi English",
+  "Moneycontrol.com",
   "Movie Crow",
   "NDTV",
   "NDTV Profit",
   "Newswire",
-  "Only Kollywood",
-  "Outlook India",
   "Pratidin Time",
-  "Rediff",
   "Sacnilk",
   "TeluguOne",
+  "The Daily Jagran",
+  "The Hans India",
   "The Hindu",
   "The Hollywood Reporter India",
-  "The Indian Express",
   "The Times of India",
+  "Times Now",
   "Times of India",
+  "TrackTollywood",
+  "Vi",
   "newskarnataka.com"
  ],
  "images": {
-  "total": 46,
+  "total": 43,
   "scraped": 23
  },
  "feeds": [
@@ -46,7 +47,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.06
+   "seconds": 0.14
   },
   {
    "name": "News18",
@@ -54,15 +55,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.13
+   "seconds": 0.18
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 1,
+   "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.25
+   "seconds": 0.44
   },
   {
    "name": "Hindustan Times",
@@ -78,7 +79,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.1
+   "seconds": 0.12
   },
   {
    "name": "The Hindu",
@@ -86,7 +87,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.08
+   "seconds": 0.44
   },
   {
    "name": "Filmibeat Tamil",
@@ -94,23 +95,23 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.08
+   "seconds": 0.2
   },
   {
    "name": "DT Next",
    "url": "https://www.dtnext.in/feed",
-   "items": 1,
+   "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.24
+   "seconds": 0.23
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 4,
+   "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 0.22
+   "seconds": 0.16
   },
   {
    "name": "Google News",
@@ -118,7 +119,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.54
+   "seconds": 0.33
   },
   {
    "name": "Google News",
@@ -126,7 +127,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.33
+   "seconds": 0.49
   },
   {
    "name": "Google News",
@@ -134,7 +135,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.4
   },
   {
    "name": "Google News",
@@ -142,7 +143,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.48
   },
   {
    "name": "Google News",
@@ -150,7 +151,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.53
+   "seconds": 0.44
   },
   {
    "name": "Google News",
@@ -158,7 +159,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.44
+   "seconds": 0.4
   },
   {
    "name": "Google News",
@@ -166,13 +167,17 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.36
   }
  ],
  "trending": [
   {
    "term": "Jailer",
-   "count": 17
+   "count": 18
+  },
+  {
+   "term": "Box Office Collection",
+   "count": 10
   },
   {
    "term": "Suriya",
@@ -183,27 +188,27 @@
    "count": 9
   },
   {
-   "term": "Box Office Collection",
+   "term": "Mookuthi Amman",
    "count": 8
   },
   {
-   "term": "Mookuthi Amman",
-   "count": 7
-  },
-  {
-   "term": "Rajinikanth",
-   "count": 7
-  },
-  {
    "term": "Nayanthara",
-   "count": 6
-  },
-  {
-   "term": "Baththa",
-   "count": 6
+   "count": 8
   },
   {
    "term": "Chennai",
+   "count": 6
+  },
+  {
+   "term": "Vijay",
+   "count": 6
+  },
+  {
+   "term": "Rajinikanth",
+   "count": 5
+  },
+  {
+   "term": "November",
    "count": 5
   },
   {
@@ -215,28 +220,44 @@
    "count": 4
   },
   {
-   "term": "Vijay Sethupathi",
+   "term": "Kollywood",
    "count": 4
   },
   {
-   "term": "Rajinikanth's Jailer",
-   "count": 3
-  },
-  {
-   "term": "Scene Trailer",
+   "term": "Releases This Week",
    "count": 3
   }
  ],
  "articles": [
   {
-   "title": "Nayanthara seeks blessings at Kalikambal temple ahead of 'Mookuthi Amman 2' release",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQV0N0NDlfcFp1QTZHMHNfbUo4dDBRTmtBcGxHUkhONVJoUlZoMWZIRFNWMHVDM2pwTG5idHB2YWd6TzUtdHY1NkIwVlVKLUVBTkI1YTBpVi01dHdOTV8ybWhXZWtJTEJYWGVJS19ZeDVQdHdURFg4TzlxUXNMSmJ6TmI4ZS15c3htNW9BQVFJdlJfN3R0aUdESXc4LUlMaFRvczZLbEd6NGo3eTZKeWh2Y3p2ZmZId0hyVVhlb0ZCQWx2ck41UmdjMjBSamU2Y1pzM1ItZUdyQkJGQlFsRWZ4VURKaGpWQ0pVbFI0S05HTXVRNVFqU0tGeg?oc=5",
-   "source": "Rediff",
+   "title": "Nayanthara seeks blessings at Kalikambal temple ahead of Mookuthi Amman 2 release",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeXlKMjV5aWRBLWJEWTZVdzRUU3prREl6NUplQ0s2dGoyMWo2dHdILVhQZ1ZaVlVBc3dIQkZwTl9EczlqNXV4NGtmZ1FNMkNCX0tJTDgyUHN5S1JWT2J5S1otWTVRbExmaVAtckNVczJ4QlBxV1c3UnQwbDQ2LUlDR3p0dnhueFVrQU9id09hMTlrRXVCVmw5S2JXdTNfbFJac1JjRmpBUFBId19KREFxZnlmQdIBtwFBVV95cUxQRTdOM1N4WWxCMThfZXEyaC1jczlUalg1ems4TmZBNlpENmFhaHdrSlhMNlFUNk1GUzc2LVF6R2hPZnJ1bDVKRVl1MFpxUTVXNnBXM3hRNGhZVE1UVDkzUE1Fa29UNmJLU3YxRTJZbE1mcWdzTThObExKWXU0Z0NSeUZJa3V3N1RLNEd5U1Z5amZ1TWliZWZnUnBzZGl6VGVLSjFMM0E4SzVmV0JKRDQtOEpLd1AzMEE?oc=5",
+   "source": "Daily Excelsior",
    "summary": "",
    "image": "",
-   "published": "2026-11-03T18:04:14+00:00",
-   "ts": 1793729054.0,
+   "published": "2026-11-03T22:46:36+00:00",
+   "ts": 1793745996.0,
    "category": "buzz"
+  },
+  {
+   "title": "Jailer 2 Box Office Collection Day 21",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNckxWampPQmx1Sl85WVp5T3pUc190RG1ZT2xMRV9xRDh4SzFwajdFNWtlT3Z2a1o3cGprcGlPNk1mUXJQZ3NTS1BrVWdzNEFEZkxUX2FRMlRDTDRWaXBuVldQcWhTVGlDVlI4c1VMOU5zQkp6Y25fM1FhLWxLTWJlUW1n?oc=5",
+   "source": "Sacnilk",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T20:05:00+00:00",
+   "ts": 1793736300.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Jailer 2 OTT Release: Rajinikanth's Film Beats Chhaava, PK; Check Its Box Office Collection So Far",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUTB1Q0g1Vlp0NmZWdWdOSWhoVnYzNnJNY292MTJTczlFOFowZ0xFTG52QnY5Zi1yVjBpTVJZWDJzTGJINTZfbk94OUExbG1MV2N2UVpFZTg1YUxRcU4tLW5lekprYXd3VlFNNmU3THlENHhDYkdyYzk3STU2VndXQVNDbXA5Z1NXamhGS3Y4c1BkckQ2X25uclIyOTRMVkpTNVUxbzFSd0stNEp4NlRoWGZkcm9MMWF5ak5zT19yYl9mVzY4ZTRFeVVYZFpDWVYxZmpTVGhCYW9FYWc2SEpLRUgyaUtOeHPSAe4BQVVfeXFMTmQzdl9aRFBRTndWU3pUbTFweUZwaDliOTIzSUVtMnBaZ1ZsTGlwTzJqeHN6NklJa21NZU51NnYxcmZCX2VCelg2TWFRbVN2QmhYMkcyeU96QVhfQVBhUkNnc0F6d2ZrQS1fR0E2anRmRzlubUhac3pBRHRjeGo4SE80Q1BLWUNSUHhhZjBzSTVHUE8zbjJPMVhCakEwdlFSUXFHd2s0ZWRBeDhxeDRzdEVwZEJ4cXV2MHVKMlNpMkZsMFlPLWROUk85bk1YdWVValp0RDl2Z194LWVqVTcwOEYzS2tFcUFoWFkydzlOZw?oc=5",
+   "source": "The Daily Jagran",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T18:24:00+00:00",
+   "ts": 1793730240.0,
+   "category": "box-office"
   },
   {
    "title": "Jailer 2 Box Office Collection Day 20",
@@ -259,13 +280,13 @@
    "category": "box-office"
   },
   {
-   "title": "Producer Vijay Donkada: Happy that Paradha is reaching a wider audience",
-   "url": "https://www.cinemaexpress.com/telugu/interviews/2026/Nov/03/producer-vijay-donkada-happy-that-paradha-is-reaching-a-wider-audience",
-   "source": "Cinema Express",
-   "summary": "Paradha , starring Anupama Parameswaran, Sangeetha, Darshana Rajendran and Rag Mayur in lead roles, with a special appearance by Gautham Vasudev Menon, was released on August 22, 2025. Produced by Vijay Donkada, Srinivasulu PV and Sridhar Makkuva under their Ananda Media banner,…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-11-03/n064ul2b/VijayDonkada.jpg",
-   "published": "2026-11-03T15:36:56+00:00",
-   "ts": 1793720216.0,
+   "title": "CM Vijay’s Blockbuster Gift To Filmmakers!",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51M1RYc1NKcmNoeHJEeE56cEFmZ3RQaklwNVVVa21NcHRaYVhUcGFWT2RCbDFwZEgwRTZaeER4ekZ3MFNwU19hVzlSR3NYMmRLTFFtT3dxSjFfMjRqYUJ4X2hLc09oV21WalNWN0dJZzl6QUFnLUVoeHpLb090alHSAYQBQVVfeXFMTmtpTkJDMnBwUlZkOXk4aDVDNzhzbWgwckRFSVZubk5pN2w4YU9JdC1zdXlkbjVFODB4SzhfeWY5R3NjSUQyZ0pYU0I3U05jQzVobmlDX2RpZjJHRzdNNDgweDhpOHBla1NMZlAzYklwbDNqbVNwSkVXOXFtckdoQ3E3S3gz?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T16:34:34+00:00",
+   "ts": 1793723674.0,
    "category": "buzz"
   },
   {
@@ -339,16 +360,6 @@
    "category": "buzz"
   },
   {
-   "title": "Liked Vijay Sethupathi's Baththa? 5 Other Movies Featuring Adult-Child Protagonist Duos To Watch On OTT",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQd1diTzBJbW1xU1hyamVHLWlHYjM1N09ObTlmSE5abzQ3d3VCQ2otUjVWVkpoZmVESGxVZUxvM21sTWs2bTRxZTJBdUpCa1pqZ2Nldl9OdGlMMjRWcUlWYnU5RmVZZ3JrVEZVb18xajg3cVVKX2FXalZlNXFvdlcxNER3dGdzMHNzRV9kU0xZdGo4ZjBhSy1UYUt6czhsVXJmbWlFaVF6dFRTLTVyTUlaTXVscmtyalJNdVZkeldVOVZwTU9qcFZVeUtxRUNEeURkQUhhMzl2Qk83MzhXRWwtYngtVnhTb3VzTFHSAe8BQVVfeXFMTURNckhKZVFDbzVnLXRGRHF3RUZic3U0eUkwRVBqRkJMVC1WSXJpc2hZMTRKV050TDFwYWQzek90SlZYcVU2X2NQWldkeGUyREVSOWRDRl9FbnpCa1ZiSUF5cnlVQnJZdDgwVTBUVGpwNm44Umd0aElvMFFuS2xjQWU3YkdNVl91bkxmbWdYMHAzcTFiTXhLMGxDYTJpM1hOeG5nUGVNQ0FrU0FOSEpoWm1wbW1zZ0lYY2JnUjdYU0pwTGtaV0ZCRGRVZ0hwWmh3NWtxQUs1NTdNNFlFbHN1cnU4ZU5lNElWY0JSTlNWYVU?oc=5",
-   "source": "ETV Bharat",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-03T14:14:08+00:00",
-   "ts": 1793715248.0,
-   "category": "ott"
-  },
-  {
    "title": "Suriya hints at Rolex spin off as talks with Lokesh Kanagaraj are still on",
    "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/suriya-hints-at-rolex-spin-off-as-talks-with-lokesh-kanagaraj-are-still-on-says-villain-is-better-too-many-heroes-have-happened/articleshow/135502705.cms",
    "source": "Times of India",
@@ -389,26 +400,6 @@
    "category": "buzz"
   },
   {
-   "title": "Tamil Nadu govt allows six shows in theatres for new Tamil films during Deepavali",
-   "url": "https://www.dtnext.in/news/tamilnadu/tamil-nadu-govt-allows-six-shows-in-theatres-for-new-tamil-films-during-deepavali",
-   "source": "DT Next",
-   "summary": "CHENNAI: The Tamil Nadu government has permitted theatres across the State to screen up to six shows a day for newly released Tamil films for seven days from the date of release. According to a Daily Thanthi report, the government has also allowed six shows on local festival…",
-   "image": "https://media.assettype.com/dt-next/2026-11-03/llwneckt/dailythanthi2026-11-036tbb97e76.avif",
-   "published": "2026-11-03T13:51:53+00:00",
-   "ts": 1793713913.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Tamil Nadu government permits 6AM shows and six screenings for new releases",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORzZRY3pCZnBWdXp2WWNHSDBVMk5UdDZ6OXhlUEhpdDVoVVp6MkktSmF5aTcwVEJFNWo0cGRPWVhNaUdJLU9fYWx3MFVrVzJpVGRvNVRZQkJ4UEdpendTUFBRckoyVzVENlB1bjFRTE5IWjJ3TWhPRXdWV1pMaXZGODVQeC1XWmpaSjF0bHRCV0dDazVscmIxZFBWdTBKVklqTmctOGp4TjFqTU4ySEE00gGvAUFVX3lxTE5HNlFjekJmcFZ1enZZY0dIMFUyTlR0Nno5eGVQSGl0NWhVWnoySS1KYXlpNzBUQkU1ajRwZE9ZWE1pR0ktT19hbHcwVWtXMmlUZG81VFlCQnhQR2l6d1NQUFFySjJXNUQ2UHVuMVFMTkhaMndNaE9Fd1ZXWkxpdkY4NVB4LVdaalpKMXRsdEJXR0NrNWxyYjFkUFZ1MEpWSWpOZy04anhOMWpNTjJIQTQ?oc=5",
-   "source": "Only Kollywood",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-03T13:50:02+00:00",
-   "ts": 1793713802.0,
-   "category": "buzz"
-  },
-  {
    "title": "Jailer 2 becomes the new Tamil Industry Hit",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU2VnWnZFMHUya3dHU1VFYXprRFhEX2xweUl2ZVZzeGczbVdFeHBVYzl6NmJNZExyR0doSFZtLXRORFZnVWU3YW1EVlZxX2hKM0ltd3BvNVVGMm9qUnpQOFJScXp0emJGN2s1V25IelNleWlFVjJ3Ukg1azVCNWVJYkJzY1NMb254cy1kUUFDTTlrRzBfUE1yc2lMY2Q?oc=5",
    "source": "TeluguOne",
@@ -416,6 +407,16 @@
    "image": "",
    "published": "2026-11-03T13:45:52+00:00",
    "ts": 1793713552.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Train Movie Poster & Photos | Train Movie Location Pics | Train Tamil Movie Location Stills",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sQTNRVlg2dEk1Tkw5RHNqTnlEekRiUzBYemgtVS1MNlNPMUZMRm10RFlOSC1UZUcwTk9VNEVsNEh2WnRXRlk2NXc3WS05aXB0TzR4Q0J4VXpJLVNzYmpmNXlqYTRjYjlDQlh1R0FaSWI?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T13:33:26+00:00",
+   "ts": 1793712806.0,
    "category": "buzz"
   },
   {
@@ -447,6 +448,16 @@
    "published": "2026-11-03T13:21:59+00:00",
    "ts": 1793712119.0,
    "category": "buzz"
+  },
+  {
+   "title": "Tamil OTT Releases This Week: The Grand Master on Sun NXT, Meesaya Murukku 2 on SonyLIV and Nooru Kodi Vaanavil on ZEE5",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBraEVXZnd1U3Jka0RGLUphX1ZPSFBZMlVUQjJvQXB2OTloTGtwLVJJSGU2ek5aQmdGOFRmN3VTejNHMFNLLTJ4eTg0WURONnRMRXp5MEZmTVVuNC1XbVIwTFQxWWZDblhVdDlSNnpzTVEydmw3SFJQWDVpRVNld9IBfkFVX3lxTFBraEVXZnd1U3Jka0RGLUphX1ZPSFBZMlVUQjJvQXB2OTloTGtwLVJJSGU2ek5aQmdGOFRmN3VTejNHMFNLLTJ4eTg0WURONnRMRXp5MEZmTVVuNC1XbVIwTFQxWWZDblhVdDlSNnpzTVEydmw3SFJQWDVpRVNldw?oc=5",
+   "source": "Kerala TV",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T13:21:55+00:00",
+   "ts": 1793712115.0,
+   "category": "ott"
   },
   {
    "title": "\"She Rejected Them\": Suriya Says He Approached Nazriya Nazim For 3 Films Before Scene",
@@ -489,8 +500,18 @@
    "category": "buzz"
   },
   {
-   "title": "The Route Connection: Why Nayanthara Getting Big Films?",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN0V5ZVE2azViZlZ0WXhLM2p0LTIxY0ZnTnZZR1dFb1NmY0d2WFlvbVNrSXpUbnV5NW9XV1BKNXZZNnpnbGN0eklzSGxXcDBTVExqS3ZSdXAteWh4RnJiSHZvcVdRUDZhdXRaWW9GdjFFbnd6bk5fSjVKY0psMEdYejd1ZEJIcFNrSmM4bzdScXV5UdIBlwFBVV95cUxQcEYzT09uaGhiRzlmOHlPNXpyRWpuUzg1WFQ4Z3FEOHJkLVg1Q3FVanhmcm0tVnh5bERhcTI5bnZuUXk1V3BIR2JpZndVNE5EWk1fYjJTckhzUFhYYk52OVVpeWlfWEUtdHNnOFZhWHRCTTRaTkFJZ01FU1U0YS0zOFBOS2JkQWZqRjNIN0FtbFBkVERXa0Fr?oc=5",
+   "title": "Dayangaram Movie Poster & Photos | Dayangaram Movie Location Pics | Dayangaram Tamil Movie Location Stills",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vckx1WDFqOTE3MlVWdU5ORHhmX0FTejdTTnhrLUNJM2xXcVRHRUhVYm5FLWEtWXVxSnJmN2lDckV6ZS11QU5OZWV2QmxndXU4Um9PS3VQMm50THVvRDNMUFVQX2tnTGVubHpmTTZnYkg5YjJnR21R?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T12:50:56+00:00",
+   "ts": 1793710256.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Nayanthara’s Sudden Comeback: Is The Route Behind the Rise?",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN0V5ZVE2azViZlZ0WXhLM2p0LTIxY0ZnTnZZR1dFb1NmY0d2WFlvbVNrSXpUbnV5NW9XV1BKNXZZNnpnbGN0eklzSGxXcDBTVExqS3ZSdXAteWh4RnJiSHZvcVdRUDZhdXRaWW9GdjFFbnd6bk5fSjVKY0psMEdYejd1ZEJIcFNrSmM4bzdScXV5UQ?oc=5",
    "source": "M9.news",
    "summary": "",
    "image": "",
@@ -549,16 +570,6 @@
    "category": "buzz"
   },
   {
-   "title": "VJ Siddhu's 'Dayangaram' teaser promises fun college entertainer",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/vj-siddhus-dayangaram-teaser-promises-fun-college-entertainer-film-set-for-pongal-2027-release/articleshow/135495085.cms",
-   "source": "Times of India",
-   "summary": "VJ Siddhu, renowned for his engaging YouTube presence, is stepping into film direction with his debut Tamil movie 'Dayangaram'. This vibrant film fuses humor, camaraderie, and youthful energy set against a college backdrop. A teaser is already out, teasing audiences ahead of its…",
-   "image": "https://static.toiimg.com/photo/msid-135495107,imgsize-152379.cms",
-   "published": "2026-11-03T11:47:22+00:00",
-   "ts": 1793706442.0,
-   "category": "trailers"
-  },
-  {
    "title": "Scene, Suriya–Jithu madhavan's film, opens Kerala bookings today",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcjNfS2V6VUx3OVFnTFJyUE9PRzczZUdNMjFOOFlURmNCZjVHLVc4dERBcHk0VlJ4ZlFiNnJfcGV6SzRuT1pjM3BxQkcweGNLVjJpSmxtWk8yTEwwX0wyZ0JWNGFrbVE1UGlyaWUxb09WMDlncDlhQTFNWUhoS1FkanVHSFlsaFllaFd0aWxWc2Znd0ZZSXRZOHFybGNLQnJvVWJueGxOQXduVXE3UXFJaWxuZ9IBwAFBVV95cUxNZ3ExZkxYbGtkZ2ZHZHJEYzBPU1plMXZYV3VpQm5uVHd3ZnRBWHB0UHJlNHNxb0lxeGhuWThaYUdzd0w4eENHM2E4RHFNaUJmbVZCeTdsQkZiVmhHaThsb054VDUyZUJrb0h2NHlldmpISlh1MkJYQzF1VkZpT1lKWHBRTmc0Q3VoUURiLWltZXpVQThVcTBmYm5fdHpkeDU0VzNMV3gxemQyOVlPbkVMem9ORmJLN0lySkx2NUlIeHE?oc=5",
    "source": "Cinema Express",
@@ -576,6 +587,16 @@
    "image": "https://www.hindustantimes.com/ht-img/img/2026/11/03/1600x900/logo/Nayanthara_temple_1793702569310_6wUU_1793702594689_2IC0_8de7049a-efa9-449c-87f1-c499bda44fd7_StRV.jpg",
    "published": "2026-11-03T11:27:08+00:00",
    "ts": 1793705228.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Take A Look At The Highest Grossing Kollywood Films In India",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONTZYQ3NjMTBtdUJHMGEwUVRLTjVQSWMycnhiaGV2WWN0cUU0ZkJCY2pRdW5UeEtWWHFjaFF5X1hodjFxVXB0eHdtQ3JLVUMwM21OTDJIQzN0RzcydldVLU5sT0ZIUEhpLThaeE9WYkQ3VFZ5X0pJMTlGWFR1cDRackFxVmxlUzN1bWlkSkZRakRVYV82U1E3REJLZDNqWXZFemI5QXlYVXB0ZHRHSWRFbFRkNnNyTEZfZzExNFNHWdIBvwFBVV95cUxONTZYQ3NjMTBtdUJHMGEwUVRLTjVQSWMycnhiaGV2WWN0cUU0ZkJCY2pRdW5UeEtWWHFjaFF5X1hodjFxVXB0eHdtQ3JLVUMwM21OTDJIQzN0RzcydldVLU5sT0ZIUEhpLThaeE9WYkQ3VFZ5X0pJMTlGWFR1cDRackFxVmxlUzN1bWlkSkZRakRVYV82U1E3REJLZDNqWXZFemI5QXlYVXB0ZHRHSWRFbFRkNnNyTEZfZzExNFNHWQ?oc=5",
+   "source": "The Hans India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T11:15:43+00:00",
+   "ts": 1793704543.0,
    "category": "buzz"
   },
   {
@@ -659,24 +680,14 @@
    "category": "box-office"
   },
   {
-   "title": "Ajith Kumar’s Dare Devil to begin shooting on November 12; Unni Mukundan, Sreeleela onboard",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWjl6dVdxeW9xR2ZTUEhINnN4RS1IYVdiTVllekdnak8yV3IyZW5jX0dUb0gtc3p2SmRKZ2Q3aklZNGpHR21ZUWVHaTMwbGstM3BoTGN4V1lzMnM4aXVteUx6MHNrdy1QSzd6QmwyMHl0QTBBc2ppWHd3WXpEWkpVTy1pcUlzOWpMbkk4S3dCSDhaRXRaTzN4djZQLUJVZkFPUmJtaDA5TlRlRWtBd19VbW1kY0RlN2xVVkRHYWxsSXjSAcABQVVfeXFMTlo5enVXcXlvcUdmU1BISDZzeEUtSGFXYk1ZZXpHZ2pPMldyMmVuY19HVG9ILXN6dkpkSmdkN2pJWTRqR0dtWVFlR2kzMGxrLTNwaExjeFdZczJzOGl1bXlMejBza3ctUEs3ekJsMjB5dEEwQXNqaVh3d1l6RFpKVU8taXFJczlqTG5JOEt3Qkg4WkV0Wk8zeHY2UC1CVWZBT1JibWgwOU5UZUVrQXdfVW1tZGNEZTdsVVZER2FsbEl4?oc=5",
-   "source": "Only Kollywood",
+   "title": "Nayanthara visits Kalikambal Temple in Chennai, performs special puja ahead of Mookuthi Amman 2's release...",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNajNBUnB0V3RVQWNhYmdvRC14S1B6eFVINHVLeTlwSGd5ckdJWGdwWHN3c0pMZVRmenNSR09LWndLYWh0RklkbWdXVGVlRjFkUkZtWWpiTm1KTEl5TDVSTG9Ea3ZfejZ1S25fTVJWUy1SeWgtSGR6MDR3SEJRdHNhS3ZwNk9hZndjREpNQ2FuYmZEZlpXOXBwby1FQ1NTWDUzbmN0UzVuUm4tY19IeHJEZm5sSnJJMlZybDZGMUdQUjlGQ3MwaXdYdDEzSG45Wjdfb1JoSW1yaURIcmtnb0NhMWZHODlQVnBaRG9HZnVVUkpiOVIta0FPLS04UFJjR2RLeUk1TjVSZGl1UklXRzl2NNIBlgJBVV95cUxPNElWeEY5MmlPZ2JNeHZ4bnc3TWdkWmpXbEZ4QVJqejBpaWhCbHF6amZDUFM2Sy12SnpWVV85Vmhpbk9aYkw0a2E0dmJYWDEzSzY0ZlBkUEoyaFoxZVFCc0Jqb3dVQjJidUlFTTJwZ1BrVkJUbmFTbkxJczFFYWZEaVN0OHhuMVBIN1lhNTQ2U2t2QUphcnBYNDREYmFHVWM1c1hUWWZNV2tsS3BaMGRIYUNiM1lOdmJPTUVTa2hjV2NsdFRtMEFHWjZjRDNQQ2cydE12S3dycDZxa3dGLVlPcXE1VjE5b0FBWjU4X1lDNktRNHRyQW5iX3NVeUk1bmhuanljOElZV3ZsM1ZSQTJxemNnb2hHUQ?oc=5",
+   "source": "Moneycontrol.com",
    "summary": "",
    "image": "",
-   "published": "2026-11-03T09:47:26+00:00",
-   "ts": 1793699246.0,
-   "category": "casting"
-  },
-  {
-   "title": "'Jailer 2' box office collection day 19 [LIVE]: Rajinikanth starrer surpasses Rs 534 crore India gross; c",
-   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOT0x3bzg5QWJFZ2NLbkZMeXdVczVIZk9YZHVZZTgtY3FmVEdSXzJqcG1IWHBOX2NHVkh5LTNYM3JjSW5GeWctZFdYVGFzOHpFUzlEbVB0ZklPa3hfSGJSV2VBalFHYkFPUlNjZ3RLU3p4S3JGOU1kRmE0aWZUU1pORTkwNG9XOElIMFhYVWVKWnNRQ3VjMEp1dDNNXzNWTGpPNk5MXzM4MlBCcmtrOFVXTUxUM2RKa3pYbFVpUExTR2V2YjhpcEE0dF9lVUlFem9yd3NoS0g0Mk94UFZfNkJhSGxJdEthZk01M1QtT2wzRjhlSkVZQXhzOHhxWEljWG1IczIyWUZoVmhOYnNKSGlacmlfam5WVl9SVThNM0VnWThXcTdvbjNiTDhOU2VpdHhic2tzSVJxd0x0SUszNUJvUFFmaWlFZ9IBywJBVV95cUxOdmtfLWRtZkRyXy1OS2FDeFBjVTIwWFdsdVd0RkxKOEJXcmNhVGdtcTBCV3RfNEM0TzM2eVgyeXJBLTkxNDRwZ3lVMU9EaFptdHNKclhqTlZ1c2VHZWZvYjNVT3JTT1UwLTc0SXZBQTgySlduMU9kTTYta3o2MnpfQXZOQTJWTTJaMmk1RERJaDRVdmRneGFhcWJkUTBtamVuREVGOXVKTjQyNzRRR2drbVdhVjRZOTZCQnlsc1gtTFdRb29vSm9QUW9XR3R1bjJqUzVZOF85a0puU1phSm1uTU85cVdydHNmdlhaNGZCLWZHLXRoYmZyY0N2R25yaEo1alAyOEhZbU9ZUFpLSktDNk9IYnZCMVN4SjR4OGFIQUc2SzNCd0Nld240YmhuNS1iQWVCbXcyUXNPdWpqMndfMVlqOWFxU0ViX2Q4?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-03T09:41:00+00:00",
-   "ts": 1793698860.0,
-   "category": "box-office"
+   "published": "2026-11-03T09:50:49+00:00",
+   "ts": 1793699449.0,
+   "category": "buzz"
   },
   {
    "title": "காவ்யா.. காவ்யா.. அனிருத் முன்னாடியே இப்படியா? ரசிகர்கள் செய்த அட்ராசிட்டி.. ராக்ஸ்டார் கப்சிப்!",
@@ -799,6 +810,16 @@
    "category": "buzz"
   },
   {
+   "title": "New Malayalam, Kannada, Tamil and Telugu OTT Releases This Week (November 3 - 9): Meesaya Murukku 2, I'm Game",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOcFlyb0c0bXlYRTZ2ZzZ3YTVLdDVYb0RIb3dZSDZraWxheGpTbUlBOUczeGo4RmZGVlVjRElReGFNSnRoZDlBZHpwbkhMYmQzQk9rZVhZSm1Vb3VBZnZfTnN5cjdRZ1B5M1pzaE5EcnpqQ3lIdl9hakcwZG9ra1p5NDh3WUtnNGNmNDdxaWppM25jUUFSNHY0MjFucWdWcFZIeEg2QkFMWkswSmJhWHpRNEw3ell3TE1uaV9kTzNsLUstZTVLdU1KcVRLV1RRM0thdmJtVG1SX1VrR2tNZVFlbU9hTkNZZGZta3RtSHU3cWpkXzV0d2VvaUZZQjJOVXhycFdkeTY1NWtpSjdjaUHSAZMCQVVfeXFMT3dNcXpNQjlOeUxEdmY5UlVqeGx4RkxwbnFNamhWQTRCN1U0WjlXeGdpX1FYcXBmSmNBWVBsTVB2TU5hck43ZHhfTE45MGI5SlZMT1dzZ181V29VZjZjaWkyLXVfZzNpN3B2S0luWVN0RVFqemRFMlVJMDkxejYxMXBNLWRLWTlwbEVxTEVqcm11QWdwVlUySFR6UEZ4bGFfS1FrU1RabVY2dG40bmNZSFZkT3ZocDBIVE1lRmNnalc1NUpmWEg4QTV6SUt2a2g3VnJsR1RvYlUxbzNNT1VKNzIxbnRBb0ttQlBYYVVQZkJJZHF1azhtZlh3cGFJcGxsdnJ3cXk5czR5RmFRTFNGUUVWVDA?oc=5",
+   "source": "Times Now",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T05:25:51+00:00",
+   "ts": 1793683551.0,
+   "category": "ott"
+  },
+  {
    "title": "ஸ்ருதி சொன்ன வார்த்தை.. இவங்கள ஏமாத்த எப்படி மனம் வந்துச்சு.. மாதம்பட்டியை கிழிக்கும் நெட்டிசன்ஸ்",
    "url": "https://tamil.filmibeat.com/news/netizens-blast-madhampatty-rangaraj-as-first-wife-sruthis-emotional-throwback-speech-186461.html",
    "source": "Filmibeat Tamil",
@@ -817,6 +838,16 @@
    "published": "2026-11-03T04:45:10+00:00",
    "ts": 1793681110.0,
    "category": "reviews"
+  },
+  {
+   "title": "Jailer 2 Box Office Collection Day 19: Rajinikanth's Film Reaches ₹812 Cr Worldwide, India Net Nears ₹460 Cr",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT3hiLXFGUnVyYmloUVNweko5WTcwZDgwbUR4QTFsS044OFdKTF9KVG5Od1ZRUThFLXRKcFJnQVBPeFVqSFpER0pydXhqNmlla3p1REczV3FsQUhIcWpWTTByVlIzTjV2WW1vRmRkQ0RnVUREa09pVWxSYUtyZjZoNXRCc0VDaDB5NENUM3dqMmxpcmNJZ3NFYTJmQ1dxTGZwRFplRmlYcWFUaG1DT01IcTJJa190NEJjS18zRXVZZGhSNU5kMDF4dkVtRUJtNmZkUkZ4THE4RzVOenFNOVE?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T04:23:04+00:00",
+   "ts": 1793679784.0,
+   "category": "box-office"
   },
   {
    "title": "ஆங்கிலேயர்களுக்கு எதிரான புரட்சி.. விஜய் தேவரகொண்டா - ராஷ்மிகாவின் ‘ரணபாலி’ ஓடிடி ரிலீஸ் அப்டேட்!",
@@ -869,6 +900,16 @@
    "category": "buzz"
   },
   {
+   "title": "Jailer 2 Box Office Collection Day 19: Can Rajinikanth's Film Still Reach Rs 1,000 Crore? Check Here",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMllSM1p6dk1CV25TRWxKMWQ3ay0zdWpSWElCNWs3TGxCRlF2QXRUNUhaV2g5bWtfejllZnBoRjdSdHY0QXVGTzFBLVhjMzc1NXpqLWpOVzBBYS05X05MYlJlZmh0dF9TdXFjRl9Jal9nNmpISm9meFFpdzF4TnhHenhrbFVuU0d3T0h4MEtiRlloSmtrZXF6NUg1REhrU2xyWFlsWUJfMjAxdmJWc2ZlRWRWeEJPYVA5Tjlya3lFeGtsUEx6Y0VKSXc1and1N3VHWkFsR2laTmpoLURKX3ZuOTdHdlZBYUh1OVh0RVAwcUXSAfYBQVVfeXFMTkJ4aUF3MEtZTk5QcmNMaTdvSWlPS3FEeTJzV1lLbmczbGN3Q01nR195bTJwbHBBczVzVW5Kb3lHbHFvV3h4dW9vbllHQ3lPTHRBM0Q2Y3g3alBPVVV1aENvVWVwb0J0dS02ZE5JZHFTc0ROY3hKb2pJMi0yZFlXVnRpbXRBOVNKV0s3ZTI1YjBabVJDYTZaUnFITjFpYzRWamxsS2lEakpEc1VuNHROc0VYT2JGXzhlU0c0bFh6LXhQLXFldjUzNVc0LS01cjViWmdOLWNFQ0w5ZXBFLTdjT3psRXNNcjlfeDhyVEp0d2Y4UUNQa05R?oc=5",
+   "source": "Asianet Newsable",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T03:02:15+00:00",
+   "ts": 1793674935.0,
+   "category": "box-office"
+  },
+  {
    "title": "ராமர், சீதை பற்றி பயில்வான் ரங்கநாதன் சர்ச்சை பேச்சு.. சாய் பல்லவி விவகாரத்தில் சிக்கல்",
    "url": "https://tamil.filmibeat.com/interview/bayilvan-ranganathan-criticized-rama-and-sita-186443.html",
    "source": "Filmibeat Tamil",
@@ -877,6 +918,16 @@
    "published": "2026-11-03T02:55:25+00:00",
    "ts": 1793674525.0,
    "category": "music"
+  },
+  {
+   "title": "Scene Inside Talk: Will Suriya Struggle in B & C Centers?",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYldfd3FLVXdEMEQwMFdhTVUyTm1zN2ZodzliSjhPSlp6TWhGM3pGMFphSFRTNi1iT0NHUjZxRGhmM084YVBRNUJmQmlGcmNPdGJlSnRzXzZCWmJicUR5NG5VLVlpbldPMVhtV3NJb1FYZ3EzUEZ2THdPNUxIUS1nc3pDY2xwS2PSAYwBQVVfeXFMTktLRmswYTlqVk52c19mUm1JLVZSQWlhUXczbWt0VDBYSnp1ZFRNbk5aTFRCZDhrd0NTbnlrbmFxN09BZ05SNlpoLVpQdVhxbWhJbG1LdWlxdm43ZlBTcF9QSlk5VndmOUtEV0hoLU1ER2VPX0RYYUlDc1lieE1PSzNSMzh1ZU1ETVp3dGY?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-03T02:52:05+00:00",
+   "ts": 1793674325.0,
+   "category": "buzz"
   },
   {
    "title": "அம்மா வேண்டாம் என முடிவு எடுத்தாயா?.. போராடியிருக்கலாம்.. மகளை நினைத்து விஜய் ஆண்டனி மனைவி உருக்கம்",
@@ -889,24 +940,14 @@
    "category": "music"
   },
   {
-   "title": "Jailer 2 Box Office Collection Day 19 Live Updates: Rajinikanth film earns over Rs 812 crore",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdlhIcFJIMGpPd0tTNExVX3BtV2c3NVpnc3d6bmJKVEtNTHRiekZiOG00a1ZwLU82V1BrU2QxNDVSMnRtQThNRFNCcHhDaG1jRmNqSWU3UU53NlU5a1dLRDZfaTZ2b1ZVM2N3bEdWbjUzZTg4YW8xSmczTjYyUWktMnNMUW9nMTB6NFYxUmdVUkdGVEhLOUdIY2hZRFIxR0VwTzFaTlZpX3REc2h3T1cwU2wxVnQxbnZ1d2tIbTZjdDhXam9fdGhUMFlYNzFOUG1fNFdqR2oyQ1VxVFR2QUpFbUFvbUJuUF9xYnBF0gHrAUFVX3lxTE52WEhwUkgwak93S1M0TFVfcG1XZzc1Wmdzd3puYkpUS01MdGJ6RmI4bTRrVnAtTzZXUGtTZDE0NVIydG1BOE1EU0JweENobWNGY2pJZTdRTnc2VTlrV0tENl9pNnZvVlUzY3dsR1ZuNTNlODhhbzFKZzNONjJRaS0yc0xRb2cxMHo0VjFSZ1VSR0ZUSEs5R0hjaFlEUjFHRXBPMVpOVmlfdERzaHdPVzBTbDFWdDFudnV3a0htNmN0OFdqb190aFQwWVg3MU5QbV80V2pHajJDVXFUVHZBSkVtQW9tQm5QX3FicEU?oc=5",
-   "source": "The Indian Express",
+   "title": "Sandeep Vanga in new avatar in Kollywood",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWVQYjlyREEwTzJiV1k2Ml9CcWF3cFBjdlNFMFpkY3A2cFZzTkVtRmZqZVZiMnFDSFQweHJLckxFN3ZxbFlOZFdZVzc2dEZkODNVOTBlcVZ1YUhKSnc5X1lJUXl6SWRJdVFKOHhtdzJCbnk2R0JsLVZ2V29mWk42cjdQeFBFbnNRa2xrUw?oc=5",
+   "source": "CineJosh",
    "summary": "",
    "image": "",
-   "published": "2026-11-03T02:42:41+00:00",
-   "ts": 1793673761.0,
-   "category": "box-office"
-  },
-  {
-   "title": "'Jailer 2' box office collection day 19: Rajinikanth's film nears Vijay's 'The GOAT' record in Tamil Nadu",
-   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPeDlHbjlIdWVfNjh4eTJIRENmc1piRk1GZEIyRzBmTEtiVElnZGFGcVIyU3VRbXQ4eGluMU1kVGxiR0Q0aVZaX0F2MFFCZHV5Z3dvc1FtaDVtMURRRy1ZR09hcU85cW5qTlRFMGViUHcxREJzeHFXalllbDhmT052X2s3RE9XRXRTRzJ2ZWIta0F1TE5fbk44bHZPVDF5REdSal82V0FsYVUtdFFTajNIbEZYSENDZWpSWkNQdHJuOTlMUXZyTG1QREJaR1FCV0FTalZodVNHdEQyeGlQMFRoWVNZTHJSeU1xZ28tZUdmcnpVS3BpbUlPZmVNQkdueGZFR2FCRFJVUW1mVnBDcFRqUHBQdWY5dXlBUlYzb1ZZVzRVTWlMbTBFNG9lZzZMN3h4NjlVSVlzamJwZnByYm1maHFR0gHHAkFVX3lxTE9qcUpBdi11cUhnSDJYRmQ3Zzh3YnlOSDR6SU9CckkzSXAzT281RFEtNVlxbXdZOUtiakMydkxtZmhUOW5QcS1TQUJPV3BhYXh1RFFMQm5SX191S1l1aTJvejV0OE93VHE5dS1NenJ3UXR2REVRZDFZdE9EVmx1RGd3ZjFaOHRrdlZlekZQb2NHYnpabDBtR0k0VHg2NFdwYWdfb2NIV1FwWVZxUUFid1VyUU9oNXNXN296bG1LS09HMGlMVjlENWpEUzR5NVJfRFQ5aHdpRDVIMW1YaC1RLUhaUUh4d0cwNFBQZi0wdmVRbWdNaTM1dEZnUHB5Vjd2alJrYUZhdmxkR0JvU3RTM2haanNGR05DZ3NtbTZvcEdJbjU0R0FjNzczdlQ1VmFDZGc0MFlidTVSSW9ld0VlNGdzZVdjVEpTbw?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-02T23:54:00+00:00",
-   "ts": 1793663640.0,
-   "category": "box-office"
+   "published": "2026-11-03T01:55:57+00:00",
+   "ts": 1793670957.0,
+   "category": "buzz"
   },
   {
    "title": "Tamil Exploding, But Telugu Not Making Noise!",
@@ -939,16 +980,6 @@
    "category": "buzz"
   },
   {
-   "title": "Jailer 2 crosses 800 crore worldwide, creates a new box-office record for Tamil cinema",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSDVKTGlLOGRFS2daQ2k2NExpU0xTOUR5WDgxeDl2UUtfOC0waFdOdnk1bnF5VWx4R1JKejZFN3dyZDlzQWVRZEpjS1Rjc2J6LXpuekFSYXpLMnA5MjhCbHF3YnBPQXRzTTB0T21QbGJjbjNCalFseUhna3hoVUxpbUZETy1uQkhJdklkSC1qWjZ0MXZSVVAyU083anB5dGxpV1NXYlQwT0xrRkFxOFJOX3JiMVlaWWvSAbwBQVVfeXFMTTdJZ0FQOEVJaHF4eGV4TzByenFid2txd1VEbE5qcGM5TlJzN05tTVdSeHYzdE1BU0xIVEVuYVNzVE9fT1Yza0tBRVdyLU9PcXFraGtGZEJWNDBya3BmOFRwb2YwTVVjOW9hUFc0dGJHQ2lSeEdMTW5TNm4tQ2dLSHpmMHc1MExXQ3M2UHh4MUVPU25hLWdhVS1mcUpWa3hhLXIxcV9UV1VDZFp6LWtQMnU2VXVaaDdreG5Dalo?oc=5",
-   "source": "Only Kollywood",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-02T15:10:48+00:00",
-   "ts": 1793632248.0,
-   "category": "box-office"
-  },
-  {
    "title": "Rajinikanth's Jailer 2 crosses Rs 800 crore worldwide, sets Tamil cinema box-office record",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSkYtcUNWMkxvWU1FS0VhNUVQemxXYmF6cVk2dTdxd0o5TEFRUDNIWnpIOWtqakV4VEUzUVJvVW1TRXRqYkJkTmZFYlpSRk5YWi1ZQ25CRFNEbUt5UThnVnRfeVJteXlZaHlRZ3YzcTZUTmNlVmEtWnBLZlZtU2NiMHBVcEdFN1JLYTVOU2s3bjc0TC1pUHhVeEhRMk03RGwwM0dQQndkVjZjMDQ3bnNtMDYzU2NjLXVLWkEtQmk0ZThCYVQ1UGfSAdMBQVVfeXFMTzJqQU15aXlfU2pkbml4WmpSWERlTzFMYTlMcjRJMks3TXdqT0JmanZFLU5kU1VReFA0WHlKbVlKUTJMeTJ2QXBCcVM3bVphQ2RZRjVRaDVjaE1JTGwwLWlzSnpYd2d2djNONy03dzViVHNtSF9VZDk5b2E2MGdiRmJXMDM3RnZZMTMxVktQaWtiRC01UlJiWVZXRUVERWxzNnZHd2tfNjkwWlBTREhVaC1YNEpVNnRNSGJDVkcxVlVzTkFXSkY1OHBaZmVBcmVRRTFldw?oc=5",
    "source": "Daily Pioneer",
@@ -969,13 +1000,13 @@
    "category": "box-office"
   },
   {
-   "title": "CM Vijay Gives Diwali Gift To Kollywood, Releases Rs 15.68 Crore Subsidy For 224 Films",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUTlwNk50Z0xXaUw0dTNJZXlBaFVNUVFCTjVqaUFMTjdpNkJRa3VRZHNlOXRBR0tUWWpCMldsbk05Q2FuT3hUSkJwLTltX3Fqdk1pNk52c0NqbXdYR1pUdFB4cjNUNHNYRWdZU0dPNUhoa1o0RWtwaG16bDZEVVpoSmNCS19kTTdpbHpRdS1saTJzdDFUQ1NNUlhnWXE4ZTc3Rk9iRnl1MnlFR0hnc0NjTlB3dndtSTVMcWY1eW85Y1NBVURqT3B6dVpQOV9VQWxHOGkzRkQtelBhdG9C0gHiAUFVX3lxTE5Wd09xNW8tYUtKNEQxTG5tVWtsQ3VDcnlNWWQwb1NjSzJJYkh2Y3NHWEVFbmpfQkc2cHN0RFNTMHQ5MjFuVWdBZjFSWThPektDSXAyMU02N1ZBWUlITkVkcVU1NEpEMkZkMDQtTk9qT1hKcTg4ejdDX0VsVEhmdkszNl9XOGd1NHpOWmluNkFrVFFSeXRQTGg5XzgzVjRGS1YzQUxjY0xfYzVVTG5NWG8tcGpsV2JnZ0VhQW41MGRZLTNXM0l3d2pOQ3hfRW9QMTNDYmlDUWN1ZS1XTHFSaUJ2dEE?oc=5",
-   "source": "ABP Live English",
+   "title": "Jailer 2 Middle East Box Office: Kollywood’s First $9 Million Film",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtSkY5WGRLaHZuempCQUNFY2dHUGdDSVJEOU5GeTExWDcxSndSQ2t2VERjM040el9SWWdjekVRZUIyXzgyVVpEbVN3THNSNXlfck5TOUM1TWt3dUE5SVU3czRnOUZMU3Y2Z2VKeUNRWDBlVFR5Si1qRNIBgAFBVV95cUxPUnhPZllYSm1GR19zVVlnaWVOOWY2LWVhU0QzTGpWRDJVVHhnQWhHMEZaekJzNkRHbWdiWW1RVElpM0VlYnRMZEE2VjVrTG5ZM2dGSWdHV1B2UERWd2cza1FwS3Uwa2h4c3NzMlpmT0oyYmtaX1hhWGtwQ3dwSzVoUw?oc=5",
+   "source": "TrackTollywood",
    "summary": "",
    "image": "",
-   "published": "2026-11-02T14:31:54+00:00",
-   "ts": 1793629914.0,
+   "published": "2026-11-02T14:21:35+00:00",
+   "ts": 1793629295.0,
    "category": "box-office"
   },
   {
@@ -1009,16 +1040,6 @@
    "category": "casting"
   },
   {
-   "title": "Rajinikanth's Jailer 2 Continues Its Winning Run, Crosses Rs 800 Crore Mark Worldwide",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbDhkQUQ4MzZOWG13ZnNUaTl2VmpUelkyXzZpMWFwNlhlWTlPbXo4dEhPT3lIVFZETUlNZVE2UFJ6aEFSTHYwVnB6a3BOMURSY3lvR1VJZ2hZRS10LW5BZFNQS0drOWxPQzhhVnNVWm0zU0tBaURNYW0xbTdIeDR1cExHakxRN1V4T1JwUmcwMWhGQ2pZcE5aVWk0T0hXcG1EV19pWnN5WXpta2I4UDJsczkyWnR2MzlpUDFTaXVVdk9DN2xEcjZ4X3BMalHSAdQBQVVfeXFMTXBMNy03NldDeEJONjk0ajkxdjhBNEFXc2hONVNLWmRZaUhQY0RidGRFVk5CUkpNejAtZDZLUDY3UktFd1FyNG44Vnk0cXA2bUpiUXEwdzMxNGNjSnExSnZsNW5kUUN4MEd0MjlCOUZpZUdiOEFFdmUzYVEtS1lKVktlUnpvNERBZ0NIQXJPcENwbUJnZlRpNmRHbEpIZ1N3V1RBOVBHSG04V0I3ejJEQUw5b1RLYU9naVhtUTFjNmMwWkNyYWd2aTRDcmxheUpZNjRQZmo?oc=5",
-   "source": "NDTV",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-02T11:27:35+00:00",
-   "ts": 1793618855.0,
-   "category": "box-office"
-  },
-  {
    "title": "Tourist Family director Abishan Jeevinth blessed with a baby girl, shares first picture with newborn daughter",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/tourist-family-director-abishan-jeevinth-blessed-with-a-baby-girl-shares-first-picture-with-newborn-daughter-101793610029084.html",
    "source": "Hindustan Times",
@@ -1027,6 +1048,16 @@
    "published": "2026-11-02T09:53:43+00:00",
    "ts": 1793613223.0,
    "category": "casting"
+  },
+  {
+   "title": "OTT Releases This Week Tamil (இந்த வாரம் தமிழ் OTT வெளியீல்கள்) –31st Oct to 6th Nov",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42ZEFUcnIxZVlZaW9xblltTVU5LXVGZVBVWGtDbHJFZ09LRm1ianBvczlEOHlQdDBVODRtT3BPeUcxVFFidGdpT0xzMVc4cG1UYkgyUzhDTlo1M3NOX3ZkRlhiQQ?oc=5",
+   "source": "Vi",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-02T08:00:00+00:00",
+   "ts": 1793606400.0,
+   "category": "ott"
   },
   {
    "title": "South Indian OTT Releases This Weekend: New Tamil, Telugu And Malayalam Films To Add To Your Watchlist",
@@ -1049,16 +1080,6 @@
    "category": "box-office"
   },
   {
-   "title": "Rajinikanth's Jailer 2 enters Rs 800 crore club; sets new benchmark for Tamil cinema",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUXFRdnQ1SmJoTDRraE85UHI3dmhYZ25TQ3pzSk5QSDhBVUQtUzR3eXRCQ2VrNHZvNGtJLXJfamdqUS12dWtMRC11VDY0Z2lXNnJRcEVQZnViTmdRUkZQVUFGbmpNTW5tdjJ3NmFpQlMwekdlcnpFMmpSeUdBX1k4SDhmZjVBc3pnWXRvazBDb3NjZkVwRVVrdGU0N3BXUVkyQ3dnekpMdnlKd203c3NYTEFYcHdZYmI0QnFNRUhyQ1ZQdDVkRDQzWmlCMlVaTXhLcy1nd3dJb3g5emNHS3fSAd4BQVVfeXFMTlFxUXZ0NUpiaEw0a2hPOVByN3ZoWGduU0N6c0pOUEg4QVVELVM0d3l0QkNlazR2bzRrSS1yX2pnalEtdnVrTEQtdVQ2NGdpVzZyUXBFUGZ1Yk5nUVJGUFVBRm5qTU1ubXYydzZhaUJTMHpHZXJ6RTJqUnlHQV9ZOEg4ZmY1QXN6Z1l0b2swQ29zY2ZFcEVVa3RlNDdwV1FZMkN3Z3pKTHZ5SndtN3NzWExBWHB3WWJiNEJxTUVIckNWUHQ1ZEQ0M1ppQjJVWk14S3MtZ3d3SW94OXpjR0t3?oc=5",
-   "source": "Cinema Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-02T06:19:24+00:00",
-   "ts": 1793600364.0,
-   "category": "box-office"
-  },
-  {
    "title": "Jailer 2 worldwide box office: Rajinikanth, 75, delivers Tamil cinema's first ₹800-crore blockbuster; film beats Chhaava, PK lifetime hauls",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/jailer-2-worldwide-box-office-collection-rajinikanth-nelson-dilipkumar-give-tamil-cinema-first-800-crore-blockbuster-film-beats-chhaava-pk-lifetime-101793591492138.html",
    "source": "Hindustan Times",
@@ -1067,6 +1088,16 @@
    "published": "2026-11-02T04:06:01+00:00",
    "ts": 1793592361.0,
    "category": "box-office"
+  },
+  {
+   "title": "OTT Effect: Vijay’s Son Jason Sanjay Gets Slammed Again",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOElPUk9RQkVWUWdrSGV0Wl84U2tFYk1EbWNaWENwMWxsZmJJdWltZnJCZFItVVJpd05BdFl0UkNhcGlHbXVSNk5mSWp0cVBlaDVQaXpWNDVTMVk2djlVenJpTVQ1aXhHazM3TENkUnBRWlFzd2ZrNjMycTNaNWxqejE2UjE2WU56ZUFNbUc0Q0hFR19ITUhGV3lQYVFhMHo1aXZVYmp3c9IBrAFBVV95cUxOZWFIOEtFNjdfTEZ1c0Jqd3gwSW12MW9EZXJLWVVxbTdXelRhNjNaUnExMTFfWi1hTEVwNHZoMXpNcERzZE11OW5DVm04MWgxeFl1VXRTbXRyQUo1VkdYNFVJSWg0SVg1RWp4bGN5X3BhYmc3cm53bW9aX1NUa2l4UUQzS1RncWM3UmtBUEJuNGRYSVMybWh1cnJudl84Ul9JUXNwREhvQkQ1VkRJ?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-02T03:10:04+00:00",
+   "ts": 1793589004.0,
+   "category": "ott"
   },
   {
    "title": "Scene Trailer: Suriya, Naslen Star in Jithu Madhavan Film",
@@ -1139,44 +1170,24 @@
    "category": "trailers"
   },
   {
-   "title": "Sigma' OTT review: Vijay's son Jason Sanjay's directorial debut gets mixed reactions, fans praise Sundeep",
-   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOYzMtUmdGYXZ2Uk85ZEM3eGRpRWlJTGlMWjYxMm10WENhME1jVjNUcGYtQ05rMmVrSUEyNEJtRmwyQVF0aTZ1TU5zYmlZNnRmVTl5SmIyX2h1OGNxd0wyVWtab1VTa1pOWmFBZWdTNllsREZ0UWpLZHJFNkZOR0FpUy1NSnZJay1qTzBLZm1IV1JaX1IteTNIT3kzRGtXekpqOUtpX1Q2bFg3ZFFmNEo3NjZPcmtmYnZXOWQ4dXdhUGdHcGxmVHZ3azZHclZ1aERCWGJkLVBBYzlPM2UySDM2STZyS1pQVUN6RkNKWEZpdDVSMXNpQzNVZnlVdkptR1ZSd2xuaERYaFNoUExLbWpDaTNZYV9LNDBFS1JvQmdGT0xQbFJiTzZMSFdoaU5fOFBIOEw1eVg3YXdfeU42Nmh6bGNHWk14emZVQzNWNUNUUWhtQUh4enhfS3hoTdIB4AJBVV95cUxQbmI1bkI2ZjRzNlNQcFRmZlBza1ZPQkxwWU9wNEdMdVNsREhuSTZLc1NZYXhpbDZ4cDBHWDUzMW1Kc29uLWxfT2lFWmowYmV6OHV1Tlg3VzNtYlRvQ2x4eC1ZckZwNzJNeWQzUE5xdG5OSGtkdjkzNjdpRll5T1ltZ2NsaTBtcnV4dHJHTzRPdUQxeXREMVZ4OWFydTc4WDNhUnF3UFVqbjNGa3lrb1dDeUtJOUEzRHhWczByN0JTcVpTeXdOV09sMU5zYTlzSjhNRlp2VDk5d2FxS1RNaFI2WTMwaXlROGFJYllJSmY3T1Y5SXVHdGdFWmhTV0RHUl9pMHc1NE1WdnB1WHJvcVhMRldzaTVIRWdpUUNCVmgyUGlOZU1rNE1vZEhkN1R1aXlGdUl5TDRwLWhfQy1rd1FCNzAtSDdKQVRYWmM3NzBaSnBDT2h3WHNvbzZPRWllOTJQ?oc=5",
-   "source": "The Times of India",
+   "title": "I’m Game OTT Release Date Confirmed: Dulquer Salmaan’s Action Thriller to Stream on JioHotstar from November 6 in Malayalam, Hindi, Tamil, Telugu and Kannada",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIeElLZWRqOG12RUtrSUNhZ1B5a0ZjNDJNZEFaNDJqeENRTU1Sd0RkWmc0MFg4VE1BRDZ2LTBQUjVGMDRicmNkaGlsdDY4SU1TdHJJVktfTEU4bW1kbmVUa1pQTTVvVE9PWUJzU1k2Rkh3emdj0gF6QVVfeXFMTWpMQjdCNW1yNGdDV0xTSGtqWFF6ZDBYaHczTUJBNnhjbFBrNFRpVXZlQnhxRmFFaElxeGJjTDJNMFB3UzhNZXVPXzlTTFozaGFGMnVOU3lBamhQMjlPTFM2SERGbjBEbkRqMDBVbE5iTk9mdWRqUUZic3c?oc=5",
+   "source": "Kerala TV",
    "summary": "",
    "image": "",
-   "published": "2026-10-30T14:47:00+00:00",
-   "ts": 1793371620.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Two Hits Down, One More to Go for Suriya",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PSHFFM3VwNDdMUHpfQWM5V1dDUF9EYjgzU1NYT1FXR2NkWjdwRFJ1ZnR4ckhUc05LMnJIZEJFb3NBM3hFWEpyYnpXNS1sVUZMaFdBMHc3QVpkRVVUZ3hlZWZoelRiYzNDR0kyNGFnVXdHTzc1S0oyLUlVNNIBgAFBVV95cUxPNmZNSlQ1cnJGWlMyUFgwM3h2VWxoV2hZaE5hWjlwb1pva2xzNlc1WGlucWNydmhwSGJYSGJYeWo5ZkxzMmVtT0RCclRzN1VPT3RTRVJTMF92MjA4YkYzVmhRTjBUMEttcWlIUjhFVkh2eUpsaFBXcURhNUwzcEdsSA?oc=5",
-   "source": "M9.news",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-30T12:45:51+00:00",
-   "ts": 1793364351.0,
-   "category": "buzz"
-  },
-  {
-   "title": "'Baththa' OTT review: Vijay Sethupathi wins hearts with emotional performance; Fans call it must-watch ma",
-   "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNU3UxZlZVTVQ5NHg2dkh5YjRuZlNYazBFUElXSW9FT0xtb0pVYXgwMTdUNlJMYVNUR0RnTWJoWGNBZDJUREw0S1F3VkZfRm5fLUlIbWVjbGdvMWE3czJmMFFkSjFUc01JN0FjeXNuS1BHLVI5Nk9ReV84a1VPWnFqWlc0M3RESmttSmpXUFVkeXNzaWxSU1VDaFJIQkNyT2pORmZxRHJuUXZFVVA3SURuTGNzX3dIakdzSXkxelIybF9YcktmR1VYSTFxcmxKeWd6QjZtMndJMEJURTB0dXAydnA2T1AtWk50eDVrUmZVQ1VtZDJwbVNPSWRTdWp0eWUwWjUwU2VFYWs5RkNoY1MwY0dSZHNQSS03TUZvY0ZqaFlla1g4YkE1dTRPLTnSAbICQVVfeXFMTW1rZEoyTjB1RXFmTUUxVUZRY3NNVDdJblQtWU45SS05Y2laT0dSeUtfN29HaEhJc0hZdkVfb3BhTnVWTXFtZ3FKYW1UalJ1czFwY19tclRuYmxDbkxMQlRzLVIxN0tKOEV3cEhTbjNMcFd2Y0pVWTU4Z3kxM1ZCTmxJc3pMYzhLUmp4cXBUYzZXSkJxdTJGUFRNSWpaXzNVV1B0UndLM2NzbE4wVkNCdXFfSUFnd09HS0tkWlllNUkteXFfV3FUemFUbDktVlpueW55NmY3Sk9QdHRWY3NDbGw0Y3dkMG04ZWJCb2R2WUdLc0d6SFMyb2d6Y0pNTVg3b0FaY1ZKR3BTTkRIWTBzTWJqYkpfU3IteFZYVGUzb21tbTltOGdtVms0YXVlVHRsUERR?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-30T10:20:00+00:00",
-   "ts": 1793355600.0,
-   "category": "reviews"
-  },
-  {
-   "title": "South OTT Releases Today (October 30): 5 New Tamil, Telugu And Malayalam Movies And Shows To Stream",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPekc1dVVXeEJ2TUN3R0dWLVl2ZG40THpVMXVzbzI4b0psYlRqUDd4T0pVSjhSV0J0V3RrWHRnUi1GUXFVdm5ya0ZOMXBPdVJ5d0JLM3FPZm9CQmtnZll5c0FjYWlPZVBhaGFVLU5ZLURHc01qY3IweWdDNWNlYVNhRFFtNzQwY0toLVp2dERqWjFTNnVJRkFOakc2MHg5UFBsZWIzUVo0SllwbWJneWU4cFB2ZElSa3poQnZKYUh1dGZQQTZIQW5pV3NiZzhVYmoxYW9GM2N1SVlDM1RGSnfSAeQBQVVfeXFMUGsxS2hzMmYwZzVNUng2N1VxYUNvV0NmYWZrb2NjM2dDV3RNX3dCM2kzRURYaFBUUTBka2d2M0h5VnNRLVJKeDV4M0dQcFRJeXZKcHpRNjUwZWhPV3J1bVZoOFRBdTRTdFVfa19XRU1PVTYwU1FqRXR2SElMTEdVVkF5cVVJa1UxdFU0S0x1OVRsaS1EZHdFTnlSdExQVTJ6cXNzd1REUzhXSXo4d2h6R25CR1QxWXZscGMxTjI1UnhiSDUxQjRBZUJ0aVlxZGhXbzBJRlZvQ0g2TGZqaUxoZjNJU3dK?oc=5",
-   "source": "Herzindagi",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-30T09:04:55+00:00",
-   "ts": 1793351095.0,
+   "published": "2026-10-31T10:15:24+00:00",
+   "ts": 1793441724.0,
    "category": "ott"
+  },
+  {
+   "title": "Scene Movie Trailer Release Today at 7:30 PM: Suriya and Jithu Madhavan’s Tamil Action Entertainer Set for November 6 Worldwide Release",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZnhhaE9YeTlpNXcyZTBNSkpaNW02WENIa3lSWmlIbG5jTFNGbTJfWDRLRFlDdEZvNnIwaTlOV2o3VzNfaVZIeWk4WTZLRFRNUnFvZlJyZy1MWm1Td1VkenlNTE1mbmkwNF9QbjMyYWVoWGRTX3NJVjNKcm9CaUxQbHk2RTQ4d9IBiwFBVV95cUxObEdQZkU4MXlxYzg2N003SHh1NE1ZUTQwYnRDT0J1Q2Q0WVNTRFVod0JqTWIxX2tIekZsdG5OVTNueGpCQl9BN0Zmb2UwVWs0SmpCUkpBc0RiRGItY0xKV0dNOGhuLUZodVdTTU9zZXVFMEFpc0dlaDN4Z2Y2aTUxRWREMHp1ZjN4R2VB?oc=5",
+   "source": "Kerala TV",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-31T06:50:42+00:00",
+   "ts": 1793429442.0,
+   "category": "trailers"
   },
   {
    "title": "Sada ‘Master’, ace guitarist who enriched Ilaiyaraaja’s compositions, dies at 80",
@@ -1187,56 +1198,6 @@
    "published": "2026-10-29T15:21:52+00:00",
    "ts": 1793287312.0,
    "category": "buzz"
-  },
-  {
-   "title": "Tamil Nadu theatre owners seek 6 am shows, 2 am screenings; Vijay's government to review the demands of t",
-   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNZVpveEpxVTRGN0ZVZHkydktMVmpUS3Q0NVN6UzN0eHVZcWx3dE9HbzVyMWxHcThuYXp0ZTFOVVVLbVpfaWxnZjRFOVRRSjlVdG1zX1d0NldDWG1GbXlxdk5HU2tpeVlfbEJYcUp4MUtLVEpNUEEtQ3RES1NLS3E5VnUtM3ZTRFRWNlowdlEyZF9zMjEyWldtWXVzbGVXQk9LblZKWTZHX3l3blhYUWhZVnBfOGJ2OUR6R0txMm0teDN4TWNuZGotUklxWkQxS2pVc042S0ZxSFdQd05kY2doakZ2bktUcjZHS0JuQkluUzRuOF95Wkd3aUpubk52cWxyQlNMeUlRcnRPWE9vaTF2cWxfbXQyYVRESmRMbzRHN0FtQWZLZktYeVBBVlRJOGhm0gG2AkFVX3lxTE10S1hwRTJ6YXpTMjAxRVpBX1lRRmMzYmZWUjFyMURUVEhlTzRNWlhPcTUtVTNJYWZVZThjQWhjdDc5amh6eDdlTkFkckExb1FUS1ZQRlFITnpxdENtRlB4U1owZGNmM052YzZleUZ2cmh2ajJudHhTSjRoM2FhUVlENW0zRGtxbDJpODZDVlBLSjZ3YzZtUFhVRlQxazFTaHBiU2xmSU9nTjg3d0MyazZRcWFZcENjUnpHWWlheDc5aGloUkJaRnMtMWxUXy00S2Q0TkRWSGx5Ui0yeDZPNzRGWGJvdW9VNzZiMmk5ME9YM2NzSUxfTEpUQW1FM2pjQkM0aVFaU1BRRDd3TldVblV4OUdndGQ0TDJneXZ3Y1FGTW1EeGNQNmVPaEhubmFSdVNVQTBiZUE?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-29T14:01:00+00:00",
-   "ts": 1793282460.0,
-   "category": "reviews"
-  },
-  {
-   "title": "OTT Review: Vijay Sethupathi’s Baththa – Telugu-Dubbed Tamil Film on Netflix",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUkNxM3JrYnI0ZTBJSnBFdTliZ2RJbHdwaG9DU25Xb3NUVzhWVjdqUEZvRGRrX3kxeWNlQVBPMGFRU2lVNmZTUTgtSzhJeFdRUThXTGZMWnR2em1INE92V0Y2dWpyaUNsSGpaczAwV2VIbEN4RjFBaGFrZ0IzQVF6U2JwWVFJYmNBeVpGZ0JxNGtVd9IBmgFBVV95cUxPVFU3NkQzWHZpbi0xVnpoTXVNMl91LWFJbGt4VFZxMVM0Q1kyX3hlSU1TZ21JOXc0V2F3eDhhUUh2ZDd3RWt4MmFYZk9vblQ3RTBJLV9VWVVLRExsdlp6RThCRXR4ei03ZmFfNl80anJJc0duWVE1N2FkNXcySUZCbkRMV2dqTmRqRlZpTDBiSDEtXzdTcDByWTR3?oc=5",
-   "source": "123telugu.com",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-29T11:57:00+00:00",
-   "ts": 1793275020.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Baththa OTT Release: Vijay Sethupathi’s Tamil Action-Comedy Finds A New Audience On Netflix",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcFduZVJzbEpGd0xpbFRqdWFvS2FnWm45VTNSaW44WkFhTXVzci1vZlB0T2Y0RG8yVXVlbmNYSmVHWDVVaDZtOW1FVXBBTVAzN0I5Q1V5djBOVV9ZRlVSc01YSTJhb1l6c0tvRmQxM25Hd001dWZCbkVuZnVhYVB3Zkl2YXNXemR5QVVmQV9UR2xtU2lSdXd0VTh2THZNZ3M4ejNnN3gteXFNWkFxWWJqNnZOOXR1R2NNamNZbWVSUFdsLVdsY3UxY2JoLWhjcjVwNlFkbFZWV3liaThBcEFwcXAyONIB8AFBVV95cUxPWnJuY0Nldk40eUl1dGlYV0d0M3RTcWlEbjhNMUU2VF9kQ042M1BEYi13SzRIMHJ6X3pLWGtUQ00xUTRIaHJyU1hiTFhXNTFRaW5LMGJfSG1PSExDWnZUZm1NdmFEWGVzWlowaGN5dFpnRXkxdEd2cDFHbkZPb25CNWF0V09FV29lN2NpdXFXNGZuZURFVGx3Y0F5a2w5QlZsM3Mtdlc4Z2d3VVk5OS1DZUJfTGlVS0NaTGtCTjhscEc0cnpxZ0EybUlJTUJQV3d3UFBlbzZabkF3TkdPWDc3eVFNTnE5VjRmQXdaYXRVUlU?oc=5",
-   "source": "Outlook India",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-29T10:37:39+00:00",
-   "ts": 1793270259.0,
-   "category": "ott"
-  },
-  {
-   "title": "Baththa arrives on OTT; where to watch Vijay Sethupathi's Tamil drama, X review and more",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeUVacnpibmN6OGNIV2VWVkI0Y0pxOXQtZUlpbl90RUtUZGpaWml5VUp6a3Z3emFJTjY5dFBPQ3B6Zlg0R2k1V0xscUhjbE1kRmY3Sm94Z0xWMDdUSGhpd1lRUE5vWVM2YzJpbTg1SFZzcHotc2FVM0NiZGNLUVlMdlN6N2pGYzdFR0pNRUp1bWQzMUg3SXNobmRvVUhCelQ0OVJ2VFF3MjVFUTFjUFo0UmlyNXkzVnMtd2owb0s4RlRmWXcxLUstME0xVjN1ZmtFeGJid2ZzWHBib3o1YUllZFpoYmtZUdIB6wFBVV95cUxOOTFRb2JabWV5a211TTh2dHNRSG9QS1RVWmhOY0xOZ0xsa0lDX0RITURYSFQzWkdBbzc5cjZyazBVdjk2VS1na2lTM2FqaEpWWHd0anE1aHFpajAzcWE1MTZJQS1GMlBZdmtSeWUtNFRaMDB2bURrcHAtVV9wMWVMTHdjanA4NC1rQU0tUkdWaFRPR2RXSTVlRm9qemxmQTNZbE5RTDI5N1hxTlJGYzFhZHc5QkNvVmlOc1Y1UVExaEZnbS03Ulg5QW44RW5KRzVjN2hNR0ktN1RVWUNkbUZNRDFJdUl1Wko3dEpF?oc=5",
-   "source": "India TV News",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-29T09:27:27+00:00",
-   "ts": 1793266047.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Baththa OTT release: All you need to know about Vijay Sethupathi and Lijomol Jose’s Tamil action-comedy on Netflix | Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTE1RdUFzb19fNG9pR0dRaVc2eU51Sm43NUNpT2thNjlGTF9FTzVpUTNqQTd3bFBUY1o0aHNfWUwtbGlFcWUzN3BHRFFuRFdFZ3gtQ3JiRnd0U01JdWdGbkJfZnlTMXhpVEpCVFZjcFpMN05NakxuSGJYMXYzdTdaUl83cS1UeWFSOThkUmFRUHZfbURGV1lfNkNtU2hNOXQ5b2pVSkVvQl9YOUNrNVYxWkdXUTVvZ2JUME5udmlIaUFCTFZGamFCeWQtMS0xOUlFUlFjT2lLNklHRGJvOTNNLVgwaWNqN0NpRmVzZElSNGh2RlVqMDFOOEFmM3AzNjVBdlZ0SFpmcWNoQ1FMclhVZGNSck1PR185aUdMWlk4b2hkMEF2akdiSEs3OXdSZkN2d2JBQmxJUGJBejVVMTdwTWl30gHHAkFVX3lxTE9fd29kSDFyMDVkQXhzMV91STFTT0lTMzB1elkzSW9SNjBVXzJRTFY4cWJndUJmWVptb3FKZThJT0o2LVFweXF1TzV4WXg2ZHRaZ2VydVlFdExLQk83UW1PY3V5VXV6Ui1jbVJGVHNScFlZdGppUHVNQmNjVk14YWdQdXYwQk9wUU5PMlJwNU9sZVNPOHgwRFRVVnFGTEVPNTc4aVBnWUFLLUtKUFNkdElIbkIxS2c2am5ya0FibVVfU1JpN1JiUlpoTlBndlVUQlZfWThmcVV3RmtFdDFuN0pXWmpucnMtV01EZW5OWXI5SFJNWjd1MWlYbjFEQXRJRV9aTFUxUkR1THJ0aU00UE5EWFRENDNKM3c4N0lQS0tRVDdCQjQyazhiRXJNT2ZoX0FhdWRFb3NzeUtoX3ZVemV0d0dLRVpXWQ?oc=5",
-   "source": "Hindustan Times",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-29T07:15:25+00:00",
-   "ts": 1793258125.0,
-   "category": "ott"
   },
   {
    "title": "‘Love Always’: Gouri Kishan, Jayaprakash and Jayasudha on revisiting the past",
