@@ -1,10 +1,9 @@
 {
- "generated": "2026-11-10T11:47:04.361431+00:00",
- "count": 107,
+ "generated": "2026-11-10T19:11:53.721591+00:00",
+ "count": 109,
  "sources": [
   "123telugu.com",
   "Bollymoviereviewz",
-  "Bollywood Hungama",
   "Business Standard",
   "Cinema Express",
   "DNA India",
@@ -13,16 +12,14 @@
   "Filmibeat",
   "Filmibeat Tamil",
   "Filmy Sasi",
-  "Free Press Journal",
-  "Google News",
   "Hindustan Times",
   "IMDb",
-  "India News Network",
-  "India TV News",
   "India Today",
   "Kerala TV",
   "Koimoi",
+  "Livemint",
   "M9.news",
+  "Mathrubhumi English",
   "NDTV",
   "NDTV Profit",
   "News9live",
@@ -31,17 +28,17 @@
   "The Hindu",
   "The Hollywood Reporter India",
   "The Indian Express",
-  "The News Minute",
   "The Star",
   "The Sunday Guardian",
   "The Times of India",
+  "The Week",
   "ThePrint",
   "TimelineDaily",
   "Times Now",
   "Times of India"
  ],
  "images": {
-  "total": 49,
+  "total": 50,
   "scraped": 24
  },
  "feeds": [
@@ -51,7 +48,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.16
+   "seconds": 0.15
   },
   {
    "name": "News18",
@@ -59,23 +56,23 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.2
+   "seconds": 0.13
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 1,
+   "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.52
+   "seconds": 0.28
   },
   {
    "name": "Hindustan Times",
    "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
-   "items": 5,
+   "items": 7,
    "ok": true,
    "error": null,
-   "seconds": 0.25
+   "seconds": 1.07
   },
   {
    "name": "Indian Express",
@@ -83,7 +80,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.13
+   "seconds": 0.07
   },
   {
    "name": "The Hindu",
@@ -91,7 +88,7 @@
    "items": 15,
    "ok": true,
    "error": null,
-   "seconds": 0.18
+   "seconds": 1.18
   },
   {
    "name": "Filmibeat Tamil",
@@ -99,7 +96,7 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.14
+   "seconds": 0.1
   },
   {
    "name": "DT Next",
@@ -107,15 +104,15 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.44
+   "seconds": 0.5
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 5,
+   "items": 4,
    "ok": true,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.29
   },
   {
    "name": "Google News",
@@ -123,7 +120,7 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.36
+   "seconds": 0.34
   },
   {
    "name": "Google News",
@@ -131,7 +128,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.38
+   "seconds": 0.35
   },
   {
    "name": "Google News",
@@ -139,7 +136,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.44
   },
   {
    "name": "Google News",
@@ -155,7 +152,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.48
+   "seconds": 0.54
   },
   {
    "name": "Google News",
@@ -163,7 +160,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.37
+   "seconds": 0.34
   },
   {
    "name": "Google News",
@@ -171,68 +168,288 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.51
   }
  ],
  "trending": [
   {
    "term": "Scene",
-   "count": 23
+   "count": 26
   },
   {
    "term": "Suriya",
-   "count": 20
-  },
-  {
-   "term": "Mookuthi Amman",
-   "count": 10
+   "count": 19
   },
   {
    "term": "Jailer",
    "count": 8
   },
   {
+   "term": "Suriya's",
+   "count": 7
+  },
+  {
+   "term": "Mookuthi Amman",
+   "count": 6
+  },
+  {
    "term": "Ramayana",
    "count": 6
   },
   {
-   "term": "Box Office Collection",
+   "term": "Diwali",
    "count": 5
   },
   {
-   "term": "Kamal Haasan",
-   "count": 4
-  },
-  {
-   "term": "Sandiyar",
-   "count": 4
-  },
-  {
-   "term": "Telugu",
+   "term": "Box Office Collection",
    "count": 4
   },
   {
    "term": "Scene Box Office",
-   "count": 3
+   "count": 4
   },
   {
    "term": "Nayanthara",
+   "count": 4
+  },
+  {
+   "term": "Kamal Haasan",
    "count": 3
   },
   {
-   "term": "Malayalam",
+   "term": "Sandiyar",
    "count": 3
   },
   {
-   "term": "Suriya's",
+   "term": "Dhanush",
    "count": 3
   },
   {
-   "term": "Kannada",
+   "term": "Anirudh",
    "count": 3
   }
  ],
  "articles": [
+  {
+   "title": "Jailer 2 Box Office Collection Day 27",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYmlyVFRRZXZBUEExOVp0Q1pEc25uaDFjUEx2c0JKaENLamU3Z3VIZ3EwRmhGMzFpa1pJY0k1N2xiVGJDMy1RdzNDYU04MWZyMTBHRzdyVWUtNnVTWnFhb0dTSkZSZGx6QTVxb0syY3FZRzFSSHZHOW0tU080LV9rY3Z3?oc=5",
+   "source": "Sacnilk",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T17:53:11+00:00",
+   "ts": 1794333191.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Dhanush’s Back-to-Back Flops Begin Hurting Big Projects?",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNekpjb05tbWFtcjIxN21nYWxOeDJvVllMSXZRZjA2ZWhkclU2NUZCQmg5WkFPLVhDYXd4VFBVV2N3SXJ2enBOUWdZYlJOaGo1TU0yQlBGYUdoUmd4SWtpM3duMXdfRlVQS0xpdEdPa1NRdXNmOXdrUXZPS2pXVlBVTndDY1E1Zm1uNUNZ0gGQAUFVX3lxTFA2ak1rMVhEbHEwVkRpeXF5VHNxODc0WFg5VkZfakNuNlVHV0pxVS1GNktwS0JNUVFQRHhGWnJFNGRObkxXUVRGdXpRU1dDaDNuMmJ4ekFuRjJ2ODF0cWZvVDdGTUhtRkVEMVhHNUFMNU0yMVdQV0plNTZuMWdfbGlRVjVtd21TOTFxcUVxSFBZcQ?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T17:05:34+00:00",
+   "ts": 1794330334.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Scene Tamil Nadu Box Office Collection Day 5 Prediction: Suriya's Film Eyes Rs 62 Crore",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTF9mdXNCMVdFcTZmT2hzUzZubVFDUE1EYUFWTW81M0xpZ1dwY182MjNyblBKdWlaTVMyeUJZWjJLa25yTG5ILWZyOGZOOGhsSnBKMXdqLVNLNlk3ZDZ0V29zRWFoLW5HWG9FcFg5N3ZtOHlQS3JCRzJISXJyZTA4NjlMU1FQaGpaaExMaGVlcktNQ2ZSMWFoRUxqa0k1akstZzNtaUVUdHAwbVNuZ1RUamJjWGg4OXZZWlFwMVExcW1zYmczQnhSYUNkSmRXaGlWcG51dg?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T17:04:34+00:00",
+   "ts": 1794330274.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Scene box office collection day 5: Suriya's action film beats Karuppu and Vishwanath & Sons, film nears ₹100 crore despite over 40% dip on Tuesday",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/scene-box-office-collection-day-5-suriya-action-drama-beats-karuppu-and-vishwanath-sons-film-nears-100-crore-despite-over-40-dip-on-tuesday-101794326503971.html",
+   "source": "Hindustan Times",
+   "summary": "The Tamil action drama, directed by Jithu Madhavan, has emerged as Suriya's third theatrical success this year, following Karuppu and Vishwanath & Sons.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/11/10/1600x900/logo/Screenshot_2026-11-10_220644_1794328617607_F4fc_1794328625210_V145_c07b8bba-6ede-4a31-8c4f-a19f86ceb9b1_M2LW.png",
+   "published": "2026-11-10T16:59:41+00:00",
+   "ts": 1794329981.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Who is Renu Desai? Pawan Kalyan’s ex-wife returns to Tamil cinema after 26 years with Dhanush’s Om Chapter",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQN2NaSVVhMl9qU2hiTFBDdnR0SGxvMTdCOVlFV29FWXhBNkRhc0F2V1g2ZkF6a0pqMjNpbmJTQkZIVlNsOXpRVURBNEVlM3JuWGRtRjE4RTRKc2I0Q2s3bmxPeGpnTDdSVjBzcFkyeEFWY0M3R3VFTEtPV1R4SGJubkxnbkV1SHlLMHowSmp3LVo5QU94VmM0b2o4cDBSbVFRdkVoS0kxSmlVdFkycFpsX2g1ck5PV3BUd09NUXZLSnVMSHpPd1ZHa2I2YTZ1YWhzSl9FV3FVUXg3bVZBelhjNUwtdmtJclluRkZzZXo3dFRLYnJNZTk5RldJS2hnWGhIN1lDVnF6ZFrSAY4CQVVfeXFMTk5Fa1ByNEZRVzJWTVNjcEdqbFRfdWg1ZHFHNXAwMmtmNW1POEdDbklpaXFZR2tEQXA1a1lXall4OWRiV0NIWmRBdmJZN2VERFpiRnRWTEdlRnZ3TldiY0NXOExDSEpib0FBeVlPMmdRdG9CRmZ3cVotSDdJWlZKazlhNXRzdXFPWVlxVGZZYmNtZXNhV2g4TjRVYmRSTXNPRUFmUjREVzJNUXZpeVRCYk5JNU9aOFZ1dUNBOHlMbHBZbTRNR05yc2RxSGZZREV1SjBHWTZEZElYOTJxdVQyQUNIVm1yci1wNndnMzF1ZUQ3UkVnWjJaeW5lQ0c4QzBoM0hCOTJaQkhzd2NEalB3?oc=5",
+   "source": "The Economic Times",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T16:32:43+00:00",
+   "ts": 1794328363.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Hema Malini hails 'Ramayana' after watching with 'least expectations': 'Pleasantly surprised'",
+   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/hema-malini-hails-ranbir-kapoor-sai-pallavi-and-yashs-ramayana-watched-it-with-least-expectations-pleasantly-surprised-apt-casting/articleshow/135714894.cms",
+   "source": "Times of India",
+   "summary": "Hema Malini recently shared her enthusiastic review of 'Ramayana: Rise of a Legend,' marveling at its stunning visuals and engaging storytelling. The film, starring acclaimed actors Ranbir Kapoor and Sai Pallavi, captivated audiences and garnered positive feedback for its…",
+   "image": "https://static.toiimg.com/photo/msid-135715237,imgsize-677888.cms",
+   "published": "2026-11-10T15:45:46+00:00",
+   "ts": 1794325546.0,
+   "category": "reviews"
+  },
+  {
+   "title": "Scene Vs Mookuthi Amman 2 Box Office Day 5: Suriya's Film Earns Over Six Times Nayanthara's Sequel",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLVlpbjlaLV9BLVBVQUcycTJac1FpYWhseFVtem1udm1hSFRmZEU2MHJpQXpocUh6SlUyODhOcUVWVzByMnlISlZRXy1KZGRIdHNFVXN4OVE4S2hTb3hlVk9mRkdqTWZ5bXB1Qnc0TGdNSGxuUWY5STIxZlJrVEhqQWZIbXBNVFZDalN4UjZYVElQWFlZdWtoRUdvSGswSVMtQmV1MjJnMExHRFgxUVpES3UweUY4bE9xaThhQTdVdmRtejZnRnkzd0tEeWh4dFlhLXRBRUp3NNIB3AFBVV95cUxNaVBSdF9VNDZSOHNCREhpWjZWWl8tUUtHUUczaWpDLUVPOGtuRmsxdV9JZUJoV0lYU1dLZGlWOXYxcmhQbEwxNzhFT0VXd01ZcUpUZmF6bjB4TjdGYWpuYXFVbW5lajBGOFYxUnhUSUpETl9ubXBTSnlzQV82a21QVFdEWkRQYVFGdGRnNm1OZWFmRTBXSHlPY28tdU1mYTFZbHdVaUNRRFRSSklSb0wyc09naGlJU3dCMXhxTHhZcTZHaUpuVkdEX1pTekVnMXg0V2w4VUlJT3J5X1hl?oc=5",
+   "source": "ETV Bharat",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T15:30:08+00:00",
+   "ts": 1794324608.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Kollywood (Tamil) Box Office Collection & Verdicts 2026",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWgyLVFQcW9nbnYzUzBTSnB6d2JFajFTN094TEtLLVVFX2V6RENMVjVqV3ZiVm03aGgtUHpTb2JpekNJSXBuZnlMdzZkMUp2cG5vVWV6OVJnN1JZZW5RYUJaMjVFSXpQc1RiQTNUTzBmWG0yS0ppMHV0UnpIb3l0VVNuM1NUTnpLZTZsbDFFT2o1SHYyRDNV?oc=5",
+   "source": "Koimoi",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T15:09:28+00:00",
+   "ts": 1794323368.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Atlee gives a glowing review to Suriya's Scene, calls film a refreshing commercial entertainer; says Naslen is superstar in the making",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/atlee-gives-a-glowing-review-to-suriya-scene-calls-film-a-paisa-vasool-entertainer-says-naslen-is-superstar-in-the-making-101794321778820.html",
+   "source": "Hindustan Times",
+   "summary": "After Mahesh Babu praised the film, director Atlee has now shared his thoughts on the Jithu Madhavan directorial.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/11/10/1600x900/logo/Atlee_Suriya_1794322758515_2H6n_1794322762131_bkps_ecd2463f-4883-488c-ba80-8f658d000723_5wp3.jpg",
+   "published": "2026-11-10T15:00:32+00:00",
+   "ts": 1794322832.0,
+   "category": "reviews"
+  },
+  {
+   "title": "Scene Box Office Collection Day 5: Will Suriya Starrer Cross Rs 100 Crore Mark Today? Check Total Earnings",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcV81b2JXdTFUeTBaNTBHQXBFaTZOU1Jpa2dWOGJtUVBtWnNwM2JLR2hnWTFkMjNRQzdnNkluaTdOS2JBQ1ljSThVaGVLbHRCWHBIRmJjU2dIN2czZXo1bV82Z3NBZlMzcXhGOUxRRTFWc21yajFBRG9QQ3lYWGxGbGtjX1p0a1hZOC1ZUEtDWmhkMkt3SjlYcnZHMzQyeTFBM1VGVW1KQTRhRjdOWjVVdWNHaFpuVlZXUjREc0dORndpX2RjMWF4c2Q2QkYzem9Nc2hxcW93VXQxZVVEZ1EyeTdKb9IB6wFBVV95cUxOWTU5bUdrQV95cVZLcEdXeXN0VDRxbWxLT3lXY1hzd1JjSHdfUkN6cVBOQkdQeEZudjhjdFRjT0FNZ1RsSW9zRUVlVklpMFlXOHpQbFJ6WFVIMFpta21QQ2ItVWswZG9uTkR1bmRaWTduWl9TWncwTDNVRnNJZk9yX3RKRGM1VXk2Yk5RZmZGYVlwS1FjU0xsOHd2a1I2VEZ6S3J5NzNSZzg1elFUY0tESUp2bk9ENkk5cnMwQWNIM3dwMXJrTGVOS3FwNmhZdmFFaFAyYjUwdXFQVVkxYndDTk45NHZtWFhaOXpj?oc=5",
+   "source": "NDTV Profit",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T14:39:21+00:00",
+   "ts": 1794321561.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Anbil Avan OTT release date: When and where to watch the Tamil romantic thriller starring Ashok Selvan and",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOeE9hR0w2YW0tbkNfZ3Q3c01rQzVKZmxTdU9MSEdwYjhXck1GTjJGMjdveURRblZzcnBCUmVfWGlVS0pRN3pjNjRTNnN2THFlb2tPU0RnLW8xVUN6S2VHVFRDX0ItWjFtQ0QtUmhmVzZ5cG1IbV9kMDVjRTQ1N3pLR014RmptbTJtd3pfa1Y3TXpydTRpbUkySC1peXdEN09xeExBS2VtVWRZa1EwbldpM1A4aEtIcXpIS2xZbGZ4aXl6R3NDOUptQWYtWXVQcTh0LUg2UXhBN3RyQjlOZUNmb08xMlh3Z1F3MWJ2dzY5djlqLXM2UGlzQVVaa0thb1dISXhURi1RNUdNcHVleXVVZkpmTWc2ZHEtTjRiczNiNGfSAaYCQVVfeXFMUGd6TW9jX1VXeDBOcGpLTEg4VXJVX2JhekZJMmVTVl93Zm0tWS1LRTNsSkY0UzUyelBQUDZaczJBbEZQbTZIWTlWY1VNMkJuaXp1cDFvVUpYR2llb2hOSjRodXNpX1Z4WnZDOVB0cVRMeW5lV0RhMklMWm9HSlBfV25DbjVwVkYxcTlWTEpfQnJMNVE5am1RUVdmLTJiT2RieXhuSFdCSThBdmdRSTdQbjNSWkNRYmN0Uy1GWm5Ma0ZiUGlkNVpTb0xfcHlESlVPQ1FmbncwVUxqTGEyODRvejdVU2dKZGpuMkx0VGpwRWJ6WnotRFNJakJnRy1taktLY3o0d21qZFdXRW8wVjBnMlplZTdhWU5EeEJJeEQ5NVJTMExvQWhR?oc=5",
+   "source": "The Economic Times",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T14:04:22+00:00",
+   "ts": 1794319462.0,
+   "category": "ott"
+  },
+  {
+   "title": "'Scene' Day 5 Box Office Collection: After ₹100 crore India gross, Suriya starrer eyes century in net earnings",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNGdfWGlUWmxPeEM4eWlTSmpNWHJjT0pnY05qV001RkMzdkZuZkxBbW91RWtnMFBXUnBxcEo4M3lpU3BNcXhETmtpWXNaY1lXM25JcXlQVXZCNmQxbVRnQVZtbjN6SC1MU3VIdmZHZXZXLVNuZlNSZ0loRnJTXzUzZno1QjhfdTZiTkpheHh1WGJJNDRDLTd1UUlySTZ6Z9IBowFBVV95cUxPSFVWaDRXbEdNWGU0T0VMRExCQ3RMWllYLVAtQUVpLVlKZEJwSDRWdEU3dnQtc0VJMlFROTFEQmNXeFF4OGpPSXZtQklpdXZ4UE9Wcnkzdk9hTU02ejZwMXM4SHVKZXhNaDBMdmIyV01ZZzJvWS1ib21ENjhSQ2dqbmNSX2JSNjhYbUVMUFFrakhod0hiRGpWbExlLTkta1ZyZjJj?oc=5",
+   "source": "The Week",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T13:39:05+00:00",
+   "ts": 1794317945.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Anirudh Ravichander's Wedding To Kavya Maran Brings An Old Tarot Prediction Back Into Spotlight",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUJTa1c3WTZqOTk1MmdmYjF4MndiX19Gb2Q2cGxKMVhvU2VWSFRYNGxNaEl0SUp6cW5vQ0p5UXNVMk45WjQzVUp2UjFkb3B0RU9qQ2FpQzRhT3d0SHRrS0J0STlGc1I1UHhKMGV4R0RwMmFQc01OWVlFY1NFbEZNSUNKbkpVajlyaDlIcTlVY3dpd0ZrVGNOUTZBN2JnLXJxVHJvY3hpYmxoOXNNb3RRRWYtd2dxRTEwMmtfRUtzakNuenJwam5ZRHlwWl9oTTDSAdcBQVVfeXFMTVBueW5TbU9iY2FIeEktd0NaOENYX05zMVVkTmM4LU5GdU5iMkNDWGZXSS1pNzVNb1RwWFQtSjZqTEVRS284X1o5ZlYyV2lrZFdzUnFMQWs1Y2JmUUJQSmFwb285S0RqN0NhSmJmZm1IeXJ4TUEtcnlVckdubGFpcGNkS3RSWlFkeldCSm1vQjNSSnozTk5sWnI4Q0Jqdms4VWtydDlHTjRUd1JCVWdLTG1MdDR2X0htNm92TXQ4UWJFeVR4djJscGdSLTR0Z2pVLTRhSDFOR3M?oc=5",
+   "source": "NDTV",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T13:38:23+00:00",
+   "ts": 1794317903.0,
+   "category": "music"
+  },
+  {
+   "title": "Anirudh - Kavya Marriage: அனிருத் - காவ்யா மாறன் ‘கிரீஸ்’ நாட்டில் திருமணம் செய்வது இதற்காகத்தானா?",
+   "url": "https://tamil.filmibeat.com/news/anirudh-ravichander-and-kavya-maran-choses-greece-for-their-dream-wedding-for-these-reasons-186793.html",
+   "source": "Filmibeat Tamil",
+   "summary": "கிரீஸ்: இந்திய சினிமாவில் ராக்ஸ்டாராக வலம் வரும் அனிருத் ரவிச்சந்தர் மற்றும் சன் ரைசர்ஸ் ஹைதரபாத் ஓனரான காவ்யா மாறன் ஆகியோரின் திருமணம் கிரீஸ் நாட்டில் நவம்பர் 11ம் தேதி நடைபெறுகிறது. அனிருத் - காவ்யா மாறன் திருமணத்தில் பங்கேற்க சூப்பர் ஸ்டார் ரஜினிகாந்த், திமுக தலைவர் முக…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/greece-67001794316892.jpg",
+   "published": "2026-11-10T13:22:18+00:00",
+   "ts": 1794316938.0,
+   "category": "music"
+  },
+  {
+   "title": "Ramayana vs Scene box office collection race: Ranbir Kapoor vs Suriya Sivakumar - Who is winning the moolah market?",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTHFWdkpXdm9ROE9tN3gySVBfa2hRZGNYdGYwOUFnNmJEQlJLRjYxWGpYVFBZb21iNm92QWt5aHlTb015Nkx4T0E2MDE2cmVscFJFT0hnMHNha19Qa3FhT2dBb2hxSnEyOVhpQXA2VFZiV2pPaTYtMTlyVmQ4V2g1OGxRTVRNT0xuUkVqeXZUS2ZCZ0pFazlINlBiWHlOdllabTlWN1VnX0o0NTVrdlVFTW1VMEZrXzhDZFZDTi1lUFpmMG5GMTNaTWdvN2FUUDljdWJuTVpWUFpnZFBhdC1qbDU4Mjhjd0o1TVVvbGNlMVotWmdzR3NWM2NTUURWc2vSAYQCQVVfeXFMUDZaU1hWNVF3OUUxVzcyRHl4R0lsMHFhRlQzTUcxcUlzVmpndG1zNmdVSml6TF9sVGctSWNXS0xVSVU5TE44dm5uaGdUS1lBUE9sNERTU0dhLWRTNmZwUnFUOUFpNHlza21LU3pYdzdCZ2c1YmdiV0dfVXJtUkNwdUpPcFY2TWdMaC1CNVZ5NU1KeW9OOENuVmlqUFBmUk9HTTNmY1Z4bU1UY3VDSExYZVJ4cGpmNjdXOFJoWjc2YU9VUGZHTk5rMGhjeXVHcmhsZHppT0lLVnB2VmZON3oyQUdTNlJmeGQtbm9CdFRqRGpwNHdZQUw2bHhFQzVnN3ViSHNoNUY?oc=5",
+   "source": "Livemint",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T13:06:26+00:00",
+   "ts": 1794315986.0,
+   "category": "box-office"
+  },
+  {
+   "title": "கல்யாணத்தில் விருப்பம் இல்ல.. குழந்தை பெத்துக்க ஆசைப்பட்ட பூர்ணா!",
+   "url": "https://tamil.filmibeat.com/interview/poorna-talks-about-pregnancy-journey-186791.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: சூப்பர் ஸ்டார் ரஜினிகாந்தின் 'ஜெயிலர் 2' திரைப்படத்தில் இடம்பெற்ற 'அல போலலோ' பாடலுக்கு நடிகை பூர்ணா போட்ட வெறித்தனமான ஆட்டம், திரையரங்குகளில் ரசிகர்களை தன் பக்கம் ஈர்த்து ஆட்டம் போட வைத்துள்ளது. தற்போது இரண்டு குழந்தைகளுக்கு தாயாக இருக்கும் நடிகை பூர்ணா, தனக்கு குழந்தை…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/poorn1-47551794314004.jpg",
+   "published": "2026-11-10T12:33:46+00:00",
+   "ts": 1794314026.0,
+   "category": "buzz"
+  },
+  {
+   "title": "சூர்யாவோட மோதிய நயன்தாரா படம் காலி.. தனுஷோட மோதி ஜெயிப்பாரா கீர்த்தி சுரேஷ்?.. அடுத்த சம்பவம் லோடிங்!",
+   "url": "https://tamil.filmibeat.com/heroines/nayanthara-failed-to-beat-suriya-in-diwali-race-next-keerthy-suresh-vs-dhanush-faceoff-on-nov-20th-186789.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: நடிகைகள் சமந்தா, தமன்னா எல்லாம் உமன் சென்ட்ரிக் படங்களில் நடித்து 100 கோடிக்கும் அதிகமான வசூல் சாதனையை நிகழ்த்தியுள்ளனர். ஆனால், கடந்த 5 ஆண்டுகளாக நடிகை நயன்தாரா ஒரு சோலோ ஹிட் கூட தமிழ்நாட்டில் கொடுக்க முடியாமல் தவித்து வருகிறார். சூப்பர் ஸ்டார் ரஜினிகாந்த் உடன் நடித்த…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/nayantharakeerthy-61041794313195.jpg",
+   "published": "2026-11-10T12:23:28+00:00",
+   "ts": 1794313408.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Anirudh Ravichander and Kavya Maran's wedding: When the 'Jailer 2' composer revealed his first proposal t",
+   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPSC1rUWtnWVoxOXJudE5CZlNTbDc3RnRFeVIwa3ROelVVTXptVHRHcmt1MEpoakozaHZTejlWY0h4WlhCY0dtbHlTRVFzTVFZN2YzeFAzRXgycFdOZE9DWnNvLWFPNEtKQXV5Q3owREg0Z1lBc3ZhU0t2UDRlUXZ0WjM3SXVrMW9CSFNVZl9ZZDVpRktfa0RXWFBHLWhLLUVBcjVUTHZyNmVjanpwOW0zVmtMVEhHcENDNVNrbm54dDRxM1ZTeGk5ZVJ2a0RIdENTeUJiTUZuakJnNC1qaDJWOERDQUZJSERjeTFKTXVURVMzb3FJMThDNGpPdnBNRDJHVUVTX2xmOUY3VVM0R2p4MjNXOVZIbGxZVkFUMHhlRi1NZHYzUFVtS3NvS1AyeE53OHIwUDNaUGZoMkw4T0lV0gHEAkFVX3lxTE0xRHJ1WENsTEFNRjlTU0hUaGctSW1ydlNiOC1Ed3NpdE8wV0MweFlRMWxwZVpQU3dyQmIxd2xNVklyeDJ2ejVsMTVrVV9EaXhXQk5uSFc0LVZNNXBVdnhPblJEM0tlazhNMk5oSGk1Y3I1T2hQT0tzcEtnNmNUSi1wcElianh2cVJYeWZLWFFtRFNiQmE3YUEyTFZWa29Gak1WZW9lNjZ0LXUxTjZfUlo3aEdRTmprMHI3Tm15eWRQbWpPUWVxLUpqaGRaRFNMbFlBaWNReldqTGtRTVpRMXh3aXNnY3FYNkZGOXNDdV9zODVzN2lNYm5iVzFPYWpVOGk5cjVHRHhhYV9mSEJOZmQxc3RiSFhHaHFTUWN4YTN0azZOUlJEQjFRekE4N3otekhORWYwR1ZFNGNYaTJWYU5EcVVULQ?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T12:13:00+00:00",
+   "ts": 1794312780.0,
+   "category": "music"
+  },
+  {
+   "title": "'Raaka' director Atlee praises Suriya's 'Scene'",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/raaka-director-atlee-praises-suriyas-scene-calls-jithu-madhavans-film-a-paisa-vasool-entertainer/articleshow/135710534.cms",
+   "source": "Times of India",
+   "summary": "Director Atlee has enthusiastically hailed the Tamil film 'Scene,' featuring Suriya, Nazriya Nazim, and Naslen. Under the direction of Jithu Madhavan, the film has gained praise for its compelling storytelling and exceptional performances. Atlee particularly lauded Suriya's…",
+   "image": "https://static.toiimg.com/photo/msid-135710544,imgsize-160282.cms",
+   "published": "2026-11-10T12:10:08+00:00",
+   "ts": 1794312608.0,
+   "category": "buzz"
+  },
+  {
+   "title": "'Ramayana' actor Indira's reacts to Sai's fight sequence: 'Never saw Sita as warrior'",
+   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ramayana-actor-indira-krishnan-reacts-to-sai-pallavis-fight-sequence-in-the-film-never-saw-sita-as-a-warrior-no-woman-in-our-film-is-depicted-as-weak/articleshow/135710308.cms",
+   "source": "Times of India",
+   "summary": "'Ramayana: Part I', directed by Nitesh Tiwari, has soared past the Rs 600 crore milestone worldwide. Audiences are abuzz over Sai Pallavi’s depiction of Sita, which has drawn both praise and criticism. While Mukesh Khanna argues that this warrior image deviates from Valmiki's…",
+   "image": "https://static.toiimg.com/photo/msid-135710521,imgsize-379609.cms",
+   "published": "2026-11-10T12:10:05+00:00",
+   "ts": 1794312605.0,
+   "category": "box-office"
+  },
+  {
+   "title": "'Raaka' director Atlee praises Suriya's 'Scene', calls Jithu Madhavan's film a 'paisa vasool entertainer'",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNX3JxVWpzT2JFQTY2NkJvUDVwTk95VDFfQ1NEbW13YUtZdVFwNGNJR3d5eDE1bEc4c3BHUnd6ckdsR19qcUprX2ZHd1VOd25fX1lTYWpRVGhSMFowZ2NTSmxQNEc5MEZLRl9hZ1F5cDhJVmVjVzNYbkpZeDZFTkRiUGowSE9VaEowTV9zNUk5NzFpcS1ibjJITDBVUi1iM3p6QS0zTW5MYzJUV1h3ZkhSWDFzVUZJaWNuSnZkMFVoWDV5dENhNzNyLTAxTEtENU5xN0NvaXZ1SWEtNGx3cW1jc2xXZ3VMQnB3RFBXZ3JER1F1dm9UWWJ1bURQbW1iTmJicFZLblJjWm9CaU1BTE9DVGpPNkVzWWdjRWfSAZ8CQVVfeXFMT0FqTGNXWTNseEJseGJoWnp4X2tKakgwS2lFeE5iMmI4cERwWDhsWmpNUk1uaVRocVhuRHpSZk11V2ZaMTJhMnUwN0gxaTBLM0dqdnY4MDJadkVFMVZvaE4zbG9sMEIxZnNnOUxxMDRIZGJGZUdtMjZKRENNVXlCN1Y5OTU2NVRDUEpNZ1FOdHA0WUs1ME45am4xMV90QTdZS0hocmNsSTZQbWo0b0RwUDVfeHFnYzBqZmdFb2c4Q2h1dVluQnpINnVzTFBmTVhrT2E5emdtbGhZTHJvMG5HUTh4enpCaWN4eVB0azVyMzExbWprQmdIMVdiRFRxejhkd3hGS2tWZm1JVmJpbXVqQ2FIQUstdWozbGt4dlpfRDA?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T12:10:00+00:00",
+   "ts": 1794312600.0,
+   "category": "buzz"
+  },
+  {
+   "title": "மூக்குத்தி அம்மன் இல்ல.. மூக்குப்பொடி அம்மன்.. சுந்தர் சி போட்ட கொத்து பரோட்டா.. பாலாஜி பிரபு!",
+   "url": "https://tamil.filmibeat.com/interview/producer-balaji-prabhus-slams-nayanthara-and-sundar-c-mookuthi-amman-2-186787.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இயக்குநர் சுந்தர் சி இயக்கத்தில், லேடி சூப்பர்ஸ்டார் நயன்தாரா நடிப்பில் உருவாகி கடந்த நவம்பர் 6ஆம் தேதி தீபாவளி பண்டிகையை முன்னிட்டு வெளியான 'மூக்குத்தி அம்மன் 2' திரைப்படம் தியேட்டர்களில் கடுமையான வசூல் சரிவை சந்தித்து வருகிறது. சுமார் ரூ.100 கோடி பிரம்மாண்ட…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/balaji1-75281794310902.jpg",
+   "published": "2026-11-10T11:42:20+00:00",
+   "ts": 1794310940.0,
+   "category": "box-office"
+  },
   {
    "title": "சூர்யாவோட சீன் படத்துக்கு அட்லீ, மகேஷ் பாபு சொன்ன விமர்சனத்தை பார்த்தீங்களா.. செம!",
    "url": "https://tamil.filmibeat.com/reviews/atlee-and-mahesh-babu-pouring-positive-reviews-to-suriyas-scene-movie-186785.html",
@@ -284,16 +501,6 @@
    "category": "buzz"
   },
   {
-   "title": "Vijay Antony fights for his daughter in Appa Kutty glimpse",
-   "url": "https://www.cinemaexpress.com/tamil/news/2026/Nov/10/vijay-antony-fights-for-his-daughter-in-appa-kutty-glimpse",
-   "source": "Cinema Express",
-   "summary": "Actor Vijay Antony has shared a fresh glimpse of his upcoming film Appa Kutty , offering audiences a sneak peek into the action-family drama directed by Mu Maran . The actor and music composer posted the glimpse on his official X handle on Tuesday with the caption, \"A glimpse…",
-   "image": "https://cf-images.assettype.com/cinemaexpress/2026-11-10/zul2ax31/appakutty-edited.jpg",
-   "published": "2026-11-10T10:32:54+00:00",
-   "ts": 1794306774.0,
-   "category": "music"
-  },
-  {
    "title": "அஜித் பட ஷூட்டிங்.. குளிருக்கு இதமாய் பிராந்தி குடினு சொன்ன நடிகையின் தாய்.. மீனா ஓபன்",
    "url": "https://tamil.filmibeat.com/throw-back-stories/throwback-ajiths-villain-shooting-in-new-zealand-kareena-kapoors-mother-asked-meena-to-drink-bra-186781.html",
    "source": "Filmibeat Tamil",
@@ -322,16 +529,6 @@
    "published": "2026-11-10T09:48:55+00:00",
    "ts": 1794304135.0,
    "category": "buzz"
-  },
-  {
-   "title": "'Scene' vs 'Mookuthi Amman 2' box office collection Day 5 [Live]: Suriya's film maintains lead as Nayanth",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNb202UFczUk5pV05VX0x0SlpQc0FJNDNGQ014TW91SGhhYTBVTEN6TG9abFctX20tMHI3bTRjb3pSYk9rUmpNQ09VM0w1MTg5Q05icTJ1M1V3QXQwa2Z5c2Q5RGxYenVqZVcwWjNFRmRKVXVrWmNwakNoVFBvTEVXMTdkNkphejA2blI5NzF0ZE5rOFpQNDFmR2VkRWROTHF0bHBHSC1mOXVvdzlobFRQN0hpWjRyUjhkTFVVaXc0RmwzSF9tWFhyWmxlelZGeGRwUjlnSHQwUDdWRzJWV3dMcDR0cmIyLWhwQWRyR3hkQWVSeDhKeGNOcktSUzVGdXZBVFAzYVI4LXZuY3J1OXd2bktZcWdaWC10cjk1ZnJzYzZ6M1dOMjczVWVOdEhfS2dYN1Zr0gG4AkFVX3lxTE92eTZKTGJWWkpNQm9pTXNBUXJxTm52Q1F1Y1F3b2tqNm9wLUNia3p3cGVENVRiQzZQS3hPQzhTMjgzdWNBb19yRzJaZ1pWQTdGRmJDZXpiaXpyZFF0WVpBUzU5TUFDZHlwVkR0WE1QdHEwNV9MOEtEV2pXaUFWV0xCbDVpcmszRUlRMU4wMVdtc0xrX3E1M25VdVdtNC1BZHA0YnM4bW5BQkNORnFRRHR3ZmUtbng0S3I1MTVzRGctY1pPUFJCeC16blZVN3AyLTNMYThEQVBpbFNJcDRKZ2tnTXpUOEZ3cHYzbG5LX0lTbTREVWZhTFI0dVFTUVpoXzJBYlpGY0VjbjdYNHZwcHpVWlNUUHQwaEZ4QlhnbmVlMzM1VDIzbmdadllGblllbTlXNGkwREZIdA?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T09:47:00+00:00",
-   "ts": 1794304020.0,
-   "category": "box-office"
   },
   {
    "title": "Scene Box Office Collection Day 4 Worldwide Tamil Daywise & Budget",
@@ -384,6 +581,16 @@
    "category": "music"
   },
   {
+   "title": "Jailer 2 Worldwide Box Office: 5 Ultimate Records Owned By Rajinikanth’s Roaring Sequel!",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQi1JdW1iSllpSG5ZV3RRS3FSRnhJcEcxamdWdURTZDZnNEZNYzdhSThyVXdmR0RYbElaWUpKS1p0RmlIMTFCdzRKV0NHLTYtU0UzTXRPdEZnN1ZqZkNZT0lnM0tHdFY0WExVUGplQURrNDBPYXFWLXFnZVJXTHVvYUR4TUhFQjFFN2tndExSbTlub1lHVGZzbVU2Z1RSUmd0Z3VxVWtCdnZ0bmNvaVRUanJ6Y2k0WFpyV3hSLQ?oc=5",
+   "source": "Koimoi",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T08:53:41+00:00",
+   "ts": 1794300821.0,
+   "category": "box-office"
+  },
+  {
    "title": "நாகார்ஜுனாவுக்கு வில்லனான அசோக் செல்வன்.. கர்ணன் கதாபாத்திரத்தில் கர்ஜிக்கப் போறாரு!",
    "url": "https://tamil.filmibeat.com/heroes/ashok-selvan-turns-villain-to-nagarjuna-in-king-100-movie-186775.html",
    "source": "Filmibeat Tamil",
@@ -424,13 +631,13 @@
    "category": "box-office"
   },
   {
-   "title": "'Scene' vs 'Mookuthi Amman 2' BO Day 5 [Live]: Suriya's film lead",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/scene-vs-mookuthi-amman-2-box-office-collection-day-5-live-suriyas-film-maintains-lead-as-nayantharas-sequel-trails/articleshow/135704558.cms",
-   "source": "Times of India",
-   "summary": "On November 6, just in time for Diwali, audiences were treated to Suriya's 'Scene' and Nayanthara's 'Mookuthi Amman 2'. By the end of Day 5, 'Scene' had amassed a whopping Rs 101.44 crore, while 'Mookuthi Amman 2' trailed with Rs 16.78 crore. On its fifth day, 'Scene' brought in…",
-   "image": "https://static.toiimg.com/photo/msid-135704577,imgsize-201953.cms",
-   "published": "2026-11-10T08:18:47+00:00",
-   "ts": 1794298727.0,
+   "title": "'Scene' vs 'Mookuthi Amman 2' box office collection Day 5 [Live]: Suriya's film maintains lead as Nayanth",
+   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNb202UFczUk5pV05VX0x0SlpQc0FJNDNGQ014TW91SGhhYTBVTEN6TG9abFctX20tMHI3bTRjb3pSYk9rUmpNQ09VM0w1MTg5Q05icTJ1M1V3QXQwa2Z5c2Q5RGxYenVqZVcwWjNFRmRKVXVrWmNwakNoVFBvTEVXMTdkNkphejA2blI5NzF0ZE5rOFpQNDFmR2VkRWROTHF0bHBHSC1mOXVvdzlobFRQN0hpWjRyUjhkTFVVaXc0RmwzSF9tWFhyWmxlelZGeGRwUjlnSHQwUDdWRzJWV3dMcDR0cmIyLWhwQWRyR3hkQWVSeDhKeGNOcktSUzVGdXZBVFAzYVI4LXZuY3J1OXd2bktZcWdaWC10cjk1ZnJzYzZ6M1dOMjczVWVOdEhfS2dYN1Zr0gG4AkFVX3lxTE92eTZKTGJWWkpNQm9pTXNBUXJxTm52Q1F1Y1F3b2tqNm9wLUNia3p3cGVENVRiQzZQS3hPQzhTMjgzdWNBb19yRzJaZ1pWQTdGRmJDZXpiaXpyZFF0WVpBUzU5TUFDZHlwVkR0WE1QdHEwNV9MOEtEV2pXaUFWV0xCbDVpcmszRUlRMU4wMVdtc0xrX3E1M25VdVdtNC1BZHA0YnM4bW5BQkNORnFRRHR3ZmUtbng0S3I1MTVzRGctY1pPUFJCeC16blZVN3AyLTNMYThEQVBpbFNJcDRKZ2tnTXpUOEZ3cHYzbG5LX0lTbTREVWZhTFI0dVFTUVpoXzJBYlpGY0VjbjdYNHZwcHpVWlNUUHQwaEZ4QlhnbmVlMzM1VDIzbmdadllGblllbTlXNGkwREZIdA?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T08:18:00+00:00",
+   "ts": 1794298680.0,
    "category": "box-office"
   },
   {
@@ -441,26 +648,6 @@
    "image": "https://static.toiimg.com/photo/msid-135704419,imgsize-362035.cms",
    "published": "2026-11-10T08:11:01+00:00",
    "ts": 1794298261.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Is Priya Bhavani Shankar getting married to her long-time boyfriend?",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/is-priya-bhavani-shankar-getting-married-demonte-colony-stars-photos-with-long-time-boyfriend-spark-wedding-buzz/articleshow/135704236.cms",
-   "source": "Times of India",
-   "summary": "Priya Bhavani Shankar, a well-known actress in Tamil cinema, is creating buzz with her long-time boyfriend Rajavel Rajan following recent photos posted online. Dressed in elegant traditional outfits, fans are speculating about an impending wedding, although the couple hasn't…",
-   "image": "https://static.toiimg.com/photo/msid-135704254,imgsize-174240.cms",
-   "published": "2026-11-10T08:05:30+00:00",
-   "ts": 1794297930.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Jailer 2 Box Office Collection Day 27",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYmlyVFRRZXZBUEExOVp0Q1pEc25uaDFjUEx2c0JKaENLamU3Z3VIZ3EwRmhGMzFpa1pJY0k1N2xiVGJDMy1RdzNDYU04MWZyMTBHRzdyVWUtNnVTWnFhb0dTSkZSZGx6QTVxb0syY3FZRzFSSHZHOW0tU080LV9rY3Z3?oc=5",
-   "source": "Sacnilk",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T08:02:45+00:00",
-   "ts": 1794297765.0,
    "category": "box-office"
   },
   {
@@ -482,36 +669,6 @@
    "published": "2026-11-10T07:59:37+00:00",
    "ts": 1794297577.0,
    "category": "buzz"
-  },
-  {
-   "title": "Nick Jonas grooves to Sai Abhyankkar's viral Tamil song 'Radhimaa'",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/priyanka-chopras-husband-nick-jonas-grooves-to-sai-abhyankkars-viral-tamil-song-radhimaa-along-with-the-jonas-brothers/articleshow/135703517.cms",
-   "source": "Times of India",
-   "summary": "In a festive celebration, Nick Jonas and his brothers delighted fans by posting a video of themselves dancing to the Tamil hit 'Radhimaa.' This joyful tribute for Diwali resonated particularly with Indian audiences, spotlighting the brothers' embrace of local music. Song…",
-   "image": "https://static.toiimg.com/photo/msid-135703715,imgsize-175448.cms",
-   "published": "2026-11-10T07:44:37+00:00",
-   "ts": 1794296677.0,
-   "category": "music"
-  },
-  {
-   "title": "Bhandarkar hails Ramayana team: calls historic for Indian cinema",
-   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/madhur-bhandarkar-praises-ramayana-rise-of-a-legend-team-youve-created-history-today-lauds-ranbir-kapoor-sai-pallavi-and-yash/articleshow/135703421.cms",
-   "source": "Times of India",
-   "summary": "Filmmaker Madhur Bhandarkar praised Nitesh Tiwari’s “Ramayana: Part 1” after watching it in a packed theatre, lauding its scale, emotional depth and VFX. He called Ranbir Kapoor extraordinary as Lord Ram and applauded Sai Pallavi, Ravi Dubey and Yash. “Ramayana Part 2” has now…",
-   "image": "https://static.toiimg.com/photo/msid-135703477,imgsize-276461.cms",
-   "published": "2026-11-10T07:32:51+00:00",
-   "ts": 1794295971.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Scene Tamil Nadu Box Office Collection Day 5: Suriya's Film Crosses ₹60 Cr Gross, Heads Towards New Milestone",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcWFabldjY2hwUnk2VV9fOE03LS03YnRqLS11QXR6Qmk3ZVhjc2RYMWpHTktPTjhNOEp4SjhGQlE5b3Ywa0V0ZWN1OTdNOUJDMXVHcHB3eVlFbHpvdGI5RDY1eVdoV3ltaWN3RjE5RVR0dnNZWXgtWDdBZkdYdjVFbXl6VV84bFJxUlNScnZ2d2hVWmU0aElzTnRJZ3dUcVhjS0lFUWFtaVBvSDM3RFF0TFRtRWQxMXoxQlZhWTVMMVpQZ0pMNEZjckZSUGF1Um5tX19DQ3R3MmdHLUVIZTRz?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T07:30:58+00:00",
-   "ts": 1794295858.0,
-   "category": "box-office"
   },
   {
    "title": "கூல் சுரேஷ் பிறந்தநாள்.. கேக் ஊட்டிவிட்ட வனிதா விஜயகுமார்.. இரண்டு பேருக்கும் செம பான்டிங்",
@@ -614,26 +771,6 @@
    "category": "buzz"
   },
   {
-   "title": "Anirudh Ravichander and Harsha Vadlamudi on Ironhill’s Global Hospitality Ambitions - www.brewer-world.com",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQUNnVnQtaHlyUVhPQkhRV2xhUjFoOTFxbW1xSUZoZGoyWTZiSl9NM3l2YUN5YnVHR2VEZUd2bTZCc3NzT250bW9LR2dMTFRJTHdmM1RmNElIQXRudHdVZHlST3U2eU1BYzg2aFRyN3IxZ194ZFhPNWxkcDRVckRrR29zYnZwM2FNTk81bGhPQjRvYXpOWFZNcWJ3SF9rVGt6VVVKaWFRQ1pkSFBMN0ZMUUVB?oc=5",
-   "source": "Google News",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T06:17:28+00:00",
-   "ts": 1794291448.0,
-   "category": "music"
-  },
-  {
-   "title": "Mookuthi Amman 2 Box Office Collection Day 4: Nayantharas Tamil Film Maintains Steady Hold, Mints ₹5.15",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWmpNMnIwcmkxUFNsbU1RNlkxRk9jZXh4OHZPUWZuOVdGRFB3cnI4SGFuY2ZFbEZBVXJUeUpJUlBoTG0zUTdzdFlEeXVKdElOWC1UWnlFUlU2THRfX1ppYVo4NmRFX1lCbFhvejlRQ0hGWVY4cW5QVFEwS1VLc2ZGOG1vc21vb2lHYjVZc0hJdkNPdTFwZGk3U25vZ0FFZmFtZkFGRmstSlZTOUF5ek0zVUNfMU1tSUdPbFQzOGNNRklXWWJVTm9SX0R6RW5hVmFKUURKcHQzLU9PMGtmZ2ttQXlzbkN0QdIB6wFBVV95cUxOcWkyNnV6NldncG5ubnNrWnFFaHNITVk3b1Yzcnp4MjZrNXJvTkd1R2k5dUVJTWV0c1hFVXhNVkVHN0c5YVN4R0hjSGU1NHlEbTVBVnh6enYxSFR0VU9lU3ZlejFmNWFFVmNtM1EtVEJtdGdHZE1CLW1aU1IzWTRMcmVQNHIwVVhSbldXVHNweDNtbklpSzdzdkZ4bkdtYjYtS05hOUNEc0tHRFlRQ0tZZ25PT2plMHo2eFpPSUlqREl1X3ZLVWFLOTZQc3ltZjNUTG5oMmRrRVhNMHhnMzhTUmFIcWtKNFEzeHZz?oc=5",
-   "source": "Free Press Journal",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T06:15:30+00:00",
-   "ts": 1794291330.0,
-   "category": "box-office"
-  },
-  {
    "title": "New Malayalam, Kannada, Tamil and Telugu OTT Releases This Week (November 10 - 16): Jailer 2, Ranabaali And Mo",
    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNRTdjWmlXSjdyUGV3VXNwSnpSVENQOFM1QlRSUXc0cTl6R3ZjMjdxYWQ1VmQ1dkxVdGNDdGh2T2wtXzUydHhNb1UtYmp4b2FjblpKSzUyZjZ5R05xZms3Ymh3eGs2R0NwZlF6UkZ6NmRZYXJxNjB6TnlIekNydjBtU3Naa3hvVUJ0aENfeU9mWmR6QTM5SGNwUnFTZWlZRmRCT0dSRlkxc0Y3dWxsdnc4SkhwS3RBdm00bmh2SXhPYmFYUkFJZDBqeWlZQ05QbWtWRzI0V1NXTnhyb1N2NkF0bkxJTkpJS0YwS3hvTGJORGV1dTJVUE43ZDJmakt3Wk5iVWF0ZTA0SdIBjAJBVV95cUxNbFRPdG1hZUZTeC1tV2tWQy1qRGQ4MEFDVEdZZUd4Vm9ZZ0t5QnZ5aGNDbnl4SEpGTk9pQlRfYk1EUE1fM1ByaXlaNHlKcHZmcDYxSzNtRDhsYVNKSnFQNTg4THc2T0pVSEl0SW90UW5MTm40R1NZMC1ESzNJaVRKTXZGaGhSZ1Y5TjhzZnloNFhEcl9HZlpNZnl5Rk1IMDN4eHBwWkZyOFoxd2U1YkxnQWdSVnBUQTNBRXdHNEk3UGxDcWQ0eWphb3U0dWc0dVFQc3RwMTdVX0VWMXJSNmxLRzZZVmlmTUtndXFYVXUwejRzSWxWSm1WbzJITDlSVlRmTEJPM1FnbWh3YkQx?oc=5",
    "source": "Times Now",
@@ -644,6 +781,16 @@
    "category": "ott"
   },
   {
+   "title": "'Thank you pondatti,' A revisit to Suriya's romantic Diwali note for Jyotika amid 'Scene' success",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPa1g5N3RJTTJXVXVHdm9QNmRjQlhIZTdOeGducEs0TmNqTm5zWTdpVlowSWJFTVduaHozVUVNLWZCdVN0UUdPY2o0S0R4WERkRUJyeC13cWl0eVZiYkRYa0ttem9DUzFyNUVBSWRtY2QzblVYeHlXVjZnMFV5azJ5NGFhWVBfQ3o5aXU0dGJtbkx6WmZTZ0RsR0kyYW5XTV9tUUR5R3JqSHhqRmgzeWIwbmdXb2FEemZvQ0Uxb0dmX1lLUEYyQzljYVhoRXQxQkFQWnRYbi1aWTBKcEdXdWdPd0w5QXRVRTVTS21JZ0pRbkdHbHIwamZWWDNqN2JSbkZxSENSYkZoMkx4RElsTzJpWXM0ONIBmAJBVV95cUxOOFIxWXVqb2ZjRUw2akRWVGdrYXpzakF3SG5ldnpDTllaZXRnMXBnbkowRjhIVGdCaUxRODV4dmtkQ05QNHVlQU4zS0pXYWFQd2NoeWFVcTVQTWdoTFNfVXZLNUtmaDd3Nk9uNnZPbTRKRDdfSUVmQkdfVGtVam5qNk15XzJlWjVSMjN6QmhBTWFuVGdZSFVpUHozaW1oZTg2c2gzTFE0Z2pGV0t5M2xabDI2S1N2aUZxSGVVUlM5Ni03WnFDTUJSX1lTRVBJZWhwRndOaXBBb0N6VHpwOEMyeXp5QTRRVDAwZnNmRWRHcHlXMzU0R0JsRjR2OWlhWTVtMG9veUliU3JoX21YOGl2OFBDTnFSY0lU?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T06:11:00+00:00",
+   "ts": 1794291060.0,
+   "category": "buzz"
+  },
+  {
    "title": "பிச்சைக்காரன் 3 ரிலீஸ் தேதியை அறிவித்த விஜய் ஆண்டனி.. ஓம் தனுஷ் உடன் மோதும் அப்பா குட்டி!",
    "url": "https://tamil.filmibeat.com/news/vijay-antony-announced-pichaikkaran-3-release-date-at-appa-kutty-trailer-launch-event-186757.html",
    "source": "Filmibeat Tamil",
@@ -652,16 +799,6 @@
    "published": "2026-11-10T06:05:28+00:00",
    "ts": 1794290728.0,
    "category": "buzz"
-  },
-  {
-   "title": "Ramayana Box Office: Hindi vs Kannada vs Telugu vs Tamil vs Malayalam - language-wise BREAKDOWN reveals some BIG surprises!",
-   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPY2x3TUswd1FEd3hwTzNmcmM0X09nOGlJZjFwa01KYlY3WXYzQzctQjZrZ3ctN3dCLXB3RGk3MHd5VGRjT0pXMUxqRmd4ZnZsWERCSjQ3eWVPREJYM1laVWtkbnFxb2lVcUJTNFVzSTFwNlZGckFGeEVBRld6c1FDSFB6ZnZuazZoSGxMUnVNbThaZUplUm5wY2NSTXphRlNKZi1FOHA0cE9abzJRSW5BYmRoZG9NQ0tDXzFmTEtMV09RNU5CZVUyN0FDZjdlbzg0a0JtYWtqYmtoeUJBZVRsbFdPTV8tc0F3T0NGaV9wX21sZUZuX1J5UDRYMFVFTGNCQzRMckJoU1Q4c0lESDhSbkJCZFjSAZoCQVVfeXFMT2k3LWxQSklib2E2WkRPdC1nWEhxb1gyVHRnRDlPcm9SMDZBR0Q0RGZWV0FqUm10REpucjkzU1BlY0Q5V01SdU5RVy1kc1FQWGxJVl95LTVLNDFKelFqYktycXA1b25Zc2hhQ1BLZ3N5S0l4dktrSVVkb0hGOHdFbEFnYmdjTzBtZXdhWXBIOTVRLXlKS3dmdFB0OFhTMEhLQ3RhMnNNTno4aTdrTl9wVmdXTzBzYWg0YldKb0hpZHJHXy1tOGIzWDJUZWVLZjhuaXdRb2lOQncyel9Uc1lKRXV2bUhndzhaZlNGT01iZEFPNWthOWZuTXRjcThxM1RZR0h1dnhQeTNvZllGQ25pWF9WdElpaWhRN0x3?oc=5",
-   "source": "Bollywood Hungama",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T06:00:16+00:00",
-   "ts": 1794290416.0,
-   "category": "box-office"
   },
   {
    "title": "Scene box office Day 4: Suriya film nears Rs 150 crore amid Ramayana's Rs 600-crore run",
@@ -744,6 +881,16 @@
    "category": "box-office"
   },
   {
+   "title": "Lokesh Kanagaraj’s G Squad-Mythri Movie Makers Film Titled ‘RX’; Regena Cassandrra’s First Look Revealed",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZTY1ck1Mc1luajAyc19TTl9Pa1JYRURrY1hlQVRDWjExYkNwdlRsYnBtcHZNdmtVR1M1cnBWUjJVTUhtaDJJTTlDS2dod2xhc3o5S2ZtQTAyeEpIZldMQ3FMUTA0NXIxbXdNZ3g1MEt1aG9NS3Y4RzRZVU8taF8yVURzeXhqYXI3bHhsMnNRaVBxenVZMTQ1cWNlaDhjLWxTXzdzTG15VTRDdzcwbllrV2JNcG8wWFVQSzNHSzRaeE81Y200WFYtTklna2RDSlA0TThOM0VPU0JTd2lOMnUtLUU4YVFERWtqS2VsQnMwSlRGeHRXSVo2TdIB-AFBVV95cUxNZTY1ck1Mc1luajAyc19TTl9Pa1JYRURrY1hlQVRDWjExYkNwdlRsYnBtcHZNdmtVR1M1cnBWUjJVTUhtaDJJTTlDS2dod2xhc3o5S2ZtQTAyeEpIZldMQ3FMUTA0NXIxbXdNZ3g1MEt1aG9NS3Y4RzRZVU8taF8yVURzeXhqYXI3bHhsMnNRaVBxenVZMTQ1cWNlaDhjLWxTXzdzTG15VTRDdzcwbllrV2JNcG8wWFVQSzNHSzRaeE81Y200WFYtTklna2RDSlA0TThOM0VPU0JTd2lOMnUtLUU4YVFERWtqS2VsQnMwSlRGeHRXSVo2TQ?oc=5",
+   "source": "The Hollywood Reporter India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-10T04:53:02+00:00",
+   "ts": 1794286382.0,
+   "category": "trailers"
+  },
+  {
    "title": "சாய் அபயங்கர் வெட்கமாக இல்லையா?.. கையில் கோடாரியுடன் இருந்த சாய்.. ப்ளூ சட்டை மாறன் கண்டனம்",
    "url": "https://tamil.filmibeat.com/news/blue-sattai-maran-slams-sai-abhyankkar-over-axe-dance-at-om-audio-launch-in-college-186751.html",
    "source": "Filmibeat Tamil",
@@ -784,94 +931,14 @@
    "category": "buzz"
   },
   {
-   "title": "Scene box office day 4: Suriya’s film crosses Rs 150 cr, earns over 4x Ramayana in Tamil",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQVFLV0NRbjFqU0JFX1Z6QVEzeHdialV0ZHlQdWtSSHRrOXVsQ0tzT2Nac2Y3ckZFWUdSaEtaWE96Q3E0cXJnYkQ1UE8xWmRKN0NSMlF2OVZkLXFMc2FQc3Jld2JHdkF6SlVmZnRoaWZMMlRraG90ODJBY2Q4NDd4VmJ3WFplNFBBQ3loVnVRU0ZFWThCb24zRFphenNIY2l2Q3NKUW9kYjZpTWFKaWFHRE1EY0dYY3IyRkRXWmVldHNfZGtFaS1JbjJMT2ZnekR4eTg4MVczVlp4czJvXzYtTmJCaDlhVThB0gHvAUFVX3lxTE9GTEh1RVczdl96NGFkbU81czVaSmtfYUxzTUswMVZxaWlkbVRoYWJDZzJxZ0YxdVRucWJMeW1YTENRMzAzZTJqTDFSUEhsNlBBVVB0bllndDh4QTVtNGZpcW1aMjFRT3FpZG8tRW8xYVpfUnBpNV9XU0pnRlREYUd3c0xCZHJUWUpBZlROSHhQT3BsQU94QVgtbFcwMXRhdW9yTEJXTmZnMzUwNXRWb2lsQm5oekc1NVpkSElNMFZwZnBjMS1ZVGduVGRlUUZ4akVkODR1TUFLUDUtLXFTX0VqakZKNmJjSmJ3dTIzQ1dj?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T03:58:01+00:00",
-   "ts": 1794283081.0,
+   "title": "Scene box office collection day 4: Suriya's film avoids big drop on Monday after Diwali, crosses ₹80 crore",
+   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/scene-box-office-collection-day-4-suriyas-film-remains-steady-on-monday-after-diwali-crosses-84-crore-101794240870124.html",
+   "source": "Hindustan Times",
+   "summary": "Scene is written and directed by Jithu Madhavan. It also stars Nazriya Nazim and Naslen.",
+   "image": "https://www.hindustantimes.com/ht-img/img/2026/11/09/1600x900/logo/Scene_1794240950399_zG6B_1794240950566_vgEj_1cd6421e-f038-479b-8155-80913ca19aa1_rjAa.jpg",
+   "published": "2026-11-09T17:00:42+00:00",
+   "ts": 1794243642.0,
    "category": "box-office"
-  },
-  {
-   "title": "பொண்ணுக்கு ஹெல்ப் பண்ணேன்.. உண்மையை சொன்னா இன்டஸ்ட்ரியில இருந்தே பேன் பண்ணிடுவாங்க.. பாலாஜி முருகதாஸ்",
-   "url": "https://tamil.filmibeat.com/news/bigg-boss-balaji-murugadoss-slams-police-raid-at-his-home-186745.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: வளசரவாக்கத்தில் வசித்து வரும் நடிகரும், பிக்பாஸ் பிரபலமுமான பாலாஜி முருகதாஸ் வீட்டில் அடிக்கடி பார்ட்டிகள் நடைபெறுவதாக வந்த புகாரின் அடிப்படையில், போதைப்பொருள் தடுப்புப் பிரிவு போலீசார் அவரது வீட்டில் திடீர் சோதனை நடத்தினர். சுமார் 15 காவல்துறை அதிகாரிகள் வீட்டிற்குள்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/bala11-33021794281397.jpg",
-   "published": "2026-11-10T03:42:37+00:00",
-   "ts": 1794282157.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Mookuthi Amman 2 Box Office Collection Day 4: Nayanthara Starrer Continues Upward Trend, Check Earnings",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObmJMenpnaXgtQlJIUWR0ZUJRaVhFaEJlbE9zM3NLcTFFeTRUSWEwVHlzUzVKQkh6cWxfWG9QNTVrWDRLVHQzajNSbzR0MU1UWHpYUDU3WFVXdmJaVXZhelY2bmxOeUNTcG9UVngzemM4aFNMOWd1dnNmUVhibFZ2aHAwUUI3RFhTZkJQeTdteGMwTmNUMWdFQmI3OFFhSko0ZUNsaU5jMkhXYmdaajV1RnNYdDdDNFpFalUtS0dDM1h2bGdmQ3lwci13TUM2N0FaWTFHWmxXVF9PREhubGZHZmhSNml6ZnQ4MVdHc0RIUdIB9wFBVV95cUxNcERaYXdycGFMU1NJcEtJa3pnNzVlWkJZTFVPMVhhMEpJRXhOM3VxYnYwUVRUWWpjdGhqTkp2b1dJYVhwTUtEd1JOSVZXY3h2dWwtRkc3dzBxRVh3Z09GZDlmMFRGU285bTVZX0R6THNaTUJpMHM2eHpNc1BlRTZpU0NOVDJKaTR2dXZBempJc0FSQlhLTTE4ampVTVBXY1YzX1ZUVkV1OG94Q0NCUmpsU1NMQ2RTdHRydm9oT2NXS0p1MGJtRXpqby02a1ZZalJoeEROb0Rqb1NleFlLRFhpMmdlYmhRa01scEhtZnlxR2tzWl9HamVj?oc=5",
-   "source": "NDTV Profit",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T03:22:19+00:00",
-   "ts": 1794280939.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Scene box office collection day 4: Suriya's film holds strong amid Ramayana craze, inches towards Rs 150 c",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPZUFKbkpvWHJNS09FdmZhR3ZvQXdDa3c5MzZGUzZQQW14THhMWG5SYVo1QnZfT2x6UHJCUUtQeWNSLUJ3Tk45ZnJOZm94emItRGVKMXVHLUNKb29Ea1BsVGxNMlVTTEdHcjFseTFMOEhMbXVjVW5GWnFQb0dJbnBqUElmRndqbHhURzJ0aExXVDJtTGFaTjREb1FPV0RnS2JaN1hKeFItaUJOcEVyVUdBLUg4T0tHY0gyYnJleHpyVUE3ekQza3YzYlkySERJaGYzYUFkRklwUDQwc0V6OFFNR0NTdU1Tekd1bmVRVkRQMzQxd0Iwa3ZoUG5JWTBzSGpKTEFBaUlJdFlpY3Axd3VJQ2tGek03Z0Yx0gGeAkFVX3lxTE8yMjU2ZUhzbnAwY3ppa2RBdFNIX3l0ZzZrVzZYdzdlYUloMmlRZ1FzX0x0VDNfdW51RGRCOXlMSHF6b19HYTA1WmF5V3N0SUJmUl9oVEZhVGJmLXZjU3BDRmRTWEFuaXhjUEx0alJEVy1fcy01WjdtTVJJRTJLb0lwbzV6dWlQbER5TWhCZUV6ZVBSOV9UY1YweXNCRFpoQTNNNWtVRlFvLS02UEEyczA2c1hWb0xNbkZScHNKX2taWjltNUhQSGM3aWJwUXlBV1B6Q2JfWDVpZU5QYjlzVEZDbE1Oa3Fldm8wZ3VqeWFvRFV3Zk8xUU1BYms2ZkdYMldqR09YczVWM1FEdUVoZ0lxY19qUlgxa0lWZktSblE?oc=5",
-   "source": "The Economic Times",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T03:09:34+00:00",
-   "ts": 1794280174.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Mookuthi Amman 2 Day 4: நயன்தாராவின் 'மூக்குத்தி அம்மன் 2' பாக்ஸ் ஆபிஸில் மாபெரும் சறுக்கல்!",
-   "url": "https://tamil.filmibeat.com/news/nayanthara-starrer-mookuthi-amman-2-struggles-at-box-office-186743.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: லேடி சூப்பர்ஸ்டார் நயன்தாரா நடிப்பில், ஆர்.ஜே. பாலாஜி இயக்கத்தில் வெளியான 'மூக்குத்தி அம்மன்' முதல் பாகம் நேரடியாக ஓடிடியில் வெளியாகி ரசிகர்களிடையே மாபெரும் வரவேற்பை பெற்றது.அந்த வெற்றி மற்றும் எதிர்பார்ப்பை தொடர்ந்து, வேல்ஸ் ஃபிலிம் இன்டர்நேஷனல் தயாரிப்பில் சுமார்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/moothu1-62111794279373.jpg",
-   "published": "2026-11-10T02:56:41+00:00",
-   "ts": 1794279401.0,
-   "category": "ott"
-  },
-  {
-   "title": "அரசன் க்ளிம்ப்ஸ்.. வன்முறை வெறியை வளர்க்காதீர்கள் வெற்றிமாறன்.. கண்டித்த இயக்குநர் லெனின் பாரதி",
-   "url": "https://tamil.filmibeat.com/news/lenin-bharathi-slams-vetrimaaran-over-simbus-arasan-glimpse-accuses-film-of-promoting-violence-186741.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: வெற்றிமாறன் இயக்கத்தில் சிம்பு ஹீரோவாக நடித்துவரும் திரைப்படம் அரசன். இதனை கலைப்புலி தாணு தயாரிக்கிறார். படத்தின் ஷூட்டிங் மும்முரமாக நடந்துவரும் சூழலில்; தீபாவளி பண்டிகையை முன்னிட்டு நேற்று முன்தினம் அரசன் படத்தின் க்ளிம்ப்ஸ் காட்சிகள் வெளியாகின. அது பெரிய அளவில்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/aras-25071794278994.jpg",
-   "published": "2026-11-10T02:50:55+00:00",
-   "ts": 1794279055.0,
-   "category": "buzz"
-  },
-  {
-   "title": "How Suriya turned his biggest box office failures into a Rs 600 crore 2026 comeback",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMkcwZTlESWcwdlU1MXVyNmVvd1MxTDJfOHJDMmZsVEZ1MTQ1NXYwWnc3ZHhQUWNiQTJqSTVpaU5hNXBSTlpHZ3Njb1RFa2hySUw0N09HRDBWWlAwTG1PSTVOaDI3eHBCRXZHVHlGV0lCV3pReWt0RU9vOG9Db3Y4UWVLWl9zR0RjM0hDNm8tVFZSbWVFbHlpOVVsTVFleGh1dFJ6Z1BUMWFqcWRwaENLX3ZGeWVkVGhZN1lfSFowX1piTTgxaFItOThBemU2bEgzOTR6SUlJMnNma1pxRVdpeNIB5wFBVV95cUxQT05mNGN2eWdqSmVQSmNLMlpPY0hvdTJRbFowRjR6LUt6OHdNb0l0N3Y1R2poaTRhTFBHeC1QQV9lRW1qaHB1Q3VFeXFic0Z3RXhDcS04bDUyZ0lTSEYwQ2FhbTN2NXdDR0U2UnFfNmV1NVFJdXpfNkJKTVZZZUpUWF9hX3ZFVklVejNIQkwzbzB2ckxwOHNKZ0pfLWE4MXpCNTE3cUZtNjFkdF9hSzhRZFV4eWxLbno5VmhUTEdDUElwTld2RzJNX3ZyREliUDFfR3Vfd0xlczZUUEpHX3VhN0QwZmY5cHc?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-10T02:36:08+00:00",
-   "ts": 1794278168.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Scene Day 4 Box Office - சீன் 4வது நாள் வசூல் தெரியுமா?.. சூர்யா கன்ட்ரோலில் பாக்ஸ் ஆஃபிஸ்",
-   "url": "https://tamil.filmibeat.com/news/suriyas-scene-box-office-collection-day-4-film-nears-150-crore-worldwide-in-four-days-186739.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ஜித்து மாதவன் இயக்கத்தில் சூர்யா ஹீரோவாக நடித்திருக்கும் சீன் திரைப்படம் தீபாவளி பண்டிகையை முன்னிட்டு சில நாட்களுக்கு முன்பு வெளியானது. விமர்சன ரீதியாகவும், வசூல் ரீதியாகவும் சக்கைப்போடு போட்டிருக்கிறது. படம் வெளியாகி நான்கு நாட்கள் நிறைவடைந்திருக்கும் சூழலில்; அதன்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/scene-49291794277692.jpg",
-   "published": "2026-11-10T02:28:53+00:00",
-   "ts": 1794277733.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Mahesh Babu Reviews Suriya's Scene, Calls It A 'Must-Watch'",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOGlyQVF0OUJJd202NmxtdktMc1hWdjY2b2FDNnZQeV9IVmVZQUlMbXphcms0UmFLOEp0WGVQYngyMFYzdjF6MmJIa05GT0s2Y2lmMHpuWnB2V1JuMW1DOENwSWtlNjQ0WVlFYkZKYm1ycmF6RkNpVUVDSHFmMTBZWUJpd1dtOHd3ZmsxWl9XUmJCZC1DSGEzUGVqRV9taGUx0gGoAUFVX3lxTE9pZnVzM2t4c3Q0b0xXdDZURUxyR2ZaMHBmdUJ1eXdsNzViUGp0TmdyaVh4bi01Rk5hR1BtbXJQSGdxcndsNnZ2TGpPY1VEcWt0Sk9Sb3d4SkYzbnY2d0doSVZyeVozVEhWcGJ5SS1DR0lBVzdPY0Z2YU1RV3pfTGJ6dnV0dXNVbXlrdVdTNE5KRm52aS1ZdXJfalZLc25pX2xwaUtlSGlZRg?oc=5",
-   "source": "NDTV",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-09T17:11:04+00:00",
-   "ts": 1794244264.0,
-   "category": "reviews"
   },
   {
    "title": "Suriya’s Next After Scene: Warning for Mandaadi Director?",
@@ -885,12 +952,12 @@
   },
   {
    "title": "Jailer 2 Surpasses The Goat to Become Tamil Nadu's Highest-Grossing Film, Sets New Kollywood Box Office Benchmark",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lQXhoLXBwcl9LMkFJNlJ1TkFaWXFBQW0ySW5Yc0V3RDNPSnlQNzdwQnU4NTN2elFDSWdVZHYwMUFkSC1yMGxKc3hDV2RuUmlMN3BmSDVILW9YT19XRzA1aFRYMlNhNE8tazFj?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lRi01OTJrMkJxNnktYWZGNmtxdlB2TTk4aXp0eXJwVGZ4RW5SUVBfcEVxd2RpUDMxMTY0bjB3MjZ1QnNnZ3d0UkpLOThzNmM3T0cxX2xGSENtcEY4OC1nS3B2cDZGZDQ?oc=5",
    "source": "IMDb",
    "summary": "",
    "image": "",
-   "published": "2026-11-09T16:09:01+00:00",
-   "ts": 1794240541.0,
+   "published": "2026-11-09T16:15:06+00:00",
+   "ts": 1794240906.0,
    "category": "box-office"
   },
   {
@@ -902,16 +969,6 @@
    "published": "2026-11-09T15:45:53+00:00",
    "ts": 1794239153.0,
    "category": "reviews"
-  },
-  {
-   "title": "Scene Vs Mookuthi Amman 2 Box Office Day 4: Suriya's Film Nears Rs 100 Cr, Maintains Massive Lead Over Nayanthara's Sequel",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUEhDRko3VDE3RjU4QkJmNDIyeXlKbDNLaHAyaVRqQ1RSdzJOOXMtcUstS1ZJWW9QbnJ6UEJ6TXotMDc3QjViaDZJUXQ1TC1nUGo1NjdOY0cya1VyS3FUU0hxQkU0VUxGMERCejhEbEpoX2t0X3E0RTBCaDJ6S29Rd2tTb3IyUkxsLWt5UnZHM1FsWnk4SWlPYU93dmRUSGJkX2t5Nk51eWZzOUhYZzlFLW1KLWVlTWJMeFBvLUp3RDRMZzBxOWNEWXBzaVkwRVNqX0R3OUtVONIB3AFBVV95cUxPejJaWHVGdnpKNmx0QTNqMnFYVU82ZUFLeDVoVWdjVEM2U1dPRzA0TzBPN3RoaXNvWi15QnRzSHRDY0xQSkMyclhobk1XS0xmVERLN09IR1NqZVlqWjRkeFpHQ1dhbXowSGljOFI0OU1pa2l6VmdVQkhaOWNmWWdGNkVvZGNnTmVWNzlzRGg3TjNQRmFFX2RLNExNUURYLVNGcUthRWtkS1BPcGdrTGtXZ1ZrckxMa1BCcWZjWlBTUV9MYy11Q01GZ2xJRExfbUstUmhQRm0yM0s3TFBB?oc=5",
-   "source": "ETV Bharat",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-09T15:25:16+00:00",
-   "ts": 1794237916.0,
-   "category": "box-office"
   },
   {
    "title": "Mookuthi Amman 2 OTT Release: Where To Watch Nayanthara And Regina Cassandra's Film After Its Theatrical Run",
@@ -934,16 +991,6 @@
    "category": "box-office"
   },
   {
-   "title": "Kollywood (Tamil) Box Office Collection & Verdicts 2026",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWgyLVFQcW9nbnYzUzBTSnB6d2JFajFTN094TEtLLVVFX2V6RENMVjVqV3ZiVm03aGgtUHpTb2JpekNJSXBuZnlMdzZkMUp2cG5vVWV6OVJnN1JZZW5RYUJaMjVFSXpQc1RiQTNUTzBmWG0yS0ppMHV0UnpIb3l0VVNuM1NUTnpLZTZsbDFFT2o1SHYyRDNV?oc=5",
-   "source": "Koimoi",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-09T13:38:10+00:00",
-   "ts": 1794231490.0,
-   "category": "box-office"
-  },
-  {
    "title": "Malayalam, Telugu, Tamil And Kannada OTT Releases: Jailer 2, Ranabaali — Web Series, Movies To Watch This Week",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOTRHVHh2c2xmWWNTSEFsWmRMRlJRRTJuTHc1enhWQkpaaEJYTmxTWUR2QzMxckNUS2xhbEZfXzVwYnRQcnRlODV5a1pGbVhWQXhmZXZIbDZ3U1RkaXJJS29aQmtGVENwMHV3WkVkSFBfcTZ1SUZGbC1qamZPakIydjQ5clU0QzBQRzdPa3hITkY4YlJzV0pra2Q1aWktUzhCeUFZSHAzUnVGbDJQMTRHaVc3eS1KcVhmalBGSVpBMDVwWHdVdy0yVEYyaWVZS19mYjYyS2lDS0tTSU5LcGlURFdEbnlOaExy0gHwAUFVX3lxTE82RlVMeVM5VUVXRXhHRWIxaGQ4UU5RNmF2azB3TzV0MFBOZEZza0NtWjBrNzNscmxIT0dxQmJyWmdJT0tHVFBSV2hMbmpXY0xLY0ZkandsMEJ2cHNxNWRpVUVFWWhoM0dtOWRTWlh0S1QzMmQ1eS1Sd2g0RWd5Xy1BNU5KN3dSZkRWeWhidjMxdklYamhhaDItblRiNmlTT2JSQXVjd1NPU2k2aWNLTGtjZGlWUEtCVU55bkc2Zjh4SlZuR1pBX0MyczhWOFVkTXlQN0Z5eUJfclprYzVBMFgxWnVsLTlKalZ1a2s4OGNvQw?oc=5",
    "source": "NDTV Profit",
@@ -962,26 +1009,6 @@
    "published": "2026-11-09T13:03:34+00:00",
    "ts": 1794229414.0,
    "category": "box-office"
-  },
-  {
-   "title": "Jailer 2 Ott Release Date Shows Tamil Cinema's Neglect of the Big Screen Continues",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jNXl1WElSbjRpUGh4V3NhVlJtMGw5T2VvVnY5d0t5N1ROUXB2OTExUndoTUNkczdQTzYyVl80TzRUeTY2MGQzT1pHa1ZjNWo1WjlNelNuLV9XenF4VWliWW5MeXlOLU0?oc=5",
-   "source": "IMDb",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-09T11:11:14+00:00",
-   "ts": 1794222674.0,
-   "category": "ott"
-  },
-  {
-   "title": "Kamal Haasan’s ‘Sandiyar’ title reignites row over caste pride and violence in Kollywood",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQWpMVmQzcFBSQkZHMnZ1UXV3d2psSmFybWxDZnBBblRqZUY0NmdQNC01M2kxdHMyTUFjbXBrUWszMWpxM2pfN0txbnRPSmdZUkdCemoxdzI3RFlCaDZ2MGpoTmRHZm9qeW14b0lrRVVFam9rS2FZLVVkM0FnbWctRmdQVVY5NW40OEZxVFRsYUhkWTR1WDNxX2VIdkpld1hBRFdnN0FIbFdHZUtVSndBdFFNOTFfU1JqczFBaE5MbUcyR19p0gHSAUFVX3lxTFBFbEJfSjFjWTBTR0FDV3VCdS1IRTFzcl8zODg0cWlrbmRpNWpfeE9obWZiVG9VU1BYcnRoUmxveHhuOEw4VC1ETDJaRm5panZ6ZkRoZFZkbmo1YkVadjNkemRCMHRMTmZYMkRYY25mSlhOYjNXMnJFNW1lQUVKeFZ6VGhnWDY5UVlzMXRVbS1wcFNnalB3NW8yeU5LQ0F5SEFPV1RRb2trTExlaDFkRzZydkRkV1ZXT2ZHRmJTM0dRN3A1VlRlRDFCMjFLeGE2ZWhWQQ?oc=5",
-   "source": "The News Minute",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-09T09:32:01+00:00",
-   "ts": 1794216721.0,
-   "category": "casting"
   },
   {
    "title": "Anirudh’s BGM For Arasan Sparks Massive Trolls",
@@ -1022,6 +1049,16 @@
    "published": "2026-11-08T03:53:56+00:00",
    "ts": 1794110036.0,
    "category": "music"
+  },
+  {
+   "title": "One Hit, Three Flops? Nayanthara’s Tough 2026",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS2Z4ejU1NTRTaW5VR2lSMDFNTzNJTklfcHBBclc1M0ZkdktUOV9ZaXc1S01DQkRCdExzU1NBT0pNM0EwYkJseU9CZS1QOGJxaHFwd2oySlhOZWQ1UkxVSEt1LTFqSXNIeS1GRTh3eERHS1NDOEJEdlhUM0ZDNnhkYkJrX21iTFZmb2c1aNIBkgFBVV95cUxNVW9vOHdRZFUtRmlOQ1UtRWhZNFVrNFJLenRWaC1JU05zb040N3VtXzh0eVd4Tkdtblc1RXV3NWRBVWtXUk56Nzd1MXNLbjNIQjRtTTNBZWppTzBWMUZzUmVIR1FrTk1mRWpSYlFQTVFJd3FQdXBhSFA3c2ZKM28wc1NFc3hpYS1Dakgtdzlvc1lmQQ?oc=5",
+   "source": "M9.news",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-07T17:15:56+00:00",
+   "ts": 1794071756.0,
+   "category": "buzz"
   },
   {
    "title": "Sandiyar Controversy: History Repeats for Kamal Haasan?",
@@ -1134,26 +1171,6 @@
    "category": "buzz"
   },
   {
-   "title": "Scene X Review: What are audiences saying about Suriya, Nazriya Nazim and Naslen's film?",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPaTNza3hUTFVQUXotalZVVUlpSVJjR3VaZWdJT1ZHeGhJb1lYZnE0T1RzNmUwWU9MX0UyVHA1RjJ0TUg4QjkxS1h0REFGUDB1M0h1RzJxTDRMc0l0MU9NYWptMUlpX1drNWl0UzJXUmdNUWNfYjNoZENqT1ZzaVdTMWxMWTliYUt0WXBiMmd3TE1vNFc0UnVsWEZOcC1lU045WDZFNHFnekIyTW1lc3o0dC1NdzN3QlNQNWZ5MVBBRUtqaUpCYkRWNHh3YVRuazgySE04dkxHQVhHTHJoVzV5Y3Bzc0JjUFd4RDRSRUp2cHQ4SGd20gH6AUFVX3lxTE9uQ3hCbklvUTdtVXNjem1pb2w3eEZTd1hfMHZhM3F1bVV5c3MzbzVNUEhIT0tOUDlYaGRmanBNQWpJdEdxRmpkRXlZQUpmaTMwVlZpelVRa2pTQXQxVjdyQ0dDRGRGLXl1REV2R3BoVkdqUEU0ZUJpdlNmZzloNV9ySk02THpDUGdKMTNJVFpRbGtONWNBOEpFM0pHTU1MVjdKdTd2MjlJVkMxcnRKYlBoSmdBSVFLeklCNGdMQ2ozNnZpWWx1bTJKMTNJel9WYUliVU5MU0g3eGN3Y3NnVDNTNm9aNVVFbWxJdGlJSWVDdThhWHVlQ2tjb1E?oc=5",
-   "source": "India TV News",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-06T10:26:18+00:00",
-   "ts": 1793960778.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Tamil Film Active Producers Association honours Rajinikanth for Jailer 2 success",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcTBmYi1iakRxRnREM0xuckZtemFfTWJZRzRHaWlHVjc1NURnSk80TFQ1YWNhRGNyVEZEZm5SdDg4NDgyWmFnaTBmOU9yYW9ERnNCYUtjWk9PVVFrWFplOXdwUE1xME9hQUd1MTQtMUtXOGRTekZPZXhST3hha1M2YkduSmtKalg5SndFNHdOLWc1WVFnRmdoSzYzUUlOMVpmeWNEbHF3UzRXU3JKckg0cGp0OEItdlE2emRKUDlsVjNQY0o4eGtCUTVIYnpDUdIB2wFBVV95cUxQaVZOelItYmttWTlsVkNSWXY0ZThGc2dhT214WV9NLXRDUi1GcnpTTmUzU2l1SjBNcjBjd0w1YXNyR2NLZGRFYWVYUTBydG9DTGlSVWpacDBFSkVTdkdva3dHdHFJbHh1Qm42czh4dkcxcWQwQ2JxbDZUTWNMTEZld2hXcjQyMEVUUlEyNjc0UWkzWlpGVTBQclhpU1dCQmJOblktbHZoX0EwRzUtbVJ5a3hLak83anVubHpnZEs3WTUta2NvZV9qeW95YmNxa2pTeWlwclRaeDRrdTA?oc=5",
-   "source": "Cinema Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-06T10:06:08+00:00",
-   "ts": 1793959568.0,
-   "category": "buzz"
-  },
-  {
    "title": "‘Scene’ for Deepavali: Suriya film references and special cameo appearances",
    "url": "https://www.thehindu.com/entertainment/movies/scene-for-deepavali-suriya-film-references-and-special-cameo-appearances/article71673427.ece",
    "source": "The Hindu",
@@ -1202,16 +1219,6 @@
    "published": "2026-11-05T10:49:38+00:00",
    "ts": 1793875778.0,
    "category": "ott"
-  },
-  {
-   "title": "Suriya's Film Scene Trailer Surpasses 14 Million Views Ahead of Release",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkprWHFUVmd3VHdLSWRuRE4wS0lZNHVBdENkNDczcUpYcW5MQVhPU18xNDR4NTlWZVFfU1dZaW1RZVRXZVlnN25BMUdSLUJxb1VVOUt0NjNBZC1Kc2ZKLXFKZVM2Rmkxb1Vjc3RtT0tHSGdjTHBVanhuSFdzaGUzcDlXcTRDY3p4amlFTTRvZ0U4amVQaXZiN01jVE5WMTJ5ZzhUeTBZXzZ0M2pyaWFuOA?oc=5",
-   "source": "India News Network",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-05T09:43:42+00:00",
-   "ts": 1793871822.0,
-   "category": "trailers"
   },
   {
    "title": "Signal At 11:30 - Official Tamil Trailer",
@@ -1297,6 +1304,16 @@
    "title": "'Scene' trailer: Suriya plays a rebellious cop in Jithu Madhavan's action comedy; Thalapathy Vijay gets a",
    "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQQ1NzSFcyaXNpdFVCTnNvSlBuV3JDQzRmbDdqdWZjTWRrVUdxc2FZRjBBQ2xpRXA2MW5xM3J4N29OX1ZLX2J6RWNZYzBkNlpOcmRYT0VPVnJReDZqXzlibjNUVjNwV29DSUVUQ2xtX3pVLWN5MXdEOGlXdFpaRG5pb2NsbE1XNF82Y3ZIZU9ROWV1RHQtcG9XSWRUaUdtS2ZxemVQbXJtUkhuQmkwZU5vUlotaFI4WFNjYzNVVi1zbDl4WlV5OGUyODFkaElfZ2F1YUd2dFZpNzM3S3d2bHF2MVZKX21pcnJXT09YWlN1VjZsU0pwRkVvVGNZZUR3RTQ3X1EtYktDSnNOUmtUY1NwOVNqSnUtUU1vd1JlN2thQkgyM21FTGtZNEY5WmRKTXNybHJRcWRTWjJKaHBzZjFsZW1ETlA2akFyazFxcEV3SdIB1AJBVV95cUxPOGZzSkJadzNLYUR0OWN4cGpGYUtGUk9pNVdDS3pMaG9xbFJUbktXbDBYY3JGWkw2cUs2aEpwU0Y2VDJOeEUwVzJQQU1fN2NweVU1LUZHQjVERmFqWmlUSklWV3ZlTXhVaEg0X0VqVEo0eVgwV3gxU2Y0UHFHWXVjakJpNmtBa2VJQ3g3TXFpbFRHc0l2Y1JCTVlRS3FiZExTWmxGUUlrdF83ejh1TEtFM2kwSThKNWJXSGpkWHQzc3YweTdIUXZjOUhZSDl3SGdhZWw3eWVEMG9hR0xxd25DS20za0g1MGNaU0dTaUdLZ1BZR0ZZVWN5Mld3SXE1UTBHNXdkQlo3TUVQdGdDbDhOeUFqVUY5aDBWaVctSFhhSkc1V3Z3LUdILWVjRWdBU2sxTHNzazZNbkhEM21yVUN3ZjlGUnFjWFVMYzVrYzdlSHVTR0RV?oc=5",
    "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-01T07:00:00+00:00",
+   "ts": 1793516400.0,
+   "category": "trailers"
+  },
+  {
+   "title": "Suriya's 'Scene' trailer out; Jithu Madhavan's Tamil film set for November 6 Diwali release | WATCH",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRnJsVXJYRGJGRVdOVURQRU94NC1jbFREaVRjdno3R1h1QnVCREpBVzVUbFVhRUFmWDBScERYMU9reEttVEtzQWNpUUNMNkJBUTN5dFEzTVhXUTFTa2lESzRBLTZqeV84T0huVzQ5RW1WN1VWV3RRSTBETlgwWThEdkhNTFpMN015WTZwSlZsVUJKSERzVElMaHUtZnl0VEhzUEdMT09tUzBtQUV3TzBWc3VR0gG3AUFVX3lxTE9YdlFUeVFtaFNNYzg1ZnRIa1hGRWN4US1qWGRIMXFmeFRjR3FWYlpCcFYzcUE3aTVnVElIS0ppd3dyN3VRU3VQTElRdEx4U2J4TWstcjdNX3ZGRXFTZlhnM1J6TUVmbkJvOG1DX0gwV3NiV0JlbGZpQXQtTXRKM25tcXJ5UGsxVjdDWkZPZVIwVFpkRW5XZUxWYTNrOUg0eXVVYmNYektWa0NoaFRCTXdmQXFVRHlBSQ?oc=5",
+   "source": "Mathrubhumi English",
    "summary": "",
    "image": "",
    "published": "2026-11-01T07:00:00+00:00",
