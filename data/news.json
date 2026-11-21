@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-20T20:52:50.706846+00:00",
- "count": 101,
+ "generated": "2026-11-21T01:55:27.012868+00:00",
+ "count": 99,
  "sources": [
   "123telugu.com",
   "Bollymoviereviewz",
@@ -16,6 +16,7 @@
   "Gulte",
   "Hindustan Times",
   "IMDb",
+  "INDIA New England News",
   "India Today",
   "IndulgExpress",
   "Kerala TV",
@@ -23,7 +24,6 @@
   "Lensmen Reviews",
   "Movie Crow",
   "NDTV",
-  "NDTV Food",
   "NDTV Profit",
   "News Today",
   "News18",
@@ -43,7 +43,7 @@
   "stupidDOPE"
  ],
  "images": {
-  "total": 40,
+  "total": 38,
   "scraped": 24
  },
  "feeds": [
@@ -53,7 +53,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.09
+   "seconds": 0.13
   },
   {
    "name": "News18",
@@ -61,7 +61,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.12
+   "seconds": 0.09
   },
   {
    "name": "Cinema Express",
@@ -69,7 +69,7 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.48
+   "seconds": 0.41
   },
   {
    "name": "Hindustan Times",
@@ -77,7 +77,7 @@
    "items": 7,
    "ok": true,
    "error": null,
-   "seconds": 0.15
+   "seconds": 0.41
   },
   {
    "name": "Indian Express",
@@ -85,15 +85,15 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.14
+   "seconds": 0.1
   },
   {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/entertainment/movies/feeder/default.rss",
-   "items": 7,
+   "items": 6,
    "ok": true,
    "error": null,
-   "seconds": 0.48
+   "seconds": 0.36
   },
   {
    "name": "Filmibeat Tamil",
@@ -101,7 +101,7 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.38
+   "seconds": 0.13
   },
   {
    "name": "DT Next",
@@ -109,15 +109,15 @@
    "items": 0,
    "ok": true,
    "error": null,
-   "seconds": 0.43
+   "seconds": 0.33
   },
   {
    "name": "Times of India",
    "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
-   "items": 2,
+   "items": 1,
    "ok": true,
    "error": null,
-   "seconds": 0.15
+   "seconds": 0.17
   },
   {
    "name": "Google News",
@@ -125,15 +125,15 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.35
   },
   {
    "name": "Google News",
    "url": "https://news.google.com/rss/search?q=%22tamil+movie%22+OR+%22tamil+film%22+review+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
-   "items": 10,
+   "items": 9,
    "ok": true,
    "error": null,
-   "seconds": 0.43
+   "seconds": 0.31
   },
   {
    "name": "Google News",
@@ -141,7 +141,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.44
+   "seconds": 0.48
   },
   {
    "name": "Google News",
@@ -149,7 +149,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.48
+   "seconds": 0.45
   },
   {
    "name": "Google News",
@@ -157,7 +157,7 @@
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.41
   },
   {
    "name": "Google News",
@@ -165,7 +165,7 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.32
   },
   {
    "name": "Google News",
@@ -173,25 +173,25 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.39
   }
  ],
  "trending": [
+  {
+   "term": "Anirudh Ravichander",
+   "count": 9
+  },
   {
    "term": "Dhanush",
    "count": 9
   },
   {
    "term": "Review",
-   "count": 9
-  },
-  {
-   "term": "Anirudh Ravichander",
    "count": 8
   },
   {
-   "term": "Box Office Collection",
-   "count": 4
+   "term": "Scene",
+   "count": 5
   },
   {
    "term": "Collection Day",
@@ -202,16 +202,16 @@
    "count": 4
   },
   {
-   "term": "Kamal Haasan",
-   "count": 4
-  },
-  {
    "term": "Trailer",
    "count": 4
   },
   {
-   "term": "Scene",
-   "count": 4
+   "term": "Dadasaheb Phalke International",
+   "count": 3
+  },
+  {
+   "term": "Box Office Collection",
+   "count": 3
   },
   {
    "term": "Scene Box Office",
@@ -222,19 +222,79 @@
    "count": 3
   },
   {
+   "term": "Kamal Haasan",
+   "count": 3
+  },
+  {
    "term": "Kavya Maran",
    "count": 3
   },
   {
    "term": "Rajinikanth",
    "count": 3
-  },
-  {
-   "term": "Dhanush's",
-   "count": 3
   }
  ],
  "articles": [
+  {
+   "title": "OM Box Office: கடும் விமர்சனங்களுக்கு மத்தியிலும் கல்லா கட்டிய தனுஷ் படம்.. ஓம் முதல் நாள் வசூல்!",
+   "url": "https://tamil.filmibeat.com/news/om-box-office-day-1-worldwide-collection-is-a-very-huge-187283.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: தமிழ்நாட்டில் குறைவான தியேட்டர்களே ஒதுக்கப்பட்ட நிலையிலும், தனுஷின் ஓ.ம் (Operation Mole) திரைப்படம் முதல் நாளில் டபுள் டிஜிட் வசூலை கடந்து சாதனை படைத்துள்ளது. மேலும், உலகளவில் தனுஷுக்கு மிகப்பெரிய ஓபனிங்கை ஓம் கொடுத்துள்ளது. ராஜ்குமார் பெரியசாமி இயக்கத்தில் தனுஷ்,…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/ombox-58621795224221.jpg",
+   "published": "2026-11-21T01:23:59+00:00",
+   "ts": 1795224239.0,
+   "category": "box-office"
+  },
+  {
+   "title": "OM box office collection day 1: Dhanush, Mammootty's film opens on a strong note. Tamil actor scores his h",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPc21TeGphcXRYeVR0d3lISlNkU0hyNWFsZDlkbmJybnkwdWlFQjFYb1NJbVcwcG1NRVJ5V1dZQllrTXlBSE9YRTdJeGtITmlKQzdaZjdaUjdJVlBmakFrN1JpcTNDcU1QN0hvQ3cyZWc4WjdyY3VNcXE2RGlqelktT0NkSXNrUzJqUHZTXzhzQ3JHZXB5LS1hY2RFanhKaHJDYnJ5aG9jTkx2R0wwX0EtYzdLbWFJTzgzakVUdHZhd3I1eWFXRTVPdE1QZmlHRXU3OF9NUDBIQWp2YllsVnpiVl9mWGlQbWV6M0x0dDdUXzhaTi00ajhKRE95QXYycGVPUm5BQnB2ZWU0aXZmLVRONDg4UDhUMHlf0gGeAkFVX3lxTE9Wd3VoT1NXNWhhZkRMbDBRZTZVVzU1OGRUYm5CZVpTNENyR2ZjOVY5RjNGZnZnc1dqaWY1OXEwZW1mcTV2ZGV0clpleC1fZ3ltblQ0alVYSHhtcThPa2lPRnFKR3dGNzBDQlQ5X0M5QjUtTXZyM0tJazZfRW0xenp2MlZqNXBlMXVoNm5FYUlKMW9nclJkVWsyQXpUb3dISWNOcGxsUXBsSjZTanZ5MGZYQzJ5bExLaVRmN3hoLS13VUU1WC1mMlU3Y0wtOE1sUHpLanRjb0RrbnJVMTEtUG9nWDcxZkdYVWJURXNYb1ZUdW8xelVuQ0g1WG1hRUFua3Y4RUs2ZGlrOG96UWVnTnJmTU1kS2NGVnJ6MTkxSVE?oc=5",
+   "source": "The Economic Times",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T01:08:12+00:00",
+   "ts": 1795223292.0,
+   "category": "box-office"
+  },
+  {
+   "title": "OM Tamil Movie (2026): Release Date, Cast, Ott, Review, Trailer, Story, Box Office Collection",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xdGlTcWtTVEdvSHR5SDBwRWxxdkpaeVd0SWhNc3V1WFMtWE5xOXgxQUJ2Sm9EMnNRTENrU3lVa1NENzJ6eGRub2FOMUxkbVIyQkhTMHd2UGhkdUEzUmFsRURjVHB4ZGRlaHRjOWZB?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T00:53:45+00:00",
+   "ts": 1795222425.0,
+   "category": "box-office"
+  },
+  {
+   "title": "'Scene' box office collection day 15 vs 'Mookuthi Amman 2': Suriya's film earns Rs 77 lakh on Friday; worldwide gross reaches Rs 260.60 cr; Nayanthara's movie collects Rs 22 lakh",
+   "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxNOU83WHZoMmFRSmV5VEFrR2xrRGNxVnIzdFVfLWNKWV81SEdNeUV5cml5dXZrVFNZV0ZnRUtXN3psTDllbXVxUmpacjd3eXBaanR5cDJLVWtCMFhJT3FVWjZqRFFsYmNDQ0RhZ01ia2RDZER3V2U1amlwLVJLVThvYi15emxUMTkwbE0xUE1nNXNKZnlfQl9wMTRPVkI1dDhpcEM4d3l2X0cxbnVRczk3SGxHbHJHbGdnVE12QmdBRUd3d1lTRHp1RGxZcTNwZjhEOVd3ZjN2dmU0UEYyTmtJYVJJQXkzQ3c3M1FLZzRBTGR3Qllmb2dFeF8xcXZEejBVU3hmck5sbThHWmtlQ0dReGFPZlBIWFFlbHI3YU5McERlNElQQzZWODFhdVJOc255Q0k1WVI2WVVOM3R3c0Y5VTVUNkd5eklsckdaOVo1ZWc4T21lYWZFUnhYbXdSS2VlcjRwcDJTb1A2TXBoVjZ4WEFNRHlJTXdZaWkxTHF2cy0tRmZKLU5lOWNxSmhVNXNGSjV6alBOQjZkdHgtZ0pqUW80Wk1wTVlyZjJqYnU0MlVmNjYxenRLSF81UHdmWGZHb050NzBwTTNCVFk?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T00:46:00+00:00",
+   "ts": 1795221960.0,
+   "category": "box-office"
+  },
+  {
+   "title": "'O.M: Operation Mole' BO day 1",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/o-m-operation-mole-box-office-collection-day-1-mammootty-dhanush-sai-pallavi-starrer-opens-strong-worldwide-gross-reaches-rs-31-55-cr/articleshow/136041963.cms",
+   "source": "Times of India",
+   "summary": "O.M: Operation Mole made a remarkable debut on November 20, accumulating a net of Rs 17.70 crore within India. The film grossed Rs 20.55 crore domestically, with its Tamil version leading the box office. Bringing in an additional Rs 11 crore from international markets, the total…",
+   "image": "https://static.toiimg.com/photo/msid-136041990,imgsize-154707.cms",
+   "published": "2026-11-21T00:06:07+00:00",
+   "ts": 1795219567.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Kamal Haasan Wins Outstanding Contribution in Film Industry Award at Dadasaheb Phalke International Film Festival Awards 2026 - Dadasaheb Phalke International Film Festival | DPIFF",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVHdIV3hqRFNFT09tWGhjOVpETU9SNEhhTUYwZzJSQmN5RXNXWm9jRzdhNVB6SWg4a2pWeXI0VnVxeUZYcEpUemhWeUxua05hN0xLOWhtUUJ1R2FGcldBOWJTdVhlTTVfOFZVUy1ZSkpGeTlVYXdsU212SENObGNNU1ZfSXZiNDdfSVoxUVhNRFNvSjY4WnAw?oc=5",
+   "source": "Google News",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-20T22:50:00+00:00",
+   "ts": 1795215000.0,
+   "category": "buzz"
+  },
   {
    "title": "Kara OTT Release Date: Dhanush’s Heist Thriller Is Now Streaming on Netflix",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WZUd2c01kU25wUlk4NGJDSk4yTXBhcmlLZFBUcy1iM3dNWHZLaFdQa1MxS0xaVll3VWxWN3RibEx0b01KZGkwRkR0eVBzNkdkX01mZE1JQQ?oc=5",
@@ -256,14 +316,14 @@
    "category": "box-office"
   },
   {
-   "title": "OM Tamil Movie (2026): Release Date, Cast, Ott, Review, Trailer, Story, Box Office Collection",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xdGlTcWtTVEdvSHR5SDBwRWxxdkpaeVd0SWhNc3V1WFMtWE5xOXgxQUJ2Sm9EMnNRTENrU3lVa1NENzJ6eGRub2FOMUxkbVIyQkhTMHd2UGhkdUEzUmFsRURjVHB4ZGRlaHRjOWZB?oc=5",
-   "source": "Filmibeat",
+   "title": "Anirudh Ravichander and Kavya Maran Thank Fans for Blessings Following Greece Wedding",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRmlJdDFycVlOZTRJVDY4YzFUYl9SWTk0WE02bGpjTTgyZTI1SEcyRWlkNHBrQndLLUpjR3FzNTdfdFNDUFh6blFUaXU5RUFfbEhMOHpzSnhXNzY5Rl9QS3UxbTVuUTlSSnNhUEZSTVM5bUh4bEVQU1U5U2taSElTSlN4bjNnWFNheEtucHJmTHRjWDlIc1BpMDRTU1lzRXZVbS1Zc2ctTnhsYjVMdU5ScWp2eEY?oc=5",
+   "source": "INDIA New England News",
    "summary": "",
    "image": "",
-   "published": "2026-11-20T18:49:15+00:00",
-   "ts": 1795200555.0,
-   "category": "box-office"
+   "published": "2026-11-20T18:47:54+00:00",
+   "ts": 1795200474.0,
+   "category": "music"
   },
   {
    "title": "Scene Box Office Collection Day 14: Scores Suriya’s 2nd Biggest Second Week In India!",
@@ -376,16 +436,6 @@
    "category": "buzz"
   },
   {
-   "title": "Ashwin Kumar marries late director Rajasekar's daughter Bhuvaneswari",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/ashwin-kumar-marries-bhuvaneswari-who-is-the-sembi-actors-wife-what-is-her-connection-to-late-director-rajasekar-find-out/articleshow/136029121.cms",
-   "source": "Times of India",
-   "summary": "Ashwin Kumar Lakshmikanthan married Bhuvaneswari in a traditional ceremony in Coimbatore on November 20. Pictures from the wedding have been shared on social media, showing glimpses of the celebrations. His wife, Bhuvaneswari, is the granddaughter of late Tamil filmmaker…",
-   "image": "https://static.toiimg.com/photo/msid-136029134,imgsize-248407.cms",
-   "published": "2026-11-20T13:33:20+00:00",
-   "ts": 1795181600.0,
-   "category": "trailers"
-  },
-  {
    "title": "AOT Review: ஆகாயத்தில் ஒரு தாரகை விமர்சனம் (ஏஒடி).. மனைவியின் விண்வெளி கனவை நிறைவேற்றினாரா துல்கர்?",
    "url": "https://tamil.filmibeat.com/reviews/aot-review-in-tamil-dulquer-salman-and-satvika-veeravalli-solid-performance-holds-the-movie-187277.html",
    "source": "Filmibeat Tamil",
@@ -414,16 +464,6 @@
    "published": "2026-11-20T12:33:10+00:00",
    "ts": 1795177990.0,
    "category": "buzz"
-  },
-  {
-   "title": "Inside 'OM' actor Dhanush's Rs 150 crore poes garden mansion",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/inside-dhanushs-rs-150-crore-poes-garden-mansion-luxury-features-home-theatre-and-the-story-behind-the-o-m-actors-dream-house/articleshow/136027145.cms",
-   "source": "Times of India",
-   "summary": "Dhanush resides in a splendid mansion in Poes Garden, Chennai, valued at Rs 150 crore. This luxurious home features amenities like a personal gym, swimming pool, and a high-end home theatre designed for family relaxation. His childhood aspiration to live in this area, inspired…",
-   "image": "https://static.toiimg.com/photo/msid-136027173,imgsize-147247.cms",
-   "published": "2026-11-20T12:30:13+00:00",
-   "ts": 1795177813.0,
-   "category": "box-office"
   },
   {
    "title": "Inside Dhanush's Rs 150 crore poes garden mansion: Luxury features, home theatre and the story behind the",
@@ -606,26 +646,6 @@
    "category": "buzz"
   },
   {
-   "title": "OM Box Office Collection Day 1 (Mrng Trend): Dhanush's Film Mints Twice Of Ramayana's Opening Day Number",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYkRBSjgzeURuZS01UU9vNlQtSlJpZ0thcEpBRkhkQi1iYk9sRW5jdnZQM0pZMU0ySVFld3FlX1hpdWJuOHRDZko1Q1BWUmpXWDVldlFVbkluN2wzSVR6Q05MMHh5Y0ZqQU9IVXpLZHphTGE0aXFzYm5tc1VHTjVYVkJLNVBFX1daR1BSZUpNUXo3MTdsZ2dVYVFBTUpuOXRROHJvMmd2b2tqMEFIUTJmbVlrSjhwN0pDTTRZTHFVY1RrWFN6RVgyYU9NVXZYOFd3cFNpX1NJeXJvU184MEFFaXhtQ0ZnRENM?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:10:53+00:00",
-   "ts": 1795169453.0,
-   "category": "box-office"
-  },
-  {
-   "title": "Dhanush thanks Tamil Nadu CM Vijay for 6 AM show permission for 'O.M', makes special request to fans",
-   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNOGNtcHdQVUxpWnRyZ0VldFZsWEZLOEF4a21pN0F4bFBMb2pTVzFvM0V0U1VfUENoVDJqOE03VE0yY2xUTEp0Zm13U3JpalpKeFZpX1BGeUhUbmRuazc5SkkyQnRQS2FYRlIzcXBUOVpmZ1k4c2dGTGlnUEJPalMzQWtlRjZwVW00QjcwT0RPM3NBVExEc0tjRW43UU41LUtGaS15bVU0OENEdFUxRUk5YURzOUhoSjcxeG9QUEVYYjFsdV9yeWY0aHdqdHlfTFMzQUw1aUdkQUdMdzFSRXZhelE4eUhOYmZZMEM3YzhUOFIyU1pwVlRJMGlBdy1sOHlOWHRrNzVrNnhKYTc0YWppY2lhSDBDNU5OcWxr0gGgAkFVX3lxTE84U3ZPSEhmajJUdmFuUXRGd0lGU2JCNk5sV3k2NHRCV0hqVXB1dzkzRmwzNDhObXdhaVJzaGVCRmJiWWJyeEJUMUM4S1FSbDhfS3V1ZFRQNnByMUVLT2pMMVU0RUtDbWhnVjQ2UTBLb3JzM190dndkQ3JvT0x3LXd1aFNRYmxYUy1jTkJScWpwblNXeFU3SWs1TDhXYlZGLXpXZFoxWTBZSm8tMm40QmllS2d6dGY0UmRCaFpWNTBHekFBX2EtcUlfNXNFSXVYQ0Ffc29VZmU0VjNrOTV2MXMzRmhjcVdzamZKeWdFS1FDV0ZlZ3Y2V1liVXE1Rk1paHFvNl91WHNTRUE1YXdyZnBPMzk3OTBMYmo3QWZJUmplVA?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:04:00+00:00",
-   "ts": 1795169040.0,
-   "category": "buzz"
-  },
-  {
    "title": "'Our Hearts Are Full': Anirudh Ravichander-Kaviya Maran Share Heartfelt Note After Wedding, Drop Unseen Pic",
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQM2tJaHQtYWhVUDRpY2RoRnNaQjhFUjQ2RGpLeF90TTBMeFI2NlNoNXFMeld4bW11aW1MM0QzM3lxdzBaQ3R0Q1ZxQVZ0bjZmc201cmJLOXNLWmo1VDdBc2QxajNwMnFxS1JhdHZ0NGdYTHV5dlZVdXpuTENMb3d6NFoyYjZYbGRaWVU3TC1oc1UwTVg2ZTBJYktpeDBHOTlMOEVkc0ZUYld0V2JvRG5NODZSVDZBWWJJNGdqYkpRZzJTSDNtNUFWcXN6Slc3dmg0ckU3c3dfVThMQU1zYlctajU5RWswZlJ5Ylo4dzYycnF6dUdM0gH6AUFVX3lxTE5qelktUXhBay12dFdKbWJ2RDVac1FudWlPQzdlOVJ6SHBpTjBoWmRmT1NETElDZTBlT1RiOGRwU0g1VG9QbDJzbmd1aTJsbllNMlE2UVRwR1lYTEg4NXh0cjlnQWxFVUxESlFoeUxVWXQzT3RCd2tBUHhsNTl0OXBGV3g1N05zeUFFZXNzb1lKbHNYWGpoaDg4b3JRZ2s1bEJXeExXcUM5bzZyaTZoSW5PcnJJYjdUQzJEczhueTFJMFNoemE1U3h4QjBHMFBiSU1ETzhyS200N082OVZmQ3gzdGJuc1JXaUcyNUZ4OWhxOUFZNXBnMTFPMmc?oc=5",
    "source": "News18",
@@ -644,16 +664,6 @@
    "published": "2026-11-20T10:03:02+00:00",
    "ts": 1795168982.0,
    "category": "box-office"
-  },
-  {
-   "title": "O.M: Operation Mole Movie Review: Earnest and engaging, but Dhanush's O.M is eventually a sting without sting",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmpzQ2tpNWhnUXVuN2RZV0ZJT1o0cGI0SDV2Z1dway0zbDNHa29kTWk2N2lXdUF6M3VTRkN2S0EzVTAyTGR6eEdJNDFGMTB0b1o0UXRaeXc1R3ZVSFdlWU1FaFVRenNQR0daWWxoQzFTbXVCN2FLN1ptVEIzUHZwZUlhY3ExTWtRenAwb1RFZVBuUTB6RnBVMnJPdjM4TDN0MVBRQ0VDRXFnamlSZ1A2OHE0SjFFZ9IBuwFBVV95cUxNSElnNkRuOFNDWEtBdHVoQlhDeUxrTEpjWF9HZmp0MUc5aGREdUFOTHFabFFXWWFOV1NOY24xRE1ld2tHbXh1bWhYY2lWYTdUQkRtRkt6cHZfR3RscXpfVTFxbzNQcW81OEYyenR1X3d3b2xXNm1BV0tlUW5jU1ZBVFV3MlVxX0ZKVUxKbVc2c1daMGJwaXV0dkhyYVhKRkYxenBhVjhXTUt3QXpUMl9RYktoUEwwSzJ0ektN?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T09:50:00+00:00",
-   "ts": 1795168200.0,
-   "category": "reviews"
   },
   {
    "title": "‘O.M’ movie review: Dhanush, Sai Pallavi score in an otherwise bloated, convenient action thriller",
@@ -726,6 +736,16 @@
    "category": "music"
   },
   {
+   "title": "O.M: Operation Mole Movie Review: Earnest and engaging, but Dhanush's O.M is eventually a sting without sting",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSElnNkRuOFNDWEtBdHVoQlhDeUxrTEpjWF9HZmp0MUc5aGREdUFOTHFabFFXWWFOV1NOY24xRE1ld2tHbXh1bWhYY2lWYTdUQkRtRkt6cHZfR3RscXpfVTFxbzNQcW81OEYyenR1X3d3b2xXNm1BV0tlUW5jU1ZBVFV3MlVxX0ZKVUxKbVc2c1daMGJwaXV0dkhyYVhKRkYxenBhVjhXTUt3QXpUMl9RYktoUEwwSzJ0ektN0gG7AUFVX3lxTE1ISWc2RG44U0NYS0F0dWhCWEN5TGtMSmNYX0dmanQxRzloZER1QU5McVpsUVdZYU5XU05jbjFETWV3a0dteHVtaFhjaVZhN1RCRG1GS3pwdl9HdGxxel9VMXFvM1BxbzU4RjJ6dHVfd3dvbFc2bUFXS2VRbmNTVkFUVXcyVXFfRkpVTEptVzZzV1owYnBpdXR2SHJhWEpGRjF6cGFWOFdNS3dBelQyX1FiS2hQTDBLMnR6S00?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-20T07:54:00+00:00",
+   "ts": 1795161240.0,
+   "category": "reviews"
+  },
+  {
    "title": "Priyanka Mohan Birthday - பிரியங்கா மோகன் பிறந்தநாள்.. இளம் ஹீரோயினின் சொத்து மதிப்பு தெரியுமா?",
    "url": "https://tamil.filmibeat.com/heroines/priyanka-mohan-net-worth-32nd-birthday-special-actress-salary-assets-and-luxury-cars-187261.html",
    "source": "Filmibeat Tamil",
@@ -734,16 +754,6 @@
    "published": "2026-11-20T07:39:59+00:00",
    "ts": 1795160399.0,
    "category": "buzz"
-  },
-  {
-   "title": "This Chennai Restaurant Is Anirudh Ravichander's Go-To Spot For Spicy Andhra Meals",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYUZiM2wtTzBEWFQ3NTVPdjR3MXBfd3dQZnc2dUJEazM2RXBqMVBnX1dZYVd6eHpzWnpHTWwxTlNwcEtuX3ZtYUMtSmF3UGkzaFVTeUZPN25oa0ZYVkRFWkRCb1FCTDREUUxkZ0dTN1dFZ2lTSmdrbE9WbjNrcEMzUmExSVF2X0s0QjQyMWVpSVRaVGZEZGRBOVRSZWxDRmpLQUxQSjg5bWdvSEY4UFNSRHZYbTlrdTBP0gHAAUFVX3lxTE4tTUhxS21pRHZWLUNQbW5SdDlaaEw5R0pfRWdNSl95ZXl0eWJra3JyWmYzQ29MTnN0TnpLdW9wOGoyNXJXQXltZ2d5aUg3cWRKTkRZblRpejdVYnZXWDlDc1VkRG1LOFRDamNLLUtMWF9ZVnlTYUVmdmRfYmFXdHp6NGE4MGhkMmNmQnFYak5URFdzT3A2bDVjRktnRzkwR2htZ0pzMFV3ankxZUtqRjFyeFp5dTN3UWVMMXZHYTFMSw?oc=5",
-   "source": "NDTV Food",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T07:37:45+00:00",
-   "ts": 1795160265.0,
-   "category": "music"
   },
   {
    "title": "ஓம் ரிசல்ட் தெரிந்து தான் தியேட்டர்கள் வாங்க முன் வரவில்லையா?.. தொடர்ந்து சொதப்பும் தனுஷ் படங்கள்.. ஏன்?",
@@ -916,16 +926,6 @@
    "category": "buzz"
   },
   {
-   "title": "Appa Kutty X Review - அப்பா குட்டி எக்ஸ் விமர்சனம்.. விஜய் ஆண்டனிக்கு ஹிட்.. கொண்டாடுறாங்க",
-   "url": "https://tamil.filmibeat.com/reviews/appa-kutty-x-review-vijay-antonys-emotional-performance-wins-praise-climax-gets-thumbs-up-187235.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: மு.மாறன் இயக்கத்தில் விஜய் ஆண்டனி நடித்திருக்கும் திரைப்படம் அப்பா குட்டி. இதில் அவருடன் ப்ரீத்தி அஸ்ரானி உள்ளிட்டோர் நடித்திருக்கிறார்கள். இன்று திரைப்படம் திரையரங்குகளில் வெளியாகும் சூழலில்; நேற்று பத்திரிகையாளர்களுக்கான சிறப்பு காட்சி திரையிடப்பட்டது. அதில் படம்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/antony-65191795137369.jpg",
-   "published": "2026-11-20T01:19:05+00:00",
-   "ts": 1795137545.0,
-   "category": "reviews"
-  },
-  {
    "title": "Vijay Antony's wife reveals he has not worn shoes since 16-year-old daughter's death 3 years ago, still uses her old watch",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/vijay-antony-wife-reveals-actor-composer-has-not-worn-shoes-since-16-year-old-daughter-meera-death-3-years-ago-still-uses-her-old-watch-101795095663042.html",
    "source": "Hindustan Times",
@@ -1067,7 +1067,7 @@
   },
   {
    "title": "Panorama Studios forays further into Tamil cinema with Koodu",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRlhRblVGcTFJcFJUSF9kTFBfUno5aWE5bWlEaUpqODB5UFVQOURNNXFSbnNScVB0T05uUmR0QmNCZ2N5dndZcnUxNGNEMzFXaXZxM3ZubEtPR3RjaUhEdFpzaU1LSElfaE56aF90dWNzUWJxbVdIQjVCZ21tYmZnN0RIXy1qOFNQUVJLdllxR1B3X2s5RTgzRHRIVdIBqAFBVV95cUxQeEs4b3N2TmRoeG1DUW1NdE1SMTNtbUhhQldZTDVZOEJxejhnU2tRUUhXLURnelhOOS13ek9MZmxENW5NTm0zOUxsMmc5T3BCc2dXWWFxMG1ybWlkbGlkaHlRTGpMQWdKRm9QellrOXk1TnpJNjVKNWdudzhkYWo5b3RQLWNnUms5RmpIMXRLVjlpRXA4UFVfWUJuLWl0SHRyYXV1S0xFTXE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRlhRblVGcTFJcFJUSF9kTFBfUno5aWE5bWlEaUpqODB5UFVQOURNNXFSbnNScVB0T05uUmR0QmNCZ2N5dndZcnUxNGNEMzFXaXZxM3ZubEtPR3RjaUhEdFpzaU1LSElfaE56aF90dWNzUWJxbVdIQjVCZ21tYmZnN0RIXy1qOFNQUVJLdllxR1B3X2s5RTgzRHRIVQ?oc=5",
    "source": "DT Next",
    "summary": "",
    "image": "",
@@ -1214,26 +1214,6 @@
    "published": "2026-11-14T03:56:53+00:00",
    "ts": 1794628613.0,
    "category": "trailers"
-  },
-  {
-   "title": "Vijay Kumar's Arivu gets December 11 release",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSkNFMUlYdy1OaVJBOUdrdlh1MmNvX1V2SnQtNlJrZnNPS1NQRjZuXzlQbFJFdllHcy16eWRSOFFpMndXQU9MbVMtSXppRzlpY2pXSW1STUp4ZUZDenpBNUs3Y2czZ0V5TTVsRnVzWjFvNVRnaHZITDlnUkNCamV1SnJqWTgzX1U?oc=5",
-   "source": "Movie Crow",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-13T04:58:42+00:00",
-   "ts": 1794545922.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Krishnasamy seeks ban on ‘Sandiyar’ title for Kamal Haasan’s upcoming movie",
-   "url": "https://www.thehindu.com/news/national/tamil-nadu/krishnasamy-seeks-ban-on-sandiyar-title-for-kamal-haasans-upcoming-movie/article71689331.ece",
-   "source": "The Hindu",
-   "summary": "He also recalled that when the same title was proposed for a movie by Mr. Haasan in 2003, it created a controversy, particularly in the southern districts of Tamil Nadu",
-   "image": "https://th-i.thgim.com/public/incoming/w9b76x/article71689614.ece/alternates/LANDSCAPE_1200/10217_12_8_2025_20_37_50_1_DSC_5073.JPG",
-   "published": "2026-11-12T11:56:21+00:00",
-   "ts": 1794484581.0,
-   "category": "buzz"
   },
   {
    "title": "Arasan Story",
