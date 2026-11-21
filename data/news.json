@@ -1,37 +1,36 @@
 {
- "generated": "2026-11-21T01:55:27.012868+00:00",
- "count": 99,
+ "generated": "2026-11-21T09:06:38.890782+00:00",
+ "count": 102,
  "sources": [
   "123telugu.com",
   "Bollymoviereviewz",
+  "Cinema Express",
   "DT Next",
-  "Deccan Chronicle",
   "ETV Bharat",
   "EkSukoon",
   "Filmibeat",
   "Filmibeat Tamil",
   "Free Press Journal",
   "Google News",
-  "Gulf News",
   "Gulte",
   "Hindustan Times",
   "IMDb",
   "INDIA New England News",
+  "INDToday",
   "India Today",
   "IndulgExpress",
   "Kerala TV",
   "Koimoi",
   "Lensmen Reviews",
   "Movie Crow",
+  "MovieTalkies",
   "NDTV",
   "NDTV Profit",
-  "News Today",
-  "News18",
   "Outlook India",
   "Rediff",
   "Sacnilk",
   "TechnoSports Media Group",
-  "Telugu Times",
+  "Telugu Cinema",
   "The Economic Times",
   "The Federal",
   "The Hindu",
@@ -39,11 +38,12 @@
   "The Times of India",
   "Times Now",
   "Times of India",
-  "iDiva",
-  "stupidDOPE"
+  "newstodaynet.com",
+  "stupidDOPE",
+  "theopenpress.in"
  ],
  "images": {
-  "total": 38,
+  "total": 42,
   "scraped": 24
  },
  "feeds": [
@@ -53,7 +53,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.13
+   "seconds": 0.09
   },
   {
    "name": "News18",
@@ -61,23 +61,23 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "name": "Cinema Express",
    "url": "https://www.cinemaexpress.com/feed",
-   "items": 0,
+   "items": 3,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.28
   },
   {
    "name": "Hindustan Times",
    "url": "https://www.hindustantimes.com/feeds/rss/entertainment/tamil-cinema/rssfeed.xml",
-   "items": 7,
+   "items": 6,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.1
   },
   {
    "name": "Indian Express",
@@ -85,7 +85,7 @@
    "items": 0,
    "ok": false,
    "error": "HTTPError: HTTP Error 403: Forbidden",
-   "seconds": 0.1
+   "seconds": 0.09
   },
   {
    "name": "The Hindu",
@@ -93,7 +93,7 @@
    "items": 6,
    "ok": true,
    "error": null,
-   "seconds": 0.36
+   "seconds": 0.34
   },
   {
    "name": "Filmibeat Tamil",
@@ -101,23 +101,23 @@
    "items": 24,
    "ok": true,
    "error": null,
-   "seconds": 0.13
+   "seconds": 0.06
   },
   {
    "name": "DT Next",
    "url": "https://www.dtnext.in/feed",
-   "items": 0,
-   "ok": true,
-   "error": null,
-   "seconds": 0.33
-  },
-  {
-   "name": "Times of India",
-   "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
    "items": 1,
    "ok": true,
    "error": null,
    "seconds": 0.17
+  },
+  {
+   "name": "Times of India",
+   "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
+   "items": 2,
+   "ok": true,
+   "error": null,
+   "seconds": 0.1
   },
   {
    "name": "Google News",
@@ -125,27 +125,11 @@
    "items": 12,
    "ok": true,
    "error": null,
-   "seconds": 0.35
+   "seconds": 0.32
   },
   {
    "name": "Google News",
    "url": "https://news.google.com/rss/search?q=%22tamil+movie%22+OR+%22tamil+film%22+review+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
-   "items": 9,
-   "ok": true,
-   "error": null,
-   "seconds": 0.31
-  },
-  {
-   "name": "Google News",
-   "url": "https://news.google.com/rss/search?q=tamil+movie+box+office+collection+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
-   "items": 10,
-   "ok": true,
-   "error": null,
-   "seconds": 0.48
-  },
-  {
-   "name": "Google News",
-   "url": "https://news.google.com/rss/search?q=(Rajinikanth+OR+%22Kamal+Haasan%22+OR+%22Thalapathy+Vijay%22+OR+%22Ajith+Kumar%22+OR+Suriya+OR+Dhanush)+film+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
    "items": 10,
    "ok": true,
    "error": null,
@@ -153,11 +137,27 @@
   },
   {
    "name": "Google News",
+   "url": "https://news.google.com/rss/search?q=tamil+movie+box+office+collection+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+   "items": 10,
+   "ok": true,
+   "error": null,
+   "seconds": 0.4
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?q=(Rajinikanth+OR+%22Kamal+Haasan%22+OR+%22Thalapathy+Vijay%22+OR+%22Ajith+Kumar%22+OR+Suriya+OR+Dhanush)+film+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
+   "items": 10,
+   "ok": true,
+   "error": null,
+   "seconds": 0.43
+  },
+  {
+   "name": "Google News",
    "url": "https://news.google.com/rss/search?q=(%22Sivakarthikeyan%22+OR+%22Vijay+Sethupathi%22+OR+%22Nayanthara%22+OR+%22Vetrimaaran%22+OR+%22Lokesh+Kanagaraj%22+OR+%22Anirudh%22)+when:14d&hl=en-IN&gl=IN&ceid=IN:en",
    "items": 10,
    "ok": true,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.4
   },
   {
    "name": "Google News",
@@ -173,28 +173,32 @@
    "items": 8,
    "ok": true,
    "error": null,
-   "seconds": 0.39
+   "seconds": 0.35
   }
  ],
  "trending": [
+  {
+   "term": "Dhanush",
+   "count": 13
+  },
   {
    "term": "Anirudh Ravichander",
    "count": 9
   },
   {
-   "term": "Dhanush",
-   "count": 9
-  },
-  {
    "term": "Review",
-   "count": 8
+   "count": 6
   },
   {
    "term": "Scene",
-   "count": 5
+   "count": 6
   },
   {
-   "term": "Collection Day",
+   "term": "Box Office Collection",
+   "count": 4
+  },
+  {
+   "term": "Box Office Day",
    "count": 4
   },
   {
@@ -202,39 +206,415 @@
    "count": 4
   },
   {
-   "term": "Trailer",
+   "term": "Kavya Maran",
    "count": 4
   },
   {
-   "term": "Dadasaheb Phalke International",
+   "term": "Nayanthara",
    "count": 3
   },
   {
-   "term": "Box Office Collection",
+   "term": "Malayalam",
    "count": 3
   },
   {
-   "term": "Scene Box Office",
+   "term": "Ramayana",
    "count": 3
   },
   {
-   "term": "Box Office Day",
+   "term": "Trailer",
    "count": 3
   },
   {
-   "term": "Kamal Haasan",
+   "term": "Kannada",
    "count": 3
   },
   {
-   "term": "Kavya Maran",
-   "count": 3
-  },
-  {
-   "term": "Rajinikanth",
+   "term": "Telugu",
    "count": 3
   }
  ],
  "articles": [
+  {
+   "title": "தேவாவின் கடைசி பாடல் இதுதான்.. ஜெயில் மேட்ஸ் படத்தின் “வா சிவா” பாடல் ரிலீஸ்!",
+   "url": "https://tamil.filmibeat.com/news/music-directot-devas-last-song-jail-mates-movie-vaa-siva-song-out-now-187315.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இயக்குநரும் நடிகருமான K. P. ஜெகன் கதையின் நாயகனாக அழுத்தமான வேடத்தில் நடித்துள்ள 'ஜெயில் மேட்ஸ்' திரைப்படத்திலிருந்து, 'தேனிசைத் தென்றல்' தேவா பாடியுள்ள 'வா சிவா' என்ற முதல் பாடலும், அதற்கான பிரத்யேக வீடியோவும் வெளியாகியுள்ளன. இயக்குநர் K. P. ஜெகன் இயக்கியுள்ள 'ஜெயில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/vasiva-11171795251700.jpg",
+   "published": "2026-11-21T09:02:06+00:00",
+   "ts": 1795251726.0,
+   "category": "music"
+  },
+  {
+   "title": "Kavya Maran gifts gold rings to employees after wedding with Anirudh Ravichander - Watch Video",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNDJzaTd4eDE4TzJ1VzJyS3RWY0VJamlpc3h5MmNnNW4zQkI5ai1KUGxYZ2tlVW1KdjE4elA1MTFEUUFXVldXM010MGFoVXgyYWExOG5jdlNRdVNNLWNSRWptOGZEOVZrV09OZ29hNHBoQXZUejlId3Ztb1hWWkRJOElvb3BOQXZqRU1lLUZWc2xTT1JOOGRrSGRCbVN0MTVQZjJkeHFwTWw3WnhsbWpCNnRGeTdESzMzOGEyNTdXaWI3bEthN1QyOXE0RmIzOVNDRjNlWHpPOEc2dzMxSGJrVVNyanlfdFdIMzB0TFhFaU1jRGRtdHZBNXNjbnhmRG5QNVpKSEpRMkQ1Tk53RGZKNEFPdTnSAZoCQVVfeXFMT3Q3LUJFR2Jhd2d4b09lckpoNFp3Mi0zQUE0Q2RZZ1ZJaEwxOEpfTmE1OUNvanNtbFRBU0RsVDRMY1FJdVUyczNvWW9DTWJlTDhpZ25OM0ZhT2NjcTNuYXlsRkxKM1MxYl9Md0JQZWNVZXg1dkM1Vjl0Z1B6dUQ5bmtPOFNObXVEeHBERWN0TkdERFctU0djcVJqNk4yNlJYVkU5bllPQmVfR2dLdUFjeTJOMUd1LXpMLVVoWHZNNTYtcmVfTWl4ZTV0WGtXSHJPOHItNW1KNklQTHFZRlp1OFRsOEJpaldnMHJGSS1UWHloU2JmRWFOU2Z1TzRfUFJYbnJYMFRjS2RKekRQbjhETGdfSXNCTHI2ZS1n?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T08:56:00+00:00",
+   "ts": 1795251360.0,
+   "category": "music"
+  },
+  {
+   "title": "ராவணன் கையில் தர்ஷன்.. குணசேகரனுக்கு வரப்போகும் ஆபத்து.. எதிர்நீச்சல் தொடர்கிறது!",
+   "url": "https://tamil.filmibeat.com/television/sun-tv-ethirneechal-thodargiradhu-serial-november-21th-2026-full-episode-review-187313.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை : எதிர்நீச்சல் தொடர்கிறது இன்றைய எபிசோடில், ராவணனின் திட்டப்படி தர்ஷன் இப்போது முழுமையாக அவர்களுடைய கட்டுப்பாட்டுக்குள் வந்துவிட்டான். வீட்டில் நடக்கும் ஒவ்வொரு விஷயத்தையும் உடனுக்குடன் ராவணனுக்கு போன் செய்து சொல்லும் அளவுக்கு தர்ஷனை தங்களுக்கு சாதகமாக…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/ethi110-63641795250813.jpg",
+   "published": "2026-11-21T08:47:17+00:00",
+   "ts": 1795250837.0,
+   "category": "buzz"
+  },
+  {
+   "title": "'ஹனுமேன் 2: தி ரைஸ் ஆஃப் வானராஸ்' டைட்டில் போஸ்டர் வெளியீடு!",
+   "url": "https://tamil.filmibeat.com/heroes/hanuman-2-the-rise-of-vanaras-title-poster-out-now-187311.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: பிரைம் ஷோ என்டர்டெயின்மென்ட் தயாரிப்பில், இயக்குநர் வி. ஆனந்தின் உருவாக்கத்தில், நடிகர் பஞ்ச வைஷ்ணவ் தேஜ் நடிக்கும் 'ஹனுமேன் 2: தி ரைஸ் ஆஃப் வானராஸ்' (HanuMan 2: The Rise of Vanaras) திரைப்படத்தின் அதிகாரப்பூர்வ டைட்டில் போஸ்டர் வெளியிடப்பட்டுள்ளது. இந்தியத் திரையுலகில்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/hanuman-78921795250751.jpg",
+   "published": "2026-11-21T08:46:08+00:00",
+   "ts": 1795250768.0,
+   "category": "buzz"
+  },
+  {
+   "title": "'Ramayana: Part 1' box office collection day 17 (LIVE)",
+   "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/ramayana-part-1-box-office-collection-day-17-the-ranbir-kapoor-yash-sai-pallavi-starrer-expected-to-enter-rs-900-crore-net-in-india-club-on-dev-diwali-will-be-the-third-fastest-film-to-do-so-after-pushpa-2-and-dhurandhar-2/articleshow/136048711.cms",
+   "source": "Times of India",
+   "summary": "Ramayana: Part 1 has received significant box office success since its Diwali release, surpassing numerous records. The film, featuring Ranbir Kapoor, Yash, and Sai Pallavi, is expected to reach the Rs 900 crore benchmark soon. As of now, its total net collection in India stands…",
+   "image": "https://static.toiimg.com/photo/msid-136048955,imgsize-394890.cms",
+   "published": "2026-11-21T08:23:03+00:00",
+   "ts": 1795249383.0,
+   "category": "box-office"
+  },
+  {
+   "title": "OM Movie Review: Dhanush's Intense Undercover Mission, Sai …",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb3RkTlBKTGcwT3ZuYjI1SmFFV0Vfd0hyenR1c3oyVTRFTkwybWlReUo2U212dHVGT3ZOWDI4TkJkeW96TlQwYnk2Mjl5RTFtVXQ1Tk5PZkV1VDZ1UmhHWk9XbFQtQkJfTVM3ZjBPV0FWZTVLY2NLcUFYakhxd2Z2bFBsSUtkN09VT3dwcA?oc=5",
+   "source": "theopenpress.in",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T08:20:48+00:00",
+   "ts": 1795249248.0,
+   "category": "reviews"
+  },
+  {
+   "title": "திருமண மோசடி .. பிக் பாஸ் முத்துக்குமாரன் மீது பாய்ந்தது வழக்கு.. சூடு பிடிக்கும் போலீஸ் விசாரணை!",
+   "url": "https://tamil.filmibeat.com/television/virugambakkam-all-women-police-register-fir-against-muthukumaran-following-wahidha-complaint-187309.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: பிக் பாஸ் முத்துக்குமாரன் மீது இளம்பெண் வகிதா திருமணம் செய்துகொள்வதாக பொய்யான வாக்குறுதி அளித்து தன்னை உடல் ரீதியாக பயன்படுத்திக் கொண்டு ஏமாற்றிவிட்டதாக அந்த இளம்பெண் அளித்த புகாரின் பேரில், தற்போது விருகம்பாக்கம் அனைத்து மகளிர் காவல் நிலைய போலீஸார் வழக்குப்பதிவு செய்து…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/12-26201795249089.jpg",
+   "published": "2026-11-21T08:18:25+00:00",
+   "ts": 1795249105.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Director Aanand L Rai on Raanjhanaa criticism: It’s not Ramayana; characters will have flaws",
+   "url": "https://www.cinemaexpress.com/hindi/news/2026/Nov/21/director-aanand-l-rai-on-raanjhanaa-criticism-its-not-ramayana-characters-will-have-flaws",
+   "source": "Cinema Express",
+   "summary": "Director Aanand L Rai’s 2013 film Raanjhanaa has been loved by the audiences over the years but it also has had its fair share of critics claiming that the lead character Kundan (played by Dhanush in the film) exhibited stalker behaviour against Zoya (Sonam Kapoor) in the movie…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-11-21/at5iy0my/aanandraanjhanaa.jpg",
+   "published": "2026-11-21T08:04:53+00:00",
+   "ts": 1795248293.0,
+   "category": "reviews"
+  },
+  {
+   "title": "அனிருத் - காவியா திருமண வரவேற்பு.. சன் டிவியில் தடபுடல் விருந்து.. ஊழியர்களுக்கு தங்க நாணயம் பரிசு!",
+   "url": "https://tamil.filmibeat.com/news/gold-coins-gifted-to-sun-tv-employees-for-anirudh-and-kavya-marans-wedding-187307.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இசையமைப்பாளர் அனிருத் மற்றும் சன் டிவி குழுமத் தலைவர் கலாநிதி மாறனின் மகளான காவியா மாறனுக்கு கடந்த நவம்பர் 11-ஆம் தேதி கிரீஸில் கோலாகலமாக திருமணம் நடைபெற்றது. இந்த பிரம்மாண்ட திருமண விழாவில் சூப்பர் ஸ்டார் ரஜினிகாந்த், முன்னாள் முதலமைச்சர் மு.க.ஸ்டாலின், தயாநிதி மாறன்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/kavi12-69861795246291.jpg",
+   "published": "2026-11-21T07:49:16+00:00",
+   "ts": 1795247356.0,
+   "category": "music"
+  },
+  {
+   "title": "Anirudh Ravichander shares unseen wedding pics with Kavya Maran: 5 fashion lessons we are taking away",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSE53Q3h6TEZlQ3BlQTR4YTVLd0U5YUZsV0xGbWl4ejFBUWJYellyd2RSak9HRER3SkZxT3g4TUlNZncxcHROaVFZaFQ2QlZ5NlNlQS0xaXRYNmpwQW5CR0dfWkFobXozcGQ1QUhCX2FPbWl2M3o1ZnpiU0VqZDJFVWNGZE9NVGZXYUhOQ0V6TURFS3o0MVROUjZEaVZkZWxHQ3ltSmpwUTdaWk41NEhEZkJSdmxqWXdUYzREemdzZmh1WkpCMVQ4Vk83ZnpMR240dWktbDBvdXhiUF90dmsxellCSDk1cHh1WXBQZFFMRVd5b1V4YmfSAYMCQVVfeXFMTVQ5RVF3UnpFM2REN21YRDl6UUFRSjgwZTh6cEpXMnF0YVRrLWJaZDRfU09GQkdmWThOVWM3cjFHUUxoYWZSbEtXTWRwWHotTVV0eFlJeDdtZ05Hdm5jdi1acXlGeWgxaTFBVV81QTBUalhOZFNabUhXalpWd1d0WHEwX2hQUkRHaWlBcHVpZDQ4ZTBsNXNKUWZYLUpuSkc2V2huM3lvaExFVjBGRlo5WE9salhXTlVUZlpvZWtKM29JRVBIVkEtNFhCVTRHLUZzX1lCSVhGcmdtRnFTQ2tmZkxPc3ZxU3hPUUlUb2g2TkRsZGFLN1hscGYtcHpYY3dyVXZxNA?oc=5",
+   "source": "IndulgExpress",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T07:43:48+00:00",
+   "ts": 1795247028.0,
+   "category": "music"
+  },
+  {
+   "title": "O.M: Kalairaani says training and working with Sreeleela gave her \"absolute joy\"",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Nov/21/om-kalairaani-says-training-and-working-with-sreeleela-gave-her-absolute-joy",
+   "source": "Cinema Express",
+   "summary": "Sreeleela, who plays Roja in director Rajkumar Periasamy's recently released Tamil film O.M: Operation Mole , had the opportunity to work with veteran actor Kalairaani during the preparation process. The character, the wife of Dhanush's protagonist, also required her to navigate…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-11-21/ywx8y8or/Sreeleela.jpg",
+   "published": "2026-11-21T07:38:11+00:00",
+   "ts": 1795246691.0,
+   "category": "buzz"
+  },
+  {
+   "title": "முதலமைச்சர் விஜய் அப்பா தலைமையில் நடைபெற்ற தயாரிப்பாளர் V.ராஜா இல்ல திருமண வரவேற்பு விழா!",
+   "url": "https://tamil.filmibeat.com/news/cm-vijays-father-and-director-sa-chandrasekar-leads-producer-v-raja-family-marriage-reception-187305.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: அனிருத் - காவ்யா மாறன் திருமண வரவேற்பு நிகழ்ச்சிக்காக சென்னைக்கு பல பிரபலங்கள் படையெடுத்து வரும் நிலையில், எஸ்.ஏ. சந்திரசேகர் தலைமையில் நேற்று இரவு இன்னொரு பிரபல தயாரிப்பாளர் இல்ல திருமண விழா நடைபெற்றது. அருவா சண்ட படத்தின் தயாரிப்பாளரும் நடிகர், தமிழ் திரைப்பட…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/sac-75461795245914.jpg",
+   "published": "2026-11-21T07:25:47+00:00",
+   "ts": 1795245947.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Tabu takes on Nayanthara-style role - News Today | First with the news",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92NFpmNEF0UElZOEVZcGVySEd3ak95MGcxbVFhY2ZxNEM3R2g4NlhzSzJfUVZfZmxYTEw3MDVjWE52MG9qZzlMTlF0cFF2TnVVdFJXN2lzZ2Q0c1NtNTlEQVUxZnh2aHJheXJCZThUbjVRbWtFUEtST2szX0c?oc=5",
+   "source": "newstodaynet.com",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T07:18:45+00:00",
+   "ts": 1795245525.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Mahesh Babu, Steyn, Williamson arrive for Anirudh-Kavya's wedding reception",
+   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/anirudh-ravichander-and-kavya-marans-wedding-reception-mahesh-babu-dale-steyn-kane-williamson-arrive-in-chennai-guest-list-revealed/articleshow/136047113.cms",
+   "source": "Times of India",
+   "summary": "Anirudh Ravichander and Kavya Maran will celebrate their union with a grand wedding reception on November 21 in Chennai. The event promises to be star-studded, with notable attendees from both the film and cricket worlds, including Mahesh Babu and Rajinikanth, along with Tamil…",
+   "image": "https://static.toiimg.com/photo/msid-136047117,imgsize-168905.cms",
+   "published": "2026-11-21T07:13:35+00:00",
+   "ts": 1795245215.0,
+   "category": "music"
+  },
+  {
+   "title": "கீர்த்தி சுரேஷின் சத்தியவான் சாவித்திரி சகிக்கல.. ட்விஸ்ட் எல்லாம் வேஸ்ட்.. ப்ளூ சட்டை மாறன் விமர்சனம்!",
+   "url": "https://tamil.filmibeat.com/reviews/blue-sattai-maran-roasts-keerthy-sureshs-sathyavan-savithiri-in-his-review-187303.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: சூர்யாவின் சீன் படத்துடன் வந்த நயன்தாராவின் மூக்குத்தி அம்மன் 2 படம் கூட அதிகபட்சமாக 25 கோடி வசூலை ஈட்டியது. ஆனால், தனுஷின் ஓம் படத்துடன் வெளியாகி உள்ள கீர்த்தி சுரேஷின் சத்தியவான் சாவித்திரி திரைப்படம் முதல் நாளே க்ளீன் போல்ட் ஆகி 24 லட்சம் தான் வசூல் செய்ததாக தகவல்கள்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/blue-69531795244511.jpg",
+   "published": "2026-11-21T07:02:09+00:00",
+   "ts": 1795244529.0,
+   "category": "box-office"
+  },
+  {
+   "title": "சாமுண்டீஸ்வரிக்கு பக்கா ஸ்கெட்ச்.. சந்திரகலா – ஸ்ரேயா தீட்டும் பயங்கர சதி.. கார்த்திகை தீபம்!",
+   "url": "https://tamil.filmibeat.com/television/zee-tamil-tv-karthigai-deepam-serial-november-21th-episode-review-187301.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: கார்த்திகை தீபம் சீரியலில் பேஸ் மேக்கரை ஹேக் செய்து சாமுண்டீஸ்வரியின் உயிரை எடுக்க ஸ்ரேயா காத்து இருக்கிறார். கார்த்திக்கிற்கு ஸ்ரேயா மீதும் பீட்டர் மீதும் சந்தேகம் இருப்பதாக சொல்ல மயில்வாகனம் பீட்டரை கண்காணித்து வருகிறார். பின் பீட்டரில் லேப் டாப் மீது வேண்டும் என்றே…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/188-26131795244396.jpg",
+   "published": "2026-11-21T07:00:20+00:00",
+   "ts": 1795244420.0,
+   "category": "buzz"
+  },
+  {
+   "title": "From Bharati to the Grammys: Inside Devan’s ‘Varuvaaiy’, the first Tamil song to earn a Grammy nomination",
+   "url": "https://www.thehindu.com/entertainment/music/from-bharati-to-the-grammys-inside-devans-varuvaaiy-the-first-tamil-song-to-earn-a-grammy-nomination/article71711002.ece",
+   "source": "The Hindu",
+   "summary": "How Chennai musicians Devan Ekambaram, Susha and Anil Srinivasan took a Subramania Bharati composition to the Grammys",
+   "image": "https://th-i.thgim.com/public/incoming/e1e1ts/article71711736.ece/alternates/LANDSCAPE_1200/my-collage.jpg",
+   "published": "2026-11-21T06:57:45+00:00",
+   "ts": 1795244265.0,
+   "category": "music"
+  },
+  {
+   "title": "OM Tamil Movie (2026): Release Date, Cast, Ott, Review, Trailer, Story, Box Office Collection",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xdGlTcWtTVEdvSHR5SDBwRWxxdkpaeVd0SWhNc3V1WFMtWE5xOXgxQUJ2Sm9EMnNRTENrU3lVa1NENzJ6eGRub2FOMUxkbVIyQkhTMHd2UGhkdUEzUmFsRURjVHB4ZGRlaHRjOWZB?oc=5",
+   "source": "Filmibeat",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T06:54:03+00:00",
+   "ts": 1795244043.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Nayanthara to Play Salman Khan’s Wife and Undercover Cop in Monster",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ2RVdjdpOHIyV1pvbTdpTDdlMkRMUmw5TmpTczZpODJCdm1FX3NYXzVyZ0NQbGJYbGhVOTFYdDF3RVFwYTlETkpLbkhkTVpta0hnVTFBWU55TmMtRVRBNGZsVHUzaHAtZWk2RmxvQnpSd0czRHM3ekRmSkdyTkx4STZSZi1vRXZaSktXZFVBSzVmZw?oc=5",
+   "source": "INDToday",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T06:51:51+00:00",
+   "ts": 1795243911.0,
+   "category": "buzz"
+  },
+  {
+   "title": "OM Worldwide Box Office Day 1: Dhanush & Mammootty Storm Into Top 5 Biggest Kollywood Openers Of 2026",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZno2Z3FUb0VYak5OM1V2MndHaFBPd2d2VEFWQzNXdk14RGtLNzNMWXdZT055MkRuYXFQOTRranZjMzVlV0ZTeXk1WkJvTGVmcWc1M3J2aTU1TDZMVXZjU0trbnhjUVFoZVZ3ZHlBYjN3bG5GeklXZlhlMzJxT0VPdHQwM09QTGd3MXgzb3lTTmRWU2dObzQxMFVOR0pCWVF3LW91akVDeXRUSVZyaXU4cDNmSjJCMnNxbG9URDc1VVRqTUN4TFBhUTNpRDhsZw?oc=5",
+   "source": "Koimoi",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T06:37:28+00:00",
+   "ts": 1795243048.0,
+   "category": "box-office"
+  },
+  {
+   "title": "Nayanthara to play an undercover agent in Salman Khan's Monster; DEETS –",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUjJ3bEdEMzJfdGwwUF9MaUlDRzRmMkJaTkJpX1RuSTFKVVFydkg2aFNyMFcycGZJb2E3YUhobDhyZUZiQnhhRUotQXVLc1RWYnBqR1JVZ01meThySW5lTXJBblF2N3hpRlVlLUdXSENyVmVuRGpiTDlUY3MtQzdWUjJNcW1GNW9nTmcwUWljTUtFQdIBkgFBVV95cUxOUjJ3bEdEMzJfdGwwUF9MaUlDRzRmMkJaTkJpX1RuSTFKVVFydkg2aFNyMFcycGZJb2E3YUhobDhyZUZiQnhhRUotQXVLc1RWYnBqR1JVZ01meThySW5lTXJBblF2N3hpRlVlLUdXSENyVmVuRGpiTDlUY3MtQzdWUjJNcW1GNW9nTmcwUWljTUtFQQ?oc=5",
+   "source": "MovieTalkies",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T06:34:59+00:00",
+   "ts": 1795242899.0,
+   "category": "buzz"
+  },
+  {
+   "title": "Anirudh Ravichander enjoys food at his favourite Chennai hotel ahead of wedding reception with Kavya Mara",
+   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdnlDOVIxcnNYbmM4ak1Vd0pDWjluT1ZGYUF3b2YzMGQ0SmpvcUZRZW45d19sSzJib0xBX2pEYTI1d1FHZVhvSFE2RGZGWnY2bnBJSDZLLURUaDhpbDFQMFlYbXFtelhSQU1ueFBQX3pSUmcyQ0xLbEtHREt0TDBRX0ZEcXFiRDhzQW1ud2owZlBBTjAtZjk2ZjQ2U1JEN0VhUGQ4c0VEdmN2NThLZkN6cFhVUEdvRjZQcGtiTUxDYnVJZ0lDbzVxdjFVS3NoRmFYVmZiRk5uQ21IZGdRbVotMDVlakpkeEUtRzZ4YlR4RjdiLVZwLWdYanRrdFdTLTBqTTJhNXJRcm1lQnh1eWlDYXduSHVIalFxUjhSQUNheHlhU1FNTlVHYWZFVGJKLVYyM2ctajZLc0hhc3pHblHSAcMCQVVfeXFMT1hFeEJ4RmgtYVZIOEJXV2liWFI2N0RpbjJlXzJfMFlHWldISV9GNm12Mi00WjVJWktmU1BvZ2JrYjgxTFliY1ZKa0tLcG1SVUV0WFJyVkRRZm1RVU12X1FKTlk4VkJZVG5aT1hNWnJvN3VqcnQxd0VCUmtHWU5xSnc0Mm1sU2VWdXAtRkJVREVOdkZ1M3phQTg0QnZBaGZwa2pPaEFfZE1MZUlNLUFUTEJ5NEdwRWFONEZSdGVPVW9MV0E5RjBvNFNHT1Znc3JVanpxdURTc2tCSC1YOExGNXNETVYyeGUxNG9Wd2J1T1BiV2JScEtudThabjhUQmh6T2JiYWtMaThnYkwtZ0Yxd1NIbHoyMXV5OFVXZVdaRHh2alVtYXllbVdIRTREdU5aQVcxT1ZGMkpnSUFHTFJxZm1fTWM?oc=5",
+   "source": "The Times of India",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T06:30:00+00:00",
+   "ts": 1795242600.0,
+   "category": "music"
+  },
+  {
+   "title": "Vijay Antony travels in unreserved train compartment to promote his film 'Appa Kutty'",
+   "url": "https://www.dtnext.in/entertainment/cinema/vijay-antony-travels-in-unreserved-train-compartment-to-promote-his-film-appa-kutty",
+   "source": "DT Next",
+   "summary": "CHENNAI: Actor, music director and producer Vijay Antony has now undertaken a train journey in an unreserved compartment as part of his efforts to take his just released film, 'Appa Kutty' to the masses. Sources close to the actor said that he had taken the Kovai Express, which…",
+   "image": "https://media.assettype.com/dt-next/2026-11-21/kbpz4vhy/202611214020015.png",
+   "published": "2026-11-21T06:26:17+00:00",
+   "ts": 1795242377.0,
+   "category": "music"
+  },
+  {
+   "title": "ஸ்ரீலீலா, ராஷி கன்னா, நயன்தாரா, ராம் பொத்தினேனி.. தர்மன் நிலைமை என்ன ஆகுமோ?.. ரசிகர்கள் புலம்பல்!",
+   "url": "https://tamil.filmibeat.com/news/will-rajinikanths-dharman-give-comeback-to-nayanthara-sreeleela-raashi-khanna-and-ram-pothineni-187299.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இந்த ஆண்டு தமிழ் சினிமாவுக்கு தெலுங்கில் இருந்து இறக்குமதி ஆனவர் தான் நடிகை ஸ்ரீலீலா. ஜனவரி மாதம் சிவகார்த்திகேயன் நடிப்பில் வெளியான பராசக்தி படத்தின் மூலம் கோலிவுட்டில் அடியெடுத்து வைத்தார். தெலுங்கில் முன்னணி நடிகையாக வலம் வந்த ஸ்ரீலீலா தமிழ் சினிமாவில் வெற்றிவாகை…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/dharmancast-44501795240548.jpg",
+   "published": "2026-11-21T05:59:47+00:00",
+   "ts": 1795240787.0,
+   "category": "buzz"
+  },
+  {
+   "title": "OM Box Office Day 1: Dhanush’s spy thriller fails to surpass Scene, earns Rs 31 cr worldwide",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLXMzUXBvMFJvRmtDV2hHSEdaQWhnSXlUMmg5YUpQREpNX0JBWC1mOFN0cWV0VkhQYW5CSDFhSDZlOTJySHpBWWRyOTAtMEVSSy03RlpLVHVPSmViUWdFTFdCQzFaMHJCcENocXZOVnRtTm9WUkd3QTV2WDJwZFQ2WFpxb2VwUGZtVFdwZEJ6dzV6MUdWTl8yWTlkaWg2U0lfYmRnS3kzQVEwd0oxUzFGb2hJOHRVYUxibWx0Z09wQzdxeEhmMldhM3VnejVsejgxV1pWYlc4aFBUZ0VYQlNHelVnZWNWcG4yOVVsbU14QdIB9gFBVV95cUxNTmY4WUpmUk1EWmQyN2ZqdTI4Ymwwb0xXeFFOUU9oaFloUzRkQmJoVmgzWndrRGFsN2xYVW50aVVWUmpQSzUzXzNvcFdHeUlkc1hVVXlzV2k1am9Gc3BXT2Vab0t0VmNDU3FJcTUyVTd4TjB3akswZ1kwRGp6SUFvUHFWbHZGel9SRFNnd1VFeDhOdlFtWlVqdWpDbm1pV1c0MVhOM3hrNjdHR0Rla3owUkFVbHI0aVFnLVdZaDRwY3lRT2VwNnU5ajNaQkJzMUpOTFBlWklva1NBcVlnMmpHNDh5b0dVbUN5VTIycUp4YU1ua0lsT1E?oc=5",
+   "source": "The Indian Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T05:41:56+00:00",
+   "ts": 1795239716.0,
+   "category": "box-office"
+  },
+  {
+   "title": "மகளின் முதல் பிறந்தநாளை தடபுடலாக கொண்டாடிய பிரேம்ஜி.. விழாவில் ஒன்றுகூடிய 'சென்னை 28' கேங்!",
+   "url": "https://tamil.filmibeat.com/news/premgi-amaren-celebrates-daughter-s-1st-birthday-187297.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: நீண்ட காலமாக 'முரட்டு சிங்கிள்' என்ற அடையாளத்துடன் வலம் வந்த பிரேம்ஜி திருமணம் செய்து கொண்டு குடும்பஸ்தனாகி இன்று தனது மகளின் முதல் பிறந்தநாளை மிகவும் தடபுடலாகவும் கோலாகலமாகவும் கொண்டாடியுள்ளார். இந்த பிறந்தநாள் விழாவில் அவரது குடும்பத்தினருடன் 'சென்னை 600028' நண்பர்கள்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/1-93681795239163.jpg",
+   "published": "2026-11-21T05:33:09+00:00",
+   "ts": 1795239189.0,
+   "category": "buzz"
+  },
+  {
+   "title": "ப்ளூ சட்டை மாறன் கழுவி ஊற்றிய 'ஓம்' படத்தை கொண்டாடிய பயில்வான் ரங்கநாதன்!",
+   "url": "https://tamil.filmibeat.com/reviews/dhanush-and-mammoottys-om-movie-bayilvan-ranganathan-review-187295.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: தனுஷ், சாய் பல்லவி, மம்மூட்டி உள்ளிட்டோர் முக்கிய கதாபாத்திரங்களில் நடித்திருக்கும் திரைப்படம் தான் ‘ஓம்'. சாய் அபயங்கர் இசையமைத்திருக்கிறார். கதை, திரைக்கதை, வசனம் எழுதி ராஜ்குமார் பெரியசாமி இயக்கியிருக்கிறார். நேற்று தியேட்டரில் வெளியான இப்படம் குறித்து பயில்வான்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/om4-74071795237490.jpg",
+   "published": "2026-11-21T05:05:25+00:00",
+   "ts": 1795237525.0,
+   "category": "music"
+  },
+  {
+   "title": "Anirudh Ravichander-Kavya Maran wedding reception: Mahesh Babu, Kane Williamson, Dale Steyn spotted at Che",
+   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOTzQ5UXBfUEg2Smd1TnlDbERwaF8zYW0teE5xYkM0UTBQQ2VMaU55Mi00d3JCTjdkeE5IYndHbGNGRjFsV0NSekVxa3JHZlVLV3kwa21QcWdwa01tcWkxVngtMnFoZTZ5QjhZb3B0NEc5ajRFUG9RV045QmdGMWlGd0V2VXlMOFlLUGtrTm8xY0o0RTFGMko5MDhsVERIaXVCYno1Y0pqalYxZEJndDV6UFZvczdvbkVadERPR3pabkRyYkJEU2RQT1NiNkpDdjNiX2g2MkZUY2twNnJnSzJ4Mi02MzNoMFdsMDVPQnVVRFJhRmVwMVpLR2tjQ3gxeFNkVExDcEsySnBkVXFLVWstQ2pIekMyRDFldzgydi1XZE9Zd25Rc2RCS01PZUZwbXNfc2RuN3N5TGVtbFlUak9IVG9CUWthTzjSAcwCQVVfeXFMTUhDb1ZZckNMbWl0LUc5SlV2eVp6MjlWME0wY3hxQ3FzNDB4ckNWRE9EaUxsamFNX29xS2JkeS0xTWZibHlqeEV3TWtaZnlfYlRvanZNLVN3U3dnNVcweUFwNFNwU0FBZkhReHFmQ1o4WVBqel9jOEUzWEozV1MtMmxvWmlyTnhwOWc5VzY5ejdULTYyNHdvaHpxeGxkODdOY2V0MmpDbG90YkNDZloyQ1R3bnh1dUNQdmJ1c0ZESDlZM0F0SGdvRnB3NGt1RF94YWJFQUhPX3gyNGduSXk5UFUxSzBwTU0xOUowT2VOWWxxX285d1l4cVVsTEJrZ3ptWTVLRkY0bl9TZV9uSERiYVo3SHdENXdjSGI2QkdQZHkxN3NXQXJLa3NralVhVHhmZVBRMDhXdkloZ3Y3d1NCT3VEakwxVTRmblFhSWI?oc=5",
+   "source": "The Economic Times",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T04:57:14+00:00",
+   "ts": 1795237034.0,
+   "category": "ott"
+  },
+  {
+   "title": "OM Box Office Collection Day 1: Film Becomes Biggest Opener Of Dhanush's Career",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVXNkWG9EVUdSZTA0ZWRoNzNhdGpaUndXOEFGcU40QU9XcEZIbVpyRGxDR3hpYzlfeWdoeUdSLVlHSTNJLWtIb2d1dU5xRThTbUt2dUc4WmxNQzgyS2lGN1ppQmxfbXJlLVJFaUd5M0hVMW9QRHBrWGVydUJXSld6eEJ5dGtIU0xJcmlGMFhWMGxLRUFSdjg2OXE2TTFKVjBrTFlPZHM4Q1h4TnMxcnh5bW5ZVW1ZazJjTEZxd9IBxAFBVV95cUxNdVdKUHJCRWVNYkd4RjB5ejNrZEFmaFBQcTc2ZjVXNlppSUE2M0NRSlhSanViODhNMnlnckxsT2lOaHFmUy00c1BlcnpQZlo1MHhaT2E2eWxZOWdXNC1oTkRWR21mb2U0bW9CdXNpai13dkhGWG5URU93Y2tLMGhGZDV0NGNDRFkwTG4xV3cyMDRCM0c2cTM1NkhheFJ4QmVWMTBNNkZMbkpYb2UzYl9FbUlVQU5uZXVWeWl5Z3lhcjlQVGot?oc=5",
+   "source": "NDTV",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T04:30:16+00:00",
+   "ts": 1795235416.0,
+   "category": "box-office"
+  },
+  {
+   "title": "OM Box Office Collection Day 1: Dhanush’s Operation Mole Opens at ₹17.7 Crore, Tops Ramayana on Friday",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11NHhXNk85bnAyWWt0MTNHUVZraHdXY0RfTEpveElIQ0hSYXNyZEdYSXpOM05Ia195V3o4a1JvOGd2S09DT2RqWjVWblZHNF85VHdYbE9LeC0tWlo5TGtNOFMwbWg5NlFJU2hqeUwtWDJDdTJ1d1E?oc=5",
+   "source": "EkSukoon",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T04:30:00+00:00",
+   "ts": 1795235400.0,
+   "category": "box-office"
+  },
+  {
+   "title": "மூர்த்தி அண்ணனா? மெய்யழகனா? மம்மூட்டி இப்படி மாட்டிக்கிட்டாரே.. தனுஷின் ஓம் படத்தால் வந்த தலைவலி",
+   "url": "https://tamil.filmibeat.com/heroes/netizens-trolls-mammoottys-om-character-with-jailer-2-moorthy-annan-character-187293.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: அமரன் பட இயக்குநர் ராஜ்குமார் பெரியசாமி இந்த முறை தனுஷ், மம்மூட்டி, சாய் பல்லவி, ஸ்ரீலீலா, நசீருதீன் ஷா என பெரிய நடிப்பு பட்டாளத்தையே நடிக்க வைத்து தமிழ் சினிமாவுக்கு ஒரு துரந்தர் படத்தைக் கொடுத்து விடுவார் என பலரும் எதிர்பார்த்து ஏமாந்தது மிச்சம். ஆனால், சிம்பு - கெளதம்…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/moorthy-29321795234851.jpg",
+   "published": "2026-11-21T04:21:44+00:00",
+   "ts": 1795234904.0,
+   "category": "buzz"
+  },
+  {
+   "title": "ஜெயிலர் 2 மூர்த்தியண்ணன் போல மம்மூட்டி.. 3 மணி நேர குழப்பம்.. ஓம் ப்ளூ சட்டை மாறன் விமர்சனம்!",
+   "url": "https://tamil.filmibeat.com/reviews/dhanushs-om-blue-sattai-maran-review-187291.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: அமரன் படத்தின் பிரம்மாண்ட வெற்றிக்கு பிறகு, இயக்குநர் ராஜ்குமார் பெரியசாமி இயக்கத்தில் தனுஷ், மம்மூட்டி, சாய் பல்லவி, நஸ்ருதீன் ஷா உள்ளிட்ட நட்சத்திர பட்டாளம் நடிப்பில் உருவாக ஓம் நேற்று திரையரங்குகளில் வெளியானது.மிகுந்த எதிர்பார்ப்புக்கு மத்தியில் வெளியாகியுள்ள…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/1-54221795234710.jpg",
+   "published": "2026-11-21T04:19:09+00:00",
+   "ts": 1795234749.0,
+   "category": "reviews"
+  },
+  {
+   "title": "OM Operation Mole Box Office Collection Day 1: Dhanush And Mammoottys Film Gets Good Opening, Collects",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdW0wMWlHYTQ3akE4ajNMTnpKdnVLX0RBdUdzaFJBY05hS3FLdWthclhmT2pad0xmSTdZa2tGWERUT3BWeU9ROVByVGw5cU1QZzdMR0ZRdzlFU2I1SWNjS1hLLVhmWGxaQmhtRFIxcnc4dVJ3VVdlQ2lTOG5lYy1iU2s0cE92VDhyNG9fZ3dMbUdPQlpWZnZKXzV1eEZTWXJtUTdQU2Q3S0JoV1lEWDBfM19HemwxTVlHeFE2c1ZQSGtaYVFQN2NkNFpzUk9Ndk4wTzcwQi0xai1HcEJtNXRXT2NOakx6SkVNNFU5Z2J5UkY3RHpUV0kyVzlKc9IBgAJBVV95cUxOcl9RSkQ5T1RyT0lHSjU1QVh6d28wbU1UalRVS25sMFNwN2MzWksxYmNXUDVRSXBfcExCcFRPY2VJdTNCdDVOYmtSRVBRM3BlWU80N09oZzR2aFMzYkVESXMyMzBDZFR1YXBZMEFSaDZLTkRybkVYNzJNbWVkeGJrdFhtWXZqdzNKWFVJNzIzY1dvejhSRHVJcVlrQWJ6VDl5c2NPYmpSVjZMYUhhdmlRbmc5NlZ6djdXNTh0eFoxVDhLNjgtNUt3SGhfUnlWaFBxbEpUcmlNendNWWVHZW9KcTY5SWYxMG1BaGtyUzFqNWRRdXdJOFNmQkJWNWY5djli?oc=5",
+   "source": "Free Press Journal",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T04:00:22+00:00",
+   "ts": 1795233622.0,
+   "category": "box-office"
+  },
+  {
+   "title": "O.M: Operation Mole day 1 box office: Dhanush has bigger opening than Kara, Idli Kadai",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOUxfV3lVeU1IdE9FRGV5RlZmejBUTmtjT05sa0JmWE1sMFRBUE54WnE1RUJzVlJvMjI0UVBqd1ZQbTl0MWlsUnlkblg0UEZNeWtpbEE0dVZXWWZ3anJ1YnIteGdLN2ZDaXdmTng0b1ctWGdzbTZKY0RsX1dRY2lKYXExUzNCSVBHLURiUFo4a3h6T0QzMW5rbDdMNklYM0VUb3h5NnV2SjFGU2tHMXlLNlFUbUFyTHNrTkJuTnFkMVhqM1FmZFY1YWx1ODdsQS1N0gHeAUFVX3lxTE5NZmdWOS01bFAyb1JNMDJjTmpqSVY5akw0U21COGNUbHNWOFZsRXpmZkhrQTFBX0VfTFZ3TUhfRG00VEFQWTlOakdkTENvVU9RQUNLeTJBR0lxTGFlcWZQczlGSG9lSHpEdVNLS21iRTZmZjN4NGxxTlRDRmpwaVNraHRkbklTSDZKWGk3d2Z5X0JDa2RKZFJUVHhMLWlIM3I5RURJNDJtOFREWkJCZ0pUcWRudkZybHlrQXd5N0IwZHN1UEdkSHhVOHRPcGdFek9Eb1ZXcjB3cEt1bGtBQQ?oc=5",
+   "source": "Cinema Express",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T03:57:26+00:00",
+   "ts": 1795233446.0,
+   "category": "box-office"
+  },
+  {
+   "title": "கருமம் பிடிச்ச கணவர்.. மனைவிக்கு விருப்பம் இல்லைன்னாலும்.. காசுக்காக பார்த்த விஷயம்.. நடிகை அப்செட்?",
+   "url": "https://tamil.filmibeat.com/gossips/actress-very-upset-and-tries-to-seperate-from-her-husband-after-he-forced-to-do-her-topless-scene-187289.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: அரை நிர்வாணக் காட்சியில் நடிக்க மாட்டேன் என அடம் பிடித்து இயக்குநரிடமும் தயாரிப்பாளரிடமும் நடிகை நோ சொன்ன நிலையில், கூடுதல் சம்பளத்துக்காக மனைவியை நடிக்க சொல்லி கட்டாயப்படுத்தியதே கணவன் தான் என பகீர் தகவல்கள் கசிந்துள்ளன. ஆரம்பத்தில் தனது மனைவி திருமணத்துக்குப் பிறகு…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/gossip10up-77331795232977.jpg",
+   "published": "2026-11-21T03:49:54+00:00",
+   "ts": 1795232994.0,
+   "category": "buzz"
+  },
+  {
+   "title": "O.M: Operation Mole Box Office Collection Day 1 Worldwide Tamil Daywise & Budget",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT3YxMDJnOXJjam5ZVTM2WmxDQVp1LTdUcTFFSUFRaFdkSGxjaWNlRHA1RzZkVV82X3A0OTZ1cjZ2WUtHcTd1V0gyNzBpQ0FlaWx0UVpNVENXUUZsVlI5cERpZU44VXUtck9JZ25tWTluZDJ3Zkpza2RlRktXM0pOcVgtSGNkX0c0cVg5ZGNJS1ZVbE40V2NENGtqVlJhRlBJb3JwN3NneU9ZUHFtQ1UzTWdfS1MwTmNCLW1XZTQyVlJVdw?oc=5",
+   "source": "Bollymoviereviewz",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-21T03:35:19+00:00",
+   "ts": 1795232119.0,
+   "category": "box-office"
+  },
+  {
+   "title": "தேவா பிறந்தநாள் விழாவில் இளையராஜா.. மறைந்த தேனிசை தென்றலுக்கு மலர்த்தூவி வாழ்த்து!",
+   "url": "https://tamil.filmibeat.com/news/ilaiyaraaja-attends-late-legendary-music-director-deva-birthday-event-grabs-fans-attention-187287.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இளையராஜாவுக்குப் பிறகு 26க்கும் மேற்பட்ட இசையமைப்பாளர்கள் வந்தார்கள். ஆனால், ஒருத்தர் கூட அவர் முன்னாடி நிற்க முடியவில்லை. நான் அதன் பின்னர், வந்து ஏதோ ஒரு அளவுக்கு நிற்க முயற்சித்தேன் என கடைசி நாட்களில் கூட இளையராஜா குறித்து தேவா பெருமையாகத்தான் பேசியிருந்தார்.…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/ilaiyaraaja-12721795229310.jpg",
+   "published": "2026-11-21T02:49:49+00:00",
+   "ts": 1795229389.0,
+   "category": "music"
+  },
+  {
+   "title": "இந்த வாரம் வெளியான படங்களில் யாரு வின்னர்?.. சத்யவான் சாவித்திரி, அப்பா குட்டி முதல் நாள் வசூல் என்ன?",
+   "url": "https://tamil.filmibeat.com/news/dhanush-om-beats-appa-kutty-and-sathyavan-savithiri-at-day-1-box-office-187285.html",
+   "source": "Filmibeat Tamil",
+   "summary": "சென்னை: இந்த வாரம் தமிழ் சினிமாவில் தனுஷின் ஓம், விஜய் ஆண்டனியின் அப்பா குட்டி மற்றும் கீர்த்தி சுரேஷ் நடித்த சத்தியவான் சாவித்திரி உள்ளிட்ட படங்கள் வெளியாகி உள்ளன. மேலும், துல்கர் சல்மான் நடித்த தெலுங்கு திரைப்படமான ஆகாயத்தில் ஒரு தாமரை படமும் தமிழில் டப் செய்யப்பட்டு வெளியாகி…",
+   "image": "https://images.filmibeat.com/ta/img/2026/11/appa-69101795226143.jpg",
+   "published": "2026-11-21T01:56:13+00:00",
+   "ts": 1795226173.0,
+   "category": "box-office"
+  },
   {
    "title": "OM Box Office: கடும் விமர்சனங்களுக்கு மத்தியிலும் கல்லா கட்டிய தனுஷ் படம்.. ஓம் முதல் நாள் வசூல்!",
    "url": "https://tamil.filmibeat.com/news/om-box-office-day-1-worldwide-collection-is-a-very-huge-187283.html",
@@ -256,33 +636,13 @@
    "category": "box-office"
   },
   {
-   "title": "OM Tamil Movie (2026): Release Date, Cast, Ott, Review, Trailer, Story, Box Office Collection",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xdGlTcWtTVEdvSHR5SDBwRWxxdkpaeVd0SWhNc3V1WFMtWE5xOXgxQUJ2Sm9EMnNRTENrU3lVa1NENzJ6eGRub2FOMUxkbVIyQkhTMHd2UGhkdUEzUmFsRURjVHB4ZGRlaHRjOWZB?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-21T00:53:45+00:00",
-   "ts": 1795222425.0,
-   "category": "box-office"
-  },
-  {
-   "title": "'Scene' box office collection day 15 vs 'Mookuthi Amman 2': Suriya's film earns Rs 77 lakh on Friday; worldwide gross reaches Rs 260.60 cr; Nayanthara's movie collects Rs 22 lakh",
-   "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxNOU83WHZoMmFRSmV5VEFrR2xrRGNxVnIzdFVfLWNKWV81SEdNeUV5cml5dXZrVFNZV0ZnRUtXN3psTDllbXVxUmpacjd3eXBaanR5cDJLVWtCMFhJT3FVWjZqRFFsYmNDQ0RhZ01ia2RDZER3V2U1amlwLVJLVThvYi15emxUMTkwbE0xUE1nNXNKZnlfQl9wMTRPVkI1dDhpcEM4d3l2X0cxbnVRczk3SGxHbHJHbGdnVE12QmdBRUd3d1lTRHp1RGxZcTNwZjhEOVd3ZjN2dmU0UEYyTmtJYVJJQXkzQ3c3M1FLZzRBTGR3Qllmb2dFeF8xcXZEejBVU3hmck5sbThHWmtlQ0dReGFPZlBIWFFlbHI3YU5McERlNElQQzZWODFhdVJOc255Q0k1WVI2WVVOM3R3c0Y5VTVUNkd5eklsckdaOVo1ZWc4T21lYWZFUnhYbXdSS2VlcjRwcDJTb1A2TXBoVjZ4WEFNRHlJTXdZaWkxTHF2cy0tRmZKLU5lOWNxSmhVNXNGSjV6alBOQjZkdHgtZ0pqUW80Wk1wTVlyZjJqYnU0MlVmNjYxenRLSF81UHdmWGZHb050NzBwTTNCVFk?oc=5",
+   "title": "'Scene' box office collection day 15 vs 'Mookuthi Amman 2': Suriya's film earns Rs 77 lakh on Friday; wor",
+   "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxQb3pKQk5uNnliSTFzY0Rja3dCa0ZzNXk1OVZhR1VXZ1dxWHM2Ul82Y2dRelFqWFJ2cDBWekF6YmZCbWxRYkpicWNITFZxM2tLOER4Sjl3bHpOQ1VhemlHaVlidXYyTE40TXNwaFF5TW1BWHVHS3llWnhlR1ByQlFuSnBUUXRXdjZPc1JzQUZwUVZqOF9YT29TVTVsN0JmX0RKYkQ4ZjN4cU56NVlmLUlEc0QzN3BKZEpBaGR1T2hleUFmMGpINF9WS0ZYakJObFlrcklCUmNQb0I3X2J6ZUhwMVgtVnlFX0JpRnYwbHJNclV6ZExzb1loMlJSTGFXeDVUREdlZ0JpU01KRmdWc1pLVmt0RFJCNEZkVS1MZS1GQXdFazVWNVpWdTVEbGFSR1NfcG5ZNUd6bjdlRUNfOVBNY0p4Q2poU05KZUVRMjlnSUFmRlMwN2xzajFDM2VmSEQ4LTZhY0FfNmxtd1NKekhFejVsR3NrNFlSd0tn0gGAA0FVX3lxTE80MnZKVFg0ZV9wdnEwUkV4ejFjZ3R1R2t2NDRVNzRXdVg3bGZzMS03S2FuSmVLSGRJSEt4anVGZ0VCdmZQdEl0TlQwQ1JWOXRKZWlwcVpkNWgtenRsOVYwZ3Q3ZVVBY1ppM1hQWnNUT0pYNnk1UHBxMFROeDYzbXpGbVJrNU1kRVdidmdkUDFxdjVZbHVOdl8zRHVISXM3RW5Xb2dka2cyUm1HdGVNSlZ5T2FZQm1HVkR6ZE9ReTB2b2NTUVpLZlJnX3FsYy1VMTdVSmV2S2JjSVctWk5UcExvOVNMZ3QyM092UmR6WTRJblA0NklGU1JOZkZZS2lnMGpLd0lYWUxReEh4bTJqeWpwaVhjRVBmU2xkNFFPSmNtcHFTUThHZHVxMXE4Znp4RFk0cFpJYlVXSVdzZ1JKRlJ4Qmp6NTJzM1hHYmxOR3E2WktXbEdfYlZjY2pEZkI3YWx2UkxxMmd3bjBxb1gtOHVILTRuV2NobGV0X1VrUV96NQ?oc=5",
    "source": "The Times of India",
    "summary": "",
    "image": "",
    "published": "2026-11-21T00:46:00+00:00",
    "ts": 1795221960.0,
-   "category": "box-office"
-  },
-  {
-   "title": "'O.M: Operation Mole' BO day 1",
-   "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/o-m-operation-mole-box-office-collection-day-1-mammootty-dhanush-sai-pallavi-starrer-opens-strong-worldwide-gross-reaches-rs-31-55-cr/articleshow/136041963.cms",
-   "source": "Times of India",
-   "summary": "O.M: Operation Mole made a remarkable debut on November 20, accumulating a net of Rs 17.70 crore within India. The film grossed Rs 20.55 crore domestically, with its Tamil version leading the box office. Bringing in an additional Rs 11 crore from international markets, the total…",
-   "image": "https://static.toiimg.com/photo/msid-136041990,imgsize-154707.cms",
-   "published": "2026-11-21T00:06:07+00:00",
-   "ts": 1795219567.0,
    "category": "box-office"
   },
   {
@@ -321,8 +681,8 @@
    "source": "INDIA New England News",
    "summary": "",
    "image": "",
-   "published": "2026-11-20T18:47:54+00:00",
-   "ts": 1795200474.0,
+   "published": "2026-11-20T18:47:56+00:00",
+   "ts": 1795200476.0,
    "category": "music"
   },
   {
@@ -336,7 +696,7 @@
    "category": "box-office"
   },
   {
-   "title": "OM box office collection day 1: Dhanush gets his highest opening after beating Tere Ishk Mein, but lags behind Scene | Hindustan Times",
+   "title": "OM box office collection day 1: Dhanush gets his biggest opening after beating Tere Ishk Mein, but lags behind Scene | Hindustan Times",
    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOc2d0MXYtSFJEUHBhbU5iZlpKcnF2d3J3LXJURmJ1a0xHVVFCandKSnFqc204akdGMGdUMUFyNUJJb3pHNlpaYzN1Tm9nWjFBUm5iVldNdFg3MUxSUURPdUlIdkc5ZzJhTmFhTGVud3lFWlNINnpCLTNIN3BaOFN4UnFpZjdDUDVlRkZ2MVlEdTBnYUtwa0FvN1dvcnBCekpGdkdsWGxhY1VmeVJmYkd1U3VROFl3a2NMaXJFVWpJQURLMFQzSUhJZDlLeU9lLXo2UWRVbXNKQXItVDI2SGpsOTZZOS1RX01vMGd6d1pJQll4RVVyWWIwMWNRaGkzbW0zVXp5ak5qazhBdHFUdm1BcEFDZzZWdmcxcnVTV3lIYU5kVVRDTkRRQnBDdmFzd9IBswJBVV95cUxOWDNpcW9XQzYwdG11S2hnVGJndVU0aFI1eUJ0T01LblNLWm0yZnRuVFRpZHBST0RwUE4yTTNNd1dicDV2UF8wTlg3WFFmY1NhLXFDVklCRVNSY2FUdnh6TG5PUk5ScVFkclJWQ3JlWmUwZHM0SElDNUdQbm1RTjBZcmpuMVg5UlhCc3EyQVhjYjB1cVdlSDcybHRWZ1BMMVgtdWYyVngzYmtsSWNzc1RoUmlaX015eDh5eUxQUjNQMW04eU4xOVRDbEpTVDJENndkeHZlNFN6ZUhzOWRvWXVMVHRVZ0EwU1g3bnVjMUp5VVVjeFdBRm0yTm9Fb2pXbFlacFh6bGlJUDFVVm0tbWFRdkRlTW9UdlZsQ09zNU5GQUg1SlBWbTZnVnpad0FVczVuT1BB?oc=5",
    "source": "Hindustan Times",
    "summary": "",
@@ -366,16 +726,6 @@
    "category": "box-office"
   },
   {
-   "title": "O.M: Operation Mole Box Office Collection Day 1 Worldwide Tamil Daywise & Budget",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT3YxMDJnOXJjam5ZVTM2WmxDQVp1LTdUcTFFSUFRaFdkSGxjaWNlRHA1RzZkVV82X3A0OTZ1cjZ2WUtHcTd1V0gyNzBpQ0FlaWx0UVpNVENXUUZsVlI5cERpZU44VXUtck9JZ25tWTluZDJ3Zkpza2RlRktXM0pOcVgtSGNkX0c0cVg5ZGNJS1ZVbE40V2NENGtqVlJhRlBJb3JwN3NneU9ZUHFtQ1UzTWdfS1MwTmNCLW1XZTQyVlJVdw?oc=5",
-   "source": "Bollymoviereviewz",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T16:15:13+00:00",
-   "ts": 1795191313.0,
-   "category": "box-office"
-  },
-  {
    "title": "OM movie review: Dhanush, Rajkumar Periasamy film is a decent crime drama",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLUJzdWMyRG13ejFBamhCSXFSNGEwR3BXRk9rdEFydy1MZldwSXpFSDBjZDQtWHVfcmJuZ1ZCTWFsV1RNTEZiQWhTU2VhZlVCLVM1VXpYc0Njd2RsRnM1ODJwWlpCM0Z2eElrVmZJQWwya0o5WnFZc2k1SGdCX1RHbVJFMnJoRE56OTBrQjJiU215Z3lIcndyb0hOMWZGbmFLSDV2N0pnV3RkR0tQc1V5STFnclQwelZ5WkE?oc=5",
    "source": "The Federal",
@@ -396,16 +746,6 @@
    "category": "box-office"
   },
   {
-   "title": "Scene Box Office Collection Day 15: Suriya Starrer Sees Drop As Film Enters Third Week",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOEoxcWFVeExwaGphTW1TYWVlRmVyX2FDS0R3d1VabUZrN1ZNb2NnQ0txa21TaTJZaFE0LUZqc3htOU9oN1NzWXJNSjJvdG14cTBGaWV1cGYwRWlmTEZrWEpBOGVOeEE4MjhMX3c1VVRLUXJWcW5VaFdoaDFKYktGMFpmUHE0cnQwU190RHhQNzdoelpMaWxhQ3NnTnBCZ3BJWHM3YWZlWDFkMkg1UkN1RW5PbzVyLThZS2d0WEZuN0tNdDQwR1BUdkU0dGRIOC1rWlJadkUyQUxvOHlLVjlSSkpyUnNKZHM?oc=5",
-   "source": "NDTV Profit",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T14:59:35+00:00",
-   "ts": 1795186775.0,
-   "category": "box-office"
-  },
-  {
    "title": "கோவா சர்வதேச திரைப்பட விழாவில் ICFT-UNESCO Gandhi Medal விருதிற்கு பரிந்துரைக்கப்பட்ட ‘Scroll’",
    "url": "https://tamil.filmibeat.com/news/scroll-nominated-for-icft-unesco-gandhi-medal-at-the-57th-international-film-festival-of-india-187281.html",
    "source": "Filmibeat Tamil",
@@ -414,16 +754,6 @@
    "published": "2026-11-20T14:27:03+00:00",
    "ts": 1795184823.0,
    "category": "buzz"
-  },
-  {
-   "title": "OM Collection Day 1 Early Update: A Double-Digit Start! Did Dhanush-Sai Pallavi Jodi Get Their Biggest Opener?",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVkpsR0ljY3lhcWtwdno5SVdmZW42TTVZbmdHWVZaSHRvd3hOd091MGtvSVY1VnhBdXNFRnhfeGJ2NkRRMC1TQVNjTjhPUEtmY1k5YWJQcHVpY1RHOEJfaUVDSHlkNlpIeDRYV2dyYVFBY1pQLUxwaG5SWTVDNWFmWUR0OXJTa3RSdlBjU2Ria21GLTBlM190SGs3cl9GYTZCMFFiYnlHVHAtckM2b1daVWF0c2ZKMVViaEFGNUtqUWZYMDZzb0VkNGI1QnpqZHJxUUpRdG9VdlprTkltM2c?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T14:22:40+00:00",
-   "ts": 1795184560.0,
-   "category": "box-office"
   },
   {
    "title": "ஓம் பஞ்சாயத்து தீர்ந்தது.. ரோகிணி தியேட்டரில் நாளை முதல் தனுஷ் படம்.. 6 மணி ஷோ ஹவுஸ்ஃபுல் ஆகுமா?",
@@ -476,36 +806,6 @@
    "category": "box-office"
   },
   {
-   "title": "Kamal Haasan’s Gunaa heroine Roshini acted in just one film, quit cinema over ‘restrictions’",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTllueVpuVGhvcWN3YVVTU0NJeWxjU0s3MnlkTFpTRkVPbF9BMDRyd1hCTVZIN2x6MHk2U2JGcThnci1DYzhpRXo1RkJCbXlNNXcxT1VOdHlPWnBLQ2RYVlNIaUpSalNMYUVDaTVNaUVJaU95NFF2WlBqTGF6SDdPc2Utdmduamt2TlNMOU81eWxzMTZvWVBkRmRYYi1FWGNRenRubWNNa1c1N2M0YWdZM3lGSDJ0cUx1NVBtMndOeDBPWGtHX0RvR1hvaldXTWlHTEk4TlpIRzFOZ9IB4AFBVV95cUxOQkFjbHdaNVEyUW5rbkx2RjBNX0xjZDh2ZXJsdjhNUXNNWlRwQ0xVZ1ZqNDlma05oZEJ1bGVENW5PYVdWcHR3T2Q3TXlZamY0SlJTNVppTVMyXzlBVjBYMzVMMXgydmdmV1BqT1pBZnZVaGlVdjl3OXJZNnVfaHZIWEJtQWRHRWtReGJIY2NmRDhwWFR0eTlFWWU4ZHU4TUhuYXZ1TnU4c05GNEtOZy0yUnpnaGo4QXdWdTkzWkhxNy1RN0J4d1lkbGw1YUplTFVMd3oyc0NTWHE2eG9zQjdtUg?oc=5",
-   "source": "The Indian Express",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T12:29:35+00:00",
-   "ts": 1795177775.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Did 'O.M' carry political plot? Director Rajkumar Periasamy clarifies on Dhanush's film amid the actor's",
-   "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOMjBsWGZRTFlmUDk3RmNVRVNJRmhDeHlNNGcwanF2LTFSSVdDZHpCVC1HYVZfMnlSSlFtUnhHWW5wNmhVeTdoeG15ZXpKQ2tpVWc4LTlvUVhXdy1lWkxOVHIxZ0lKZVJfTTVLcnlIZnk2aFMzOEk3Q1NOUU5leGFPcnRDYW5RYlRxdDI4aVU1Q2xNaEtiMEs3RXc4WVc0a25falN2Tmp5OHZtVFZEcklCMVhWQ1RuQ1JmejlnM0dLcWpyR1c4TFVocXFOTHlmaUVkaVNpN0JaazFhZ3NHUWtYS2dva0tYb0xjTVZPdkFrdlI5WnFHVGhaZzQwZXFXV2dSSllvMWFEeEZRRFJka3BFRGxSRFRoTVdlSW5oWTFGdmZIRVV3Y2U2WndCM0JyYW5uazNMeXhOYzRaZ9IBvwJBVV95cUxOSFBTOTljSmNHTzg3U25GN1dIT2c4LXVOa3FzSEVodkJWNVViYzNFRUszakp6WUkxQ2xXYU1OblJZdWlfblVuaUZiQXVaVHdhMWF5MFFZenkxeDJKM3F0RjRYQmhJV3JiVm9Sd1UzNHRhQmZORDNuNDRTZWhYRmF0MkY3YzI3QjJLell3OEtyVTh1UUx5UXYwRzBUNnBUQ2Q5WlZvNDF1QTlaWDRRV3F5bEVkR1dqeWgzdU9tR2xaN2ZTNGREQngwaVBmQzVOblFJdDNFYnJqT3F0M1lXdmQwTnViak5meUtwSER0VGh4TUROVTFJdkFpSkR0LUI4VlBCdnI1bzRjOG5xb3VTVFVjQUw1UzlvSGNnSFNnVFdNVjU1bm5vQ2tOZHZaRUZ1dzA4clU1U0VXRlhLS182Q0tr?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T12:24:00+00:00",
-   "ts": 1795177440.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Kamal Haasan brings back Sandiyar after 23 years. What happened the first time?",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSExCQ2t1SUZENnZDSUVSTlVxTnVXc2V6T2J5OExjNmQ5ejVoY2ZxY203bllPOWNWZHdRYnhGcmM1YlljWmJtQ3N3VXJZN2hOREJWTGZGdUZoU2NUdjltSVhDSE5xNkVCVGtfLXk2M0tYNGpySVlPYmlqUUhmcndGZVg5WVAzYnNQbDJ4UkdlZWJnWWhJRm1mWFVSV1AtSTdmaEl4eHRQTGhNaWpYLTcydmhpaXNjSWkwa3FLTEpBYU80UWRVQ1NqaDd5LUh5ZWFoNU85NFVXQdIB5AFBVV95cUxOWlQ2a3dXOUJ2SktLaXZkRFNaVUNTZVZCTTc0M0ViVlY0cFJONUQ3RjRTSUlKVXQ2MG1PY1pMYVNsODV0clBpZ1dRT0tXNTR1MzBjdUx0Tkp0d3JBdGZTVjF6d1BYaTRMNjN0RXFQWjZhZW9wYWFrVDh6M2dGNkRtak5BNWJqWjRfa0VValJReW40VTV0aVFkOFY2TDR5X2N6N0o4cVBBS3UzeHRsN19SQ3NILVdyVXFiVEtST2pqQUN4QmJyUUlSU21jWVlPdl9KblJaSWlIVFpYWFNvd0FGZ2gwOGM?oc=5",
-   "source": "IndulgExpress",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T12:23:43+00:00",
-   "ts": 1795177423.0,
-   "category": "buzz"
-  },
-  {
    "title": "Dhanush wants to make his sons proud so he can demand the same in return; reveals they flew down from Anirudh Ravichander’s wedding for him",
    "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/dhanush-wants-to-make-his-sons-proud-so-he-can-demand-the-same-in-return-reveals-they-flew-down-from-anirudh-ravichander-wedding-for-him-101795172641882.html",
    "source": "Hindustan Times",
@@ -536,16 +836,6 @@
    "category": "buzz"
   },
   {
-   "title": "OM Box Office Collection Day 1 Prediction: Dhanush And Sai Pallavi Starrer Heading For Good Opening, Movie To",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNMURsUFZYSE55akpuNlU4emI2cE1UcW1PRGhXSzVpeUVKNF9vdGo0T3N3dVBJMnlNRDlHb3BYQ09ldWU0UnhSR2lFOFJ6QWhFQVBTalE5WVN2TzJSOVRfTnY0aFRyd2J5SWJWS25lVzBSX2ppMjBxSWIyRzJSV2FMUDJjU1JrRkNHcnJ0YTdpNk05SmZQTTJLSk1qX243eWpFaVJxTDJ2c2t0TDNicjk3WlRLd1JlTjZOMGhrTnh6aTNCTlFRaUhCSXR2czNFRzhMWm5Ja01OVXBCQ1JkaVpPbjhWVjRWbmVmUFBQb0dlQ0plWm9SWGQyT2ZMOFkya3V4dU1zbFFlanhqQdIBjwJBVV95cUxQZ29ZaHdOTEpEWFl5OGZYMDlTUlNlb0xiRGNHU0FBSF9FX2xuRWdVWmJOZ3JjY0ViYk9Bb2tjNENSMFktNE1ZUXdYYW5WREJocFdmZjM0bUtXS2ljSlY3bHZLb3lPenNIVWoxakJ2cW5SUGI3RzRaWGJjclFEZHgtQlNWWGoyd0tvaGpSbFhrTGlpOGFlQ213eEkyWU9LMkV2Vk4yOU5PS0dlVE1yVklGVEMwV1RVb2VJM2h4ZWVQS1kxZ20xa0FheTljb0Q1aXI3VmVfUURjVmNOUl8zZXA4TjNzblJmSnpxOGRFVWtIMlBFOEZDV0YwY3RmZDFhYXFRcHlmRG92VzZJM1YyX2Fj?oc=5",
-   "source": "Free Press Journal",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T11:56:13+00:00",
-   "ts": 1795175773.0,
-   "category": "box-office"
-  },
-  {
    "title": "Paththu Naal Raja - Official Tamil Teaser",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaWlIaWFDQ01WRnFSdUJXdFN6U0ZIV053akx6MmpXUUlWcm9HQ1pEV1hjV2R5TV9RSE50S2h3c2pWWDFBZm8wSlY0SFRsY2hMVzk2NVlBWDhFNTcxYnVpRS1fWDFzcU5OdDNWeF9uMG1MWDlNb0x6TUxWc09oSHhwT2RvR1VBaWpaMFAwajBFUmJHSVhwbVlsdXBwaUdRYUczUDhfWGVXUjdLUmtqaDROc0FmbHpfVXd0M29WMVJWS1RsaG1CUVpwR2JFc2JwVzRH0gHWAUFVX3lxTFB5bTJtNzBMd0RhZlFFX0p6Z2ZJTkQ3dG56UUVwRnhRMlNicUlBOUFrc3ZkZnNmY0hNYUlxcF9xZ1hKRTdleFFhSTd0WVE3ZUxxT3VQQXd0b0VZbF9mYjBxVWVZeW9xY1luWW5pbmhaWkVlc0diQkd2SlZUZXVMUldueFBiNzZ3cExxdTVBTXNqTi1CSXFsS1FISGk0NmlTYWJYcEJ4RDYtc0hUWEZyOTBlNjZlRUpQN1NaSHktbnVMajB0NUhRWWVrLXlhS21leFZySDRMbnc?oc=5",
    "source": "The Times of India",
@@ -554,16 +844,6 @@
    "published": "2026-11-20T11:44:29+00:00",
    "ts": 1795175069.0,
    "category": "trailers"
-  },
-  {
-   "title": "Salman Khan-Nayanthara’s Monster Ropes In Jawan, Dhurandhar The Revenge Action Directors For High-Octane Acti",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNSHM4WE1hY19vOEFHNGRnYjJpRXBsY0R5aW9VaDhWMl9XY3dEMHlMeXdndWxvWGxqRTl6cENTempQV09KOEh6SnJOV2pSeHgxYUtUY3ZKQ292OVJ5UW8xaDhaMkV4Q0s0LUVaaUpCX1h1ZnFqQ3N1NDNDVXFKTXdHLXFCbHZNTUQ5Zm1zTE5KNXljMDhPYzQ2dTdDc3VlRUlxTDEyaXNIX1otSzV0SHV2MWgxS0VRRFRha3d3Ukk0WHI3V1RVcC0zMElYQVIzZUVpWTYzd2RHamtMcjRlVXZndkczck5ZRkdxbWRCdGlIQUtHZXVjQjlQa2lSVXZheknSAYQCQVVfeXFMTVJBQ2MtYXYyU3N4LXlXV1RwRTcxNFZvcldIV1dRSzhzWmpodzJCMnhKSjFuNjByanhfeTlqTGFWTFIweXlLNEV2bHRXTUdsTXoyS1FqemI4VW9yMUFZVEpuVTQyR0dYdGlmdVdxSGFueThWSS1QenJBMkZhUmVBRUhac1FfSTFqNkNSbUF6b25fWm1NWlZyUEtQVmM0ZkxhV0tYdDdSRi1JbkNmdFZCMnB5QmpvZDV3S1JiaDFaMDBidjluQk9lU29DNlJwQklqcXQ0cFNjZ09sZGlYMVlRdWNCZ2VYNl9YVmFiMXlnZUNmbEdfMzVhNjc5NWNodlFNZ3JKbEk?oc=5",
-   "source": "iDiva",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T11:29:17+00:00",
-   "ts": 1795174157.0,
-   "category": "buzz"
   },
   {
    "title": "Tamil, Malayalam, Telugu, Kannada OTT Releases: Crazy Kalyanam, Anbil Avan, Haiku — Movies And Web Series To Watch This Weekend",
@@ -586,16 +866,6 @@
    "category": "buzz"
   },
   {
-   "title": "Vijay Sethupathi Unveils the Trailer of ‘Octopus’, Premiering November 27 on Zee 5 Global",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOLWRKd09nVVY4aFB5V19qMEJzODFzZXFKV19sZ1pIN2N6eEhMVnpOVXdVcWl4RXRiOU5nT2FtaE8zV2pmTzJkZHhPZEZYRTlXN04zWXIxZ1BkNHlOUlROTXlPcHBMVUJzbHJIdllmVmNtY3VBa3VIcGQ2X0lhbWxpTGlYMTBPUmx3RThkU0VhY1BnV0VmVmhwbG5Wcjg4WHh5SEZSSi1RczdXTUlNamlEa2tMejl3VVVNZFkyV0JKYl9LaEpsYk1EOEg3VEM1ajdBT2taeUF0SnhEWnlfenFmeEM4Yw?oc=5",
-   "source": "Telugu Times",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T11:03:54+00:00",
-   "ts": 1795172634.0,
-   "category": "trailers"
-  },
-  {
    "title": "தனுஷ் அரசியலுக்கு வரட்டும்.. விஜய் புரட்சி செய்திருக்கிறார்.. சுப்ரமணியம் சிவா ஓபன்",
    "url": "https://tamil.filmibeat.com/news/dhanush-politics-subramaniam-siva-says-he-will-stand-by-actor-if-he-enters-politics-187271.html",
    "source": "Filmibeat Tamil",
@@ -604,66 +874,6 @@
    "published": "2026-11-20T10:49:21+00:00",
    "ts": 1795171761.0,
    "category": "buzz"
-  },
-  {
-   "title": "Anirudh Ravichander, Kavya Maran share pre-wedding photos with Rajinikanth, MK Stalin ahead of Chennai reception",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOGs3LVVTV1JpdWZMTUFLdEsxWWozaWpOQ01NTHFJV1RiNEVteEN5UFdWckJHNXNCOWQ5ME95VTM2Y2JDUV9ycW5oVEVWYU1QazRxNE1JaEJyckZjZ1g2T3p5YkFhUkt4dXF3YW5aSXBILVZsUVd2RVRNektBSUMyMnhvQURGRWpaTkpNWjF2eG5ZcUJyZWdxd2FRZ3lRQ3pLM2wyTjBMUEdsZy16M3U0VmUzOG5LSWNkcHA5YTN3Ykk0aTJ0MWdSdG5YZ2RQbUl6XzJQeVdKbXB2d3RLeTAwVzd5QVVEQkNVWlhwZ3BHdnBDNGhUdVNTYU9iSmlZSjTSAZICQVVfeXFMTVdSMG1JZXVjUDBPOWVRZWZmaGNlVFFDUHVnT0FCdTZEMlZudFZmTk5kdURDcWN3V0JOSV9TN1h4S0V1emR0UnJYVHNGbTFYbzA1TkF0dGVGakQxRVpMM0RXTHB6WGlMWmZRTUlMSVpRNXRNbWZnMXVmUkViQnZwbk9EYkJLd0E2UVpHZzk0R0Z2ZTJQQUNia2lybWZpcXN2cUwtb1VxSXFHNlRLOXRBbzhKb3hCalcwV0VKR2hReTJQVU05SEtGMHJGbU1oRFU2ZmpWQ3htZ3ZvUU1IZkV1a1NOSFp5Yi1MdHRiaUY4N3h5NlRnM1dfOE5CVmtBWDFpN3IzSE9UbFdTZEMtN3BlRjladw?oc=5",
-   "source": "Gulf News",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:43:13+00:00",
-   "ts": 1795171393.0,
-   "category": "music"
-  },
-  {
-   "title": "Kamal Haasan to Receive DPIFF 2026 Contribution Award - Dadasaheb Phalke International Film Festival | DPIFF",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLV0JwaHVSUDJmRTQ5dDJpZmZDN3dsNUNILWM3a01UT0g5QWNzVmJLV3UwZm9XbDdDdGVDR045MUhHY2Rxdm92eU5sNm96RHd3ZkF4bnZCZ0UzY29zQjJEX2NjVG1Rb3MzX0VlODVkODYzbTQ?oc=5",
-   "source": "Google News",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:40:07+00:00",
-   "ts": 1795171207.0,
-   "category": "buzz"
-  },
-  {
-   "title": "Anirudh Ravichander shares UNSEEN wedding celebration photos with Kavya Maran, 'Jailer 2' composer calls",
-   "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPYndySGo3emxKekdCODV5aUR3c1JETWNLWEtPX1lMT2xGVmN1UFE4VlpWUXVNRFlRMWhUZGpyV29Ia3BzN19FWHk2RHRGdFl2eE45ZEk3SzBmSTN0dGdsOHVLbVRuMTM2V0JGa0xaVWNTcmgtclNxMnBQUjhQbTJwX21HUl9UcWVxbl9PNURsaTJMUEtVUE1JeHZmSzZRTXk4SndXR2tyUkhiYWVfLWJnLXV3YlhlbWl2UTBRQjA2aGxoWXBEeTBLVFZ4bEdMZWhiN1RoYXJ0a2xQZGpuZmJjY2x3RmVUTXJjUmNGc0FsNm0ybC1lbW41dUpwR3kycE9WS1NJZTlsbXhicTlqMmd0SmduSnJwNm9leU9Sc2pZMkJSRzZYRU1QNzA1RzZveHp1SDd0MjdsT2pvVFRGUUVDRtIBxgJBVV95cUxQNkpuMkNWQy11YWhUZkw3V0RnY0NHZmJBT1c5dXVtbVZoeGxxNXdBRWYtbk9FdzdOcUk1a0d6MUxMb1lQREVORHdTY2s2VGE0eWZnMHF2Z2tOcUtxRnlhTnNPLWg4VjZDUHpYdXVpcjBadzR0QUx5TTVCT2M5TzNjY2MwNTlMZ0x4LU1tQ0Z3YjlZU2ZOeE8zSFZqRU95RTNEeUh5X1huTTFOYVFjNjMwd1NlNXpBMDFlVk9LLTg5V21yMnlHM1VnWlVTUGZ1SGE2QnVZcHhucGVTaUQwSlJGLUpmNVJXYWxIdWRRUmVPbDNndVo5VGM0TVVMeXY3R3JzdzNISUJNc3dMMVNYOG9GWTFlYi1DWXRtMWlQWHczaWkySGdpOEZIZWU1T1lGS2dJbmg2dm5UTE5XcU9SNjZfYVlaWE5Hdw?oc=5",
-   "source": "The Times of India",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:34:00+00:00",
-   "ts": 1795170840.0,
-   "category": "music"
-  },
-  {
-   "title": "To New Parents Samantha-Raj Nidimoru, Big Love From Varun Dhawan, Nayanthara, Kiara Advani And Others",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMU1IaHllZVlyV1BoMXFXeFJaODNHblhZeExkR3gxaTBQQkZxbE9CWHhiRlJEZHNrdXBnZVZvRTMxN0k3c21jcWIyejR5LW1SYzU4RldCOGRvNExoUFh1X3lnREVSYnQ3aThJRTBGdEs0TF9MR3FsMVgxX1c5TUxIUnpUYk5WQWJGVFZPdmNfLTl0UVFFeWRVWnhab1FCN0NvZ2M3bEZlcG5FWWFnYzI0ZndNS05GQ044Vk91TVkwVS1RVENfRHZYRV9kZDlRdTFQZ1o2UThpTERQVVlUSzd6N1pVOXdyaFVqZF9R0gHzAUFVX3lxTFB6OFhobGg0NzZNQjktODYyZ2tSd0h1d3BESkJzZmdmMjZ3MmVwa0hfQmdnV21HS2M3Z2hzbDRScHA5LUx3LVZRb0R3UGhyejJfd0xVUkdHT19pZGVRT09DZUZIWWozLXVWZVBDTG1ORHYwSTI4LWFNLUJFUXlZaWowZ3plVUNTVWszdzBETU5fYy1OOW9aTHZOcmhkYmNaNXBTWGVNTTZkWmIxNlJDWmFVelJFelRLVk1kbGlmRV9fdU5ZWGJKcTdpMUptNEphSXduX1c2NEZpNjFEVXR2R3JoSElVb3FfeTFOdHhIbGg5bUhtdw?oc=5",
-   "source": "NDTV",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:11:35+00:00",
-   "ts": 1795169495.0,
-   "category": "buzz"
-  },
-  {
-   "title": "'Our Hearts Are Full': Anirudh Ravichander-Kaviya Maran Share Heartfelt Note After Wedding, Drop Unseen Pic",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQM2tJaHQtYWhVUDRpY2RoRnNaQjhFUjQ2RGpLeF90TTBMeFI2NlNoNXFMeld4bW11aW1MM0QzM3lxdzBaQ3R0Q1ZxQVZ0bjZmc201cmJLOXNLWmo1VDdBc2QxajNwMnFxS1JhdHZ0NGdYTHV5dlZVdXpuTENMb3d6NFoyYjZYbGRaWVU3TC1oc1UwTVg2ZTBJYktpeDBHOTlMOEVkc0ZUYld0V2JvRG5NODZSVDZBWWJJNGdqYkpRZzJTSDNtNUFWcXN6Slc3dmg0ckU3c3dfVThMQU1zYlctajU5RWswZlJ5Ylo4dzYycnF6dUdM0gH6AUFVX3lxTE5qelktUXhBay12dFdKbWJ2RDVac1FudWlPQzdlOVJ6SHBpTjBoWmRmT1NETElDZTBlT1RiOGRwU0g1VG9QbDJzbmd1aTJsbllNMlE2UVRwR1lYTEg4NXh0cjlnQWxFVUxESlFoeUxVWXQzT3RCd2tBUHhsNTl0OXBGV3g1N05zeUFFZXNzb1lKbHNYWGpoaDg4b3JRZ2s1bEJXeExXcUM5bzZyaTZoSW5PcnJJYjdUQzJEczhueTFJMFNoemE1U3h4QjBHMFBiSU1ETzhyS200N082OVZmQ3gzdGJuc1JXaUcyNUZ4OWhxOUFZNXBnMTFPMmc?oc=5",
-   "source": "News18",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:03:43+00:00",
-   "ts": 1795169023.0,
-   "category": "music"
-  },
-  {
-   "title": "Baththa North America Box Office (Closing Collection): Vijay Sethupathi’s Film Is A Hit – 8th Highest Tamil Grosser Of 2026 In The Territory!",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aWjBYLWZSMTRUZ1kzbW1VamdjbUlnT2hTaGhabmdpU1ZkRWpsOU1TMi11X0daMm15X0ZGVG9ESkxVcW5aM21qZHVjVHJsTGhCd0N1a09oVmg2dTZUdDNodXBB?oc=5",
-   "source": "IMDb",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T10:03:02+00:00",
-   "ts": 1795168982.0,
-   "category": "box-office"
   },
   {
    "title": "‘O.M’ movie review: Dhanush, Sai Pallavi score in an otherwise bloated, convenient action thriller",
@@ -676,26 +886,6 @@
    "category": "reviews"
   },
   {
-   "title": "கடைசி நேரத்தில் முண்டீஸ்வரியை காப்பாற்றிய கார்த்திக்.. சிக்க போகும் ஸ்ரேயா? கார்த்திகை தீபம்!",
-   "url": "https://tamil.filmibeat.com/television/zee-tamil-tv-karthigai-deepam-serial-november-20th-episode-review-187267.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை : கார்த்திகை தீபம் சீரியலில் சாமுண்டீஸ்வரியின் உயிருக்கு ஆபத்து ஏற்படுத்த பீட்டர் திட்டமிட்டு வரும் நிலையில், கார்த்திக் தனது சாமர்த்தியத்தால் அந்தச் சதியை முறியடிக்கிறார். அதே நேரத்தில், ஸ்ரேயாவின் நடவடிக்கைகள் மயில்வாகனத்திற்கு சந்தேகத்தை ஏற்படுத்துகிறது. கார்த்திகை…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/kar1885-63611795165308.jpg",
-   "published": "2026-11-20T09:02:05+00:00",
-   "ts": 1795165325.0,
-   "category": "buzz"
-  },
-  {
-   "title": "வாழ்க்கையில் பொன்னான நாள்.. அம்மாவானார் நடிகை சமந்தா.. என்ன குழந்தை தெரியுமா?",
-   "url": "https://tamil.filmibeat.com/news/actress-samantha-welcomes-a-baby-boy-187265.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தென்னிந்திய சினிமாவின் முன்னணி நட்சத்திர நடிகையான சமந்தா தாயாகியுள்ளார். நேற்று சமந்தாவிற்கு அழகிய குழந்தை பிறந்துள்ள மகிழ்ச்சியான செய்தியை, நெகிழ்ச்சியூட்டும் புகைப்படம் ஒன்றுடன் தனது இன்ஸ்டாகிராம் பக்கத்தில் அவர் பகிர்ந்துள்ளார். வாழ்க்கையில் பல்வேறு சவால்களையும்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/-28261795164005.jpg",
-   "published": "2026-11-20T08:56:22+00:00",
-   "ts": 1795164982.0,
-   "category": "buzz"
-  },
-  {
    "title": "Appa Kutty X Review: What Audiences Are Saying About Vijay Antony And Preethi Asrani's Film",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTXU5RG8yLW9VS0dlSjh6cV9yUkw2WUlXcGFpdlBFYUJqbjlHUmhnekxFZndyQ3JwLXpYdUE5UmhUNHp5RDJ6azJVN19aSHVnblllUWVIcWZLRU1HUlptU3RqRnI1enB6aXJob1p0ejlEdzhBSUhvMm5wRVZpVzhHSEp3UGpPVkFMNHJNUnI0djFGOGtRTlJkOXlCR2ptcThCaDBaRFNKZTN6eHhYbnlfYkVfODhkNDYwd0hNdnMtSS13UU5BTzZBTDNsWkxMTjVDSXBtMw?oc=5",
    "source": "Filmibeat",
@@ -706,36 +896,6 @@
    "category": "reviews"
   },
   {
-   "title": "OM Prashanth's Review - ஓம் பிரசாந்த் விமர்சனம்.. மம்மூட்டியை நினைத்து ஆதங்கப்படுறாரு",
-   "url": "https://tamil.filmibeat.com/reviews/om-prashanths-review-dhanush-impresses-sai-pallavi-dominates-but-15-minutes-should-have-been-cut-187263.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ராஜ்குமார் பெரியசாமி இயக்கத்தில் தனுஷ் நடித்திருக்கும் ஓம் படம் இன்று வெளியாகி கலவையான விமர்சனத்தை ரசிகர்களிடையே பெற்றிருக்கிறது. சாய் பல்லவிதான் படத்தின் ப்ளஸ்; மம்மூட்டியை அழைத்து வந்து வீணடித்துவிட்டார்கள் என்றெல்லாம் கமெண்ட்ஸ்களை பார்க்க முடிகிறது. இந்நிலையில் பிரபல…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/ppr-81611795163483.jpg",
-   "published": "2026-11-20T08:32:09+00:00",
-   "ts": 1795163529.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Anirudh still scoring 'Arasan': Thanu - News Today | First with the news",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NVzctbDdUU2xuSFYxd084NUxuZ21mSzhpTEREOHNqZENFY1FjY3JRUERKUk1BRGhmNzBaMl9MOWQzdTFsQjRhMzg3cnVVWnhDaDNLUnA5ZndFZm10Qk1GdjZHeXBMZ2lZVVJPZ0ZIaG9qMVZPVVViOXhuTQ?oc=5",
-   "source": "News Today",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T08:27:32+00:00",
-   "ts": 1795163252.0,
-   "category": "music"
-  },
-  {
-   "title": "Inside Anirudh, Kavya's Pre-Wedding Festivities Featuring Rajinikanth, MK Stalin",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZWNxZTN3azRoNXNTOHFBM1pqQ055RlVBajIxQ0xFVUhoNEJPYzEtY1FxNmtvMnRFV0U1bGlNRDBDZ2hIaDVxVVNOWTVEeGlHMzU4QTJFNEt0R21iY2YxaDFla3hjeldkQTluNDlQaGVWM2dNS0JMZmMtUlVPcFREVDM0d25xelF5RDFGdnZybjk1emtya21ZQV9jRjlQMTZnUjBiUFRDdVVPbUJTa09vU3c1TWVjcXVxLVdESjFHcGFNUUZPTWhZNlhFNExDVUFudlpMN0FnVi3SAd4BQVVfeXFMUFhpaEhteVJpLWZNTEhZWWtGdjBldnRhTE0wSm4wX3E4R0RhcUtCOW1wTlJPaHRYVlVGUFp1OHY4aDZZTkd3Q0lwSmppXzZXYURvZGZRN2N3SXlMSFNITXRraHlJWVJsYkljZENVOVJQTUVfZEl5ajBzSFpQb0xHNVpoR3NiT3FiTmRMa180RUVrcTROWXI3dTVqZEhiT21oS3N6b2NDcUZaWTZJcldFM2FsZnRGa2lfMTNlMHRCSlJod3QzQ3lWc2dmcEhha09Id0JtLXp3Q3pwb2o0cS1B?oc=5",
-   "source": "Deccan Chronicle",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-20T08:27:25+00:00",
-   "ts": 1795163245.0,
-   "category": "music"
-  },
-  {
    "title": "O.M: Operation Mole Movie Review: Earnest and engaging, but Dhanush's O.M is eventually a sting without sting",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSElnNkRuOFNDWEtBdHVoQlhDeUxrTEpjWF9HZmp0MUc5aGREdUFOTHFabFFXWWFOV1NOY24xRE1ld2tHbXh1bWhYY2lWYTdUQkRtRkt6cHZfR3RscXpfVTFxbzNQcW81OEYyenR1X3d3b2xXNm1BV0tlUW5jU1ZBVFV3MlVxX0ZKVUxKbVc2c1daMGJwaXV0dkhyYVhKRkYxenBhVjhXTUt3QXpUMl9RYktoUEwwSzJ0ektN0gG7AUFVX3lxTE1ISWc2RG44U0NYS0F0dWhCWEN5TGtMSmNYX0dmanQxRzloZER1QU5McVpsUVdZYU5XU05jbjFETWV3a0dteHVtaFhjaVZhN1RCRG1GS3pwdl9HdGxxel9VMXFvM1BxbzU4RjJ6dHVfd3dvbFc2bUFXS2VRbmNTVkFUVXcyVXFfRkpVTEptVzZzV1owYnBpdXR2SHJhWEpGRjF6cGFWOFdNS3dBelQyX1FiS2hQTDBLMnR6S00?oc=5",
    "source": "The Times of India",
@@ -743,36 +903,6 @@
    "image": "",
    "published": "2026-11-20T07:54:00+00:00",
    "ts": 1795161240.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Priyanka Mohan Birthday - பிரியங்கா மோகன் பிறந்தநாள்.. இளம் ஹீரோயினின் சொத்து மதிப்பு தெரியுமா?",
-   "url": "https://tamil.filmibeat.com/heroines/priyanka-mohan-net-worth-32nd-birthday-special-actress-salary-assets-and-luxury-cars-187261.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தமிழ் மொழியில் வளர்ந்துவரும் நடிகைகளில் ஒருவராக இருக்கிறார் பிரியங்கா மோகன். அடுத்ததாக மாரி செல்வராஜ் இயக்கத்தில் மஞ்சணத்தி படத்தில் நடித்துவருகிறார். இந்தப் படம் தனது கரியரில் பெரிய திருப்புமுனையை கொடுக்கும் என்ற நம்பிக்கையில் இருக்கிறார். இந்நிலையில் அவர் தனது 32வது…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/pam-62571795160361.jpg",
-   "published": "2026-11-20T07:39:59+00:00",
-   "ts": 1795160399.0,
-   "category": "buzz"
-  },
-  {
-   "title": "ஓம் ரிசல்ட் தெரிந்து தான் தியேட்டர்கள் வாங்க முன் வரவில்லையா?.. தொடர்ந்து சொதப்பும் தனுஷ் படங்கள்.. ஏன்?",
-   "url": "https://tamil.filmibeat.com/news/dhanush-om-movie-result-is-the-main-reason-to-some-popular-theaters-not-ready-to-buy-this-movie-187259.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தமிழ்நாட்டில் தனுஷ் நடிப்பில் வெளியாகும் படங்கள் தொடர்ந்து சொதப்பி வருவதற்கு மிக முக்கிய காரணமே தனுஷின் தலையீடு தான் என்கிற குற்றச்சாட்டுகள் எழுந்து வருகின்றன. ஓம் படத்தின் ரிசல்ட் தெரிந்து தான் ஏகப்பட்ட பிரபல தியேட்டர்கள் படத்தை வாங்கி ரிலீஸ் செய்ய முன் வரவில்லையா?…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/omresult-27131795158203.jpg",
-   "published": "2026-11-20T07:06:02+00:00",
-   "ts": 1795158362.0,
-   "category": "buzz"
-  },
-  {
-   "title": "‘சத்தியவான் சாவித்திரி‘ கடைசியில் அந்த ட்விஸ்ட்டை எதிர்பார்க்கவே இல்லை.. பப்ளிக் ரிவ்யூ!",
-   "url": "https://tamil.filmibeat.com/reviews/keerthy-suresh-sathyavaan-savithri-fdfs-public-reaction-187257.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: சத்தியவான் சாவித்திரி என்றதும் நம் நினைவுக்கு வருவது, எமதர்மனிடம் போராடி தனது கணவனின் உயிரை மீட்டு கொண்டு வந்த சாவித்திரியின் புராணக் கதையும், கணவன் மீதான அவரது அளவற்ற அன்புதான். அந்த கதையின் மையக்கருவை அடிப்படையாக கொண்டு, முற்றிலும் மாறுபட்ட நவீன கோணத்தில்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/sath12-46811795158258.jpg",
-   "published": "2026-11-20T07:04:52+00:00",
-   "ts": 1795158292.0,
    "category": "reviews"
   },
   {
@@ -796,38 +926,8 @@
    "category": "reviews"
   },
   {
-   "title": "OM Cheyyaru Balu Review - ஓம் செய்யாறு பாலு விமர்சனம்.. பாசிட்டிவ்வா? நெகட்டிவ்வா?",
-   "url": "https://tamil.filmibeat.com/reviews/om-cheyyaru-balu-review-dhanush-sai-pallavi-impress-but-20-minutes-could-have-been-cut-187255.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ராஜ்குமார் பெரியசாமி இயக்கத்தில் தனுஷ் நடித்திருக்கும் ஓம் திரைப்படம் இன்று வெளியாகியிருக்கிறது. ஆறு மணிக்கு வெளியான படத்தை பார்த்த ரசிகர்கள் தங்களது பாசிட்டிவ் விமர்சனத்தை அதிகம் கொடுத்திருக்கும் சூழலில்; பிரபல பத்திரிகையாளரும், திரை விமர்சகருமான செய்யாறு பாலு தனது…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/mol-67401795157222.jpg",
-   "published": "2026-11-20T06:47:41+00:00",
-   "ts": 1795157261.0,
-   "category": "reviews"
-  },
-  {
-   "title": "ஓம் விமர்சனம்.. பில்டப் பண்ண அளவுக்கு ஒர்த்தா?.. சாய் பல்லவி, தனுஷ், மம்மூட்டி நடிப்பு எப்படி?",
-   "url": "https://tamil.filmibeat.com/reviews/om-operation-mole-review-dhanush-sai-pallavi-holds-the-show-187253.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: அமரன் படத்திற்கு பிறகு இயக்குநர் ராஜ்குமார் பெரியசாமியை நம்பி சென்ற தனுஷுக்கு அவர் மிகப்பெரிய பிளாக்பஸ்டர் படத்தைக் கொடுப்பார் என காத்திருந்த தனுஷ் ரசிகர்களுக்கு பெரிய ஏமாற்றமாகவே இந்த ஓ.ம் (O.M - Operation Mole) உள்ளது. படத்தின் டிரைலர் வெளியான போதே மொத்த கதையையும்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/omreview-82111795155092.jpg",
-   "published": "2026-11-20T06:13:35+00:00",
-   "ts": 1795155215.0,
-   "category": "reviews"
-  },
-  {
-   "title": "Appa Kutty Public Review: படம் முடிஞ்சும் மனசு கனக்குது.. தியேட்டரில் ரசிகர்களை அழ வைத்த அப்பாகுட்டி",
-   "url": "https://tamil.filmibeat.com/television/vijay-antonys-appa-kutty-public-review-187251.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: எப்போதும் வித்தியாசமான கதைக்களங்களை தேர்ந்தெடுத்து அதில் தன்னை முழுமையாக அர்ப்பணித்து நடித்து வருபவர் நடிகர் விஜய் ஆண்டனி. அண்மையில் இவரது நடிப்பில் வெளியான 'நூறு சாமி' படம் அம்மா - மகனுக்கு இடையேயான உணர்வுபூர்வமான உறவை பேசிய நிலையில், தற்போது அப்பா - மகளுக்கு இடையேயான…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/appa1-49231795154835.jpg",
-   "published": "2026-11-20T06:07:38+00:00",
-   "ts": 1795154858.0,
-   "category": "reviews"
-  },
-  {
    "title": "Sathyavan Savithiri Movie Review: Keerthy Suresh, Mysskin's Legal Face-Off Makes For An Engaging Watch",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQURVdmVhY1RUUEgxb2Z6djBHRTU0ajFDX1Z1dGc4d3p5RngzMVR2RmZ0bWI0Yk5RRWk4akwxdWVQRG1IYmhISno1dTlYQUk5TGRTUkZ2UjVHQ191NFcxdFVUejVEVlVZLVVsdWVKbHg0R1RuZ3BHV0gyWlh5Q2QyUks2dnhrUU94T2pnUncwOHJ0LW9Ed3VMczBuRmtVUk41eGNKUi0xdnJ3TUJYRDhNTFN4ZG4yaGN2N19COFhrcG5Ybi10MElPaUFUdGJsM1U0ZG9lOHZScDhYXzVnWjdBYk0wRFhuX19wREp3WU5vY19oZHM3d1gwdFJPeVhFTHA2N0xUVzZyVXhaekHSAYsCQVVfeXFMUEFEVXZlYWNUVFBIMW9menYwR0U1NGoxQ19WdXRnOHd6eUZ4MzFUdkZmdG1iNGJOUUVpOGpMMXVlUERtSGJoSEp6NXU5WEFJOUxkU1JGdlI1R0NfdTRXMXRVVHo1RFZVWS1VbHVlSmx4NEdUbmdwR1dIMlpYeUNkMlJLNnZ4a1FPeE9qZ1J3MDhydC1vRHd1THMwbkZrVVJONXhjSlItMXZyd01CWEQ4TUxTeGRuMmhjdjdfQjhYa3BuWG4tdDBJT2lBVHRibDNVNGRvZTh2UnA4WF81Z1o3QWJNMERYbl9fcERKd1lOb2NfaGRzN3dYMHRST3lYRUxwNjdMVFc2clV4WnpB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMXZ2MTV4bXQwSnRlSzF1ZW8yYU15T09nM1VhTERpNTVpWU4tbUdJZDJQcWNyQTBDMVF2OXRkUzFJZFhtdmowZ09ybVFYRF92amN0WEZSdGJSZEkwRFg3V3hvb003WXMyeHZySFh5d091WlJfbERzaGZVbWVhbC10OUdISWYtcEhlb1pud3ZfY2w2WUJ0X053VnBIYndpTE5aWU5tem9hdGlKLXNOM2xDVndHSFJjMjRxVTZZd1F3SEJhNm5FN3lMTHVWNy1pRUZNMWRUVkdITmh5M1VOZGtDWDdMaDY4MWoyZnE3bFBzWGp1MkpaQldqYTZqcFdWNmZRcDhJdlFR0gGLAkFVX3lxTFBBRFV2ZWFjVFRQSDFvZnp2MEdFNTRqMUNfVnV0Zzh3enlGeDMxVHZGZnRtYjRiTlFFaThqTDF1ZVBEbUhiaEhKejV1OVhBSTlMZFNSRnZSNUdDX3U0VzF0VVR6NURWVVktVWx1ZUpseDRHVG5ncEdXSDJaWHlDZDJSSzZ2eGtRT3hPamdSdzA4cnQtb0R3dUxzMG5Ga1VSTjV4Y0pSLTF2cndNQlhEOE1MU3hkbjJoY3Y3X0I4WGtwblhuLXQwSU9pQVR0YmwzVTRkb2U4dlJwOFhfNWdaN0FiTTBEWG5fX3BESndZTm9jX2hkczd3WDB0Uk95WEVMcDY3TFRXNnJVeFp6QQ?oc=5",
    "source": "Times Now",
    "summary": "",
    "image": "",
@@ -836,24 +936,14 @@
    "category": "reviews"
   },
   {
-   "title": "சத்தமே இல்லாமல் திருமணத்தை முடித்த குக் வித் கோமாளி அஸ்வின் குமார்.. காரணம் என்ன?",
-   "url": "https://tamil.filmibeat.com/news/cooku-with-comali-fame-ashwin-kumar-wedding-photos-187249.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: விஜய் டிவியில் 'குக் வித் கோமாளி' மூலம் பட்டிதொட்டி எங்கும் பிரபலமாகி, டீன் ஏஜ் பெண்களின் கனவு கண்ணாக இருந்த நடிகர் அஸ்வின் குமார். ரகசியமாக திருமணம் செய்து கொண்டார் அவரின் திருமண போட்டோ இணையத்தில் வெளியாகி பலரும் அவருக்கு வாழ்த்துக்களை கூறி வருகின்றன்ர. சினிமாவில் சின்ன…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/ashw-75941795153409.jpg",
-   "published": "2026-11-20T05:43:53+00:00",
-   "ts": 1795153433.0,
-   "category": "buzz"
-  },
-  {
-   "title": "OM Public Review - ஓம் பப்ளிக் விமர்சனம்.. தனுஷ் படத்தை மக்கள் கொண்டாடுகிறார்களா?",
-   "url": "https://tamil.filmibeat.com/reviews/om-public-review-dhanush-gets-a-power-packed-comeback-sai-pallavi-wins-hearts-187247.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ராஜ்குமார் பெரியசாமி இயக்கத்தில் தனுஷ் நடித்திருக்கும் ஓம் இன்று காலை ஆறு மணிக்கு ரிலீஸானது. படம் பார்த்த ரசிகர்கள் தங்களது பாசிட்டிவ் விமர்சனத்தை கொடுத்துவருகிறார்கள். தனுஷுக்கு நீண்ட வருடங்கள் கழித்து ஒரு வெற்றியும் கிடைக்கும் சூழலும் உருவாகியுள்ளது. இந்நிலையில் ஓம்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/pub-46891795152800.jpg",
-   "published": "2026-11-20T05:34:22+00:00",
-   "ts": 1795152862.0,
-   "category": "reviews"
+   "title": "Anirudh thanks well wishers post wedding with Kaviya Maran: 'Our hearts are full'",
+   "url": "https://www.cinemaexpress.com/tamil/news/2026/Nov/20/anirudh-thanks-well-wishers-post-wedding-with-kaviya-maran-our-hearts-are-full",
+   "source": "Cinema Express",
+   "summary": "It has been more than a week since the wedding of composer Anirudh and Sunrisers Hyderabad CEO and Sun Pictures owner Kalanithi Maran's daughter Kaviya Maran. After their recent destination wedding in Greece, the couple reached back in Chennai on November 14, Saturday. On…",
+   "image": "https://cf-images.assettype.com/cinemaexpress/2026-11-20/pbwgooig/Anirudh.jpg",
+   "published": "2026-11-20T05:52:09+00:00",
+   "ts": 1795153929.0,
+   "category": "music"
   },
   {
    "title": "OM movie OTT release and platform details: When and where to watch Dhanush, Mammootty's Tamil spy-action t",
@@ -874,56 +964,6 @@
    "published": "2026-11-20T05:14:35+00:00",
    "ts": 1795151675.0,
    "category": "box-office"
-  },
-  {
-   "title": "தியேட்டரில் யாரும் கண்டுகல.. ஓடிடியில் ட்ரெண்டாகும் சாயாவனம்..படத்தில் அப்படி என்ன இருக்கிறது?",
-   "url": "https://tamil.filmibeat.com/ott/soundara-rajas-saayavanam-movie-review-187245.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: சமூக வலைதளங்களில் இப்போது எங்கு திரும்பினாலும் அதிகமாக பேசப்படும் ஒரே திரைப்படம் சாயாவனம். தமிழ் மற்றும் தெலுங்கு என இரு மொழிகளில் உருவாகியிருக்கும் இந்த படம், கடந்த டிசம்பர் மாதம் திரையரங்குகளில் வெளியானபோது பெரிதாக கவனிக்கப்படவில்லை. ஆனால், கடந்த நவம்பர் 11-ஆம் தேதி…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/saya1-74941795150486.jpg",
-   "published": "2026-11-20T04:55:55+00:00",
-   "ts": 1795150555.0,
-   "category": "ott"
-  },
-  {
-   "title": "OM First Half: முதல் பாதி ஆவரேஜ்.. 2ம் பாதியில் விஸ்வரூபம் எடுப்பாரா தனுஷ்? ஓம் முதல் பாதி விமர்சனம்",
-   "url": "https://tamil.filmibeat.com/reviews/dhanushs-om-first-half-review-187243.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தமிழ் சினிமாவின் நடிப்பு அசுரன் தனுஷ் நடிப்பில், ராஜ்குமார் பெரியசாமி இயக்கத்தில் மிகுந்த எதிர்பார்ப்புகளுக்கு மத்தியில் இன்று திரையரங்குகளில் வெளியாகியிருக்கும் படம் தான் ஓம். மம்முட்டி, சாய் பல்லவி,ஸ்ரீலீலா உள்ளிட்ட நடித்துள்ள இப்படத்திற்கு சாய் அபயங்கர்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/om29-97941795146555.jpg",
-   "published": "2026-11-20T03:50:24+00:00",
-   "ts": 1795146624.0,
-   "category": "reviews"
-  },
-  {
-   "title": "ஓம் எப்படிப்பட்ட படமாக இருக்கும்?.. மனம் திறந்த ராஜ்குமார் பெரியசாமி.. படம் பார்க்கும் முன் இதை படிங்க!",
-   "url": "https://tamil.filmibeat.com/news/om-rajkumar-periasamy-opens-up-about-dhanushs-film-says-it-carries-an-important-message-187241.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: ராஜ்குமார் பெரியசாமி இயக்கத்தில் தனுஷ், மம்மூட்டி, சாய் பல்லவி, ஸ்ரீலீலா உள்ளிட்டோர் நடித்திருக்கும் ஓம் திரைப்படம் இன்று வெளியாகியிருக்கிறது. ஆறு மணி காட்சியை பார்த்த ரசிகர்கள் பாசிட்டிவ் விமர்சனத்தையே கொடுத்துவருகிறார்கள். இந்நிலையில் இயக்குநர் ராஜ்குமார் பெரியசாமி…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/saipalavi-56791795145917.jpg",
-   "published": "2026-11-20T03:39:18+00:00",
-   "ts": 1795145958.0,
-   "category": "buzz"
-  },
-  {
-   "title": "OM X Review - ஓம் எக்ஸ் விமர்சனம்.. தனுஷுக்கு வெற்றி கிடைத்ததா? இல்லையா?.. கம்பேக் கொடுத்தாரா?",
-   "url": "https://tamil.filmibeat.com/reviews/om-x-review-dhanushs-spy-thriller-gets-terrific-first-half-response-mammootty-wins-praise-187239.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தனுஷ் ஹீரோவாக நடித்திருக்கும் ஓம் படத்தை ராஜ்குமார் பெரியசாமி இயக்கியிருக்கிறார். இதில் அவருடன் மம்மூட்டி, சாய் பல்லவி, ஸ்ரீலீலா உள்ளிட்டோரும் நடித்திருக்கிறார்கள். சாய் அபயங்கர் இசையமைத்திருக்கிறார். படமானது இன்று ரிலீஸாகியிருக்கும் சூழலில்; ரசிகர்கள் தங்களது எக்ஸ்…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/dhnnasuh-15271795142701.jpg",
-   "published": "2026-11-20T02:47:07+00:00",
-   "ts": 1795142827.0,
-   "category": "reviews"
-  },
-  {
-   "title": "இன்று ஓம் ரிலீஸ்.. தனுஷுக்கு கிடைத்திருக்கும் சூப்பர் விருது.. மகன்களோடு சென்று கலக்கிருக்காரு",
-   "url": "https://tamil.filmibeat.com/news/dhanush-wins-indian-of-the-year-2026-says-becoming-an-actor-was-an-accident-187237.html",
-   "source": "Filmibeat Tamil",
-   "summary": "சென்னை: தனுஷ் - ராஜ்குமார் பெரியசாமி கூட்டணியில் உருவாகியிருக்கும் ஓம் திரைப்படம் இன்று வெளியாகியிருக்கிறது. இதில் மம்மூட்டி, சாய் பல்லவி உள்ளிட்டோரும் நடித்திருக்கிறார்கள். இந்நிலையில் அவருக்கு தனியார் ஊடகம் சார்பில் 2026ஆம் ஆண்டுக்கான இந்தியன் ஆஃப் தி இயர் என்ற விருது…",
-   "image": "https://images.filmibeat.com/ta/img/2026/11/award-46381795140161.jpg",
-   "published": "2026-11-20T02:03:21+00:00",
-   "ts": 1795140201.0,
-   "category": "buzz"
   },
   {
    "title": "Vijay Antony's wife reveals he has not worn shoes since 16-year-old daughter's death 3 years ago, still uses her old watch",
@@ -986,16 +1026,6 @@
    "category": "buzz"
   },
   {
-   "title": "Suriya gifts Scene co-star Naslen Cartier watch worth ₹9 lakh as film crosses ₹250 crore at the box office",
-   "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/suriya-gifts-cartier-watch-to-scene-co-star-naslen-as-film-crosses-250-crore-at-the-box-office-jithu-madhavan-101795064562932.html",
-   "source": "Hindustan Times",
-   "summary": "Jithu Madhavan’s Scene, starring Suriya and Naslen, has collected ₹145 crore net in India and ₹256 crore gross worldwide in 13 days.",
-   "image": "https://www.hindustantimes.com/ht-img/img/2026/11/19/1600x900/logo/Duriya_secee_1795065354958_gLxC_1795065360178_s351_b79ee4ad-141f-4576-9077-fc646f42167a_0IdH.png",
-   "published": "2026-11-19T06:32:30+00:00",
-   "ts": 1795069950.0,
-   "category": "box-office"
-  },
-  {
    "title": "Tamil cinema's Rs 1,000-crore dream: Why even Rajinikanth's Jailer 2 fell short",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZWhwLXNKdnVpeDlpb3pEa3NwdmZIYUQxM3lTenRxQlEwVFh6THZhUkZVNkhyZzVld0ZPSU5OVE10eE1kRnJNM3hVeEFsQ21fcnowNEU2czFuY3pDSWhpUDdIaUJqUWZBV2ZkUng1NElJOVBFNThJR09kakNwRlRFLThJcG1XWDBRTWFOaTN4WjIxS3dhOWNyM0Z2azhjclY1UjdBRDNHMnpoVVAwZTdyQTE2MXhrOGZFX2pmY0c4VFg4c2daanl5WnNldlp1X25wUU5WRzRqOHpnQUpxc1RxV0xhMVpGc0lR0gHoAUFVX3lxTFBlaHAtc0p2dWl4OWlvekRrc3B2ZkhhRDEzeVN6dHFCUTBUWHpMdmFSRlU2SHJnNWV3Rk9JTk5UTXR4TWRGck0zeFV4QWxDbV9yejA0RTZzMW5jekNJaGlQN0hpQmpRZkFXZmRSeDU0SUk5UEU1OElHT2RqQ3BGVEUtOElwbVdYMFFNYU5pM3haMjFLd2E5Y3IzRnZrOGNyVjVSN0FEM0cyemhVUDBlN3JBMTYxeGs4ZkVfamZjRzhUWDhzZ1pqeXlac2V2WnVfbnBRTlZHNGo4emdBSnFzVHFXTGExWkZzSVE?oc=5",
    "source": "India Today",
@@ -1056,6 +1086,16 @@
    "category": "ott"
   },
   {
+   "title": "Gopichand's team denies reports of him playing villain in Tamil film - Telugu Cinema | News,",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVU5VdXh4M3gyeElEWlRIa2ZIU25OQ3VYSG1GMXRpLVRURVRnNWdPUEhPVTdhWU44ekM5d0pVMlQ2YXBJRS1PbGZtLXVoMXBWQmg0VEpkN2I0QzZZS3NTbkI0RjJUMW11OWxYMk5pTU1Td2N2cXU3WWxoSnlwT3NYdlR0REpkak1vZTlYS3VaRjRjbVVKdjJHcUdXZ3JGRzJKblZz0gGjAUFVX3lxTE9VTlV1eHgzeDJ4SURaVEhrZkhTbk5DdVhIbUYxdGktVFRFVGc1Z09QSE9VN2FZTjh6Qzl3SlUyVDZhcElFLU9sZm0tdWgxcFZCaDRUSmQ3YjRDNllLc1NuQjRGMlQxbXU5bFgyTmlNTVN3Y3ZxdTdZbGhKeXBPc1h2VHRESmRqTW9lOVhLdVpGNGNtVUp2MkdxR1dnckZHMkpuVnM?oc=5",
+   "source": "Telugu Cinema",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-18T14:00:29+00:00",
+   "ts": 1795010429.0,
+   "category": "buzz"
+  },
+  {
    "title": "Scene Worldwide Box Office Day 12: Becomes 4th Kollywood Film In 2026 To Cross 250 Crore",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWk41Z0xibm9QMUhQQkxSTng5RHByOUp4UG9sZDJnelJobl9uMVB0QmhOaXRWTllmcHcxRXVvUFRqQ1hBYzVZeE80T3VVUFNKLXVCXzRwUHFuS2ZaTl9SZVAyeWM4VlhJem91WUdwVlFyamZUNm91cFZEcmlzVE1VU2t1SGN1TkVTcEQtbkhrMDM0cmN1c2laU1FKUU83UXRXeHNyWGUzWG84dG9NeGlLbUtYWUhmQTlEaThMMUNuUQ?oc=5",
    "source": "Koimoi",
@@ -1086,16 +1126,6 @@
    "category": "buzz"
   },
   {
-   "title": "From Bharati to the Grammys: Inside Devan’s ‘Varuvaaiy’, the first Tamil song to earn a Grammy nomination",
-   "url": "https://www.thehindu.com/entertainment/music/from-bharati-to-the-grammys-inside-devans-varuvaaiy-the-first-tamil-song-to-earn-a-grammy-nomination/article71711002.ece",
-   "source": "The Hindu",
-   "summary": "How Chennai musicians Devan Ekambaram, Susha and Anil Srinivasan took a Subramania Bharati composition to the Grammys",
-   "image": "https://th-i.thgim.com/public/incoming/e1e1ts/article71711736.ece/alternates/LANDSCAPE_1200/my-collage.jpg",
-   "published": "2026-11-18T09:00:40+00:00",
-   "ts": 1794992440.0,
-   "category": "music"
-  },
-  {
    "title": "15 years of Anirudh Ravichander, the composer Tamil cinema keeps coming back to",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdU1mNXhVcU56ZFM2NjExQlFCM1B6NGhTNzAtQ0lHanBiOUxvMjlVVGJfUU5IZVlsRVYtWmc4T010Vm90b29iM3ljcHI5dC0tSkdxR0hETG1XR2lxMURDdThDWDVXbjBhTmFDbFYtTnR4LVE0d0J1b1g0TjZjUVczWXRZSk1MclZFdThhWTdBRnhBbUV2ay12amU4QXlPeEpCZkZOMzhtMFJJNW1lMTNCb05QdEM2ZUNGY0VTV0lNV2pDdUtFaVdsNHlHZGNjYzJEeGNz0gHYAUFVX3lxTFBFeUVQd3dTZkRmUENoTUthN1hjSFoxcmNLT01rZWliUTZvVWxZRVBDdkdFUEd1bUUtVGxMbHJxa0dGMjBxbmRpTU5nQ0NtTXh3aTVTRVNKMUJ6RERwOGNjVUotUllJdGEyRFhrWEVDUmNvRTNIY3dqQzFMLWw3RUJSbFQwVmNWbWlaTEtJeG1lakZ5T2xveTYxaHBlNjRISnRHRDI0MzdGY1h4amdDeDQyY3JVY2JSNVZMajYxZlFKazRfbGlNNXp4VkR6NG1CR1pVQ0duR21OdA?oc=5",
    "source": "India Today",
@@ -1114,6 +1144,26 @@
    "published": "2026-11-18T06:14:04+00:00",
    "ts": 1794982444.0,
    "category": "box-office"
+  },
+  {
+   "title": "Scene: Suriya reveals Jyotika's surprise cameo",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbVA1VGtob09maFUzZUV0Q0hsYXhsbVQzYmRuSjlZaDBGVXpwMUl4UG5ZZEhBZTRfOXBEQXhVaVRNN3V3RHVQSktGOER6NkhXeEF6aUdIekNDYWdPY2ZMZHVUWG1ORS1NSWJPSHpOaGVEcFZCb1h1cTY2UC1QZGN4LWxHeUJsZG15?oc=5",
+   "source": "Movie Crow",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-18T06:11:53+00:00",
+   "ts": 1794982313.0,
+   "category": "buzz"
+  },
+  {
+   "title": "OM USA Tamil Theater List",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56akQ5RlJfRlBaenBoVW1GQnZLR0pmYlAyTkkxNTdSUTBEQVNSbXhHeHRYX3o0MlE2ZFhXeDJvTnBjMkJuMnNNT3AyUTdZQW4yb0tUYmpuVDIyNGRkcFJBRS1nU1JrNnRtYWlhbGxFWQ?oc=5",
+   "source": "Movie Crow",
+   "summary": "",
+   "image": "",
+   "published": "2026-11-18T06:07:30+00:00",
+   "ts": 1794982050.0,
+   "category": "buzz"
   },
   {
    "title": "Scene Crosses ₹250 Crore Worldwide as Suriya's Three Films Gross Over ₹770 Crore in 2026",
@@ -1166,16 +1216,6 @@
    "category": "trailers"
   },
   {
-   "title": "Anirudh Ravichander completes 15 years in music",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVXJGSU1aQWdlOThWaVdPbXpZM214RVJuOU9oUnFTU3ZaSkhWQ2U0aXBtU005d20xdjV1V1FoSWdHUnBwYUJMMWFVZkNSdVJWV2pyeVNTRzlVRUk4Mm1KdlJ4UDUwbnM5YlVMSjlZeU1UbEY5OG51QnlpdmhWVTZfUWhxU2dwR0phd0s3aQ?oc=5",
-   "source": "Movie Crow",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-16T11:14:34+00:00",
-   "ts": 1794827674.0,
-   "category": "music"
-  },
-  {
    "title": "‘Ramayana: Part 1’: Decoding the film’s massive budget and box-office performance",
    "url": "https://www.thehindu.com/entertainment/movies/ramayana-box-office-ramayana-part-1-yash-ranbir-kapoor-ramayana-sita-ramayana-budget-namit-malhotra/article71707320.ece",
    "source": "The Hindu",
@@ -1214,16 +1254,6 @@
    "published": "2026-11-14T03:56:53+00:00",
    "ts": 1794628613.0,
    "category": "trailers"
-  },
-  {
-   "title": "Arasan Story",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yTUFHY2FoQW5mT2RzaU9GVVhFWnJqbXpRZ2hCTEx2Zng4aDdnM1JYMWE0bUN0eEJkR2pxV3oydmdQMmE1UDBMWmhkYTBTMW5raHNKNFg5VGlaSktmOUNZ?oc=5",
-   "source": "Filmibeat",
-   "summary": "",
-   "image": "",
-   "published": "2026-11-08T08:00:00+00:00",
-   "ts": 1794124800.0,
-   "category": "buzz"
   }
  ]
 }
